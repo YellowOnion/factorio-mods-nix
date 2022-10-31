@@ -67,7 +67,7 @@ print("{ lib, fetchurl \n"                                                      
       "}: \n"                                                                   +
       "with lib; \n"                                                            +
       "let \n"                                                                  +
-      "  fetchurl2 = args: lib.overrideDerivation (fetchurl (args // { curlOpts = [  \n"              +
+      "  fetchurl2 = args: lib.overrideDerivation (fetchurl (args // { curlOptsList = [  \n"              +
       "    \"--get\" \n"                                                          +
       "    \"--data-urlencode\" \"username@username\" \n"                           +
       "    \"--data-urlencode\" \"token@token\"  \n"                             +

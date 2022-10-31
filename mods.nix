@@ -6,7 +6,7 @@
 }: 
 with lib; 
 let 
-  fetchurl2 = args: lib.overrideDerivation (fetchurl (args // { curlOpts = [  
+  fetchurl2 = args: lib.overrideDerivation (fetchurl (args // { curlOptsList = [  
     "--get" 
     "--data-urlencode" "username@username" 
     "--data-urlencode" "token@token"  
