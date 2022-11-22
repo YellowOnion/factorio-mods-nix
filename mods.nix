@@ -227,9 +227,9 @@ let
   TreePlant = modDrv {
     name = "T-Re(e)plant"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/TreePlant/6340dfc55ed639f8b085555a";  
-      name = "TreePlant_1.128.1.zip"; 
-      sha1 = "478872c62908c5082f9443bee5d02fbd29298830"; 
+      url = "https://mods.factorio.com/download/TreePlant/63742416dbb034e0a739ca7d";  
+      name = "TreePlant_1.152.1.zip"; 
+      sha1 = "aff5abeb1f9ac3ba1e83886c38ce6f2228881523"; 
     };
     deps = [ DragonIndustries ];
     optionalDeps = [  ];
@@ -743,9 +743,9 @@ let
   reverse-factory = modDrv {
     name = "Reverse Factory"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/reverse-factory/6340ae28a2613fa457ab4418";  
-      name = "reverse-factory_8.1.13.zip"; 
-      sha1 = "7814117937eedd434ada4042589617dd8eb106cb"; 
+      url = "https://mods.factorio.com/download/reverse-factory/6372e7ef4bc1ec6ffa164726";  
+      name = "reverse-factory_8.1.14.zip"; 
+      sha1 = "18e428cea7d320607646507f11b5ee949f811bdf"; 
     };
     deps = [ stdlib ];
     optionalDeps = [ BobExtended angelspetrochem aai-industry mini-machines omnimatter_wood Bio_Industries kry-inserters GDIW bobassembly bobelectronics Fantario pycoalprocessing pyfusionenergy pyhightech pyindustry pypetroleumhandling IndustrialRevolution ];
@@ -875,9 +875,9 @@ let
   secondary-chat = modDrv {
     name = "Chat with advanced interactions"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/secondary-chat/6299cf9ccee4e6cc409e9390";  
-      name = "secondary-chat_1.28.0.zip"; 
-      sha1 = "b366832c6f697e53877c1eefbf5572f9c81864de"; 
+      url = "https://mods.factorio.com/download/secondary-chat/636549da358f36ed84c672c0";  
+      name = "secondary-chat_1.28.3.zip"; 
+      sha1 = "146dbbf29a2afbf86b5a8ce86522b2b7fa190258"; 
     };
     deps = [ zk-lib ];
     optionalDeps = [ color-picker ];
@@ -923,9 +923,9 @@ let
   BiterBias = modDrv {
     name = "BiterBias"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/BiterBias/6340dfcf963a12aca3043a55";  
-      name = "BiterBias_1.128.1.zip"; 
-      sha1 = "dad00e95f1215b183feb04adc62d21af73ec7576"; 
+      url = "https://mods.factorio.com/download/BiterBias/637424148ce5df78aae68efe";  
+      name = "BiterBias_1.152.1.zip"; 
+      sha1 = "d6e0bc980cb4e5ceaa41edfc752d9851b73b8dd4"; 
     };
     deps = [ DragonIndustries ];
     optionalDeps = [  ];
@@ -1199,9 +1199,9 @@ let
   NauvisDay = modDrv {
     name = "Nauvis Day"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/NauvisDay/6340e003a2613fa457ab441a";  
-      name = "NauvisDay_1.128.1.zip"; 
-      sha1 = "304a5dac67bcf94fd63ab210ea154799878e537e"; 
+      url = "https://mods.factorio.com/download/NauvisDay/637424bf4e3853a23be9aa95";  
+      name = "NauvisDay_1.152.1.zip"; 
+      sha1 = "a098f4e3eceeceb122cc065c080882435e25ef01"; 
     };
     deps = [ DragonIndustries ];
     optionalDeps = [ bobplates bobassembly ];
@@ -1271,9 +1271,9 @@ let
   InfiTech = modDrv {
     name = "InfiTech"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/InfiTech/6340dfc2fe521eec00934812";  
-      name = "InfiTech_1.128.1.zip"; 
-      sha1 = "81ae3c7d0e476eeac552ef07790579664cdbf55a"; 
+      url = "https://mods.factorio.com/download/InfiTech/637424164e3853a23be9aa93";  
+      name = "InfiTech_1.152.1.zip"; 
+      sha1 = "4f044f9aa3eb09c3632c943250af59d1d9e4ef7e"; 
     };
     deps = [ DragonIndustries ];
     optionalDeps = [  ];
@@ -1583,9 +1583,9 @@ let
   LogisticTrainNetwork = modDrv {
     name = "LTN - Logistic Train Network"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/LogisticTrainNetwork/6343ae70cb3bcbeecfb4f00c";  
-      name = "LogisticTrainNetwork_1.17.1.zip"; 
-      sha1 = "e212b6a9792bf72fac8bd05f5103d64c3de1f746"; 
+      url = "https://mods.factorio.com/download/LogisticTrainNetwork/63669ee3d639eec3ffdaa783";  
+      name = "LogisticTrainNetwork_1.18.0.zip"; 
+      sha1 = "1c4d99958ee7c3c2f854bceac03432d7d38a6eeb"; 
     };
     deps = [ flib ];
     optionalDeps = [  ];
@@ -1955,9 +1955,9 @@ let
   FastFurnaces = modDrv {
     name = "Fast Furnaces"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/FastFurnaces/6340dfe5a2613fa457ab4419";  
-      name = "FastFurnaces_1.128.1.zip"; 
-      sha1 = "c9239007a8a968d077276e4fabb3bb8651bc0b34"; 
+      url = "https://mods.factorio.com/download/FastFurnaces/637424e5c509271619c5929c";  
+      name = "FastFurnaces_1.152.1.zip"; 
+      sha1 = "52c4114273625ed345b548b55b91defd5d0eaa2e"; 
     };
     deps = [ DragonIndustries ];
     optionalDeps = [ bobpower bobmining ];
@@ -2039,9 +2039,9 @@ let
   OldWormSound = modDrv {
     name = "OldWormSound"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/OldWormSound/6340dfd1fe521eec00934815";  
-      name = "OldWormSound_1.128.1.zip"; 
-      sha1 = "fbe8ec8693d8dd0dd1cbc6ca7dc4086b6c231f93"; 
+      url = "https://mods.factorio.com/download/OldWormSound/637424191ac614cb2f9ef906";  
+      name = "OldWormSound_1.152.1.zip"; 
+      sha1 = "9ba79b890f7a98f91ebf6da55bdbf23951eb0615"; 
     };
     deps = [ DragonIndustries ];
     optionalDeps = [  ];
@@ -2351,9 +2351,9 @@ let
   Oreverhaul = modDrv {
     name = "Oreverhaul"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Oreverhaul/6340dfcafe521eec00934813";  
-      name = "Oreverhaul_1.128.1.zip"; 
-      sha1 = "c1eca8e3271d03f4a1abeb5a032dca5e42291ab1"; 
+      url = "https://mods.factorio.com/download/Oreverhaul/637424140cb15df29763dc64";  
+      name = "Oreverhaul_1.152.1.zip"; 
+      sha1 = "40974beaa0229b35b77ea3f5dc893ecd476c3561"; 
     };
     deps = [ DragonIndustries ];
     optionalDeps = [  ];
@@ -2687,9 +2687,9 @@ let
   Geothermal = modDrv {
     name = "Geothermal"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Geothermal/6340dfd917a5c8f6a70c7915";  
-      name = "Geothermal_1.128.1.zip"; 
-      sha1 = "1978bd594a2458c9ea538a826f54d912b192b792"; 
+      url = "https://mods.factorio.com/download/Geothermal/63742446dbb034e0a739ca7f";  
+      name = "Geothermal_1.152.1.zip"; 
+      sha1 = "91023e4feb5915d64aefaa25138e290809d24857"; 
     };
     deps = [ DragonIndustries ];
     optionalDeps = [ alien-biomes ];
@@ -3155,9 +3155,9 @@ let
   FTweaks = modDrv {
     name = "FTweaks"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/FTweaks/6340dfd14726c8476aebe612";  
-      name = "FTweaks_1.128.1.zip"; 
-      sha1 = "e4d8712f0548d05eae40f0f99b4b95da24a890a4"; 
+      url = "https://mods.factorio.com/download/FTweaks/6374241c6c4fbbab8d0819f1";  
+      name = "FTweaks_1.152.1.zip"; 
+      sha1 = "ec25f3952e79b8d8d08a6de9a0869a12afd39b3b"; 
     };
     deps = [ DragonIndustries ];
     optionalDeps = [ RubberBelts bobpower bobrevamp bobplates bobassembly ];
@@ -3167,9 +3167,9 @@ let
   upgrade-machines = modDrv {
     name = "Upgrade Machines"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/upgrade-machines/5ffde238929698466c97ff7b";  
-      name = "upgrade-machines_1.1.0.zip"; 
-      sha1 = "bccb4a3763d2c66a0f5248037d645bd84b388cf9"; 
+      url = "https://mods.factorio.com/download/upgrade-machines/63600dce02a77797c61441ce";  
+      name = "upgrade-machines_1.1.1.zip"; 
+      sha1 = "bf64df4b511bc5ca5d0943a19f96241ec87c46af"; 
     };
     deps = [  ];
     optionalDeps = [ bobelectronics bobplates ];
@@ -3431,9 +3431,9 @@ let
   PersonalTeleporter = modDrv {
     name = "PersonalTeleporter"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/PersonalTeleporter/6179f09ba514c3f7ffb93abc";  
-      name = "PersonalTeleporter_0.4.3.zip"; 
-      sha1 = "73638ecbb567845827bb28c98765195b6c57484e"; 
+      url = "https://mods.factorio.com/download/PersonalTeleporter/635fc86f5d6cb2b6bb9b718c";  
+      name = "PersonalTeleporter_0.4.4.zip"; 
+      sha1 = "f9b7d8aecca8be8c64bc4bbeb46d51bc5950e8a5"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -3587,9 +3587,9 @@ let
   EndgameCombat = modDrv {
     name = "Endgame Combat"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/EndgameCombat/6340dfce17a5c8f6a70c7914";  
-      name = "EndgameCombat_1.128.1.zip"; 
-      sha1 = "6d1e1b02b99fa5689e4085f593258282eb699534"; 
+      url = "https://mods.factorio.com/download/EndgameCombat/637425276c4fbbab8d0819f2";  
+      name = "EndgameCombat_1.152.1.zip"; 
+      sha1 = "6ecf135f506a4eeccbc3e1378e26e8b651c1bd76"; 
     };
     deps = [ DragonIndustries ];
     optionalDeps = [ FactorioExtended-Plus-Equipment ];
@@ -3935,9 +3935,9 @@ let
   DirtyMining = modDrv {
     name = "DirtyMining"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/DirtyMining/6340dfc068fb8d0a118e2497";  
-      name = "DirtyMining_1.128.1.zip"; 
-      sha1 = "f383825cc18fc30f1521cbc17ce4ddb8426409b1"; 
+      url = "https://mods.factorio.com/download/DirtyMining/6374241ac509271619c5929b";  
+      name = "DirtyMining_1.152.1.zip"; 
+      sha1 = "ff555524fd6edd781c2f491d07a16b2ae9d147cc"; 
     };
     deps = [ DragonIndustries ];
     optionalDeps = [  ];
@@ -4139,9 +4139,9 @@ let
   alien-biomes = modDrv {
     name = "Alien Biomes"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/alien-biomes/620eee4b9d48220f8ec267f6";  
-      name = "alien-biomes_0.6.7.zip"; 
-      sha1 = "2382ac7bdfa41ba549dad3e61bdbf9ea3cb73352"; 
+      url = "https://mods.factorio.com/download/alien-biomes/63631ebd67c9c38c946248fe";  
+      name = "alien-biomes_0.6.8.zip"; 
+      sha1 = "fb361e299c45491142e07fbf17af8f0e7aa6d82e"; 
     };
     deps = [  ];
     optionalDeps = [ alien-biomes-hr-terrain ];
@@ -4451,9 +4451,9 @@ let
   RubberBelts = modDrv {
     name = "Rubber Belts"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/RubberBelts/6340dfd1fe521eec00934814";  
-      name = "RubberBelts_1.128.1.zip"; 
-      sha1 = "1a0652897a122dce5c5fa18668fc49741729388a"; 
+      url = "https://mods.factorio.com/download/RubberBelts/637424211abd7a5d437ba200";  
+      name = "RubberBelts_1.152.1.zip"; 
+      sha1 = "dbcea10914e26dd3ce26e21004b15bcb46b25515"; 
     };
     deps = [ DragonIndustries ];
     optionalDeps = [  ];
@@ -5735,9 +5735,9 @@ let
   hardcorio = modDrv {
     name = "Hardcorio:SC2"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/hardcorio/62b49866b3a73163a2205f07";  
-      name = "hardcorio_2.3.41.zip"; 
-      sha1 = "fe84bbef5a3e015fdec1a6f32c397a1fa37f1a53"; 
+      url = "https://mods.factorio.com/download/hardcorio/636bf5ae3a8be56d537979a1";  
+      name = "hardcorio_2.3.42.zip"; 
+      sha1 = "0f0dd003f20914bc3dace36ac1b0da052f19eb97"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -6275,9 +6275,9 @@ let
   cursix-tech = modDrv {
     name = "Cursix Tech"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/cursix-tech/6223331748e25d59aa595551";  
-      name = "cursix-tech_1.0.15.zip"; 
-      sha1 = "6250bb082ba89f58b14bccaf957bb229dcc906e1"; 
+      url = "https://mods.factorio.com/download/cursix-tech/6365cb9c3f60c86a1089b92b";  
+      name = "cursix-tech_1.0.16.zip"; 
+      sha1 = "2451c920be6419f3061f4b51ff53d7342a40e3e1"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -7475,9 +7475,9 @@ let
   kry-inserters = modDrv {
     name = "More Long Inserters"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/kry-inserters/6317fed8172334145a658656";  
-      name = "kry-inserters_4.1.6.zip"; 
-      sha1 = "5440d1ab9a2c124530a09d6b631468f41b29147e"; 
+      url = "https://mods.factorio.com/download/kry-inserters/637a97f5f0d79c6af5c6ff95";  
+      name = "kry-inserters_4.1.7.zip"; 
+      sha1 = "384d177b813988c4fe8fe9a94d756f4b1b6cb58a"; 
     };
     deps = [ stdlib ];
     optionalDeps = [ boblogistics ShinyIcons IndustrialRevolution FactorioExtended-Plus-Transport Krastorio2 RandomFactorioThings ];
@@ -7619,9 +7619,9 @@ let
   minime = modDrv {
     name = "miniMAXIme: Character scaler and selector"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/minime/6357a35d4f51dd23e8135848";  
-      name = "minime_1.1.18.zip"; 
-      sha1 = "5e33f6d32cc954b3cf35d840f15cb2432a873f9d"; 
+      url = "https://mods.factorio.com/download/minime/636a95c6c5d6e1f0ec53c4d7";  
+      name = "minime_1.1.19.zip"; 
+      sha1 = "eb51d3b2704c7c5655b42fe341fa58863766cfa5"; 
     };
     deps = [  ];
     optionalDeps = [ AmongUsCharacter GirlCharacter IRobot dnf-snow genshin-impact-skin miku-bikini-swimsuit minecraft pikachu shrek2 tianyi wickerbeast ];
@@ -7835,9 +7835,9 @@ let
   NPBees2 = modDrv {
     name = "Beekeeping"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/NPBees2/5fbeadb6064e5b290e260f71";  
-      name = "NPBees2_2.2.12.zip"; 
-      sha1 = "237992ef5891be0301bbabbfa9c890c2a5a0b60c"; 
+      url = "https://mods.factorio.com/download/NPBees2/637beee7f51a6af0fcf6ef7c";  
+      name = "NPBees2_2.2.13.zip"; 
+      sha1 = "2be00b1049c16be06a57368ceb2dcf35fbf4b640"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -8387,9 +8387,9 @@ let
   X100_assembler = modDrv {
     name = "X100 assembler"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/X100_assembler/62b00a8fd092946821763577";  
-      name = "X100_assembler_5.2.10.zip"; 
-      sha1 = "30ddaeea8af6bcc3b3e5d802448724f6f0adff6f"; 
+      url = "https://mods.factorio.com/download/X100_assembler/6365ff6dbdf182858159333c";  
+      name = "X100_assembler_5.2.11.zip"; 
+      sha1 = "cb5ba2b22ecf0077680b56689cf5ffe9a377d195"; 
     };
     deps = [ ezlib ];
     optionalDeps = [ dark-matter-replicators LoaderRedux Flare-Stack Item_to_liquid creative-mode-fix omnilib angelsrefining n5dim_core boblibrary beltlayer speaker-signals-2 ];
@@ -8399,9 +8399,9 @@ let
   AutoTrainDepot = modDrv {
     name = "AutoTrainDepot"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/AutoTrainDepot/6340dfdb5ed639f8b085555b";  
-      name = "AutoTrainDepot_1.128.1.zip"; 
-      sha1 = "dd7fcfe300f35bf0a7bb3bb9078c7ae3c0ac6a16"; 
+      url = "https://mods.factorio.com/download/AutoTrainDepot/63742420dbb034e0a739ca7e";  
+      name = "AutoTrainDepot_1.152.1.zip"; 
+      sha1 = "2cf395a67de17db163056ca07d78d14f48503f5b"; 
     };
     deps = [ DragonIndustries ];
     optionalDeps = [ LoaderRedux ];
@@ -8423,9 +8423,9 @@ let
   DewPointAggregator = modDrv {
     name = "Dew Point Aggregator"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/DewPointAggregator/6340dfd968fb8d0a118e2498";  
-      name = "DewPointAggregator_1.128.1.zip"; 
-      sha1 = "e0c7564a4f15e6e6e6a12434d5a2db91bfe44ffc"; 
+      url = "https://mods.factorio.com/download/DewPointAggregator/63742416c509271619c5929a";  
+      name = "DewPointAggregator_1.152.1.zip"; 
+      sha1 = "843f74db910fbd4338fba4ed5756376a160aad67"; 
     };
     deps = [ DragonIndustries ];
     optionalDeps = [  ];
@@ -8447,9 +8447,9 @@ let
   LossPrevention = modDrv {
     name = "Loss Prevention"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/LossPrevention/6340dfdbfe521eec00934818";  
-      name = "LossPrevention_1.128.1.zip"; 
-      sha1 = "1e73833d881595b9c8e59cb8d5e89cabefd9177c"; 
+      url = "https://mods.factorio.com/download/LossPrevention/637424141ac614cb2f9ef905";  
+      name = "LossPrevention_1.152.1.zip"; 
+      sha1 = "9663c8620a716f6e69f4fc071cfebf3fecaefb2e"; 
     };
     deps = [ DragonIndustries ];
     optionalDeps = [  ];
@@ -8615,9 +8615,9 @@ let
   FactorIO = modDrv {
     name = "Factor-I/O"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/FactorIO/6340dfd4963a12aca3043a56";  
-      name = "FactorIO_1.128.1.zip"; 
-      sha1 = "9db49615db5beaee70070459be879639981e5772"; 
+      url = "https://mods.factorio.com/download/FactorIO/63742417eb41295d09d3295c";  
+      name = "FactorIO_1.152.1.zip"; 
+      sha1 = "0423877d21b19fded45bae1a4a193a73228e29e2"; 
     };
     deps = [ DragonIndustries ];
     optionalDeps = [  ];
@@ -8723,9 +8723,9 @@ let
   EasyCreative = modDrv {
     name = "EasyCreative"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/EasyCreative/6340dfd4762c4a3886bfdc4b";  
-      name = "EasyCreative_1.128.1.zip"; 
-      sha1 = "7782924018ad6761f9f14e09fe60ce56cb367927"; 
+      url = "https://mods.factorio.com/download/EasyCreative/63742414450fd13f804882cd";  
+      name = "EasyCreative_1.152.1.zip"; 
+      sha1 = "58165211997fa30ed2dfa12dd837eb2dce6297ce"; 
     };
     deps = [ DragonIndustries ];
     optionalDeps = [  ];
@@ -8819,9 +8819,9 @@ let
   ChokePoint = modDrv {
     name = "ChokePoint"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/ChokePoint/6340ecf117a5c8f6a70c7916";  
-      name = "ChokePoint_1.128.1.zip"; 
-      sha1 = "328b1b3704b8b52889e9928fe41ac1cf69f7851b"; 
+      url = "https://mods.factorio.com/download/ChokePoint/637424194e3853a23be9aa94";  
+      name = "ChokePoint_1.152.1.zip"; 
+      sha1 = "8cfe02a98483320bb9c10f8f674285f52a250485"; 
     };
     deps = [ DragonIndustries ];
     optionalDeps = [  ];
@@ -9335,9 +9335,9 @@ let
   space-exploration = modDrv {
     name = "Space Exploration"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/space-exploration/634b94c466e909dd33e14901";  
-      name = "space-exploration_0.6.89.zip"; 
-      sha1 = "41095c1482cf2b675477f9b1e4d2ac65bc32a70b"; 
+      url = "https://mods.factorio.com/download/space-exploration/636b130fb883f527301f0378";  
+      name = "space-exploration_0.6.90.zip"; 
+      sha1 = "ae0fef6b1dcb184978f06b188bcd938a8dae2a30"; 
     };
     deps = [ aai-containers aai-industry alien-biomes jetpack robot_attrition shield-projector space-exploration-graphics space-exploration-graphics-2 space-exploration-graphics-3 space-exploration-graphics-4 space-exploration-graphics-5 space-exploration-menu-simulations space-exploration-postprocess informatron aai-signal-transmission simhelper ];
     optionalDeps = [ bullet-trails grappling-gun combat-mechanics-overhaul equipment-gantry ];
@@ -9983,9 +9983,9 @@ let
   LTN_Content_Reader = modDrv {
     name = "LTN Content Reader"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/LTN_Content_Reader/614f315eb4c248c98f8c9ab9";  
-      name = "LTN_Content_Reader_1.0.2.zip"; 
-      sha1 = "664304f0c496e63c19376f010a452d7c605e8b05"; 
+      url = "https://mods.factorio.com/download/LTN_Content_Reader/63772bfd9724c458841ebcb5";  
+      name = "LTN_Content_Reader_1.0.3.zip"; 
+      sha1 = "45511c1864e3e78c1609c5538bc8761b1098b223"; 
     };
     deps = [ flib LogisticTrainNetwork ];
     optionalDeps = [  ];
@@ -10055,9 +10055,9 @@ let
   RadioNetwork = modDrv {
     name = "RadioNetwork"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/RadioNetwork/6340dfd87cff02572dafa860";  
-      name = "RadioNetwork_1.128.1.zip"; 
-      sha1 = "de7beb76483974cab8254f54c685063b84dad84c"; 
+      url = "https://mods.factorio.com/download/RadioNetwork/63742416190130421eb0d999";  
+      name = "RadioNetwork_1.152.1.zip"; 
+      sha1 = "5c5a92dcb0280759d5a942675bc07696ffbc1635"; 
     };
     deps = [ DragonIndustries ];
     optionalDeps = [  ];
@@ -10163,9 +10163,9 @@ let
   ItemFinder = modDrv {
     name = "ItemFinder"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/ItemFinder/6340dfdb1d1250e95e58c3be";  
-      name = "ItemFinder_1.128.1.zip"; 
-      sha1 = "e5e6c5b2809eb1f5541d5f34a29fc29a06ba42d9"; 
+      url = "https://mods.factorio.com/download/ItemFinder/63742414eb41295d09d3295b";  
+      name = "ItemFinder_1.152.1.zip"; 
+      sha1 = "77f4e864baf20f532af7f0e5480f2a84b4a9b055"; 
     };
     deps = [ DragonIndustries ];
     optionalDeps = [  ];
@@ -10595,9 +10595,9 @@ let
   PickerDollies = modDrv {
     name = "Picker Dollies"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/PickerDollies/635876d394844850c394784b";  
-      name = "PickerDollies_1.2.3.zip"; 
-      sha1 = "303001ba8e9c76460b005318ef88d0f2c926c382"; 
+      url = "https://mods.factorio.com/download/PickerDollies/6360542773daeeec782db34d";  
+      name = "PickerDollies_1.2.4.zip"; 
+      sha1 = "c0c8fba59cf8d7966bd809497a6e02552949733b"; 
     };
     deps = [ stdlib ];
     optionalDeps = [  ];
@@ -11087,12 +11087,12 @@ let
   biter_reincarnation = modDrv {
     name = "Biter Reincarnation"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/biter_reincarnation/6246f64b8d68261e809fcc03";  
-      name = "biter_reincarnation_20.0.20.zip"; 
-      sha1 = "14af9d705b4598f451e7be46796d29b054589956"; 
+      url = "https://mods.factorio.com/download/biter_reincarnation/636923fafba7ae108272508f";  
+      name = "biter_reincarnation_20.0.21.zip"; 
+      sha1 = "69e9d7f9543137388cfe02ed8947baafb8dd749b"; 
     };
     deps = [  ];
-    optionalDeps = [  ];
+    optionalDeps = [ biter_revive ];
     recommendedDeps = []; 
  }; 
 
@@ -11111,9 +11111,9 @@ let
   Tapeline = modDrv {
     name = "Tapeline"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Tapeline/62b3f286dacea8e4410f5767";  
-      name = "Tapeline_2.0.8.zip"; 
-      sha1 = "e72e26491f60faaf1ba9ffc51789aee7ad6387c1"; 
+      url = "https://mods.factorio.com/download/Tapeline/6372d87aaf03c5a4dc2e9b40";  
+      name = "Tapeline_2.0.9.zip"; 
+      sha1 = "7e7ae8f63f22b32b4704dafcb5334b79dc54ea56"; 
     };
     deps = [ flib ];
     optionalDeps = [  ];
@@ -11375,9 +11375,9 @@ let
   Bioluminescence = modDrv {
     name = "Bioluminescence"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Bioluminescence/6340dfd77cff02572dafa85f";  
-      name = "Bioluminescence_1.128.1.zip"; 
-      sha1 = "4b177e832a5c5dd40682d6afe754d6aa3ba1490a"; 
+      url = "https://mods.factorio.com/download/Bioluminescence/6374241d1abd7a5d437ba1ff";  
+      name = "Bioluminescence_1.152.1.zip"; 
+      sha1 = "cf934220f072954f8778929a1402731e47d1781c"; 
     };
     deps = [ DragonIndustries ];
     optionalDeps = [ Rampant NaturalEvolution alien-biomes ];
@@ -11555,9 +11555,9 @@ let
   PatchFR = modDrv {
     name = "Patch FR des Mods"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/PatchFR/63306145f79dda4780ee6355";  
-      name = "PatchFR_1.1.22.zip"; 
-      sha1 = "62eea03fc1040b47042bfc6459190e0db6fe8d63"; 
+      url = "https://mods.factorio.com/download/PatchFR/635fe17202a77797c61441cc";  
+      name = "PatchFR_1.1.23.zip"; 
+      sha1 = "bdb071ac992c0b475fd4d852bbbf83193de4414b"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -13079,9 +13079,9 @@ let
   TurmOil = modDrv {
     name = "TurmOil"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/TurmOil/6340dfdd762c4a3886bfdc4c";  
-      name = "TurmOil_1.128.1.zip"; 
-      sha1 = "be03906302fa090804f589f97839315abbc9685b"; 
+      url = "https://mods.factorio.com/download/TurmOil/637424141abd7a5d437ba1fe";  
+      name = "TurmOil_1.152.1.zip"; 
+      sha1 = "fabadd7cad281cfcb7315b5804d9c8b465876923"; 
     };
     deps = [ DragonIndustries ];
     optionalDeps = [  ];
@@ -13343,9 +13343,9 @@ let
   DragonIndustries = modDrv {
     name = "Dragon Industries - Nauvis Division"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/DragonIndustries/6340dfd4fe521eec00934816";  
-      name = "DragonIndustries_1.128.1.zip"; 
-      sha1 = "552fac86350fb6a4ed7cfa1fcacbc2bf30477fdb"; 
+      url = "https://mods.factorio.com/download/DragonIndustries/63742419450fd13f804882ce";  
+      name = "DragonIndustries_1.152.1.zip"; 
+      sha1 = "118e6504c1187131cd41cec0385f312ebaa31d3d"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -13487,9 +13487,9 @@ let
   AircraftRealism = modDrv {
     name = "Aircraft Realism"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/AircraftRealism/62bc4ca4d6fef95c1b54d246";  
-      name = "AircraftRealism_1.4.1.zip"; 
-      sha1 = "f890506107df70bbb8feb10dca3531cd99207632"; 
+      url = "https://mods.factorio.com/download/AircraftRealism/6379471b78fd0104b4fcd2c4";  
+      name = "AircraftRealism_1.5.0.zip"; 
+      sha1 = "d82ddebebef4c35ae0b9f33759cf075a6d68d343"; 
     };
     deps = [  ];
     optionalDeps = [ Aircraft betterCargoPlanes Helicopters ];
@@ -15299,9 +15299,9 @@ let
   super-generous-recipes = modDrv {
     name = "Super Generous Recipes"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/super-generous-recipes/62ea416d96cc39c203198d9f";  
-      name = "super-generous-recipes_0.8.0.zip"; 
-      sha1 = "b701a9b3087bbe6903a9b41c8baf5dfbf61a898a"; 
+      url = "https://mods.factorio.com/download/super-generous-recipes/636259dfd4eae4a61ac8a7f4";  
+      name = "super-generous-recipes_0.8.1.zip"; 
+      sha1 = "b2889a89b3b82a8aedb2d1a77131fbc3ca5f9a94"; 
     };
     deps = [  ];
     optionalDeps = [ Power-Armor-MK3 reverse-factory BobExtended angelspetrochem angelslocaleja_RE aai-industry mini-machines omnimatter_wood Bio_Industries kry-inserters GDIW bobelectronics Fantario pycoalprocessing pyfusionenergy pyhightech pyindustry pypetroleumhandling IndustrialRevolution RPGsystem FactorioExtended-Plus-CompoundSolars FactorioExtended-Plus-Core FactorioExtended-Plus-Equipment FactorioExtended-Plus-Logistics FactorioExtended-Plus-Machines FactorioExtended-Plus-Module FactorioExtended-Plus-Power FactorioExtended-Plus-Storage FactorioExtended-Plus-Transport FactorioExtended-Plus-Weaponry bobassembly bobclasses bobelectronics bobenemies bobequipment boblibrary boblogistics bobmining bobmodules bobores bobplates bobpower bobrevamp bobtech bobvehicleequipment bobwarfare Krastorio2 VoidChestPlus Nanobots space-exploration-postprocess ];
@@ -15683,12 +15683,12 @@ let
   CollectionOfScenarios = modDrv {
     name = "[Mod pack] Collection of scenarios, maps, campaigns"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/CollectionOfScenarios/630474d01799daa880212541";  
-      name = "CollectionOfScenarios_0.10.4.zip"; 
-      sha1 = "a8809deaf9207661174a6998e9d221bdde390509"; 
+      url = "https://mods.factorio.com/download/CollectionOfScenarios/63738b826ea252725429adbb";  
+      name = "CollectionOfScenarios_0.10.5.zip"; 
+      sha1 = "2dd91bafc11a32715ae00876232f00367d34a83f"; 
     };
-    deps = [ PvP-maps Frontier-Extended n16k-mini-factory Story-Missions capitalism oarc-mod ];
-    optionalDeps = [ stranded JNF TilePrototypeViewer MoreTimeSupplyChallenge brave-new-world keks-scenarios Searious Wave_Defense_Unlimited dota Decu vonNeumann dangOreus m-towerdefense factorio-world misery f-a-c-t-o-r-i-o JailBreak teamwork Sceatorio SceatMulti TeamMod RepeatingIslands factorio-world Colonists oarc-mod BasicSeaBlock Puzzletory RedMew_scenario BiterOre OreBeach td-mode mountian_defenes CommuCourseHovercraft team_competition NonWaveDefense NonWaveDefense2 SkyWaveDefense car_defenes jd_plays ];
+    deps = [ PvP-maps Frontier-Extended n16k-mini-factory Story-Missions capitalism oarc-mod BiterCraft ];
+    optionalDeps = [ stranded JNF TilePrototypeViewer MoreTimeSupplyChallenge brave-new-world keks-scenarios Searious Wave_Defense_Unlimited dota Decu Decu_Bug_Fixed vonNeumann dangOreus m-towerdefense factorio-world misery f-a-c-t-o-r-i-o JailBreak teamwork Sceatorio SceatMulti TeamMod RepeatingIslands factorio-world Colonists oarc-mod BasicSeaBlock Puzzletory RedMew_scenario BiterOre OreBeach td-mode mountian_defenes CommuCourseHovercraft team_competition NonWaveDefense NonWaveDefense2 SkyWaveDefense car_defenes Hiroshima-Scenario jd_plays aLittleLessDangOreus pirate_ship ];
     recommendedDeps = []; 
  }; 
 
@@ -16043,12 +16043,12 @@ let
   AngelBob = modDrv {
     name = "AngelBob"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/AngelBob/5fcaa1fae336d527bf88ba9e";  
-      name = "AngelBob_1.3.0.zip"; 
-      sha1 = "7084667b430871c5224ca6195333b41e8d161fd2"; 
+      url = "https://mods.factorio.com/download/AngelBob/6366553a851c6a3f008f0436";  
+      name = "AngelBob_1.3.5.zip"; 
+      sha1 = "0e2607d38ad345f3eb9602564c2ea4315d10449d"; 
     };
-    deps = [ angelsaddons-storage angelsbioprocessing angelspetrochem angelsrefining angelssmelting angelsinfiniteores angelsindustries angelsaddons-cab angelsaddons-mobility bobores bobvehicleequipment bobassembly bobelectronics bobenemies bobequipment bobinserters boblibrary boblogistics bobmining bobmodules bobplates bobpower bobrevamp bobtech bobwarfare bobgreenhouse LoaderRedux ];
-    optionalDeps = [  ];
+    deps = [ angelsaddons-storage angelsbioprocessing angelspetrochem angelsrefining angelssmelting angelsinfiniteores angelsindustries angelsaddons-cab angelsaddons-mobility bobores bobvehicleequipment bobassembly bobelectronics bobenemies bobequipment bobinserters boblibrary boblogistics bobmining bobmodules bobplates bobpower bobrevamp bobtech bobwarfare bobgreenhouse ];
+    optionalDeps = [ LoaderRedux LoaderRedux-BobLogistics Squeak-Through factoryplanner FNEI ];
     recommendedDeps = []; 
  }; 
 
@@ -16787,9 +16787,9 @@ let
   muppet_gui = modDrv {
     name = "Muppet GUIs"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/muppet_gui/635a6d89fd19efe4bb5d92e6";  
-      name = "muppet_gui_20.0.5.zip"; 
-      sha1 = "c327bb27b1d7a307d6600894ff1e0e8a34201034"; 
+      url = "https://mods.factorio.com/download/muppet_gui/6366555c6fc29c869b090f74";  
+      name = "muppet_gui_20.0.6.zip"; 
+      sha1 = "71e3b6cd46c6d57205c9bf68347c524ec8274394"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -17951,9 +17951,9 @@ let
   Pheromones = modDrv {
     name = "Pheromones"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Pheromones/6340dfdc4726c8476aebe613";  
-      name = "Pheromones_1.128.1.zip"; 
-      sha1 = "6c3496daf3d9a88df12f3a62f1dd04203b416e76"; 
+      url = "https://mods.factorio.com/download/Pheromones/637424228ce5df78aae68eff";  
+      name = "Pheromones_1.152.1.zip"; 
+      sha1 = "0f0005ffc16f916a516f6c77541300173a0d810b"; 
     };
     deps = [ DragonIndustries ];
     optionalDeps = [ alien-biomes NaturalEvolution Rampant ];
@@ -18275,12 +18275,12 @@ let
   dark-matter-replicators-18 = modDrv {
     name = "Dark Matter Replicators .18+"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/dark-matter-replicators-18/6347a7a72d76e4adc9bc3b75";  
-      name = "dark-matter-replicators-18_1.1.7.zip"; 
-      sha1 = "d6f85ad5b9523670f49b9ceb6ceefc19b762d459"; 
+      url = "https://mods.factorio.com/download/dark-matter-replicators-18/636f419b8878e36d4e98289f";  
+      name = "dark-matter-replicators-18_1.1.9.zip"; 
+      sha1 = "235dd197d4ce86085a23db204761b696510188d9"; 
     };
     deps = [  ];
-    optionalDeps = [ aai-industry Bio_Industries Factorissimo2 Yuoki bobenemies bobelectronics boblogistics bobmodules bobores bobplates bobrevamp bobwarfare space-exploration space-exploration-postprocess omnimatter angelspetrochem angelsrefining ];
+    optionalDeps = [ aai-industry Bio_Industries Factorissimo2 Yuoki bobenemies bobelectronics boblogistics bobmodules bobores bobplates bobrevamp bobwarfare space-exploration omnimatter angelspetrochem angelsrefining factorissimo-2-notnotmelon ];
     recommendedDeps = []; 
  }; 
 
@@ -18383,9 +18383,9 @@ let
   pyalienlife_tirisbalance = modDrv {
     name = "Pyanodons AlienLife Tirisbalance"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/pyalienlife_tirisbalance/5fc3bda22f98b78cfa89993f";  
-      name = "pyalienlife_tirisbalance_0.0.2.zip"; 
-      sha1 = "a9086a69053c11730c5cdd96d87d7e2549f60b96"; 
+      url = "https://mods.factorio.com/download/pyalienlife_tirisbalance/6378f05361b2cb1c35a9565c";  
+      name = "pyalienlife_tirisbalance_0.0.3.zip"; 
+      sha1 = "3957804ec76585ad780a32378fd8630bf6dfedb8"; 
     };
     deps = [ pyalienlife ];
     optionalDeps = [  ];
@@ -18431,9 +18431,9 @@ let
   Krastorio2 = modDrv {
     name = "Krastorio 2"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Krastorio2/631ad21d8719bc2610b3ba76";  
-      name = "Krastorio2_1.3.6.zip"; 
-      sha1 = "a62b250582990f6c465b7a29ef9dbd48cd60eab2"; 
+      url = "https://mods.factorio.com/download/Krastorio2/637963bb789739eea0c9a176";  
+      name = "Krastorio2_1.3.8.zip"; 
+      sha1 = "e7d77fa4f45c1de72b6dd0aa2e8bf3d8eb2fb715"; 
     };
     deps = [ Krastorio2Assets flib ];
     optionalDeps = [  ];
@@ -18623,9 +18623,9 @@ let
   jetpack = modDrv {
     name = "Jetpack"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/jetpack/62bcea15e793102bd6f77192";  
-      name = "jetpack_0.3.5.zip"; 
-      sha1 = "ed2beab2407a4c944e2ab4b827b6380f6e7322eb"; 
+      url = "https://mods.factorio.com/download/jetpack/63718e4a883fd1af6afa360c";  
+      name = "jetpack_0.3.6.zip"; 
+      sha1 = "342bb4c4ebe30ef1586de465146e96c82c0246a5"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -19079,9 +19079,9 @@ let
   krastorio2_extended_endgame = modDrv {
     name = "Krastorio2 Extended Endgame"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/krastorio2_extended_endgame/61d6020db9b4000d195ccd2c";  
-      name = "krastorio2_extended_endgame_1.0.1.zip"; 
-      sha1 = "4151778c5e45326260c8998a5690437e53a93c05"; 
+      url = "https://mods.factorio.com/download/krastorio2_extended_endgame/6374d517ffa4f67dabfed0a1";  
+      name = "krastorio2_extended_endgame_1.0.3.zip"; 
+      sha1 = "d1c8b9a25c94ea3dd90e1641d6e6650cf0b00d37"; 
     };
     deps = [ Krastorio2 Krastorio2Assets ];
     optionalDeps = [  ];
@@ -19247,9 +19247,9 @@ let
   WellPlanner = modDrv {
     name = "Well Planner"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/WellPlanner/6010dbf1fc77591ae7187c5e";  
-      name = "WellPlanner_1.1.0.zip"; 
-      sha1 = "976d5fd8f367509f667d4d7ef96b6b919a6aabe7"; 
+      url = "https://mods.factorio.com/download/WellPlanner/6368b74ce257673aeab3d5d3";  
+      name = "WellPlanner_1.1.5.zip"; 
+      sha1 = "aafc7c2553a2c0e0cca3d67dfff81c74a0248841"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -19295,9 +19295,9 @@ let
   subspace_storage = modDrv {
     name = "Subspace Storage (Alpha)"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/subspace_storage/631b6e30e7f51327fbecf1b2";  
-      name = "subspace_storage_1.99.14.zip"; 
-      sha1 = "d7f84c847c211b4fcf2a11e0bead89f1d8c16a3f"; 
+      url = "https://mods.factorio.com/download/subspace_storage/63755a57cd13a443813eb716";  
+      name = "subspace_storage_1.99.17.zip"; 
+      sha1 = "56046b2a0652a00dc089ec4d2dd1f63ed2279e37"; 
     };
     deps = [ clusterio_lib ];
     optionalDeps = [  ];
@@ -19775,9 +19775,9 @@ let
   Random_Utilities = modDrv {
     name = "Random utilities"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Random_Utilities/62d31e89a495e9b8fffa098b";  
-      name = "Random_Utilities_2.1.5.zip"; 
-      sha1 = "9f06bf5da7a7a6340ba0e2cc842a6bbda9e4eefb"; 
+      url = "https://mods.factorio.com/download/Random_Utilities/63659b80587e41b8cae5fcab";  
+      name = "Random_Utilities_2.1.6.zip"; 
+      sha1 = "de2e6bd5139b90d6f3bfc884b100f458e9279387"; 
     };
     deps = [  ];
     optionalDeps = [ ZZZTweaks ZZZCompatibility angelsaddons-warehouses angelsaddons-pressuretanks Krastorio2 space-exploration miniloader ];
@@ -20423,9 +20423,9 @@ let
   kizraks-robots = modDrv {
     name = "Kizrak's Robots"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/kizraks-robots/616cad0cd9a013f0ebb67f00";  
-      name = "kizraks-robots_0.1.12.zip"; 
-      sha1 = "0e21109be0e2b5a9191607cef99a55f9e2887e42"; 
+      url = "https://mods.factorio.com/download/kizraks-robots/6374734fc509271619c592a1";  
+      name = "kizraks-robots_0.1.13.zip"; 
+      sha1 = "0728e17bf6f8deb2db68e1c1f2797cd3710fa2e8"; 
     };
     deps = [  ];
     optionalDeps = [ AutoDeconstruct ];
@@ -20438,18 +20438,6 @@ let
       url = "https://mods.factorio.com/download/Sky-Atlas-Metallurgy-Core/60f74f376a68155b19608795";  
       name = "Sky-Atlas-Metallurgy-Core_0.9.0.zip"; 
       sha1 = "6ee6989cb8ebebe8760546b26cdd047f755f4319"; 
-    };
-    deps = [  ];
-    optionalDeps = [  ];
-    recommendedDeps = []; 
- }; 
-
-  capitalism = modDrv {
-    name = "Capitalism"; 
-    src = fetchurl2 {
-      url = "https://mods.factorio.com/download/capitalism/602ac7e8519ddc22f65499cf";  
-      name = "capitalism_0.1.3.zip"; 
-      sha1 = "a44ccdfd76add161a94997f06a81ded5dca7b946"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -21371,9 +21359,9 @@ let
   EarlyExtensions = modDrv {
     name = "Early Extensions"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/EarlyExtensions/6340dfcc963a12aca3043a54";  
-      name = "EarlyExtensions_1.128.1.zip"; 
-      sha1 = "18f785d5e82eefaa0c53b63510cf8da0e67b75ce"; 
+      url = "https://mods.factorio.com/download/EarlyExtensions/6374243d190130421eb0d99a";  
+      name = "EarlyExtensions_1.152.1.zip"; 
+      sha1 = "4a493648f1a027b22d6d7dd8c839cf085a102a9f"; 
     };
     deps = [ DragonIndustries ];
     optionalDeps = [ RubberBelts NauvisDay BurnerOffshorePump BobLogistics ];
@@ -21863,9 +21851,9 @@ let
   True-Nukes = modDrv {
     name = "True Nukes"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/True-Nukes/6355a2fd2c3064f79ac22398";  
-      name = "True-Nukes_0.3.14.zip"; 
-      sha1 = "c9dedbdedc56d9d72bbf7bb05c7ae5b467f91b4b"; 
+      url = "https://mods.factorio.com/download/True-Nukes/63679772d626f1e4b08125e6";  
+      name = "True-Nukes_0.3.16.zip"; 
+      sha1 = "f3419471457b1b8891f836696bbd0faf1c13d5fa"; 
     };
     deps = [ Warheads ];
     optionalDeps = [ SchallTankPlatoon Aircraft bobelectronics bobwarfare bobplates True-Nukes-Graphics apm_nuclear_ldinc PlutoniumEnergy Nuclear-Fuel Clowns-Nuclear Clowns-AngelBob-Nuclear space-exploration Krastorio2 ];
@@ -22223,9 +22211,9 @@ let
   death_curses = modDrv {
     name = "Death Curses"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/death_curses/62cb8c5928aa299a8e0c271a";  
-      name = "death_curses_1.0.13.zip"; 
-      sha1 = "8617a2e60ceb51f2daa366e573dbaed988952cdc"; 
+      url = "https://mods.factorio.com/download/death_curses/636a1925a0afd781899b540b";  
+      name = "death_curses_1.0.14.zip"; 
+      sha1 = "6ac193dffdf4bc6c0a19a1826349d7255801998a"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -22511,9 +22499,9 @@ let
   zk-lib = modDrv {
     name = "ZwerOxotnik's multipurpose mod with 8 addons [zk-lib][WIP]"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/zk-lib/6318d3a5ef635e6f174981f1";  
-      name = "zk-lib_0.11.5.zip"; 
-      sha1 = "4eadd0c3f8ed357f2d51f9cce765e964675b3168"; 
+      url = "https://mods.factorio.com/download/zk-lib/636b67d54e9d553ec75f8732";  
+      name = "zk-lib_0.11.10.zip"; 
+      sha1 = "dfcd5ed8f0bfe92ed2712af86c5128cd110efdda"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -22667,12 +22655,12 @@ let
   Lazy_Rabbit = modDrv {
     name = "Lazy Rabbit"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Lazy_Rabbit/618643736db0eb6f1b7dd38e";  
-      name = "Lazy_Rabbit_1.32.2.zip"; 
-      sha1 = "feac486ad3314ce746d3d805e7dfdbabb32a2fe9"; 
+      url = "https://mods.factorio.com/download/Lazy_Rabbit/6360fe6773daeeec782db352";  
+      name = "Lazy_Rabbit_1.33.0.zip"; 
+      sha1 = "823a996ed28e32770c29cc6b5240d7750dc137a6"; 
     };
     deps = [  ];
-    optionalDeps = [ Krastorio2 Rabbitorio ];
+    optionalDeps = [ Krastorio2 Rabbitorio pypostprocessing ];
     recommendedDeps = []; 
  }; 
 
@@ -23435,9 +23423,9 @@ let
   SpidertronWeaponSwitcher = modDrv {
     name = "Spidertron Weapon Switcher"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/SpidertronWeaponSwitcher/61eaf4d663aaf58852da4e5d";  
-      name = "SpidertronWeaponSwitcher_1.2.9.zip"; 
-      sha1 = "888f7c78883fff746f2249be06d1f6c2320761c7"; 
+      url = "https://mods.factorio.com/download/SpidertronWeaponSwitcher/63757ae97ec00496911d4a7c";  
+      name = "SpidertronWeaponSwitcher_1.2.11.zip"; 
+      sha1 = "bf8c0d89d701e129db7142af23ff7a7b56f2a2e4"; 
     };
     deps = [  ];
     optionalDeps = [ spidertron-extended ];
@@ -23685,14 +23673,14 @@ let
  }; 
 
   deep-storage-unit = modDrv {
-    name = "Memory Storage"; 
+    name = "Memory Storage 📦"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/deep-storage-unit/62cc9c45bece085ea4bcbb19";  
-      name = "deep-storage-unit_1.2.15.zip"; 
-      sha1 = "353292204976b550b2865702bd0f88ee79b55fdd"; 
+      url = "https://mods.factorio.com/download/deep-storage-unit/637c0eb3511e241697b1c05c";  
+      name = "deep-storage-unit_1.3.2.zip"; 
+      sha1 = "9ffa9523d51eeebc47004668f98f6262666fc1bd"; 
     };
     deps = [  ];
-    optionalDeps = [ Krastorio2 PickerDollies ];
+    optionalDeps = [  ];
     recommendedDeps = []; 
  }; 
 
@@ -23771,9 +23759,9 @@ let
   Kux-SpeedButtons = modDrv {
     name = "Speed Buttons"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Kux-SpeedButtons/600b17464d8c85185b9d1009";  
-      name = "Kux-SpeedButtons_2.0.5.zip"; 
-      sha1 = "58173148814bd22a76823828350abe4884870dcd"; 
+      url = "https://mods.factorio.com/download/Kux-SpeedButtons/637699d06f84766c2bea97f1";  
+      name = "Kux-SpeedButtons_2.0.6.zip"; 
+      sha1 = "a0ce1b54102f6db6010f7c501fca2edd36f1f734"; 
     };
     deps = [ Kux-CoreLib ];
     optionalDeps = [  ];
@@ -24095,9 +24083,9 @@ let
   mapshot = modDrv {
     name = "Mapshot"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/mapshot/634a861bdd98af0c0a05060d";  
-      name = "mapshot_0.0.15.zip"; 
-      sha1 = "c5d449ffebe2124d4bf048d3515da390b51baed9"; 
+      url = "https://mods.factorio.com/download/mapshot/637a382e7ebd5b7c12cb8e84";  
+      name = "mapshot_0.0.16.zip"; 
+      sha1 = "c88a5989de49935d595b5889a61637c3cb4d0a9b"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -24143,9 +24131,9 @@ let
   TheFloorIsLavaRevival = modDrv {
     name = "The Floor Is Lava Revival"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/TheFloorIsLavaRevival/635682a80c03db1c2a3d9390";  
-      name = "TheFloorIsLavaRevival_0.2.4.zip"; 
-      sha1 = "1c984ef5ef85cd83c5e761b38b4c105025e7bd0b"; 
+      url = "https://mods.factorio.com/download/TheFloorIsLavaRevival/636dae61597de16daf409304";  
+      name = "TheFloorIsLavaRevival_0.2.5.zip"; 
+      sha1 = "dff26f6d750cbe6119286a41de026c76868ab9db"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -24201,14 +24189,14 @@ let
  }; 
 
   fluid-memory-storage = modDrv {
-    name = "Fluid Memory Storage"; 
+    name = "Fluid Memory Storage 🚰"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/fluid-memory-storage/62cc9bff164d116f1e0e29e2";  
-      name = "fluid-memory-storage_1.3.16.zip"; 
-      sha1 = "0e9c79773feec2c3f842e6d4e7fa654fa1e1213f"; 
+      url = "https://mods.factorio.com/download/fluid-memory-storage/637c1195cb580fca53e5fe8b";  
+      name = "fluid-memory-storage_1.4.5.zip"; 
+      sha1 = "5fc748b5e85930c9dfcd3f591db0b19b797e689f"; 
     };
     deps = [  ];
-    optionalDeps = [ deep-storage-unit PickerDollies ];
+    optionalDeps = [ deep-storage-unit ];
     recommendedDeps = []; 
  }; 
 
@@ -24431,12 +24419,12 @@ let
   railway-motor-car = modDrv {
     name = "Railway Motor Car"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/railway-motor-car/63361097a8e7a7ac3ad32e3a";  
-      name = "railway-motor-car_0.3.9.zip"; 
-      sha1 = "50be1ed4c8ccaa423445c79d85a9c66af8d98e66"; 
+      url = "https://mods.factorio.com/download/railway-motor-car/63655fbb358f36ed84c672c1";  
+      name = "railway-motor-car_0.4.0.zip"; 
+      sha1 = "f44ca30bb3fcecf8371ef66fce726b61e7c39c1f"; 
     };
     deps = [  ];
-    optionalDeps = [ jetpack informatron ];
+    optionalDeps = [ flib jetpack informatron ];
     recommendedDeps = []; 
  }; 
 
@@ -24539,12 +24527,12 @@ let
   Enemies_have_loot = modDrv {
     name = "虫子掉落Enemiesloot"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Enemies_have_loot/6020afdefd6b223ade6dcbe9";  
-      name = "Enemies_have_loot_1.1.3.zip"; 
-      sha1 = "3ea4d587e1d70bb1e4f23b03d5fb0ff4bc1ffe09"; 
+      url = "https://mods.factorio.com/download/Enemies_have_loot/63622aed0e3ce07a74bb6201";  
+      name = "Enemies_have_loot_1.1.5.zip"; 
+      sha1 = "f161d82b18a579d238dab31de54e95389be898ea"; 
     };
     deps = [  ];
-    optionalDeps = [  ];
+    optionalDeps = [ Item_Collector_Updated SchallPickupTower ];
     recommendedDeps = []; 
  }; 
 
@@ -25667,9 +25655,9 @@ let
   graftorio2 = modDrv {
     name = "graftorio2"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/graftorio2/62b1f71966622daeefb3da9c";  
-      name = "graftorio2_0.0.17.zip"; 
-      sha1 = "3b87d7dd447c6074c644313aabf028cffcfb770f"; 
+      url = "https://mods.factorio.com/download/graftorio2/6377ca4c21cf7c2b8b63cdd4";  
+      name = "graftorio2_0.0.18.zip"; 
+      sha1 = "370d11791118252c47d7663b612be6ab8f5a735e"; 
     };
     deps = [  ];
     optionalDeps = [ YARM ];
@@ -25691,9 +25679,9 @@ let
   Kux-CoreLib = modDrv {
     name = "Kuxynator's Core Library"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Kux-CoreLib/5fbcd056e78eac78f2415f4f";  
-      name = "Kux-CoreLib_2.1.0.zip"; 
-      sha1 = "2c869c8bfae39dee15d6a7826b7d51aa8127e300"; 
+      url = "https://mods.factorio.com/download/Kux-CoreLib/637690a4faba502bba84e3a3";  
+      name = "Kux-CoreLib_2.2.0.zip"; 
+      sha1 = "869018f21eeae29e7afb1e6e45d7dd576910ffb7"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -25703,12 +25691,12 @@ let
   Kux-BlueprintExtensions = modDrv {
     name = "Blueprint Extensions (Kux Edition)"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Kux-BlueprintExtensions/6348653572c9cdf1745f06fd";  
-      name = "Kux-BlueprintExtensions_2.2.0.zip"; 
-      sha1 = "f4d35f942be84af56edd5c3669e0995a916b0eaa"; 
+      url = "https://mods.factorio.com/download/Kux-BlueprintExtensions/63769468faba502bba84e3a4";  
+      name = "Kux-BlueprintExtensions_2.2.2.zip"; 
+      sha1 = "be3daa4c63524f1b3d7d9d875ffb1737b4663bf7"; 
     };
     deps = [ Kux-CoreLib ];
-    optionalDeps = [ fluid_permutations GDIW GDIW-updated underground-pipe-pack FluidMustFlow nullius ];
+    optionalDeps = [ fluid_permutations GDIW GDIW-updated underground-pipe-pack FluidMustFlow ];
     recommendedDeps = []; 
  }; 
 
@@ -26447,9 +26435,9 @@ let
   AlertsList2 = modDrv {
     name = "Programmable Speaker Alerts List 2"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/AlertsList2/62dbccd9734f99ee8ec7f7e7";  
-      name = "AlertsList2_1.3.1.zip"; 
-      sha1 = "784a085a3ccf723ce049d9e140661ecfc6fa5b79"; 
+      url = "https://mods.factorio.com/download/AlertsList2/636681f40ad1249c5221edc9";  
+      name = "AlertsList2_1.3.2.zip"; 
+      sha1 = "80f219ea8b58c131e442732ef4324a073154b6a2"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -27059,9 +27047,9 @@ let
   LogisticRequestManager = modDrv {
     name = "Logistic Request Manager (continued)"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/LogisticRequestManager/63559bd185b203681685d7ee";  
-      name = "LogisticRequestManager_1.1.26.zip"; 
-      sha1 = "7f7f10ed24a3abe6616e39a9cd6db86750584762"; 
+      url = "https://mods.factorio.com/download/LogisticRequestManager/6362ec1cf3b843008557e785";  
+      name = "LogisticRequestManager_1.1.27.zip"; 
+      sha1 = "77b6f68affb9bbf749e8831796e50816ae9bf088"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -27179,9 +27167,9 @@ let
   trainsaver = modDrv {
     name = "trainsaver"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/trainsaver/635463c00f915f6ba65c8e41";  
-      name = "trainsaver_0.0.19.zip"; 
-      sha1 = "849a629b317099d00bb11d4ba6f996b91a039c57"; 
+      url = "https://mods.factorio.com/download/trainsaver/637033503c80dcd14d7abb28";  
+      name = "trainsaver_0.0.20.zip"; 
+      sha1 = "e53854a39b453bafd862abb33903192069da1ccf"; 
     };
     deps = [  ];
     optionalDeps = [ cutscene-creator ];
@@ -29999,12 +29987,12 @@ let
   Rich-Rocks-Requiem = modDrv {
     name = "Rich Rocks Revival"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Rich-Rocks-Requiem/6271a35c3634774ba0ba5ea0";  
-      name = "Rich-Rocks-Requiem_0.0.6.zip"; 
-      sha1 = "04c07a9f4208455da6a774832dd47ccf2761c2b5"; 
+      url = "https://mods.factorio.com/download/Rich-Rocks-Requiem/636a7dfa275f62c60eae5300";  
+      name = "Rich-Rocks-Requiem_0.0.7.zip"; 
+      sha1 = "906ae17fdbe8a318b8cbe6ddaba8a363d95baf76"; 
     };
     deps = [ Krastorio2 ];
-    optionalDeps = [ IndustrialRevolution deadlock-beltboxes-loaders ];
+    optionalDeps = [ IndustrialRevolution space-exploration deadlock-beltboxes-loaders ];
     recommendedDeps = []; 
  }; 
 
@@ -30335,9 +30323,9 @@ let
   nullius = modDrv {
     name = "Nullius"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/nullius/635f1f026cbb8ced96f03947";  
-      name = "nullius_1.5.16.zip"; 
-      sha1 = "c2d1698c9c1d1ebbd27da215f4f5cd7dfa3d5626"; 
+      url = "https://mods.factorio.com/download/nullius/63793b7743eb5846c4363d19";  
+      name = "nullius_1.5.19.zip"; 
+      sha1 = "3fa5799d25e53fd5b320fbc31bcd4753c7eab375"; 
     };
     deps = [ alien-biomes angelssmelting boblogistics ];
     optionalDeps = [ RecipeBook underground-pipe-pack ];
@@ -30527,9 +30515,9 @@ let
   Krastorio2RFAC = modDrv {
     name = "Krastorio 2 Rocket Fuel in Advanced Chemical Plant"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Krastorio2RFAC/61de8bd770c94e5c3f83f493";  
-      name = "Krastorio2RFAC_2.0.0.zip"; 
-      sha1 = "792fa6482e782dc835fc258af397e59b31f96317"; 
+      url = "https://mods.factorio.com/download/Krastorio2RFAC/635fe517ef7b49dea1fa3c02";  
+      name = "Krastorio2RFAC_2.5.0.zip"; 
+      sha1 = "3eaea0c45c32722a90636296f3267460cc0944dd"; 
     };
     deps = [ Krastorio2 ];
     optionalDeps = [ space-exploration ];
@@ -30957,11 +30945,11 @@ let
  }; 
 
   void_electricity = modDrv {
-    name = "전기 없다(바닐라 아이템 적용) / Google translate : void electricity(Vanila item only)"; 
+    name = "전기 없다 / void electricity"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/void_electricity/6015855fc1d1d7d2f545c656";  
-      name = "void_electricity_1.1.0.zip"; 
-      sha1 = "8e446021e4efe8c3cdf0726cf2a8d0d32a2a8c91"; 
+      url = "https://mods.factorio.com/download/void_electricity/63723d87317499326c8f3cc7";  
+      name = "void_electricity_1.1.1.zip"; 
+      sha1 = "33cdadb47c24b9761a5a7695d19eb6feb1672d90"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -31355,12 +31343,12 @@ let
   PowerOverload = modDrv {
     name = "Power Overload"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/PowerOverload/6315375ebd5158f6da76c571";  
-      name = "PowerOverload_1.3.1.zip"; 
-      sha1 = "55707b040fd285ee8dcefe4911434ed1c7d84e99"; 
+      url = "https://mods.factorio.com/download/PowerOverload/6372f04814b75c2975de0f3e";  
+      name = "PowerOverload_1.4.2.zip"; 
+      sha1 = "e342d9cb0494bcfe54bef80717cad56a402a806b"; 
     };
     deps = [  ];
-    optionalDeps = [ bzlead aai-industry ];
+    optionalDeps = [  ];
     recommendedDeps = []; 
  }; 
 
@@ -31847,9 +31835,9 @@ let
   LogisticRequestMerger = modDrv {
     name = "Logistic Request Merger"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/LogisticRequestMerger/602706659ab5bfaaf03d02cb";  
-      name = "LogisticRequestMerger_1.1.0.zip"; 
-      sha1 = "5bac1f70af7c3661be682aadde3dc14705be888d"; 
+      url = "https://mods.factorio.com/download/LogisticRequestMerger/636010f812095a7f787a038f";  
+      name = "LogisticRequestMerger_1.1.1.zip"; 
+      sha1 = "14eba9e017b763978722456116844f9181eed720"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -31895,9 +31883,9 @@ let
   SteamBurnerInster = modDrv {
     name = "Steam and Burner Filter Update"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/SteamBurnerInster/60296accffd82915c317925d";  
-      name = "SteamBurnerInster_1.0.0.zip"; 
-      sha1 = "7d180cc98fe8c265c8db39dc4414b8a786c41bd4"; 
+      url = "https://mods.factorio.com/download/SteamBurnerInster/63687b6e6802cae7464162a6";  
+      name = "SteamBurnerInster_1.0.1.zip"; 
+      sha1 = "7720cfc20d281fb3e48b620e16d4603d42fe0c8b"; 
     };
     deps = [ boblogistics ];
     optionalDeps = [ Burner-Filter-Inserter ];
@@ -35039,9 +35027,9 @@ let
   CombatRobotsOverhaul = modDrv {
     name = "Combat Robots Overhaul"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/CombatRobotsOverhaul/6357d7dadab970a02fd27f91";  
-      name = "CombatRobotsOverhaul_2.1.3.zip"; 
-      sha1 = "266a7eb9054861a2af6cb3a83b6c5ff3599b61bb"; 
+      url = "https://mods.factorio.com/download/CombatRobotsOverhaul/63789405d8f8b117861ac351";  
+      name = "CombatRobotsOverhaul_2.1.7.zip"; 
+      sha1 = "1567dbdeeb0c8fd7193871c5089c05071ad0a85b"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -36083,9 +36071,9 @@ let
   brush-tools = modDrv {
     name = "Brush tools [ALPHA]"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/brush-tools/61ec400896b558c881bcc394";  
-      name = "brush-tools_0.8.1.zip"; 
-      sha1 = "a560e4184cfd1a4bbe9e95b5820d2c1ca6137480"; 
+      url = "https://mods.factorio.com/download/brush-tools/6367e7394809dff4f6da09fa";  
+      name = "brush-tools_0.8.2.zip"; 
+      sha1 = "efc29d6a9b84457724bbf31d23711d09788e072d"; 
     };
     deps = [ zk-lib ];
     optionalDeps = [  ];
@@ -36095,9 +36083,9 @@ let
   More_Ammo = modDrv {
     name = "More Ammo"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/More_Ammo/630f53d54bfc9e8aaa1d8d1e";  
-      name = "More_Ammo_1.5.10.zip"; 
-      sha1 = "87f862d09b6dee03ef82682cdba849f6c342c278"; 
+      url = "https://mods.factorio.com/download/More_Ammo/636e8470d96ea78a41e43a24";  
+      name = "More_Ammo_1.5.12.zip"; 
+      sha1 = "662149bc4f26b249de4c8a3151af0575bf04d189"; 
     };
     deps = [  ];
     optionalDeps = [ bullet-trails space-exploration ];
@@ -36119,9 +36107,9 @@ let
   bztungsten = modDrv {
     name = "Tungsten"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/bztungsten/62fc835e91de5ec5fd54d9f4";  
-      name = "bztungsten_0.7.4.zip"; 
-      sha1 = "5cc363d81f7ff76cdcc02fc0f7afa1ebaf6712fa"; 
+      url = "https://mods.factorio.com/download/bztungsten/6379d3af02c87a62032bd8fb";  
+      name = "bztungsten_0.7.5.zip"; 
+      sha1 = "1aa09acfa2c6c316d3d10780347ef46edd19028b"; 
     };
     deps = [  ];
     optionalDeps = [ space-exploration Krastorio2 deadlock-beltboxes-loaders DeadlockCrating bztitanium bzlead ];
@@ -36551,9 +36539,9 @@ let
   spidertron-control-center = modDrv {
     name = "Spidertron control center"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/spidertron-control-center/61c9b696243d3a76c0598cac";  
-      name = "spidertron-control-center_1.1.4.zip"; 
-      sha1 = "37e18ce7cba1ace160fcf3e760e07e064d3fcf19"; 
+      url = "https://mods.factorio.com/download/spidertron-control-center/6370f61afa693ed86f4af445";  
+      name = "spidertron-control-center_1.2.1.zip"; 
+      sha1 = "fa9eb2884919f8ff56013adfba964454b534da46"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -36863,9 +36851,9 @@ let
   Milestones = modDrv {
     name = "Milestones"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Milestones/63505dbf7364f7ff8ae25db3";  
-      name = "Milestones_1.3.9.zip"; 
-      sha1 = "db5eae5f6ffee56874b0fa816ade417e9062de2f"; 
+      url = "https://mods.factorio.com/download/Milestones/6373d58a450fd13f804882cc";  
+      name = "Milestones_1.3.12.zip"; 
+      sha1 = "524ac74e7295b10029dd8bf2f8f4a6ca41e13635"; 
     };
     deps = [ flib ];
     optionalDeps = [  ];
@@ -37631,9 +37619,9 @@ let
   SE-locale = modDrv {
     name = "SE-locale太空探索 中文语言包(非官方)"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/SE-locale/634d400ea0aa18aca03de9e1";  
-      name = "SE-locale_0.1.13.zip"; 
-      sha1 = "5aa95504614c79ca5f0008fa58876c09c9cee827"; 
+      url = "https://mods.factorio.com/download/SE-locale/636bf6236b2cc79bf8b328b3";  
+      name = "SE-locale_0.1.14.zip"; 
+      sha1 = "f8d1f3b9d68cef41d0b3e8a8bf77ca93dc1b2afd"; 
     };
     deps = [  ];
     optionalDeps = [ space-exploration deadlock-beltboxes-loaders Deadlock-SE-bridge aai-signal-transmission space-exploration-postprocess jetpack ];
@@ -37787,12 +37775,12 @@ let
   TornBreezes_must_have_mods = modDrv {
     name = "TornBreeze's must have Mods"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/TornBreezes_must_have_mods/61ccf87407c9cb9bacdbe561";  
-      name = "TornBreezes_must_have_mods_1.1.0.zip"; 
-      sha1 = "648cadfd7ff727783aa2f420416c336a09b2a952"; 
+      url = "https://mods.factorio.com/download/TornBreezes_must_have_mods/636a9987949878ce23d42d51";  
+      name = "TornBreezes_must_have_mods_1.1.1.zip"; 
+      sha1 = "d8214292d1b21247f6b414738c71a1d9d009f4b2"; 
     };
-    deps = [ Actual_Craft_Time Automatic_Train_Painter belt-reverserup blueprint_flip_and_turn bobinserters Bottleneck combat-mechanics-overhaul Crafting_Speed_Research DayPhaseAdjuster Death_Counter DoingThingsByHand Early_Transport_Drones epic_mining_and_crafting_speed_research even-distribution EvoGUI far-reach FNEI heroturrets inbuilt_lighting infinity-invo liborio miniloader MapView_NoBlackLines Mining_Drones MoreInfResearch more-minimap-autohide-017 Nanobots Not_Enough_Todo NotsosimpleWood qol_research Rotatable_Equipment Shortcuts-ick SpidertronEnhancements Squeak-Through stdlib some-autoresearch trainsaver TrainSpeedLimit_018_Port Transport_Drones tree_collision TimeTools VehicleSnap walls-block-spitters ];
-    optionalDeps = [ Barbed-Spikes handcraft_timer SpidertronPatrols ];
+    deps = [ Actual_Craft_Time Automatic_Train_Painter belt-balancer belt-reverserup blueprint_flip_and_turn bobinserters BobInserters-Early-T2-Research Bottleneck Crafting_Speed_Research cruxchests DayPhaseAdjuster Death_Counter DoingThingsByHand earlier-logistics Early_Transport_Drones epic_mining_and_crafting_speed_research even-distribution EvoGUI extended-descriptions far-reach FNEI GUI_Unifyer heroturrets inbuilt_lighting infinity-invo liborio miniloader MapView_NoBlackLines Mining_Drones mining-patch-planner Moar_Roboports MoreInfResearch more-minimap-autohide-017 Nanobots Not_Enough_Todo NotsosimpleWood qol_research Rotatable_Equipment Shortcuts-ick SpidertronEnhancements Squeak-Through stdlib some-autoresearch Transport_Drones tree_collision TimeTools VehicleSnap ];
+    optionalDeps = [ Barbed-Spikes combat-mechanics-overhaul handcraft_timer SpidertronPatrols trainsaver TrainSpeedLimit_018_Port ];
     recommendedDeps = []; 
  }; 
 
@@ -37967,9 +37955,9 @@ let
   erm_zerg = modDrv {
     name = "ERM - Zerg Units"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/erm_zerg/62cb502be1a74cfd4226a7a0";  
-      name = "erm_zerg_1.16.2.zip"; 
-      sha1 = "8c4de8c7493dfad249138d98b3a0f587b58a2383"; 
+      url = "https://mods.factorio.com/download/erm_zerg/6372fe584bc1ec6ffa164727";  
+      name = "erm_zerg_1.17.0.zip"; 
+      sha1 = "7d795d0a1af4a1c6bb450cc516a5db3df52bfc24"; 
     };
     deps = [ enemyracemanager ];
     optionalDeps = [  ];
@@ -37979,9 +37967,9 @@ let
   erm_toss = modDrv {
     name = "ERM - Protoss Units"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/erm_toss/62cb5053427340f493639248";  
-      name = "erm_toss_1.16.3.zip"; 
-      sha1 = "0f68d2842037bd8b50b5562ba0c89a2d1cece949"; 
+      url = "https://mods.factorio.com/download/erm_toss/6372fe73ea350c64a8f4a7a1";  
+      name = "erm_toss_1.17.0.zip"; 
+      sha1 = "478fcd7c00a20d5e41bb1b1f44d9a062cb1c8929"; 
     };
     deps = [ enemyracemanager ];
     optionalDeps = [  ];
@@ -37991,9 +37979,9 @@ let
   erm_terran = modDrv {
     name = "ERM - Terran Units for Players"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/erm_terran/62cb506f70d8ebd641de4c08";  
-      name = "erm_terran_1.13.5.zip"; 
-      sha1 = "fbfb9da1e23ebb068caddfcf8949ea6c7b0eaa65"; 
+      url = "https://mods.factorio.com/download/erm_terran/6372fe3eced30018dff28bc8";  
+      name = "erm_terran_1.14.0.zip"; 
+      sha1 = "d9c75f8b88826b2f5d18b2695c0ddc39e0a0a2a0"; 
     };
     deps = [ enemyracemanager Unit_Control ];
     optionalDeps = [  ];
@@ -38159,11 +38147,11 @@ let
   bzvery = modDrv {
     name = "Very BZ"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/bzvery/629c4e0740a5f6a6fa7aa79b";  
-      name = "bzvery_0.4.0.zip"; 
-      sha1 = "703d8ba54a7fc40a1c6b46836bbabc6102be5003"; 
+      url = "https://mods.factorio.com/download/bzvery/637ad5d0f0d79c6af5c6ff96";  
+      name = "bzvery_0.5.0.zip"; 
+      sha1 = "5812eadbb7932a8c1c3411819f65f06ab150f98c"; 
     };
-    deps = [ bz-dsr-bridge bzaluminum bzcarbon bzfoundry bzlead bzsilicon bztitanium bztungsten bzzirconium ];
+    deps = [ bz-dsr-bridge bzaluminum bzcarbon bzfoundry bzlead bzsilicon bztitanium bztungsten bzzirconium bztin bzgas ];
     optionalDeps = [  ];
     recommendedDeps = []; 
  }; 
@@ -38399,9 +38387,9 @@ let
   greens-tweaks-fluid = modDrv {
     name = "Green's Tweaks: Fluid Edition"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/greens-tweaks-fluid/624c65136fc1476b1e7123fd";  
-      name = "greens-tweaks-fluid_0.0.4.zip"; 
-      sha1 = "b8d2fb3a68b23102ac9403dab33999a774030a10"; 
+      url = "https://mods.factorio.com/download/greens-tweaks-fluid/63616654321a67b094934e03";  
+      name = "greens-tweaks-fluid_0.0.5.zip"; 
+      sha1 = "789aa8ff75fdccdf19e2b8893b97710c5775ba79"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -38435,12 +38423,12 @@ let
   nullius-ja = modDrv {
     name = "Japanese translation for Nullius"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/nullius-ja/6306e1f11b836f15b20a201d";  
-      name = "nullius-ja_0.3.3.zip"; 
-      sha1 = "37cc0a3a9371fbb9169c51a5d6923c0279da8ab5"; 
+      url = "https://mods.factorio.com/download/nullius-ja/63798adc789739eea0c9a17b";  
+      name = "nullius-ja_0.4.1.zip"; 
+      sha1 = "05157e539e9652294979b2b79a88a69ad4a41989"; 
     };
     deps = [ nullius ];
-    optionalDeps = [  ];
+    optionalDeps = [ informatron ];
     recommendedDeps = []; 
  }; 
 
@@ -38663,9 +38651,9 @@ let
   m-rpg_items = modDrv {
     name = "RPG Items"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/m-rpg_items/6301c3f6e3ae014145dc1f77";  
-      name = "m-rpg_items_0.21.2.zip"; 
-      sha1 = "bf6341a0f57f724743f08233694628cced07dd31"; 
+      url = "https://mods.factorio.com/download/m-rpg_items/637685696cf185150fe3c8f4";  
+      name = "m-rpg_items_0.21.5.zip"; 
+      sha1 = "4fb803a9f9b1ccf3df608e7f8d00024413a17029"; 
     };
     deps = [  ];
     optionalDeps = [ m-spell-pack ];
@@ -39311,9 +39299,9 @@ let
   EasyAPI = modDrv {
     name = "Easy API [ALPHA]"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/EasyAPI/62ea5ecfefcf0496424f227b";  
-      name = "EasyAPI_0.9.11.zip"; 
-      sha1 = "64c6b34d4ea200e9793fddf28b7e2f87e942acba"; 
+      url = "https://mods.factorio.com/download/EasyAPI/637115a92024262b14858728";  
+      name = "EasyAPI_0.9.12.zip"; 
+      sha1 = "1080a4f1c14aa0a559f8aa0af1f615ac312e2d27"; 
     };
     deps = [ zk-lib ];
     optionalDeps = [ gvv ];
@@ -39479,9 +39467,9 @@ let
   Li-VariationFactory = modDrv {
     name = "变异工厂"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Li-VariationFactory/63205ada571b235593889559";  
-      name = "Li-VariationFactory_1.0.9.zip"; 
-      sha1 = "102a00eae10a731b581fb1bbb1abe291901acd8a"; 
+      url = "https://mods.factorio.com/download/Li-VariationFactory/6361e985b9ee2c057c0b3fda";  
+      name = "Li-VariationFactory_1.1.0.zip"; 
+      sha1 = "18772fd06148ad4f08e642bc45a44ac56f880bf1"; 
     };
     deps = [  ];
     optionalDeps = [ Krastorio2 IndustrialRevolution space-exploration space-exploration-postprocess ];
@@ -39923,9 +39911,9 @@ let
   MT-heaters = modDrv {
     name = "MT Heaters"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/MT-heaters/62acb5791bfe2eb053baa6cb";  
-      name = "MT-heaters_0.4.5.zip"; 
-      sha1 = "6272e5e29ec25662878eaa7752a15d9fc6ca00af"; 
+      url = "https://mods.factorio.com/download/MT-heaters/6372770dced30018dff28bb2";  
+      name = "MT-heaters_0.4.7.zip"; 
+      sha1 = "22e9220c443a7a45a9788a5102d9ff7cbb4d1413"; 
     };
     deps = [ en-gb ];
     optionalDeps = [ Krastorio2 KS_Power bzvery ];
@@ -39947,9 +39935,9 @@ let
   burner-power-progression = modDrv {
     name = "Burner Power Progression"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/burner-power-progression/6159f137c83a70c9eb4411c8";  
-      name = "burner-power-progression_0.0.3.zip"; 
-      sha1 = "71be418769cbe56ab710efc401b31aba293b28a4"; 
+      url = "https://mods.factorio.com/download/burner-power-progression/636547d3851c6a3f008f042a";  
+      name = "burner-power-progression_0.0.4.zip"; 
+      sha1 = "34b07a29e76a2bae34fb1481cb4a1105ae02be72"; 
     };
     deps = [  ];
     optionalDeps = [ bobpower bobplates angelspetrochem angelsbioprocessing aai-industry ];
@@ -39959,9 +39947,9 @@ let
   seablock-evil-mode = modDrv {
     name = "Sea Block - Evil mode"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/seablock-evil-mode/625f0174668d0adc129c45d3";  
-      name = "seablock-evil-mode_0.0.8.zip"; 
-      sha1 = "a7dbf0f59bea72840c5380074a88f314f9a322a4"; 
+      url = "https://mods.factorio.com/download/seablock-evil-mode/636547e6c56fa3843c8bd205";  
+      name = "seablock-evil-mode_0.0.9.zip"; 
+      sha1 = "6e9b80d477d3e4912ccde96f779541cb886347e4"; 
     };
     deps = [ SeaBlock ScienceCostTweakerM angelsrefining burner-power-progression ];
     optionalDeps = [  ];
@@ -40679,9 +40667,9 @@ let
   money-UI = modDrv {
     name = "Money UI (extension for EasyAPI)"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/money-UI/628a0f3d52a50fa332281a8e";  
-      name = "money-UI_0.9.2.zip"; 
-      sha1 = "aee5df62da1b68c240ce506de0c04c6781133dd1"; 
+      url = "https://mods.factorio.com/download/money-UI/63664c726fc29c869b090f73";  
+      name = "money-UI_0.9.4.zip"; 
+      sha1 = "9ffd269a8d4ecc11c32be3598d9e0b7b5fb99eda"; 
     };
     deps = [ zk-lib EasyAPI ];
     optionalDeps = [ gvv ];
@@ -41087,9 +41075,9 @@ let
   techs_for_science = modDrv {
     name = "Techs for money (extension for EasyAPI)"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/techs_for_science/613cae1d97b0a0c5903149c6";  
-      name = "techs_for_science_0.5.0.zip"; 
-      sha1 = "929ae48f89264d7949bc7cdd53fb5bdc243971ed"; 
+      url = "https://mods.factorio.com/download/techs_for_science/63662cf415880bba8d5de87c";  
+      name = "techs_for_science_0.5.2.zip"; 
+      sha1 = "8a491c97ede088a8b1b1ae0d93e62fe600c27f8e"; 
     };
     deps = [ EasyAPI ];
     optionalDeps = [  ];
@@ -41147,12 +41135,12 @@ let
   PrivateElectricity = modDrv {
     name = "Private electricity [Switchable mod]"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/PrivateElectricity/6194aed0f35675ec9384d244";  
-      name = "PrivateElectricity_1.0.2.zip"; 
-      sha1 = "5e34beceaa97c8ca981950eafe80d05b32f823f0"; 
+      url = "https://mods.factorio.com/download/PrivateElectricity/63691c60308547202803a614";  
+      name = "PrivateElectricity_1.1.2.zip"; 
+      sha1 = "e16ad8439e16787e644ebf9db68d741f94c49fa3"; 
     };
     deps = [  ];
-    optionalDeps = [ switchable_mods ];
+    optionalDeps = [ switchable_mods zk-lib ];
     recommendedDeps = []; 
  }; 
 
@@ -41927,9 +41915,9 @@ let
   useful_book = modDrv {
     name = "Useful book (customizable scripts and more)"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/useful_book/635100936f8eec2a69e59440";  
-      name = "useful_book_0.20.0.zip"; 
-      sha1 = "2bbf1a7296187380a5a0e4033a31e26c0b0f2f5f"; 
+      url = "https://mods.factorio.com/download/useful_book/636a3a40978cf1304477396e";  
+      name = "useful_book_0.20.4.zip"; 
+      sha1 = "9d2f8dd16259c7af59670b93a68357899ba882f4"; 
     };
     deps = [ zk-lib ];
     optionalDeps = [ gvv AARR ];
@@ -42323,9 +42311,9 @@ let
   Krastorio2Assets = modDrv {
     name = "Krastorio 2 Assets"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Krastorio2Assets/62a159261d630b1353ae0d4f";  
-      name = "Krastorio2Assets_1.2.0.zip"; 
-      sha1 = "567d23a5500d0c98e9a15b067784bbbfa5890489"; 
+      url = "https://mods.factorio.com/download/Krastorio2Assets/637324c46ea252725429adb7";  
+      name = "Krastorio2Assets_1.2.1.zip"; 
+      sha1 = "a7db4435657adf9ed78799c72b0262e56346aa80"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -42755,9 +42743,9 @@ let
   holographic_signs = modDrv {
     name = "Holographic Signs"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/holographic_signs/6300cf3c713cf199a7ba4832";  
-      name = "holographic_signs_1.0.3.zip"; 
-      sha1 = "c0e6755a638350f7bf69fe294346bb96ef0edbef"; 
+      url = "https://mods.factorio.com/download/holographic_signs/636a177633e59b76581ca341";  
+      name = "holographic_signs_1.0.5.zip"; 
+      sha1 = "6240fcf91b0cc1db57dab3a2e4a8673110cc13a7"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -43091,9 +43079,9 @@ let
   car_defenes = modDrv {
     name = "[ Scenarios ]car_defenes"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/car_defenes/635537c611854e33dcf39eb7";  
-      name = "car_defenes_3.6.3.zip"; 
-      sha1 = "a642cac48af21242a1d240355e86226af69374bb"; 
+      url = "https://mods.factorio.com/download/car_defenes/6378c2e9789739eea0c9a16d";  
+      name = "car_defenes_3.6.7.zip"; 
+      sha1 = "24ef157081a6b5b509de23f8c45b15e74ce76b99"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -43139,9 +43127,9 @@ let
   Mass-Renamer = modDrv {
     name = "Mass-Renamer"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Mass-Renamer/617664eaeb75ee3c6910a959";  
-      name = "Mass-Renamer_0.1.0.zip"; 
-      sha1 = "79ef8e7c42f514c3c3ef1f72ce03cab3238e2ae5"; 
+      url = "https://mods.factorio.com/download/Mass-Renamer/636f55d18805d5afe43335d4";  
+      name = "Mass-Renamer_0.1.1.zip"; 
+      sha1 = "cc9cd229fad7d62c4d25c1c33188504cb3494eec"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -43559,9 +43547,9 @@ let
   iFreeMarket = modDrv {
     name = "Free market + bottomless storage [PRE-BETA]"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/iFreeMarket/6343e6f67258daf147d4319e";  
-      name = "iFreeMarket_0.36.13.zip"; 
-      sha1 = "516e8cb1ed1e0c929c1f28f9b696a461401b4291"; 
+      url = "https://mods.factorio.com/download/iFreeMarket/636df0cc50b54b1e40c5b6b1";  
+      name = "iFreeMarket_0.36.19.zip"; 
+      sha1 = "d46f2b169d8bcc44616d4d4c41f7c8554815d212"; 
     };
     deps = [ zk-lib EasyAPI money-UI flib ];
     optionalDeps = [ gvv ];
@@ -43643,9 +43631,9 @@ let
   MoneyPrinter = modDrv {
     name = "Money printer [extension for EasyAPI]"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/MoneyPrinter/61a4f23d16c292113f22d303";  
-      name = "MoneyPrinter_0.1.3.zip"; 
-      sha1 = "cf00c0ea4876ba703929768498b191f6db2249f2"; 
+      url = "https://mods.factorio.com/download/MoneyPrinter/6367ef7117d270c1eb71297a";  
+      name = "MoneyPrinter_0.1.4.zip"; 
+      sha1 = "51b3cedb54e27959749205de96fde48682e76b64"; 
     };
     deps = [  ];
     optionalDeps = [ EasyAPI ];
@@ -43799,9 +43787,9 @@ let
   mining-patch-planner = modDrv {
     name = "Mining patch planner"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/mining-patch-planner/6344c43b4ccb8d8207f4f265";  
-      name = "mining-patch-planner_1.3.0.zip"; 
-      sha1 = "cf3b9dd8b00f5d66a930073221bd41a2d25f4138"; 
+      url = "https://mods.factorio.com/download/mining-patch-planner/63723c910d02ae607cb87a8b";  
+      name = "mining-patch-planner_1.3.2.zip"; 
+      sha1 = "f9351c3726458bb7008058f25c31adba0ed12ac1"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -43883,9 +43871,9 @@ let
   TaskList = modDrv {
     name = "Task List"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/TaskList/622d336dbf34cc6fd886a88f";  
-      name = "TaskList_0.4.2.zip"; 
-      sha1 = "05ed92c13a14883f2db9b90df1e176219d3e034a"; 
+      url = "https://mods.factorio.com/download/TaskList/6371ab202024262b14858732";  
+      name = "TaskList_0.4.3.zip"; 
+      sha1 = "6726e61fdade533e2f45d89d598dd09eb96a94f4"; 
     };
     deps = [ flib ];
     optionalDeps = [  ];
@@ -43979,9 +43967,9 @@ let
   fkplus = modDrv {
     name = "游戏内多属性加强"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/fkplus/6302d01c2f798793216cd1f6";  
-      name = "fkplus_1.7.1.zip"; 
-      sha1 = "15cf3dd0980db26eb10ffa0173b4e46ba5b94d3b"; 
+      url = "https://mods.factorio.com/download/fkplus/63761bc6155c30d496f434b8";  
+      name = "fkplus_1.8.1.zip"; 
+      sha1 = "fb9e95251db5f4b698c96b97141ad74e3b596cf1"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -44075,9 +44063,9 @@ let
   Constructron-Continued = modDrv {
     name = "Constructron-Continued"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Constructron-Continued/635e6a0c569a1ec19026f97b";  
-      name = "Constructron-Continued_1.0.40.zip"; 
-      sha1 = "f2d6a94ab30ccce818e7cc19a1d36095c3c4eaee"; 
+      url = "https://mods.factorio.com/download/Constructron-Continued/63718c887afc6ace41a5cd42";  
+      name = "Constructron-Continued_1.0.45.zip"; 
+      sha1 = "c093a6dae1e79b6bed246ba62824adb1997ed664"; 
     };
     deps = [  ];
     optionalDeps = [ dynamnic-robot-queues ];
@@ -44183,12 +44171,12 @@ let
   battery-powered = modDrv {
     name = "Battery Powered"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/battery-powered/62bf5f2a9feef074d8485913";  
-      name = "battery-powered_1.2.0.zip"; 
-      sha1 = "71bc0f7f5e29a365ccb69916062599d2e1651ca4"; 
+      url = "https://mods.factorio.com/download/battery-powered/63768b63155c30d496f434c2";  
+      name = "battery-powered_1.3.0.zip"; 
+      sha1 = "3910e3a4d1ad957b8678df29e7f6d02fad0d1176"; 
     };
     deps = [  ];
-    optionalDeps = [ deadlock-beltboxes-loaders space-exploration Krastorio2 Krastorio2Assets Deadlock-SE-bridge angelsaddons-mobility se-space-trains aai-vehicles-chaingunner aai-vehicles-flame-tank aai-vehicles-flame-tumbler aai-vehicles-hauler aai-vehicles-laser-tank aai-vehicles-warden ];
+    optionalDeps = [ deadlock-beltboxes-loaders space-exploration Krastorio2 Krastorio2Assets jetpack Portable_power Deadlock-SE-bridge angelsaddons-mobility se-space-trains aai-vehicles-chaingunner aai-vehicles-flame-tank aai-vehicles-flame-tumbler aai-vehicles-hauler aai-vehicles-laser-tank aai-vehicles-warden ];
     recommendedDeps = []; 
  }; 
 
@@ -44351,12 +44339,12 @@ let
   RampantFixed = modDrv {
     name = "Rampant, fixed"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/RampantFixed/633f1bf54cf133e89b5c859f";  
-      name = "RampantFixed_1.3.5.zip"; 
-      sha1 = "72cb02f98c84bb8e0dff6f78de31b53bae2c65f8"; 
+      url = "https://mods.factorio.com/download/RampantFixed/6362a8baefa22e0ddae585e9";  
+      name = "RampantFixed_1.4.1.zip"; 
+      sha1 = "08670a0bebbc5b4e861f5fa2809ce78b88668dbb"; 
     };
     deps = [  ];
-    optionalDeps = [  ];
+    optionalDeps = [ Arachnids ];
     recommendedDeps = []; 
  }; 
 
@@ -44411,9 +44399,9 @@ let
   alternative-starts-updated = modDrv {
     name = "Alternative Starts Updated"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/alternative-starts-updated/61bcfae0eac399505205ac50";  
-      name = "alternative-starts-updated_0.6.1.zip"; 
-      sha1 = "55ee670390a65904aa61209f81469751548ab204"; 
+      url = "https://mods.factorio.com/download/alternative-starts-updated/6365d8308d572e591b979c0d";  
+      name = "alternative-starts-updated_0.6.2.zip"; 
+      sha1 = "59661b54754ffea3bc58f654a4c3ba45437262f5"; 
     };
     deps = [  ];
     optionalDeps = [ boblogistics ];
@@ -44531,11 +44519,11 @@ let
   jwwolff-mod-pack = modDrv {
     name = "Jwwolff's Mod Pack"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/jwwolff-mod-pack/62b5053658970746c990881c";  
-      name = "jwwolff-mod-pack_0.0.3.zip"; 
-      sha1 = "19cee2bd52a61447a951d2103b25c326a35b2da4"; 
+      url = "https://mods.factorio.com/download/jwwolff-mod-pack/6366baf3d626f1e4b08125d9";  
+      name = "jwwolff-mod-pack_0.0.5.zip"; 
+      sha1 = "54745fb52906ff80d3524b1097f0ee5da362462c"; 
     };
-    deps = [ angelsaddons-storage angelsbioprocessing angelsexploration angelsindustries angelsinfiniteores angelspetrochem angelsrefining angelssmelting Automatic_Train_Painter bobinserters Bottleneck Clockwork Crafting_Speed_Research even-distribution far-reach Fill4Me FNEI GDIW HandyHands power-grid-comb production-potential Rampant RampantEvolution Squeak-Through tree_collision Todo-List VehicleSnap YARM sonaxaton-research-queue flib bobassembly bobelectronics bobenemies bobequipment boblibrary boblogistics bobmining bobmodules bobores bobplates bobpower bobrevamp bobtech bobvehicleequipment bobwarfare reskins-angels reskins-bobs reskins-compatibility reskins-library ];
+    deps = [ angelsaddons-storage angelsbioprocessing angelsexploration angelsindustries angelsinfiniteores angelspetrochem angelsrefining angelssmelting Automatic_Train_Painter bobinserters Bottleneck Clockwork Crafting_Speed_Research even-distribution far-reach Fill4Me FNEI GDIW HandyHands power-grid-comb production-potential Rampant RampantEvolution Squeak-Through tree_collision Todo-List VehicleSnap YARM sonaxaton-research-queue flib bobassembly bobelectronics bobenemies bobequipment boblibrary boblogistics bobmining bobmodules bobores bobplates bobpower bobrevamp bobtech bobvehicleequipment bobwarfare reskins-angels reskins-bobs reskins-compatibility reskins-library helmod PipeVisualizer GUI_Unifyer Clowns-Extended-Minerals Clowns-AngelBob-Nuclear Clowns-Nuclear Clowns-Processing ClosestFirstOneDotOne rso-mod ];
     optionalDeps = [  ];
     recommendedDeps = []; 
  }; 
@@ -44615,9 +44603,9 @@ let
   Warmonger = modDrv {
     name = "Warmonger"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Warmonger/63198e8f6403044bc3cc2c61";  
-      name = "Warmonger_1.3.14.zip"; 
-      sha1 = "b3c141d9ebe2fc457062d0e400e363d4bb4dec61"; 
+      url = "https://mods.factorio.com/download/Warmonger/637bab3b22734bb82bdd8dae";  
+      name = "Warmonger_1.3.15.zip"; 
+      sha1 = "e374bf4dfd65220385a7fff0e447a2d6387a3a79"; 
     };
     deps = [ flib ];
     optionalDeps = [ RampantArsenal RampantIndustry Rampant IndustrialRevolution pycoalprocessing ];
@@ -44783,9 +44771,9 @@ let
   K2ImpossibleModeFixes = modDrv {
     name = "K2ImpossibleModeFixes"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/K2ImpossibleModeFixes/62d1ba633227d2ab70c1be04";  
-      name = "K2ImpossibleModeFixes_1.1.8.zip"; 
-      sha1 = "d7afc8d14ebd37833f056d5d43566bf3237a4c98"; 
+      url = "https://mods.factorio.com/download/K2ImpossibleModeFixes/6365738b358f36ed84c672da";  
+      name = "K2ImpossibleModeFixes_1.1.9.zip"; 
+      sha1 = "197d7cd7db86c6884202f61cecacc3b2a579df4d"; 
     };
     deps = [ Krastorio2 ];
     optionalDeps = [ LogisticTrainNetwork aai-programmable-vehicles ];
@@ -45719,12 +45707,12 @@ let
   MyModPackMuit = modDrv {
     name = "MyModPackMuit"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/MyModPackMuit/632593dadfe6eb987a367f22";  
-      name = "MyModPackMuit_1.3.0.zip"; 
-      sha1 = "5972ed443df943cc5b2bd920f782203f1659fbcc"; 
+      url = "https://mods.factorio.com/download/MyModPackMuit/63636b6a67c9c38c94624905";  
+      name = "MyModPackMuit_1.3.1.zip"; 
+      sha1 = "5390af635061ff26be1e226af2e3b67364b4c85e"; 
     };
-    deps = [ Advanced_Modules angelsaddons-storage angelsbioprocessing angelsindustries angelslocaleja_RE angelspetrochem angelsrefining angelssmelting angelssmelting-extended-upgradet Bio_Industries bobassembly bobelectronics bobenemies bobequipment bobinserters boblibrary boblogistics bobmining bobores bobplates bobpower bobrevamp bobtech bobvehicleequipment bobwarfare Clowns-AngelBob-Nuclear Clowns-Extended-Minerals Clowns-Nuclear Clowns-Processing Clowns-Science CopyPasteModules Crafting_Speed_Research DarkModules Enhanced_Map_Colors even-distribution extendedangels flib FNEI helmod LightedPolesPlus MegaBotStart miniloader more-module-slots multi-product-recipe-details no-productivity-modules PCPRedux py-locale-ja-onsen pyalienlife pyalienlifegraphics pyalienlifegraphics2 pyalienlifegraphics3 pycoalprocessing pycoalprocessinggraphics PyCoalTBaA pyfusionenergy pyfusionenergygraphics pyhightech pyhightechgraphics pyindustry pypetroleumhandling pypetroleumhandlinggraphics pyrawores pyraworesgraphics qol_research reskins-angels reskins-bobs reskins-library Robot_Battery_Research RPGsystem SchallAutolinkedChest ScriptLib Script_Config_Start shield-generators shield-projector Squeak-Through stdlib TarawindBeaconsRE Teleporters Transport_Drones Void-Works Waterfill_v17 WaterWell ];
-    optionalDeps = [  ];
+    deps = [ Advanced_Modules angelsaddons-storage angelsbioprocessing angelsindustries angelslocaleja_RE angelspetrochem angelsrefining angelssmelting angelssmelting-extended-upgradet Bio_Industries bobassembly bobelectronics bobenemies bobequipment bobinserters boblibrary boblogistics bobmining bobores bobplates bobpower bobrevamp bobtech bobvehicleequipment bobwarfare Clowns-AngelBob-Nuclear Clowns-Extended-Minerals Clowns-Nuclear Clowns-Processing Clowns-Science CopyPasteModules Crafting_Speed_Research DarkModules Enhanced_Map_Colors even-distribution extendedangels flib FNEI helmod LightedPolesPlus MegaBotStart miniloader more-module-slots multi-product-recipe-details no-productivity-modules PCPRedux py-locale-ja-onsen pyalienlife pyalienlifegraphics pyalienlifegraphics2 pyalienlifegraphics3 pycoalprocessing pycoalprocessinggraphics PyCoalTBaA pyfusionenergy pyfusionenergygraphics pyhightech pyhightechgraphics pyindustry pypetroleumhandling pypetroleumhandlinggraphics pyrawores pyraworesgraphics qol_research reskins-angels reskins-bobs reskins-library Robot_Battery_Research RPGsystem SchallAutolinkedChest ScriptLib Script_Config_Start shield-generators shield-projector Squeak-Through stdlib TarawindBeaconsRE Teleporters Void-Works Waterfill_v17 WaterWell ];
+    optionalDeps = [ Transport_Drones ];
     recommendedDeps = []; 
  }; 
 
@@ -45983,9 +45971,9 @@ let
   ncxz-expand = modDrv {
     name = "ncxz-expand"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/ncxz-expand/62d3afd7384a8d9d467121bc";  
-      name = "ncxz-expand_0.0.9.zip"; 
-      sha1 = "c3f6ac899ffb204c85033ec0f171c21880a9ac82"; 
+      url = "https://mods.factorio.com/download/ncxz-expand/637080b1ee728cff21924572";  
+      name = "ncxz-expand_0.1.0.zip"; 
+      sha1 = "21e52bbda4e9627a5bdb3cb8ac93106db801b7e0"; 
     };
     deps = [  ];
     optionalDeps = [ space-exploration Krastorio2 ];
@@ -46739,9 +46727,9 @@ let
   chinese = modDrv {
     name = "开源中文汉化语言包"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/chinese/630d7b1a351b22b6501f2c88";  
-      name = "chinese_1.1.92.zip"; 
-      sha1 = "0bd8129f6a0b932aec410462523cd4c4b06eaf4d"; 
+      url = "https://mods.factorio.com/download/chinese/6375a59dc633e3affa475dc4";  
+      name = "chinese_1.1.95.zip"; 
+      sha1 = "dcd66f1dc333115bac95ffb17dba16cf3a353c10"; 
     };
     deps = [  ];
     optionalDeps = [ pychinese IndustrialRevolution_Language_Pack ];
@@ -46763,9 +46751,9 @@ let
   embedded-power-poles = modDrv {
     name = "Embedded Power Poles"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/embedded-power-poles/61e246cc92f354912bb494e0";  
-      name = "embedded-power-poles_2022.01.15.zip"; 
-      sha1 = "f684750aedde6f8bfa5c81026c1b9500b5c39cf3"; 
+      url = "https://mods.factorio.com/download/embedded-power-poles/636b2c45b883f527301f0379";  
+      name = "embedded-power-poles_2022.11.09.zip"; 
+      sha1 = "a6759c2c6a8c64cf12fc081d7c4dbac9618858ae"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -47111,9 +47099,9 @@ let
   osm-radioactivity = modDrv {
     name = "Radioactivity Kills Slowly"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/osm-radioactivity/63533ae6d62a0579d284b841";  
-      name = "osm-radioactivity_1.1.31.zip"; 
-      sha1 = "2e6d1e310d3f3ea0e46485d0bcb385b5d9d23a86"; 
+      url = "https://mods.factorio.com/download/osm-radioactivity/637428ebc509271619c5929d";  
+      name = "osm-radioactivity_1.1.36.zip"; 
+      sha1 = "e0a979f0d012b30624fc7729b27533071b2426ee"; 
     };
     deps = [ osm-lib ];
     optionalDeps = [ bobores bobplates angelsrefining Clowns-Nuclear Clowns-AngelBob-Nuclear apm_nuclear_ldinc ];
@@ -47601,11 +47589,11 @@ let
  }; 
 
   EnchantedNuclearPort = modDrv {
-    name = "Enchanted Nuclear Port"; 
+    name = "Enchanted Nuclear"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/EnchantedNuclearPort/62c9c0ff7308a6dee94d4d91";  
-      name = "EnchantedNuclearPort_0.3.0.zip"; 
-      sha1 = "a286a2394a32da46c98311c197dfdf3e5ebb3f90"; 
+      url = "https://mods.factorio.com/download/EnchantedNuclearPort/6375bc6e0f6f8b97dda3483f";  
+      name = "EnchantedNuclearPort_0.3.1.zip"; 
+      sha1 = "c605d37c6543654a1bfd36e93ec80262402d4e0d"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -47747,9 +47735,9 @@ let
   bzaluminum = modDrv {
     name = "Aluminum"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/bzaluminum/63350f62366d09125ed939ac";  
-      name = "bzaluminum_0.4.15.zip"; 
-      sha1 = "172fa0137eecaf83ed146b627abc9cb8d625c3d6"; 
+      url = "https://mods.factorio.com/download/bzaluminum/637ad4fa7ebd5b7c12cb8e8f";  
+      name = "bzaluminum_0.4.17.zip"; 
+      sha1 = "f722dbb639d83d7f926a1ffe51ed108560706726"; 
     };
     deps = [ bzfoundry ];
     optionalDeps = [ bztitanium bzlead bzzirconium bztungsten bzcarbon space-exploration aai-industry Krastorio2 sand-and-glass n248k deadlock-beltboxes-loaders DeadlockCrating ];
@@ -47939,9 +47927,9 @@ let
   biter_revive = modDrv {
     name = "Biter Revive"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/biter_revive/63585a5b9c07d6bc75af6106";  
-      name = "biter_revive_1.1.2.zip"; 
-      sha1 = "ded7b7dc32d17381160785ec3364a7f6d1f2b0d2"; 
+      url = "https://mods.factorio.com/download/biter_revive/6369243025c1da4ad7661300";  
+      name = "biter_revive_1.1.3.zip"; 
+      sha1 = "50967cdd966a734f033e109fb798f0e74bc8d8e0"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -48155,11 +48143,11 @@ let
   DBase = modDrv {
     name = "Duplicate base (extension for EasyAPI)"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/DBase/62076ccc2adbb851d2d74d24";  
-      name = "DBase_0.5.3.zip"; 
-      sha1 = "55c3cdd76c052ba56985ce516e9196707b019334"; 
+      url = "https://mods.factorio.com/download/DBase/636d2ce2290532c4cdbb95a6";  
+      name = "DBase_0.5.4.zip"; 
+      sha1 = "811f8b474a0e5cf547111e5d705f75c89cd7e68b"; 
     };
-    deps = [ zk-lib ];
+    deps = [ zk-lib EasyAPI ];
     optionalDeps = [  ];
     recommendedDeps = []; 
  }; 
@@ -48167,12 +48155,12 @@ let
   BTeams = modDrv {
     name = "Better teams (extension for EasyAPI)[PRE-ALPHA]"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/BTeams/62790c42162c4ba8e806c9c3";  
-      name = "BTeams_0.0.10.zip"; 
-      sha1 = "a9c885b94d38222802b63f09ef3f4bca3ccc706f"; 
+      url = "https://mods.factorio.com/download/BTeams/6366aa71f695d003c1a0d003";  
+      name = "BTeams_0.0.13.zip"; 
+      sha1 = "b6515b9da7c5d0a670664ceb6873d70c8b569247"; 
     };
     deps = [ flib EasyAPI zk-lib DBase ];
-    optionalDeps = [  ];
+    optionalDeps = [ gvv ];
     recommendedDeps = []; 
  }; 
 
@@ -49079,9 +49067,9 @@ let
   void-miners-extended = modDrv {
     name = "Void Miners 2 Extended"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/void-miners-extended/635e58feb85fbbb962bc2a82";  
-      name = "void-miners-extended_2.2.3.zip"; 
-      sha1 = "4a7424a29955eb5d2f86f0cf29138bcf43e5b886"; 
+      url = "https://mods.factorio.com/download/void-miners-extended/6361a1eafd8c1c41455bf0ef";  
+      name = "void-miners-extended_2.2.5.zip"; 
+      sha1 = "278ea829b2171926174ae307328d99ed5fc07fa4"; 
     };
     deps = [  ];
     optionalDeps = [ bzaluminium bzcarbon bzlead bztin bztitanium bztungsten bzzirconium bzgas Krastorio2 space-exploration ];
@@ -49679,12 +49667,12 @@ let
   statics-changes = modDrv {
     name = "Static's Changes"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/statics-changes/623767c1cd595a666546e399";  
-      name = "statics-changes_0.0.1.zip"; 
-      sha1 = "0f453d088f164a37159dc37474a16521a70f32fc"; 
+      url = "https://mods.factorio.com/download/statics-changes/63671362398c292b702f667c";  
+      name = "statics-changes_0.0.2.zip"; 
+      sha1 = "455a737357b350db1613801d4a7ff2b9f1e833b3"; 
     };
-    deps = [ Krastorio2 True-Nukes bztitanium Krastorio2_Modules_Updated ];
-    optionalDeps = [  ];
+    deps = [  ];
+    optionalDeps = [ Krastorio2 True-Nukes bztitanium Krastorio2_Modules_Updated RampantArsenal ];
     recommendedDeps = []; 
  }; 
 
@@ -50039,9 +50027,9 @@ let
   Atomic_Overhaul = modDrv {
     name = "Atomic Overhaul"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Atomic_Overhaul/6338c48960d86d243f8a5f92";  
-      name = "Atomic_Overhaul_1.3.4.zip"; 
-      sha1 = "e7e3e3317fce5d906aaa7b331b1b87b976ffb85d"; 
+      url = "https://mods.factorio.com/download/Atomic_Overhaul/6363971af3b843008557e78c";  
+      name = "Atomic_Overhaul_1.3.5.zip"; 
+      sha1 = "e5483e173be3e24fa5535bd221a1553d5bec6248"; 
     };
     deps = [  ];
     optionalDeps = [ RealisticReactors ];
@@ -50123,9 +50111,9 @@ let
   Electric-Trains-Redux = modDrv {
     name = "Electric Trains Redux"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Electric-Trains-Redux/62d2b00d384a8d9d467121b3";  
-      name = "Electric-Trains-Redux_0.0.10.zip"; 
-      sha1 = "1fed63f8a9b2c565eafa9295e5652018340056ef"; 
+      url = "https://mods.factorio.com/download/Electric-Trains-Redux/636807be167a1a10406f6926";  
+      name = "Electric-Trains-Redux_0.0.11.zip"; 
+      sha1 = "362cef009e056d449740d950ee3aa8a178f33993"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -50243,9 +50231,9 @@ let
   blueprint-sandboxes = modDrv {
     name = "Blueprint Sandboxes"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/blueprint-sandboxes/631520788a58069e72249628";  
-      name = "blueprint-sandboxes_1.10.1.zip"; 
-      sha1 = "d291054c9bb253ac11175c00d1d8d32cc0d08f39"; 
+      url = "https://mods.factorio.com/download/blueprint-sandboxes/636bf33b59463f0b54c8471f";  
+      name = "blueprint-sandboxes_1.11.1.zip"; 
+      sha1 = "03c03d630136e5dd2cadbddb075ae5c85a45cfab"; 
     };
     deps = [  ];
     optionalDeps = [ space-exploration Cursed-FMD factorissimo-2-notnotmelon ];
@@ -50879,9 +50867,9 @@ let
   GetWiresBack = modDrv {
     name = "Get Wires back"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/GetWiresBack/633eedbd4cf133e89b5c859e";  
-      name = "GetWiresBack_1.1.3.zip"; 
-      sha1 = "0e54121aa4421cbc27db04bd7ca9f6fcb7e61a93"; 
+      url = "https://mods.factorio.com/download/GetWiresBack/6370d9b963f9ccb8535c9989";  
+      name = "GetWiresBack_1.1.4.zip"; 
+      sha1 = "da15efdda6afe101d2167e84ad30e15b1061cd03"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -50903,9 +50891,9 @@ let
   biters_drop_money = modDrv {
     name = "Biters drop money"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/biters_drop_money/627bd75567d20fd32ff4d28c";  
-      name = "biters_drop_money_0.9.2.zip"; 
-      sha1 = "c8584aaf04dfb30ec02e4255eac3b1d818efb321"; 
+      url = "https://mods.factorio.com/download/biters_drop_money/637281551c1d8e1b0b0a650f";  
+      name = "biters_drop_money_0.9.7.zip"; 
+      sha1 = "1990e221e42441cd55cfe2b84c3ca078f8fd8a03"; 
     };
     deps = [  ];
     optionalDeps = [ EasyAPI ];
@@ -51575,9 +51563,9 @@ let
   seplus = modDrv {
     name = "太空加强组件"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/seplus/635c3057fb9f02cfb7c72a2b";  
-      name = "seplus_1.5.0.zip"; 
-      sha1 = "a0dec6ceff9365c37d02e7d4e41b08fba069e1e0"; 
+      url = "https://mods.factorio.com/download/seplus/6365e44a3f60c86a1089b92e";  
+      name = "seplus_1.5.5.zip"; 
+      sha1 = "503c07beedbc5afbecf4ccfd3b6774da4d367830"; 
     };
     deps = [ space-exploration space-exploration-postprocess aai-containers aai-industry ];
     optionalDeps = [  ];
@@ -51983,9 +51971,9 @@ let
   Hive_Mind_MitchPlay = modDrv {
     name = "Hive Mind MitchPlay: Default"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Hive_Mind_MitchPlay/635d9ae73354be7c5b2a978e";  
-      name = "Hive_Mind_MitchPlay_0.2.4.zip"; 
-      sha1 = "7eb6a3c6f07dc70e9df1a9b4e3dbcb643b054ead"; 
+      url = "https://mods.factorio.com/download/Hive_Mind_MitchPlay/636f65efef02ef1a7d098e69";  
+      name = "Hive_Mind_MitchPlay_0.2.5.zip"; 
+      sha1 = "f0781c9d4286864ea9aad561d91b42dfbff93c0e"; 
     };
     deps = [ Unit_Control ];
     optionalDeps = [ MitchPlayHiveMindClasses ArmouredBiters bobenemies Cold_biters Explosive_biters RampentFixed ];
@@ -52619,9 +52607,9 @@ let
   New-signal-colors = modDrv {
     name = "New signal colors"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/New-signal-colors/6283293f4744b764d2217f7a";  
-      name = "New-signal-colors_1.1.0.zip"; 
-      sha1 = "06d91b40a33d521b0b4bf04a9730b90e0d3dc480"; 
+      url = "https://mods.factorio.com/download/New-signal-colors/636818e66802cae7464162a4";  
+      name = "New-signal-colors_1.2.0.zip"; 
+      sha1 = "32d10c3f42dbf311c9dd2acc1acb7485faabd7cd"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -52751,12 +52739,12 @@ let
   en-gb = modDrv {
     name = "British English"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/en-gb/62b3865bd12c70e27db5ab1c";  
-      name = "en-gb_0.1.5.zip"; 
-      sha1 = "09b61c3573933a136a84c80e19bf78443faf1c0e"; 
+      url = "https://mods.factorio.com/download/en-gb/636f9bd08878e36d4e9828a0";  
+      name = "en-gb_0.1.6.zip"; 
+      sha1 = "01ec34ea6c6d6584972e6d99f5af479c0b7627da"; 
     };
     deps = [  ];
-    optionalDeps = [ base Krastorio2 cargo-ships bztitanium bzlead bzsilicon bztungsten bzzirconium bzcarbon bzfoundry bzaluminum ArmouredBiters Armor_pockets ];
+    optionalDeps = [  ];
     recommendedDeps = []; 
  }; 
 
@@ -52775,12 +52763,12 @@ let
   BrassTacks = modDrv {
     name = "Brass Tacks"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/BrassTacks/633289668ddd9e92704a804d";  
-      name = "BrassTacks_1.1.4.zip"; 
-      sha1 = "d9fce95b7f1e1f6a81c93fa08e381f0d7abd3eda"; 
+      url = "https://mods.factorio.com/download/BrassTacks/63697a183e837ff2bfbe8c8e";  
+      name = "BrassTacks_1.1.5.zip"; 
+      sha1 = "afa40557d0e8beddaeae255df363ec83dcb7c187"; 
     };
     deps = [  ];
-    optionalDeps = [ bzlead bzaluminum bzcarbon bztin bzfoundry bzzirconium bzlead space-exploration aai-industry aai-containers aai-signal-transmission deadlock-beltboxes-loaders DeadlockCrating vtk-deep-core-mining Krastorio2 ];
+    optionalDeps = [ bzlead bzaluminum bzcarbon bztin bzfoundry bzzirconium bzlead space-exploration aai-industry aai-containers aai-signal-transmission deadlock-beltboxes-loaders DeadlockCrating vtk-deep-core-mining Krastorio2 FluidMustFlow Expensive_Fluid_Must_Flow_Recipes ];
     recommendedDeps = []; 
  }; 
 
@@ -53483,9 +53471,9 @@ let
   silent-integration-helper = modDrv {
     name = "Integration Helper [ALPHA]"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/silent-integration-helper/6349f0d4e39fa35e372676c1";  
-      name = "silent-integration-helper_0.4.3.zip"; 
-      sha1 = "22512df17e5e50c9c166b491622c11f97d7b190c"; 
+      url = "https://mods.factorio.com/download/silent-integration-helper/636eb9b94e52535cf866d489";  
+      name = "silent-integration-helper_0.4.6.zip"; 
+      sha1 = "0fe13679a8981d60e4f436e5479e2220f96971df"; 
     };
     deps = [ flib ];
     optionalDeps = [  ];
@@ -55055,12 +55043,12 @@ let
   Space_trains = modDrv {
     name = "Space Trains"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Space_trains/62c821c96a21326586abe459";  
-      name = "Space_trains_1.1.0.zip"; 
-      sha1 = "1eb430b51616e660f8059cc4c510beaec3dcfc74"; 
+      url = "https://mods.factorio.com/download/Space_trains/636568ea6fc29c869b090f61";  
+      name = "Space_trains_1.3.0.zip"; 
+      sha1 = "a38f6dd8ee5b16dccf0de565005c73cabbb006cd"; 
     };
-    deps = [ FluidWagonColorMask ];
-    optionalDeps = [ space-exploration ];
+    deps = [ space-exploration FluidWagonColorMask ];
+    optionalDeps = [  ];
     recommendedDeps = []; 
  }; 
 
@@ -55079,9 +55067,9 @@ let
   factorissimo-2-notnotmelon = modDrv {
     name = "Factorissimo 2 - notnotmelon fork 🍴"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/factorissimo-2-notnotmelon/62fd9001362e504cabdd4f2e";  
-      name = "factorissimo-2-notnotmelon_1.1.20.zip"; 
-      sha1 = "88f2e5322e044057db23d3e3d42a56b045a5a06a"; 
+      url = "https://mods.factorio.com/download/factorissimo-2-notnotmelon/63705b40f40a0a5fafbdaa76";  
+      name = "factorissimo-2-notnotmelon_1.1.26.zip"; 
+      sha1 = "2ca38c661a083d9bdc75fa8c4e70e515391f25e8"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -55259,9 +55247,9 @@ let
   Sebs-Electrics = modDrv {
     name = "Seb's Electrics"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Sebs-Electrics/630795f1595a323e6a99e6bb";  
-      name = "Sebs-Electrics_1.0.3.zip"; 
-      sha1 = "62ea8bc8e1cc43d5e15a5c6a98bd48947471c0dd"; 
+      url = "https://mods.factorio.com/download/Sebs-Electrics/63757e14233110a1eee92412";  
+      name = "Sebs-Electrics_1.1.1.zip"; 
+      sha1 = "bab33cf6b2102be3bf6ed062dcff78b0cdca6049"; 
     };
     deps = [  ];
     optionalDeps = [ n248k ];
@@ -55283,9 +55271,9 @@ let
   space-exploration-stuff = modDrv {
     name = "Space Exploration Stuff"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/space-exploration-stuff/63591f2a80173de2e6bb19e4";  
-      name = "space-exploration-stuff_0.1.3.zip"; 
-      sha1 = "17f49e5355f3bb83eb81a1cb86a292cc2d9937da"; 
+      url = "https://mods.factorio.com/download/space-exploration-stuff/637b4947c2757b81f497a4e8";  
+      name = "space-exploration-stuff_0.2.0.zip"; 
+      sha1 = "117d09bfbe53f3e8a2b4a8407b686a7ffa7a050c"; 
     };
     deps = [ space-exploration ];
     optionalDeps = [  ];
@@ -55451,12 +55439,12 @@ let
   IfNickel = modDrv {
     name = "If I Had A Nickel"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/IfNickel/63328983a921e9a9b902622b";  
-      name = "IfNickel_1.0.5.zip"; 
-      sha1 = "026e650dee3ae5414cd6925ed94dbd237a99f13f"; 
+      url = "https://mods.factorio.com/download/IfNickel/63697a4ce869e81b50060535";  
+      name = "IfNickel_1.0.6.zip"; 
+      sha1 = "2460bd445e04e511244f99cce38bfbfb8a56b6a6"; 
     };
     deps = [  ];
-    optionalDeps = [ bzlead bzaluminum bzcarbon bzfoundry bztin bztungsten BrassTacks space-exploration aai-industry deadlock-beltboxes-loaders DeadlockCrating Krastorio2 ];
+    optionalDeps = [ bzlead bzaluminum bzcarbon bzfoundry bztin bztungsten BrassTacks space-exploration aai-industry deadlock-beltboxes-loaders DeadlockCrating Krastorio2 FluidMustFlow Expensive_Fluid_Must_Flow_Recipes ];
     recommendedDeps = []; 
  }; 
 
@@ -56099,9 +56087,9 @@ let
   un-chemistry = modDrv {
     name = "(ALPHA) Unfunny Chemistry"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/un-chemistry/633a0d3d5a869501a844fe00";  
-      name = "un-chemistry_1.0.2.zip"; 
-      sha1 = "f433db6c3383588c8e82a1bbe3063b48ad20cc7b"; 
+      url = "https://mods.factorio.com/download/un-chemistry/63604648e56d6dc87ce822ce";  
+      name = "un-chemistry_1.0.3.zip"; 
+      sha1 = "64f2b5e094484935b918c3badff0271f7c843daa"; 
     };
     deps = [ un-pre-process un-science ];
     optionalDeps = [  ];
@@ -56123,9 +56111,9 @@ let
   un-pre-process = modDrv {
     name = "Unfunny Overhaul Preprocess"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/un-pre-process/633a427498a80d7286e31f39";  
-      name = "un-pre-process_1.0.13.zip"; 
-      sha1 = "3b16ebc186d6ae3171889b93bf7a861ad34d7047"; 
+      url = "https://mods.factorio.com/download/un-pre-process/63604659cec2834ee865ed85";  
+      name = "un-pre-process_1.0.14.zip"; 
+      sha1 = "68ab87f1d1bc5cdce921052b06c5c08d22ca170f"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -56483,9 +56471,9 @@ let
   crafting-efficiency-2 = modDrv {
     name = "Crafting Efficiency"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/crafting-efficiency-2/6320bd031d9dab47967b4930";  
-      name = "crafting-efficiency-2_0.0.15.zip"; 
-      sha1 = "7bfd9959f63a0c9759acd6638e416446d8737d23"; 
+      url = "https://mods.factorio.com/download/crafting-efficiency-2/63666bab358f36ed84c672ef";  
+      name = "crafting-efficiency-2_0.0.16.zip"; 
+      sha1 = "e2c31d0ab70df2027cea08eeaa13bb528f355f3a"; 
     };
     deps = [  ];
     optionalDeps = [ space-exploration-postprocess ];
@@ -57467,12 +57455,12 @@ let
   PollutionSolutionsFixFork = modDrv {
     name = "Pollution Solutions Fix - Personal Fork"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/PollutionSolutionsFixFork/635a5a59ccf9eab6cb91d31e";  
-      name = "PollutionSolutionsFixFork_1.0.14.zip"; 
-      sha1 = "6760305fee4469221ed9fc8354b95963870d46db"; 
+      url = "https://mods.factorio.com/download/PollutionSolutionsFixFork/6361e2cd9d4e6a83478994e0";  
+      name = "PollutionSolutionsFixFork_1.0.16.zip"; 
+      sha1 = "d9b44371a6d444d20e791bb0daff3b99cac0d7a8"; 
     };
     deps = [  ];
-    optionalDeps = [ nauvis-melange RampantIndustry modmashsplinterresources ];
+    optionalDeps = [  ];
     recommendedDeps = []; 
  }; 
 
@@ -57959,9 +57947,9 @@ let
   bp100 = modDrv {
     name = "Staged Blueprint Planning"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/bp100/635df3ad7642212cac223c63";  
-      name = "bp100_0.10.0.zip"; 
-      sha1 = "90148b31b3b4739560cfa344123d404ae750ee8f"; 
+      url = "https://mods.factorio.com/download/bp100/63716b79dc43ec24571a3e7e";  
+      name = "bp100_0.14.3.zip"; 
+      sha1 = "93f20aa5d2d706529d420c0ef022e413efe92c9a"; 
     };
     deps = [  ];
     optionalDeps = [ PickerDollies ];
@@ -58451,23 +58439,23 @@ let
   alt-mode-for-1x1-loaders = modDrv {
     name = "Alt mode for 1x1 loaders"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/alt-mode-for-1x1-loaders/634827b0ab522b61f3fcdc23";  
-      name = "alt-mode-for-1x1-loaders_1.0.7.zip"; 
-      sha1 = "9d5072e226a06ddf83dbd32ac60e5d041ed5fe6d"; 
+      url = "https://mods.factorio.com/download/alt-mode-for-1x1-loaders/63657a22fe28161ac14ecc65";  
+      name = "alt-mode-for-1x1-loaders_1.0.8.zip"; 
+      sha1 = "cc9bd81a8cd76db1242d91c86c32ac6b58a0e4fb"; 
     };
     deps = [  ];
-    optionalDeps = [ base Krastorio2 ];
+    optionalDeps = [ Krastorio2 ];
     recommendedDeps = []; 
  }; 
 
   logistic_belt = modDrv {
     name = "Logistic belt"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/logistic_belt/63595f553715d24874930743";  
-      name = "logistic_belt_1.0.1.zip"; 
-      sha1 = "1e68639637e8c1fb8de26b7ff6672d86b10b2214"; 
+      url = "https://mods.factorio.com/download/logistic_belt/6365d4c02a739221f6231e31";  
+      name = "logistic_belt_1.0.3.zip"; 
+      sha1 = "36935ae425ac01c89b5a3ab61a48a8a6629a459c"; 
     };
-    deps = [  ];
+    deps = [ flib ];
     optionalDeps = [ space-exploration space-exploration-postprocess ];
     recommendedDeps = []; 
  }; 
@@ -58715,9 +58703,9 @@ let
   Warheads = modDrv {
     name = "Warheads"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Warheads/6335c998a1fe50d7abc9a14b";  
-      name = "Warheads_0.0.9.zip"; 
-      sha1 = "e0d3b314488de9d2275f62a9cf79168c4b188ce5"; 
+      url = "https://mods.factorio.com/download/Warheads/6360b47d12095a7f787a0399";  
+      name = "Warheads_0.0.10.zip"; 
+      sha1 = "8b1f32d2ea2caea94908ab12e2148f086ffb48b1"; 
     };
     deps = [  ];
     optionalDeps = [ SchallTankPlatoon bobwarfare space-exploration Krastorio2 RampantArsenal aai-vehicles-ironclad ];
@@ -59099,9 +59087,9 @@ let
   compaktcircuit = modDrv {
     name = "Compact circuits"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/compaktcircuit/635aad22322b1bc59127bfb1";  
-      name = "compaktcircuit_1.0.7.zip"; 
-      sha1 = "d98bff8ceffc8cc5dbd4a055d7e3f7e75ad6c5e2"; 
+      url = "https://mods.factorio.com/download/compaktcircuit/637712663523dbf4debbf317";  
+      name = "compaktcircuit_1.0.18.zip"; 
+      sha1 = "1ae56aaa27c8a9825592503d4a216fd3d8e46c8a"; 
     };
     deps = [ flib ];
     optionalDeps = [ IndustrialDisplayPlates ];
@@ -59291,12 +59279,12 @@ let
   more-defenders = modDrv {
     name = "More Defender Capsules"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/more-defenders/634fc70132e183f868ce069b";  
-      name = "more-defenders_1.1.0.zip"; 
-      sha1 = "b00b5b8d3de3f7755f0941efc0422129f963d8cb"; 
+      url = "https://mods.factorio.com/download/more-defenders/636873df167a1a10406f692b";  
+      name = "more-defenders_1.1.2.zip"; 
+      sha1 = "5aa612f7b8bf8d1c3b3db09dfc539deaecd205d3"; 
     };
     deps = [  ];
-    optionalDeps = [ Krastorio2 ];
+    optionalDeps = [ Krastorio2 space-exploration-postprocess ];
     recommendedDeps = []; 
  }; 
 
@@ -59651,12 +59639,12 @@ let
   smiU = modDrv {
     name = "Ukrainianization of mods"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/smiU/6335f09fa8e7a7ac3ad32e39";  
-      name = "smiU_0.3.47.zip"; 
-      sha1 = "57e51c4632928503ceb48f681402f9968324c45f"; 
+      url = "https://mods.factorio.com/download/smiU/6374950e233110a1eee92411";  
+      name = "smiU_0.3.510.zip"; 
+      sha1 = "4e4a10a6753185f50a67f4684634ee44035843fb"; 
     };
     deps = [  ];
-    optionalDeps = [ angelsaddons-cab angelsaddons-mobility angelsaddons-storage angelsbioprocessing angelsexploration angelsindustries angelsinfiniteores angelspetrochem angelsrefining Armor_upgradable crafting-efficiency factoryplanner Flow-Control GUI_Unifyer helmod osm-lib reverse-factory YARM ];
+    optionalDeps = [ Armor_upgradable angelsaddons-mobility angelsaddons-cab angelsexploration angelsaddons-storage angelsindustries angelsinfiniteores angelsbioprocessing angelssmelting angelspetrochem angelsrefining crafting-efficiency-2 factoryplanner Flow-Control FNEI GUI_Unifyer helmod ];
     recommendedDeps = []; 
  }; 
 
@@ -59915,9 +59903,9 @@ let
   railway-motor-car-fork = modDrv {
     name = "Railway Motor Car (Fork)"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/railway-motor-car-fork/634d9418638b291a81cdbb8d";  
-      name = "railway-motor-car-fork_0.6.0.zip"; 
-      sha1 = "79a96028cb5baa0f518181fc8fc1e53df17e4c7e"; 
+      url = "https://mods.factorio.com/download/railway-motor-car-fork/63682ae15669c8172e1d7eb4";  
+      name = "railway-motor-car-fork_0.6.1.zip"; 
+      sha1 = "72ba7939d3a13169541217f0dec5b9ddc570d82c"; 
     };
     deps = [ flib ];
     optionalDeps = [ jetpack informatron ];
@@ -59927,9 +59915,9 @@ let
   flydiverny-tweaks = modDrv {
     name = "Tweaks for Flydiverny"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/flydiverny-tweaks/635d76df129b9802d6668e8a";  
-      name = "flydiverny-tweaks_0.6.0.zip"; 
-      sha1 = "2bee285a0fe3dbb90043ad41cbd4c89b9a8a1bab"; 
+      url = "https://mods.factorio.com/download/flydiverny-tweaks/63682afd17d270c1eb71297b";  
+      name = "flydiverny-tweaks_0.6.1.zip"; 
+      sha1 = "f656cb717c5ee915e34d54019d2e05bd3f8d043d"; 
     };
     deps = [ flib ];
     optionalDeps = [ space-exploration se-space-trains StorageTank2 miniloader deadlock-beltboxes-loaders railway-motor-car railway-motor-car-fork angelsaddons-mobility space-exploration-postprocess FluidMustFlow ];
@@ -59939,9 +59927,9 @@ let
   un-bio-chemistry = modDrv {
     name = "Unfunny Biochemistry"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/un-bio-chemistry/633b8c6cd23b7b7bec4fe857";  
-      name = "un-bio-chemistry_0.0.12.zip"; 
-      sha1 = "a59a0dec03d3b8cffa1d2387f99c74a330ad18b7"; 
+      url = "https://mods.factorio.com/download/un-bio-chemistry/636046b3add0a0ff03a631bb";  
+      name = "un-bio-chemistry_0.0.13.zip"; 
+      sha1 = "777c013337323466f023f448779210d0334f7371"; 
     };
     deps = [ un-pre-process un-chemistry un-science ];
     optionalDeps = [  ];
@@ -59951,9 +59939,9 @@ let
   un-raw-materials = modDrv {
     name = "Unfunny Raw Materials"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/un-raw-materials/633d0737ed2e378d333fb08e";  
-      name = "un-raw-materials_0.0.13.zip"; 
-      sha1 = "9a75f9e7e5095ff7155587916a1c6096057dc090"; 
+      url = "https://mods.factorio.com/download/un-raw-materials/63604684add0a0ff03a631ba";  
+      name = "un-raw-materials_0.0.20.zip"; 
+      sha1 = "1c254f67dc3f929545ff1261418a764e3df3a8c7"; 
     };
     deps = [ un-pre-process un-chemistry un-science ];
     optionalDeps = [ un-bio-chemistry ];
@@ -59963,9 +59951,9 @@ let
   un-electronics = modDrv {
     name = "Unfunny Electronics"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/un-electronics/633a0f34d22a6c6c167dce50";  
-      name = "un-electronics_0.0.1.zip"; 
-      sha1 = "ecaf6d7f51ea4014018f8a2931d8809c7dbe811d"; 
+      url = "https://mods.factorio.com/download/un-electronics/6360469b7a88afa65d67d4c0";  
+      name = "un-electronics_0.0.2.zip"; 
+      sha1 = "4eb8ec816aad576c421d5674aa86d84084eab3b9"; 
     };
     deps = [ un-pre-process un-raw-materials un-chemistry un-science ];
     optionalDeps = [ un-bio-chemistry ];
@@ -59975,9 +59963,9 @@ let
   un-science = modDrv {
     name = "Unfunny Science"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/un-science/633b8c55ed6974437f49c7f1";  
-      name = "un-science_0.0.11.zip"; 
-      sha1 = "325d0284104b864d86b2a94e2eb95ca00a3471b2"; 
+      url = "https://mods.factorio.com/download/un-science/6360462ecec2834ee865ed84";  
+      name = "un-science_0.0.15.zip"; 
+      sha1 = "99f133a043f325eb85d8072c8642e2dea46d9d3b"; 
     };
     deps = [ un-pre-process un-electronics un-raw-materials un-chemistry un-bio-chemistry ];
     optionalDeps = [  ];
@@ -60131,9 +60119,9 @@ let
   belttracer = modDrv {
     name = "Belt Tracer"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/belttracer/63432d4b2365ab44bd35d5a7";  
-      name = "belttracer_0.1.1.zip"; 
-      sha1 = "2b8cf3c343bb76e57153cd2f612cdc2390531172"; 
+      url = "https://mods.factorio.com/download/belttracer/6370772ef40a0a5fafbdaa77";  
+      name = "belttracer_0.2.0.zip"; 
+      sha1 = "ca1eb47cae019ca5587e52ea35a6a0281657f606"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -60395,9 +60383,9 @@ let
   SingleChangeRecipes = modDrv {
     name = "Recipes only do one thing at a time"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/SingleChangeRecipes/635eff9bd8102161a56835b3";  
-      name = "SingleChangeRecipes_1.0.2.zip"; 
-      sha1 = "338fd149b8c5b11063688b61fadf0815486a25fb"; 
+      url = "https://mods.factorio.com/download/SingleChangeRecipes/6360288702a77797c61441d3";  
+      name = "SingleChangeRecipes_1.0.4.zip"; 
+      sha1 = "46584acd011e8cd7598e05f9fab4bd816a6d1249"; 
     };
     deps = [ rusty-locale ];
     optionalDeps = [  ];
@@ -60407,9 +60395,9 @@ let
   spidertron-etc = modDrv {
     name = "Spidertron etc."; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/spidertron-etc/63433890f0b836672a750202";  
-      name = "spidertron-etc_1.0.1.zip"; 
-      sha1 = "17dbed02a6592b86eb99410e07026d5d778a461e"; 
+      url = "https://mods.factorio.com/download/spidertron-etc/636434fe97b85e63f6fd2fc4";  
+      name = "spidertron-etc_1.0.2.zip"; 
+      sha1 = "7a3fb9092713e38195d4ba9dcb9c66f3563b65ec"; 
     };
     deps = [ equipment-gantry ];
     optionalDeps = [  ];
@@ -60563,9 +60551,9 @@ let
   Kux-ZoomRunning = modDrv {
     name = "Kuxynator's Zoom-Running"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Kux-ZoomRunning/63571cc3fb231c71d96f23cd";  
-      name = "Kux-ZoomRunning_2.1.3.zip"; 
-      sha1 = "b277ccee0f4cd030c78e04df33a18974c8ab3018"; 
+      url = "https://mods.factorio.com/download/Kux-ZoomRunning/635f9f4a7a88afa65d67d4ad";  
+      name = "Kux-ZoomRunning_2.1.4.zip"; 
+      sha1 = "c6f43c868b4b721ce35f96f260ebd64a760946e3"; 
     };
     deps = [  ];
     optionalDeps = [ Satisfactorio ];
@@ -60743,9 +60731,9 @@ let
   torans-theme-pack = modDrv {
     name = "Toran's Theme Pack"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/torans-theme-pack/634dda165de87696338c0ca1";  
-      name = "torans-theme-pack_0.1.1.zip"; 
-      sha1 = "d8aa82f59a1bace6362b36632321adeb9e6edd05"; 
+      url = "https://mods.factorio.com/download/torans-theme-pack/6362fbf967c9c38c946248f9";  
+      name = "torans-theme-pack_0.1.2.zip"; 
+      sha1 = "0b6e35bfab72c7df8b930d8086c7cc5fe8b3e40d"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -60779,9 +60767,9 @@ let
   floating-lamps = modDrv {
     name = "Floating Lamps"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/floating-lamps/634dff3622e32505a46615bf";  
-      name = "floating-lamps_0.1.0.zip"; 
-      sha1 = "77ba6c6e06f26f5d0c869d67432cf5578ed529ac"; 
+      url = "https://mods.factorio.com/download/floating-lamps/63601e690415b516460fdcf0";  
+      name = "floating-lamps_0.1.1.zip"; 
+      sha1 = "5c1e66562e5cef1c6708051a0f05d5e977f33e1b"; 
     };
     deps = [  ];
     optionalDeps = [ cargo-ships ];
@@ -61103,9 +61091,9 @@ let
   wickerbeast = modDrv {
     name = "The Wickerbeast (Playable Character)"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/wickerbeast/635bfde6c06d6481dbd6067a";  
-      name = "wickerbeast_0.9.7.zip"; 
-      sha1 = "7ce26b56921f99186c4bfe8b6bd19193af14a358"; 
+      url = "https://mods.factorio.com/download/wickerbeast/63769daf77dd0a289d1684d7";  
+      name = "wickerbeast_1.0.3.zip"; 
+      sha1 = "5a46e8e2e6a9d9e9a1d468e35984f830bc7d91c3"; 
     };
     deps = [ CharacterModHelper ];
     optionalDeps = [  ];
@@ -61151,21 +61139,21 @@ let
   GhostOnWater = modDrv {
     name = "Ghost On Water"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/GhostOnWater/635d0d4d04f3e5cf2fdd3794";  
-      name = "GhostOnWater_0.9.1.zip"; 
-      sha1 = "6905678ce3897273344367720ad9d17ae27de3f6"; 
+      url = "https://mods.factorio.com/download/GhostOnWater/636a4814c5d6e1f0ec53c4d4";  
+      name = "GhostOnWater_0.10.0.zip"; 
+      sha1 = "78d183371c88ad8757419e97d9eb93060dd20cba"; 
     };
     deps = [ stdlib ];
-    optionalDeps = [ LandfillPainting space-exploration ];
+    optionalDeps = [ LandfillPainting space-exploration kry-inserters ];
     recommendedDeps = []; 
  }; 
 
   melee_weapons = modDrv {
     name = "Melee Weapons"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/melee_weapons/63579e4f60ba820507513504";  
-      name = "melee_weapons_1.1.1.zip"; 
-      sha1 = "3964efd75410438e1db584df7f2789178dbe78d6"; 
+      url = "https://mods.factorio.com/download/melee_weapons/6361ecb3384907461d32e40a";  
+      name = "melee_weapons_1.1.2.zip"; 
+      sha1 = "7a73d6ea6e1897cf158448bda386dbf25b3d37c3"; 
     };
     deps = [ boblibrary ];
     optionalDeps = [  ];
@@ -61199,9 +61187,9 @@ let
   randomtorio = modDrv {
     name = "Randomtorio"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/randomtorio/6356b57688f8d978cce80657";  
-      name = "randomtorio_0.0.1.zip"; 
-      sha1 = "f817a2ea4dd303696bd938355cab5bf9675d6948"; 
+      url = "https://mods.factorio.com/download/randomtorio/63618dd2384907461d32e409";  
+      name = "randomtorio_0.0.2.zip"; 
+      sha1 = "eb6fb9e3299f9c7a3b1ea860d66e912253e6e56a"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -61211,9 +61199,9 @@ let
   Armored-train_plus = modDrv {
     name = "Armored Train Plus (Turret Wagons)"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Armored-train_plus/635b4559fb9f02cfb7c72a1d";  
-      name = "Armored-train_plus_0.1.2.zip"; 
-      sha1 = "3c201f160fd31bb30eceeda01deb92a4c9d58633"; 
+      url = "https://mods.factorio.com/download/Armored-train_plus/637b00b5f0d79c6af5c6ff98";  
+      name = "Armored-train_plus_0.1.6.zip"; 
+      sha1 = "1f8eced9234de46a8d8833ad9982cff46952c0e7"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -61283,9 +61271,9 @@ let
   auto-fish = modDrv {
     name = "Auto Fish and Heal"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/auto-fish/635960dc7533c4faf851108a";  
-      name = "auto-fish_1.0.2.zip"; 
-      sha1 = "9f7ae5846a3f3f0b2fef4d7f46ef3926b286671b"; 
+      url = "https://mods.factorio.com/download/auto-fish/636103968361134c01f9c468";  
+      name = "auto-fish_1.0.3.zip"; 
+      sha1 = "34be1225cda5da1a2156db031d350d2e7b6ced9d"; 
     };
     deps = [  ];
     optionalDeps = [ space-exploration ];
@@ -61307,9 +61295,9 @@ let
   puppy-jetpack-ui = modDrv {
     name = "Puppy's Jetpack UI"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/puppy-jetpack-ui/635c110bd296e0fa5a3282ca";  
-      name = "puppy-jetpack-ui_0.1.4.zip"; 
-      sha1 = "a1555c34a3905fb4b5d75e307e8fa50421300438"; 
+      url = "https://mods.factorio.com/download/puppy-jetpack-ui/636555fd851c6a3f008f042f";  
+      name = "puppy-jetpack-ui_0.1.5.zip"; 
+      sha1 = "d5ba2113fbabd693dd39c67b232783306591bbf5"; 
     };
     deps = [ jetpack flib ];
     optionalDeps = [  ];
@@ -61317,14 +61305,14 @@ let
  }; 
 
   myself = modDrv {
-    name = "个人使用护肝mod"; 
+    name = "厂长护肝片"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/myself/6359e9ff80173de2e6bb19e7";  
-      name = "myself_1.0.0.zip"; 
-      sha1 = "9acdaa7cd5e040fe6e74af37fa1f9e468fc809a7"; 
+      url = "https://mods.factorio.com/download/myself/637b502ef0d79c6af5c6ff9a";  
+      name = "myself_1.0.11.zip"; 
+      sha1 = "1e321039845f37cf913efd13e4aa8602245cd1d9"; 
     };
     deps = [  ];
-    optionalDeps = [  ];
+    optionalDeps = [ Improvement_Electric_Pole ElectricTrain zhcnremake space-exploration ];
     recommendedDeps = []; 
  }; 
 
@@ -61353,11 +61341,11 @@ let
  }; 
 
   train-signal-navigation = modDrv {
-    name = "Train signal station"; 
+    name = "Train signal station 自动化配送"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/train-signal-navigation/635d59c804f3e5cf2fdd37a1";  
-      name = "train-signal-navigation_0.0.3.zip"; 
-      sha1 = "708f7bb2dc82ade8bf6853ebba5357aaf7a1a5d4"; 
+      url = "https://mods.factorio.com/download/train-signal-navigation/63725dc9317499326c8f3ccb";  
+      name = "train-signal-navigation_0.3.1.zip"; 
+      sha1 = "f107dcf0287bfe0405ee22c91650e51d4f6ad9cd"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -61379,11 +61367,11 @@ let
   productivity-everywhere = modDrv {
     name = "Productivity everywhere!"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/productivity-everywhere/635c0eb9290a0673f1fcec68";  
-      name = "productivity-everywhere_1.0.0.zip"; 
-      sha1 = "ece3fddfff003fae8801741bfc165db4c914310d"; 
+      url = "https://mods.factorio.com/download/productivity-everywhere/636c36d6ca4c793f9fc58d98";  
+      name = "productivity-everywhere_1.1.0.zip"; 
+      sha1 = "723397eaaa19c4d62e75e7081a76dfde0f2f430c"; 
     };
-    deps = [  ];
+    deps = [ data_final_final_i_swear ];
     optionalDeps = [  ];
     recommendedDeps = []; 
  }; 
@@ -61439,21 +61427,21 @@ let
   JD_Plays_Mod_Pack = modDrv {
     name = "JD-Plays Mod Pack"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/JD_Plays_Mod_Pack/635d1cef129b9802d6668e7a";  
-      name = "JD_Plays_Mod_Pack_1.0.0.zip"; 
-      sha1 = "b49509996429b1bcc4ce53aedd57f199105116ee"; 
+      url = "https://mods.factorio.com/download/JD_Plays_Mod_Pack/636957ef2ac7c3320257b495";  
+      name = "JD_Plays_Mod_Pack_1.0.1.zip"; 
+      sha1 = "3ee6562f60e12a7b466a8aee1761f19bbab34b85"; 
     };
     deps = [ biter_hunt_group Death_Counter inbuilt_lighting JDGoesBoom m_WhereIsMyBody muppet_gui muppet_streamer SpawnTweaks Babelfish stasis_mine ];
-    optionalDeps = [ AdditionalPasteSettings biter_revive ];
+    optionalDeps = [ AdditionalPasteSettings biter_reincarnation biter_revive ];
     recommendedDeps = []; 
  }; 
 
   ArachnidsFaction = modDrv {
     name = "Arachnids as a Biter Faction"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/ArachnidsFaction/635d43668b6505b30c825554";  
-      name = "ArachnidsFaction_1.1.1.zip"; 
-      sha1 = "f05b554b72b2271bbc19006db97e2e86458b5440"; 
+      url = "https://mods.factorio.com/download/ArachnidsFaction/637a07b911b7ae3e03543df8";  
+      name = "ArachnidsFaction_1.1.2.zip"; 
+      sha1 = "f8e49b2e9da1e81f5103bd92c2cd50c303c71f9e"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -61478,6 +61466,90 @@ let
       url = "https://mods.factorio.com/download/space-exp-early-logistics/635d6638b2d1b158d572b9b2";  
       name = "space-exp-early-logistics_1.2.0.zip"; 
       sha1 = "925a7a96dbd56d7d0f9ee8590a13bec7998aa25e"; 
+    };
+    deps = [  ];
+    optionalDeps = [ space-exploration ];
+    recommendedDeps = []; 
+ }; 
+
+  puppy-bobs-logistics-fix = modDrv {
+    name = "Puppy's Bob's Logistics fix"; 
+    src = fetchurl2 {
+      url = "https://mods.factorio.com/download/puppy-bobs-logistics-fix/636ebb1741d4088e294f818a";  
+      name = "puppy-bobs-logistics-fix_0.1.1.zip"; 
+      sha1 = "9ca93b5b577a4f656cb62a0db979910d1c394b5f"; 
+    };
+    deps = [ bobassembly ];
+    optionalDeps = [ space-exploration ];
+    recommendedDeps = []; 
+ }; 
+
+  More_Ammo_Balanced = modDrv {
+    name = "More Ammo, Balanced"; 
+    src = fetchurl2 {
+      url = "https://mods.factorio.com/download/More_Ammo_Balanced/636bf06735d6a6361fe0de1d";  
+      name = "More_Ammo_Balanced_0.0.3.zip"; 
+      sha1 = "80d6d8b520eb54bfd20242a41f91c32fbfa1d200"; 
+    };
+    deps = [ More_Ammo ];
+    optionalDeps = [ space-exploration ];
+    recommendedDeps = []; 
+ }; 
+
+  RemoveMilitaryDP = modDrv {
+    name = "Remove Military Technologies"; 
+    src = fetchurl2 {
+      url = "https://mods.factorio.com/download/RemoveMilitaryDP/635ef51d826eb49f78d74c1a";  
+      name = "RemoveMilitaryDP_0.0.1.zip"; 
+      sha1 = "5230f862b084bfd09d4d575d1b93bef7d1442001"; 
+    };
+    deps = [  ];
+    optionalDeps = [  ];
+    recommendedDeps = []; 
+ }; 
+
+  boomtato1 = modDrv {
+    name = "Efficient Electric Boiler"; 
+    src = fetchurl2 {
+      url = "https://mods.factorio.com/download/boomtato1/635f7f66d8102161a56835ba";  
+      name = "boomtato1_1.1.1.zip"; 
+      sha1 = "90b4ec98cd310f2fec4e8cd805c0d4aaf0ebfaf0"; 
+    };
+    deps = [  ];
+    optionalDeps = [ bobpower boblibrary ];
+    recommendedDeps = []; 
+ }; 
+
+  noaspeedcontrol = modDrv {
+    name = "noa speed speed"; 
+    src = fetchurl2 {
+      url = "https://mods.factorio.com/download/noaspeedcontrol/635ffd4002a77797c61441cd";  
+      name = "noaspeedcontrol_1.0.6.zip"; 
+      sha1 = "ae8b1bcf0aa8959cd6d3dd444d155f95c368d8f7"; 
+    };
+    deps = [  ];
+    optionalDeps = [  ];
+    recommendedDeps = []; 
+ }; 
+
+  fragmentation_weapons = modDrv {
+    name = "Fragmentation Weapons"; 
+    src = fetchurl2 {
+      url = "https://mods.factorio.com/download/fragmentation_weapons/635ffee65d6cb2b6bb9b718f";  
+      name = "fragmentation_weapons_0.0.1.zip"; 
+      sha1 = "f1d7126d89c6155396179d3273aacf22bc39716b"; 
+    };
+    deps = [  ];
+    optionalDeps = [  ];
+    recommendedDeps = []; 
+ }; 
+
+  FullFeaturedStart = modDrv {
+    name = "Full Featured Start"; 
+    src = fetchurl2 {
+      url = "https://mods.factorio.com/download/FullFeaturedStart/63600b6112095a7f787a038c";  
+      name = "FullFeaturedStart_0.1.1.zip"; 
+      sha1 = "09b7de53bc9a925a87d60cc723af9935cbec24a5"; 
     };
     deps = [  ];
     optionalDeps = [ space-exploration ];
