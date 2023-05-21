@@ -30452,18 +30452,7 @@ let
     recommendedDeps = []; 
  }; 
 
-  TortelliniMod = modDrv {
-    name = "Tortellini Mod"; 
-    src = fetchurl2 {
-      url = "https://mods.factorio.com/download/TortelliniMod/60bfb3e809fbab844b4c12e2";  
-      name = "TortelliniMod_0.3.11.zip"; 
-      sha1 = "d2b0dd4f401c0c01dba5251dfb08c40eeaa12829"; 
-    };
-    deps = [  ];
-    optionalDeps = [  ];
-    recommendedDeps = []; 
- }; 
-
+Failed on mod: desire_paths HTTPSConnectionPool(host='mods.factorio.com', port=443): Max retries exceeded with url: /api/mods/TortelliniMod/full (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1007)')))
   adams_mod = modDrv {
     name = "AdamsMod"; 
     src = fetchurl2 {
