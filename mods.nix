@@ -12995,9 +12995,9 @@ let
   IRobot = modDrv {
     name = "I, Robot"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/IRobot/625fcc19c5db2caa77f70833";  
-      name = "IRobot_1.1.8.zip"; 
-      sha1 = "9c823b508b58d37ad014c71950a45803e368b3ff"; 
+      url = "https://mods.factorio.com/download/IRobot/646e67a2c6922f8919fd1d7a";  
+      name = "IRobot_1.1.9.zip"; 
+      sha1 = "a6e234d410b21ddcc6e2533f580597f61da81578"; 
     };
     deps = [ CharacterModHelper ];
     optionalDeps = [  ];
@@ -43139,12 +43139,12 @@ let
   FlareStack-SE = modDrv {
     name = "Flare Stack-SE"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/FlareStack-SE/62dd0ec9ed9496002438f7ed";  
-      name = "FlareStack-SE_1.0.5.zip"; 
-      sha1 = "41c69444d8c6d61db94c2299d7229c72b218d3a9"; 
+      url = "https://mods.factorio.com/download/FlareStack-SE/646e4060c4e1a8b31bc9eee4";  
+      name = "FlareStack-SE_1.0.6.zip"; 
+      sha1 = "fb59c2553305888b8bae3e43c00ad9d3485fac69"; 
     };
-    deps = [ space-exploration ];
-    optionalDeps = [ Flare-Stack ];
+    deps = [ Flare-Stack space-exploration ];
+    optionalDeps = [  ];
     recommendedDeps = []; 
  }; 
 
