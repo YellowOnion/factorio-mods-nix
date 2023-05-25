@@ -89,42 +89,46 @@ for (i, result) in enumerate(mods["results"]):
  #       if notnot result["name"] in modsToParse.keys and
  #           continue
  #       else:
-        try:
-            full = fetch_mod_json( "/" + result["name"] + "/full")
-            name = toName(full["name"])
-            percent = float(i * 100) / float(nmods)
-            eprint("{0:02.3f}% {1} / {2}".format(percent, i, nmods))
-            eprint(name)
-            latest_release = list(filter(lambda a: a["info_json"]["factorio_version"] == VERSION ,full["releases"]))[-1]
-            url = mods_api + latest_release["download_url"]
-            file_name = latest_release["file_name"]
-            deps = toDeps(latest_release["info_json"]["dependencies"])
-            deps = " ".join(deps)
-            optionalDeps = " ".join(toOpDeps(latest_release["info_json"]["dependencies"]))
-            sha1 = latest_release["sha1"]
-            out =  { "name" : name,
-                    "title": full["title"],
-                    "version": latest_release["version"],
-                    "url" : url,
-                    "file_name" : file_name,
-                    "deps" : deps,
-                    "optionalDeps" : optionalDeps,
-                    "sha1": sha1
-                    }
-            print( \
-                ("  {name} = modDrv {{\n"                           +
-                    "    name = \"{title}\"; \n"                    +
-                    "    src = fetchurl2 {{\n"                      +
-                    "      url = \"{url}\";  \n"                    +
-                    "      name = \"{file_name}\"; \n"              +
-                    "      sha1 = \"{sha1}\"; \n"                   +
-                    "    }};\n"                                     +
-                    "    deps = [ {deps} ];\n"                      +
-                    "    optionalDeps = [ {optionalDeps} ];\n"      +
-                    "    recommendedDeps = []; \n"                  +
-                    " }}; \n").format(**out))
+        tries = 0
+        while tries < 5:
+            tries += 1
+            try:
+                full = fetch_mod_json( "/" + result["name"] + "/full")
+                name = toName(full["name"])
+                percent = float(i * 100) / float(nmods)
+                eprint("{0:02.3f}% {1} / {2}".format(percent, i, nmods))
+                eprint(name)
+                latest_release = list(filter(lambda a: a["info_json"]["factorio_version"] == VERSION ,full["releases"]))[-1]
+                url = mods_api + latest_release["download_url"]
+                file_name = latest_release["file_name"]
+                deps = toDeps(latest_release["info_json"]["dependencies"])
+                deps = " ".join(deps)
+                optionalDeps = " ".join(toOpDeps(latest_release["info_json"]["dependencies"]))
+                sha1 = latest_release["sha1"]
+                out =  { "name" : name,
+                        "title": full["title"],
+                        "version": latest_release["version"],
+                        "url" : url,
+                        "file_name" : file_name,
+                        "deps" : deps,
+                        "optionalDeps" : optionalDeps,
+                        "sha1": sha1
+                        }
+                print( \
+                    ("  {name} = modDrv {{\n"                           +
+                        "    name = \"{title}\"; \n"                    +
+                        "    src = fetchurl2 {{\n"                      +
+                        "      url = \"{url}\";  \n"                    +
+                        "      name = \"{file_name}\"; \n"              +
+                        "      sha1 = \"{sha1}\"; \n"                   +
+                        "    }};\n"                                     +
+                        "    deps = [ {deps} ];\n"                      +
+                        "    optionalDeps = [ {optionalDeps} ];\n"      +
+                        "    recommendedDeps = []; \n"                  +
+                        " }}; \n").format(**out))
+                tries = 99999
 
-        except Exception as err:
-            print("Failed on mod: {0}".format(name), err)
+            except Exception as err:
+                eprint("Failed on mod: {0}, trying again".format(name), err)
 
 print("}")
