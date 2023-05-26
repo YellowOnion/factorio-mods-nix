@@ -2675,9 +2675,9 @@ let
   Noxys_Trees = modDrv {
     name = "Noxys Trees"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Noxys_Trees/6410ad7f2e232ff52edfb3c4";  
-      name = "Noxys_Trees_0.4.3.zip"; 
-      sha1 = "83190ff22a551ac1bdc376fa32adab6114bfbe59"; 
+      url = "https://mods.factorio.com/download/Noxys_Trees/646f8b6ed9f135bc76e326d0";  
+      name = "Noxys_Trees_0.4.4.zip"; 
+      sha1 = "e391dcfdd011739859d462b63479c0e20828d7fc"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -9995,9 +9995,9 @@ let
   train-pubsub = modDrv {
     name = "Train Supply Manager (TSM)"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/train-pubsub/6444346b4756aa629e69dbf1";  
-      name = "train-pubsub_1.1.16.zip"; 
-      sha1 = "17e4cad39955bf576395ad71fb37192a1f1bef3f"; 
+      url = "https://mods.factorio.com/download/train-pubsub/6470b856766fdc7d7557ee7b";  
+      name = "train-pubsub_1.1.17.zip"; 
+      sha1 = "fedb3167a43f971804339f2ea2ed64470e12c308"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -15071,9 +15071,9 @@ let
   GCKI = modDrv {
     name = "Gizmos Car Keys (improved)"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/GCKI/63be1a3e76d948b5f39a7716";  
-      name = "GCKI_1.1.5.zip"; 
-      sha1 = "59843a4a67b91142fea300b7717b1bdf9a039181"; 
+      url = "https://mods.factorio.com/download/GCKI/646f9556add2661db4cc6936";  
+      name = "GCKI_1.1.6.zip"; 
+      sha1 = "dbf3205476969183905bcb15acfb0bcfe395f284"; 
     };
     deps = [  ];
     optionalDeps = [ aai-programmable-vehicles SchallTransportGroup cargo-ships autodrive DMV_Directional_Movement_Vehicles UnminableVehicles ];
@@ -35615,9 +35615,9 @@ let
   SpidertronPatrols = modDrv {
     name = "Spidertron Patrols"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/SpidertronPatrols/642cb547f94dc6e73de54e12";  
-      name = "SpidertronPatrols_2.4.3.zip"; 
-      sha1 = "e85c3fe8521b174ad50dd2808d83e59675853097"; 
+      url = "https://mods.factorio.com/download/SpidertronPatrols/646feeb4478d1d6f1fd4d1f8";  
+      name = "SpidertronPatrols_2.4.4.zip"; 
+      sha1 = "4ba5ac35cdc20a853e9805fcddd02585819a0716"; 
     };
     deps = [ SpidertronEnhancements ];
     optionalDeps = [  ];
@@ -50291,9 +50291,9 @@ let
   SupplyDropRefurbished = modDrv {
     name = "Supply Drop Refurbished"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/SupplyDropRefurbished/6247f3188d68261e809fcc18";  
-      name = "SupplyDropRefurbished_0.3.2.zip"; 
-      sha1 = "3faee91e38476869ae4329101afeb1533deb3a18"; 
+      url = "https://mods.factorio.com/download/SupplyDropRefurbished/647015a6d9f135bc76e326ea";  
+      name = "SupplyDropRefurbished_0.3.4.zip"; 
+      sha1 = "390784e99648cc7f55de7e6e23ef17c2ac29c9a3"; 
     };
     deps = [  ];
     optionalDeps = [ Squeak-Through ];
