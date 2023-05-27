@@ -6719,9 +6719,9 @@ let
   cargo-ships = modDrv {
     name = "Cargo Ships"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/cargo-ships/6461a6460a82b316c0e6a119";  
-      name = "cargo-ships_0.2.1.zip"; 
-      sha1 = "7aa7751e769c4e0724fc2f18e368fc57e51256df"; 
+      url = "https://mods.factorio.com/download/cargo-ships/64714ee81a8670bb77b7ae47";  
+      name = "cargo-ships_0.2.2.zip"; 
+      sha1 = "d6231a5b9f5efd3f07be38c8546d1883f5b28c27"; 
     };
     deps = [ cargo-ships-graphics ];
     optionalDeps = [ factorio-world islands_world SeaBlock Hovercrafts angelspetrochem ctg Krastorio2 ];
@@ -13487,9 +13487,9 @@ let
   AircraftRealism = modDrv {
     name = "Aircraft Realism"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/AircraftRealism/644a74da0e236949af71458f";  
-      name = "AircraftRealism_1.5.3.zip"; 
-      sha1 = "4ca9d0896565cc5da1dfeb116319ca106f1debef"; 
+      url = "https://mods.factorio.com/download/AircraftRealism/6471f1d929f8857c541f865e";  
+      name = "AircraftRealism_1.5.4.zip"; 
+      sha1 = "47eb78ed57f9e217d892492a209fe0698abc0531"; 
     };
     deps = [  ];
     optionalDeps = [ Aircraft betterCargoPlanes Helicopters ];
@@ -23423,9 +23423,9 @@ let
   SpidertronWeaponSwitcher = modDrv {
     name = "Spidertron Weapon Switcher"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/SpidertronWeaponSwitcher/63757ae97ec00496911d4a7c";  
-      name = "SpidertronWeaponSwitcher_1.2.11.zip"; 
-      sha1 = "bf8c0d89d701e129db7142af23ff7a7b56f2a2e4"; 
+      url = "https://mods.factorio.com/download/SpidertronWeaponSwitcher/64711cb491bdc5f1ea2f6e09";  
+      name = "SpidertronWeaponSwitcher_1.2.12.zip"; 
+      sha1 = "7e9985b2ba32df940d372fc5d2e6ea90383b11eb"; 
     };
     deps = [  ];
     optionalDeps = [ spidertron-extended ];
@@ -25679,9 +25679,9 @@ let
   Kux-CoreLib = modDrv {
     name = "Kuxynator's Core Library"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Kux-CoreLib/6462836bca7982322245235e";  
-      name = "Kux-CoreLib_2.4.1.zip"; 
-      sha1 = "f1f59b17f1569033989025ab77b76d3a55104e8b"; 
+      url = "https://mods.factorio.com/download/Kux-CoreLib/6471edd3a28ff18d6506c900";  
+      name = "Kux-CoreLib_2.5.0.zip"; 
+      sha1 = "272a45d265b9b07f359aa3a124c613dc9dbb6023"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -27167,9 +27167,9 @@ let
   trainsaver = modDrv {
     name = "trainsaver"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/trainsaver/637033503c80dcd14d7abb28";  
-      name = "trainsaver_0.0.20.zip"; 
-      sha1 = "e53854a39b453bafd862abb33903192069da1ccf"; 
+      url = "https://mods.factorio.com/download/trainsaver/647146891cc2cab6b97edf5b";  
+      name = "trainsaver_0.0.21.zip"; 
+      sha1 = "d62f3fa8b8ebf84f4bd0c7ab1fc52f1fed470544"; 
     };
     deps = [  ];
     optionalDeps = [ cutscene-creator ];
@@ -44639,9 +44639,9 @@ let
   cargo-ships-graphics = modDrv {
     name = "Cargo Ships Graphics"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/cargo-ships-graphics/646180e20a82b316c0e6a104";  
-      name = "cargo-ships-graphics_0.2.0.zip"; 
-      sha1 = "a0e754e92216a54dc932dd78909907e93d682611"; 
+      url = "https://mods.factorio.com/download/cargo-ships-graphics/64714fcb6d6a6eff7f6472be";  
+      name = "cargo-ships-graphics_0.2.1.zip"; 
+      sha1 = "d8fb10d3c0ab28ea581e54d2cbcfcf2fefcfb4ad"; 
     };
     deps = [ cargo-ships ];
     optionalDeps = [  ];
@@ -48609,7 +48609,7 @@ let
  }; 
 
   gigachests = modDrv {
-    name = "Gigachests"; 
+    name = "Gigachests (Meme mod)"; 
     src = fetchurl2 {
       url = "https://mods.factorio.com/download/gigachests/6212d265c1730f82315e6106";  
       name = "gigachests_0.6.9.zip"; 
