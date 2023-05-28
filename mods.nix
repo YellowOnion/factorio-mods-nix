@@ -8003,9 +8003,9 @@ let
   Clowns-Processing = modDrv {
     name = "MadClown01's Processing"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Clowns-Processing/643e5f8b08c6053237d431ce";  
-      name = "Clowns-Processing_1.3.19.zip"; 
-      sha1 = "8feaee976c8b84ff8326ece95cbc5f3cc0c576e3"; 
+      url = "https://mods.factorio.com/download/Clowns-Processing/647356c4e8ca7dc378fd2ca5";  
+      name = "Clowns-Processing_1.3.20.zip"; 
+      sha1 = "b92311e951089d237e53c866e47197d4b6dd3984"; 
     };
     deps = [ angelsrefining angelspetrochem angelssmelting ];
     optionalDeps = [ angelsindustries angelsbioprocessing bobplates ];
@@ -15299,9 +15299,9 @@ let
   super-generous-recipes = modDrv {
     name = "Super Generous Recipes"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/super-generous-recipes/643bcb49f86e3db6b5007ce1";  
-      name = "super-generous-recipes_0.9.0.zip"; 
-      sha1 = "60615c91f0fa3a88f75230bd4c92c6d799b72cff"; 
+      url = "https://mods.factorio.com/download/super-generous-recipes/64733de3d345fba9ffac83b7";  
+      name = "super-generous-recipes_0.10.0.zip"; 
+      sha1 = "d9446f98fab4bbb3111fdaffbc3c753d8750e775"; 
     };
     deps = [  ];
     optionalDeps = [ Power-Armor-MK3 reverse-factory BobExtended angelspetrochem angelslocaleja_RE aai-industry mini-machines omnimatter_wood Bio_Industries kry-inserters GDIW bobelectronics Fantario pycoalprocessing pyfusionenergy pyhightech pyindustry pypetroleumhandling IndustrialRevolution RPGsystem FactorioExtended-Plus-CompoundSolars FactorioExtended-Plus-Core FactorioExtended-Plus-Equipment FactorioExtended-Plus-Logistics FactorioExtended-Plus-Machines FactorioExtended-Plus-Module FactorioExtended-Plus-Power FactorioExtended-Plus-Storage FactorioExtended-Plus-Transport FactorioExtended-Plus-Weaponry bobassembly bobclasses bobelectronics bobenemies bobequipment boblibrary boblogistics bobmining bobmodules bobores bobplates bobpower bobrevamp bobtech bobvehicleequipment bobwarfare Krastorio2 VoidChestPlus Nanobots space-exploration-postprocess ];
@@ -27167,9 +27167,9 @@ let
   trainsaver = modDrv {
     name = "trainsaver"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/trainsaver/647146891cc2cab6b97edf5b";  
-      name = "trainsaver_0.0.21.zip"; 
-      sha1 = "d62f3fa8b8ebf84f4bd0c7ab1fc52f1fed470544"; 
+      url = "https://mods.factorio.com/download/trainsaver/647230f4ae71e09e65475692";  
+      name = "trainsaver_0.0.22.zip"; 
+      sha1 = "6bc1b08a3724bee3b28e734e2f3c5e073a04a64f"; 
     };
     deps = [  ];
     optionalDeps = [ cutscene-creator ];
@@ -30515,9 +30515,9 @@ let
   Krastorio2RFAC = modDrv {
     name = "Krastorio 2 Rocket Fuel in Advanced Chemical Plant"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Krastorio2RFAC/640cc1ced59c3fcb9f88f502";  
-      name = "Krastorio2RFAC_3.0.2.zip"; 
-      sha1 = "617afe16ead811175a0aa53004419c1c60e3a2c2"; 
+      url = "https://mods.factorio.com/download/Krastorio2RFAC/64725ace6d6a6eff7f6472d6";  
+      name = "Krastorio2RFAC_3.1.0.zip"; 
+      sha1 = "929478015d49a146daea4bd2e12a48ca2aa2d829"; 
     };
     deps = [ Krastorio2 ];
     optionalDeps = [ space-exploration ];
@@ -32603,9 +32603,9 @@ let
   RampantEvolution = modDrv {
     name = "Rampant Evolution"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/RampantEvolution/643b5bb958ed3a8e2d498449";  
-      name = "RampantEvolution_1.6.3.zip"; 
-      sha1 = "826265a9b6b6627b7bd0ed4cd1115e255e0197bb"; 
+      url = "https://mods.factorio.com/download/RampantEvolution/6472ceaf5d05093ec90635c4";  
+      name = "RampantEvolution_1.6.4.zip"; 
+      sha1 = "c508b64dae578615205f627228e12677533a8d5d"; 
     };
     deps = [  ];
     optionalDeps = [ Rampant ];
@@ -53471,9 +53471,9 @@ let
   silent-integration-helper = modDrv {
     name = "Integration Helper [ALPHA]"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/silent-integration-helper/63a76c4977abe8eaa2901e9b";  
-      name = "silent-integration-helper_0.4.11.zip"; 
-      sha1 = "f2a104b3ac81fd42fc2443237709340972617a14"; 
+      url = "https://mods.factorio.com/download/silent-integration-helper/64727e21df5a97b99b0661f5";  
+      name = "silent-integration-helper_0.4.12.zip"; 
+      sha1 = "a347768d731f3aeaffb0cf1af44268d74e8e02e1"; 
     };
     deps = [ flib ];
     optionalDeps = [  ];
@@ -57923,9 +57923,9 @@ let
   bp100 = modDrv {
     name = "Staged Blueprint Planning"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/bp100/646ad836123f5d42f2b55457";  
-      name = "bp100_0.22.4.zip"; 
-      sha1 = "8620e4de3d9c69598a34b8e51063d4cf3afb241f"; 
+      url = "https://mods.factorio.com/download/bp100/64725c6c01de50a47027d923";  
+      name = "bp100_0.22.5.zip"; 
+      sha1 = "6f418b1775d6844da41db73e5a49ce6f1ef89db4"; 
     };
     deps = [  ];
     optionalDeps = [ PickerDollies ];
