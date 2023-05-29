@@ -3227,9 +3227,9 @@ let
   zKenirasRandomRecipes = modDrv {
     name = "Keniras Random Recipes"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/zKenirasRandomRecipes/6437d44875f5f59f5798eb6f";  
-      name = "zKenirasRandomRecipes_1.9.2.zip"; 
-      sha1 = "7611ff1cfe01c0295a1a60e27c407fc25645543b"; 
+      url = "https://mods.factorio.com/download/zKenirasRandomRecipes/6474b91a9798834e593c256d";  
+      name = "zKenirasRandomRecipes_1.9.3.zip"; 
+      sha1 = "b960c6ac616790d076aec178a7570d9c08b30b81"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -14603,12 +14603,12 @@ let
   autodrive = modDrv {
     name = "Autodrive"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/autodrive/63be1a1c58c4b0a9128a7718";  
-      name = "autodrive_1.1.4.zip"; 
-      sha1 = "0a2bf376e8fa4f93c52ad3a3d86f60a8739719d2"; 
+      url = "https://mods.factorio.com/download/autodrive/6473f66b093e529bafcc9c51";  
+      name = "autodrive_1.1.5.zip"; 
+      sha1 = "c2beb1aba60f1d58a06ac229cd8055fabcb8bdff"; 
     };
     deps = [  ];
-    optionalDeps = [ aai-programmable-vehicles shortwave_fix markers SchallTransportGroup VehicleGrid vtk-armor-plating UnminableVehicles ];
+    optionalDeps = [ aai-programmable-vehicles shortwave_fix markers SchallTransportGroup VehicleGrid vtk-armor-plating UnminableVehicles SpidertronWeaponSwitcher ];
     recommendedDeps = []; 
  }; 
 
@@ -15071,9 +15071,9 @@ let
   GCKI = modDrv {
     name = "Gizmos Car Keys (improved)"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/GCKI/646f9556add2661db4cc6936";  
-      name = "GCKI_1.1.6.zip"; 
-      sha1 = "dbf3205476969183905bcb15acfb0bcfe395f284"; 
+      url = "https://mods.factorio.com/download/GCKI/6473f6963c95d25f3d063e3e";  
+      name = "GCKI_1.1.7.zip"; 
+      sha1 = "2314a9f7adbbc1c7a6403bb2d2b0e52e6c8bf11e"; 
     };
     deps = [  ];
     optionalDeps = [ aai-programmable-vehicles SchallTransportGroup cargo-ships autodrive DMV_Directional_Movement_Vehicles UnminableVehicles ];
@@ -20495,9 +20495,9 @@ let
   flib = modDrv {
     name = "Factorio Library"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/flib/644ed3f240428c4298dee3f6";  
-      name = "flib_0.12.7.zip"; 
-      sha1 = "2adecccb3ce710af33862187b2b28b295be92076"; 
+      url = "https://mods.factorio.com/download/flib/6474ac1222f2f05c4d7407bb";  
+      name = "flib_0.12.8.zip"; 
+      sha1 = "7bea363dd7800a96b67bc37a6360b8ce10530eae"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -32807,9 +32807,9 @@ let
   reskins-compatibility = modDrv {
     name = "Artisanal Reskins: Compatibility"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/reskins-compatibility/643800784f2f17209fb85f9e";  
-      name = "reskins-compatibility_2.1.8.zip"; 
-      sha1 = "f98e01750d847e115b05d16f5da6bce8124fd5cf"; 
+      url = "https://mods.factorio.com/download/reskins-compatibility/647445266145840810c971fd";  
+      name = "reskins-compatibility_2.1.9.zip"; 
+      sha1 = "e73fff7425264aa8c5facc249837d15d804080b5"; 
     };
     deps = [ reskins-library ];
     optionalDeps = [ aai-industry angels-smelting-extended Bio_Industries CircuitProcessing classic-beacon classic-mining-drill Clowns-Processing deadlock-beltboxes-loaders DeadlockBlackRubberBelts DeadlockCrating DeadlockStackingForBobs DeadlockStackingForVanilla extendedangels LoaderRedux mini-machines miniloader NauvisDay P-U-M-P-S RealisticReactorGlow semi-classic-mining-drill spaceblock vanilla-loaders-hd ];
@@ -39947,12 +39947,12 @@ let
   seablock-evil-mode = modDrv {
     name = "Sea Block - Evil mode"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/seablock-evil-mode/636547e6c56fa3843c8bd205";  
-      name = "seablock-evil-mode_0.0.9.zip"; 
-      sha1 = "6e9b80d477d3e4912ccde96f779541cb886347e4"; 
+      url = "https://mods.factorio.com/download/seablock-evil-mode/6474c3622029e145157cc1c6";  
+      name = "seablock-evil-mode_0.1.0.zip"; 
+      sha1 = "bf345391c6ce44e329198edcd9bf11cb3bcbef40"; 
     };
-    deps = [ SeaBlock ScienceCostTweakerM angelsrefining burner-power-progression ];
-    optionalDeps = [  ];
+    deps = [ SeaBlock ScienceCostTweakerM angelsrefining ];
+    optionalDeps = [ burner-power-progression ];
     recommendedDeps = []; 
  }; 
 
@@ -46727,9 +46727,9 @@ let
   chinese = modDrv {
     name = "开源中文汉化语言包"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/chinese/641c58748904bd7f733402a2";  
-      name = "chinese_1.1.100.zip"; 
-      sha1 = "5a4944e1e7640e2c0506d5b87c0e93c860345494"; 
+      url = "https://mods.factorio.com/download/chinese/64746e3c6313521b519ba70d";  
+      name = "chinese_1.1.101.zip"; 
+      sha1 = "bd108d8aae31dd2b7bad02c0c59983ff4199f259"; 
     };
     deps = [  ];
     optionalDeps = [ pychinese IndustrialRevolution_Language_Pack ];
