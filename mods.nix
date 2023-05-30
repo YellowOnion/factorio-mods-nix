@@ -11099,9 +11099,9 @@ let
   Automatic_Train_Painter = modDrv {
     name = "Automatic Train Painter"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Automatic_Train_Painter/6339c09d5d9f7fa3b9ad0125";  
-      name = "Automatic_Train_Painter_1.1.5.zip"; 
-      sha1 = "cc80fdb794bc7bbca8fa1e60e2118f9d9a51222f"; 
+      url = "https://mods.factorio.com/download/Automatic_Train_Painter/64755ee0a7717ee52be6afcb";  
+      name = "Automatic_Train_Painter_1.2.0.zip"; 
+      sha1 = "c3996a3c288a25d1c87cbb440eb87d2b5fd2ca3d"; 
     };
     deps = [  ];
     optionalDeps = [ FluidWagonColorMask ];
@@ -22607,9 +22607,9 @@ let
   RPG = modDrv {
     name = "RPG"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/RPG/62d5cfecb4d5ac4dd28fea27";  
-      name = "RPG_1.0.14.zip"; 
-      sha1 = "49ab2885b4a7c961428e382d16a68e174d8e747d"; 
+      url = "https://mods.factorio.com/download/RPG/6475e20418792a2e6e3a74bf";  
+      name = "RPG_1.0.15.zip"; 
+      sha1 = "d6c7701b10ae128dd502d8942bf07693f2e48c2f"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -28259,9 +28259,9 @@ let
   DropSciencePack = modDrv {
     name = "Drop Science Pack"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/DropSciencePack/6264ec323b930f049d7c4073";  
-      name = "DropSciencePack_3.2.1.zip"; 
-      sha1 = "03b7031307ec8f76bb71f2b1aa9a90e4f5fd72fe"; 
+      url = "https://mods.factorio.com/download/DropSciencePack/6476172d1152b857186dcf53";  
+      name = "DropSciencePack_4.0.0.zip"; 
+      sha1 = "99f698136aa08ecd3aa6aab90a10c9d9649f04e7"; 
     };
     deps = [  ];
     optionalDeps = [ Krastorio2 SchallEndgameEvolution Cold_biters bobenemies Explosive_biters Natural_Evolution_Enemies_Redux space-exploration ];
@@ -30515,9 +30515,9 @@ let
   Krastorio2RFAC = modDrv {
     name = "Krastorio 2 Rocket Fuel in Advanced Chemical Plant"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Krastorio2RFAC/64725ace6d6a6eff7f6472d6";  
-      name = "Krastorio2RFAC_3.1.0.zip"; 
-      sha1 = "929478015d49a146daea4bd2e12a48ca2aa2d829"; 
+      url = "https://mods.factorio.com/download/Krastorio2RFAC/6475bdc68cbc3957f13c8564";  
+      name = "Krastorio2RFAC_3.1.2.zip"; 
+      sha1 = "fab88d60fb526e2040d0113ebb84ce78f446a67e"; 
     };
     deps = [ Krastorio2 ];
     optionalDeps = [ space-exploration ];
@@ -32207,9 +32207,9 @@ let
   MoreLocomotives = modDrv {
     name = "More Locomotives"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/MoreLocomotives/60328af68759a0c237dc3c9b";  
-      name = "MoreLocomotives_0.1.1.zip"; 
-      sha1 = "866c37d02e6d6a3da69fba2ac38f8c126e92d730"; 
+      url = "https://mods.factorio.com/download/MoreLocomotives/6475ec3e05845f9d4dece744";  
+      name = "MoreLocomotives_0.1.2.zip"; 
+      sha1 = "a17b3310726865b5d12fc2948915f2f644949969"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -40355,9 +40355,9 @@ let
   chess = modDrv {
     name = "Chess"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/chess/61255594c0272aefd961f303";  
-      name = "chess_0.0.2.zip"; 
-      sha1 = "e30a1cd0aa2481bd8e8a7d2cfa59edbae5d20a3b"; 
+      url = "https://mods.factorio.com/download/chess/6474fd8618792a2e6e3a74b8";  
+      name = "chess_0.1.0.zip"; 
+      sha1 = "b2bd7dc23f41d3ca7a68286db8c014145190e6d7"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -51551,9 +51551,9 @@ let
   advanced-chemical-plant = modDrv {
     name = "Advanced Chemical Plant K2"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/advanced-chemical-plant/626486903b930f049d7c4056";  
-      name = "advanced-chemical-plant_1.0.0.zip"; 
-      sha1 = "7351962534d8eb3903e5e409ef91f8d1a8d84c00"; 
+      url = "https://mods.factorio.com/download/advanced-chemical-plant/6475f03be79ed340f8e35036";  
+      name = "advanced-chemical-plant_1.1.0.zip"; 
+      sha1 = "b74480ab044645931304a13fa55ae53f23a73e15"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -55259,9 +55259,9 @@ let
   space-exploration-stuff = modDrv {
     name = "Space Exploration Stuff"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/space-exploration-stuff/640978edf0be35bc83b2be82";  
-      name = "space-exploration-stuff_0.2.2.zip"; 
-      sha1 = "4699fd92ceebf14822b63a3de61e086edd076a78"; 
+      url = "https://mods.factorio.com/download/space-exploration-stuff/6476170b74891c86ac32ed4c";  
+      name = "space-exploration-stuff_0.2.3.zip"; 
+      sha1 = "3e18c12df34db92b48e1f4e1f1b9407ca5b2d302"; 
     };
     deps = [ space-exploration ];
     optionalDeps = [  ];
@@ -59051,9 +59051,9 @@ let
   compaktcircuit = modDrv {
     name = "Compact circuits"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/compaktcircuit/63a8beb93f86f623e2d8a7f3";  
-      name = "compaktcircuit_1.0.24.zip"; 
-      sha1 = "0587aaf3d01266f0ee68a962be478c631c8c68b3"; 
+      url = "https://mods.factorio.com/download/compaktcircuit/64758e17db54758741af34e1";  
+      name = "compaktcircuit_1.0.25.zip"; 
+      sha1 = "07cc8c9dd7d695ecfc53467c84a4611a72fd1816"; 
     };
     deps = [ flib ];
     optionalDeps = [ IndustrialDisplayPlates Squeak-Through ];
@@ -59195,9 +59195,9 @@ let
   TeleportationEquipment = modDrv {
     name = "Teleportation Equipment"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/TeleportationEquipment/640ed887841c98df9fd9c8b4";  
-      name = "TeleportationEquipment_1.0.3.zip"; 
-      sha1 = "f7cc4b04f91dd2c216c4526f16b0eefb13f72a2a"; 
+      url = "https://mods.factorio.com/download/TeleportationEquipment/6475adcff1e8fcbc203b3395";  
+      name = "TeleportationEquipment_1.0.5.zip"; 
+      sha1 = "2728cf90d4b5889e665fbea6eb07ec9f180a7741"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -59927,9 +59927,9 @@ let
   un-science = modDrv {
     name = "Unfunny Science"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/un-science/63fc4ba5efefa121743cf19e";  
-      name = "un-science_0.1.01.zip"; 
-      sha1 = "169c7fd09fa8ef3db38c0517a58b53a0a2674ad1"; 
+      url = "https://mods.factorio.com/download/un-science/6474fc1cf1e8fcbc203b337a";  
+      name = "un-science_0.1.03.zip"; 
+      sha1 = "bb59dbad9e9590e78163ebeda289092ee7e43096"; 
     };
     deps = [ un-pre-process ];
     optionalDeps = [  ];
