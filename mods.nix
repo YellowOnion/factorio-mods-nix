@@ -491,9 +491,9 @@ let
   YARM = modDrv {
     name = "YARM - Resource Monitor"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/YARM/64620f685755f28cf14b6f6b";  
-      name = "YARM_0.8.210.zip"; 
-      sha1 = "7cf3875b38ee07fa478f30b4a68ac6dccf9ad744"; 
+      url = "https://mods.factorio.com/download/YARM/64771e0e166857a7fd70e0a8";  
+      name = "YARM_0.9.1.zip"; 
+      sha1 = "ceea0b3a6d29559431bd1a22dc62c795e3f06e0c"; 
     };
     deps = [  ];
     optionalDeps = [ aai-programmable-vehicles angelsrefining omnimatter ];
@@ -5651,9 +5651,9 @@ let
   RPGsystem = modDrv {
     name = "RPG System"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/RPGsystem/6400be0817afe658e46d1383";  
-      name = "RPGsystem_1.3.3.zip"; 
-      sha1 = "1c34f1c08d36a3ca3780ce18662f36b29f676c09"; 
+      url = "https://mods.factorio.com/download/RPGsystem/647734c31a635c1951229904";  
+      name = "RPGsystem_1.3.4.zip"; 
+      sha1 = "e9a148373bf7c5aa7d6d14a0cd3c4c8670b37cff"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -6479,9 +6479,9 @@ let
   pykoreanlocale = modDrv {
     name = "Pyanodons Korean Locale"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/pykoreanlocale/6356b1e1d1d0455d922c4d7a";  
-      name = "pykoreanlocale_2.0.0.zip"; 
-      sha1 = "6a9843c2bc060fa669b38fa5881a0af0c56e0c37"; 
+      url = "https://mods.factorio.com/download/pykoreanlocale/6476585fe6e1799cb61fd5fd";  
+      name = "pykoreanlocale_2.1.0.zip"; 
+      sha1 = "b0176c43dd8b447df9c3dc02dd4556acd9ee480f"; 
     };
     deps = [  ];
     optionalDeps = [ pypostprocessing pycoalprocessing pyfusionenergy pyhightech pyindustry pypetroleumhandling pyrawores pyalienlife pyalternativeenergy PyCoalTBaA ];
@@ -11291,9 +11291,9 @@ let
   autobuild = modDrv {
     name = "Autobuild"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/autobuild/6442a9b623959d96b2121b45";  
-      name = "autobuild_0.5.5.zip"; 
-      sha1 = "92ff9d311249f344d84fe47ca4779bba2fcee169"; 
+      url = "https://mods.factorio.com/download/autobuild/647635ca5282e1f99fd66140";  
+      name = "autobuild_0.5.6.zip"; 
+      sha1 = "a29ac0ece5f31f0ad522f3fa9f650e83d093aca0"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -18623,9 +18623,9 @@ let
   jetpack = modDrv {
     name = "Jetpack"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/jetpack/643749e79734aab5761f9bbd";  
-      name = "jetpack_0.3.12.zip"; 
-      sha1 = "37b5a8e966dee422560d863098b1b5c3b8d50736"; 
+      url = "https://mods.factorio.com/download/jetpack/6476c13f9fad37130c7d0561";  
+      name = "jetpack_0.3.13.zip"; 
+      sha1 = "c9563c38d14e56d04bc71ff13376766e828977eb"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -27167,9 +27167,9 @@ let
   trainsaver = modDrv {
     name = "trainsaver"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/trainsaver/647230f4ae71e09e65475692";  
-      name = "trainsaver_0.0.22.zip"; 
-      sha1 = "6bc1b08a3724bee3b28e734e2f3c5e073a04a64f"; 
+      url = "https://mods.factorio.com/download/trainsaver/6476b38026498f7864cb2cde";  
+      name = "trainsaver_0.0.23.zip"; 
+      sha1 = "7a372e25e869afdbc06430f5b617f8b8f7e0619c"; 
     };
     deps = [  ];
     optionalDeps = [ cutscene-creator ];
@@ -35229,11 +35229,11 @@ let
  }; 
 
   Kux-GhostInHand = modDrv {
-    name = "Ghost In Hand (Kuxynator's Edition)"; 
+    name = "Ghost In Hand (Kuxynator's Enhanced Edition)"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Kux-GhostInHand/60935e1bbe057d30849e0e09";  
-      name = "Kux-GhostInHand_2.2.0.zip"; 
-      sha1 = "891d0dc07c01ff47e35ba1aed1c8e6d071d57d3e"; 
+      url = "https://mods.factorio.com/download/Kux-GhostInHand/647683421152b857186dcf56";  
+      name = "Kux-GhostInHand_2.3.0.zip"; 
+      sha1 = "438a3651f91d051c0859d27077c44bdb116c6c3a"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -50231,9 +50231,9 @@ let
   blueprint-sandboxes = modDrv {
     name = "Blueprint Sandboxes"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/blueprint-sandboxes/644f0a26b4da2fa6c5b2f0bd";  
-      name = "blueprint-sandboxes_1.12.2.zip"; 
-      sha1 = "2e25096cdcf44f62f0595f7214e1dc953244c452"; 
+      url = "https://mods.factorio.com/download/blueprint-sandboxes/64768c10fe5d556fc40df8a6";  
+      name = "blueprint-sandboxes_1.14.0.zip"; 
+      sha1 = "47dc8a6bbb7037b7d53f4d43ddd92333e18411df"; 
     };
     deps = [  ];
     optionalDeps = [ space-exploration Cursed-FMD factorissimo-2-notnotmelon ];
