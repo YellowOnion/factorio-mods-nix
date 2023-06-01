@@ -491,9 +491,9 @@ let
   YARM = modDrv {
     name = "YARM - Resource Monitor"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/YARM/64771e0e166857a7fd70e0a8";  
-      name = "YARM_0.9.1.zip"; 
-      sha1 = "ceea0b3a6d29559431bd1a22dc62c795e3f06e0c"; 
+      url = "https://mods.factorio.com/download/YARM/647852e38ac1ea2013876f95";  
+      name = "YARM_0.9.6.zip"; 
+      sha1 = "740fa330d718cc3a8eccefcb7a5b5780cbad668e"; 
     };
     deps = [  ];
     optionalDeps = [ aai-programmable-vehicles angelsrefining omnimatter ];
@@ -1175,12 +1175,12 @@ let
   hardCrafting = modDrv {
     name = "Hard crafting"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/hardCrafting/64150f0475028a9f6d517a90";  
-      name = "hardCrafting_1.0.5.zip"; 
-      sha1 = "93f2b7ebf6d2c36a3762a5d68afa0adeb037e420"; 
+      url = "https://mods.factorio.com/download/hardCrafting/64777a0c246cca4f9bd2aa67";  
+      name = "hardCrafting_1.0.6.zip"; 
+      sha1 = "a7edae796f3989e0e17a9307cb1832024be8f1f3"; 
     };
     deps = [  ];
-    optionalDeps = [  ];
+    optionalDeps = [ railloader ];
     recommendedDeps = []; 
  }; 
 
@@ -20495,9 +20495,9 @@ let
   flib = modDrv {
     name = "Factorio Library"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/flib/6474ac1222f2f05c4d7407bb";  
-      name = "flib_0.12.8.zip"; 
-      sha1 = "7bea363dd7800a96b67bc37a6360b8ce10530eae"; 
+      url = "https://mods.factorio.com/download/flib/64785df77c2758fd385546c6";  
+      name = "flib_0.12.9.zip"; 
+      sha1 = "de9fc7196b9944b55c2ce1f97b090661b7b67c10"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -25679,9 +25679,9 @@ let
   Kux-CoreLib = modDrv {
     name = "Kuxynator's Core Library"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Kux-CoreLib/6471edd3a28ff18d6506c900";  
-      name = "Kux-CoreLib_2.5.0.zip"; 
-      sha1 = "272a45d265b9b07f359aa3a124c613dc9dbb6023"; 
+      url = "https://mods.factorio.com/download/Kux-CoreLib/6478b7d647f424b8405d5e0a";  
+      name = "Kux-CoreLib_2.5.1.zip"; 
+      sha1 = "e10c646c2ebb2e8332fdd335c5f147a93adcc171"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -32495,9 +32495,9 @@ let
   InstanCraftingThings = modDrv {
     name = " Instant Crafting Revived"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/InstanCraftingThings/6320491557f3e6a53393a57e";  
-      name = "InstanCraftingThings_1.0.4.zip"; 
-      sha1 = "d5861fae3267548f59688bb6fd6ccc4e41065c5f"; 
+      url = "https://mods.factorio.com/download/InstanCraftingThings/6478b8079ba6fc51e843af52";  
+      name = "InstanCraftingThings_1.0.5.zip"; 
+      sha1 = "deae363bb54622c03d86855f78c00f280ce5068a"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -35231,11 +35231,11 @@ let
   Kux-GhostInHand = modDrv {
     name = "Ghost In Hand (Kuxynator's Enhanced Edition)"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Kux-GhostInHand/647683421152b857186dcf56";  
-      name = "Kux-GhostInHand_2.3.0.zip"; 
-      sha1 = "438a3651f91d051c0859d27077c44bdb116c6c3a"; 
+      url = "https://mods.factorio.com/download/Kux-GhostInHand/6478b80d12ba23b60956d84a";  
+      name = "Kux-GhostInHand_2.3.1.zip"; 
+      sha1 = "5047fe4ca92ac40e05842ec2f22ea9a2fa42b760"; 
     };
-    deps = [  ];
+    deps = [ Kux-CoreLib ];
     optionalDeps = [  ];
     recommendedDeps = []; 
  }; 
@@ -55619,9 +55619,9 @@ let
   Transport-Drones-On-Asphalt = modDrv {
     name = "Transport Drones on Asphalt"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Transport-Drones-On-Asphalt/64147895bc9bb4cd036b3895";  
-      name = "Transport-Drones-On-Asphalt_0.1.3.zip"; 
-      sha1 = "952ce79c943c2242b9e3c6332b7c2d47d084cc7a"; 
+      url = "https://mods.factorio.com/download/Transport-Drones-On-Asphalt/647875561e304237ac376ac8";  
+      name = "Transport-Drones-On-Asphalt_0.1.4.zip"; 
+      sha1 = "d3ac530d6600d58d094f1ac12436664093dce144"; 
     };
     deps = [ Transport_Drones ];
     optionalDeps = [ AsphaltPaving pyindustry space-exploration ];
@@ -58775,9 +58775,9 @@ let
   Large-PowerPoles = modDrv {
     name = "Large Power Poles"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Large-PowerPoles/632064d9cdf5fd716bb4ef17";  
-      name = "Large-PowerPoles_1.1.1.zip"; 
-      sha1 = "afa91a378e248bd6a844cbc2ca408e3ad2031d33"; 
+      url = "https://mods.factorio.com/download/Large-PowerPoles/6478b6c09293a263f50187d9";  
+      name = "Large-PowerPoles_1.1.2.zip"; 
+      sha1 = "801900877f157ee40395a80168841f3fce0595b3"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -59675,9 +59675,9 @@ let
   Efficient_Raw_materials = modDrv {
     name = "Efficient Smelting & Refineries"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Efficient_Raw_materials/6334373fb7dbfe01de636b71";  
-      name = "Efficient_Raw_materials_1.0.0.zip"; 
-      sha1 = "56217fd3c91fc3304541e16e95ec0bc64ff2b54b"; 
+      url = "https://mods.factorio.com/download/Efficient_Raw_materials/6478b94657d38cdf891f0dff";  
+      name = "Efficient_Raw_materials_1.0.1.zip"; 
+      sha1 = "01778ab7bcc0421860634355b96c97d0262def1a"; 
     };
     deps = [  ];
     optionalDeps = [  ];
