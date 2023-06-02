@@ -17999,12 +17999,12 @@ let
   Factorio-Tiberium = modDrv {
     name = "Factorio and Conquer: Tiberian Dawn"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Factorio-Tiberium/63e6690d41a6d239593aff51";  
-      name = "Factorio-Tiberium_1.1.28.zip"; 
-      sha1 = "0aa2ab5639f759647ac4b1317824dd0fc9d0a50e"; 
+      url = "https://mods.factorio.com/download/Factorio-Tiberium/6479bdabfd20426b84e3aef9";  
+      name = "Factorio-Tiberium_1.1.29.zip"; 
+      sha1 = "f85e33d7c1f8c3ab1d36060c8ef2e11432e87990"; 
     };
     deps = [ LSlib flib ];
-    optionalDeps = [ informatron n5dim_battlefield alien-biomes angelsindustries angelsrefining angelspetrochem bobmining bobores bobrevamp bobplates DiscoScience Krastorio2 Kux-OrbitalIonCannon Mining-Drones-Tiberium Obelisks-of-light Orbital-Ion-Cannon omnimatter Prospector RampantResources space-exploration space-exploration-postprocess ];
+    optionalDeps = [ informatron n5dim_battlefield alien-biomes angelsindustries angelsrefining angelspetrochem bobmining bobores bobrevamp bobplates DiscoScience Krastorio2 Kux-OrbitalIonCannon Mining-Drones-Tiberium Obelisks-of-light Orbital-Ion-Cannon omnimatter Prospector pump RampantResources space-exploration space-exploration-postprocess ];
     recommendedDeps = []; 
  }; 
 
@@ -23927,9 +23927,9 @@ let
   Placeables = modDrv {
     name = "Placeables: Quickly show items in your inventory that you can build with!"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Placeables/64604fdded8156dc5cd78846";  
-      name = "Placeables_1.2.3.zip"; 
-      sha1 = "2611fe17e7c5a17bec5e3d4d9d90171b1b90712d"; 
+      url = "https://mods.factorio.com/download/Placeables/6479c036f3a23e8ab81e5c44";  
+      name = "Placeables_1.3.0.zip"; 
+      sha1 = "f548503f1eba811b69d4268b4dc3a1b5a9545703"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -25679,9 +25679,9 @@ let
   Kux-CoreLib = modDrv {
     name = "Kuxynator's Core Library"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Kux-CoreLib/6478b7d647f424b8405d5e0a";  
-      name = "Kux-CoreLib_2.5.1.zip"; 
-      sha1 = "e10c646c2ebb2e8332fdd335c5f147a93adcc171"; 
+      url = "https://mods.factorio.com/download/Kux-CoreLib/64790cc9fea063fcf2f97cb7";  
+      name = "Kux-CoreLib_2.5.2.zip"; 
+      sha1 = "638a603ace2299ed3880de36f63718c954db97cd"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -35231,9 +35231,9 @@ let
   Kux-GhostInHand = modDrv {
     name = "Ghost In Hand (Kuxynator's Enhanced Edition)"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Kux-GhostInHand/6478b80d12ba23b60956d84a";  
-      name = "Kux-GhostInHand_2.3.1.zip"; 
-      sha1 = "5047fe4ca92ac40e05842ec2f22ea9a2fa42b760"; 
+      url = "https://mods.factorio.com/download/Kux-GhostInHand/64790d1a685fec1aa5ab8232";  
+      name = "Kux-GhostInHand_2.3.2.zip"; 
+      sha1 = "846db3d172b88401af3cc25cde9e1881f49b4c16"; 
     };
     deps = [ Kux-CoreLib ];
     optionalDeps = [  ];
