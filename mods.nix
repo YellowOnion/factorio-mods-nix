@@ -43967,9 +43967,9 @@ let
   fkplus = modDrv {
     name = "游戏内多属性加强"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/fkplus/644923f3e6b8c44c3837f46c";  
-      name = "fkplus_2.0.1.zip"; 
-      sha1 = "93ba8d1feb79e4e71a9238d2a4e8c97283fc080c"; 
+      url = "https://mods.factorio.com/download/fkplus/647b44ee84ba7f06a483efa9";  
+      name = "fkplus_2.0.2.zip"; 
+      sha1 = "0304c2fec468e0b1bcdc2efecdc8e6e6a3236549"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -50231,9 +50231,9 @@ let
   blueprint-sandboxes = modDrv {
     name = "Blueprint Sandboxes"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/blueprint-sandboxes/64768c10fe5d556fc40df8a6";  
-      name = "blueprint-sandboxes_1.14.0.zip"; 
-      sha1 = "47dc8a6bbb7037b7d53f4d43ddd92333e18411df"; 
+      url = "https://mods.factorio.com/download/blueprint-sandboxes/647a8ba34317ec2943ab7cdb";  
+      name = "blueprint-sandboxes_1.15.0.zip"; 
+      sha1 = "2b5f0fcb52070d8a01afb752037a9e13fd8b6930"; 
     };
     deps = [  ];
     optionalDeps = [ space-exploration Cursed-FMD factorissimo-2-notnotmelon ];
@@ -50579,9 +50579,9 @@ let
   lex-aircraft = modDrv {
     name = "Lex's Aircraft"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/lex-aircraft/62ea190eb7c9d5007c750e95";  
-      name = "lex-aircraft_1.1.0.zip"; 
-      sha1 = "1051359cc145fe81ac028239aa45ffed9ca71b73"; 
+      url = "https://mods.factorio.com/download/lex-aircraft/647a99504011ea398463ca21";  
+      name = "lex-aircraft_1.1.1.zip"; 
+      sha1 = "7e37320c7b72a6cf58ea652ebad030d2f1a03a4c"; 
     };
     deps = [  ];
     optionalDeps = [ SpidertronEnhancements SpidertronPatrols aai-programmable-structures aai-programmable-vehicles space-exploration Krastorio2 ];
@@ -51551,9 +51551,9 @@ let
   advanced-chemical-plant = modDrv {
     name = "Advanced Chemical Plant K2"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/advanced-chemical-plant/6475f03be79ed340f8e35036";  
-      name = "advanced-chemical-plant_1.1.0.zip"; 
-      sha1 = "b74480ab044645931304a13fa55ae53f23a73e15"; 
+      url = "https://mods.factorio.com/download/advanced-chemical-plant/647b3e7574e02c14e0e94e1d";  
+      name = "advanced-chemical-plant_1.2.0.zip"; 
+      sha1 = "8bb0022bcc7f0be75821bbc0d347df7258890f22"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -52391,9 +52391,9 @@ let
   Configurable-Armour-Suits = modDrv {
     name = "Configurable Armour & Suits"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Configurable-Armour-Suits/645960bad2fe774477f3f386";  
-      name = "Configurable-Armour-Suits_1.1.0.zip"; 
-      sha1 = "82d1c5162f85f914848df7175a938a26dc67bda0"; 
+      url = "https://mods.factorio.com/download/Configurable-Armour-Suits/647b054622aa0e80cada290b";  
+      name = "Configurable-Armour-Suits_1.1.1.zip"; 
+      sha1 = "15096f88d86c3c5b6295e3b4a5777b658386d4f7"; 
     };
     deps = [  ];
     optionalDeps = [ bobwarfare custom_power_armor_fix FactorioExtended-Equipment IndustrialRevolution3 Krastorio2 nullius PowerAndArmor Power-Armor-MK3 Power-Armour-Replacer RampantArsenal space-exploration ];
@@ -55259,9 +55259,9 @@ let
   space-exploration-stuff = modDrv {
     name = "Space Exploration Stuff"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/space-exploration-stuff/6476170b74891c86ac32ed4c";  
-      name = "space-exploration-stuff_0.2.3.zip"; 
-      sha1 = "3e18c12df34db92b48e1f4e1f1b9407ca5b2d302"; 
+      url = "https://mods.factorio.com/download/space-exploration-stuff/647b4cb384ba7f06a483efaa";  
+      name = "space-exploration-stuff_0.2.4.zip"; 
+      sha1 = "9ac694e9d4175ceae0dd4aa473d2688da16bfc31"; 
     };
     deps = [ space-exploration ];
     optionalDeps = [  ];
@@ -57923,9 +57923,9 @@ let
   bp100 = modDrv {
     name = "Staged Blueprint Planning"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/bp100/64725c6c01de50a47027d923";  
-      name = "bp100_0.22.5.zip"; 
-      sha1 = "6f418b1775d6844da41db73e5a49ce6f1ef89db4"; 
+      url = "https://mods.factorio.com/download/bp100/647a30c8e82aad86c7f25727";  
+      name = "bp100_0.22.6.zip"; 
+      sha1 = "a9f40e83fa8af9b5e37a2619cbdd02bfe57277ab"; 
     };
     deps = [  ];
     optionalDeps = [ PickerDollies ];
@@ -59195,9 +59195,9 @@ let
   TeleportationEquipment = modDrv {
     name = "Teleportation Equipment"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/TeleportationEquipment/6475adcff1e8fcbc203b3395";  
-      name = "TeleportationEquipment_1.0.5.zip"; 
-      sha1 = "2728cf90d4b5889e665fbea6eb07ec9f180a7741"; 
+      url = "https://mods.factorio.com/download/TeleportationEquipment/647a3692a826df1267358244";  
+      name = "TeleportationEquipment_1.0.6.zip"; 
+      sha1 = "8c0da6cbabdb57da95f9eca59a5b3f2276564b92"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -61151,9 +61151,9 @@ let
   randomtorio = modDrv {
     name = "Randomtorio"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/randomtorio/6464d8253b0abfaa4f78ef38";  
-      name = "randomtorio_0.1.1.zip"; 
-      sha1 = "ec3f034034fe2bb0c9c9ae937c25fa87f6bd3356"; 
+      url = "https://mods.factorio.com/download/randomtorio/647a36419eea044916c0eefe";  
+      name = "randomtorio_0.1.2.zip"; 
+      sha1 = "4ba8ca42fb9aff7ffaef37c7bf8051c4fc2b504d"; 
     };
     deps = [  ];
     optionalDeps = [ angelspetrochem angelsrefining angelsbioprocessing SeaBlock ];
