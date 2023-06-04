@@ -11555,9 +11555,9 @@ let
   PatchFR = modDrv {
     name = "Patch FR des Mods"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/PatchFR/644fe328b4da2fa6c5b2f0bf";  
-      name = "PatchFR_1.1.29.zip"; 
-      sha1 = "eaea80aa45c38bf439595286f46db1191397eed5"; 
+      url = "https://mods.factorio.com/download/PatchFR/647cade58a8e3c98356dd916";  
+      name = "PatchFR_1.1.30.zip"; 
+      sha1 = "2f27dc1e626b06e2caf465fa66b0ff735ba5c981"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -40355,9 +40355,9 @@ let
   chess = modDrv {
     name = "Chess"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/chess/6474fd8618792a2e6e3a74b8";  
-      name = "chess_0.1.0.zip"; 
-      sha1 = "b2bd7dc23f41d3ca7a68286db8c014145190e6d7"; 
+      url = "https://mods.factorio.com/download/chess/647b71d374e02c14e0e94e21";  
+      name = "chess_0.1.1.zip"; 
+      sha1 = "d9575d0d33164173c9e10943824bd35007f8e561"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -40751,9 +40751,9 @@ let
   BigLight = modDrv {
     name = "BIG LIGHT"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/BigLight/61f42b082f894b4cd05e4263";  
-      name = "BigLight_0.1.3.zip"; 
-      sha1 = "af97c9f7631a190ff420e89f7b7ceede301526e4"; 
+      url = "https://mods.factorio.com/download/BigLight/647c77aac21a3c9b4a18024e";  
+      name = "BigLight_0.1.4.zip"; 
+      sha1 = "7b9aa280ee25f6ce2bcd3cf3e7bec75ad4469f05"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -51551,9 +51551,9 @@ let
   advanced-chemical-plant = modDrv {
     name = "Advanced Chemical Plant K2"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/advanced-chemical-plant/647b3e7574e02c14e0e94e1d";  
-      name = "advanced-chemical-plant_1.2.0.zip"; 
-      sha1 = "8bb0022bcc7f0be75821bbc0d347df7258890f22"; 
+      url = "https://mods.factorio.com/download/advanced-chemical-plant/647b9e31a622af670b65298a";  
+      name = "advanced-chemical-plant_1.3.0.zip"; 
+      sha1 = "ef4f7d398260e9467077d7b5c33d7f5fc500b834"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -59051,12 +59051,12 @@ let
   compaktcircuit = modDrv {
     name = "Compact circuits"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/compaktcircuit/64758e17db54758741af34e1";  
-      name = "compaktcircuit_1.0.25.zip"; 
-      sha1 = "07cc8c9dd7d695ecfc53467c84a4611a72fd1816"; 
+      url = "https://mods.factorio.com/download/compaktcircuit/647c332bb25163abe6108bc0";  
+      name = "compaktcircuit_1.0.26.zip"; 
+      sha1 = "60a20cb35fb911f05402daa32d57a3179d837c4d"; 
     };
     deps = [ flib ];
-    optionalDeps = [ IndustrialDisplayPlates Squeak-Through ];
+    optionalDeps = [ IndustrialDisplayPlates Squeak-Through PickerDollies ];
     recommendedDeps = []; 
  }; 
 
@@ -59927,9 +59927,9 @@ let
   un-science = modDrv {
     name = "Unfunny Science"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/un-science/6474fc1cf1e8fcbc203b337a";  
-      name = "un-science_0.1.03.zip"; 
-      sha1 = "bb59dbad9e9590e78163ebeda289092ee7e43096"; 
+      url = "https://mods.factorio.com/download/un-science/647ba14e74e02c14e0e94e2b";  
+      name = "un-science_0.1.04.zip"; 
+      sha1 = "aa9fe801bd391b7a343c8ef937af3749b502b3c8"; 
     };
     deps = [ un-pre-process ];
     optionalDeps = [  ];
