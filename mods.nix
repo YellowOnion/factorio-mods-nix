@@ -731,9 +731,9 @@ let
   AlienWall = modDrv {
     name = "Alien Walls"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/AlienWall/60d8ab8f583a9816f9e102ae";  
-      name = "AlienWall_0.9.14.zip"; 
-      sha1 = "faa5bd5c8667dc6db239154683ee4afeaa8e9a2f"; 
+      url = "https://mods.factorio.com/download/AlienWall/647d260d130badf30c661fb5";  
+      name = "AlienWall_0.9.15.zip"; 
+      sha1 = "5b74a3902a83f6de86668863f917e447cfcce0eb"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -14063,9 +14063,9 @@ let
   factoryplanner = modDrv {
     name = "Factory Planner"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/factoryplanner/645bee50c5fdcfc33b0b1992";  
-      name = "factoryplanner_1.1.66.zip"; 
-      sha1 = "5fb8eeecc0e154e88adcd78bbd2ce66200e4612b"; 
+      url = "https://mods.factorio.com/download/factoryplanner/647dc7e0f4c9fb7245608169";  
+      name = "factoryplanner_1.1.67.zip"; 
+      sha1 = "5013f9638a500bb1f16748aa16919d4aac0bdb0e"; 
     };
     deps = [ flib ];
     optionalDeps = [ RecipeBook ];
@@ -17879,9 +17879,9 @@ let
   EditorExtensions = modDrv {
     name = "Editor Extensions"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/EditorExtensions/643b230158ed3a8e2d498444";  
-      name = "EditorExtensions_2.1.2.zip"; 
-      sha1 = "2316278b55dfea8d7bf674d49a113f42d4d5845f"; 
+      url = "https://mods.factorio.com/download/EditorExtensions/647ceb23160e6fc48cb4fbc5";  
+      name = "EditorExtensions_2.1.3.zip"; 
+      sha1 = "d3ecfdbcfec3ee417c5be5609bbe54293499f691"; 
     };
     deps = [ flib ];
     optionalDeps = [ CursorEnhancements ];
@@ -24563,9 +24563,9 @@ let
   CursorEnhancements = modDrv {
     name = "Cursor Enhancements"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/CursorEnhancements/6462c946a198d65dfad53f4a";  
-      name = "CursorEnhancements_2.0.3.zip"; 
-      sha1 = "92f1751fe0214cfac158cac90a39636df5526a74"; 
+      url = "https://mods.factorio.com/download/CursorEnhancements/647d20cfddd0f0f09907f6af";  
+      name = "CursorEnhancements_2.1.0.zip"; 
+      sha1 = "8cc65e01a0d45e86af5c6cbd627cfbfe712c1031"; 
     };
     deps = [ flib ];
     optionalDeps = [  ];
@@ -26519,9 +26519,9 @@ let
   Personal_Development = modDrv {
     name = "Personal Development"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Personal_Development/64620ae5dbdb11c18c130656";  
-      name = "Personal_Development_1.0.5.zip"; 
-      sha1 = "169e16ced7d1c41f12417d5c7f5b6a41b047dcf8"; 
+      url = "https://mods.factorio.com/download/Personal_Development/647ced3227dfb89578ed9e3c";  
+      name = "Personal_Development_1.0.6.zip"; 
+      sha1 = "0e931de39322a8664ac6c22f713ef6adeb294b03"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -36863,12 +36863,12 @@ let
   BottleneckLite = modDrv {
     name = "Bottleneck Lite"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/BottleneckLite/62f56961781c5918a39c029e";  
-      name = "BottleneckLite_1.2.4.zip"; 
-      sha1 = "e6ae3fc15221b6d970ca499d707e73f1da441014"; 
+      url = "https://mods.factorio.com/download/BottleneckLite/647d358550d2766352be89eb";  
+      name = "BottleneckLite_1.2.5.zip"; 
+      sha1 = "795d4ad6b8508b0add8ea4c3d741341d04eb4302"; 
     };
     deps = [ flib ];
-    optionalDeps = [ base ];
+    optionalDeps = [  ];
     recommendedDeps = []; 
  }; 
 
@@ -43871,9 +43871,9 @@ let
   TaskList = modDrv {
     name = "Task List"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/TaskList/645eb119cbe91ed3771af59d";  
-      name = "TaskList_0.4.5.zip"; 
-      sha1 = "eae0f77b77d435defde03b6107c5059bd477b284"; 
+      url = "https://mods.factorio.com/download/TaskList/647d13102f4a6cfbf423ec7b";  
+      name = "TaskList_0.4.6.zip"; 
+      sha1 = "e18ecda546535d42c371d4af3d584419c07f49c1"; 
     };
     deps = [ flib ];
     optionalDeps = [  ];
@@ -44603,9 +44603,9 @@ let
   Warmonger = modDrv {
     name = "Warmonger"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Warmonger/6435d6aa5b9b904a5a328610";  
-      name = "Warmonger_1.3.20.zip"; 
-      sha1 = "1170fe6d99b8e896a5b06806fc64be5cca30d7c6"; 
+      url = "https://mods.factorio.com/download/Warmonger/647e0ad7db7022914d69f9d3";  
+      name = "Warmonger_1.3.21.zip"; 
+      sha1 = "1492adacefc84c896c1b88fe344ae48753874ca5"; 
     };
     deps = [  ];
     optionalDeps = [ RampantArsenal RampantIndustry Rampant IndustrialRevolution pycoalprocessing ];
@@ -50735,9 +50735,9 @@ let
   TrainGroups = modDrv {
     name = "Train Groups"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/TrainGroups/644c6721b8af4e8e1087f0fe";  
-      name = "TrainGroups_1.3.5.zip"; 
-      sha1 = "5b37a2fe30abaa8bcc14bcb92da281c2eb73b360"; 
+      url = "https://mods.factorio.com/download/TrainGroups/647d0f8c2f4a6cfbf423ec7a";  
+      name = "TrainGroups_1.4.0.zip"; 
+      sha1 = "7c60efab99a009c1583b622d07606d877a6423e8"; 
     };
     deps = [ flib ];
     optionalDeps = [ Train_Control_Signals TrainScheduleSignals ];
@@ -51551,12 +51551,12 @@ let
   advanced-chemical-plant = modDrv {
     name = "Advanced Chemical Plant K2"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/advanced-chemical-plant/647b9e31a622af670b65298a";  
-      name = "advanced-chemical-plant_1.3.0.zip"; 
-      sha1 = "ef4f7d398260e9467077d7b5c33d7f5fc500b834"; 
+      url = "https://mods.factorio.com/download/advanced-chemical-plant/647cf494ddd0f0f09907f6ab";  
+      name = "advanced-chemical-plant_1.3.1.zip"; 
+      sha1 = "5397c410be3332dfcf29f81e2d5b78e4ddf39412"; 
     };
     deps = [  ];
-    optionalDeps = [  ];
+    optionalDeps = [ space-exploration ];
     recommendedDeps = []; 
  }; 
 
@@ -55871,9 +55871,9 @@ let
   Concrete_Recipe_Ore_to_Stick = modDrv {
     name = "Concrete Recipe Ore to Stick"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Concrete_Recipe_Ore_to_Stick/62db133f734f99ee8ec7f7d3";  
-      name = "Concrete_Recipe_Ore_to_Stick_1.0.0.zip"; 
-      sha1 = "c384ef2c9587f9d94ba70d04a6788fd02f459157"; 
+      url = "https://mods.factorio.com/download/Concrete_Recipe_Ore_to_Stick/647d491ece338e8cafd8f23c";  
+      name = "Concrete_Recipe_Ore_to_Stick_1.0.1.zip"; 
+      sha1 = "7624f6e1437dd9a51d6f8356267fa67969760cd2"; 
     };
     deps = [  ];
     optionalDeps = [  ];
