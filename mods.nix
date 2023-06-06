@@ -14063,9 +14063,9 @@ let
   factoryplanner = modDrv {
     name = "Factory Planner"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/factoryplanner/647dc7e0f4c9fb7245608169";  
-      name = "factoryplanner_1.1.67.zip"; 
-      sha1 = "5013f9638a500bb1f16748aa16919d4aac0bdb0e"; 
+      url = "https://mods.factorio.com/download/factoryplanner/647f3afdb859e3b42776cf56";  
+      name = "factoryplanner_1.1.68.zip"; 
+      sha1 = "e08e6aa429170e28334d13b664a9d690fa93a964"; 
     };
     deps = [ flib ];
     optionalDeps = [ RecipeBook ];
@@ -24959,9 +24959,9 @@ let
   exploding-trees = modDrv {
     name = "Exploding Trees"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/exploding-trees/5fc240c8bfe1b005c6b77e4d";  
-      name = "exploding-trees_1.1.0.zip"; 
-      sha1 = "6a265410bfe0002ceda7a419c6836434e4545d03"; 
+      url = "https://mods.factorio.com/download/exploding-trees/647e2cb4db7022914d69f9d5";  
+      name = "exploding-trees_1.1.2.zip"; 
+      sha1 = "4b8aec6e0765673a298a53410496cbf1685aff28"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -27167,9 +27167,9 @@ let
   trainsaver = modDrv {
     name = "trainsaver"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/trainsaver/6476b38026498f7864cb2cde";  
-      name = "trainsaver_0.0.23.zip"; 
-      sha1 = "7a372e25e869afdbc06430f5b617f8b8f7e0619c"; 
+      url = "https://mods.factorio.com/download/trainsaver/647e5904a33d92a2f950d0b1";  
+      name = "trainsaver_0.0.24.zip"; 
+      sha1 = "7054614f4329949af621d42a11e284b68a940153"; 
     };
     deps = [  ];
     optionalDeps = [ cutscene-creator ];
@@ -36863,12 +36863,12 @@ let
   BottleneckLite = modDrv {
     name = "Bottleneck Lite"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/BottleneckLite/647d358550d2766352be89eb";  
-      name = "BottleneckLite_1.2.5.zip"; 
-      sha1 = "795d4ad6b8508b0add8ea4c3d741341d04eb4302"; 
+      url = "https://mods.factorio.com/download/BottleneckLite/62f56961781c5918a39c029e";  
+      name = "BottleneckLite_1.2.4.zip"; 
+      sha1 = "e6ae3fc15221b6d970ca499d707e73f1da441014"; 
     };
     deps = [ flib ];
-    optionalDeps = [  ];
+    optionalDeps = [ base ];
     recommendedDeps = []; 
  }; 
 
@@ -49703,9 +49703,9 @@ let
   Big-machines-modpack = modDrv {
     name = "Big Machines Modpack"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Big-machines-modpack/625434b1febe00908f505cf0";  
-      name = "Big-machines-modpack_0.0.3.zip"; 
-      sha1 = "2cf586011bfcc635f02cb4016aa09b7a9e163361"; 
+      url = "https://mods.factorio.com/download/Big-machines-modpack/647e15d8fdac3f14410857b2";  
+      name = "Big-machines-modpack_0.0.4.zip"; 
+      sha1 = "ab5167fc1037a10bec4cf2db34cd1b40fd16f54b"; 
     };
     deps = [ TheArcFurnaceImp BigLaserTurret BigPumpjack BigSolarandAccumulator bigger-artillery-balanced BigStorageTank CircuitFactory nco-InserterCranes Mega-Furnace MiningUPSGrade morelabs Munda_Big_Machine OmegaDrill OmegaDrill_MK2 SchallMachineScaling SchallPipeScaling TheBigFurnace ];
     optionalDeps = [ QuantumFurnace ];
@@ -59927,9 +59927,9 @@ let
   un-science = modDrv {
     name = "Unfunny Science"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/un-science/647ba14e74e02c14e0e94e2b";  
-      name = "un-science_0.1.04.zip"; 
-      sha1 = "aa9fe801bd391b7a343c8ef937af3749b502b3c8"; 
+      url = "https://mods.factorio.com/download/un-science/647e6a2717265f128265b473";  
+      name = "un-science_0.1.05.zip"; 
+      sha1 = "aeddf75916ff99dcf5fdd50269c04a33b4eb29ae"; 
     };
     deps = [ un-pre-process ];
     optionalDeps = [  ];
