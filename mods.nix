@@ -491,9 +491,9 @@ let
   YARM = modDrv {
     name = "YARM - Resource Monitor"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/YARM/647852e38ac1ea2013876f95";  
-      name = "YARM_0.9.6.zip"; 
-      sha1 = "740fa330d718cc3a8eccefcb7a5b5780cbad668e"; 
+      url = "https://mods.factorio.com/download/YARM/647f5982b3c34ae1ca4d3395";  
+      name = "YARM_0.9.7.zip"; 
+      sha1 = "8b7c8c443d32b7ad8f0451eb3cabe2c0be550904"; 
     };
     deps = [  ];
     optionalDeps = [ aai-programmable-vehicles angelsrefining omnimatter ];
@@ -959,9 +959,9 @@ let
   LoaderRedux = modDrv {
     name = "Loader Redux"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/LoaderRedux/632b2cbddf5c9f6473cfe23d";  
-      name = "LoaderRedux_1.8.1.zip"; 
-      sha1 = "9f30c1d0c0cb061843a5c176d7a5ef7916a676c3"; 
+      url = "https://mods.factorio.com/download/LoaderRedux/64805c38a5a61c4081e8e351";  
+      name = "LoaderRedux_1.9.0.zip"; 
+      sha1 = "4226b9655981a80da97155318e5260b99053c2df"; 
     };
     deps = [ flib ];
     optionalDeps = [  ];
@@ -4331,9 +4331,9 @@ let
   Prospector = modDrv {
     name = "Prospector"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Prospector/5fde2c9032e894cc68a848a4";  
-      name = "Prospector_1.0.31.zip"; 
-      sha1 = "161c86f52b1be07a5bb8db8e35b3c02553981d78"; 
+      url = "https://mods.factorio.com/download/Prospector/647fe3c6e682b9964c708eb4";  
+      name = "Prospector_1.0.32.zip"; 
+      sha1 = "36dc631aac9c204b84fb6e8316790dfa7e9caa56"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -6803,9 +6803,9 @@ let
   angelslocaleja_RE = modDrv {
     name = "Angel's Locale Translations for ja + Revised Edition"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/angelslocaleja_RE/6461d894a61bb9a077d2e74a";  
-      name = "angelslocaleja_RE_1.1.16.zip"; 
-      sha1 = "381e2c9db17d4115f5a9344d5f773d62c65371d2"; 
+      url = "https://mods.factorio.com/download/angelslocaleja_RE/648021cbd4137d022d7857df";  
+      name = "angelslocaleja_RE_1.1.17.zip"; 
+      sha1 = "ce62c6224369cfdda8752295e16be22e69ff67aa"; 
     };
     deps = [  ];
     optionalDeps = [ angelsaddons-cab angelsaddons-mobility angelsaddons-storage angelsbioprocessing angelsexploration angelsindustries angelsinfiniteores angelspetrochem angelsrefining angelssmelting bobassembly bobclasses bobelectronics bobenemies bobequipment bobgreenhouse bobinserters boblibrary boblogistics bobmining bobmodules bobores bobplates bobpower bobrevamp bobtech bobvehicleequipment bobwarfare clock ];
@@ -17087,9 +17087,9 @@ let
   robotworld-continued = modDrv {
     name = "Robot World Continued"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/robotworld-continued/620f9c53db3b1a7440dafe89";  
-      name = "robotworld-continued_1.1.4.zip"; 
-      sha1 = "fb7a89d945f48c0c3889a277e7d9dd4710bbe365"; 
+      url = "https://mods.factorio.com/download/robotworld-continued/6480a9aa16a898ab75514614";  
+      name = "robotworld-continued_1.1.5.zip"; 
+      sha1 = "293ed81c1c1b00a6af84d1033602f8861a443f7f"; 
     };
     deps = [  ];
     optionalDeps = [ aai-industry bobelectronics ];
@@ -25679,9 +25679,9 @@ let
   Kux-CoreLib = modDrv {
     name = "Kuxynator's Core Library"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Kux-CoreLib/64790cc9fea063fcf2f97cb7";  
-      name = "Kux-CoreLib_2.5.2.zip"; 
-      sha1 = "638a603ace2299ed3880de36f63718c954db97cd"; 
+      url = "https://mods.factorio.com/download/Kux-CoreLib/6480196fd4137d022d7857de";  
+      name = "Kux-CoreLib_2.5.3.zip"; 
+      sha1 = "c4521f253865637d9922dabdc772ad930f7580f1"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -37617,7 +37617,7 @@ let
  }; 
 
   SE-locale = modDrv {
-    name = "SE-locale太空探索 中文语言包(非官方)"; 
+    name = "SE-locale太空探索 中文语言包"; 
     src = fetchurl2 {
       url = "https://mods.factorio.com/download/SE-locale/645465041f07c655597f1266";  
       name = "SE-locale_0.1.19.zip"; 
@@ -51417,7 +51417,7 @@ let
  }; 
 
   ore-manager-fixed = modDrv {
-    name = "Ore Manager Fixed"; 
+    name = "Ore Mover/Manager"; 
     src = fetchurl2 {
       url = "https://mods.factorio.com/download/ore-manager-fixed/6261b06fab4b2eec7619cbc9";  
       name = "ore-manager-fixed_1.1.1.zip"; 
@@ -56903,9 +56903,9 @@ let
   AdvancedBelts = modDrv {
     name = "Advanced Belts"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/AdvancedBelts/6459043a9c4e0b0f8bdd1098";  
-      name = "AdvancedBelts_2.0.2.zip"; 
-      sha1 = "7cadb1038548d4f4b22032061b1d56246b5c054b"; 
+      url = "https://mods.factorio.com/download/AdvancedBelts/647f9610cbdc9ee1cacee36b";  
+      name = "AdvancedBelts_2.0.3.zip"; 
+      sha1 = "1fa1e75ca855998b9647a25d2b3e4c1ac275aa13"; 
     };
     deps = [  ];
     optionalDeps = [ vanilla-loaders-hd LoaderRedux aai-loaders DeadlockBlackRubberBelts ];
