@@ -491,9 +491,9 @@ let
   YARM = modDrv {
     name = "YARM - Resource Monitor"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/YARM/647f5982b3c34ae1ca4d3395";  
-      name = "YARM_0.9.7.zip"; 
-      sha1 = "8b7c8c443d32b7ad8f0451eb3cabe2c0be550904"; 
+      url = "https://mods.factorio.com/download/YARM/64810b4383e94e339efbdac3";  
+      name = "YARM_0.9.9.zip"; 
+      sha1 = "d2cd8964e6639bf02f74ba601cf3907fda6c7b7c"; 
     };
     deps = [  ];
     optionalDeps = [ aai-programmable-vehicles angelsrefining omnimatter ];
@@ -14063,9 +14063,9 @@ let
   factoryplanner = modDrv {
     name = "Factory Planner"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/factoryplanner/647f3afdb859e3b42776cf56";  
-      name = "factoryplanner_1.1.68.zip"; 
-      sha1 = "e08e6aa429170e28334d13b664a9d690fa93a964"; 
+      url = "https://mods.factorio.com/download/factoryplanner/6481d227b9b95cda3bd84166";  
+      name = "factoryplanner_1.1.69.zip"; 
+      sha1 = "4d41479183bbc51979a201c4985c97f772a44d1a"; 
     };
     deps = [ flib ];
     optionalDeps = [ RecipeBook ];
@@ -29219,9 +29219,9 @@ let
   Kux-LogisticsCenterCS = modDrv {
     name = "Crash-Site Logistics Center"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Kux-LogisticsCenterCS/646284451a4bf2ef198560e8";  
-      name = "Kux-LogisticsCenterCS_2.3.1.zip"; 
-      sha1 = "e0f45da56d8d8ece83e141be3c4c7cb477654d49"; 
+      url = "https://mods.factorio.com/download/Kux-LogisticsCenterCS/6481c8dd5dc86561c3e92146";  
+      name = "Kux-LogisticsCenterCS_2.4.2.zip"; 
+      sha1 = "b17cff4046eccf7da6397d8be1f2f2149d7253eb"; 
     };
     deps = [ Kux-CoreLib ];
     optionalDeps = [ Krastorio2 space-exploration ab_loaderunlock ];
@@ -37619,9 +37619,9 @@ let
   SE-locale = modDrv {
     name = "SE-locale太空探索 中文语言包"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/SE-locale/645465041f07c655597f1266";  
-      name = "SE-locale_0.1.19.zip"; 
-      sha1 = "42df222bc54a97bfd6bec670505064d861199ffd"; 
+      url = "https://mods.factorio.com/download/SE-locale/6480f98b83e94e339efbdac1";  
+      name = "SE-locale_0.1.20.zip"; 
+      sha1 = "6aea63acda32ef40ef47701629f9648af396b0bb"; 
     };
     deps = [  ];
     optionalDeps = [ space-exploration deadlock-beltboxes-loaders Deadlock-SE-bridge aai-signal-transmission space-exploration-postprocess jetpack aai-loaders ];
