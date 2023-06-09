@@ -29219,9 +29219,9 @@ let
   Kux-LogisticsCenterCS = modDrv {
     name = "Crash-Site Logistics Center"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Kux-LogisticsCenterCS/6481c8dd5dc86561c3e92146";  
-      name = "Kux-LogisticsCenterCS_2.4.2.zip"; 
-      sha1 = "b17cff4046eccf7da6397d8be1f2f2149d7253eb"; 
+      url = "https://mods.factorio.com/download/Kux-LogisticsCenterCS/64822d7a969d78f7bac583c4";  
+      name = "Kux-LogisticsCenterCS_2.4.4.zip"; 
+      sha1 = "6daa1305a5c7ae22df9528e1361b543731d0f525"; 
     };
     deps = [ Kux-CoreLib ];
     optionalDeps = [ Krastorio2 space-exploration ab_loaderunlock ];
@@ -30959,9 +30959,9 @@ let
   chlew-ui = modDrv {
     name = "Chlew UI"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/chlew-ui/60168a9b62bddce003718e51";  
-      name = "chlew-ui_0.1.7.zip"; 
-      sha1 = "2ef309deee0a1b67e1a6956e60e917337415e9a7"; 
+      url = "https://mods.factorio.com/download/chlew-ui/6482192f969d78f7bac583c3";  
+      name = "chlew-ui_0.1.9.zip"; 
+      sha1 = "58988799fb9dafd97e6f8b4cb8057486c37c7364"; 
     };
     deps = [ stdlib ];
     optionalDeps = [  ];
@@ -42743,9 +42743,9 @@ let
   holographic_signs = modDrv {
     name = "Holographic Signs"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/holographic_signs/6443f673254b7abef6319bb9";  
-      name = "holographic_signs_1.1.1.zip"; 
-      sha1 = "fb509b3cca79cfc181b3b9dd38c403707f161fc2"; 
+      url = "https://mods.factorio.com/download/holographic_signs/648313441c78bde7eb67547c";  
+      name = "holographic_signs_1.2.0.zip"; 
+      sha1 = "967e7141a3132460a39afec8a33fbc2c99e3323a"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -43547,9 +43547,9 @@ let
   iFreeMarket = modDrv {
     name = "Free market + bottomless storage [PRE-BETA]"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/iFreeMarket/643d439fbcd1fc3341acf098";  
-      name = "iFreeMarket_0.36.22.zip"; 
-      sha1 = "1a952952ee28112eda23e7eadd078cca3aecea44"; 
+      url = "https://mods.factorio.com/download/iFreeMarket/64831b7fb9b95cda3bd8416e";  
+      name = "iFreeMarket_0.37.0.zip"; 
+      sha1 = "5ff2cec5114efb597a25afeefa05e99fd28c54af"; 
     };
     deps = [ zk-lib EasyAPI money-UI flib ];
     optionalDeps = [ gvv ];
@@ -59927,9 +59927,9 @@ let
   un-science = modDrv {
     name = "Unfunny Science"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/un-science/647e6a2717265f128265b473";  
-      name = "un-science_0.1.05.zip"; 
-      sha1 = "aeddf75916ff99dcf5fdd50269c04a33b4eb29ae"; 
+      url = "https://mods.factorio.com/download/un-science/648264a1dd56b55e3a5b1817";  
+      name = "un-science_0.1.06.zip"; 
+      sha1 = "ecc3fb577b65fa9751c6711a790f602f19526e5f"; 
     };
     deps = [ un-pre-process ];
     optionalDeps = [  ];
