@@ -3263,9 +3263,9 @@ let
   omnimatter_compression = modDrv {
     name = "Omnicompression"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/omnimatter_compression/642c5d925452b7c91f58f2a7";  
-      name = "omnimatter_compression_4.1.24.zip"; 
-      sha1 = "2077118df3e9797ef55242bf873acaea017c13c4"; 
+      url = "https://mods.factorio.com/download/omnimatter_compression/64842f56deddc24ae8a2cc7d";  
+      name = "omnimatter_compression_4.1.25.zip"; 
+      sha1 = "0ca5ba8a3101ff587db5839e58d0f08b74f490d0"; 
     };
     deps = [ omnilib ];
     optionalDeps = [ omnimatter omnimatter_science angelsrefining aai-industry Clowns-Science ];
@@ -5051,9 +5051,9 @@ let
   omnilib = modDrv {
     name = "Omnilibrary"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/omnilib/642c5d7fbac5f83787ea086b";  
-      name = "omnilib_4.1.36.zip"; 
-      sha1 = "00e8322a95dff5b9cd345bdce00cf1c3662d8db0"; 
+      url = "https://mods.factorio.com/download/omnilib/64842f4f8a7fbc9ee42b27ed";  
+      name = "omnilib_4.1.37.zip"; 
+      sha1 = "5c84bdca56eba38e095b24c6cefe5f5b579fed11"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -8255,9 +8255,9 @@ let
   omnimatter_fluid = modDrv {
     name = "Omnifluid"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/omnimatter_fluid/642c5da355fa13d91e1f7b3c";  
-      name = "omnimatter_fluid_4.1.30.zip"; 
-      sha1 = "5979c0a11474320dafca2acae3ae7495377e6f68"; 
+      url = "https://mods.factorio.com/download/omnimatter_fluid/64842f6b33473f5e42b16e2d";  
+      name = "omnimatter_fluid_4.1.31.zip"; 
+      sha1 = "b63936c00c29a2fb1f322fbb7dc8d3a5f8bc1f54"; 
     };
     deps = [ omnilib ];
     optionalDeps = [  ];
@@ -18803,9 +18803,9 @@ let
   omnimatter_energy = modDrv {
     name = "Omnienergy"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/omnimatter_energy/6395994b05e4f37ed2b4df26";  
-      name = "omnimatter_energy_3.1.15.zip"; 
-      sha1 = "2ec18f883b4a155805ddb7778d45ac22d0f872f7"; 
+      url = "https://mods.factorio.com/download/omnimatter_energy/64842f641ef63c096b27a86c";  
+      name = "omnimatter_energy_3.1.16.zip"; 
+      sha1 = "c879536136cb284eab67c49fdb55d9f0279e7709"; 
     };
     deps = [ omnilib omnimatter ];
     optionalDeps = [ omnimatter_crystal boblogistics bobassembly Krastorio2 DiscoScience ];
@@ -35879,9 +35879,9 @@ let
   commands = modDrv {
     name = "Commands (switchtable and safe)"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/commands/61da929f89c6abb62acbba3b";  
-      name = "commands_0.5.9.zip"; 
-      sha1 = "38a0e27535efd50391b9043ce92b7b9ba4a0aa96"; 
+      url = "https://mods.factorio.com/download/commands/648454f0deddc24ae8a2cc7e";  
+      name = "commands_0.6.0.zip"; 
+      sha1 = "25b4ba0e08afe2284d78e1eb52ba6a209b417420"; 
     };
     deps = [ zk-lib ];
     optionalDeps = [  ];
@@ -39299,9 +39299,9 @@ let
   EasyAPI = modDrv {
     name = "Easy API [ALPHA]"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/EasyAPI/6453a68a979431e0bd6b6ee1";  
-      name = "EasyAPI_0.11.0.zip"; 
-      sha1 = "234e3d1ca8723147e9568d5e21a8ea80c2cef6a1"; 
+      url = "https://mods.factorio.com/download/EasyAPI/648457296798eaeb0202be1e";  
+      name = "EasyAPI_0.11.1.zip"; 
+      sha1 = "8a47e0922fc4d1e14d90e3aefce5afc1fc2bd162"; 
     };
     deps = [ zk-lib ];
     optionalDeps = [ gvv ];
@@ -43547,9 +43547,9 @@ let
   iFreeMarket = modDrv {
     name = "Free market + bottomless storage [PRE-BETA]"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/iFreeMarket/64831b7fb9b95cda3bd8416e";  
-      name = "iFreeMarket_0.37.0.zip"; 
-      sha1 = "5ff2cec5114efb597a25afeefa05e99fd28c54af"; 
+      url = "https://mods.factorio.com/download/iFreeMarket/6484700c47cd45a6d7da0621";  
+      name = "iFreeMarket_0.38.0.zip"; 
+      sha1 = "52b8b999487cabff8f6a8003687821ec7956c8fe"; 
     };
     deps = [ zk-lib EasyAPI money-UI flib ];
     optionalDeps = [ gvv ];
@@ -49391,9 +49391,9 @@ let
   more-fonts = modDrv {
     name = "More Fonts"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/more-fonts/622eb90a3ca7ef22e0f7fcf9";  
-      name = "more-fonts_0.0.2.zip"; 
-      sha1 = "959627733e81a1f19baac8a458fb43b12f32a4a2"; 
+      url = "https://mods.factorio.com/download/more-fonts/648418dedb283ff34940beda";  
+      name = "more-fonts_0.0.3.zip"; 
+      sha1 = "57c56a51d75aacf42dfbef45e4d5d2eb26b2c21a"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -55379,9 +55379,9 @@ let
   neo-hazard-lights = modDrv {
     name = "Neo Hazard Lights"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/neo-hazard-lights/62d17ef472e0610ef8a05361";  
-      name = "neo-hazard-lights_0.0.1.zip"; 
-      sha1 = "7db235038e4c764498df55325eb6fd60fc1b9487"; 
+      url = "https://mods.factorio.com/download/neo-hazard-lights/64846ea0deddc24ae8a2cc80";  
+      name = "neo-hazard-lights_0.0.2.zip"; 
+      sha1 = "41e28d8a31bb308240b37e2d68d04e80a8e67c17"; 
     };
     deps = [  ];
     optionalDeps = [  ];
