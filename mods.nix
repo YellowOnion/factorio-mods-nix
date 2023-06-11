@@ -13487,9 +13487,9 @@ let
   AircraftRealism = modDrv {
     name = "Aircraft Realism"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/AircraftRealism/6471f1d929f8857c541f865e";  
-      name = "AircraftRealism_1.5.4.zip"; 
-      sha1 = "47eb78ed57f9e217d892492a209fe0698abc0531"; 
+      url = "https://mods.factorio.com/download/AircraftRealism/6485e80c36fbc6680f978964";  
+      name = "AircraftRealism_1.5.5.zip"; 
+      sha1 = "6b3ec89ae86acceabe9ef68e789a8e7f46cf3728"; 
     };
     deps = [  ];
     optionalDeps = [ Aircraft betterCargoPlanes Helicopters ];
@@ -43547,9 +43547,9 @@ let
   iFreeMarket = modDrv {
     name = "Free market + bottomless storage [PRE-BETA]"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/iFreeMarket/6484700c47cd45a6d7da0621";  
-      name = "iFreeMarket_0.38.0.zip"; 
-      sha1 = "52b8b999487cabff8f6a8003687821ec7956c8fe"; 
+      url = "https://mods.factorio.com/download/iFreeMarket/64856c7c171ad4714ed3392e";  
+      name = "iFreeMarket_0.38.3.zip"; 
+      sha1 = "1e1d0bbfc29d6fc4ec3867a5707084d7762e3ec5"; 
     };
     deps = [ zk-lib EasyAPI money-UI flib ];
     optionalDeps = [ gvv ];
@@ -50231,9 +50231,9 @@ let
   blueprint-sandboxes = modDrv {
     name = "Blueprint Sandboxes"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/blueprint-sandboxes/647a8ba34317ec2943ab7cdb";  
-      name = "blueprint-sandboxes_1.15.0.zip"; 
-      sha1 = "2b5f0fcb52070d8a01afb752037a9e13fd8b6930"; 
+      url = "https://mods.factorio.com/download/blueprint-sandboxes/648503313e53152ba6a21218";  
+      name = "blueprint-sandboxes_1.16.0.zip"; 
+      sha1 = "9d7260f6e85eb59139811f18d543a60dce6c2225"; 
     };
     deps = [  ];
     optionalDeps = [ space-exploration Cursed-FMD factorissimo-2-notnotmelon ];
@@ -59051,9 +59051,9 @@ let
   compaktcircuit = modDrv {
     name = "Compact circuits"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/compaktcircuit/647c332bb25163abe6108bc0";  
-      name = "compaktcircuit_1.0.26.zip"; 
-      sha1 = "60a20cb35fb911f05402daa32d57a3179d837c4d"; 
+      url = "https://mods.factorio.com/download/compaktcircuit/64856e4f3313ae91b542c77b";  
+      name = "compaktcircuit_1.0.27.zip"; 
+      sha1 = "2c63570abbf9b9cb9f0c47cad539fd61a8fb09fb"; 
     };
     deps = [ flib ];
     optionalDeps = [ IndustrialDisplayPlates Squeak-Through PickerDollies ];
