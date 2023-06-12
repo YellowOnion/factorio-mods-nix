@@ -17207,12 +17207,12 @@ let
   RecipeBook = modDrv {
     name = "Recipe Book"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/RecipeBook/644da12a2f05ef0590ba1876";  
-      name = "RecipeBook_3.5.3.zip"; 
-      sha1 = "2c8f37c2f8d4dcc1d1bedcfc315543b346d0492a"; 
+      url = "https://mods.factorio.com/download/RecipeBook/64862fdd086152e023f45388";  
+      name = "RecipeBook_3.5.4.zip"; 
+      sha1 = "facb5b53789ce6d0ce7f8d21b90e8ab0505ca896"; 
     };
     deps = [ flib ];
-    optionalDeps = [ base ];
+    optionalDeps = [  ];
     recommendedDeps = []; 
  }; 
 
@@ -21659,9 +21659,9 @@ let
   noplacer = modDrv {
     name = "noplacer"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/noplacer/6029d095345e9dafb82291a9";  
-      name = "noplacer_1.1.2.zip"; 
-      sha1 = "9617ad4214e53c2e586a732f2bbb6c49d9f3c184"; 
+      url = "https://mods.factorio.com/download/noplacer/64869bafc2666e6d1f82c0dd";  
+      name = "noplacer_1.2.0.zip"; 
+      sha1 = "f8b7f8b52e7e32e326e44749b916ff346c1c1514"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -29435,9 +29435,9 @@ let
   UltimateEnergy = modDrv {
     name = "Ultimate Energy"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/UltimateEnergy/5ff4ab61511412e90de62c5a";  
-      name = "UltimateEnergy_0.0.3.zip"; 
-      sha1 = "778633f92d8f6591278bb1ff90ece7c300847824"; 
+      url = "https://mods.factorio.com/download/UltimateEnergy/64861bc61651ebc841b4878b";  
+      name = "UltimateEnergy_0.0.4.zip"; 
+      sha1 = "7c590d9dcc6021ed92e0ad51e4eb883cbf3ba204"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -30323,9 +30323,9 @@ let
   nullius = modDrv {
     name = "Nullius"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/nullius/63b72b28da8ca20b7bcebe47";  
-      name = "nullius_1.5.25.zip"; 
-      sha1 = "f72c3ed506c66fc837e535839469730b7c84398f"; 
+      url = "https://mods.factorio.com/download/nullius/6486916836fbc6680f978967";  
+      name = "nullius_1.5.26.zip"; 
+      sha1 = "b4c5b89fa4de604790f9eb98dc8e6b7c2b9d8e03"; 
     };
     deps = [ alien-biomes angelssmelting boblogistics ];
     optionalDeps = [ RecipeBook underground-pipe-pack ];
@@ -39299,9 +39299,9 @@ let
   EasyAPI = modDrv {
     name = "Easy API [ALPHA]"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/EasyAPI/648457296798eaeb0202be1e";  
-      name = "EasyAPI_0.11.1.zip"; 
-      sha1 = "8a47e0922fc4d1e14d90e3aefce5afc1fc2bd162"; 
+      url = "https://mods.factorio.com/download/EasyAPI/64872a96cf2a0622c7f355cd";  
+      name = "EasyAPI_0.11.2.zip"; 
+      sha1 = "81e03c782ff151226a9891ebf88cae00f7c285c2"; 
     };
     deps = [ zk-lib ];
     optionalDeps = [ gvv ];
@@ -43547,9 +43547,9 @@ let
   iFreeMarket = modDrv {
     name = "Free market + bottomless storage [PRE-BETA]"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/iFreeMarket/64856c7c171ad4714ed3392e";  
-      name = "iFreeMarket_0.38.3.zip"; 
-      sha1 = "1e1d0bbfc29d6fc4ec3867a5707084d7762e3ec5"; 
+      url = "https://mods.factorio.com/download/iFreeMarket/64872c299bd432806bf54a7c";  
+      name = "iFreeMarket_0.38.7.zip"; 
+      sha1 = "a461e9c48ee00562ec02e75845cfc018df081f9d"; 
     };
     deps = [ zk-lib EasyAPI money-UI flib ];
     optionalDeps = [ gvv ];
@@ -49871,12 +49871,12 @@ let
   Trainmaster-modpack = modDrv {
     name = "Trainmaster (Modpack)"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Trainmaster-modpack/63de928822fda219d075e1f8";  
-      name = "Trainmaster-modpack_0.0.12.zip"; 
-      sha1 = "f6cd0262040ffbac8f85e9e5fb86122e8c98f487"; 
+      url = "https://mods.factorio.com/download/Trainmaster-modpack/64862ebe086152e023f45387";  
+      name = "Trainmaster-modpack_0.0.14.zip"; 
+      sha1 = "7fc79defa9200dbcc17f12a05ad0c0a575832543"; 
     };
-    deps = [ accumulator-wagon Armored-train auto_manual_mode Automatic_Coupling_System Automatic_Train_Painter automatic-station-painter-continued DoRobotsBuildAutomaticTrains BatteryElectricTrain FluidWagonColorMask logistic-cargo-wagon VehicleWagon2 beautiful_bridge_railway beautiful_bridge_railway_Cargoships Better-TrainHorn better-train-system railloader Cargo_Train_Logistics ConcurrentTrainRestriction D-Load-Storage electric-shuttle-train ElectricTrain Electronic_Locomotives entity-symmetry fluidTrains FluidWagonColorMask steamTrains FusionTrain Honk howfardiditgo JunkTrain3 LtnManager LTN_Combinator_Fix LTN_Content_Reader MoreLocomotives Noxys_Multidirectional_Trains Nuclear-Locomotives RailSignalPlanner RenaiTransportation SchallOverseasRailway SchallRailwayController SchallRechargingWeapon SmartTrains steamTrains stringy-train-stop signalstrings TheFatController FuelTrainStop Somber-Death-Trains trainConstructionSite TrainSpeedSigns train-signal-visualizer trainCruiseControl TrainNetworkForPlayers TrainDriver_A16_fix train-log TrainModeSwitcher TrainScheduleHelper TrainScheduleSignals TrainSkipFulfilledStation fluidTrains yi_railway z_yira_yuokirails z_yira_UP TrainGroups ];
-    optionalDeps = [ BigFluidWagon ElectricTrain-Rebalance-for-K2 ElectricTrains barrels-of-steam FreeRails11 HighSpeedTrain indestructible-trains LTN_Combinator_Modernized LTN_screensaver Mach6Trains make-locomotive-much-heavier OnlyTrainTransportation RailLogisticsDispatcher Slocomotives space-trains n5dim_trains se-space-trains Train-Speed-Multiplier train-trails traingun TrainRefuelStation TrainSpeedLimit_018_Port trainsaver Ultra-Fast-Trains z_yira_american slowtrains OverloadedTrains11 ];
+    deps = [ accumulator-wagon Armored-train auto_manual_mode Automatic_Coupling_System Automatic_Train_Painter automatic-station-painter-continued DoRobotsBuildAutomaticTrains BatteryElectricTrain FluidWagonColorMask logistic-cargo-wagon VehicleWagon2 beautiful_bridge_railway beautiful_bridge_railway_Cargoships Better-TrainHorn better-train-system railloader Cargo_Train_Logistics ConcurrentTrainRestriction D-Load-Storage electric-shuttle-train ElectricTrain Electronic_Locomotives entity-symmetry FluidWagonColorMask FusionTrain Honk howfardiditgo JunkTrain3 LtnManager LTN_Combinator_Modernized LTN_Content_Reader MoreLocomotives Noxys_Multidirectional_Trains Nuclear-Locomotives RailSignalPlanner RenaiTransportation SchallOverseasRailway SchallRailwayController SchallRechargingWeapon SmartTrains stringy-train-stop signalstrings TheFatController FuelTrainStop Somber-Death-Trains trainConstructionSite TrainSpeedSigns train-signal-visualizer trainCruiseControl TrainNetworkForPlayers TrainDriver_A16_fix train-log TrainModeSwitcher TrainScheduleHelper TrainScheduleSignals TrainSkipFulfilledStation yi_railway z_yira_yuokirails z_yira_UP TrainGroups ];
+    optionalDeps = [ BigFluidWagon ElectricTrain-Rebalance-for-K2 ElectricTrains FreeRails11 HighSpeedTrain indestructible-trains LTN_screensaver Mach6Trains make-locomotive-much-heavier OnlyTrainTransportation RailLogisticsDispatcher Slocomotives space-trains n5dim_trains se-space-trains Train-Speed-Multiplier train-trails traingun TrainRefuelStation TrainSpeedLimit_018_Port trainsaver Ultra-Fast-Trains z_yira_american slowtrains OverloadedTrains11 ];
     recommendedDeps = []; 
  }; 
 
@@ -52763,12 +52763,12 @@ let
   BrassTacks = modDrv {
     name = "Brass Tacks"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/BrassTacks/645895b23c29d43f6de20df0";  
-      name = "BrassTacks_1.1.7.zip"; 
-      sha1 = "8ac34e2bd477136b532392f9db185dca85d9571e"; 
+      url = "https://mods.factorio.com/download/BrassTacks/6486827f086152e023f4538d";  
+      name = "BrassTacks_1.2.0.zip"; 
+      sha1 = "d4b4621e4fe2b307fdf3aaf7405ce3eab05bd537"; 
     };
     deps = [  ];
-    optionalDeps = [ bzlead bzaluminum bzcarbon bztin bzfoundry bzzirconium bzlead space-exploration aai-industry aai-containers aai-signal-transmission deadlock-beltboxes-loaders DeadlockCrating vtk-deep-core-mining Krastorio2 FluidMustFlow Expensive_Fluid_Must_Flow_Recipes bzgold ];
+    optionalDeps = [ bzlead bzaluminum bzcarbon bztin bzfoundry bzzirconium bzlead space-exploration aai-industry aai-containers aai-signal-transmission deadlock-beltboxes-loaders DeadlockCrating vtk-deep-core-mining Krastorio2 FluidMustFlow Expensive_Fluid_Must_Flow_Recipes bzgold cargo-ships underwater-pipes IntermodalContainers FreightForwarding ];
     recommendedDeps = []; 
  }; 
 
@@ -55427,9 +55427,9 @@ let
   IfNickel = modDrv {
     name = "If I Had A Nickel"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/IfNickel/64389c1893f4569ffdb8b630";  
-      name = "IfNickel_1.0.7.zip"; 
-      sha1 = "2f9f0a8f6fe9336ce0f9c63ca1d256de099c418c"; 
+      url = "https://mods.factorio.com/download/IfNickel/6486c6569f060456cffe0c5e";  
+      name = "IfNickel_1.0.9.zip"; 
+      sha1 = "a316efade525c3087ea1d3e410a2dbdec1651e93"; 
     };
     deps = [  ];
     optionalDeps = [ bzlead bzaluminum bzcarbon bzfoundry bztin bztungsten BrassTacks bzgold space-exploration aai-industry deadlock-beltboxes-loaders DeadlockCrating Krastorio2 FluidMustFlow Expensive_Fluid_Must_Flow_Recipes ];
@@ -60371,9 +60371,9 @@ let
   Repair_Turrets = modDrv {
     name = "Repair Turrets that explode cliffs and do not spill onto belts"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Repair_Turrets/642bffbad02b7826c9658dbd";  
-      name = "Repair_Turrets_1.0.9.zip"; 
-      sha1 = "ed94c9a5a9312b92aeaa12b0ebbde57275929aed"; 
+      url = "https://mods.factorio.com/download/Repair_Turrets/6486df730b2eac83a63f525b";  
+      name = "Repair_Turrets_1.0.10.zip"; 
+      sha1 = "ad139302e00fe6346083fbff19eaad958fc083b4"; 
     };
     deps = [  ];
     optionalDeps = [  ];
