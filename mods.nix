@@ -959,9 +959,9 @@ let
   LoaderRedux = modDrv {
     name = "Loader Redux"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/LoaderRedux/64805c38a5a61c4081e8e351";  
-      name = "LoaderRedux_1.9.0.zip"; 
-      sha1 = "4226b9655981a80da97155318e5260b99053c2df"; 
+      url = "https://mods.factorio.com/download/LoaderRedux/6487f2f7223f2b73aa464fe5";  
+      name = "LoaderRedux_1.9.1.zip"; 
+      sha1 = "bea34308c726930ac54aa42b6a4e80bdf621e188"; 
     };
     deps = [ flib ];
     optionalDeps = [  ];
@@ -9959,9 +9959,9 @@ let
   DivOresity = modDrv {
     name = "DivOresity"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/DivOresity/6446f0429881c26289af933e";  
-      name = "DivOresity_1.2.2.zip"; 
-      sha1 = "66d621b4927391025a3a935db28a4bec240947d5"; 
+      url = "https://mods.factorio.com/download/DivOresity/648764b0667c45eef5648cc6";  
+      name = "DivOresity_1.2.3.zip"; 
+      sha1 = "b4b6e4cf1a3c4c94bd4806a71de01df483bad4c5"; 
     };
     deps = [  ];
     optionalDeps = [ dangOreus ];
@@ -14063,9 +14063,9 @@ let
   factoryplanner = modDrv {
     name = "Factory Planner"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/factoryplanner/6481d227b9b95cda3bd84166";  
-      name = "factoryplanner_1.1.69.zip"; 
-      sha1 = "4d41479183bbc51979a201c4985c97f772a44d1a"; 
+      url = "https://mods.factorio.com/download/factoryplanner/648758fb6c5814d5a999dd2f";  
+      name = "factoryplanner_1.1.70.zip"; 
+      sha1 = "22c8d5de2c10bf22ceccca388cbcf928612c4e5c"; 
     };
     deps = [ flib ];
     optionalDeps = [ RecipeBook ];
@@ -35123,9 +35123,9 @@ let
   fiftyshadesofgamestwitch = modDrv {
     name = "FiftyShadesOfGames Twitch-Channel-Points"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/fiftyshadesofgamestwitch/633984b5e957785c2bc1e99f";  
-      name = "fiftyshadesofgamestwitch_0.1.9.zip"; 
-      sha1 = "64cb7b329e09db4b93c8ac164b1ac18b2f581200"; 
+      url = "https://mods.factorio.com/download/fiftyshadesofgamestwitch/648828732e335cf5eaf46fec";  
+      name = "fiftyshadesofgamestwitch_0.1.10.zip"; 
+      sha1 = "acf5574e86a86d8f45b1ebb9ae7f95a8141dd5e6"; 
     };
     deps = [ Cold_biters Explosive_biters heroturrets BigLaserTurret RPGsystem ];
     optionalDeps = [  ];
@@ -38651,9 +38651,9 @@ let
   m-rpg_items = modDrv {
     name = "RPG Items"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/m-rpg_items/63fdb31ce0defa0ed7ff7556";  
-      name = "m-rpg_items_0.21.6.zip"; 
-      sha1 = "5094696bfe66cc6a8fd6929a2b687a48a0db821a"; 
+      url = "https://mods.factorio.com/download/m-rpg_items/648880d8cfab341dd44ca53a";  
+      name = "m-rpg_items_0.21.7.zip"; 
+      sha1 = "6cb8c9a49836c0e128346da4fe1197cbba50b832"; 
     };
     deps = [  ];
     optionalDeps = [ m-spell-pack ];
