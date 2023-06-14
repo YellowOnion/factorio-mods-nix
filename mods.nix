@@ -27515,12 +27515,12 @@ let
   MomosTweak = modDrv {
     name = "MomosTweak"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/MomosTweak/646e164e949fd62d3d7ce825";  
-      name = "MomosTweak_1.3.2.zip"; 
-      sha1 = "79954aa50277898b72a24a2091f7a8ca49f548fa"; 
+      url = "https://mods.factorio.com/download/MomosTweak/6489c1cdff04af86f06be4f3";  
+      name = "MomosTweak_1.3.3.zip"; 
+      sha1 = "ddcbe9f11c065aae6074bbc2655d0bfbc2b89a26"; 
     };
     deps = [ stdlib boblibrary bobassembly bobelectronics boblogistics bobmining bobmodules bobores bobplates bobpower bobrevamp bobtech bobwarfare angelspetrochem angelsrefining angelssmelting ];
-    optionalDeps = [ angelsbioprocessing angelsindustries MoreSciencePacks-for1_1 ScienceCostTweakerM underground-pipe-pack Bio_Industries bobenemies bobinserters bobvehicleequipment LB-Modular-Chests omnilib P-U-M-P-S flow-control-expanded-bob SeaBlock ShinyIcons SpaceMod ];
+    optionalDeps = [ angelsbioprocessing angelsindustries MoreSciencePacks-for1_1 ScienceCostTweakerM underground-pipe-pack Bio_Industries bobenemies bobinserters bobvehicleequipment Clowns-AngelBob-Nuclear LB-Modular-Chests omnilib P-U-M-P-S flow-control-expanded-bob SeaBlock ShinyIcons SpaceMod ];
     recommendedDeps = []; 
  }; 
 
@@ -34451,9 +34451,9 @@ let
   apm_bob_rework_ldinc = modDrv {
     name = "APM bob's extra compability"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/apm_bob_rework_ldinc/644e67497631e09f69ada89d";  
-      name = "apm_bob_rework_ldinc_0.22.105.zip"; 
-      sha1 = "f6c82581236624174033734bbad228920ad59bae"; 
+      url = "https://mods.factorio.com/download/apm_bob_rework_ldinc/6489cbcfff04af86f06be4f4";  
+      name = "apm_bob_rework_ldinc_0.22.107.zip"; 
+      sha1 = "3f1f5313cf107082c5107e0d09f0aadcf523adc6"; 
     };
     deps = [ apm_bob_rework_resource_pack_ldinc apm_resource_pack_ldinc apm_lib_ldinc apm_power_ldinc apm_nuclear_ldinc apm_energy_addon_ldinc bobassembly bobelectronics bobequipment bobinserters boblibrary boblogistics bobmining bobmodules bobores bobplates bobpower bobrevamp bobtech bobwarfare electricboiler deadlock-beltboxes-loaders ];
     optionalDeps = [ Flare-Stack Rampant LogisticTrainNetwork RampantArsenal ];
@@ -50735,9 +50735,9 @@ let
   TrainGroups = modDrv {
     name = "Train Groups"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/TrainGroups/647d0f8c2f4a6cfbf423ec7a";  
-      name = "TrainGroups_1.4.0.zip"; 
-      sha1 = "7c60efab99a009c1583b622d07606d877a6423e8"; 
+      url = "https://mods.factorio.com/download/TrainGroups/648951d3ff04af86f06be4dd";  
+      name = "TrainGroups_1.4.1.zip"; 
+      sha1 = "bdf6f8836295575bbce26517e810f0805e79447f"; 
     };
     deps = [ flib ];
     optionalDeps = [ Train_Control_Signals TrainScheduleSignals ];
@@ -51011,12 +51011,12 @@ let
   RULocaleForSomeMods = modDrv {
     name = "Русская локализация некоторых модов от Ilereneae"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/RULocaleForSomeMods/638353031dfa23cecf372b65";  
-      name = "RULocaleForSomeMods_0.0.6.zip"; 
-      sha1 = "9550ffda4dc45180532b4b2f09b10ee586489ba6"; 
+      url = "https://mods.factorio.com/download/RULocaleForSomeMods/6489cc730e8f9f82deaf0de9";  
+      name = "RULocaleForSomeMods_0.0.7.zip"; 
+      sha1 = "b16a07aae932cb924206be613f5fdce056346308"; 
     };
     deps = [  ];
-    optionalDeps = [ aai-vehicles-ironclad adv_heat Advanced_Fishing AdvancedSubstation alien-module AllMinableAgain Armor_pockets ArmouredBiters assault-rifle Atomic_Overhaul auxiliary_inserter BeaconMk2 beautiful_bridge_railway bigger-artillery-balanced BigLaserTurret bigtruck Building_Time Burner-Filter-Inserter BurnerGenerator burner-long-handed-inserter chemical-rocket cncs_Sulfur_Mod Concrete_Lamppost_v11 Craftable-Poi DeadlockLargerLamp DeadlockResearchNotifications dieselTrains dualores EarlyExtensions ElectricResistance EnchantedNuclearPort extended-descriptions factorio-cooked-fish factory-levels fire-place fixFastLongInserter FortressRuins Geothermal GunEquipment hardened_pipes Hiladdar_Research hl-Cannon-turret InfiniteTech ironclad-gunboat-and-mortar-turret kry-inserters KS_Power leighzerslowncheapitems leighzeruraniuminnovations Lightcycle Long-Inserters LootChestPlus minable-intermediates miningdrillmk2 MoreSciencePacks-for1_1 Nanobots Nuclear-Fission-Armor OmegaDrill OmegaDrill_MK2 pasts-defense-stuff PlutoniumEnergy RedDwarf-AbandonedRuins reliable-rifle research_evolution_factor Roboport_and_Radar_MK2 Robot_Battery_Research Rocket_Turrets Rocket-Silo-Construction sand-and-glass science-bottles Solar-Lamp Speckled-advanced-solar SteamEngineExtra steamTrains StoneWaterWell StoneWaterWell_Balanced Torches traingun Uranium-Shotgun-Shell uranium_geiger Uranium_Inserter_T vtk-cannon-turret WhistleStopFactories WipMod_windgenerator Wonders Wood_Mulch wtxCapacitors wtxEcoDrill wtxElectrifiedStoneFurnace xtreme-fishing ];
+    optionalDeps = [ aai-vehicles-ironclad adv_heat Advanced_Fishing AdvancedSubstation alien-module AllMinableAgain Armor_pockets ArmouredBiters assault-rifle Atomic_Overhaul auxiliary_inserter BeaconMk2 beautiful_bridge_railway bigger-artillery-balanced BigLaserTurret bigtruck Building_Time Burner-Filter-Inserter BurnerGenerator burner-long-handed-inserter chemical-rocket cncs_Sulfur_Mod Companion_Drones companion-drones-rebalanced Concrete_Lamppost_v11 Craftable-Poi DeadlockLargerLamp DeadlockResearchNotifications dieselTrains dualores EarlyExtensions ElectricResistance EnchantedNuclearPort extended-descriptions factorio-cooked-fish factory-levels fire-place fixFastLongInserter FortressRuins Geothermal GunEquipment hardened_pipes Hiladdar_Research hl-Cannon-turret InfiniteTech ironclad-gunboat-and-mortar-turret kry-inserters KS_Power leighzerslowncheapitems leighzeruraniuminnovations Lightcycle Long-Inserters LootChestPlus minable-intermediates miningdrillmk2 MoreSciencePacks-for1_1 Nanobots Nuclear-Fission-Armor OmegaDrill OmegaDrill_MK2 pasts-defense-stuff PlutoniumEnergy RedDwarf-AbandonedRuins reliable-rifle research_evolution_factor Roboport_and_Radar_MK2 Robot_Battery_Research Rocket_Turrets Rocket-Silo-Construction sand-and-glass science-bottles Solar-Lamp Speckled-advanced-solar SteamEngineExtra steamTrains StoneWaterWell StoneWaterWell_Balanced Torches traingun Uranium-Shotgun-Shell uranium_geiger Uranium_Inserter_T vtk-cannon-turret WhistleStopFactories WipMod_windgenerator Wonders Wood_Mulch wtxCapacitors wtxEcoDrill wtxElectrifiedStoneFurnace xtreme-fishing lex-aircraft FreightForwarding wret-beacon-rebalance-mod ch-concentrated-solar Long_Range_Delivery_Drones Mini_Trains IntermodalContainers CanalBuilderMAV solidwaste-pollution-filter ];
     recommendedDeps = []; 
  }; 
 
@@ -52763,9 +52763,9 @@ let
   BrassTacks = modDrv {
     name = "Brass Tacks"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/BrassTacks/6486827f086152e023f4538d";  
-      name = "BrassTacks_1.2.0.zip"; 
-      sha1 = "d4b4621e4fe2b307fdf3aaf7405ce3eab05bd537"; 
+      url = "https://mods.factorio.com/download/BrassTacks/64895f72c411c5125154f57f";  
+      name = "BrassTacks_1.2.1.zip"; 
+      sha1 = "0ad8c737605258db653b2a91831d3d9fbcadf849"; 
     };
     deps = [  ];
     optionalDeps = [ bzlead bzaluminum bzcarbon bztin bzfoundry bzzirconium bzlead space-exploration aai-industry aai-containers aai-signal-transmission deadlock-beltboxes-loaders DeadlockCrating vtk-deep-core-mining Krastorio2 FluidMustFlow Expensive_Fluid_Must_Flow_Recipes bzgold cargo-ships underwater-pipes IntermodalContainers FreightForwarding ];
@@ -55355,9 +55355,9 @@ let
   CitiesOfEarth3 = modDrv {
     name = "Cities Of Earth 3"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/CitiesOfEarth3/646d108b8bee84b9566284f6";  
-      name = "CitiesOfEarth3_1.7.2.zip"; 
-      sha1 = "551da455f463533682fc629bffe70a2f40dd1c15"; 
+      url = "https://mods.factorio.com/download/CitiesOfEarth3/6488c589233727ee0586f7aa";  
+      name = "CitiesOfEarth3_1.7.8.zip"; 
+      sha1 = "2aee8597d9da2d1b8d4a1a3f897b2572e260b489"; 
     };
     deps = [  ];
     optionalDeps = [ cargo-ships beautiful_bridge_railway_Cargoships Krastorio2 ];
