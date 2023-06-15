@@ -8255,9 +8255,9 @@ let
   omnimatter_fluid = modDrv {
     name = "Omnifluid"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/omnimatter_fluid/64842f6b33473f5e42b16e2d";  
-      name = "omnimatter_fluid_4.1.31.zip"; 
-      sha1 = "b63936c00c29a2fb1f322fbb7dc8d3a5f8bc1f54"; 
+      url = "https://mods.factorio.com/download/omnimatter_fluid/6489f45824b9c78aaf96e468";  
+      name = "omnimatter_fluid_4.1.32.zip"; 
+      sha1 = "cb8775fdfeabd0162d37ffbebec989af7a4788dc"; 
     };
     deps = [ omnilib ];
     optionalDeps = [  ];
@@ -22499,9 +22499,9 @@ let
   zk-lib = modDrv {
     name = "ZwerOxotnik's multipurpose mod with 8 addons [zk-lib][WIP]"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/zk-lib/644f740da94ab3df7e0fd56a";  
-      name = "zk-lib_0.12.5.zip"; 
-      sha1 = "60714c7ef55da1f68c8fcfb44c1c695d49e63396"; 
+      url = "https://mods.factorio.com/download/zk-lib/648a8b6a0188810235ae9793";  
+      name = "zk-lib_0.13.0.zip"; 
+      sha1 = "7bd9ba927d38e8cd275606b5aa4f51e2ee0ab7f4"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -34451,11 +34451,11 @@ let
   apm_bob_rework_ldinc = modDrv {
     name = "APM bob's extra compability"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/apm_bob_rework_ldinc/6489cbcfff04af86f06be4f4";  
-      name = "apm_bob_rework_ldinc_0.22.107.zip"; 
-      sha1 = "3f1f5313cf107082c5107e0d09f0aadcf523adc6"; 
+      url = "https://mods.factorio.com/download/apm_bob_rework_ldinc/648b37d27c6034a57bc44ea9";  
+      name = "apm_bob_rework_ldinc_0.22.109.zip"; 
+      sha1 = "c7fa3b8b05944f20d8205525cb093e0c55e7dd4b"; 
     };
-    deps = [ apm_bob_rework_resource_pack_ldinc apm_resource_pack_ldinc apm_lib_ldinc apm_power_ldinc apm_nuclear_ldinc apm_energy_addon_ldinc bobassembly bobelectronics bobequipment bobinserters boblibrary boblogistics bobmining bobmodules bobores bobplates bobpower bobrevamp bobtech bobwarfare electricboiler deadlock-beltboxes-loaders ];
+    deps = [ apm_bob_rework_resource_pack_ldinc apm_resource_pack_ldinc apm_lib_ldinc apm_power_ldinc apm_nuclear_ldinc apm_energy_addon_ldinc bobassembly bobelectronics bobequipment bobinserters boblibrary boblogistics bobmining bobmodules bobores bobplates bobpower bobrevamp bobtech bobwarfare electricboiler deadlock-beltboxes-loaders ironclad-gunboat-and-mortar-turret ];
     optionalDeps = [ Flare-Stack Rampant LogisticTrainNetwork RampantArsenal ];
     recommendedDeps = []; 
  }; 
@@ -52763,9 +52763,9 @@ let
   BrassTacks = modDrv {
     name = "Brass Tacks"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/BrassTacks/64895f72c411c5125154f57f";  
-      name = "BrassTacks_1.2.1.zip"; 
-      sha1 = "0ad8c737605258db653b2a91831d3d9fbcadf849"; 
+      url = "https://mods.factorio.com/download/BrassTacks/648a657b39d6e654226c1f01";  
+      name = "BrassTacks_1.2.3.zip"; 
+      sha1 = "d3b75a3080cbfaffd09b3b01ca65f35921bfcbd0"; 
     };
     deps = [  ];
     optionalDeps = [ bzlead bzaluminum bzcarbon bztin bzfoundry bzzirconium bzlead space-exploration aai-industry aai-containers aai-signal-transmission deadlock-beltboxes-loaders DeadlockCrating vtk-deep-core-mining Krastorio2 FluidMustFlow Expensive_Fluid_Must_Flow_Recipes bzgold cargo-ships underwater-pipes IntermodalContainers FreightForwarding ];
@@ -55427,9 +55427,9 @@ let
   IfNickel = modDrv {
     name = "If I Had A Nickel"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/IfNickel/6486c6569f060456cffe0c5e";  
-      name = "IfNickel_1.0.9.zip"; 
-      sha1 = "a316efade525c3087ea1d3e410a2dbdec1651e93"; 
+      url = "https://mods.factorio.com/download/IfNickel/648a6b4e23f02614b83a9823";  
+      name = "IfNickel_1.0.10.zip"; 
+      sha1 = "0626ee249e2a0eb0a32c8eafdaef0386ebd982cb"; 
     };
     deps = [  ];
     optionalDeps = [ bzlead bzaluminum bzcarbon bzfoundry bztin bztungsten BrassTacks bzgold space-exploration aai-industry deadlock-beltboxes-loaders DeadlockCrating Krastorio2 FluidMustFlow Expensive_Fluid_Must_Flow_Recipes ];
@@ -58859,9 +58859,9 @@ let
   ModuleInserterSimplified = modDrv {
     name = "Module Inserter Simplified"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/ModuleInserterSimplified/63b81a36ca19d7c37b2a7dfc";  
-      name = "ModuleInserterSimplified_1.1.3.zip"; 
-      sha1 = "636694185660791ba0334ab2c050a3254f85d6ef"; 
+      url = "https://mods.factorio.com/download/ModuleInserterSimplified/648a679b41acc6831dbf514f";  
+      name = "ModuleInserterSimplified_1.1.4.zip"; 
+      sha1 = "699b7933939e88b325ee3c7f41b262818b43ad9d"; 
     };
     deps = [  ];
     optionalDeps = [ GhostWarnings ];
@@ -59927,9 +59927,9 @@ let
   un-science = modDrv {
     name = "Unfunny Science"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/un-science/648264a1dd56b55e3a5b1817";  
-      name = "un-science_0.1.06.zip"; 
-      sha1 = "ecc3fb577b65fa9751c6711a790f602f19526e5f"; 
+      url = "https://mods.factorio.com/download/un-science/648a09436838ed4a23c26521";  
+      name = "un-science_0.1.07.zip"; 
+      sha1 = "d4d645cbe2fd198d612e5d0e3e3f2d7f813a6ecf"; 
     };
     deps = [ un-pre-process ];
     optionalDeps = [  ];
