@@ -23219,9 +23219,9 @@ let
   CustomSpeedModifier = modDrv {
     name = "CustomSpeedModifier"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/CustomSpeedModifier/63eb95486c5a8e8d873928e7";  
-      name = "CustomSpeedModifier_1.0.7.zip"; 
-      sha1 = "d44a24f46396265a33eaa53e53a046fcca85e2d1"; 
+      url = "https://mods.factorio.com/download/CustomSpeedModifier/648c7949236fc161da4cd33a";  
+      name = "CustomSpeedModifier_1.0.8.zip"; 
+      sha1 = "319cb874c98b656f6887bc4588c358aa63b214e8"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -27935,9 +27935,9 @@ let
   SpidertronEnhancements = modDrv {
     name = "Spidertron Enhancements"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/SpidertronEnhancements/640fbe2645c2b593c7c25a25";  
-      name = "SpidertronEnhancements_1.8.16.zip"; 
-      sha1 = "1b3c9a66dde048bc2a81311acb7974fcab37ba40"; 
+      url = "https://mods.factorio.com/download/SpidertronEnhancements/648bc12a9be8797e27789cd5";  
+      name = "SpidertronEnhancements_1.8.17.zip"; 
+      sha1 = "092f35f4fe8b1eef124f5b6cb6f47232288f779a"; 
     };
     deps = [ simhelper ];
     optionalDeps = [ RemoteConfiguration ];
@@ -29219,9 +29219,9 @@ let
   Kux-LogisticsCenterCS = modDrv {
     name = "Crash-Site Logistics Center"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Kux-LogisticsCenterCS/64822d7a969d78f7bac583c4";  
-      name = "Kux-LogisticsCenterCS_2.4.4.zip"; 
-      sha1 = "6daa1305a5c7ae22df9528e1361b543731d0f525"; 
+      url = "https://mods.factorio.com/download/Kux-LogisticsCenterCS/648c503264f41ce15fccd296";  
+      name = "Kux-LogisticsCenterCS_2.4.5.zip"; 
+      sha1 = "3e4cad8995338ad87fd77fc0c2ef34a7a800833f"; 
     };
     deps = [ Kux-CoreLib ];
     optionalDeps = [ Krastorio2 space-exploration ab_loaderunlock ];
@@ -35615,9 +35615,9 @@ let
   SpidertronPatrols = modDrv {
     name = "Spidertron Patrols"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/SpidertronPatrols/646feeb4478d1d6f1fd4d1f8";  
-      name = "SpidertronPatrols_2.4.4.zip"; 
-      sha1 = "4ba5ac35cdc20a853e9805fcddd02585819a0716"; 
+      url = "https://mods.factorio.com/download/SpidertronPatrols/648bc359cc2962ee3780e234";  
+      name = "SpidertronPatrols_2.4.5.zip"; 
+      sha1 = "ba246c58a2db3c6569c140fa39f48f687dd034a2"; 
     };
     deps = [ SpidertronEnhancements ];
     optionalDeps = [  ];
@@ -42251,9 +42251,9 @@ let
   BlueprintSignals_continued = modDrv {
     name = "Blueprint Signals (continued)"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/BlueprintSignals_continued/615d769a9169a89900fc1467";  
-      name = "BlueprintSignals_continued_0.4.0.zip"; 
-      sha1 = "52778ab63e4f7795008156fd16531835d04a45ac"; 
+      url = "https://mods.factorio.com/download/BlueprintSignals_continued/648bad1c64f41ce15fccd283";  
+      name = "BlueprintSignals_continued_0.4.2.zip"; 
+      sha1 = "719251f67a5a61e841e7458cf3a222a98f7bb93c"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -44339,9 +44339,9 @@ let
   RampantFixed = modDrv {
     name = "Rampant, fixed"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/RampantFixed/64622e15794eb1ff6f5d975c";  
-      name = "RampantFixed_1.7.0.zip"; 
-      sha1 = "afb954944f7b37f0de50a41882443220f7233eff"; 
+      url = "https://mods.factorio.com/download/RampantFixed/648c2d27cc2962ee3780e240";  
+      name = "RampantFixed_1.7.1.zip"; 
+      sha1 = "7818637d864cc216ceef756e8e7be5bdfe386794"; 
     };
     deps = [  ];
     optionalDeps = [ alien-module Arachnids ArmouredBiters bobenemies RampantArsenal SchallAlienLoot ];
@@ -50231,9 +50231,9 @@ let
   blueprint-sandboxes = modDrv {
     name = "Blueprint Sandboxes"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/blueprint-sandboxes/648503313e53152ba6a21218";  
-      name = "blueprint-sandboxes_1.16.0.zip"; 
-      sha1 = "9d7260f6e85eb59139811f18d543a60dce6c2225"; 
+      url = "https://mods.factorio.com/download/blueprint-sandboxes/648b582f8d05ea9162d6d7cd";  
+      name = "blueprint-sandboxes_1.16.1.zip"; 
+      sha1 = "1ba7d368bbab3059a5a58a64ccc2278ceefb8e14"; 
     };
     deps = [  ];
     optionalDeps = [ space-exploration Cursed-FMD factorissimo-2-notnotmelon ];
@@ -50735,9 +50735,9 @@ let
   TrainGroups = modDrv {
     name = "Train Groups"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/TrainGroups/648951d3ff04af86f06be4dd";  
-      name = "TrainGroups_1.4.1.zip"; 
-      sha1 = "bdf6f8836295575bbce26517e810f0805e79447f"; 
+      url = "https://mods.factorio.com/download/TrainGroups/648b5fc64f75f92c58857639";  
+      name = "TrainGroups_1.4.2.zip"; 
+      sha1 = "a2d91005132785c392e75a835608b0a743573927"; 
     };
     deps = [ flib ];
     optionalDeps = [ Train_Control_Signals TrainScheduleSignals ];
@@ -55379,9 +55379,9 @@ let
   neo-hazard-lights = modDrv {
     name = "Neo Hazard Lights"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/neo-hazard-lights/64846ea0deddc24ae8a2cc80";  
-      name = "neo-hazard-lights_0.0.2.zip"; 
-      sha1 = "41e28d8a31bb308240b37e2d68d04e80a8e67c17"; 
+      url = "https://mods.factorio.com/download/neo-hazard-lights/648c20887c6034a57bc44eb3";  
+      name = "neo-hazard-lights_0.0.3.zip"; 
+      sha1 = "a411d6186fc966e3d90b52dd3964733205519e96"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -55427,9 +55427,9 @@ let
   IfNickel = modDrv {
     name = "If I Had A Nickel"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/IfNickel/648a6b4e23f02614b83a9823";  
-      name = "IfNickel_1.0.10.zip"; 
-      sha1 = "0626ee249e2a0eb0a32c8eafdaef0386ebd982cb"; 
+      url = "https://mods.factorio.com/download/IfNickel/648b66ff9be8797e27789cd1";  
+      name = "IfNickel_1.0.11.zip"; 
+      sha1 = "b3105097d11dab7e435f9b1546e9c7f6c277dde0"; 
     };
     deps = [  ];
     optionalDeps = [ bzlead bzaluminum bzcarbon bzfoundry bztin bztungsten BrassTacks bzgold space-exploration aai-industry deadlock-beltboxes-loaders DeadlockCrating Krastorio2 FluidMustFlow Expensive_Fluid_Must_Flow_Recipes ];
@@ -56183,9 +56183,9 @@ let
   TurretPod = modDrv {
     name = "Turret Pod Equipment"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/TurretPod/63ab711a03997affe87ed8ec";  
-      name = "TurretPod_1.0.3.zip"; 
-      sha1 = "06b076b1b43e536865abc94f2630ffb5844f0fe5"; 
+      url = "https://mods.factorio.com/download/TurretPod/648b5cd5031c1618cc9ed761";  
+      name = "TurretPod_1.0.4.zip"; 
+      sha1 = "2f3e9a3d4df6c5aed46f93c7cfcac68db839e9f9"; 
     };
     deps = [  ];
     optionalDeps = [ RampantArsenal Krastorio2 VehicleGrid bobvehicleequipment ];
