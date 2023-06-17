@@ -467,9 +467,9 @@ let
   helmod = modDrv {
     name = "Helmod: Assistant for planning your factory"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/helmod/64168057d6c91037e0ec21af";  
-      name = "helmod_0.12.15.zip"; 
-      sha1 = "a17be8dfb97250ed18a806483ebc9044216e6566"; 
+      url = "https://mods.factorio.com/download/helmod/648c98c54cf9cfd400dd2a89";  
+      name = "helmod_0.12.16.zip"; 
+      sha1 = "705d7cba1a58ce7bafe082bf1b2536e1ac9dcae4"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -7619,12 +7619,12 @@ let
   minime = modDrv {
     name = "miniMAXIme: Character scaler and selector"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/minime/646e24a35e32d2547c03c1c5";  
-      name = "minime_1.1.30.zip"; 
-      sha1 = "c5380404bd540b7470ec0ec250136f83f8af6279"; 
+      url = "https://mods.factorio.com/download/minime/648d81ee6b45f5f3018f5300";  
+      name = "minime_1.1.31.zip"; 
+      sha1 = "7d5af4411bd83c5ae2e125756ce0455a26e88152"; 
     };
     deps = [  ];
-    optionalDeps = [ AmongUsCharacter GirlCharacter IRobot dnf-snow genshin-impact-skin miku-bikini-swimsuit minecraft NikoCharacter pikachu ProtogenCharacter shrek2 tianyi wickerbeast ];
+    optionalDeps = [ AmongUsCharacter GirlCharacter IRobot dnf-snow genshin-impact-skin miku-bikini-swimsuit minecraft NikoCharacter pikachu ProtogenCharacter shrek2 tianyi vaporeon-character wickerbeast ];
     recommendedDeps = []; 
  }; 
 
@@ -29639,9 +29639,9 @@ let
   capacity-combinator = modDrv {
     name = "Capacity Combinator"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/capacity-combinator/627ffba3a1fd626fdfa36dcf";  
-      name = "capacity-combinator_2.3.0.zip"; 
-      sha1 = "50316c2709216270681faf0c1db3a18f7a5eb028"; 
+      url = "https://mods.factorio.com/download/capacity-combinator/648cea381c1d87e287a03ddd";  
+      name = "capacity-combinator_2.3.1.zip"; 
+      sha1 = "72418e6327d5c0a70a52bb953584158364431e69"; 
     };
     deps = [ simhelper ];
     optionalDeps = [  ];
@@ -44603,9 +44603,9 @@ let
   Warmonger = modDrv {
     name = "Warmonger"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Warmonger/647e0ad7db7022914d69f9d3";  
-      name = "Warmonger_1.3.21.zip"; 
-      sha1 = "1492adacefc84c896c1b88fe344ae48753874ca5"; 
+      url = "https://mods.factorio.com/download/Warmonger/648cb4b4f462aa53709a7aa9";  
+      name = "Warmonger_1.3.22.zip"; 
+      sha1 = "21488ad1628d7e01c9dc8a3a8489042c514afa87"; 
     };
     deps = [  ];
     optionalDeps = [ RampantArsenal RampantIndustry Rampant IndustrialRevolution pycoalprocessing ];
@@ -59855,9 +59855,9 @@ let
   glutenfree-equipment-train-stop = modDrv {
     name = "Equipment train stop"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/glutenfree-equipment-train-stop/6457639268a981fa87949503";  
-      name = "glutenfree-equipment-train-stop_1.0.3.zip"; 
-      sha1 = "5c8a02aa0792c8bb99395577fc4c0e6421b4af35"; 
+      url = "https://mods.factorio.com/download/glutenfree-equipment-train-stop/648c98726b45f5f3018f52fb";  
+      name = "glutenfree-equipment-train-stop_1.0.5.zip"; 
+      sha1 = "5eb84b4db0fc6e4707238fb01a2d42d107947462"; 
     };
     deps = [ flib ];
     optionalDeps = [  ];
