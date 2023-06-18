@@ -5699,9 +5699,9 @@ let
   PlutoniumEnergy = modDrv {
     name = "Plutonium Energy"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/PlutoniumEnergy/6432ecedd5027fbb015ec815";  
-      name = "PlutoniumEnergy_1.4.6.zip"; 
-      sha1 = "0e29e48021c63ae90b18940f23bd0224cc097b53"; 
+      url = "https://mods.factorio.com/download/PlutoniumEnergy/648f0da08aea799744346433";  
+      name = "PlutoniumEnergy_1.4.7.zip"; 
+      sha1 = "e0fa65f3d13ab54e09926ce361a1b415946931d1"; 
     };
     deps = [  ];
     optionalDeps = [ AtomicArtillery SchallUraniumProcessing SchallArtillery SchallRadioactiveWaste bobplates bobwarfare AtomicRocketScreenBurn IndustrialRevolution space-exploration ];
@@ -7619,9 +7619,9 @@ let
   minime = modDrv {
     name = "miniMAXIme: Character scaler and selector"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/minime/648d81ee6b45f5f3018f5300";  
-      name = "minime_1.1.31.zip"; 
-      sha1 = "7d5af4411bd83c5ae2e125756ce0455a26e88152"; 
+      url = "https://mods.factorio.com/download/minime/648e22ff26d6aa43a5ecbb6f";  
+      name = "minime_1.1.32.zip"; 
+      sha1 = "cc7e203927dce6c954c5ad239497ebcd4eea9a34"; 
     };
     deps = [  ];
     optionalDeps = [ AmongUsCharacter GirlCharacter IRobot dnf-snow genshin-impact-skin miku-bikini-swimsuit minecraft NikoCharacter pikachu ProtogenCharacter shrek2 tianyi vaporeon-character wickerbeast ];
@@ -8255,9 +8255,9 @@ let
   omnimatter_fluid = modDrv {
     name = "Omnifluid"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/omnimatter_fluid/6489f45824b9c78aaf96e468";  
-      name = "omnimatter_fluid_4.1.32.zip"; 
-      sha1 = "cb8775fdfeabd0162d37ffbebec989af7a4788dc"; 
+      url = "https://mods.factorio.com/download/omnimatter_fluid/648f0035e16e16626d169dda";  
+      name = "omnimatter_fluid_4.1.33.zip"; 
+      sha1 = "180240df53a5a2490cfc898699ab3e75a1c77230"; 
     };
     deps = [ omnilib ];
     optionalDeps = [  ];
@@ -24179,9 +24179,9 @@ let
   automatic-underground-pipe-connectors = modDrv {
     name = "Automatic Underground Pipe Connectors"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/automatic-underground-pipe-connectors/61cb4a9eb0d32955fbe00fe5";  
-      name = "automatic-underground-pipe-connectors_1.0.4.zip"; 
-      sha1 = "a5558a692fd6b7baaabd682eb03069dc6d29b90a"; 
+      url = "https://mods.factorio.com/download/automatic-underground-pipe-connectors/648e9ee23a94814d7ff3300a";  
+      name = "automatic-underground-pipe-connectors_1.1.0.zip"; 
+      sha1 = "53044e941377663eed68ed3652feb089f7c6d202"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -34451,9 +34451,9 @@ let
   apm_bob_rework_ldinc = modDrv {
     name = "APM bob's extra compability"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/apm_bob_rework_ldinc/648b37d27c6034a57bc44ea9";  
-      name = "apm_bob_rework_ldinc_0.22.109.zip"; 
-      sha1 = "c7fa3b8b05944f20d8205525cb093e0c55e7dd4b"; 
+      url = "https://mods.factorio.com/download/apm_bob_rework_ldinc/648edd2f6f44addeac849d84";  
+      name = "apm_bob_rework_ldinc_0.22.110.zip"; 
+      sha1 = "c52dbe15061bba1620263178284decaf9ddea99c"; 
     };
     deps = [ apm_bob_rework_resource_pack_ldinc apm_resource_pack_ldinc apm_lib_ldinc apm_power_ldinc apm_nuclear_ldinc apm_energy_addon_ldinc bobassembly bobelectronics bobequipment bobinserters boblibrary boblogistics bobmining bobmodules bobores bobplates bobpower bobrevamp bobtech bobwarfare electricboiler deadlock-beltboxes-loaders ironclad-gunboat-and-mortar-turret ];
     optionalDeps = [ Flare-Stack Rampant LogisticTrainNetwork RampantArsenal ];
