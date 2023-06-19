@@ -6731,9 +6731,9 @@ let
   i-speak-for-the-trees = modDrv {
     name = "I speak for the trees!"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/i-speak-for-the-trees/61cf6b7f9236f1397e89f3d0";  
-      name = "i-speak-for-the-trees_1.1.0.zip"; 
-      sha1 = "290a95423190e30e8db7dbd560aaa141ebc50c53"; 
+      url = "https://mods.factorio.com/download/i-speak-for-the-trees/648f9c3d1c7ab567cbac6aee";  
+      name = "i-speak-for-the-trees_1.1.2.zip"; 
+      sha1 = "e9f3992379b161535001a428bf823adb7291c8fb"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -8255,9 +8255,9 @@ let
   omnimatter_fluid = modDrv {
     name = "Omnifluid"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/omnimatter_fluid/648f0035e16e16626d169dda";  
-      name = "omnimatter_fluid_4.1.33.zip"; 
-      sha1 = "180240df53a5a2490cfc898699ab3e75a1c77230"; 
+      url = "https://mods.factorio.com/download/omnimatter_fluid/64907a15994ff65d6c7dd761";  
+      name = "omnimatter_fluid_4.1.34.zip"; 
+      sha1 = "97e0e0c7423f2ebf79d0e136700d8dc3bd95b6ba"; 
     };
     deps = [ omnilib ];
     optionalDeps = [  ];
@@ -18431,9 +18431,9 @@ let
   Krastorio2 = modDrv {
     name = "Krastorio 2"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Krastorio2/6456d38568a981fa879494f4";  
-      name = "Krastorio2_1.3.19.zip"; 
-      sha1 = "26d50bbab40d443543d114f853f5935bdffbb575"; 
+      url = "https://mods.factorio.com/download/Krastorio2/648fd8d338de24964f95f16d";  
+      name = "Krastorio2_1.3.20.zip"; 
+      sha1 = "899b22c903127ef2f72ba91cf9959b067d5a3e5c"; 
     };
     deps = [ Krastorio2Assets flib ];
     optionalDeps = [  ];
@@ -22631,9 +22631,9 @@ let
   extended-descriptions = modDrv {
     name = "Extended Descriptions ⚡"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/extended-descriptions/6392c968b074dac07dd2d6eb";  
-      name = "extended-descriptions_1.1.0.zip"; 
-      sha1 = "91700bb154b324dc2aa616a47f6341f1b065cd1e"; 
+      url = "https://mods.factorio.com/download/extended-descriptions/6490768b3a445a4a49420e4f";  
+      name = "extended-descriptions_1.2.0.zip"; 
+      sha1 = "4df1c4ab6dc1ebac37b2798088f78a15f3229adb"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -24299,9 +24299,9 @@ let
   combinator-text = modDrv {
     name = "Combinator Text"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/combinator-text/62eb52a08c456b2b696e7912";  
-      name = "combinator-text_1.1.1.zip"; 
-      sha1 = "70a45fd31354883bb9e0100db4089588273cd677"; 
+      url = "https://mods.factorio.com/download/combinator-text/648fb54a887d7f3c93e217eb";  
+      name = "combinator-text_1.1.3.zip"; 
+      sha1 = "a47a3e035f73e22ed2d968be941576469fcd595a"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -27047,9 +27047,9 @@ let
   LogisticRequestManager = modDrv {
     name = "Logistic Request Manager (continued)"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/LogisticRequestManager/641def1fe10f77d69d01c8f1";  
-      name = "LogisticRequestManager_1.1.28.zip"; 
-      sha1 = "45613f183f42c5edd7856055902728940420a544"; 
+      url = "https://mods.factorio.com/download/LogisticRequestManager/64907db4054ecef86da56e28";  
+      name = "LogisticRequestManager_1.1.29.zip"; 
+      sha1 = "948586beb7a030d6c3589c2250d7f4d59c13de28"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -36863,12 +36863,12 @@ let
   BottleneckLite = modDrv {
     name = "Bottleneck Lite"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/BottleneckLite/62f56961781c5918a39c029e";  
-      name = "BottleneckLite_1.2.4.zip"; 
-      sha1 = "e6ae3fc15221b6d970ca499d707e73f1da441014"; 
+      url = "https://mods.factorio.com/download/BottleneckLite/648fd9a578f3d14e41b6321f";  
+      name = "BottleneckLite_1.2.6.zip"; 
+      sha1 = "44e35d0e37bb72c2f7814a80b31bd16f8ea8f519"; 
     };
     deps = [ flib ];
-    optionalDeps = [ base ];
+    optionalDeps = [  ];
     recommendedDeps = []; 
  }; 
 
@@ -38135,9 +38135,9 @@ let
   TanksSchallGroupsfixes = modDrv {
     name = "Tanks Schall Groups fixes"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/TanksSchallGroupsfixes/6213442fa75fa289e3b9a47d";  
-      name = "TanksSchallGroupsfixes_0.0.3.zip"; 
-      sha1 = "d75e0ecb2d4dfd2142cfbe5053e920eb274a9c50"; 
+      url = "https://mods.factorio.com/download/TanksSchallGroupsfixes/648fa5f629747ca2da68a374";  
+      name = "TanksSchallGroupsfixes_0.0.4.zip"; 
+      sha1 = "3f59698e3d125adf301d9ba05adb7deadf44042c"; 
     };
     deps = [  ];
     optionalDeps = [ space-exploration-postprocess aai-programmable-vehicles SchallCircuitGroup SchallTransportGroup ];
@@ -51251,9 +51251,9 @@ let
   LinkedChest3 = modDrv {
     name = "LinkedChest3"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/LinkedChest3/64395c233080563e8ef736ca";  
-      name = "LinkedChest3_1.3.12.zip"; 
-      sha1 = "59df68b2025657cf3810573e7c49abf44dee7920"; 
+      url = "https://mods.factorio.com/download/LinkedChest3/64903eda8ae7f5412c8247d2";  
+      name = "LinkedChest3_1.3.14.zip"; 
+      sha1 = "dcc2dd9eca6c8e20f1456efbd058006f2fdfbcb8"; 
     };
     deps = [  ];
     optionalDeps = [  ];
