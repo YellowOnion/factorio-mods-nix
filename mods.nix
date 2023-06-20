@@ -7619,9 +7619,9 @@ let
   minime = modDrv {
     name = "miniMAXIme: Character scaler and selector"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/minime/648e22ff26d6aa43a5ecbb6f";  
-      name = "minime_1.1.32.zip"; 
-      sha1 = "cc7e203927dce6c954c5ad239497ebcd4eea9a34"; 
+      url = "https://mods.factorio.com/download/minime/6491a239aa30b2734b673a03";  
+      name = "minime_1.1.33.zip"; 
+      sha1 = "6f17d6e040550100c562385135a1ddeb2b319cfc"; 
     };
     deps = [  ];
     optionalDeps = [ AmongUsCharacter GirlCharacter IRobot dnf-snow genshin-impact-skin miku-bikini-swimsuit minecraft NikoCharacter pikachu ProtogenCharacter shrek2 tianyi vaporeon-character wickerbeast ];
@@ -21335,9 +21335,9 @@ let
   RateCalculator = modDrv {
     name = "Rate Calculator"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/RateCalculator/6456b03926fa1f9f8f00a5eb";  
-      name = "RateCalculator_3.1.2.zip"; 
-      sha1 = "104c0ee4dc25475980111bb103f28e5c25f63ee7"; 
+      url = "https://mods.factorio.com/download/RateCalculator/6491cdfbaa30b2734b673a14";  
+      name = "RateCalculator_3.2.1.zip"; 
+      sha1 = "1c40d7d900d267a61fa5347a657863dc38a48000"; 
     };
     deps = [ flib ];
     optionalDeps = [  ];
@@ -27515,9 +27515,9 @@ let
   MomosTweak = modDrv {
     name = "MomosTweak"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/MomosTweak/6489c1cdff04af86f06be4f3";  
-      name = "MomosTweak_1.3.3.zip"; 
-      sha1 = "ddcbe9f11c065aae6074bbc2655d0bfbc2b89a26"; 
+      url = "https://mods.factorio.com/download/MomosTweak/6490ccb67ab45bd4d875ea4b";  
+      name = "MomosTweak_1.3.4.zip"; 
+      sha1 = "b5771cfc078617bda716d879db418e26604c8498"; 
     };
     deps = [ stdlib boblibrary bobassembly bobelectronics boblogistics bobmining bobmodules bobores bobplates bobpower bobrevamp bobtech bobwarfare angelspetrochem angelsrefining angelssmelting ];
     optionalDeps = [ angelsbioprocessing angelsindustries MoreSciencePacks-for1_1 ScienceCostTweakerM underground-pipe-pack Bio_Industries bobenemies bobinserters bobvehicleequipment Clowns-AngelBob-Nuclear LB-Modular-Chests omnilib P-U-M-P-S flow-control-expanded-bob SeaBlock ShinyIcons SpaceMod ];
@@ -35615,9 +35615,9 @@ let
   SpidertronPatrols = modDrv {
     name = "Spidertron Patrols"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/SpidertronPatrols/648bc359cc2962ee3780e234";  
-      name = "SpidertronPatrols_2.4.5.zip"; 
-      sha1 = "ba246c58a2db3c6569c140fa39f48f687dd034a2"; 
+      url = "https://mods.factorio.com/download/SpidertronPatrols/6491172d207628799e8c3fbd";  
+      name = "SpidertronPatrols_2.4.7.zip"; 
+      sha1 = "078e7eeeb43e111ceb7ca98d7d9818a8ce41329f"; 
     };
     deps = [ SpidertronEnhancements ];
     optionalDeps = [  ];
@@ -52883,9 +52883,9 @@ let
   arrow-inserter = modDrv {
     name = "Arrow Inserter"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/arrow-inserter/62df70467dae28c54daeaca7";  
-      name = "arrow-inserter_0.5.6.zip"; 
-      sha1 = "f9f80f0aec550a4aa693d3c3d042680754ff58cc"; 
+      url = "https://mods.factorio.com/download/arrow-inserter/64917261e998ab9d6a6bd416";  
+      name = "arrow-inserter_0.5.7.zip"; 
+      sha1 = "d83a19937c5bc5b3eaa5f24682acbc470d5c460d"; 
     };
     deps = [  ];
     optionalDeps = [ boblogistics bobinserters Krastorio2 PickerDollies ];
@@ -55619,12 +55619,12 @@ let
   Transport-Drones-On-Asphalt = modDrv {
     name = "Transport Drones on Asphalt"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Transport-Drones-On-Asphalt/647875561e304237ac376ac8";  
-      name = "Transport-Drones-On-Asphalt_0.1.4.zip"; 
-      sha1 = "d3ac530d6600d58d094f1ac12436664093dce144"; 
+      url = "https://mods.factorio.com/download/Transport-Drones-On-Asphalt/6491ccb3aa30b2734b673a13";  
+      name = "Transport-Drones-On-Asphalt_0.1.5.zip"; 
+      sha1 = "e570c1cd013546ef2f8486eee346d6690f9653be"; 
     };
     deps = [ Transport_Drones ];
-    optionalDeps = [ AsphaltPaving pyindustry space-exploration ];
+    optionalDeps = [ AsphaltPaving pyindustry space-exploration railloader ];
     recommendedDeps = []; 
  }; 
 
@@ -56183,9 +56183,9 @@ let
   TurretPod = modDrv {
     name = "Turret Pod Equipment"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/TurretPod/648b5cd5031c1618cc9ed761";  
-      name = "TurretPod_1.0.4.zip"; 
-      sha1 = "2f3e9a3d4df6c5aed46f93c7cfcac68db839e9f9"; 
+      url = "https://mods.factorio.com/download/TurretPod/64913d678ae7f5412c8247d9";  
+      name = "TurretPod_1.0.5.zip"; 
+      sha1 = "01aa5968266a53cfa9fb8d1b92a256b2b8a19cb0"; 
     };
     deps = [  ];
     optionalDeps = [ RampantArsenal Krastorio2 VehicleGrid bobvehicleequipment ];
