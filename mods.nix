@@ -16331,9 +16331,9 @@ let
   power-combinator = modDrv {
     name = "Power Combinator"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/power-combinator/62800f748381728a9cb09b2a";  
-      name = "power-combinator_5.3.0.zip"; 
-      sha1 = "c6643f749e4527a42133f95be2d785a76f0d9987"; 
+      url = "https://mods.factorio.com/download/power-combinator/64922a2fe7e3f526657c4559";  
+      name = "power-combinator_5.3.1.zip"; 
+      sha1 = "ab235860ab7dfb0f93d19c0dbb90c109d8acd496"; 
     };
     deps = [ simhelper ];
     optionalDeps = [ capacity-combinator ];
@@ -25559,9 +25559,9 @@ let
   Mining-Space-Industries-II = modDrv {
     name = "Mining Space Industries II"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Mining-Space-Industries-II/645aac015292c660c5520d51";  
-      name = "Mining-Space-Industries-II_0.8.1.zip"; 
-      sha1 = "5b3afc5be1987a5d9b9aba07b26e00d63a303d44"; 
+      url = "https://mods.factorio.com/download/Mining-Space-Industries-II/6492256ceb0b74130e46d2d4";  
+      name = "Mining-Space-Industries-II_0.8.2.zip"; 
+      sha1 = "94467828057294b954a188d8bdb38b4752f97cd0"; 
     };
     deps = [ Rocket-Silo-Construction Explosive_biters Cold_biters alien-biomes informatron factorio-crash-site ];
     optionalDeps = [ mferrari-mod-sounds Toxic_biters ArmouredBiters RPGsystem space-exploration IndustrialRevolution3 exotic-industries ];
@@ -44591,9 +44591,9 @@ let
   rainbow-trains = modDrv {
     name = "Rainbow Trains"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/rainbow-trains/61f74fade648cfcc8a336640";  
-      name = "rainbow-trains_0.0.3.zip"; 
-      sha1 = "ad5f95147eb3e474035b7c85a6e364828e4c39d4"; 
+      url = "https://mods.factorio.com/download/rainbow-trains/6492645b81dfa71d6281f711";  
+      name = "rainbow-trains_0.0.4.zip"; 
+      sha1 = "c1431984943de4d341485a63fadbe105be1b54b6"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -46043,9 +46043,9 @@ let
   rainbow-vehicles = modDrv {
     name = "Rainbow Vehicles"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/rainbow-vehicles/61d206890101a0c391cf1f35";  
-      name = "rainbow-vehicles_0.0.2.zip"; 
-      sha1 = "2477928eaa1bfa7b9deb9573bdafc7854d2fb6e6"; 
+      url = "https://mods.factorio.com/download/rainbow-vehicles/649266648513385fa32037d6";  
+      name = "rainbow-vehicles_0.0.4.zip"; 
+      sha1 = "fe174b66380c8cbd8c1d6dbcd19f936862c44a07"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -51563,9 +51563,9 @@ let
   seplus = modDrv {
     name = "太空加强组件"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/seplus/64591bad715a3f80522a8e9d";  
-      name = "seplus_1.7.5.zip"; 
-      sha1 = "a6ac4fa9e7795d69ff29bb3e427a98ed4f3f00c9"; 
+      url = "https://mods.factorio.com/download/seplus/649226928321d97cb25339a2";  
+      name = "seplus_1.8.8.zip"; 
+      sha1 = "23f1871558e4c4d2bc788ed7417b11b64aa20db1"; 
     };
     deps = [ space-exploration space-exploration-postprocess aai-containers aai-industry ];
     optionalDeps = [  ];
