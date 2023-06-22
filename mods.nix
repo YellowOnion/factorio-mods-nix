@@ -2471,9 +2471,9 @@ let
   AutoDeconstruct = modDrv {
     name = "Auto Deconstruct"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/AutoDeconstruct/63f3b13402b47aa46f3571ff";  
-      name = "AutoDeconstruct_0.3.7.zip"; 
-      sha1 = "8858d2106001af9699b4c5b2c86daac844210ce8"; 
+      url = "https://mods.factorio.com/download/AutoDeconstruct/6493b9f0b037e41b2f81ba68";  
+      name = "AutoDeconstruct_0.3.8.zip"; 
+      sha1 = "7f086996028cdbbe3045e8ecfbc104a9a488abc9"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -2675,9 +2675,9 @@ let
   Noxys_Trees = modDrv {
     name = "Noxys Trees"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Noxys_Trees/646f8b6ed9f135bc76e326d0";  
-      name = "Noxys_Trees_0.4.4.zip"; 
-      sha1 = "e391dcfdd011739859d462b63479c0e20828d7fc"; 
+      url = "https://mods.factorio.com/download/Noxys_Trees/649442018eb366ab22af6b5d";  
+      name = "Noxys_Trees_0.4.5.zip"; 
+      sha1 = "52621de630517fa466d5c4247ee420003446c573"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -7223,9 +7223,9 @@ let
   Advanced-Electric-Revamped-v16 = modDrv {
     name = "Advanced Solar HR"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Advanced-Electric-Revamped-v16/63582ad46067a2af6ec6d7fa";  
-      name = "Advanced-Electric-Revamped-v16_0.6.10.zip"; 
-      sha1 = "37d3aeb28fb3ddb3a6e9625dbc1cbb0c049eb9da"; 
+      url = "https://mods.factorio.com/download/Advanced-Electric-Revamped-v16/649372dc8eb366ab22af6b56";  
+      name = "Advanced-Electric-Revamped-v16_0.6.11.zip"; 
+      sha1 = "f8ecd8d207063c48a3c6604c8e60f0f614e9c687"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -50795,11 +50795,11 @@ let
   Chaos-modpack = modDrv {
     name = "Chaos Modpack"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Chaos-modpack/625a4ed61e0ae975b98973a4";  
-      name = "Chaos-modpack_0.0.4.zip"; 
-      sha1 = "93eba3176fa102237de21f54601f54bda87dba46"; 
+      url = "https://mods.factorio.com/download/Chaos-modpack/64946ed7d3279648623eda1d";  
+      name = "Chaos-modpack_0.0.5.zip"; 
+      sha1 = "e1aead744112e3f760173fbf2edde5f7fb9f0f31"; 
     };
-    deps = [ Bot_Servicing_fixed Assembler_Assay Flammable_Oils_QUICKFIX belt-overflow Wildfire wildfire_season explosive-trees robot_attrition ];
+    deps = [ Arson Assembler_Assay belt-overflow Bot_Servicing explosive-trees Flammable_Oils_QUICKFIX robot_attrition Wildfire wildfire_season ];
     optionalDeps = [ extinguisher WaterTurret factorio-revenge-of-the-explosion ];
     recommendedDeps = []; 
  }; 
@@ -59051,9 +59051,9 @@ let
   compaktcircuit = modDrv {
     name = "Compact circuits"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/compaktcircuit/64856e4f3313ae91b542c77b";  
-      name = "compaktcircuit_1.0.27.zip"; 
-      sha1 = "2c63570abbf9b9cb9f0c47cad539fd61a8fb09fb"; 
+      url = "https://mods.factorio.com/download/compaktcircuit/6493624ca9a08e79c53d79c3";  
+      name = "compaktcircuit_1.0.28.zip"; 
+      sha1 = "8eb5fb347e89292815166946a4e2183ddf2a6339"; 
     };
     deps = [ flib ];
     optionalDeps = [ IndustrialDisplayPlates Squeak-Through PickerDollies ];
