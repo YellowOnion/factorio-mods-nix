@@ -17567,9 +17567,9 @@ let
   underwater-pipes = modDrv {
     name = "Underwater Pipes"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/underwater-pipes/62801d15c3a9d784fb6383a4";  
-      name = "underwater-pipes_2.0.3.zip"; 
-      sha1 = "f3ad731b2a199da1adc79db6028071b5826c9e34"; 
+      url = "https://mods.factorio.com/download/underwater-pipes/6494b0d5f82907970d263e5d";  
+      name = "underwater-pipes_3.0.0.zip"; 
+      sha1 = "b1c197a684924eb719404cd238ac4276fb7b5fce"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -28787,9 +28787,9 @@ let
   LTN_Combinator_Modernized = modDrv {
     name = "LTN Combinator Modernized"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/LTN_Combinator_Modernized/646302f5170958ba43e6d1e8";  
-      name = "LTN_Combinator_Modernized_2.0.6.zip"; 
-      sha1 = "369032d96750f16084c1a228586d598e707a1d98"; 
+      url = "https://mods.factorio.com/download/LTN_Combinator_Modernized/649514e10216e2bf6342a1d9";  
+      name = "LTN_Combinator_Modernized_2.1.1.zip"; 
+      sha1 = "3c03e023cbf72ef8ab9d1d08378397a1315b935c"; 
     };
     deps = [ flib LogisticTrainNetwork ];
     optionalDeps = [  ];
@@ -30323,9 +30323,9 @@ let
   nullius = modDrv {
     name = "Nullius"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/nullius/6486916836fbc6680f978967";  
-      name = "nullius_1.5.26.zip"; 
-      sha1 = "b4c5b89fa4de604790f9eb98dc8e6b7c2b9d8e03"; 
+      url = "https://mods.factorio.com/download/nullius/6495351bfb5dd0154912d0f1";  
+      name = "nullius_1.5.27.zip"; 
+      sha1 = "3a6d542487946ed67b8f29fbdfd3134d82c51bd8"; 
     };
     deps = [ alien-biomes angelssmelting boblogistics ];
     optionalDeps = [ RecipeBook underground-pipe-pack ];
@@ -51995,9 +51995,9 @@ let
   xaetech-revamp = modDrv {
     name = "Xaetech Revamp"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/xaetech-revamp/62d5b158361e9faa54362e6e";  
-      name = "xaetech-revamp_0.3.4.zip"; 
-      sha1 = "3926a5f4ff42e8d6a1e4642f92c99405a69ba35a"; 
+      url = "https://mods.factorio.com/download/xaetech-revamp/6494a21760c3561fb64d3708";  
+      name = "xaetech-revamp_0.4.0.zip"; 
+      sha1 = "beb19f6cad53382e59bf4be87b18c53bad0f45de"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -57563,11 +57563,11 @@ let
   nullius-maximus-modpack = modDrv {
     name = "Nullius Maximus (Modpack)"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/nullius-maximus-modpack/639500753337c0409c740ee5";  
-      name = "nullius-maximus-modpack_1.0.2.zip"; 
-      sha1 = "7fe66defdd813f8297f82c4b16d84d46bf4032d8"; 
+      url = "https://mods.factorio.com/download/nullius-maximus-modpack/649535cffb5dd0154912d0f2";  
+      name = "nullius-maximus-modpack_1.0.3.zip"; 
+      sha1 = "37da84b75578dcd655433186879a4075fe277f96"; 
     };
-    deps = [ nullius-momenti-modpack aai-signal-transmission Companion_Drones crafting_combinator factorissimo-2-notnotmelon holographic_signs informatron Inventory-Sensor LogisticTrainNetwork LTN_Combinator_Modernized Milestones packing-tape PickerDollies railway-motor-car rec-blue-plus RenaiTransportation SpidertronPatrols Squeak-Through stack-combinator textplates Transport_Drones ];
+    deps = [ nullius-momenti-modpack aai-signal-transmission ch-concentrated-solar Companion_Drones crafting_combinator factorissimo-2-notnotmelon holographic_signs informatron Inventory-Sensor LogisticTrainNetwork LTN_Combinator_Modernized Milestones packing-tape PickerDollies railway-motor-car rec-blue-plus RenaiTransportation SpidertronPatrols Squeak-Through stack-combinator textplates Transport_Drones UPSFriendlyNixieTubeDisplay ];
     optionalDeps = [  ];
     recommendedDeps = []; 
  }; 
@@ -59855,9 +59855,9 @@ let
   glutenfree-equipment-train-stop = modDrv {
     name = "Equipment train stop"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/glutenfree-equipment-train-stop/648c98726b45f5f3018f52fb";  
-      name = "glutenfree-equipment-train-stop_1.0.5.zip"; 
-      sha1 = "5eb84b4db0fc6e4707238fb01a2d42d107947462"; 
+      url = "https://mods.factorio.com/download/glutenfree-equipment-train-stop/6495a2102202c9c89391458d";  
+      name = "glutenfree-equipment-train-stop_1.0.6.zip"; 
+      sha1 = "a0595e6bed64267d16dfde8a73e9484522dc61ed"; 
     };
     deps = [ flib ];
     optionalDeps = [  ];
