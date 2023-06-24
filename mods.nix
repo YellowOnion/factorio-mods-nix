@@ -16619,9 +16619,9 @@ let
   pyalienlife = modDrv {
     name = "Pyanodons AlienLife"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/pyalienlife/643cda92763b309a21cb009f";  
-      name = "pyalienlife_2.1.4.zip"; 
-      sha1 = "702c0686251d7eb9ed39b86af71a0d4166fe6b05"; 
+      url = "https://mods.factorio.com/download/pyalienlife/64966719b6e17cf455ad070e";  
+      name = "pyalienlife_2.1.5.zip"; 
+      sha1 = "796da3c6fc9854d5ba6d44f53b46f6f2957259db"; 
     };
     deps = [ pyalienlifegraphics pyalienlifegraphics2 pyalienlifegraphics3 pyrawores pypetroleumhandling ];
     optionalDeps = [  ];
@@ -17111,9 +17111,9 @@ let
   pyalienlifegraphics3 = modDrv {
     name = "Pyanodons AlienLife Graphics 3"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/pyalienlifegraphics3/6422a7f7ef38ae2b2369bb28";  
-      name = "pyalienlifegraphics3_2.0.4.zip"; 
-      sha1 = "d5c6e55f78c93fe7a1eaf4cd600ed59abeec9664"; 
+      url = "https://mods.factorio.com/download/pyalienlifegraphics3/649669115d8665c6d438cc8f";  
+      name = "pyalienlifegraphics3_2.0.5.zip"; 
+      sha1 = "6f5d4c8e6b2f0bd22405a371ab0760b838b4c880"; 
     };
     deps = [ pyalienlife ];
     optionalDeps = [  ];
@@ -17291,9 +17291,9 @@ let
   pyalienlifegraphics2 = modDrv {
     name = "Pyanodons AlienLife Graphics 2"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/pyalienlifegraphics2/6422a7f446d843f367a4dec3";  
-      name = "pyalienlifegraphics2_2.0.5.zip"; 
-      sha1 = "0320485d1934f0abd77f41898bb207f66f367dc2"; 
+      url = "https://mods.factorio.com/download/pyalienlifegraphics2/649668dba30d4fd672c62401";  
+      name = "pyalienlifegraphics2_2.0.6.zip"; 
+      sha1 = "139a1346f7bd8568e255be3fcc449aa9a5892aae"; 
     };
     deps = [ pyalienlife ];
     optionalDeps = [  ];
@@ -17879,9 +17879,9 @@ let
   EditorExtensions = modDrv {
     name = "Editor Extensions"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/EditorExtensions/647ceb23160e6fc48cb4fbc5";  
-      name = "EditorExtensions_2.1.3.zip"; 
-      sha1 = "d3ecfdbcfec3ee417c5be5609bbe54293499f691"; 
+      url = "https://mods.factorio.com/download/EditorExtensions/6496534b951b0e39c982c3d7";  
+      name = "EditorExtensions_2.1.4.zip"; 
+      sha1 = "5a3253833bac15b69f3e27e3e2a2dc674b932fd8"; 
     };
     deps = [ flib ];
     optionalDeps = [ CursorEnhancements ];
@@ -21335,9 +21335,9 @@ let
   RateCalculator = modDrv {
     name = "Rate Calculator"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/RateCalculator/6491cdfbaa30b2734b673a14";  
-      name = "RateCalculator_3.2.1.zip"; 
-      sha1 = "1c40d7d900d267a61fa5347a657863dc38a48000"; 
+      url = "https://mods.factorio.com/download/RateCalculator/64964b2b2202c9c8939145a6";  
+      name = "RateCalculator_3.2.2.zip"; 
+      sha1 = "6cfe062dd8b7a4baa2339a58c41d35e95338aef0"; 
     };
     deps = [ flib ];
     optionalDeps = [  ];
@@ -28187,9 +28187,9 @@ let
   apm_lib_ldinc = modDrv {
     name = "Amator Phasma's Library (forked)"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/apm_lib_ldinc/639cfada6f00ecfa7b048d9a";  
-      name = "apm_lib_ldinc_0.23.05.zip"; 
-      sha1 = "c21b51af5df25aba7aa16cf97e02a8a1f5e973fd"; 
+      url = "https://mods.factorio.com/download/apm_lib_ldinc/6495edfcb6e17cf455ad0706";  
+      name = "apm_lib_ldinc_0.23.07.zip"; 
+      sha1 = "e1c898e539acde3e99c49eb1c5bd43d033642404"; 
     };
     deps = [ apm_resource_pack_ldinc ];
     optionalDeps = [  ];
@@ -36863,9 +36863,9 @@ let
   BottleneckLite = modDrv {
     name = "Bottleneck Lite"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/BottleneckLite/648fd9a578f3d14e41b6321f";  
-      name = "BottleneckLite_1.2.6.zip"; 
-      sha1 = "44e35d0e37bb72c2f7814a80b31bd16f8ea8f519"; 
+      url = "https://mods.factorio.com/download/BottleneckLite/64965a7f4a7b1883a5a03fa7";  
+      name = "BottleneckLite_1.2.7.zip"; 
+      sha1 = "c3c04b135ab977b39fcce282877670d772b24ac1"; 
     };
     deps = [ flib ];
     optionalDeps = [  ];
@@ -45971,9 +45971,9 @@ let
   ncxz-expand = modDrv {
     name = "ncxz-expand"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/ncxz-expand/637080b1ee728cff21924572";  
-      name = "ncxz-expand_0.1.0.zip"; 
-      sha1 = "21e52bbda4e9627a5bdb3cb8ac93106db801b7e0"; 
+      url = "https://mods.factorio.com/download/ncxz-expand/6495e55c2e3e214c6e16d086";  
+      name = "ncxz-expand_0.1.1.zip"; 
+      sha1 = "9ecf56c07a386e5d3aff6199acb4e09947d79727"; 
     };
     deps = [  ];
     optionalDeps = [ space-exploration Krastorio2 ];
@@ -60539,9 +60539,9 @@ let
   pyalternativeenergy = modDrv {
     name = "Pyanodons Alternative Energy"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/pyalternativeenergy/643b908b98df53db7d3c7603";  
-      name = "pyalternativeenergy_1.2.1.zip"; 
-      sha1 = "7fe1cd849da00d8df5e3c13a8944c51831218efc"; 
+      url = "https://mods.factorio.com/download/pyalternativeenergy/6496642ca879950d6c3a60c4";  
+      name = "pyalternativeenergy_1.2.2.zip"; 
+      sha1 = "b7c14b63c2ae0bbeb56ab0ebf5b67fe54bdb7436"; 
     };
     deps = [ pyalienlife pyhightech pyalternativeenergygraphics ];
     optionalDeps = [  ];
