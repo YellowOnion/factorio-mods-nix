@@ -6239,9 +6239,9 @@ let
   Frontier-Extended = modDrv {
     name = "Frontier Extended"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Frontier-Extended/61d84df39a17506199a5af3f";  
-      name = "Frontier-Extended_1.2.5.zip"; 
-      sha1 = "ca1ea36d0fac7da22c91bdaaa3a28f5a20db94d2"; 
+      url = "https://mods.factorio.com/download/Frontier-Extended/64975aec5a57df9aef22c084";  
+      name = "Frontier-Extended_1.3.0.zip"; 
+      sha1 = "f3a71ef3202dfbe193e6a904297986725ae56858"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -40031,9 +40031,9 @@ let
   modular_gamer_storage = modDrv {
     name = "Modular Gamer Storage"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/modular_gamer_storage/611c9b7b316d9f959b450cb6";  
-      name = "modular_gamer_storage_0.3.7.zip"; 
-      sha1 = "a168a44167b510f5f2c60e484bd3143f56b3b616"; 
+      url = "https://mods.factorio.com/download/modular_gamer_storage/6498345e98ebd6edb4c59883";  
+      name = "modular_gamer_storage_0.3.8.zip"; 
+      sha1 = "3cc4b41ffc6ee2f7d901f73a53944d2810741b62"; 
     };
     deps = [ stdlib ];
     optionalDeps = [  ];
@@ -58691,9 +58691,9 @@ let
   Theis_tas_helper = modDrv {
     name = "TAS precision helper"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Theis_tas_helper/64345d925f8fa7aecc48bc4e";  
-      name = "Theis_tas_helper_0.9.2.zip"; 
-      sha1 = "9d3304c8c3fa961ddb2ac1a0e728e492badb3d92"; 
+      url = "https://mods.factorio.com/download/Theis_tas_helper/64983e767f99da806bc83e97";  
+      name = "Theis_tas_helper_0.9.3.zip"; 
+      sha1 = "7060770b3ebd5f6f4d31c0693565ac254998bd7c"; 
     };
     deps = [  ];
     optionalDeps = [  ];
