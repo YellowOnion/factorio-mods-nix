@@ -491,9 +491,9 @@ let
   YARM = modDrv {
     name = "YARM - Resource Monitor"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/YARM/64810b4383e94e339efbdac3";  
-      name = "YARM_0.9.9.zip"; 
-      sha1 = "d2cd8964e6639bf02f74ba601cf3907fda6c7b7c"; 
+      url = "https://mods.factorio.com/download/YARM/6498afe0c359995ba6ddc75f";  
+      name = "YARM_0.9.10.zip"; 
+      sha1 = "4e137c27a9120860ad45dc85a13bc1b7f416dafc"; 
     };
     deps = [  ];
     optionalDeps = [ aai-programmable-vehicles angelsrefining omnimatter ];
@@ -30431,12 +30431,12 @@ let
   TinyStartCraftablesupdate = modDrv {
     name = "Tiny Start Craftables 1.1"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/TinyStartCraftablesupdate/600eaa2044d7bef892347d15";  
-      name = "TinyStartCraftablesupdate_1.0.4.zip"; 
-      sha1 = "2caabbe0681f133270c1ca7425557eebb83af3fe"; 
+      url = "https://mods.factorio.com/download/TinyStartCraftablesupdate/6499484544886fe6d6fc4b30";  
+      name = "TinyStartCraftablesupdate_1.0.5.zip"; 
+      sha1 = "3e97dbcd9ad18501487ff318e8cb41651f96297d"; 
     };
-    deps = [ TinyStart ];
-    optionalDeps = [  ];
+    deps = [  ];
+    optionalDeps = [ TinyStart ];
     recommendedDeps = []; 
  }; 
 
@@ -31463,9 +31463,9 @@ let
   factory-inspector = modDrv {
     name = "Factory Inspector"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/factory-inspector/63553d6954a5293e6b626fd2";  
-      name = "factory-inspector_1.1.17.zip"; 
-      sha1 = "d44adb7b55124fb9b00825662203b2afbcdc0790"; 
+      url = "https://mods.factorio.com/download/factory-inspector/6498914b8150580d399dbd41";  
+      name = "factory-inspector_1.1.19.zip"; 
+      sha1 = "98a61aab3e94a3f8b0b653d458802bdf469eea65"; 
     };
     deps = [ flib ];
     optionalDeps = [  ];
@@ -40031,9 +40031,9 @@ let
   modular_gamer_storage = modDrv {
     name = "Modular Gamer Storage"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/modular_gamer_storage/6498345e98ebd6edb4c59883";  
-      name = "modular_gamer_storage_0.3.8.zip"; 
-      sha1 = "3cc4b41ffc6ee2f7d901f73a53944d2810741b62"; 
+      url = "https://mods.factorio.com/download/modular_gamer_storage/6498a2a6e5ff004c3cb6d1b7";  
+      name = "modular_gamer_storage_0.3.9.zip"; 
+      sha1 = "856a7ff475199d162a10b3136091d64ef5d4df84"; 
     };
     deps = [ stdlib ];
     optionalDeps = [  ];
