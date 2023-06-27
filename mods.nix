@@ -16607,9 +16607,9 @@ let
   team_competition = modDrv {
     name = "Team Competition"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/team_competition/6468c2a6cb9fb69dfc327409";  
-      name = "team_competition_1.5.0.zip"; 
-      sha1 = "00030ed1569be315b0bf16d593a0791e52c3e34f"; 
+      url = "https://mods.factorio.com/download/team_competition/649ac772f4c95323023be622";  
+      name = "team_competition_1.5.1.zip"; 
+      sha1 = "87edbfb02ff34890b5a868142fd7fe998bd948fd"; 
     };
     deps = [ factorio-crash-site ];
     optionalDeps = [ territory_claim RPGsystem implant_camera space-exploration IndustrialRevolution3 ];
@@ -22499,9 +22499,9 @@ let
   zk-lib = modDrv {
     name = "ZwerOxotnik's multipurpose mod with 8 addons [zk-lib][WIP]"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/zk-lib/648a8b6a0188810235ae9793";  
-      name = "zk-lib_0.13.0.zip"; 
-      sha1 = "7bd9ba927d38e8cd275606b5aa4f51e2ee0ab7f4"; 
+      url = "https://mods.factorio.com/download/zk-lib/649ac2575931d11623a16f32";  
+      name = "zk-lib_0.13.1.zip"; 
+      sha1 = "5164f9a3d3772875900028737630d62e1a3d60c0"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -34451,9 +34451,9 @@ let
   apm_bob_rework_ldinc = modDrv {
     name = "APM bob's extra compability"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/apm_bob_rework_ldinc/648edd2f6f44addeac849d84";  
-      name = "apm_bob_rework_ldinc_0.22.110.zip"; 
-      sha1 = "c52dbe15061bba1620263178284decaf9ddea99c"; 
+      url = "https://mods.factorio.com/download/apm_bob_rework_ldinc/6499ca8ef21dee75790fb249";  
+      name = "apm_bob_rework_ldinc_0.22.111.zip"; 
+      sha1 = "03cc171dcd63a48fc61f4adcbb27623629a83ee1"; 
     };
     deps = [ apm_bob_rework_resource_pack_ldinc apm_resource_pack_ldinc apm_lib_ldinc apm_power_ldinc apm_nuclear_ldinc apm_energy_addon_ldinc bobassembly bobelectronics bobequipment bobinserters boblibrary boblogistics bobmining bobmodules bobores bobplates bobpower bobrevamp bobtech bobwarfare electricboiler deadlock-beltboxes-loaders ironclad-gunboat-and-mortar-turret ];
     optionalDeps = [ Flare-Stack Rampant LogisticTrainNetwork RampantArsenal ];
@@ -52763,12 +52763,12 @@ let
   BrassTacks = modDrv {
     name = "Brass Tacks"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/BrassTacks/648a657b39d6e654226c1f01";  
-      name = "BrassTacks_1.2.3.zip"; 
-      sha1 = "d3b75a3080cbfaffd09b3b01ca65f35921bfcbd0"; 
+      url = "https://mods.factorio.com/download/BrassTacks/649a690446ce34be24b19da8";  
+      name = "BrassTacks_1.2.4.zip"; 
+      sha1 = "e5e80cdf57576eef92a86aedd8087a66c74ed78f"; 
     };
     deps = [  ];
-    optionalDeps = [ bzlead bzaluminum bzcarbon bztin bzfoundry bzzirconium bzlead space-exploration aai-industry aai-containers aai-signal-transmission deadlock-beltboxes-loaders DeadlockCrating vtk-deep-core-mining Krastorio2 FluidMustFlow Expensive_Fluid_Must_Flow_Recipes bzgold cargo-ships underwater-pipes IntermodalContainers FreightForwarding ];
+    optionalDeps = [ bzlead bzaluminum bzcarbon bztin bzfoundry bzzirconium bzlead space-exploration aai-industry aai-containers aai-signal-transmission deadlock-beltboxes-loaders DeadlockCrating vtk-deep-core-mining Krastorio2 FluidMustFlow Expensive_Fluid_Must_Flow_Recipes bzgold cargo-ships underwater-pipes IntermodalContainers FreightForwarding n248k ];
     recommendedDeps = []; 
  }; 
 
@@ -55355,9 +55355,9 @@ let
   CitiesOfEarth3 = modDrv {
     name = "Cities Of Earth 3"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/CitiesOfEarth3/6488c589233727ee0586f7aa";  
-      name = "CitiesOfEarth3_1.7.8.zip"; 
-      sha1 = "2aee8597d9da2d1b8d4a1a3f897b2572e260b489"; 
+      url = "https://mods.factorio.com/download/CitiesOfEarth3/649ad489f45114b674de9b29";  
+      name = "CitiesOfEarth3_1.7.9.zip"; 
+      sha1 = "16641b33975c8e2f1169567cf8d50751fa60850a"; 
     };
     deps = [  ];
     optionalDeps = [ cargo-ships beautiful_bridge_railway_Cargoships Krastorio2 ];
@@ -55427,12 +55427,12 @@ let
   IfNickel = modDrv {
     name = "If I Had A Nickel"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/IfNickel/648b66ff9be8797e27789cd1";  
-      name = "IfNickel_1.0.11.zip"; 
-      sha1 = "b3105097d11dab7e435f9b1546e9c7f6c277dde0"; 
+      url = "https://mods.factorio.com/download/IfNickel/649a685348488d7fd76b6c58";  
+      name = "IfNickel_1.0.12.zip"; 
+      sha1 = "1ea9aae16bdcce563978caafc591b62949eccb70"; 
     };
     deps = [  ];
-    optionalDeps = [ bzlead bzaluminum bzcarbon bzfoundry bztin bztungsten BrassTacks bzgold space-exploration aai-industry deadlock-beltboxes-loaders DeadlockCrating Krastorio2 FluidMustFlow Expensive_Fluid_Must_Flow_Recipes ];
+    optionalDeps = [ bzlead bzaluminum bzcarbon bzfoundry bztin bztungsten BrassTacks bzgold space-exploration aai-industry deadlock-beltboxes-loaders DeadlockCrating Krastorio2 FluidMustFlow Expensive_Fluid_Must_Flow_Recipes n248k ];
     recommendedDeps = []; 
  }; 
 
