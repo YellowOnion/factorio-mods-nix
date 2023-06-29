@@ -15131,9 +15131,9 @@ let
   LTN_Language_Pack = modDrv {
     name = "LTN Language Pack"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/LTN_Language_Pack/646bd35ada54b685126d6a96";  
-      name = "LTN_Language_Pack_1.11.4.zip"; 
-      sha1 = "b2f4acebc77987816fca7284994db517af1cc925"; 
+      url = "https://mods.factorio.com/download/LTN_Language_Pack/649b10e95c50eee2b00898da";  
+      name = "LTN_Language_Pack_1.11.5.zip"; 
+      sha1 = "498db76674a5720a51a4fd5d7846f8b130d1f069"; 
     };
     deps = [ LogisticTrainNetwork ];
     optionalDeps = [ ltn-cleanup LTN_Combinator LTN_Combinator_Modernized LTN_Content_Reader LtnManager ];
@@ -16811,9 +16811,9 @@ let
   oil-hauler = modDrv {
     name = "Oil hauler"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/oil-hauler/6022b421d3eb9b15975ee916";  
-      name = "oil-hauler_1.1.0.zip"; 
-      sha1 = "4a9abe182a31eb3ddbb43e683106ef2944f0d374"; 
+      url = "https://mods.factorio.com/download/oil-hauler/649c3a8a09f1012a82b9f4b9";  
+      name = "oil-hauler_1.1.1.zip"; 
+      sha1 = "70f665c95e90509d64561f0e07d8c68d8c81b660"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -17003,9 +17003,9 @@ let
   IndustrialRevolution_Language_Pack = modDrv {
     name = "Industrial Revolution Language Pack"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/IndustrialRevolution_Language_Pack/64577d5e48ed65f481bf0101";  
-      name = "IndustrialRevolution_Language_Pack_3.0.10.zip"; 
-      sha1 = "fef276f73fc2aff53dc6dbd441f45b825e74694c"; 
+      url = "https://mods.factorio.com/download/IndustrialRevolution_Language_Pack/649b123c98d080ac8f1fafdf";  
+      name = "IndustrialRevolution_Language_Pack_3.0.11.zip"; 
+      sha1 = "40f32af2edbc7b8e5b218a9c528e51dad86d4375"; 
     };
     deps = [  ];
     optionalDeps = [ IndustrialRevolution3 ];
@@ -17567,9 +17567,9 @@ let
   underwater-pipes = modDrv {
     name = "Underwater Pipes"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/underwater-pipes/6494b0d5f82907970d263e5d";  
-      name = "underwater-pipes_3.0.0.zip"; 
-      sha1 = "b1c197a684924eb719404cd238ac4276fb7b5fce"; 
+      url = "https://mods.factorio.com/download/underwater-pipes/649b5ce56ec525057de4c995";  
+      name = "underwater-pipes_3.1.0.zip"; 
+      sha1 = "8447f8bcd0c6c4f5419cde8268ca6bb41a39829d"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -22631,9 +22631,9 @@ let
   extended-descriptions = modDrv {
     name = "Extended Descriptions ⚡"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/extended-descriptions/6490768b3a445a4a49420e4f";  
-      name = "extended-descriptions_1.2.0.zip"; 
-      sha1 = "4df1c4ab6dc1ebac37b2798088f78a15f3229adb"; 
+      url = "https://mods.factorio.com/download/extended-descriptions/649b81cca56b7684c02a6711";  
+      name = "extended-descriptions_1.2.1.zip"; 
+      sha1 = "57c370952870b57367461a7bc679e4c970ee7e5f"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -23759,9 +23759,9 @@ let
   Kux-SpeedButtons = modDrv {
     name = "Speed Buttons"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Kux-SpeedButtons/637699d06f84766c2bea97f1";  
-      name = "Kux-SpeedButtons_2.0.6.zip"; 
-      sha1 = "a0ce1b54102f6db6010f7c501fca2edd36f1f734"; 
+      url = "https://mods.factorio.com/download/Kux-SpeedButtons/649ce1ec78d997d29385b8cc";  
+      name = "Kux-SpeedButtons_2.0.8.zip"; 
+      sha1 = "b9cbae75cfa7db9234dee8e10e3cf6e894912c0a"; 
     };
     deps = [ Kux-CoreLib ];
     optionalDeps = [  ];
@@ -24455,9 +24455,9 @@ let
   Spiderissmo = modDrv {
     name = "Spiderissmo"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Spiderissmo/60a55717e1e71a1373c13c02";  
-      name = "Spiderissmo_1.0.6.zip"; 
-      sha1 = "86f7cdc8a89ac74264ccf3fef991cd7623d17af7"; 
+      url = "https://mods.factorio.com/download/Spiderissmo/649b33e73ae07eab43b03d60";  
+      name = "Spiderissmo_1.0.7.zip"; 
+      sha1 = "e44a3e3fed4e30a854b7f1d38790f0369c6fb2d3"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -25679,9 +25679,9 @@ let
   Kux-CoreLib = modDrv {
     name = "Kuxynator's Core Library"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Kux-CoreLib/6480196fd4137d022d7857de";  
-      name = "Kux-CoreLib_2.5.3.zip"; 
-      sha1 = "c4521f253865637d9922dabdc772ad930f7580f1"; 
+      url = "https://mods.factorio.com/download/Kux-CoreLib/649ce7d34eb4de711c11fb04";  
+      name = "Kux-CoreLib_2.6.1.zip"; 
+      sha1 = "2a8e6c004b165fce5542d265f411590662a3fc9f"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -25691,9 +25691,9 @@ let
   Kux-BlueprintExtensions = modDrv {
     name = "Blueprint Extensions (Kux Edition)"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Kux-BlueprintExtensions/63769468faba502bba84e3a4";  
-      name = "Kux-BlueprintExtensions_2.2.2.zip"; 
-      sha1 = "be3daa4c63524f1b3d7d9d875ffb1737b4663bf7"; 
+      url = "https://mods.factorio.com/download/Kux-BlueprintExtensions/649ce47f4dfd046c3446c2d4";  
+      name = "Kux-BlueprintExtensions_2.2.4.zip"; 
+      sha1 = "ee629c02617ad73652cfbc47a3029964f654c5aa"; 
     };
     deps = [ Kux-CoreLib ];
     optionalDeps = [ fluid_permutations GDIW GDIW-updated underground-pipe-pack FluidMustFlow ];
@@ -29219,9 +29219,9 @@ let
   Kux-LogisticsCenterCS = modDrv {
     name = "Crash-Site Logistics Center"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Kux-LogisticsCenterCS/648c503264f41ce15fccd296";  
-      name = "Kux-LogisticsCenterCS_2.4.5.zip"; 
-      sha1 = "3e4cad8995338ad87fd77fc0c2ef34a7a800833f"; 
+      url = "https://mods.factorio.com/download/Kux-LogisticsCenterCS/649c6b43660a21a437883855";  
+      name = "Kux-LogisticsCenterCS_2.4.6.zip"; 
+      sha1 = "9a784fc4c1fe58165a19002ddf5ee5715b95b28c"; 
     };
     deps = [ Kux-CoreLib ];
     optionalDeps = [ Krastorio2 space-exploration ab_loaderunlock ];
@@ -35231,9 +35231,9 @@ let
   Kux-GhostInHand = modDrv {
     name = "Ghost In Hand (Kuxynator's Enhanced Edition)"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Kux-GhostInHand/64790d1a685fec1aa5ab8232";  
-      name = "Kux-GhostInHand_2.3.2.zip"; 
-      sha1 = "846db3d172b88401af3cc25cde9e1881f49b4c16"; 
+      url = "https://mods.factorio.com/download/Kux-GhostInHand/649cd59978d997d29385b8cb";  
+      name = "Kux-GhostInHand_2.3.3.zip"; 
+      sha1 = "73227c544edd352b5383412eb631ff8054e69a3a"; 
     };
     deps = [ Kux-CoreLib ];
     optionalDeps = [  ];
@@ -35639,9 +35639,9 @@ let
   nicefill-scriptfix = modDrv {
     name = "NiceFill"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/nicefill-scriptfix/608ea7317f52596e2e80d796";  
-      name = "nicefill-scriptfix_0.1.20.zip"; 
-      sha1 = "9428c3e8762f3ca1629b1c1ad1e4eab53a78b912"; 
+      url = "https://mods.factorio.com/download/nicefill-scriptfix/649b0d000736fc0b863b4151";  
+      name = "nicefill-scriptfix_0.1.21.zip"; 
+      sha1 = "88080116c50f3c2f7fe215fe10fd6165c5d7a711"; 
     };
     deps = [  ];
     optionalDeps = [ FARL ];
@@ -40043,11 +40043,11 @@ let
   UMModulesRework = modDrv {
     name = "Modules Rework"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/UMModulesRework/631dbaee94bd0a422f8a3f0d";  
-      name = "UMModulesRework_1.0.2.zip"; 
-      sha1 = "4996d35d897ddba5a4fb1e5d62678efea0d526dd"; 
+      url = "https://mods.factorio.com/download/UMModulesRework/649c918fd1509750f6314d97";  
+      name = "UMModulesRework_1.0.3.zip"; 
+      sha1 = "e25e9f74b593c456e126dbf8f87925142d82ccdd"; 
     };
-    deps = [  ];
+    deps = [ modules-t4 ];
     optionalDeps = [ RFT-modules ];
     recommendedDeps = []; 
  }; 
@@ -45971,9 +45971,9 @@ let
   ncxz-expand = modDrv {
     name = "ncxz-expand"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/ncxz-expand/6495e55c2e3e214c6e16d086";  
-      name = "ncxz-expand_0.1.1.zip"; 
-      sha1 = "9ecf56c07a386e5d3aff6199acb4e09947d79727"; 
+      url = "https://mods.factorio.com/download/ncxz-expand/649bdceb03dc2c96ce0f7bfe";  
+      name = "ncxz-expand_0.1.2.zip"; 
+      sha1 = "febf441994f6bfd118d801276b90c0b85b395645"; 
     };
     deps = [  ];
     optionalDeps = [ space-exploration Krastorio2 ];
@@ -59927,9 +59927,9 @@ let
   un-science = modDrv {
     name = "Unfunny Science"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/un-science/648a09436838ed4a23c26521";  
-      name = "un-science_0.1.07.zip"; 
-      sha1 = "d4d645cbe2fd198d612e5d0e3e3f2d7f813a6ecf"; 
+      url = "https://mods.factorio.com/download/un-science/649cab66a6cb8df8b12ce3c4";  
+      name = "un-science_0.1.09.zip"; 
+      sha1 = "c921e5f15bc26fd6cfe59bf846e6e14ea986345c"; 
     };
     deps = [ un-pre-process ];
     optionalDeps = [  ];
@@ -60515,9 +60515,9 @@ let
   Kux-ZoomRunning = modDrv {
     name = "Kuxynator's Zoom-Running"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Kux-ZoomRunning/635f9f4a7a88afa65d67d4ad";  
-      name = "Kux-ZoomRunning_2.1.4.zip"; 
-      sha1 = "c6f43c868b4b721ce35f96f260ebd64a760946e3"; 
+      url = "https://mods.factorio.com/download/Kux-ZoomRunning/649c778009f1012a82b9f4c3";  
+      name = "Kux-ZoomRunning_2.1.5.zip"; 
+      sha1 = "29a7f14b65143f48c15dd7a75a777ece87dab066"; 
     };
     deps = [  ];
     optionalDeps = [ Satisfactorio ];
@@ -60539,9 +60539,9 @@ let
   pyalternativeenergy = modDrv {
     name = "Pyanodons Alternative Energy"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/pyalternativeenergy/6496642ca879950d6c3a60c4";  
-      name = "pyalternativeenergy_1.2.2.zip"; 
-      sha1 = "b7c14b63c2ae0bbeb56ab0ebf5b67fe54bdb7436"; 
+      url = "https://mods.factorio.com/download/pyalternativeenergy/649cf1b84dfd046c3446c2d5";  
+      name = "pyalternativeenergy_1.2.3.zip"; 
+      sha1 = "f2e38a8f0240541928263e73986be5510d316820"; 
     };
     deps = [ pyalienlife pyhightech pyalternativeenergygraphics ];
     optionalDeps = [  ];
