@@ -20735,9 +20735,9 @@ let
   baron-factions = modDrv {
     name = "Baron Factions"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/baron-factions/605f6e2b0d4e279b1a4cd554";  
-      name = "baron-factions_1.1.33.zip"; 
-      sha1 = "4312845f892ee84aa48c195543013eccf0ce3806"; 
+      url = "https://mods.factorio.com/download/baron-factions/649d84384eb4de711c11fb0b";  
+      name = "baron-factions_1.1.34.zip"; 
+      sha1 = "6df2dc9b0810007165c5c6befb459fd08fcb4e6e"; 
     };
     deps = [ baron-library ];
     optionalDeps = [  ];
@@ -22223,9 +22223,9 @@ let
   baron-fuels = modDrv {
     name = "Baron Faction Fuels"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/baron-fuels/5fc584d3fde398d94b23ea9c";  
-      name = "baron-fuels_1.1.3.zip"; 
-      sha1 = "62a5c0b42987aab65a34aab90d3199dcabc23f93"; 
+      url = "https://mods.factorio.com/download/baron-fuels/649d848a7d239f9d9855387a";  
+      name = "baron-fuels_1.1.4.zip"; 
+      sha1 = "eaf97a7f435cd2b3fcdba448dbba5cc6f6a3376a"; 
     };
     deps = [ baron-library ];
     optionalDeps = [ baron-factions ];
