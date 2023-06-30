@@ -5195,9 +5195,9 @@ let
   Bio_Industries = modDrv {
     name = "Bio Industries"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Bio_Industries/645137c831fe31fdea7f3256";  
-      name = "Bio_Industries_1.1.15.zip"; 
-      sha1 = "bfc94f9a2792f1eab988bdd0433dd4ae236005ae"; 
+      url = "https://mods.factorio.com/download/Bio_Industries/649e41444445fb03f505a02c";  
+      name = "Bio_Industries_1.1.16.zip"; 
+      sha1 = "4fbc53b7bc779f1e5c52db28590f3cf7ab1f7525"; 
     };
     deps = [ stdlib ];
     optionalDeps = [ alien-biomes auto-track-laying FARL Krastorio2 ];
@@ -7619,9 +7619,9 @@ let
   minime = modDrv {
     name = "miniMAXIme: Character scaler and selector"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/minime/6491a239aa30b2734b673a03";  
-      name = "minime_1.1.33.zip"; 
-      sha1 = "6f17d6e040550100c562385135a1ddeb2b319cfc"; 
+      url = "https://mods.factorio.com/download/minime/649e1ce64d12efd3201f0f57";  
+      name = "minime_1.1.34.zip"; 
+      sha1 = "0edd9ea7ef418c96bbcf2736e29cc17c6ab860db"; 
     };
     deps = [  ];
     optionalDeps = [ AmongUsCharacter GirlCharacter IRobot dnf-snow genshin-impact-skin miku-bikini-swimsuit minecraft NikoCharacter pikachu ProtogenCharacter shrek2 tianyi vaporeon-character wickerbeast ];
@@ -17087,9 +17087,9 @@ let
   robotworld-continued = modDrv {
     name = "Robot World Continued"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/robotworld-continued/6480a9aa16a898ab75514614";  
-      name = "robotworld-continued_1.1.5.zip"; 
-      sha1 = "293ed81c1c1b00a6af84d1033602f8861a443f7f"; 
+      url = "https://mods.factorio.com/download/robotworld-continued/649e88064445fb03f505a02d";  
+      name = "robotworld-continued_1.1.6.zip"; 
+      sha1 = "20f9f89fa48fb86aa73fc3419223700d90c47139"; 
     };
     deps = [  ];
     optionalDeps = [ aai-industry bobelectronics ];
@@ -34451,9 +34451,9 @@ let
   apm_bob_rework_ldinc = modDrv {
     name = "APM bob's extra compability"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/apm_bob_rework_ldinc/6499ca8ef21dee75790fb249";  
-      name = "apm_bob_rework_ldinc_0.22.111.zip"; 
-      sha1 = "03cc171dcd63a48fc61f4adcbb27623629a83ee1"; 
+      url = "https://mods.factorio.com/download/apm_bob_rework_ldinc/649dca5a7d239f9d9855387b";  
+      name = "apm_bob_rework_ldinc_0.22.112.zip"; 
+      sha1 = "24b6f0d7461e59e0cda83faaecc5a4f4892b58b5"; 
     };
     deps = [ apm_bob_rework_resource_pack_ldinc apm_resource_pack_ldinc apm_lib_ldinc apm_power_ldinc apm_nuclear_ldinc apm_energy_addon_ldinc bobassembly bobelectronics bobequipment bobinserters boblibrary boblogistics bobmining bobmodules bobores bobplates bobpower bobrevamp bobtech bobwarfare electricboiler deadlock-beltboxes-loaders ironclad-gunboat-and-mortar-turret ];
     optionalDeps = [ Flare-Stack Rampant LogisticTrainNetwork RampantArsenal ];
@@ -46547,9 +46547,9 @@ let
   train-trails = modDrv {
     name = "Train Trails"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/train-trails/62f98d5dc1c4ebbb21a19003";  
-      name = "train-trails_0.0.11.zip"; 
-      sha1 = "e389eef5994a0a0515049b3d1e62ffb68607a0df"; 
+      url = "https://mods.factorio.com/download/train-trails/649e70efbac5a85eecaea230";  
+      name = "train-trails_0.0.12.zip"; 
+      sha1 = "e87f007bc73f1009b8c8b4379f068e4f2512107d"; 
     };
     deps = [  ];
     optionalDeps = [  ];
