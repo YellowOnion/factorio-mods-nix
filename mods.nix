@@ -59195,9 +59195,9 @@ let
   TeleportationEquipment = modDrv {
     name = "Teleportation Equipment"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/TeleportationEquipment/647a3692a826df1267358244";  
-      name = "TeleportationEquipment_1.0.6.zip"; 
-      sha1 = "8c0da6cbabdb57da95f9eca59a5b3f2276564b92"; 
+      url = "https://mods.factorio.com/download/TeleportationEquipment/64a015f9eb8c3199e0801fe7";  
+      name = "TeleportationEquipment_1.0.7.zip"; 
+      sha1 = "981c24ed92e6176978eb7cd818506bf3233d10a5"; 
     };
     deps = [  ];
     optionalDeps = [  ];
