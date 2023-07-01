@@ -491,9 +491,9 @@ let
   YARM = modDrv {
     name = "YARM - Resource Monitor"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/YARM/6498afe0c359995ba6ddc75f";  
-      name = "YARM_0.9.10.zip"; 
-      sha1 = "4e137c27a9120860ad45dc85a13bc1b7f416dafc"; 
+      url = "https://mods.factorio.com/download/YARM/649efefcdfd9605df23dfb54";  
+      name = "YARM_0.9.11.zip"; 
+      sha1 = "dbb1e13336cd7d076bfbcf307c402d8884f06c85"; 
     };
     deps = [  ];
     optionalDeps = [ aai-programmable-vehicles angelsrefining omnimatter ];
@@ -5195,9 +5195,9 @@ let
   Bio_Industries = modDrv {
     name = "Bio Industries"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Bio_Industries/649e41444445fb03f505a02c";  
-      name = "Bio_Industries_1.1.16.zip"; 
-      sha1 = "4fbc53b7bc779f1e5c52db28590f3cf7ab1f7525"; 
+      url = "https://mods.factorio.com/download/Bio_Industries/649f0ec7b80de3373e08e8f1";  
+      name = "Bio_Industries_1.1.17.zip"; 
+      sha1 = "4299ab2ab91941fb150e8b4543bc33796310ae98"; 
     };
     deps = [ stdlib ];
     optionalDeps = [ alien-biomes auto-track-laying FARL Krastorio2 ];
@@ -46547,9 +46547,9 @@ let
   train-trails = modDrv {
     name = "Train Trails"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/train-trails/649e70efbac5a85eecaea230";  
-      name = "train-trails_0.0.12.zip"; 
-      sha1 = "e87f007bc73f1009b8c8b4379f068e4f2512107d"; 
+      url = "https://mods.factorio.com/download/train-trails/649f28514445fb03f505a038";  
+      name = "train-trails_0.0.13.zip"; 
+      sha1 = "b4d0a0d7207847b74ca0829de2446ad9bb876afc"; 
     };
     deps = [  ];
     optionalDeps = [  ];
