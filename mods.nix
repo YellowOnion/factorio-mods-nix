@@ -491,9 +491,9 @@ let
   YARM = modDrv {
     name = "YARM - Resource Monitor"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/YARM/649efefcdfd9605df23dfb54";  
-      name = "YARM_0.9.11.zip"; 
-      sha1 = "dbb1e13336cd7d076bfbcf307c402d8884f06c85"; 
+      url = "https://mods.factorio.com/download/YARM/64a19771043722e58da170a0";  
+      name = "YARM_0.9.12.zip"; 
+      sha1 = "7944d7ab9918a3f26c64d58742bed0428391ce0d"; 
     };
     deps = [  ];
     optionalDeps = [ aai-programmable-vehicles angelsrefining omnimatter ];
@@ -11555,9 +11555,9 @@ let
   PatchFR = modDrv {
     name = "Patch FR des Mods"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/PatchFR/647cade58a8e3c98356dd916";  
-      name = "PatchFR_1.1.30.zip"; 
-      sha1 = "2f27dc1e626b06e2caf465fa66b0ff735ba5c981"; 
+      url = "https://mods.factorio.com/download/PatchFR/64a0bf4e61c0c94711d3d405";  
+      name = "PatchFR_1.1.31.zip"; 
+      sha1 = "aeab7a090705eab7ef243a31b1b45a035824c438"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -17207,9 +17207,9 @@ let
   RecipeBook = modDrv {
     name = "Recipe Book"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/RecipeBook/64862fdd086152e023f45388";  
-      name = "RecipeBook_3.5.4.zip"; 
-      sha1 = "facb5b53789ce6d0ce7f8d21b90e8ab0505ca896"; 
+      url = "https://mods.factorio.com/download/RecipeBook/64a0a26646cce8fb0eeb83be";  
+      name = "RecipeBook_3.5.5.zip"; 
+      sha1 = "cfd68ff2a9c1671e53a40c3638a4c7cdfea2c9d3"; 
     };
     deps = [ flib ];
     optionalDeps = [  ];
@@ -21851,9 +21851,9 @@ let
   True-Nukes = modDrv {
     name = "True Nukes"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/True-Nukes/642da7c31385b3a9b7895933";  
-      name = "True-Nukes_0.3.20.zip"; 
-      sha1 = "efbdc0b73d1d2634f4aeb78852fbc339b41dedad"; 
+      url = "https://mods.factorio.com/download/True-Nukes/64a1788540d1463a9aa993c2";  
+      name = "True-Nukes_0.3.21.zip"; 
+      sha1 = "819e9b18631de045288404293d8407574381dccb"; 
     };
     deps = [ Warheads ];
     optionalDeps = [ Atomic_Overhaul SchallTankPlatoon Aircraft bobelectronics bobwarfare bobplates True-Nukes-Graphics apm_nuclear_ldinc PlutoniumEnergy Nuclear-Fuel Clowns-Nuclear Clowns-AngelBob-Nuclear space-exploration Krastorio2 ];
@@ -29303,9 +29303,9 @@ let
   ShuttleTrainRefresh = modDrv {
     name = "Shuttle Train Refresh"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/ShuttleTrainRefresh/635655e60c03db1c2a3d938f";  
-      name = "ShuttleTrainRefresh_1.1.8.zip"; 
-      sha1 = "79b577f4b1fabfa0480616a589b4ac7e509afb91"; 
+      url = "https://mods.factorio.com/download/ShuttleTrainRefresh/64a137e54c60a439725a2328";  
+      name = "ShuttleTrainRefresh_1.1.9.zip"; 
+      sha1 = "549a70eb8069d3e061e712f624aa157ffafe57a8"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -30323,9 +30323,9 @@ let
   nullius = modDrv {
     name = "Nullius"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/nullius/6495351bfb5dd0154912d0f1";  
-      name = "nullius_1.5.27.zip"; 
-      sha1 = "3a6d542487946ed67b8f29fbdfd3134d82c51bd8"; 
+      url = "https://mods.factorio.com/download/nullius/64a112b1999f935fa970e3d7";  
+      name = "nullius_1.5.28.zip"; 
+      sha1 = "4bf69492b0ca6e81479780f29bf6e219b51f6b69"; 
     };
     deps = [ alien-biomes angelssmelting boblogistics ];
     optionalDeps = [ RecipeBook underground-pipe-pack ];
@@ -46547,9 +46547,9 @@ let
   train-trails = modDrv {
     name = "Train Trails"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/train-trails/649f28514445fb03f505a038";  
-      name = "train-trails_0.0.13.zip"; 
-      sha1 = "b4d0a0d7207847b74ca0829de2446ad9bb876afc"; 
+      url = "https://mods.factorio.com/download/train-trails/64a0bdd146cce8fb0eeb83c6";  
+      name = "train-trails_0.0.14.zip"; 
+      sha1 = "73321a73028a739129ac64aac43de4eb1a37d16c"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -49259,9 +49259,9 @@ let
   skins-factored = modDrv {
     name = "!skins (Skins Factored)"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/skins-factored/62ea147ddb7493d4a84a2eee";  
-      name = "skins-factored_0.2.0.zip"; 
-      sha1 = "752d7044fb08e10244b1b731cb7dc66aa7ac7690"; 
+      url = "https://mods.factorio.com/download/skins-factored/64a0bac94ee9e1eba9dd1e40";  
+      name = "skins-factored_1.0.0.zip"; 
+      sha1 = "af25aee6328fc6ca5d2363f6636bc71cc42510b0"; 
     };
     deps = [  ];
     optionalDeps = [ informatron space-exploration ];
@@ -50519,12 +50519,12 @@ let
   MatrixDJ96-Fixes = modDrv {
     name = "MatrixDJ96: Fixes"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/MatrixDJ96-Fixes/625de49b7b2009ce4f04c43e";  
-      name = "MatrixDJ96-Fixes_0.0.2.zip"; 
-      sha1 = "0e88682f19e22254219a0a08cfce85ae1e365eb2"; 
+      url = "https://mods.factorio.com/download/MatrixDJ96-Fixes/64a0cae84ee9e1eba9dd1e42";  
+      name = "MatrixDJ96-Fixes_0.0.4.zip"; 
+      sha1 = "d6b892ec8648a57f27bb6b4cbbcd8b90939fb423"; 
     };
-    deps = [ flib ];
-    optionalDeps = [ manual-inventory-sort train-log GUI_Unifyer TaskList Todo-List ];
+    deps = [  ];
+    optionalDeps = [ manual-inventory-sort some-luaconsole GUI_Unifyer TaskList YARM ];
     recommendedDeps = []; 
  }; 
 
@@ -51251,9 +51251,9 @@ let
   LinkedChest3 = modDrv {
     name = "LinkedChest3"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/LinkedChest3/64903eda8ae7f5412c8247d2";  
-      name = "LinkedChest3_1.3.14.zip"; 
-      sha1 = "dcc2dd9eca6c8e20f1456efbd058006f2fdfbcb8"; 
+      url = "https://mods.factorio.com/download/LinkedChest3/64a0bd2b4c60a439725a231b";  
+      name = "LinkedChest3_1.3.15.zip"; 
+      sha1 = "2c44b668d25eb90a50676f3d55cfa7cde968f2d6"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -57587,11 +57587,11 @@ let
   rp_warfare = modDrv {
     name = "RP Warfare"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/rp_warfare/645b217d4ab946c58d322080";  
-      name = "rp_warfare_0.7.0.zip"; 
-      sha1 = "2dbcfdd0ed04c589386f4235da06a73cb864bb9b"; 
+      url = "https://mods.factorio.com/download/rp_warfare/64a100a44c60a439725a2321";  
+      name = "rp_warfare_0.7.1.zip"; 
+      sha1 = "f343a62ba39ae6a1428ff4d85005a4e8db776b67"; 
     };
-    deps = [ rp_art_util rp_artillery_turret_1_art rp_battle_tank_1_art rp_blender_turret_1_art rp_cannon_turret_2_art rp_lawnmower_tank_1_art rp_microwave_turret_1_art rp_missile_turret_1_art rp_mortar_turret_1_art rp_rocket_car_1_art rp_silo_turret_1_art rp_sniper_turret_1_art rp_tesla_turret_1_art rp_wall_turret_1_art ];
+    deps = [ rp_art_util rp_artillery_turret_1_art rp_battle_tank_1_art rp_blender_turret_1_art rp_cannon_turret_2_art rp_lawnmower_tank_1_art rp_microwave_turret_1_art rp_missile_turret_1_art rp_mortar_turret_1_art rp_rocket_car_1_art rp_silo_turret_1_art rp_sniper_turret_1_art rp_tesla_turret_1_art rp_wall_turret_1_art rp_steam_intermediates rp_organized_technology rp_dual_wielding ];
     optionalDeps = [  ];
     recommendedDeps = []; 
  }; 
@@ -59195,9 +59195,9 @@ let
   TeleportationEquipment = modDrv {
     name = "Teleportation Equipment"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/TeleportationEquipment/64a015f9eb8c3199e0801fe7";  
-      name = "TeleportationEquipment_1.0.7.zip"; 
-      sha1 = "981c24ed92e6176978eb7cd818506bf3233d10a5"; 
+      url = "https://mods.factorio.com/download/TeleportationEquipment/64a1a1a0a920c5674a4624fb";  
+      name = "TeleportationEquipment_1.0.8.zip"; 
+      sha1 = "bf48ee4a66b0e03d29e42be9cb135e54934b05b0"; 
     };
     deps = [  ];
     optionalDeps = [  ];
