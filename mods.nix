@@ -695,9 +695,9 @@ let
   Peppermint_Mining = modDrv {
     name = "Peppermint Mining"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Peppermint_Mining/644a61e46e37ba6209046265";  
-      name = "Peppermint_Mining_2.2.6.zip"; 
-      sha1 = "fd13c02ca6986ed22d5720ebd5f2ffb1696e7f45"; 
+      url = "https://mods.factorio.com/download/Peppermint_Mining/64a29f4279492731e4078ecd";  
+      name = "Peppermint_Mining_2.2.7.zip"; 
+      sha1 = "bc4b9823af099b645e13b3392fd62e7cb4c29e14"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -15299,9 +15299,9 @@ let
   super-generous-recipes = modDrv {
     name = "Super Generous Recipes"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/super-generous-recipes/64733de3d345fba9ffac83b7";  
-      name = "super-generous-recipes_0.10.0.zip"; 
-      sha1 = "d9446f98fab4bbb3111fdaffbc3c753d8750e775"; 
+      url = "https://mods.factorio.com/download/super-generous-recipes/64a29db879492731e4078ecc";  
+      name = "super-generous-recipes_0.10.1.zip"; 
+      sha1 = "9fe0cc98e74d1016722febfcb3067ef8acf22179"; 
     };
     deps = [  ];
     optionalDeps = [ Power-Armor-MK3 reverse-factory BobExtended angelspetrochem angelslocaleja_RE aai-industry mini-machines omnimatter_wood Bio_Industries kry-inserters GDIW bobelectronics Fantario pycoalprocessing pyfusionenergy pyhightech pyindustry pypetroleumhandling IndustrialRevolution RPGsystem FactorioExtended-Plus-CompoundSolars FactorioExtended-Plus-Core FactorioExtended-Plus-Equipment FactorioExtended-Plus-Logistics FactorioExtended-Plus-Machines FactorioExtended-Plus-Module FactorioExtended-Plus-Power FactorioExtended-Plus-Storage FactorioExtended-Plus-Transport FactorioExtended-Plus-Weaponry bobassembly bobclasses bobelectronics bobenemies bobequipment boblibrary boblogistics bobmining bobmodules bobores bobplates bobpower bobrevamp bobtech bobvehicleequipment bobwarfare Krastorio2 VoidChestPlus Nanobots space-exploration-postprocess ];
@@ -18431,9 +18431,9 @@ let
   Krastorio2 = modDrv {
     name = "Krastorio 2"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Krastorio2/648fd8d338de24964f95f16d";  
-      name = "Krastorio2_1.3.20.zip"; 
-      sha1 = "899b22c903127ef2f72ba91cf9959b067d5a3e5c"; 
+      url = "https://mods.factorio.com/download/Krastorio2/64a1c63d53b93d30b564b14d";  
+      name = "Krastorio2_1.3.21.zip"; 
+      sha1 = "104b00634274498bf543ffb3d5c728de9eecc65b"; 
     };
     deps = [ Krastorio2Assets flib ];
     optionalDeps = [  ];
@@ -20111,9 +20111,9 @@ let
   baron-library = modDrv {
     name = "Baron Library"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/baron-library/609dadebd4104ffa1cce0bc4";  
-      name = "baron-library_1.1.19.zip"; 
-      sha1 = "1642fceefea6529b64fe7675fb4a67412231eaec"; 
+      url = "https://mods.factorio.com/download/baron-library/64a269a579492731e4078ec2";  
+      name = "baron-library_1.1.24.zip"; 
+      sha1 = "0bb77c012fc746ce1c9b91d6f08f5a0a2b14790b"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -20735,9 +20735,9 @@ let
   baron-factions = modDrv {
     name = "Baron Factions"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/baron-factions/649d84384eb4de711c11fb0b";  
-      name = "baron-factions_1.1.34.zip"; 
-      sha1 = "6df2dc9b0810007165c5c6befb459fd08fcb4e6e"; 
+      url = "https://mods.factorio.com/download/baron-factions/64a269b012d714979662955c";  
+      name = "baron-factions_1.1.37.zip"; 
+      sha1 = "b4daa9a576ee785ecfc6dac1da5477420b42ee8a"; 
     };
     deps = [ baron-library ];
     optionalDeps = [  ];
@@ -23711,9 +23711,9 @@ let
   baron-many-little-things = modDrv {
     name = "Baron Many Little Things"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/baron-many-little-things/5fc584f2fde398d94b23f91f";  
-      name = "baron-many-little-things_1.1.1.zip"; 
-      sha1 = "d08582487177ffb7353e498487090039cbddc4c9"; 
+      url = "https://mods.factorio.com/download/baron-many-little-things/64a269e92ab41c954013ad03";  
+      name = "baron-many-little-things_1.1.4.zip"; 
+      sha1 = "3daa8f44d137a885effec4b1ed1b24f1311f5c2c"; 
     };
     deps = [ baron-library ];
     optionalDeps = [ baron-factions ];
@@ -23735,9 +23735,9 @@ let
   baron-two-at-a-time = modDrv {
     name = "Baron Two At A Time"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/baron-two-at-a-time/605e582b30567c4194e20810";  
-      name = "baron-two-at-a-time_1.1.4.zip"; 
-      sha1 = "4f19dce0dbe10e669353f82b14f93b68e132d65d"; 
+      url = "https://mods.factorio.com/download/baron-two-at-a-time/64a26a0179492731e4078ec3";  
+      name = "baron-two-at-a-time_1.1.5.zip"; 
+      sha1 = "25199e614a8fe64e97c5fdc07841130daedecb65"; 
     };
     deps = [ baron-library ];
     optionalDeps = [ baron-factions ];
@@ -30323,9 +30323,9 @@ let
   nullius = modDrv {
     name = "Nullius"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/nullius/64a112b1999f935fa970e3d7";  
-      name = "nullius_1.5.28.zip"; 
-      sha1 = "4bf69492b0ca6e81479780f29bf6e219b51f6b69"; 
+      url = "https://mods.factorio.com/download/nullius/64a25d672ab41c954013ad02";  
+      name = "nullius_1.5.29.zip"; 
+      sha1 = "526b723e5d87a5bc2978dd52c7492e5049ea859e"; 
     };
     deps = [ alien-biomes angelssmelting boblogistics ];
     optionalDeps = [ RecipeBook underground-pipe-pack ];
@@ -32135,9 +32135,9 @@ let
   prismatic-belts = modDrv {
     name = "Prismatic Belts"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/prismatic-belts/6427ab1f1614efe3f9a4ffcb";  
-      name = "prismatic-belts_1.2.3.zip"; 
-      sha1 = "8de5a3142c67ec8ddd861b5d65f421c476d54068"; 
+      url = "https://mods.factorio.com/download/prismatic-belts/64a1b3c940d1463a9aa993c6";  
+      name = "prismatic-belts_1.2.4.zip"; 
+      sha1 = "5a63c52fd6dbf68e09d71580db99b4b650694e15"; 
     };
     deps = [ flib ];
     optionalDeps = [ boblogistics reskins-library FactorioExtended-Plus-Transport Krastorio2 RandomFactorioThings UltimateBelts miniloader LoaderRedux deadlock-beltboxes-loaders vanilla-loaders-hd ];
@@ -38313,7 +38313,7 @@ let
  }; 
 
   MatrixDJ96-NoSteamInserter = modDrv {
-    name = "MatrixDJ96: No Steam Inserter"; 
+    name = "No Steam Inserter"; 
     src = fetchurl2 {
       url = "https://mods.factorio.com/download/MatrixDJ96-NoSteamInserter/624cb144d5368da01b787ebd";  
       name = "MatrixDJ96-NoSteamInserter_0.0.1.zip"; 
@@ -38750,18 +38750,6 @@ let
       url = "https://mods.factorio.com/download/burn-in-prevention/60f24dce43ea2558ac2f6e34";  
       name = "burn-in-prevention_1.0.1.zip"; 
       sha1 = "a8c06fb7be8bd42507fad83f8d71907ca6c4017f"; 
-    };
-    deps = [  ];
-    optionalDeps = [  ];
-    recommendedDeps = []; 
- }; 
-
-  MatrixDJ96-ModSettingsSaver = modDrv {
-    name = "MatrixDJ96: Mod Settings Saver"; 
-    src = fetchurl2 {
-      url = "https://mods.factorio.com/download/MatrixDJ96-ModSettingsSaver/60f0398a9c1e1a6770e89e68";  
-      name = "MatrixDJ96-ModSettingsSaver_0.0.1.zip"; 
-      sha1 = "0a3fa18afe7d09c9e52913834c7f504aa1f3989f"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -50231,9 +50219,9 @@ let
   blueprint-sandboxes = modDrv {
     name = "Blueprint Sandboxes"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/blueprint-sandboxes/648b582f8d05ea9162d6d7cd";  
-      name = "blueprint-sandboxes_1.16.1.zip"; 
-      sha1 = "1ba7d368bbab3059a5a58a64ccc2278ceefb8e14"; 
+      url = "https://mods.factorio.com/download/blueprint-sandboxes/64a1ad1840d1463a9aa993c5";  
+      name = "blueprint-sandboxes_1.16.2.zip"; 
+      sha1 = "bbdc0e31e487f176842c35edb7f549f4ce221c3b"; 
     };
     deps = [  ];
     optionalDeps = [ space-exploration Cursed-FMD factorissimo-2-notnotmelon ];
@@ -50445,7 +50433,7 @@ let
  }; 
 
   MatrixDJ96-RobotEnhancer = modDrv {
-    name = "MatrixDJ96: Robot Enhancer"; 
+    name = "Robot Enhancer"; 
     src = fetchurl2 {
       url = "https://mods.factorio.com/download/MatrixDJ96-RobotEnhancer/624cae5357d86ea573f1cfa1";  
       name = "MatrixDJ96-RobotEnhancer_0.0.1.zip"; 
@@ -50517,14 +50505,14 @@ let
  }; 
 
   MatrixDJ96-Fixes = modDrv {
-    name = "MatrixDJ96: Fixes"; 
+    name = "Fixes & Tweakes"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/MatrixDJ96-Fixes/64a0cae84ee9e1eba9dd1e42";  
-      name = "MatrixDJ96-Fixes_0.0.4.zip"; 
-      sha1 = "d6b892ec8648a57f27bb6b4cbbcd8b90939fb423"; 
+      url = "https://mods.factorio.com/download/MatrixDJ96-Fixes/64a2dbd179492731e4078ece";  
+      name = "MatrixDJ96-Fixes_0.0.6.zip"; 
+      sha1 = "c30a8be16190e69f8e801be254b7945f8f29ec12"; 
     };
     deps = [  ];
-    optionalDeps = [ manual-inventory-sort some-luaconsole GUI_Unifyer TaskList YARM ];
+    optionalDeps = [ manual-inventory-sort some-luaconsole train-log GUI_Unifyer TaskList Todo-List YARM ];
     recommendedDeps = []; 
  }; 
 
