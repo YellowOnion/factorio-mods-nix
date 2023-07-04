@@ -491,9 +491,9 @@ let
   YARM = modDrv {
     name = "YARM - Resource Monitor"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/YARM/64a19771043722e58da170a0";  
-      name = "YARM_0.9.12.zip"; 
-      sha1 = "7944d7ab9918a3f26c64d58742bed0428391ce0d"; 
+      url = "https://mods.factorio.com/download/YARM/64a40f44c4d8ada33be36334";  
+      name = "YARM_0.9.13.zip"; 
+      sha1 = "e9259910a0124c5949fcb453db17b0d89eac66ec"; 
     };
     deps = [  ];
     optionalDeps = [ aai-programmable-vehicles angelsrefining omnimatter ];
@@ -34451,11 +34451,11 @@ let
   apm_bob_rework_ldinc = modDrv {
     name = "APM bob's extra compability"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/apm_bob_rework_ldinc/649dca5a7d239f9d9855387b";  
-      name = "apm_bob_rework_ldinc_0.22.112.zip"; 
-      sha1 = "24b6f0d7461e59e0cda83faaecc5a4f4892b58b5"; 
+      url = "https://mods.factorio.com/download/apm_bob_rework_ldinc/64a40de883fba0779c3ec582";  
+      name = "apm_bob_rework_ldinc_0.22.113.zip"; 
+      sha1 = "732372e396fc1a46e93e6bbf4a3c8ed8fc121c59"; 
     };
-    deps = [ apm_bob_rework_resource_pack_ldinc apm_resource_pack_ldinc apm_lib_ldinc apm_power_ldinc apm_nuclear_ldinc apm_energy_addon_ldinc bobassembly bobelectronics bobequipment bobinserters boblibrary boblogistics bobmining bobmodules bobores bobplates bobpower bobrevamp bobtech bobwarfare electricboiler deadlock-beltboxes-loaders ironclad-gunboat-and-mortar-turret ];
+    deps = [ apm_bob_rework_resource_pack_ldinc apm_resource_pack_ldinc apm_lib_ldinc apm_power_ldinc apm_nuclear_ldinc apm_energy_addon_ldinc bobassembly bobelectronics bobequipment bobinserters boblibrary boblogistics bobmining bobmodules bobores bobplates bobpower bobrevamp bobtech bobwarfare electricboiler deadlock-beltboxes-loaders ironclad-gunboat-and-mortar-turret flib ];
     optionalDeps = [ Flare-Stack Rampant LogisticTrainNetwork RampantArsenal ];
     recommendedDeps = []; 
  }; 
@@ -36083,9 +36083,9 @@ let
   More_Ammo = modDrv {
     name = "More Ammo"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/More_Ammo/642d7c2b1f57cee27ee14f2e";  
-      name = "More_Ammo_1.5.14.zip"; 
-      sha1 = "5a08e92a407cd1ea3b7e82eec15ce15f38657aa7"; 
+      url = "https://mods.factorio.com/download/More_Ammo/64a3e2e38c88e6c3cca3cd2c";  
+      name = "More_Ammo_1.5.15.zip"; 
+      sha1 = "2e83e60a4591b7de4d8203a512b2b54d680dcbbc"; 
     };
     deps = [  ];
     optionalDeps = [ bullet-trails space-exploration ];
@@ -50015,9 +50015,9 @@ let
   Atomic_Overhaul = modDrv {
     name = "Atomic Overhaul"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Atomic_Overhaul/645124837e521b8d522f0dd4";  
-      name = "Atomic_Overhaul_1.3.17.zip"; 
-      sha1 = "9318431c71b7c814b9001412854162a6d95c8e02"; 
+      url = "https://mods.factorio.com/download/Atomic_Overhaul/64a364b217739bfa0b739d7c";  
+      name = "Atomic_Overhaul_1.3.18.zip"; 
+      sha1 = "f1f0def9f5ca83c87ea64a15f758c851c1666c4d"; 
     };
     deps = [  ];
     optionalDeps = [ RealisticReactors ];
@@ -50505,11 +50505,11 @@ let
  }; 
 
   MatrixDJ96-Fixes = modDrv {
-    name = "Fixes & Tweakes"; 
+    name = "Fixes & Tweaks"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/MatrixDJ96-Fixes/64a2dbd179492731e4078ece";  
-      name = "MatrixDJ96-Fixes_0.0.6.zip"; 
-      sha1 = "c30a8be16190e69f8e801be254b7945f8f29ec12"; 
+      url = "https://mods.factorio.com/download/MatrixDJ96-Fixes/64a317338ffaa96e04db0d0c";  
+      name = "MatrixDJ96-Fixes_0.0.7.zip"; 
+      sha1 = "655561e7ea222c2b3a69c761c3cbd2844e450c4d"; 
     };
     deps = [  ];
     optionalDeps = [ manual-inventory-sort some-luaconsole train-log GUI_Unifyer TaskList Todo-List YARM ];
@@ -57575,9 +57575,9 @@ let
   rp_warfare = modDrv {
     name = "RP Warfare"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/rp_warfare/64a100a44c60a439725a2321";  
-      name = "rp_warfare_0.7.1.zip"; 
-      sha1 = "f343a62ba39ae6a1428ff4d85005a4e8db776b67"; 
+      url = "https://mods.factorio.com/download/rp_warfare/64a3463ce5ef3f05bda58ac7";  
+      name = "rp_warfare_0.7.2.zip"; 
+      sha1 = "35faa81364519b37841383c1eb0e47ff1089a97f"; 
     };
     deps = [ rp_art_util rp_artillery_turret_1_art rp_battle_tank_1_art rp_blender_turret_1_art rp_cannon_turret_2_art rp_lawnmower_tank_1_art rp_microwave_turret_1_art rp_missile_turret_1_art rp_mortar_turret_1_art rp_rocket_car_1_art rp_silo_turret_1_art rp_sniper_turret_1_art rp_tesla_turret_1_art rp_wall_turret_1_art rp_steam_intermediates rp_organized_technology rp_dual_wielding ];
     optionalDeps = [  ];
