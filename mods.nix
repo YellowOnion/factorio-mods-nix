@@ -8063,9 +8063,9 @@ let
   WaterAsAResource = modDrv {
     name = "Water As A Resource"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/WaterAsAResource/6227a685a747f59cea3f2872";  
-      name = "WaterAsAResource_0.8.7.zip"; 
-      sha1 = "5bfd4c4b7e7ad2ecb839de673f059e97bf735694"; 
+      url = "https://mods.factorio.com/download/WaterAsAResource/64a498a9ceb97e7cf24ad9eb";  
+      name = "WaterAsAResource_0.8.8.zip"; 
+      sha1 = "7cf90efab27f8a62ffe795b2f8100102625f2e57"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -17711,9 +17711,9 @@ let
   midymidy-factorio-mod = modDrv {
     name = "MidyMidy Factorio Mod"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/midymidy-factorio-mod/63d25ac078ee0cef3249f3c0";  
-      name = "midymidy-factorio-mod_0.15.0.zip"; 
-      sha1 = "f1685f0adf3f3ab8e4ada378b2447dc62e5c9e30"; 
+      url = "https://mods.factorio.com/download/midymidy-factorio-mod/64a5946df2e0576397e1f16e";  
+      name = "midymidy-factorio-mod_0.16.0.zip"; 
+      sha1 = "f24afe1f7cb68638dad48afb9a8a3064081173e0"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -17879,9 +17879,9 @@ let
   EditorExtensions = modDrv {
     name = "Editor Extensions"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/EditorExtensions/6496534b951b0e39c982c3d7";  
-      name = "EditorExtensions_2.1.4.zip"; 
-      sha1 = "5a3253833bac15b69f3e27e3e2a2dc674b932fd8"; 
+      url = "https://mods.factorio.com/download/EditorExtensions/64a4917ac4d8ada33be3633b";  
+      name = "EditorExtensions_2.1.5.zip"; 
+      sha1 = "56162e1263f987858199d1b34f137d45e2246d5a"; 
     };
     deps = [ flib ];
     optionalDeps = [ CursorEnhancements ];
@@ -18431,9 +18431,9 @@ let
   Krastorio2 = modDrv {
     name = "Krastorio 2"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Krastorio2/64a1c63d53b93d30b564b14d";  
-      name = "Krastorio2_1.3.21.zip"; 
-      sha1 = "104b00634274498bf543ffb3d5c728de9eecc65b"; 
+      url = "https://mods.factorio.com/download/Krastorio2/64a492438c88e6c3cca3cd2d";  
+      name = "Krastorio2_1.3.22.zip"; 
+      sha1 = "0c64b7b0705694f59eb21e61d64641e461c6c932"; 
     };
     deps = [ Krastorio2Assets flib ];
     optionalDeps = [  ];
@@ -24503,9 +24503,9 @@ let
   TraditionalChinese = modDrv {
     name = " Traditional Chinese Locale Library 正體中文"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/TraditionalChinese/640c395fb1e33afc8476f5bd";  
-      name = "TraditionalChinese_0.4.3.zip"; 
-      sha1 = "eb4d5e1d72f94993ff0a0d17f6428cb9b75f88b7"; 
+      url = "https://mods.factorio.com/download/TraditionalChinese/64a4eda7e283029b67de9173";  
+      name = "TraditionalChinese_0.4.4.zip"; 
+      sha1 = "91e27d8a6bae1c84e90aa17b75d697185addcb58"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -34451,12 +34451,12 @@ let
   apm_bob_rework_ldinc = modDrv {
     name = "APM bob's extra compability"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/apm_bob_rework_ldinc/64a40de883fba0779c3ec582";  
-      name = "apm_bob_rework_ldinc_0.22.113.zip"; 
-      sha1 = "732372e396fc1a46e93e6bbf4a3c8ed8fc121c59"; 
+      url = "https://mods.factorio.com/download/apm_bob_rework_ldinc/64a532f6df657f168fea4ccd";  
+      name = "apm_bob_rework_ldinc_0.22.114.zip"; 
+      sha1 = "9f6c87f66f4cfa64ca2d6b92e3ab108edc229928"; 
     };
-    deps = [ apm_bob_rework_resource_pack_ldinc apm_resource_pack_ldinc apm_lib_ldinc apm_power_ldinc apm_nuclear_ldinc apm_energy_addon_ldinc bobassembly bobelectronics bobequipment bobinserters boblibrary boblogistics bobmining bobmodules bobores bobplates bobpower bobrevamp bobtech bobwarfare electricboiler deadlock-beltboxes-loaders ironclad-gunboat-and-mortar-turret flib ];
-    optionalDeps = [ Flare-Stack Rampant LogisticTrainNetwork RampantArsenal ];
+    deps = [ apm_bob_rework_resource_pack_ldinc apm_resource_pack_ldinc apm_lib_ldinc apm_power_ldinc apm_nuclear_ldinc apm_energy_addon_ldinc bobassembly bobelectronics bobequipment bobinserters boblibrary boblogistics bobmining bobmodules bobores bobplates bobpower bobrevamp bobtech bobwarfare electricboiler deadlock-beltboxes-loaders ironclad-gunboat-and-mortar-turret flib Rampant Flare-Stack RampantArsenal ];
+    optionalDeps = [ LogisticTrainNetwork ];
     recommendedDeps = []; 
  }; 
 
@@ -50507,9 +50507,9 @@ let
   MatrixDJ96-Fixes = modDrv {
     name = "Fixes & Tweaks"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/MatrixDJ96-Fixes/64a317338ffaa96e04db0d0c";  
-      name = "MatrixDJ96-Fixes_0.0.7.zip"; 
-      sha1 = "655561e7ea222c2b3a69c761c3cbd2844e450c4d"; 
+      url = "https://mods.factorio.com/download/MatrixDJ96-Fixes/64a5991172588e8c5a65c998";  
+      name = "MatrixDJ96-Fixes_0.0.9.zip"; 
+      sha1 = "3a930d0e66ba900011980a6fac61bb6b47d808f1"; 
     };
     deps = [  ];
     optionalDeps = [ manual-inventory-sort some-luaconsole train-log GUI_Unifyer TaskList Todo-List YARM ];
