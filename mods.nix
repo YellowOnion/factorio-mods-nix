@@ -5135,9 +5135,9 @@ let
   rso-mod = modDrv {
     name = "Resource Spawner Overhaul"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/rso-mod/63e2d21e39effaf034014608";  
-      name = "rso-mod_6.2.23.zip"; 
-      sha1 = "ccdbbc49adca7ec796abecf965599641ae3c1d16"; 
+      url = "https://mods.factorio.com/download/rso-mod/64a5e49a95e8746e6d590e62";  
+      name = "rso-mod_6.2.24.zip"; 
+      sha1 = "146aa1dbf34138ac1fabf7b0b97eaaf86b42ee9b"; 
     };
     deps = [  ];
     optionalDeps = [ bobenemies bobores n5dim_ores ];
@@ -7619,9 +7619,9 @@ let
   minime = modDrv {
     name = "miniMAXIme: Character scaler and selector"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/minime/649e1ce64d12efd3201f0f57";  
-      name = "minime_1.1.34.zip"; 
-      sha1 = "0edd9ea7ef418c96bbcf2736e29cc17c6ab860db"; 
+      url = "https://mods.factorio.com/download/minime/64a5a81b757c8a7c9ec5f96e";  
+      name = "minime_1.1.35.zip"; 
+      sha1 = "74ac34f5774e98ec276c42998b9fde5599bfc089"; 
     };
     deps = [  ];
     optionalDeps = [ AmongUsCharacter GirlCharacter IRobot dnf-snow genshin-impact-skin miku-bikini-swimsuit minecraft NikoCharacter pikachu ProtogenCharacter shrek2 tianyi vaporeon-character wickerbeast ];
@@ -43775,9 +43775,9 @@ let
   mining-patch-planner = modDrv {
     name = "Mining patch planner"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/mining-patch-planner/6429af754677b7efe3af79ad";  
-      name = "mining-patch-planner_1.4.3.zip"; 
-      sha1 = "de942a270bb807f41b643ca5d1e36433acd044f8"; 
+      url = "https://mods.factorio.com/download/mining-patch-planner/64a5ca52e5f9e563fa4162a4";  
+      name = "mining-patch-planner_1.5.0.zip"; 
+      sha1 = "6d98d5950ba1ba4c41c92f66ef557f327ab53416"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -50507,9 +50507,9 @@ let
   MatrixDJ96-Fixes = modDrv {
     name = "Fixes & Tweaks"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/MatrixDJ96-Fixes/64a5991172588e8c5a65c998";  
-      name = "MatrixDJ96-Fixes_0.0.9.zip"; 
-      sha1 = "3a930d0e66ba900011980a6fac61bb6b47d808f1"; 
+      url = "https://mods.factorio.com/download/MatrixDJ96-Fixes/64a5f65d6e5c9baabae9ee14";  
+      name = "MatrixDJ96-Fixes_0.0.10.zip"; 
+      sha1 = "a8a7e47e004df7f32553c9585139ec68581986e5"; 
     };
     deps = [  ];
     optionalDeps = [ manual-inventory-sort some-luaconsole train-log GUI_Unifyer TaskList Todo-List YARM ];
@@ -51239,9 +51239,9 @@ let
   LinkedChest3 = modDrv {
     name = "LinkedChest3"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/LinkedChest3/64a0bd2b4c60a439725a231b";  
-      name = "LinkedChest3_1.3.15.zip"; 
-      sha1 = "2c44b668d25eb90a50676f3d55cfa7cde968f2d6"; 
+      url = "https://mods.factorio.com/download/LinkedChest3/64a5ca5ef8ec0ff07acfd42f";  
+      name = "LinkedChest3_1.3.16.zip"; 
+      sha1 = "e4df5c34c33431a93f7479158cd4d6ae682114c9"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -57911,9 +57911,9 @@ let
   bp100 = modDrv {
     name = "Staged Blueprint Planning"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/bp100/647a30c8e82aad86c7f25727";  
-      name = "bp100_0.22.6.zip"; 
-      sha1 = "a9f40e83fa8af9b5e37a2619cbdd02bfe57277ab"; 
+      url = "https://mods.factorio.com/download/bp100/64a62a426e5c9baabae9ee15";  
+      name = "bp100_0.22.7.zip"; 
+      sha1 = "5b4a4801d9f42350f909a7f2ac184402ba76f515"; 
     };
     deps = [  ];
     optionalDeps = [ PickerDollies ];
