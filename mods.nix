@@ -467,9 +467,9 @@ let
   helmod = modDrv {
     name = "Helmod: Assistant for planning your factory"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/helmod/648c98c54cf9cfd400dd2a89";  
-      name = "helmod_0.12.16.zip"; 
-      sha1 = "705d7cba1a58ce7bafe082bf1b2536e1ac9dcae4"; 
+      url = "https://mods.factorio.com/download/helmod/64a6efb1f7cb4a16a4c7bffe";  
+      name = "helmod_0.12.17.zip"; 
+      sha1 = "6f6093594ffc6690a3c96f63d6c270dcf3cdf1d1"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -16955,9 +16955,9 @@ let
   StoneToOre = modDrv {
     name = "StoneToOre - transform stone to"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/StoneToOre/604681f257513a1e4581a6c6";  
-      name = "StoneToOre_0.0.43.zip"; 
-      sha1 = "6e7836a2a872eb0bb42ce282d0a7d3881011b6b2"; 
+      url = "https://mods.factorio.com/download/StoneToOre/64a734aa7b43045c6fe9cdd7";  
+      name = "StoneToOre_0.0.50.zip"; 
+      sha1 = "c2a81690e6b34c68ee5dd8c2e99198387bf39010"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -23759,9 +23759,9 @@ let
   Kux-SpeedButtons = modDrv {
     name = "Speed Buttons"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Kux-SpeedButtons/649ce1ec78d997d29385b8cc";  
-      name = "Kux-SpeedButtons_2.0.8.zip"; 
-      sha1 = "b9cbae75cfa7db9234dee8e10e3cf6e894912c0a"; 
+      url = "https://mods.factorio.com/download/Kux-SpeedButtons/64a821e23bebe28564e7b774";  
+      name = "Kux-SpeedButtons_2.0.9.zip"; 
+      sha1 = "ef333d7625cb7d77a014c74134633986a4d3c4ca"; 
     };
     deps = [ Kux-CoreLib ];
     optionalDeps = [  ];
@@ -50507,12 +50507,12 @@ let
   MatrixDJ96-Fixes = modDrv {
     name = "Fixes & Tweaks"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/MatrixDJ96-Fixes/64a5f65d6e5c9baabae9ee14";  
-      name = "MatrixDJ96-Fixes_0.0.10.zip"; 
-      sha1 = "a8a7e47e004df7f32553c9585139ec68581986e5"; 
+      url = "https://mods.factorio.com/download/MatrixDJ96-Fixes/64a757e53732a45952fbb851";  
+      name = "MatrixDJ96-Fixes_0.0.11.zip"; 
+      sha1 = "9e942f6fbcd6d9f975f970d1768c522d5f0d2b79"; 
     };
     deps = [  ];
-    optionalDeps = [ manual-inventory-sort some-luaconsole train-log GUI_Unifyer TaskList Todo-List YARM ];
+    optionalDeps = [ auto_manual_mode manual-inventory-sort some-luaconsole train-log GUI_Unifyer TaskList Todo-List YARM ];
     recommendedDeps = []; 
  }; 
 
