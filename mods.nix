@@ -695,9 +695,9 @@ let
   Peppermint_Mining = modDrv {
     name = "Peppermint Mining"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Peppermint_Mining/64a29f4279492731e4078ecd";  
-      name = "Peppermint_Mining_2.2.7.zip"; 
-      sha1 = "bc4b9823af099b645e13b3392fd62e7cb4c29e14"; 
+      url = "https://mods.factorio.com/download/Peppermint_Mining/64a957981bd97eac962fb521";  
+      name = "Peppermint_Mining_2.2.9.zip"; 
+      sha1 = "a5e665d63435d0368d38466198475ee87ba5c7d3"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -23711,9 +23711,9 @@ let
   baron-many-little-things = modDrv {
     name = "Baron Many Little Things"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/baron-many-little-things/64a269e92ab41c954013ad03";  
-      name = "baron-many-little-things_1.1.4.zip"; 
-      sha1 = "3daa8f44d137a885effec4b1ed1b24f1311f5c2c"; 
+      url = "https://mods.factorio.com/download/baron-many-little-things/5fc584f2fde398d94b23f91f";  
+      name = "baron-many-little-things_1.1.1.zip"; 
+      sha1 = "d08582487177ffb7353e498487090039cbddc4c9"; 
     };
     deps = [ baron-library ];
     optionalDeps = [ baron-factions ];
@@ -40031,12 +40031,12 @@ let
   UMModulesRework = modDrv {
     name = "Modules Rework"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/UMModulesRework/649c918fd1509750f6314d97";  
-      name = "UMModulesRework_1.0.3.zip"; 
-      sha1 = "e25e9f74b593c456e126dbf8f87925142d82ccdd"; 
+      url = "https://mods.factorio.com/download/UMModulesRework/64a87a5b971176f7ba368604";  
+      name = "UMModulesRework_1.0.4.zip"; 
+      sha1 = "768a9d4c560ede50b9ef7dcaf9188e2bd34cb63a"; 
     };
-    deps = [ modules-t4 ];
-    optionalDeps = [ RFT-modules ];
+    deps = [  ];
+    optionalDeps = [ RFT-modules modules-t4 ];
     recommendedDeps = []; 
  }; 
 
@@ -44051,9 +44051,9 @@ let
   Constructron-Continued = modDrv {
     name = "Constructron-Continued"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Constructron-Continued/6454e4227a0e8c7278c80622";  
-      name = "Constructron-Continued_1.0.74.zip"; 
-      sha1 = "3d524a589aadaf21b28731523030537053f6978f"; 
+      url = "https://mods.factorio.com/download/Constructron-Continued/64a91a910cfcfbb2551fc405";  
+      name = "Constructron-Continued_1.0.75.zip"; 
+      sha1 = "d7837f15a68d5a03369141d5b0e04338bf6f986d"; 
     };
     deps = [  ];
     optionalDeps = [ dynamic-robot-queues ];
@@ -50507,12 +50507,12 @@ let
   MatrixDJ96-Fixes = modDrv {
     name = "Fixes & Tweaks"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/MatrixDJ96-Fixes/64a757e53732a45952fbb851";  
-      name = "MatrixDJ96-Fixes_0.0.11.zip"; 
-      sha1 = "9e942f6fbcd6d9f975f970d1768c522d5f0d2b79"; 
+      url = "https://mods.factorio.com/download/MatrixDJ96-Fixes/64a851e73c4c8623f02ea501";  
+      name = "MatrixDJ96-Fixes_0.0.12.zip"; 
+      sha1 = "14fa4adab92f1bfc127774508c944d4db111a3df"; 
     };
     deps = [  ];
-    optionalDeps = [ auto_manual_mode manual-inventory-sort some-luaconsole train-log GUI_Unifyer TaskList Todo-List YARM ];
+    optionalDeps = [ auto_manual_mode manual-inventory-sort manual-trains-at-temp-stops some-luaconsole train-log Fill4Me Fill4Me-fixed GUI_Unifyer TaskList Todo-List YARM ];
     recommendedDeps = []; 
  }; 
 
@@ -50879,9 +50879,9 @@ let
   biters_drop_money = modDrv {
     name = "Biters drop money"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/biters_drop_money/64492e83e6b8c44c3837f46e";  
-      name = "biters_drop_money_1.0.0.zip"; 
-      sha1 = "df2e40a1bbf215a2bea282a778d8c91b29d6b16a"; 
+      url = "https://mods.factorio.com/download/biters_drop_money/64a96ec85a85e37a2c2d1457";  
+      name = "biters_drop_money_1.0.1.zip"; 
+      sha1 = "9467e54e3cae5fee08cdf134d7bb5381cec4bfbc"; 
     };
     deps = [  ];
     optionalDeps = [ EasyAPI ];
@@ -52751,9 +52751,9 @@ let
   BrassTacks = modDrv {
     name = "Brass Tacks"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/BrassTacks/649a690446ce34be24b19da8";  
-      name = "BrassTacks_1.2.4.zip"; 
-      sha1 = "e5e80cdf57576eef92a86aedd8087a66c74ed78f"; 
+      url = "https://mods.factorio.com/download/BrassTacks/64a8836ca2b3d5a71e6185e6";  
+      name = "BrassTacks_1.2.5.zip"; 
+      sha1 = "13de1e476fa67b192fa9dba0bbb622505679a3e7"; 
     };
     deps = [  ];
     optionalDeps = [ bzlead bzaluminum bzcarbon bztin bzfoundry bzzirconium bzlead space-exploration aai-industry aai-containers aai-signal-transmission deadlock-beltboxes-loaders DeadlockCrating vtk-deep-core-mining Krastorio2 FluidMustFlow Expensive_Fluid_Must_Flow_Recipes bzgold cargo-ships underwater-pipes IntermodalContainers FreightForwarding n248k ];
@@ -55415,9 +55415,9 @@ let
   IfNickel = modDrv {
     name = "If I Had A Nickel"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/IfNickel/649a685348488d7fd76b6c58";  
-      name = "IfNickel_1.0.12.zip"; 
-      sha1 = "1ea9aae16bdcce563978caafc591b62949eccb70"; 
+      url = "https://mods.factorio.com/download/IfNickel/64a883214d291886c8651899";  
+      name = "IfNickel_1.0.13.zip"; 
+      sha1 = "5764288255f9e447969dd08528517cb78b6865a7"; 
     };
     deps = [  ];
     optionalDeps = [ bzlead bzaluminum bzcarbon bzfoundry bztin bztungsten BrassTacks bzgold space-exploration aai-industry deadlock-beltboxes-loaders DeadlockCrating Krastorio2 FluidMustFlow Expensive_Fluid_Must_Flow_Recipes n248k ];
@@ -60983,9 +60983,9 @@ let
   ore-washing = modDrv {
     name = "Ore Washing"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/ore-washing/63d30e9d514262fdf02820aa";  
-      name = "ore-washing_0.5.3.zip"; 
-      sha1 = "ace1ce46ea3ae7652de0cab02e8df015f7723b7c"; 
+      url = "https://mods.factorio.com/download/ore-washing/64a984425f7ec5490cbec818";  
+      name = "ore-washing_0.5.4.zip"; 
+      sha1 = "e8af199e78e8b6ef47e945bda2f7bab02d46b24f"; 
     };
     deps = [  ];
     optionalDeps = [  ];
