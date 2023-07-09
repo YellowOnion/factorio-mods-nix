@@ -467,9 +467,9 @@ let
   helmod = modDrv {
     name = "Helmod: Assistant for planning your factory"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/helmod/64a6efb1f7cb4a16a4c7bffe";  
-      name = "helmod_0.12.17.zip"; 
-      sha1 = "6f6093594ffc6690a3c96f63d6c270dcf3cdf1d1"; 
+      url = "https://mods.factorio.com/download/helmod/64aa0c4c5f7ec5490cbec81a";  
+      name = "helmod_0.12.18.zip"; 
+      sha1 = "598e0639cc5a93a1f7168dec451f5e43fbdc9e64"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -695,9 +695,9 @@ let
   Peppermint_Mining = modDrv {
     name = "Peppermint Mining"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Peppermint_Mining/64a957981bd97eac962fb521";  
-      name = "Peppermint_Mining_2.2.9.zip"; 
-      sha1 = "a5e665d63435d0368d38466198475ee87ba5c7d3"; 
+      url = "https://mods.factorio.com/download/Peppermint_Mining/64a9acb5775ab9da2c47344c";  
+      name = "Peppermint_Mining_2.2.10.zip"; 
+      sha1 = "07e23c94d96ddaf9ce53e46042a400c77902d076"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -11291,9 +11291,9 @@ let
   autobuild = modDrv {
     name = "Autobuild"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/autobuild/647635ca5282e1f99fd66140";  
-      name = "autobuild_0.5.6.zip"; 
-      sha1 = "a29ac0ece5f31f0ad522f3fa9f650e83d093aca0"; 
+      url = "https://mods.factorio.com/download/autobuild/64aac879be16b9461c3ce6e6";  
+      name = "autobuild_0.5.7.zip"; 
+      sha1 = "ce77a5a70d5259c746c912eba1f8c840fd228aa0"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -16883,9 +16883,9 @@ let
   ArmouredBiters = modDrv {
     name = "Armoured Biters"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/ArmouredBiters/6454269e00076084bcd3fefa";  
-      name = "ArmouredBiters_1.1.8.zip"; 
-      sha1 = "c92d49e4cadc40b5a524b1011e3ebded5d4dd933"; 
+      url = "https://mods.factorio.com/download/ArmouredBiters/64aadb373fa193bb20a3816b";  
+      name = "ArmouredBiters_1.1.9.zip"; 
+      sha1 = "a83ed8641dbe47ee6bb3769a9678ab15aa265f59"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -22067,11 +22067,11 @@ let
   multiplayer_extreme_modpack = modDrv {
     name = "Multiplayer Extreme Modpack"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/multiplayer_extreme_modpack/6415bfbf12da28e7d035e3bf";  
-      name = "multiplayer_extreme_modpack_1.1.47.zip"; 
-      sha1 = "7d910aba4e1f5178d3172aed2d33fcaa296d02fe"; 
+      url = "https://mods.factorio.com/download/multiplayer_extreme_modpack/64aa73de37d039aab5f1a35b";  
+      name = "multiplayer_extreme_modpack_1.1.48.zip"; 
+      sha1 = "5ada3252e8cbf4aea6e0b345bf032767e9967e86"; 
     };
-    deps = [ aai-industry aai-containers aai-programmable-structures aai-programmable-vehicles aai-signal-transmission aai-signals aai-vehicles-chaingunner aai-vehicles-flame-tank aai-vehicles-flame-tumbler aai-vehicles-hauler aai-vehicles-laser-tank aai-vehicles-miner aai-vehicles-warden aai-zones Advanced-Electric-Revamped-v16 Aircraft AircraftRealism alien-biomes alien-biomes-hr-terrain angelsaddons-mobility angelsaddons-storage angelsbioprocessing angelsexploration angelsindustries angelspetrochem angelsrefining angelssmelting AngelsPetroChemExtension AngelsSmeltingExtension ArmouredBiters Asteroid_Mining AutoDeconstruct Automatic_Train_Painter beltlayer BetterBotsWLK Big_Brother Bio_Industries bobinserters bobassembly bobelectronics bobenemies boblibrary boblogistics bobplates bobmining bobores bobequipment bobpower bobrevamp bobtech bobvehicleequipment bobwarfare car-finder cargo-ships cargo-ships-graphics Clowns-AngelBob-Nuclear Clowns-Extended-Minerals Clowns-Nuclear Clowns-Processing Clowns-Science Cold_biters Companion_Drones deadlock-beltboxes-loaders deadlock-integrations DeadlockCrating DeadlockStackingForAngels DeadlockStackingForBobs DeadlockStackingForVanilla Kux-Deadlock-Stacking-Bio_Industries DeathMarkers Dectorio Enhanced_Map_Colors even-distribution EvoGUI Explosive_biters flib stdlib factorissimo-2-notnotmelon far-reach FARL Flow-Control FNEI grappling-gun HallOfFame ick-automatic-train-repair ImprovedCombinator informatron Inventory-Sensor jetpack LogisticTrainNetwork LTN_Combinator_Modernized LTN_Content_Reader ltn-cleanup map-tag-generator Mining_Drones more-minimap-autohide-017 multi-product-recipe-details Nova-Natural_Evolution_Enemies Natural_Evolution_Buildings2 Natural-Evolution-Enemies-Research-Fix Nightfall nixie-tubes PCPRedux pipelayer qol_research RampantFixed RateCalculator reskins-angels reskins-bobs reskins-compatibility reskins-library robot_attrition Robot_Battery_Research rusty-locale SchallMachineScaling SchallRecipeScaling SchallPipeScaling Schall_BobMachines simhelper simple-air-cleaner spidertron-logistics Squeak-Through TheFatController Todo-List tree_collision Updated_Construction_Drones VehicleGrid WaterWell WideChests YARM Yuoki yi_engines Yi_Tech_Tree_ExtraVanilla zJatmnYiFixes ];
+    deps = [ aai-industry aai-containers aai-programmable-structures aai-programmable-vehicles aai-signal-transmission aai-signals aai-vehicles-chaingunner aai-vehicles-flame-tank aai-vehicles-flame-tumbler aai-vehicles-hauler aai-vehicles-laser-tank aai-vehicles-miner aai-vehicles-warden aai-zones Advanced-Electric-Revamped-v16 Aircraft AircraftRealism alien-biomes alien-biomes-hr-terrain angelsaddons-mobility angelsaddons-storage angelsbioprocessing angelsexploration angelsindustries angelspetrochem angelsrefining angelssmelting AngelsPetroChemExtension AngelsSmeltingExtension ArmouredBiters Asteroid_Mining AutoDeconstruct Automatic_Train_Painter beltlayer BetterBotsWLK Big_Brother Bio_Industries bobinserters bobassembly bobelectronics bobenemies boblibrary boblogistics bobplates bobmining bobores bobequipment bobpower bobrevamp bobtech bobvehicleequipment bobwarfare car-finder cargo-ships cargo-ships-graphics Clowns-AngelBob-Nuclear Clowns-Extended-Minerals Clowns-Nuclear Clowns-Processing Clowns-Science Cold_biters Companion_Drones deadlock-beltboxes-loaders deadlock-integrations DeadlockCrating DeadlockStackingForAngels DeadlockStackingForBobs DeadlockStackingForVanilla Kux-Deadlock-Stacking-Bio_Industries DeathMarkers Dectorio Enhanced_Map_Colors even-distribution EvoGUI Explosive_biters flib stdlib factorissimo-2-notnotmelon far-reach FARL Flow-Control FNEI grappling-gun HallOfFame ick-automatic-train-repair ImprovedCombinator informatron Inventory-Sensor jetpack LogisticTrainNetwork LTN_Combinator_Modernized LTN_Content_Reader ltn-cleanup map-tag-generator Mining_Drones more-minimap-autohide-017 multi-product-recipe-details Nova-Natural_Evolution_Enemies Natural_Evolution_Buildings2 Natural_Evolution_Enemies_Redux Nightfall nixie-tubes PCPRedux pipelayer qol_research RampantFixed RateCalculator reskins-angels reskins-bobs reskins-compatibility reskins-library robot_attrition Robot_Battery_Research rusty-locale SchallMachineScaling SchallRecipeScaling SchallPipeScaling Schall_BobMachines simhelper simple-air-cleaner spidertron-logistics Squeak-Through TheFatController Todo-List tree_collision Updated_Construction_Drones VehicleGrid WaterWell WideChests YARM Yuoki yi_engines Yi_Tech_Tree_ExtraVanilla zJatmnYiFixes ];
     optionalDeps = [ belt-balancer BetterBots BottleneckLite DeadlocksStackingForPyanadon miniloader RecipeBook ];
     recommendedDeps = []; 
  }; 
@@ -30479,11 +30479,11 @@ let
   singleplayer_extreme_modpack = modDrv {
     name = "Singleplayer Extreme Modpack"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/singleplayer_extreme_modpack/6415bfb3127e4ddeddc5246e";  
-      name = "singleplayer_extreme_modpack_1.1.34.zip"; 
-      sha1 = "85aa8317812dcec9fff0fe1c6486d3c48e18b40a"; 
+      url = "https://mods.factorio.com/download/singleplayer_extreme_modpack/64aa73c92d976341f4132091";  
+      name = "singleplayer_extreme_modpack_1.1.35.zip"; 
+      sha1 = "35913b85f9952fa80d5118658ebd23ed701a4196"; 
     };
-    deps = [ aai-industry aai-containers aai-programmable-structures aai-programmable-vehicles aai-signal-transmission aai-signals aai-vehicles-chaingunner aai-vehicles-flame-tank aai-vehicles-flame-tumbler aai-vehicles-hauler aai-vehicles-laser-tank aai-vehicles-miner aai-vehicles-warden aai-zones Advanced-Electric-Revamped-v16 Aircraft AircraftRealism alien-biomes alien-biomes-hr-terrain angelsaddons-mobility angelsaddons-storage angelsbioprocessing angelsexploration angelsindustries angelspetrochem angelsrefining angelssmelting AngelsPetroChemExtension AngelsSmeltingExtension ArmouredBiters Asteroid_Mining AutoDeconstruct Automatic_Train_Painter beltlayer belt-balancer beltSorter BetterBotsWLK Big_Brother Bio_Industries bobinserters bobassembly bobelectronics bobenemies boblibrary boblogistics bobplates bobmining bobores bobequipment bobpower bobrevamp bobtech bobvehicleequipment bobwarfare car-finder cargo-ships cargo-ships-graphics Clowns-AngelBob-Nuclear Clowns-Extended-Minerals Clowns-Nuclear Clowns-Processing Clowns-Science Cold_biters Companion_Drones deadlock-beltboxes-loaders deadlock-integrations DeadlockCrating DeadlockStackingForAngels DeadlockStackingForBobs DeadlockStackingForVanilla Kux-Deadlock-Stacking-Bio_Industries DeathMarkers Dectorio DiscoScience Enhanced_Map_Colors even-distribution EvoGUI Explosive_biters flib stdlib factorissimo-2-notnotmelon factoryplanner far-reach FARL Flow-Control FNEI grappling-gun HallOfFame helmod ick-automatic-train-repair ImprovedCombinator informatron Inventory-Sensor jetpack LogisticTrainNetwork LTN_Combinator_Modernized LTN_Content_Reader ltn-cleanup map-tag-generator miniloader Mining_Drones more-minimap-autohide-017 multi-product-recipe-details Nova-Natural_Evolution_Enemies Natural_Evolution_Buildings2 Natural-Evolution-Enemies-Research-Fix Nightfall nixie-tubes PCPRedux pipelayer qol_research RampantFixed RateCalculator reskins-angels reskins-bobs reskins-compatibility reskins-library robot_attrition Robot_Battery_Research rusty-locale SchallMachineScaling SchallRecipeScaling SchallPipeScaling Schall_BobMachines simhelper simple-air-cleaner spidertron-logistics Squeak-Through Tapeline TheFatController Todo-List Transport_Drones tree_collision Updated_Construction_Drones VehicleGrid WaterWell WideChests YARM Yuoki yi_engines Yi_Tech_Tree_ExtraVanilla zJatmnYiFixes ];
+    deps = [ aai-industry aai-containers aai-programmable-structures aai-programmable-vehicles aai-signal-transmission aai-signals aai-vehicles-chaingunner aai-vehicles-flame-tank aai-vehicles-flame-tumbler aai-vehicles-hauler aai-vehicles-laser-tank aai-vehicles-miner aai-vehicles-warden aai-zones Advanced-Electric-Revamped-v16 Aircraft AircraftRealism alien-biomes alien-biomes-hr-terrain angelsaddons-mobility angelsaddons-storage angelsbioprocessing angelsexploration angelsindustries angelspetrochem angelsrefining angelssmelting AngelsPetroChemExtension AngelsSmeltingExtension ArmouredBiters Asteroid_Mining AutoDeconstruct Automatic_Train_Painter beltlayer belt-balancer beltSorter BetterBotsWLK Big_Brother Bio_Industries bobinserters bobassembly bobelectronics bobenemies boblibrary boblogistics bobplates bobmining bobores bobequipment bobpower bobrevamp bobtech bobvehicleequipment bobwarfare car-finder cargo-ships cargo-ships-graphics Clowns-AngelBob-Nuclear Clowns-Extended-Minerals Clowns-Nuclear Clowns-Processing Clowns-Science Cold_biters Companion_Drones deadlock-beltboxes-loaders deadlock-integrations DeadlockCrating DeadlockStackingForAngels DeadlockStackingForBobs DeadlockStackingForVanilla Kux-Deadlock-Stacking-Bio_Industries DeathMarkers Dectorio DiscoScience Enhanced_Map_Colors even-distribution EvoGUI Explosive_biters flib stdlib factorissimo-2-notnotmelon factoryplanner far-reach FARL Flow-Control FNEI grappling-gun HallOfFame helmod ick-automatic-train-repair ImprovedCombinator informatron Inventory-Sensor jetpack LogisticTrainNetwork LTN_Combinator_Modernized LTN_Content_Reader ltn-cleanup map-tag-generator miniloader Mining_Drones more-minimap-autohide-017 multi-product-recipe-details Nova-Natural_Evolution_Enemies Natural_Evolution_Buildings2 Natural_Evolution_Enemies_Redux Nightfall nixie-tubes PCPRedux pipelayer qol_research RampantFixed RateCalculator reskins-angels reskins-bobs reskins-compatibility reskins-library robot_attrition Robot_Battery_Research rusty-locale SchallMachineScaling SchallRecipeScaling SchallPipeScaling Schall_BobMachines simhelper simple-air-cleaner spidertron-logistics Squeak-Through Tapeline TheFatController Todo-List Transport_Drones tree_collision Updated_Construction_Drones VehicleGrid WaterWell WideChests YARM Yuoki yi_engines Yi_Tech_Tree_ExtraVanilla zJatmnYiFixes ];
     optionalDeps = [ AsphaltRoads BetterBots BottleneckLite DeadlocksStackingForPyanadon RecipeBook ];
     recommendedDeps = []; 
  }; 
@@ -30503,11 +30503,11 @@ let
   exploration_extreme_modpack = modDrv {
     name = "Exploration Extreme Modpack"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/exploration_extreme_modpack/6415bfca0566aad3ddd7ae69";  
-      name = "exploration_extreme_modpack_1.1.31.zip"; 
-      sha1 = "652a1e07e70daa719db78bc465a59b3ec5928987"; 
+      url = "https://mods.factorio.com/download/exploration_extreme_modpack/64aa73ebda9e669e3e805bfb";  
+      name = "exploration_extreme_modpack_1.1.32.zip"; 
+      sha1 = "ef34c19a7d2ad1679b654e56cc8c89070c04501f"; 
     };
-    deps = [ n248k aai-industry aai-containers aai-programmable-structures aai-programmable-vehicles aai-signal-transmission aai-signals aai-vehicles-chaingunner aai-vehicles-flame-tank aai-vehicles-flame-tumbler aai-vehicles-hauler aai-vehicles-laser-tank aai-vehicles-miner aai-vehicles-warden aai-zones Advanced-Electric-Revamped-v16 Aircraft AircraftRealism alien-biomes alien-biomes-hr-terrain Asteroid_Mining AutoDeconstruct Automatic_Train_Painter BetterBotsWLK Big_Brother Bio_Industries car-finder cargo-ships cargo-ships-graphics Cold_biters Companion_Drones deadlock-beltboxes-loaders deadlock-integrations DeadlockCrating DeadlockStackingForVanilla Kux-Deadlock-Stacking-Bio_Industries DeadlockStackingFor248k Deadlock-SE-bridge DeadlockStackingForKrastorio2 DeathMarkers Enhanced_Map_Colors even-distribution EvoGUI Explosive_biters flib stdlib factorissimo-2-notnotmelon far-reach FARL Flow-Control FNEI grappling-gun HallOfFame ick-automatic-train-repair ImprovedCombinator informatron Inventory-Sensor jetpack Krastorio2 Krastorio2Assets LogisticTrainNetwork LTN_Combinator_Modernized LTN_Content_Reader ltn-cleanup map-tag-generator Mining_Drones more-minimap-autohide-017 multi-product-recipe-details Nova-Natural_Evolution_Enemies Natural_Evolution_Buildings2 Natural-Evolution-Enemies-Research-Fix Nightfall nixie-tubes qol_research RateCalculator RateCalculator robot_attrition Robot_Battery_Research rusty-locale simhelper simple-air-cleaner space-exploration space-exploration-graphics space-exploration-graphics-2 space-exploration-graphics-3 space-exploration-graphics-4 space-exploration-graphics-5 space-exploration-postprocess space-exploration-menu-simulations spidertron-logistics Squeak-Through TheFatController Todo-List Transport_Drones tree_collision Updated_Construction_Drones WideChests YARM ];
+    deps = [ n248k aai-industry aai-containers aai-programmable-structures aai-programmable-vehicles aai-signal-transmission aai-signals aai-vehicles-chaingunner aai-vehicles-flame-tank aai-vehicles-flame-tumbler aai-vehicles-hauler aai-vehicles-laser-tank aai-vehicles-miner aai-vehicles-warden aai-zones Advanced-Electric-Revamped-v16 Aircraft AircraftRealism alien-biomes alien-biomes-hr-terrain Asteroid_Mining AutoDeconstruct Automatic_Train_Painter BetterBotsWLK Big_Brother Bio_Industries car-finder cargo-ships cargo-ships-graphics Cold_biters Companion_Drones deadlock-beltboxes-loaders deadlock-integrations DeadlockCrating DeadlockStackingForVanilla DeadlockStackingFor248k Deadlock-SE-bridge DeadlockStackingForKrastorio2 Kux-Deadlock-Stacking-Bio_Industries DeathMarkers Enhanced_Map_Colors even-distribution EvoGUI Explosive_biters flib stdlib factorissimo-2-notnotmelon far-reach FARL Flow-Control FNEI grappling-gun HallOfFame ick-automatic-train-repair ImprovedCombinator informatron Inventory-Sensor jetpack Krastorio2 Krastorio2Assets LogisticTrainNetwork LTN_Combinator_Modernized LTN_Content_Reader ltn-cleanup map-tag-generator Mining_Drones more-minimap-autohide-017 multi-product-recipe-details Nova-Natural_Evolution_Enemies Natural_Evolution_Buildings2 Natural_Evolution_Enemies_Redux Nightfall nixie-tubes qol_research RateCalculator RateCalculator robot_attrition Robot_Battery_Research rusty-locale simhelper simple-air-cleaner space-exploration space-exploration-graphics space-exploration-graphics-2 space-exploration-graphics-3 space-exploration-graphics-4 space-exploration-graphics-5 space-exploration-postprocess space-exploration-menu-simulations spidertron-logistics Squeak-Through TheFatController Todo-List Transport_Drones tree_collision Updated_Construction_Drones WideChests YARM ];
     optionalDeps = [ belt-balancer BetterBots Bottleneck miniloader RampantFixed RecipeBook ];
     recommendedDeps = []; 
  }; 
@@ -44591,12 +44591,12 @@ let
   Warmonger = modDrv {
     name = "Warmonger"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Warmonger/648cb4b4f462aa53709a7aa9";  
-      name = "Warmonger_1.3.22.zip"; 
-      sha1 = "21488ad1628d7e01c9dc8a3a8489042c514afa87"; 
+      url = "https://mods.factorio.com/download/Warmonger/64aa79fd6d794b4196097107";  
+      name = "Warmonger_1.3.23.zip"; 
+      sha1 = "1b3a4450956bd4e0df805a624afd85a4fd1f3592"; 
     };
     deps = [  ];
-    optionalDeps = [ RampantArsenal RampantIndustry Rampant IndustrialRevolution pycoalprocessing ];
+    optionalDeps = [ Rampant ];
     recommendedDeps = []; 
  }; 
 
@@ -50219,9 +50219,9 @@ let
   blueprint-sandboxes = modDrv {
     name = "Blueprint Sandboxes"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/blueprint-sandboxes/64a1ad1840d1463a9aa993c5";  
-      name = "blueprint-sandboxes_1.16.2.zip"; 
-      sha1 = "bbdc0e31e487f176842c35edb7f549f4ce221c3b"; 
+      url = "https://mods.factorio.com/download/blueprint-sandboxes/64a9963a82b91c2fea9cafcd";  
+      name = "blueprint-sandboxes_1.16.3.zip"; 
+      sha1 = "7df8afb0f1cb4d3294bce50437c35c7d68fb37d6"; 
     };
     deps = [  ];
     optionalDeps = [ space-exploration Cursed-FMD factorissimo-2-notnotmelon ];
@@ -51683,9 +51683,9 @@ let
   tanks_for_bob_fork = modDrv {
     name = "Tanks! for Bob!!"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/tanks_for_bob_fork/6282d50f4744b764d2217f77";  
-      name = "tanks_for_bob_fork_1.8.81.zip"; 
-      sha1 = "9e3c47f7c8c848f1d23b29fc54978489a6d1ddc2"; 
+      url = "https://mods.factorio.com/download/tanks_for_bob_fork/64aa4d65be16b9461c3ce6df";  
+      name = "tanks_for_bob_fork_1.8.82.zip"; 
+      sha1 = "73e51d6dc46963acbb1329b178f8cc4dd55c5076"; 
     };
     deps = [  ];
     optionalDeps = [  ];
