@@ -51683,9 +51683,9 @@ let
   tanks_for_bob_fork = modDrv {
     name = "Tanks! for Bob!!"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/tanks_for_bob_fork/64aa4d65be16b9461c3ce6df";  
-      name = "tanks_for_bob_fork_1.8.82.zip"; 
-      sha1 = "73e51d6dc46963acbb1329b178f8cc4dd55c5076"; 
+      url = "https://mods.factorio.com/download/tanks_for_bob_fork/64ae72841580fb762776248f";  
+      name = "tanks_for_bob_fork_1.8.84.zip"; 
+      sha1 = "1d0bb8373f7152679bc79072fff00ac7b65a66fa"; 
     };
     deps = [  ];
     optionalDeps = [  ];
