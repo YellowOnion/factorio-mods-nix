@@ -50015,9 +50015,9 @@ let
   Atomic_Overhaul = modDrv {
     name = "Atomic Overhaul"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Atomic_Overhaul/64a364b217739bfa0b739d7c";  
-      name = "Atomic_Overhaul_1.3.18.zip"; 
-      sha1 = "f1f0def9f5ca83c87ea64a15f758c851c1666c4d"; 
+      url = "https://mods.factorio.com/download/Atomic_Overhaul/64afda37b3b601570b225dc7";  
+      name = "Atomic_Overhaul_1.3.19.zip"; 
+      sha1 = "7a2c8e9102d4ab85851885bee5a3073db3613b42"; 
     };
     deps = [  ];
     optionalDeps = [ RealisticReactors ];
@@ -50507,9 +50507,9 @@ let
   MatrixDJ96-Fixes = modDrv {
     name = "Fixes & Tweaks"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/MatrixDJ96-Fixes/64a851e73c4c8623f02ea501";  
-      name = "MatrixDJ96-Fixes_0.0.12.zip"; 
-      sha1 = "14fa4adab92f1bfc127774508c944d4db111a3df"; 
+      url = "https://mods.factorio.com/download/MatrixDJ96-Fixes/64aed433c9ae4b55a9b442de";  
+      name = "MatrixDJ96-Fixes_0.0.13.zip"; 
+      sha1 = "044a038230fced3b93fd16a2243597a437e22070"; 
     };
     deps = [  ];
     optionalDeps = [ auto_manual_mode manual-inventory-sort manual-trains-at-temp-stops some-luaconsole train-log Fill4Me Fill4Me-fixed GUI_Unifyer TaskList Todo-List YARM ];
@@ -51683,9 +51683,9 @@ let
   tanks_for_bob_fork = modDrv {
     name = "Tanks! for Bob!!"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/tanks_for_bob_fork/64ae72841580fb762776248f";  
+      url = "https://mods.factorio.com/download/tanks_for_bob_fork/64aed64baea07c919cee48ba";  
       name = "tanks_for_bob_fork_1.8.84.zip"; 
-      sha1 = "1d0bb8373f7152679bc79072fff00ac7b65a66fa"; 
+      sha1 = "362dd933427794be3e18246b8e7d260cd8ec601b"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -58391,9 +58391,9 @@ let
   uniform-output-fluidboxes = modDrv {
     name = "Uniform Output Fluidboxes"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/uniform-output-fluidboxes/6317025f55f7dede4ca5357c";  
-      name = "uniform-output-fluidboxes_1.0.0.zip"; 
-      sha1 = "82bcacb31de53b41f4d5bd80a613e567aa5b73de"; 
+      url = "https://mods.factorio.com/download/uniform-output-fluidboxes/64af0fe09ccf16ffd18fdc70";  
+      name = "uniform-output-fluidboxes_1.0.1.zip"; 
+      sha1 = "14b7d3277dfce08f3daaac7f169198ccf372f6f5"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -61247,9 +61247,9 @@ let
   puppy-jetpack-ui = modDrv {
     name = "Puppy's Jetpack UI"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/puppy-jetpack-ui/638b2f79367f7cfc15273b4d";  
-      name = "puppy-jetpack-ui_0.1.7.zip"; 
-      sha1 = "fcb11405fc08751ebfbaa9f5eb40f6e7c00fe218"; 
+      url = "https://mods.factorio.com/download/puppy-jetpack-ui/64aeeb1c1580fb7627762494";  
+      name = "puppy-jetpack-ui_0.1.8.zip"; 
+      sha1 = "3c66b08db61a9d7af875f84e2d1b90dd95e741ef"; 
     };
     deps = [ jetpack flib ];
     optionalDeps = [  ];
