@@ -16955,9 +16955,9 @@ let
   StoneToOre = modDrv {
     name = "StoneToOre - transform stone to"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/StoneToOre/64a734aa7b43045c6fe9cdd7";  
-      name = "StoneToOre_0.0.50.zip"; 
-      sha1 = "c2a81690e6b34c68ee5dd8c2e99198387bf39010"; 
+      url = "https://mods.factorio.com/download/StoneToOre/64b131035823079465650dd2";  
+      name = "StoneToOre_0.0.52.zip"; 
+      sha1 = "7302179edac1a58b8dca96925f7f78dd42ad675b"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -17423,9 +17423,9 @@ let
   Warptorio2_Language_Pack = modDrv {
     name = "Mining Space Industries II / Warptorio2 Language Pack"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Warptorio2_Language_Pack/645d462d74c2d784382b4354";  
-      name = "Warptorio2_Language_Pack_1.2.0.zip"; 
-      sha1 = "dea033ce7adfa81b3dda14725d5491721dbf05fc"; 
+      url = "https://mods.factorio.com/download/Warptorio2_Language_Pack/64b09388a13593f8cc8fb858";  
+      name = "Warptorio2_Language_Pack_1.2.1.zip"; 
+      sha1 = "f02816f350dd020172ce3a39758a55b91b0edced"; 
     };
     deps = [  ];
     optionalDeps = [ Mining-Space-Industries-II Rocket-Silo-Construction warptorio2 warptorio2_expansion planetorio_expansion_planets ArmouredBiters Cold_biters Explosive_biters Toxic_biters Big-Monsters factorio-crash-site Electric-Weapons ];
@@ -22499,9 +22499,9 @@ let
   zk-lib = modDrv {
     name = "ZwerOxotnik's multipurpose mod with 8 addons [zk-lib][WIP]"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/zk-lib/649ac2575931d11623a16f32";  
-      name = "zk-lib_0.13.1.zip"; 
-      sha1 = "5164f9a3d3772875900028737630d62e1a3d60c0"; 
+      url = "https://mods.factorio.com/download/zk-lib/64b169f001aacea6316f0347";  
+      name = "zk-lib_0.13.3.zip"; 
+      sha1 = "eaa9bc5ea446bc175de7ee6ba900dca3021259a8"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -23759,9 +23759,9 @@ let
   Kux-SpeedButtons = modDrv {
     name = "Speed Buttons"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Kux-SpeedButtons/64a821e23bebe28564e7b774";  
-      name = "Kux-SpeedButtons_2.0.9.zip"; 
-      sha1 = "ef333d7625cb7d77a014c74134633986a4d3c4ca"; 
+      url = "https://mods.factorio.com/download/Kux-SpeedButtons/64b083d097b3be48908b7ff5";  
+      name = "Kux-SpeedButtons_2.0.10.zip"; 
+      sha1 = "2412b024918ab5047d505fe7ab302fd1f4af0642"; 
     };
     deps = [ Kux-CoreLib ];
     optionalDeps = [  ];
@@ -24419,9 +24419,9 @@ let
   railway-motor-car = modDrv {
     name = "Railway Motor Car"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/railway-motor-car/63655fbb358f36ed84c672c1";  
-      name = "railway-motor-car_0.4.0.zip"; 
-      sha1 = "f44ca30bb3fcecf8371ef66fce726b61e7c39c1f"; 
+      url = "https://mods.factorio.com/download/railway-motor-car/64b07d9b11657971e0225015";  
+      name = "railway-motor-car_0.4.1.zip"; 
+      sha1 = "501845e30b843daffcfd2e265ebce9b92b321590"; 
     };
     deps = [  ];
     optionalDeps = [ flib jetpack informatron ];
@@ -25679,9 +25679,9 @@ let
   Kux-CoreLib = modDrv {
     name = "Kuxynator's Core Library"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Kux-CoreLib/64ac547c0e087c7433273581";  
-      name = "Kux-CoreLib_2.7.0.zip"; 
-      sha1 = "4ddb0d1abfa29a2d4dad1aaad259ee7bdb584507"; 
+      url = "https://mods.factorio.com/download/Kux-CoreLib/64b085d1806afb95267c2fc4";  
+      name = "Kux-CoreLib_2.7.1.zip"; 
+      sha1 = "4fe2cd69280720ed3a0c4a320ca108d7b43dcff3"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -25691,9 +25691,9 @@ let
   Kux-BlueprintExtensions = modDrv {
     name = "Blueprint Extensions (Kux Edition)"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Kux-BlueprintExtensions/649ce47f4dfd046c3446c2d4";  
-      name = "Kux-BlueprintExtensions_2.2.4.zip"; 
-      sha1 = "ee629c02617ad73652cfbc47a3029964f654c5aa"; 
+      url = "https://mods.factorio.com/download/Kux-BlueprintExtensions/64b085a297b3be48908b7ff6";  
+      name = "Kux-BlueprintExtensions_2.2.5.zip"; 
+      sha1 = "b1b0a8cc09013063874412b9eab725d8072e253e"; 
     };
     deps = [ Kux-CoreLib ];
     optionalDeps = [ fluid_permutations GDIW GDIW-updated underground-pipe-pack FluidMustFlow ];
@@ -35231,9 +35231,9 @@ let
   Kux-GhostInHand = modDrv {
     name = "Ghost In Hand (Kuxynator's Enhanced Edition)"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Kux-GhostInHand/649cd59978d997d29385b8cb";  
-      name = "Kux-GhostInHand_2.3.3.zip"; 
-      sha1 = "73227c544edd352b5383412eb631ff8054e69a3a"; 
+      url = "https://mods.factorio.com/download/Kux-GhostInHand/64b08461a13593f8cc8fb857";  
+      name = "Kux-GhostInHand_2.3.4.zip"; 
+      sha1 = "99ecedbf1b5a32d02e62ce7d2c73724de8bfa150"; 
     };
     deps = [ Kux-CoreLib ];
     optionalDeps = [  ];
@@ -47651,9 +47651,9 @@ let
   Darkstar_utilities_fixed = modDrv {
     name = "Darkstar Utilities fixed"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Darkstar_utilities_fixed/626ce9d6933ae5b033a183d2";  
-      name = "Darkstar_utilities_fixed_0.19.12.zip"; 
-      sha1 = "2b8554071dde116220c6bc81481eb5f18f8a5c18"; 
+      url = "https://mods.factorio.com/download/Darkstar_utilities_fixed/64b0442811657971e0225010";  
+      name = "Darkstar_utilities_fixed_0.19.13.zip"; 
+      sha1 = "16438f008e740f892e448cbc74b377baf246689d"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -51239,9 +51239,9 @@ let
   LinkedChest3 = modDrv {
     name = "LinkedChest3"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/LinkedChest3/64abadb40e087c7433273566";  
-      name = "LinkedChest3_1.3.17.zip"; 
-      sha1 = "6e77c3fb3e58bc685a79fbb07830ed1be3927772"; 
+      url = "https://mods.factorio.com/download/LinkedChest3/64b150dce8abab7e38f91a1d";  
+      name = "LinkedChest3_1.3.22.zip"; 
+      sha1 = "b9492b061656af05bec8ce21dd585ce0db6846de"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -52379,9 +52379,9 @@ let
   Configurable-Armour-Suits = modDrv {
     name = "Configurable Armour & Suits"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Configurable-Armour-Suits/647b054622aa0e80cada290b";  
-      name = "Configurable-Armour-Suits_1.1.1.zip"; 
-      sha1 = "15096f88d86c3c5b6295e3b4a5777b658386d4f7"; 
+      url = "https://mods.factorio.com/download/Configurable-Armour-Suits/64b160765823079465650dd4";  
+      name = "Configurable-Armour-Suits_1.2.0.zip"; 
+      sha1 = "04497662e475d882ee1b06aed3054d11dfd412a7"; 
     };
     deps = [  ];
     optionalDeps = [ bobwarfare custom_power_armor_fix FactorioExtended-Equipment IndustrialRevolution3 Krastorio2 nullius PowerAndArmor Power-Armor-MK3 Power-Armour-Replacer RampantArsenal space-exploration ];
