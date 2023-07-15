@@ -3047,11 +3047,11 @@ let
   SeaBlockMetaPack = modDrv {
     name = "Sea Block Pack"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/SeaBlockMetaPack/6117713fc507516cdf742c27";  
-      name = "SeaBlockMetaPack_1.1.3.zip"; 
-      sha1 = "cf93e422f1876cd6abc0b74d095700f14a8747e5"; 
+      url = "https://mods.factorio.com/download/SeaBlockMetaPack/64b19164bd57c064312b5704";  
+      name = "SeaBlockMetaPack_1.1.4.zip"; 
+      sha1 = "d0ae545da46cc8d0d1fdba76ae9e27ff79e80d12"; 
     };
-    deps = [ angelsaddons-storage angelsbioprocessing angelspetrochem angelsrefining angelssmelting bobassembly bobelectronics bobenemies bobequipment bobinserters boblibrary boblogistics bobmining bobmodules bobores bobplates bobpower bobrevamp bobtech bobwarfare CircuitProcessing Explosive-Excavation flib FNEI helmod KS_Power LandfillPainting reskins-angels reskins-bobs reskins-compatibility reskins-library ScienceCostTweakerM SeaBlock SpaceMod ];
+    deps = [ angelsaddons-storage angelsbioprocessing angelspetrochem angelsrefining angelssmelting reskins-angels reskins-bobs reskins-compatibility reskins-library bobassembly bobelectronics bobenemies bobequipment bobinserters boblibrary boblogistics bobmining bobmodules bobores bobplates bobpower bobrevamp bobtech bobwarfare CircuitProcessing Explosive-Excavation flib FNEI helmod KS_Power LandfillPainting Milestones ScienceCostTweakerM SeaBlock SpaceMod ];
     optionalDeps = [  ];
     recommendedDeps = []; 
  }; 
@@ -4883,12 +4883,12 @@ let
   SeaBlock = modDrv {
     name = "Sea Block"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/SeaBlock/63b14e9fb87239fd300955af";  
-      name = "SeaBlock_0.5.12.zip"; 
-      sha1 = "f9130fb8532ba56d2a0ef83eb89460e63f952c01"; 
+      url = "https://mods.factorio.com/download/SeaBlock/64b19153a13593f8cc8fb870";  
+      name = "SeaBlock_0.5.13.zip"; 
+      sha1 = "05dc77d989b5d0ccd01e3f9fc5b8a69d67dd7d51"; 
     };
     deps = [ angelsbioprocessing angelspetrochem angelsrefining angelssmelting bobelectronics boblibrary boblogistics bobores bobplates ];
-    optionalDeps = [ angelsaddons-storage bobassembly bobenemies bobequipment bobinserters bobmining bobmodules bobpower bobrevamp bobtech bobwarfare CircuitProcessing Explosive-Excavation KS_Power LandfillPainting ScienceCostTweakerM SpaceMod ];
+    optionalDeps = [ angelsaddons-storage bobassembly bobenemies bobequipment bobinserters bobmining bobmodules bobpower bobrevamp bobtech bobwarfare CircuitProcessing Explosive-Excavation KS_Power LandfillPainting Milestones ScienceCostTweakerM SpaceMod ];
     recommendedDeps = []; 
  }; 
 
@@ -20123,9 +20123,9 @@ let
   RenaiTransportation = modDrv {
     name = "Renai Transportation"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/RenaiTransportation/646ac8b993c2661255556294";  
-      name = "RenaiTransportation_1.2.3.zip"; 
-      sha1 = "7170d2e9f7768c7e0f02ba1147b60f42ba1436fd"; 
+      url = "https://mods.factorio.com/download/RenaiTransportation/64b1890a97b3be48908b800a";  
+      name = "RenaiTransportation_1.2.4.zip"; 
+      sha1 = "3bbc3eece8ec27f537820bbfa4c400491e993f1f"; 
     };
     deps = [  ];
     optionalDeps = [ aai-vehicles-ironclad aai-programmable-vehicles ];
@@ -22499,9 +22499,9 @@ let
   zk-lib = modDrv {
     name = "ZwerOxotnik's multipurpose mod with 8 addons [zk-lib][WIP]"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/zk-lib/64b169f001aacea6316f0347";  
-      name = "zk-lib_0.13.3.zip"; 
-      sha1 = "eaa9bc5ea446bc175de7ee6ba900dca3021259a8"; 
+      url = "https://mods.factorio.com/download/zk-lib/64b25ed69253584d1d9ff1b8";  
+      name = "zk-lib_0.13.4.zip"; 
+      sha1 = "1b6cbd01e1deb0c36527e54335621cc7e8c7a508"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -30323,9 +30323,9 @@ let
   nullius = modDrv {
     name = "Nullius"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/nullius/64a25d672ab41c954013ad02";  
-      name = "nullius_1.5.29.zip"; 
-      sha1 = "526b723e5d87a5bc2978dd52c7492e5049ea859e"; 
+      url = "https://mods.factorio.com/download/nullius/64b226039253584d1d9ff1b5";  
+      name = "nullius_1.5.30.zip"; 
+      sha1 = "b58086af796f1d4e17f8688e67cd3408b9b01f1f"; 
     };
     deps = [ alien-biomes angelssmelting boblogistics ];
     optionalDeps = [ RecipeBook underground-pipe-pack ];
@@ -36851,9 +36851,9 @@ let
   Milestones = modDrv {
     name = "Milestones"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Milestones/64686023941cdd1ef6a08e6e";  
-      name = "Milestones_1.3.18.zip"; 
-      sha1 = "6e031a1be3738d0e7dce052adfda0c6f06c0a8fa"; 
+      url = "https://mods.factorio.com/download/Milestones/64b1907d01aacea6316f0348";  
+      name = "Milestones_1.3.19.zip"; 
+      sha1 = "7e04c8bc2a8d732fcee972e94f9186ad117ce812"; 
     };
     deps = [ flib ];
     optionalDeps = [  ];
@@ -50507,9 +50507,9 @@ let
   MatrixDJ96-Fixes = modDrv {
     name = "Fixes & Tweaks"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/MatrixDJ96-Fixes/64aed433c9ae4b55a9b442de";  
-      name = "MatrixDJ96-Fixes_0.0.13.zip"; 
-      sha1 = "044a038230fced3b93fd16a2243597a437e22070"; 
+      url = "https://mods.factorio.com/download/MatrixDJ96-Fixes/64b1df636c6d872e072d02e5";  
+      name = "MatrixDJ96-Fixes_0.0.17.zip"; 
+      sha1 = "22c126017a8ff770d1f7528dd83bb5774b83ae11"; 
     };
     deps = [  ];
     optionalDeps = [ auto_manual_mode manual-inventory-sort manual-trains-at-temp-stops some-luaconsole train-log Fill4Me Fill4Me-fixed GUI_Unifyer TaskList Todo-List YARM ];
@@ -51239,9 +51239,9 @@ let
   LinkedChest3 = modDrv {
     name = "LinkedChest3"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/LinkedChest3/64b150dce8abab7e38f91a1d";  
-      name = "LinkedChest3_1.3.22.zip"; 
-      sha1 = "b9492b061656af05bec8ce21dd585ce0db6846de"; 
+      url = "https://mods.factorio.com/download/LinkedChest3/64b2c65e1e92252c63aa9bea";  
+      name = "LinkedChest3_1.3.23.zip"; 
+      sha1 = "30fb6d1251c7cea826a49f3d7674fb68b2967736"; 
     };
     deps = [  ];
     optionalDeps = [  ];
