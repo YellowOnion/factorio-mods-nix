@@ -29363,9 +29363,9 @@ let
   enemyracemanager = modDrv {
     name = "Enemy Race Manager"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/enemyracemanager/6464473a751bcd6ddf58d475";  
-      name = "enemyracemanager_1.17.3.zip"; 
-      sha1 = "771c791e6297ebe307e8a6aff8ccd0cfeaedd1af"; 
+      url = "https://mods.factorio.com/download/enemyracemanager/64b2df0a2369325081fbfc1b";  
+      name = "enemyracemanager_1.17.4.zip"; 
+      sha1 = "e6ecd6c2f5fd794a403aab298b01ff554c2774e6"; 
     };
     deps = [ stdlib enemyracemanager_assets zerm_postprocess ];
     optionalDeps = [ Krastorio2 IndustrialRevolution IndustrialRevolution3 ArmouredBiters Explosive_biters Cold_biters Toxic_biters space-exploration Kux-OrbitalIonCannon MIRV AtomicArtillery RibbonMaze018 ];
