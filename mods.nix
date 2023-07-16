@@ -7619,12 +7619,12 @@ let
   minime = modDrv {
     name = "miniMAXIme: Character scaler and selector"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/minime/64a5a81b757c8a7c9ec5f96e";  
-      name = "minime_1.1.35.zip"; 
-      sha1 = "74ac34f5774e98ec276c42998b9fde5599bfc089"; 
+      url = "https://mods.factorio.com/download/minime/64b3b45f844974026309a97f";  
+      name = "minime_1.1.36.zip"; 
+      sha1 = "d186cd2f1bc84b1fa31658b7e50b7e776767bf69"; 
     };
     deps = [  ];
-    optionalDeps = [ AmongUsCharacter GirlCharacter IRobot dnf-snow genshin-impact-skin miku-bikini-swimsuit minecraft NikoCharacter pikachu ProtogenCharacter shrek2 tianyi vaporeon-character wickerbeast ];
+    optionalDeps = [ AmongUsCharacter GirlCharacter IRobot dnf-snow genshin-impact-skin miku-bikini-swimsuit minecraft NikoCharacter pikachu ProtogenCharacter shrek2 tianyi vaporeon-character wickerbeast yaemiko-raidenshogun-characters ];
     recommendedDeps = []; 
  }; 
 
@@ -22499,9 +22499,9 @@ let
   zk-lib = modDrv {
     name = "ZwerOxotnik's multipurpose mod with 8 addons [zk-lib][WIP]"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/zk-lib/64b25ed69253584d1d9ff1b8";  
-      name = "zk-lib_0.13.4.zip"; 
-      sha1 = "1b6cbd01e1deb0c36527e54335621cc7e8c7a508"; 
+      url = "https://mods.factorio.com/download/zk-lib/64b3c80197ae0026f88066dd";  
+      name = "zk-lib_0.13.5.zip"; 
+      sha1 = "ca20d836129099de7c4243bfa5a4158b11b5f3bc"; 
     };
     deps = [  ];
     optionalDeps = [  ];
