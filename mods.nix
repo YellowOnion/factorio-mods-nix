@@ -5699,9 +5699,9 @@ let
   PlutoniumEnergy = modDrv {
     name = "Plutonium Energy"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/PlutoniumEnergy/648f0da08aea799744346433";  
-      name = "PlutoniumEnergy_1.4.7.zip"; 
-      sha1 = "e0fa65f3d13ab54e09926ce361a1b415946931d1"; 
+      url = "https://mods.factorio.com/download/PlutoniumEnergy/64b564c85f126cf4d3e107ab";  
+      name = "PlutoniumEnergy_1.4.8.zip"; 
+      sha1 = "b898137f44c77b68d5920ecad14dd83e667d943b"; 
     };
     deps = [  ];
     optionalDeps = [ AtomicArtillery SchallUraniumProcessing SchallArtillery SchallRadioactiveWaste bobplates bobwarfare AtomicRocketScreenBurn IndustrialRevolution space-exploration ];
@@ -22499,9 +22499,9 @@ let
   zk-lib = modDrv {
     name = "ZwerOxotnik's multipurpose mod with 8 addons [zk-lib][WIP]"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/zk-lib/64b3c80197ae0026f88066dd";  
-      name = "zk-lib_0.13.5.zip"; 
-      sha1 = "ca20d836129099de7c4243bfa5a4158b11b5f3bc"; 
+      url = "https://mods.factorio.com/download/zk-lib/64b53430f30f7f884e93cadb";  
+      name = "zk-lib_0.13.6.zip"; 
+      sha1 = "abd4f13a0d5710ee2291f59632c8227bf34060b1"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -37979,9 +37979,9 @@ let
   erm_terran = modDrv {
     name = "ERM - Terran Units for Players"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/erm_terran/640eac03b1818dc70225f425";  
-      name = "erm_terran_1.16.0.zip"; 
-      sha1 = "6e5cfadfabce3d288cd9c7452ec73b17274f91d9"; 
+      url = "https://mods.factorio.com/download/erm_terran/64b451fcb05fef2439170c71";  
+      name = "erm_terran_1.16.1.zip"; 
+      sha1 = "aa002873957131d96b1d59a901554a0ef7f5e301"; 
     };
     deps = [ enemyracemanager Unit_Control ];
     optionalDeps = [  ];
@@ -38507,9 +38507,9 @@ let
   erm_redarmy = modDrv {
     name = "ERM - RedArmy"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/erm_redarmy/640eabe0841c98df9fd9c8b2";  
-      name = "erm_redarmy_1.7.0.zip"; 
-      sha1 = "b6df886074112c1d54b856485b461add5abee452"; 
+      url = "https://mods.factorio.com/download/erm_redarmy/64b436550e883abaa3c86631";  
+      name = "erm_redarmy_1.7.1.zip"; 
+      sha1 = "e767343b082516fe382a758bd06a1973739ab1e3"; 
     };
     deps = [ enemyracemanager ];
     optionalDeps = [  ];
@@ -52379,9 +52379,9 @@ let
   Configurable-Armour-Suits = modDrv {
     name = "Configurable Armour & Suits"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Configurable-Armour-Suits/64b160765823079465650dd4";  
-      name = "Configurable-Armour-Suits_1.2.0.zip"; 
-      sha1 = "04497662e475d882ee1b06aed3054d11dfd412a7"; 
+      url = "https://mods.factorio.com/download/Configurable-Armour-Suits/64b44450175ea95be9a175fc";  
+      name = "Configurable-Armour-Suits_1.2.1.zip"; 
+      sha1 = "c09bb287707ccfab68173869b1544c6ad8ae0c5c"; 
     };
     deps = [  ];
     optionalDeps = [ bobwarfare custom_power_armor_fix FactorioExtended-Equipment IndustrialRevolution3 Krastorio2 nullius PowerAndArmor Power-Armor-MK3 Power-Armour-Replacer RampantArsenal space-exploration ];
