@@ -5699,9 +5699,9 @@ let
   PlutoniumEnergy = modDrv {
     name = "Plutonium Energy"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/PlutoniumEnergy/64b564c85f126cf4d3e107ab";  
-      name = "PlutoniumEnergy_1.4.8.zip"; 
-      sha1 = "b898137f44c77b68d5920ecad14dd83e667d943b"; 
+      url = "https://mods.factorio.com/download/PlutoniumEnergy/64b59eff96afb9f6905c1adc";  
+      name = "PlutoniumEnergy_1.4.9.zip"; 
+      sha1 = "14d512270534b358b8f6e73da8258946c8405179"; 
     };
     deps = [  ];
     optionalDeps = [ AtomicArtillery SchallUraniumProcessing SchallArtillery SchallRadioactiveWaste bobplates bobwarfare AtomicRocketScreenBurn IndustrialRevolution space-exploration ];
@@ -11291,9 +11291,9 @@ let
   autobuild = modDrv {
     name = "Autobuild"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/autobuild/64aac879be16b9461c3ce6e6";  
-      name = "autobuild_0.5.7.zip"; 
-      sha1 = "ce77a5a70d5259c746c912eba1f8c840fd228aa0"; 
+      url = "https://mods.factorio.com/download/autobuild/64b6b5aa0f25e09ae0010183";  
+      name = "autobuild_0.5.8.zip"; 
+      sha1 = "f3ea4a2433beea715eb0e17d80bcc9ace0c26eed"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -43187,12 +43187,12 @@ let
   green-nightvision = modDrv {
     name = "green-nightvision"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/green-nightvision/6178114ce3fd3c83514634f0";  
-      name = "green-nightvision_0.0.1.zip"; 
-      sha1 = "c65dafff485e502b6e9b091eb7f6fa2867faa73a"; 
+      url = "https://mods.factorio.com/download/green-nightvision/64b5768721ae28730105db03";  
+      name = "green-nightvision_0.0.2.zip"; 
+      sha1 = "26d51e31fe098cd016e683f74632530bde1d098e"; 
     };
     deps = [  ];
-    optionalDeps = [  ];
+    optionalDeps = [ Krastorio2 ];
     recommendedDeps = []; 
  }; 
 
@@ -50015,9 +50015,9 @@ let
   Atomic_Overhaul = modDrv {
     name = "Atomic Overhaul"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Atomic_Overhaul/64afda37b3b601570b225dc7";  
-      name = "Atomic_Overhaul_1.3.19.zip"; 
-      sha1 = "7a2c8e9102d4ab85851885bee5a3073db3613b42"; 
+      url = "https://mods.factorio.com/download/Atomic_Overhaul/64b57905801bb441bf64c513";  
+      name = "Atomic_Overhaul_1.3.20.zip"; 
+      sha1 = "cbdbb521a382b757aba6d59118c1f8a894121afd"; 
     };
     deps = [  ];
     optionalDeps = [ RealisticReactors ];
@@ -50507,9 +50507,9 @@ let
   MatrixDJ96-Fixes = modDrv {
     name = "Fixes & Tweaks"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/MatrixDJ96-Fixes/64b1df636c6d872e072d02e5";  
-      name = "MatrixDJ96-Fixes_0.0.17.zip"; 
-      sha1 = "22c126017a8ff770d1f7528dd83bb5774b83ae11"; 
+      url = "https://mods.factorio.com/download/MatrixDJ96-Fixes/64b69b085f5d60b18a420a08";  
+      name = "MatrixDJ96-Fixes_0.0.18.zip"; 
+      sha1 = "7cdad4d45f29366742fa4c786dbbc366047ef283"; 
     };
     deps = [  ];
     optionalDeps = [ auto_manual_mode manual-inventory-sort manual-trains-at-temp-stops some-luaconsole train-log Fill4Me Fill4Me-fixed GUI_Unifyer TaskList Todo-List YARM ];
