@@ -5195,9 +5195,9 @@ let
   Bio_Industries = modDrv {
     name = "Bio Industries"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Bio_Industries/649f0ec7b80de3373e08e8f1";  
-      name = "Bio_Industries_1.1.17.zip"; 
-      sha1 = "4299ab2ab91941fb150e8b4543bc33796310ae98"; 
+      url = "https://mods.factorio.com/download/Bio_Industries/64b6cbeba0aae126296d7306";  
+      name = "Bio_Industries_1.1.18.zip"; 
+      sha1 = "ae44135ffb799c4a41e55576d1bb5a6dc6d91c5e"; 
     };
     deps = [ stdlib ];
     optionalDeps = [ alien-biomes auto-track-laying FARL Krastorio2 ];
@@ -13895,9 +13895,9 @@ let
   inventory-repair = modDrv {
     name = "Inventory Repair"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/inventory-repair/62edd9350333d5a9e20e1bc3";  
-      name = "inventory-repair_19.1.0.zip"; 
-      sha1 = "bf65658834929f5ebfdb0a4bf04a11efbedbb1a4"; 
+      url = "https://mods.factorio.com/download/inventory-repair/64b77fa697b2c50a3b269b70";  
+      name = "inventory-repair_19.1.1.zip"; 
+      sha1 = "ad0b3e9b180a04adff667007390d4f29e174e2d3"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -17423,12 +17423,12 @@ let
   Warptorio2_Language_Pack = modDrv {
     name = "Mining Space Industries II / Warptorio2 Language Pack"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Warptorio2_Language_Pack/64b09388a13593f8cc8fb858";  
-      name = "Warptorio2_Language_Pack_1.2.1.zip"; 
-      sha1 = "f02816f350dd020172ce3a39758a55b91b0edced"; 
+      url = "https://mods.factorio.com/download/Warptorio2_Language_Pack/64b7b84ee30af9c7f85776ee";  
+      name = "Warptorio2_Language_Pack_1.2.2.zip"; 
+      sha1 = "874e4f72f4c693f93407f1aeeaad2fc2775f958f"; 
     };
     deps = [  ];
-    optionalDeps = [ Mining-Space-Industries-II Rocket-Silo-Construction warptorio2 warptorio2_expansion planetorio_expansion_planets ArmouredBiters Cold_biters Explosive_biters Toxic_biters Big-Monsters factorio-crash-site Electric-Weapons ];
+    optionalDeps = [ Mining-Space-Industries-II Rocket-Silo-Construction warptorio2 warptorio2_expansion planetorio_expansion_planets Warp-Drive-Machine warptorio2_lootchest_locator ArmouredBiters Cold_biters Explosive_biters Toxic_biters Big-Monsters factorio-crash-site Electric-Weapons ];
     recommendedDeps = []; 
  }; 
 
@@ -24131,9 +24131,9 @@ let
   TheFloorIsLavaRevival = modDrv {
     name = "The Floor Is Lava Revival"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/TheFloorIsLavaRevival/63fcdedeba0447fe7917396f";  
-      name = "TheFloorIsLavaRevival_0.2.6.zip"; 
-      sha1 = "23cd59aed36866babf169184163720bdcfa37672"; 
+      url = "https://mods.factorio.com/download/TheFloorIsLavaRevival/64b73ccfffcfa2eb3418b8a2";  
+      name = "TheFloorIsLavaRevival_0.2.7.zip"; 
+      sha1 = "be3d6d437da969b9452a0d276b8b576a10dbce60"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -34451,9 +34451,9 @@ let
   apm_bob_rework_ldinc = modDrv {
     name = "APM bob's extra compability"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/apm_bob_rework_ldinc/64a532f6df657f168fea4ccd";  
-      name = "apm_bob_rework_ldinc_0.22.114.zip"; 
-      sha1 = "9f6c87f66f4cfa64ca2d6b92e3ab108edc229928"; 
+      url = "https://mods.factorio.com/download/apm_bob_rework_ldinc/64b6d180a0aae126296d7307";  
+      name = "apm_bob_rework_ldinc_0.22.115.zip"; 
+      sha1 = "56334fa4c4a7489c1f993353e9908efd90a245d0"; 
     };
     deps = [ apm_bob_rework_resource_pack_ldinc apm_resource_pack_ldinc apm_lib_ldinc apm_power_ldinc apm_nuclear_ldinc apm_energy_addon_ldinc bobassembly bobelectronics bobequipment bobinserters boblibrary boblogistics bobmining bobmodules bobores bobplates bobpower bobrevamp bobtech bobwarfare electricboiler deadlock-beltboxes-loaders ironclad-gunboat-and-mortar-turret flib Rampant Flare-Stack RampantArsenal ];
     optionalDeps = [ LogisticTrainNetwork ];
@@ -37545,7 +37545,7 @@ let
  }; 
 
   Samaels-TechTweaks = modDrv {
-    name = "Samaels-TechTweaks"; 
+    name = "Rocketry for Rocket-Silo, Fluidtrain at Endgame"; 
     src = fetchurl2 {
       url = "https://mods.factorio.com/download/Samaels-TechTweaks/61619e7f3d16492fe5da35d7";  
       name = "Samaels-TechTweaks_0.0.2.zip"; 
@@ -43955,9 +43955,9 @@ let
   fkplus = modDrv {
     name = "游戏内多属性加强"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/fkplus/647b44ee84ba7f06a483efa9";  
-      name = "fkplus_2.0.2.zip"; 
-      sha1 = "0304c2fec468e0b1bcdc2efecdc8e6e6a3236549"; 
+      url = "https://mods.factorio.com/download/fkplus/64b7d972ffcfa2eb3418b8a8";  
+      name = "fkplus_2.1.0.zip"; 
+      sha1 = "0e37aaf9e539c5f82f38ca37dd8f0c6da4d3b229"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -52751,9 +52751,9 @@ let
   BrassTacks = modDrv {
     name = "Brass Tacks"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/BrassTacks/64a8836ca2b3d5a71e6185e6";  
-      name = "BrassTacks_1.2.5.zip"; 
-      sha1 = "13de1e476fa67b192fa9dba0bbb622505679a3e7"; 
+      url = "https://mods.factorio.com/download/BrassTacks/64b6cb8a0f25e09ae0010184";  
+      name = "BrassTacks_1.2.6.zip"; 
+      sha1 = "fd6feaed277e74cbb312e6c81a66e7fc605028ad"; 
     };
     deps = [  ];
     optionalDeps = [ bzlead bzaluminum bzcarbon bztin bzfoundry bzzirconium bzlead space-exploration aai-industry aai-containers aai-signal-transmission deadlock-beltboxes-loaders DeadlockCrating vtk-deep-core-mining Krastorio2 FluidMustFlow Expensive_Fluid_Must_Flow_Recipes bzgold cargo-ships underwater-pipes IntermodalContainers FreightForwarding n248k ];
@@ -55415,9 +55415,9 @@ let
   IfNickel = modDrv {
     name = "If I Had A Nickel"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/IfNickel/64a883214d291886c8651899";  
-      name = "IfNickel_1.0.13.zip"; 
-      sha1 = "5764288255f9e447969dd08528517cb78b6865a7"; 
+      url = "https://mods.factorio.com/download/IfNickel/64b6cb9dffcfa2eb3418b88f";  
+      name = "IfNickel_1.0.14.zip"; 
+      sha1 = "4ee3072d65c8e4312ad142d710984f5491051232"; 
     };
     deps = [  ];
     optionalDeps = [ bzlead bzaluminum bzcarbon bzfoundry bztin bztungsten BrassTacks bzgold space-exploration aai-industry deadlock-beltboxes-loaders DeadlockCrating Krastorio2 FluidMustFlow Expensive_Fluid_Must_Flow_Recipes n248k ];
@@ -61091,9 +61091,9 @@ let
   GhostOnWater = modDrv {
     name = "Ghost On Water"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/GhostOnWater/642bc07d0f833c0b13783cc6";  
-      name = "GhostOnWater_0.11.5.zip"; 
-      sha1 = "f2b76687c0c05b0285c6b3e251a97e9ec97a3c7c"; 
+      url = "https://mods.factorio.com/download/GhostOnWater/64b7997e97b2c50a3b269b71";  
+      name = "GhostOnWater_0.11.6.zip"; 
+      sha1 = "b99b1502721bcc67d6d9dd24e8f76f1bb9f8ef1e"; 
     };
     deps = [ stdlib ];
     optionalDeps = [ LandfillPainting space-exploration kry-inserters WideChests ];
