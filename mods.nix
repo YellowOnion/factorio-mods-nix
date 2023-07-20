@@ -22499,9 +22499,9 @@ let
   zk-lib = modDrv {
     name = "ZwerOxotnik's multipurpose mod with 8 addons [zk-lib][WIP]"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/zk-lib/64b53430f30f7f884e93cadb";  
-      name = "zk-lib_0.13.6.zip"; 
-      sha1 = "abd4f13a0d5710ee2291f59632c8227bf34060b1"; 
+      url = "https://mods.factorio.com/download/zk-lib/64b857a6c5086e1443db6d67";  
+      name = "zk-lib_0.13.9.zip"; 
+      sha1 = "e388eee8767ad8c7c59abdb157b88922fcec3abf"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -25679,9 +25679,9 @@ let
   Kux-CoreLib = modDrv {
     name = "Kuxynator's Core Library"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Kux-CoreLib/64b085d1806afb95267c2fc4";  
-      name = "Kux-CoreLib_2.7.1.zip"; 
-      sha1 = "4fe2cd69280720ed3a0c4a320ca108d7b43dcff3"; 
+      url = "https://mods.factorio.com/download/Kux-CoreLib/64b8c3d64b7272dde3f14734";  
+      name = "Kux-CoreLib_2.7.2.zip"; 
+      sha1 = "37b6c73fc16cd9a1fcab52bea5efb1ef1126cfb2"; 
     };
     deps = [  ];
     optionalDeps = [  ];
