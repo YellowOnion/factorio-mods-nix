@@ -695,9 +695,9 @@ let
   Peppermint_Mining = modDrv {
     name = "Peppermint Mining"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Peppermint_Mining/64a9acb5775ab9da2c47344c";  
-      name = "Peppermint_Mining_2.2.10.zip"; 
-      sha1 = "07e23c94d96ddaf9ce53e46042a400c77902d076"; 
+      url = "https://mods.factorio.com/download/Peppermint_Mining/64bbf64bfb161fbe37e4d8d4";  
+      name = "Peppermint_Mining_2.2.11.zip"; 
+      sha1 = "89024bc774f24c7520c51b5dd9347d19ca1f45b8"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -12803,9 +12803,9 @@ let
   Rocket-Silo-Construction = modDrv {
     name = "Rocket-Silo Construction"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Rocket-Silo-Construction/645b55db789acea2372e2aae";  
-      name = "Rocket-Silo-Construction_1.3.4.zip"; 
-      sha1 = "2d88a77dd74786476a1983b82dd3b25699a45f47"; 
+      url = "https://mods.factorio.com/download/Rocket-Silo-Construction/64bbc09487d8855d99f2bced";  
+      name = "Rocket-Silo-Construction_1.3.5.zip"; 
+      sha1 = "eafa91171258b6aa2e92d3f5f2678be729a08b48"; 
     };
     deps = [  ];
     optionalDeps = [ space-exploration IndustrialRevolution3 ];
@@ -16955,9 +16955,9 @@ let
   StoneToOre = modDrv {
     name = "StoneToOre - transform stone to"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/StoneToOre/64b131035823079465650dd2";  
-      name = "StoneToOre_0.0.52.zip"; 
-      sha1 = "7302179edac1a58b8dca96925f7f78dd42ad675b"; 
+      url = "https://mods.factorio.com/download/StoneToOre/64bbc9b92afbac4be7283ca6";  
+      name = "StoneToOre_0.0.53.zip"; 
+      sha1 = "1f31c8f4b0eb4c646bbb5ab148e0e9e5926e50e2"; 
     };
     deps = [  ];
     optionalDeps = [  ];
