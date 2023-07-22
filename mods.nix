@@ -1247,9 +1247,9 @@ let
   ReStack = modDrv {
     name = "ReStack"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/ReStack/6056f7940a3e1d9be4c10a2b";  
-      name = "ReStack_0.7.1.zip"; 
-      sha1 = "3ce3b7a8d1e4a0a9840da16cdcfb513203fe7a01"; 
+      url = "https://mods.factorio.com/download/ReStack/64ba2e66b91e2c89c6bd8026";  
+      name = "ReStack_0.7.2.zip"; 
+      sha1 = "c866831ef3f64f6dd160e163af2a87371fa5aae7"; 
     };
     deps = [ flib ];
     optionalDeps = [  ];
@@ -9335,9 +9335,9 @@ let
   space-exploration = modDrv {
     name = "Space Exploration"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/space-exploration/646bc69eda54b685126d6a95";  
-      name = "space-exploration_0.6.108.zip"; 
-      sha1 = "a3c00a8927536d72357c91425dcfd43eb9e5adf7"; 
+      url = "https://mods.factorio.com/download/space-exploration/64bb588c2c77f19714ea52de";  
+      name = "space-exploration_0.6.109.zip"; 
+      sha1 = "7689e908edfe4d1852099c7b748246a1bd698ec8"; 
     };
     deps = [ aai-containers aai-industry alien-biomes jetpack robot_attrition shield-projector space-exploration-graphics space-exploration-graphics-2 space-exploration-graphics-3 space-exploration-graphics-4 space-exploration-graphics-5 space-exploration-menu-simulations space-exploration-postprocess informatron aai-signal-transmission simhelper ];
     optionalDeps = [ bullet-trails grappling-gun combat-mechanics-overhaul equipment-gantry ];
@@ -17423,9 +17423,9 @@ let
   Warptorio2_Language_Pack = modDrv {
     name = "Mining Space Industries II / Warptorio2 Language Pack"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Warptorio2_Language_Pack/64b7b84ee30af9c7f85776ee";  
-      name = "Warptorio2_Language_Pack_1.2.2.zip"; 
-      sha1 = "874e4f72f4c693f93407f1aeeaad2fc2775f958f"; 
+      url = "https://mods.factorio.com/download/Warptorio2_Language_Pack/64baf9d7873f625e9173097b";  
+      name = "Warptorio2_Language_Pack_1.2.3.zip"; 
+      sha1 = "657754a92a4489bf1ac622f449681f61ed4173af"; 
     };
     deps = [  ];
     optionalDeps = [ Mining-Space-Industries-II Rocket-Silo-Construction warptorio2 warptorio2_expansion planetorio_expansion_planets Warp-Drive-Machine warptorio2_lootchest_locator ArmouredBiters Cold_biters Explosive_biters Toxic_biters Big-Monsters factorio-crash-site Electric-Weapons ];
@@ -34451,9 +34451,9 @@ let
   apm_bob_rework_ldinc = modDrv {
     name = "APM bob's extra compability"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/apm_bob_rework_ldinc/64b6d180a0aae126296d7307";  
-      name = "apm_bob_rework_ldinc_0.22.115.zip"; 
-      sha1 = "56334fa4c4a7489c1f993353e9908efd90a245d0"; 
+      url = "https://mods.factorio.com/download/apm_bob_rework_ldinc/64baa2a15373ccd1361fb7d0";  
+      name = "apm_bob_rework_ldinc_0.22.116.zip"; 
+      sha1 = "372158af14c95178ee8f9b728308499d0772fe69"; 
     };
     deps = [ apm_bob_rework_resource_pack_ldinc apm_resource_pack_ldinc apm_lib_ldinc apm_power_ldinc apm_nuclear_ldinc apm_energy_addon_ldinc bobassembly bobelectronics bobequipment bobinserters boblibrary boblogistics bobmining bobmodules bobores bobplates bobpower bobrevamp bobtech bobwarfare electricboiler deadlock-beltboxes-loaders ironclad-gunboat-and-mortar-turret flib Rampant Flare-Stack RampantArsenal ];
     optionalDeps = [ LogisticTrainNetwork ];
@@ -37619,9 +37619,9 @@ let
   SE-locale = modDrv {
     name = "SE-locale太空探索 中文语言包"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/SE-locale/6480f98b83e94e339efbdac1";  
-      name = "SE-locale_0.1.20.zip"; 
-      sha1 = "6aea63acda32ef40ef47701629f9648af396b0bb"; 
+      url = "https://mods.factorio.com/download/SE-locale/64bb8914873f625e91730983";  
+      name = "SE-locale_0.1.21.zip"; 
+      sha1 = "e576cc4b8bfbb8c349dce9dbcacfa62ee026cadf"; 
     };
     deps = [  ];
     optionalDeps = [ space-exploration deadlock-beltboxes-loaders Deadlock-SE-bridge aai-signal-transmission space-exploration-postprocess jetpack aai-loaders ];
@@ -42239,9 +42239,9 @@ let
   BlueprintSignals_continued = modDrv {
     name = "Blueprint Signals (continued)"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/BlueprintSignals_continued/648bad1c64f41ce15fccd283";  
-      name = "BlueprintSignals_continued_0.4.2.zip"; 
-      sha1 = "719251f67a5a61e841e7458cf3a222a98f7bb93c"; 
+      url = "https://mods.factorio.com/download/BlueprintSignals_continued/64bb17ec87d8855d99f2bce5";  
+      name = "BlueprintSignals_continued_0.4.3.zip"; 
+      sha1 = "2c20d3ec078a1444e76a5f374aa38b805c6c96ca"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -43439,12 +43439,12 @@ let
   robot_attrition_NO = modDrv {
     name = "Robot Attrition?NO!"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/robot_attrition_NO/645464d7436ba791ea466ad9";  
-      name = "robot_attrition_NO_1.1.6.zip"; 
-      sha1 = "f35825a28868e271248152ce9abcbea34c724e55"; 
+      url = "https://mods.factorio.com/download/robot_attrition_NO/64bb0cbad846910ae0e021fc";  
+      name = "robot_attrition_NO_1.1.7.zip"; 
+      sha1 = "3c159e52bb0058c3dd181866ba0890244e76305a"; 
     };
-    deps = [ space-exploration ];
-    optionalDeps = [ robot_attrition informatron ];
+    deps = [ robot_attrition ];
+    optionalDeps = [ informatron space-exploration ];
     recommendedDeps = []; 
  }; 
 
@@ -51239,9 +51239,9 @@ let
   LinkedChest3 = modDrv {
     name = "LinkedChest3"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/LinkedChest3/64b2c65e1e92252c63aa9bea";  
-      name = "LinkedChest3_1.3.23.zip"; 
-      sha1 = "30fb6d1251c7cea826a49f3d7674fb68b2967736"; 
+      url = "https://mods.factorio.com/download/LinkedChest3/64ba72bef6d8b6755d099c62";  
+      name = "LinkedChest3_1.3.25.zip"; 
+      sha1 = "88683345b52644bfc9033dd34dc65fdbf8c3d2e1"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -51683,9 +51683,9 @@ let
   tanks_for_bob_fork = modDrv {
     name = "Tanks! for Bob!!"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/tanks_for_bob_fork/64aed64baea07c919cee48ba";  
-      name = "tanks_for_bob_fork_1.8.84.zip"; 
-      sha1 = "362dd933427794be3e18246b8e7d260cd8ec601b"; 
+      url = "https://mods.factorio.com/download/tanks_for_bob_fork/64bb5c6d3302c5cea3649777";  
+      name = "tanks_for_bob_fork_1.8.88.zip"; 
+      sha1 = "9389a73a0ddbced32c24f14d1905dc1c88f8c0e2"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -55415,9 +55415,9 @@ let
   IfNickel = modDrv {
     name = "If I Had A Nickel"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/IfNickel/64b6cb9dffcfa2eb3418b88f";  
-      name = "IfNickel_1.0.14.zip"; 
-      sha1 = "4ee3072d65c8e4312ad142d710984f5491051232"; 
+      url = "https://mods.factorio.com/download/IfNickel/64b98cfebee60edd07f780e7";  
+      name = "IfNickel_1.0.15.zip"; 
+      sha1 = "db6106ed30ede6f6c66e7dbf8d4da75bc3ddbde9"; 
     };
     deps = [  ];
     optionalDeps = [ bzlead bzaluminum bzcarbon bzfoundry bztin bztungsten BrassTacks bzgold space-exploration aai-industry deadlock-beltboxes-loaders DeadlockCrating Krastorio2 FluidMustFlow Expensive_Fluid_Must_Flow_Recipes n248k ];
@@ -57911,9 +57911,9 @@ let
   bp100 = modDrv {
     name = "Staged Blueprint Planning"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/bp100/64a62a426e5c9baabae9ee15";  
-      name = "bp100_0.22.7.zip"; 
-      sha1 = "5b4a4801d9f42350f909a7f2ac184402ba76f515"; 
+      url = "https://mods.factorio.com/download/bp100/64b9f2f7c62249a9214e9d9f";  
+      name = "bp100_0.22.8.zip"; 
+      sha1 = "14a9dc373395e6c116161844d81ffe9fe6ac3c19"; 
     };
     deps = [  ];
     optionalDeps = [ PickerDollies ];
