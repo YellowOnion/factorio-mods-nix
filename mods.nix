@@ -107,9 +107,9 @@ let
   scattergun_turret = modDrv {
     name = "Modular Turrets"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/scattergun_turret/643d640190652ff3625de65b";  
-      name = "scattergun_turret_7.3.2.zip"; 
-      sha1 = "13ebd4f5d95c112998803bc32f1ca43794d292eb"; 
+      url = "https://mods.factorio.com/download/scattergun_turret/64bc08df686b03ab63432586";  
+      name = "scattergun_turret_7.4.0.zip"; 
+      sha1 = "392c5657ed4313135afe9770112eec83f347c492"; 
     };
     deps = [  ];
     optionalDeps = [ Krastorio2 IndustrialRevolution3 ];
@@ -6683,9 +6683,9 @@ let
   Clowns-Science = modDrv {
     name = "MadClown01's Science"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Clowns-Science/643b762df86e3db6b5007ce0";  
-      name = "Clowns-Science_1.1.4.zip"; 
-      sha1 = "a07cae6e155e8c51d1809aa11381b626f6baa6f6"; 
+      url = "https://mods.factorio.com/download/Clowns-Science/64bce5ad9cf09361dd9a9842";  
+      name = "Clowns-Science_1.1.5.zip"; 
+      sha1 = "89464e0edd3504a350886b0af1aaa9b9b210f767"; 
     };
     deps = [  ];
     optionalDeps = [ angelsrefining angelspetrochem angelssmelting bobplates bobtech Clowns-Processing omnimatter_science ];
@@ -6755,9 +6755,9 @@ let
   Clowns-AngelBob-Nuclear = modDrv {
     name = "MadClown01's AngelBob Nuclear Extension"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Clowns-AngelBob-Nuclear/643b766215a3072fd3243267";  
-      name = "Clowns-AngelBob-Nuclear_1.1.20.zip"; 
-      sha1 = "5a87959751a6f5adeaede46fad5637961fda9dbd"; 
+      url = "https://mods.factorio.com/download/Clowns-AngelBob-Nuclear/64bce595ca9e9d7b6dad3461";  
+      name = "Clowns-AngelBob-Nuclear_1.1.21.zip"; 
+      sha1 = "19e1e766024fad60b548bf0508e7fbe34363e15f"; 
     };
     deps = [ angelsrefining Clowns-Nuclear Clowns-Processing ];
     optionalDeps = [  ];
@@ -9335,9 +9335,9 @@ let
   space-exploration = modDrv {
     name = "Space Exploration"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/space-exploration/64bb588c2c77f19714ea52de";  
-      name = "space-exploration_0.6.109.zip"; 
-      sha1 = "7689e908edfe4d1852099c7b748246a1bd698ec8"; 
+      url = "https://mods.factorio.com/download/space-exploration/64bc735d2968b5e24e31ae12";  
+      name = "space-exploration_0.6.111.zip"; 
+      sha1 = "50a4d934d97967a0ba8c30fb2b279e55dac05317"; 
     };
     deps = [ aai-containers aai-industry alien-biomes jetpack robot_attrition shield-projector space-exploration-graphics space-exploration-graphics-2 space-exploration-graphics-3 space-exploration-graphics-4 space-exploration-graphics-5 space-exploration-menu-simulations space-exploration-postprocess informatron aai-signal-transmission simhelper ];
     optionalDeps = [ bullet-trails grappling-gun combat-mechanics-overhaul equipment-gantry ];
@@ -15131,9 +15131,9 @@ let
   LTN_Language_Pack = modDrv {
     name = "LTN Language Pack"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/LTN_Language_Pack/649b10e95c50eee2b00898da";  
-      name = "LTN_Language_Pack_1.11.5.zip"; 
-      sha1 = "498db76674a5720a51a4fd5d7846f8b130d1f069"; 
+      url = "https://mods.factorio.com/download/LTN_Language_Pack/64bc5e5c41a6a7c326f89d5d";  
+      name = "LTN_Language_Pack_1.11.6.zip"; 
+      sha1 = "210e585ebf6d9c1aec68556963f49777c08f8f81"; 
     };
     deps = [ LogisticTrainNetwork ];
     optionalDeps = [ ltn-cleanup LTN_Combinator LTN_Combinator_Modernized LTN_Content_Reader LtnManager ];
@@ -17003,12 +17003,12 @@ let
   IndustrialRevolution_Language_Pack = modDrv {
     name = "Industrial Revolution Language Pack"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/IndustrialRevolution_Language_Pack/649b123c98d080ac8f1fafdf";  
-      name = "IndustrialRevolution_Language_Pack_3.0.11.zip"; 
-      sha1 = "40f32af2edbc7b8e5b218a9c528e51dad86d4375"; 
+      url = "https://mods.factorio.com/download/IndustrialRevolution_Language_Pack/64bc5bd02968b5e24e31ae11";  
+      name = "IndustrialRevolution_Language_Pack_3.1.0.zip"; 
+      sha1 = "1a15c3d737e2ec20a965c8c49df28107f77365f6"; 
     };
     deps = [  ];
-    optionalDeps = [ IndustrialRevolution3 ];
+    optionalDeps = [ IndustrialRevolution3 IndustrialRevolution3LoadersStacking IndustrialRevolution3SpaceMining ];
     recommendedDeps = []; 
  }; 
 
