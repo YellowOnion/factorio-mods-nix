@@ -20111,9 +20111,9 @@ let
   baron-library = modDrv {
     name = "Baron Library"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/baron-library/64a269a579492731e4078ec2";  
-      name = "baron-library_1.1.24.zip"; 
-      sha1 = "0bb77c012fc746ce1c9b91d6f08f5a0a2b14790b"; 
+      url = "https://mods.factorio.com/download/baron-library/64bdc51371a6c50d5b0a88a0";  
+      name = "baron-library_1.1.25.zip"; 
+      sha1 = "6f61543d3b4272d15c316e1fe213e104007a77d4"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -21767,9 +21767,9 @@ let
   baron-sludge = modDrv {
     name = "Baron Sludge"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/baron-sludge/6312c985c296c91393c7c9c8";  
-      name = "baron-sludge_1.1.10.zip"; 
-      sha1 = "58b5436d2e878bc03aa0241df2f7baef1ba2d4b6"; 
+      url = "https://mods.factorio.com/download/baron-sludge/64bdc5391b5fd9d9ea254373";  
+      name = "baron-sludge_1.1.11.zip"; 
+      sha1 = "8c60a5305a293d6e3cd319b74c026ec9417993f1"; 
     };
     deps = [ baron-library ];
     optionalDeps = [ baron-factions ];
@@ -50015,9 +50015,9 @@ let
   Atomic_Overhaul = modDrv {
     name = "Atomic Overhaul"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Atomic_Overhaul/64b57905801bb441bf64c513";  
-      name = "Atomic_Overhaul_1.3.20.zip"; 
-      sha1 = "cbdbb521a382b757aba6d59118c1f8a894121afd"; 
+      url = "https://mods.factorio.com/download/Atomic_Overhaul/64bd6caf3629cd5bec500137";  
+      name = "Atomic_Overhaul_1.3.21.zip"; 
+      sha1 = "183d5552aecd236587f3d421b0f347ec343fd576"; 
     };
     deps = [  ];
     optionalDeps = [ RealisticReactors ];
@@ -51683,9 +51683,9 @@ let
   tanks_for_bob_fork = modDrv {
     name = "Tanks! for Bob!!"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/tanks_for_bob_fork/64bb5c6d3302c5cea3649777";  
-      name = "tanks_for_bob_fork_1.8.88.zip"; 
-      sha1 = "9389a73a0ddbced32c24f14d1905dc1c88f8c0e2"; 
+      url = "https://mods.factorio.com/download/tanks_for_bob_fork/64bdad9c1e4371c6a5d25059";  
+      name = "tanks_for_bob_fork_1.8.89.zip"; 
+      sha1 = "ba3f9d978342ae2f129c14eb1b557cbd8121aa37"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -56447,9 +56447,9 @@ let
   crafting-efficiency-2 = modDrv {
     name = "Crafting Efficiency"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/crafting-efficiency-2/63ee55f46015c47534ab934a";  
-      name = "crafting-efficiency-2_0.1.2.zip"; 
-      sha1 = "9d9a4ba78515119ea603e88ed91cdd031e11670e"; 
+      url = "https://mods.factorio.com/download/crafting-efficiency-2/64bd99111e4371c6a5d25058";  
+      name = "crafting-efficiency-2_0.1.3.zip"; 
+      sha1 = "87be90d5b3c391382abf0b0d44835a2a662b8dd9"; 
     };
     deps = [  ];
     optionalDeps = [ space-exploration-postprocess ];
