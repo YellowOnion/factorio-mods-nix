@@ -27047,9 +27047,9 @@ let
   LogisticRequestManager = modDrv {
     name = "Logistic Request Manager (continued)"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/LogisticRequestManager/64907db4054ecef86da56e28";  
-      name = "LogisticRequestManager_1.1.29.zip"; 
-      sha1 = "948586beb7a030d6c3589c2250d7f4d59c13de28"; 
+      url = "https://mods.factorio.com/download/LogisticRequestManager/64bec53ee42c4533b88546c7";  
+      name = "LogisticRequestManager_1.1.30.zip"; 
+      sha1 = "27a59d0ed79c70d4172df61f52e4fca8c0740f28"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -38483,9 +38483,9 @@ let
   SmallFurnaceWipMod = modDrv {
     name = "Small Furnace"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/SmallFurnaceWipMod/60e97567acfa50d9bc1a493c";  
-      name = "SmallFurnaceWipMod_1.0.12.zip"; 
-      sha1 = "1797e356b3b89bfaa2b3b61fa776f51c391c9961"; 
+      url = "https://mods.factorio.com/download/SmallFurnaceWipMod/64bfe5e109fe0a8b76ca688b";  
+      name = "SmallFurnaceWipMod_1.0.13.zip"; 
+      sha1 = "6d8a4fe667013faa2b11998b4e8c7bf176514c39"; 
     };
     deps = [  ];
     optionalDeps = [ boblogistics bobplates FactorioExtended-Plus-Transport deadlock-beltboxes-loaders krastorio2 Random_Utilities leighzeruraniuminnovations ];
@@ -43775,9 +43775,9 @@ let
   mining-patch-planner = modDrv {
     name = "Mining patch planner"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/mining-patch-planner/64abf712125be5e35216240e";  
-      name = "mining-patch-planner_1.5.1.zip"; 
-      sha1 = "bfd9efb243ecbd72219fbd2f4dd0ebe99c394138"; 
+      url = "https://mods.factorio.com/download/mining-patch-planner/64bfdb8309fe0a8b76ca688a";  
+      name = "mining-patch-planner_1.5.2.zip"; 
+      sha1 = "e06c6989b2f53107461f9c83ad8203bbeb547742"; 
     };
     deps = [  ];
     optionalDeps = [  ];
