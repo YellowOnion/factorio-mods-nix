@@ -59,9 +59,9 @@ let
   pyfusionenergy = modDrv {
     name = "Pyanodons Fusion Energy"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/pyfusionenergy/6422a5b54c790c3db823746f";  
-      name = "pyfusionenergy_2.0.5.zip"; 
-      sha1 = "988a18a31144403c264e5a2d90ca40e23934acba"; 
+      url = "https://mods.factorio.com/download/pyfusionenergy/64c0ac20d1c8e64cb26d8fcb";  
+      name = "pyfusionenergy_2.0.6.zip"; 
+      sha1 = "4ec8aef5317cad2ebbfd9c5d18588a03f8362155"; 
     };
     deps = [ pycoalprocessing pyfusionenergygraphics ];
     optionalDeps = [  ];
@@ -323,9 +323,9 @@ let
   pycoalprocessing = modDrv {
     name = "Pyanodons Coal Processing"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/pycoalprocessing/643bb258315f2521dd1bd54b";  
-      name = "pycoalprocessing_2.1.2.zip"; 
-      sha1 = "54ecabbde50048561b29298983b643e9ed0bddba"; 
+      url = "https://mods.factorio.com/download/pycoalprocessing/64c0abe958003f7a060c78bc";  
+      name = "pycoalprocessing_2.1.3.zip"; 
+      sha1 = "f9fb5ac40c425aeeb22415011741ff1a2c4c84cb"; 
     };
     deps = [ stdlib pycoalprocessinggraphics pypostprocessing ];
     optionalDeps = [  ];
@@ -6467,9 +6467,9 @@ let
   SmallRobots = modDrv {
     name = "Small Robots - Just make the robots a bit smaller."; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/SmallRobots/6415ebccadee3de84a130d4e";  
-      name = "SmallRobots_1.1.6.zip"; 
-      sha1 = "05f71b7b5256e370eab9ddb7ae49473b41fe5378"; 
+      url = "https://mods.factorio.com/download/SmallRobots/64c04b47b8461c2dcbfbcdc8";  
+      name = "SmallRobots_1.1.7.zip"; 
+      sha1 = "2f6117b9969e5753418016157ac6d51f960b370e"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -6923,9 +6923,9 @@ let
   pyhightech = modDrv {
     name = "Pyanodons HighTech"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/pyhightech/6422a661ef38ae2b2369bb26";  
-      name = "pyhightech_2.0.8.zip"; 
-      sha1 = "227c070b2b7d3c31c9dc5ff508a7eba52a777716"; 
+      url = "https://mods.factorio.com/download/pyhightech/64c0ac57b8461c2dcbfbcdcb";  
+      name = "pyhightech_2.0.9.zip"; 
+      sha1 = "98ce8621d77c2e049bb186ccf131135b923e0d51"; 
     };
     deps = [ pyfusionenergy pyhightechgraphics pyindustry ];
     optionalDeps = [ pyrawores ];
@@ -10139,9 +10139,9 @@ let
   pyrawores = modDrv {
     name = "Pyanodons Raw Ores"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/pyrawores/6422a68216eba16778bbf625";  
-      name = "pyrawores_2.4.8.zip"; 
-      sha1 = "79a840d8819de5c972aa457737bf83fe617cc4df"; 
+      url = "https://mods.factorio.com/download/pyrawores/64c0ac4c58003f7a060c78bd";  
+      name = "pyrawores_2.4.9.zip"; 
+      sha1 = "04bcfd9574f9ea7745fb72802df0dca2024ceb0a"; 
     };
     deps = [ pycoalprocessing pyindustry pyraworesgraphics ];
     optionalDeps = [  ];
@@ -12215,9 +12215,9 @@ let
   pypetroleumhandling = modDrv {
     name = "Pyanodons Petroleum Handling"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/pypetroleumhandling/643b901596d348a914496af2";  
-      name = "pypetroleumhandling_2.1.8.zip"; 
-      sha1 = "964094c5a4546a47b4b88380f381b8a579b0e3db"; 
+      url = "https://mods.factorio.com/download/pypetroleumhandling/64c0ac2d09fe0a8b76ca68a3";  
+      name = "pypetroleumhandling_2.1.9.zip"; 
+      sha1 = "d13de286b4c417f7285d7e0beef4283114991a2e"; 
     };
     deps = [ pyfusionenergy pyindustry pypetroleumhandlinggraphics ];
     optionalDeps = [  ];
@@ -14063,9 +14063,9 @@ let
   factoryplanner = modDrv {
     name = "Factory Planner"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/factoryplanner/648758fb6c5814d5a999dd2f";  
-      name = "factoryplanner_1.1.70.zip"; 
-      sha1 = "22c8d5de2c10bf22ceccca388cbcf928612c4e5c"; 
+      url = "https://mods.factorio.com/download/factoryplanner/64c041d324be788b4301474f";  
+      name = "factoryplanner_1.1.71.zip"; 
+      sha1 = "bb800757c136373d00f57b954843d43417e1c878"; 
     };
     deps = [ flib ];
     optionalDeps = [ RecipeBook ];
@@ -16619,9 +16619,9 @@ let
   pyalienlife = modDrv {
     name = "Pyanodons AlienLife"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/pyalienlife/64966719b6e17cf455ad070e";  
-      name = "pyalienlife_2.1.5.zip"; 
-      sha1 = "796da3c6fc9854d5ba6d44f53b46f6f2957259db"; 
+      url = "https://mods.factorio.com/download/pyalienlife/64c0ac6c613d6903a86d6a0a";  
+      name = "pyalienlife_2.1.6.zip"; 
+      sha1 = "4b1a83ba8d5a6cdb9e532260354b940235c2f898"; 
     };
     deps = [ pyalienlifegraphics pyalienlifegraphics2 pyalienlifegraphics3 pyrawores pypetroleumhandling ];
     optionalDeps = [  ];
@@ -17111,9 +17111,9 @@ let
   pyalienlifegraphics3 = modDrv {
     name = "Pyanodons AlienLife Graphics 3"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/pyalienlifegraphics3/649669115d8665c6d438cc8f";  
-      name = "pyalienlifegraphics3_2.0.5.zip"; 
-      sha1 = "6f5d4c8e6b2f0bd22405a371ab0760b838b4c880"; 
+      url = "https://mods.factorio.com/download/pyalienlifegraphics3/64c0a0d8d1c8e64cb26d8fca";  
+      name = "pyalienlifegraphics3_2.0.6.zip"; 
+      sha1 = "bf8139e9f41967c1ff7e5c8600d8f54d6b7a095d"; 
     };
     deps = [ pyalienlife ];
     optionalDeps = [  ];
@@ -17291,9 +17291,9 @@ let
   pyalienlifegraphics2 = modDrv {
     name = "Pyanodons AlienLife Graphics 2"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/pyalienlifegraphics2/649668dba30d4fd672c62401";  
-      name = "pyalienlifegraphics2_2.0.6.zip"; 
-      sha1 = "139a1346f7bd8568e255be3fcc449aa9a5892aae"; 
+      url = "https://mods.factorio.com/download/pyalienlifegraphics2/64c0ac9f6d236770ae110776";  
+      name = "pyalienlifegraphics2_2.0.7.zip"; 
+      sha1 = "6db1c5a266f68b8ba0bc25763fcc70c2d7a8b96d"; 
     };
     deps = [ pyalienlife ];
     optionalDeps = [  ];
@@ -17891,9 +17891,9 @@ let
   pycoalprocessinggraphics = modDrv {
     name = "Pyanodons Coal Processing Graphics"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/pycoalprocessinggraphics/643b905898df53db7d3c7602";  
-      name = "pycoalprocessinggraphics_2.0.6.zip"; 
-      sha1 = "b32a840f28fb5f21612c5711f79e43c5a509869a"; 
+      url = "https://mods.factorio.com/download/pycoalprocessinggraphics/64c0a0b7b8461c2dcbfbcdc9";  
+      name = "pycoalprocessinggraphics_2.0.7.zip"; 
+      sha1 = "ca0771eb71f8194004a36f97cf506c347188dbb5"; 
     };
     deps = [ pycoalprocessing ];
     optionalDeps = [  ];
@@ -18011,9 +18011,9 @@ let
   pyalienlifegraphics = modDrv {
     name = "Pyanodons AlienLife Graphics 1"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/pyalienlifegraphics/6422a7aae6606fbdcf71ae04";  
-      name = "pyalienlifegraphics_2.0.3.zip"; 
-      sha1 = "df873ba69634b76e3cd4499fab86a02fe8d0682f"; 
+      url = "https://mods.factorio.com/download/pyalienlifegraphics/64c0a04dd1c8e64cb26d8fc9";  
+      name = "pyalienlifegraphics_2.0.4.zip"; 
+      sha1 = "04c5a7cd669fdc838461f42c930332455cb0bd7f"; 
     };
     deps = [ pyalienlife ];
     optionalDeps = [  ];
@@ -22967,9 +22967,9 @@ let
   Blueprintable-Plantable-Trees = modDrv {
     name = "Plantable & Printable Trees"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Blueprintable-Plantable-Trees/64669162aff5c1c5cd3480ad";  
-      name = "Blueprintable-Plantable-Trees_1.2.0.zip"; 
-      sha1 = "828157454950f6ca8f7c1c2bf9d72852da5e5303"; 
+      url = "https://mods.factorio.com/download/Blueprintable-Plantable-Trees/64c0ff2ac71c39014d0c9a62";  
+      name = "Blueprintable-Plantable-Trees_1.2.1.zip"; 
+      sha1 = "6f1753d501f0f5aaeffaba37696a7a0e852e137e"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -34451,9 +34451,9 @@ let
   apm_bob_rework_ldinc = modDrv {
     name = "APM bob's extra compability"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/apm_bob_rework_ldinc/64baa2a15373ccd1361fb7d0";  
-      name = "apm_bob_rework_ldinc_0.22.116.zip"; 
-      sha1 = "372158af14c95178ee8f9b728308499d0772fe69"; 
+      url = "https://mods.factorio.com/download/apm_bob_rework_ldinc/64c1468eee1c835f3edb0f25";  
+      name = "apm_bob_rework_ldinc_0.22.119.zip"; 
+      sha1 = "fea7376fdaf0b8977ac1cc7d4b883f8e0a2c8251"; 
     };
     deps = [ apm_bob_rework_resource_pack_ldinc apm_resource_pack_ldinc apm_lib_ldinc apm_power_ldinc apm_nuclear_ldinc apm_energy_addon_ldinc bobassembly bobelectronics bobequipment bobinserters boblibrary boblogistics bobmining bobmodules bobores bobplates bobpower bobrevamp bobtech bobwarfare electricboiler deadlock-beltboxes-loaders ironclad-gunboat-and-mortar-turret flib Rampant Flare-Stack RampantArsenal ];
     optionalDeps = [ LogisticTrainNetwork ];
@@ -60527,9 +60527,9 @@ let
   pyalternativeenergy = modDrv {
     name = "Pyanodons Alternative Energy"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/pyalternativeenergy/649cf1b84dfd046c3446c2d5";  
-      name = "pyalternativeenergy_1.2.3.zip"; 
-      sha1 = "f2e38a8f0240541928263e73986be5510d316820"; 
+      url = "https://mods.factorio.com/download/pyalternativeenergy/64c0abf8613d6903a86d6a09";  
+      name = "pyalternativeenergy_1.2.4.zip"; 
+      sha1 = "54507b1905d327008efd6a09358d030607a5c45c"; 
     };
     deps = [ pyalienlife pyhightech pyalternativeenergygraphics ];
     optionalDeps = [  ];
@@ -60551,9 +60551,9 @@ let
   pypostprocessing = modDrv {
     name = "Pyanodons Post-processing"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/pypostprocessing/643bb26a184384345ef5ceb8";  
-      name = "pypostprocessing_0.2.8.zip"; 
-      sha1 = "7bc916f6bfc2b459609c64f4c45a81609d88cf32"; 
+      url = "https://mods.factorio.com/download/pypostprocessing/64c0ac0d194bfdbb7a3430f0";  
+      name = "pypostprocessing_0.2.9.zip"; 
+      sha1 = "9a567127d38aef1369ff8c5950e1372c71beb96d"; 
     };
     deps = [ stdlib ];
     optionalDeps = [ pycoalprocessing pyindustry pyfusionenergy pyhightech pyrawores pypetroleumhandling pyalienlife pyalternativeenergy omnimatter omnimatter_water omnimatter_wood deadlock-beltboxes-loaders DeadlockCrating deadlock_stacked_recipes DeadlocksStackingForPyanadon LightedPolesPlus ];
