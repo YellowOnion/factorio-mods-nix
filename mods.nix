@@ -167,9 +167,9 @@ let
   party-stuff = modDrv {
     name = "Party stuff"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/party-stuff/620fef6fe8d75316b3b598fc";  
-      name = "party-stuff_1.2.6.zip"; 
-      sha1 = "ab26fac8cea54903d91723e3d8786b4a9e7ad3ca"; 
+      url = "https://mods.factorio.com/download/party-stuff/64c2746006308c39d25b7cf3";  
+      name = "party-stuff_1.3.0.zip"; 
+      sha1 = "a401a572f94631bbc0851808c23f3d154b8e0c42"; 
     };
     deps = [ zk-lib ];
     optionalDeps = [  ];
@@ -1727,12 +1727,12 @@ let
   play-use-any-sound = modDrv {
     name = "Play and use any sounds"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/play-use-any-sound/625161f6d12ca25991089b0f";  
-      name = "play-use-any-sound_1.6.1.zip"; 
-      sha1 = "4ff5b14f9a227478b02a30f56e2d91325be411a5"; 
+      url = "https://mods.factorio.com/download/play-use-any-sound/64c243b53812881bb248703e";  
+      name = "play-use-any-sound_1.6.3.zip"; 
+      sha1 = "c8a995f7a2b550847dee86b580f33ca9ccd2eebd"; 
     };
     deps = [  ];
-    optionalDeps = [ zk-lib ];
+    optionalDeps = [ zk-lib gvv ];
     recommendedDeps = []; 
  }; 
 
@@ -14063,9 +14063,9 @@ let
   factoryplanner = modDrv {
     name = "Factory Planner"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/factoryplanner/64c041d324be788b4301474f";  
-      name = "factoryplanner_1.1.71.zip"; 
-      sha1 = "bb800757c136373d00f57b954843d43417e1c878"; 
+      url = "https://mods.factorio.com/download/factoryplanner/64c286ce15d324b8a7bc5f6c";  
+      name = "factoryplanner_1.1.72.zip"; 
+      sha1 = "986300d9539a44c685279928b6fc055e2b1c5f7b"; 
     };
     deps = [ flib ];
     optionalDeps = [ RecipeBook ];
@@ -25679,9 +25679,9 @@ let
   Kux-CoreLib = modDrv {
     name = "Kuxynator's Core Library"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Kux-CoreLib/64b8c3d64b7272dde3f14734";  
-      name = "Kux-CoreLib_2.7.2.zip"; 
-      sha1 = "37b6c73fc16cd9a1fcab52bea5efb1ef1126cfb2"; 
+      url = "https://mods.factorio.com/download/Kux-CoreLib/64c21460fe5ee087744a5f9e";  
+      name = "Kux-CoreLib_2.7.3.zip"; 
+      sha1 = "84533ece2ce44b7137d0c96845eec6c4917f7f0a"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -29363,9 +29363,9 @@ let
   enemyracemanager = modDrv {
     name = "Enemy Race Manager"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/enemyracemanager/64b2df0a2369325081fbfc1b";  
-      name = "enemyracemanager_1.17.4.zip"; 
-      sha1 = "e6ecd6c2f5fd794a403aab298b01ff554c2774e6"; 
+      url = "https://mods.factorio.com/download/enemyracemanager/64c1cefdc7706010eba17f19";  
+      name = "enemyracemanager_1.18.0.zip"; 
+      sha1 = "a65e507c40cf45c351c0ba34673622a380b39075"; 
     };
     deps = [ stdlib enemyracemanager_assets zerm_postprocess ];
     optionalDeps = [ Krastorio2 IndustrialRevolution IndustrialRevolution3 ArmouredBiters Explosive_biters Cold_biters Toxic_biters space-exploration Kux-OrbitalIonCannon MIRV AtomicArtillery RibbonMaze018 ];
@@ -34451,9 +34451,9 @@ let
   apm_bob_rework_ldinc = modDrv {
     name = "APM bob's extra compability"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/apm_bob_rework_ldinc/64c1468eee1c835f3edb0f25";  
-      name = "apm_bob_rework_ldinc_0.22.119.zip"; 
-      sha1 = "fea7376fdaf0b8977ac1cc7d4b883f8e0a2c8251"; 
+      url = "https://mods.factorio.com/download/apm_bob_rework_ldinc/64c259c206308c39d25b7cf0";  
+      name = "apm_bob_rework_ldinc_0.22.120.zip"; 
+      sha1 = "b327cd8b75550cd9867aa7f3bae244d4f4f733ca"; 
     };
     deps = [ apm_bob_rework_resource_pack_ldinc apm_resource_pack_ldinc apm_lib_ldinc apm_power_ldinc apm_nuclear_ldinc apm_energy_addon_ldinc bobassembly bobelectronics bobequipment bobinserters boblibrary boblogistics bobmining bobmodules bobores bobplates bobpower bobrevamp bobtech bobwarfare electricboiler deadlock-beltboxes-loaders ironclad-gunboat-and-mortar-turret flib Rampant Flare-Stack RampantArsenal ];
     optionalDeps = [ LogisticTrainNetwork ];
@@ -37955,9 +37955,9 @@ let
   erm_zerg = modDrv {
     name = "ERM - Zerg Units"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/erm_zerg/640eabcf23601d53eb2f6b6b";  
-      name = "erm_zerg_1.19.0.zip"; 
-      sha1 = "2a91e0ff87ca64a36c72ff637866e0ac3606f161"; 
+      url = "https://mods.factorio.com/download/erm_zerg/64c1cf10fe5ee087744a5f9a";  
+      name = "erm_zerg_1.20.0.zip"; 
+      sha1 = "4dd194e535c8ec5d84f993f3def483a59ffe979b"; 
     };
     deps = [ enemyracemanager ];
     optionalDeps = [  ];
@@ -37967,9 +37967,9 @@ let
   erm_toss = modDrv {
     name = "ERM - Protoss Units"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/erm_toss/640eabf25521cf00f493f07b";  
-      name = "erm_toss_1.19.0.zip"; 
-      sha1 = "0b8bc201430c73224fcf78f0bbd51e2291338b1a"; 
+      url = "https://mods.factorio.com/download/erm_toss/64c1cf24dc95f3f4a3ce3c78";  
+      name = "erm_toss_1.20.0.zip"; 
+      sha1 = "bb66a6cf6886bd3d643180bf62f061a7eafc213a"; 
     };
     deps = [ enemyracemanager ];
     optionalDeps = [  ];
@@ -37979,9 +37979,9 @@ let
   erm_terran = modDrv {
     name = "ERM - Terran Units for Players"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/erm_terran/64b451fcb05fef2439170c71";  
-      name = "erm_terran_1.16.1.zip"; 
-      sha1 = "aa002873957131d96b1d59a901554a0ef7f5e301"; 
+      url = "https://mods.factorio.com/download/erm_terran/64c1cf73c7bbd10b437b98d9";  
+      name = "erm_terran_1.17.1.zip"; 
+      sha1 = "c2346cdfdd61fc7ebfa85ee045550346569686df"; 
     };
     deps = [ enemyracemanager Unit_Control ];
     optionalDeps = [  ];
@@ -38507,9 +38507,9 @@ let
   erm_redarmy = modDrv {
     name = "ERM - RedArmy"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/erm_redarmy/64b436550e883abaa3c86631";  
-      name = "erm_redarmy_1.7.1.zip"; 
-      sha1 = "e767343b082516fe382a758bd06a1973739ab1e3"; 
+      url = "https://mods.factorio.com/download/erm_redarmy/64c1cf3c5c2091925fa78dff";  
+      name = "erm_redarmy_1.8.0.zip"; 
+      sha1 = "404ca8503196947d1bd05df240db900e84215465"; 
     };
     deps = [ enemyracemanager ];
     optionalDeps = [  ];
@@ -45767,9 +45767,9 @@ let
   erm_marspeople = modDrv {
     name = "ERM - Mars People"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/erm_marspeople/640eac14b1818dc70225f426";  
-      name = "erm_marspeople_1.2.0.zip"; 
-      sha1 = "8fc0aa098071c6b3246e98754a1fc5589d526590"; 
+      url = "https://mods.factorio.com/download/erm_marspeople/64c1cf5bee1c835f3edb0f26";  
+      name = "erm_marspeople_1.3.0.zip"; 
+      sha1 = "18c1eb829a81366978f60cb46a7c7c13b245221f"; 
     };
     deps = [ enemyracemanager ];
     optionalDeps = [  ];
