@@ -167,9 +167,9 @@ let
   party-stuff = modDrv {
     name = "Party stuff"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/party-stuff/64c2746006308c39d25b7cf3";  
-      name = "party-stuff_1.3.0.zip"; 
-      sha1 = "a401a572f94631bbc0851808c23f3d154b8e0c42"; 
+      url = "https://mods.factorio.com/download/party-stuff/64c36f54679ecbefdb7ddff9";  
+      name = "party-stuff_1.3.2.zip"; 
+      sha1 = "cfe5a024f2fbd18bf5fb11ec40c178e8881034d3"; 
     };
     deps = [ zk-lib ];
     optionalDeps = [  ];
@@ -1583,9 +1583,9 @@ let
   LogisticTrainNetwork = modDrv {
     name = "LTN - Logistic Train Network"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/LogisticTrainNetwork/6427dc06de5fff698c66342c";  
-      name = "LogisticTrainNetwork_1.18.3.zip"; 
-      sha1 = "051a8681d14072ac3abb4f6f1707e63e952373ee"; 
+      url = "https://mods.factorio.com/download/LogisticTrainNetwork/64c354e20800b5a7fe4d1ff8";  
+      name = "LogisticTrainNetwork_1.18.4.zip"; 
+      sha1 = "4f2e2892b4ab6a37f81d311c05484dbd9970b60d"; 
     };
     deps = [ flib ];
     optionalDeps = [  ];
@@ -6719,9 +6719,9 @@ let
   cargo-ships = modDrv {
     name = "Cargo Ships"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/cargo-ships/64714ee81a8670bb77b7ae47";  
-      name = "cargo-ships_0.2.2.zip"; 
-      sha1 = "d6231a5b9f5efd3f07be38c8546d1883f5b28c27"; 
+      url = "https://mods.factorio.com/download/cargo-ships/64c308d60800b5a7fe4d1ff7";  
+      name = "cargo-ships_0.2.3.zip"; 
+      sha1 = "122295d83cbfc8b1448f318953efb1a46119d884"; 
     };
     deps = [ cargo-ships-graphics ];
     optionalDeps = [ factorio-world islands_world SeaBlock Hovercrafts angelspetrochem ctg Krastorio2 ];
@@ -14291,9 +14291,9 @@ let
   Deadlock-SE-bridge = modDrv {
     name = "Deadlock beltbox crate-Space Exploration bridge"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Deadlock-SE-bridge/62c7edba9da1dc91976f0feb";  
-      name = "Deadlock-SE-bridge_0.6.4.zip"; 
-      sha1 = "bc036f583c05dbaf8e7e6479106ef545f0045bca"; 
+      url = "https://mods.factorio.com/download/Deadlock-SE-bridge/64c38b46bdde4f7e7df4c8ba";  
+      name = "Deadlock-SE-bridge_0.6.6.zip"; 
+      sha1 = "f2be6bc5bcadc5083a9f7db56f2d69a070a39c3f"; 
     };
     deps = [ space-exploration space-exploration-graphics ];
     optionalDeps = [ deadlock-beltboxes-loaders DeadlockCrating ];
@@ -16619,9 +16619,9 @@ let
   pyalienlife = modDrv {
     name = "Pyanodons AlienLife"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/pyalienlife/64c0ac6c613d6903a86d6a0a";  
-      name = "pyalienlife_2.1.6.zip"; 
-      sha1 = "4b1a83ba8d5a6cdb9e532260354b940235c2f898"; 
+      url = "https://mods.factorio.com/download/pyalienlife/64c32b93f6087f9899b4fb59";  
+      name = "pyalienlife_2.1.7.zip"; 
+      sha1 = "b3b0fca0db6b1aa54990b2dee5e85ac295ab31b3"; 
     };
     deps = [ pyalienlifegraphics pyalienlifegraphics2 pyalienlifegraphics3 pyrawores pypetroleumhandling ];
     optionalDeps = [  ];
@@ -22499,9 +22499,9 @@ let
   zk-lib = modDrv {
     name = "ZwerOxotnik's multipurpose mod with 8 addons [zk-lib][WIP]"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/zk-lib/64b857a6c5086e1443db6d67";  
-      name = "zk-lib_0.13.9.zip"; 
-      sha1 = "e388eee8767ad8c7c59abdb157b88922fcec3abf"; 
+      url = "https://mods.factorio.com/download/zk-lib/64c36edbbdde4f7e7df4c8b9";  
+      name = "zk-lib_0.13.10.zip"; 
+      sha1 = "0d50e7366fab8e0c64d8d6a07e842c34a3abe87b"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -28187,9 +28187,9 @@ let
   apm_lib_ldinc = modDrv {
     name = "Amator Phasma's Library (forked)"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/apm_lib_ldinc/6495edfcb6e17cf455ad0706";  
-      name = "apm_lib_ldinc_0.23.07.zip"; 
-      sha1 = "e1c898e539acde3e99c49eb1c5bd43d033642404"; 
+      url = "https://mods.factorio.com/download/apm_lib_ldinc/64c2e4a90c4793990c7a7d71";  
+      name = "apm_lib_ldinc_0.23.09.zip"; 
+      sha1 = "7d14485d37bb6d21c496e086b14894435d9b6117"; 
     };
     deps = [ apm_resource_pack_ldinc ];
     optionalDeps = [  ];
@@ -34451,9 +34451,9 @@ let
   apm_bob_rework_ldinc = modDrv {
     name = "APM bob's extra compability"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/apm_bob_rework_ldinc/64c259c206308c39d25b7cf0";  
-      name = "apm_bob_rework_ldinc_0.22.120.zip"; 
-      sha1 = "b327cd8b75550cd9867aa7f3bae244d4f4f733ca"; 
+      url = "https://mods.factorio.com/download/apm_bob_rework_ldinc/64c2f8840800b5a7fe4d1ff6";  
+      name = "apm_bob_rework_ldinc_0.22.121.zip"; 
+      sha1 = "0160c139e11f9f98c516fb86834652b3180952e4"; 
     };
     deps = [ apm_bob_rework_resource_pack_ldinc apm_resource_pack_ldinc apm_lib_ldinc apm_power_ldinc apm_nuclear_ldinc apm_energy_addon_ldinc bobassembly bobelectronics bobequipment bobinserters boblibrary boblogistics bobmining bobmodules bobores bobplates bobpower bobrevamp bobtech bobwarfare electricboiler deadlock-beltboxes-loaders ironclad-gunboat-and-mortar-turret flib Rampant Flare-Stack RampantArsenal ];
     optionalDeps = [ LogisticTrainNetwork ];
@@ -37955,9 +37955,9 @@ let
   erm_zerg = modDrv {
     name = "ERM - Zerg Units"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/erm_zerg/64c1cf10fe5ee087744a5f9a";  
-      name = "erm_zerg_1.20.0.zip"; 
-      sha1 = "4dd194e535c8ec5d84f993f3def483a59ffe979b"; 
+      url = "https://mods.factorio.com/download/erm_zerg/64c3e9d97fc5dd66ef99cce2";  
+      name = "erm_zerg_1.20.1.zip"; 
+      sha1 = "7efaa3abc4eb2322fd8964255874c46448ab7a53"; 
     };
     deps = [ enemyracemanager ];
     optionalDeps = [  ];
@@ -37967,9 +37967,9 @@ let
   erm_toss = modDrv {
     name = "ERM - Protoss Units"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/erm_toss/64c1cf24dc95f3f4a3ce3c78";  
-      name = "erm_toss_1.20.0.zip"; 
-      sha1 = "bb66a6cf6886bd3d643180bf62f061a7eafc213a"; 
+      url = "https://mods.factorio.com/download/erm_toss/64c3e9f54f4b37ac380c4ba5";  
+      name = "erm_toss_1.20.1.zip"; 
+      sha1 = "d6297abf456dd0619637e71d687db1856d2a12bd"; 
     };
     deps = [ enemyracemanager ];
     optionalDeps = [  ];
@@ -60527,9 +60527,9 @@ let
   pyalternativeenergy = modDrv {
     name = "Pyanodons Alternative Energy"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/pyalternativeenergy/64c0abf8613d6903a86d6a09";  
-      name = "pyalternativeenergy_1.2.4.zip"; 
-      sha1 = "54507b1905d327008efd6a09358d030607a5c45c"; 
+      url = "https://mods.factorio.com/download/pyalternativeenergy/64c32b83b08c25fc396dce6b";  
+      name = "pyalternativeenergy_1.2.5.zip"; 
+      sha1 = "284ba4bdead76e5c292e01a7867cd190bead4917"; 
     };
     deps = [ pyalienlife pyhightech pyalternativeenergygraphics ];
     optionalDeps = [  ];
