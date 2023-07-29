@@ -8003,9 +8003,9 @@ let
   Clowns-Processing = modDrv {
     name = "MadClown01's Processing"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Clowns-Processing/647356c4e8ca7dc378fd2ca5";  
-      name = "Clowns-Processing_1.3.20.zip"; 
-      sha1 = "b92311e951089d237e53c866e47197d4b6dd3984"; 
+      url = "https://mods.factorio.com/download/Clowns-Processing/64c4a5780edc5ae99153a89e";  
+      name = "Clowns-Processing_1.3.21.zip"; 
+      sha1 = "e584b35548d24376449c1385145600404ae61937"; 
     };
     deps = [ angelsrefining angelspetrochem angelssmelting ];
     optionalDeps = [ angelsindustries angelsbioprocessing bobplates ];
@@ -29363,9 +29363,9 @@ let
   enemyracemanager = modDrv {
     name = "Enemy Race Manager"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/enemyracemanager/64c1cefdc7706010eba17f19";  
-      name = "enemyracemanager_1.18.0.zip"; 
-      sha1 = "a65e507c40cf45c351c0ba34673622a380b39075"; 
+      url = "https://mods.factorio.com/download/enemyracemanager/64c4926d7fc5dd66ef99ccec";  
+      name = "enemyracemanager_1.18.1.zip"; 
+      sha1 = "1b893cde057531cc27152e595264bd77e206b24e"; 
     };
     deps = [ stdlib enemyracemanager_assets zerm_postprocess ];
     optionalDeps = [ Krastorio2 IndustrialRevolution IndustrialRevolution3 ArmouredBiters Explosive_biters Cold_biters Toxic_biters space-exploration Kux-OrbitalIonCannon MIRV AtomicArtillery RibbonMaze018 ];
@@ -37955,9 +37955,9 @@ let
   erm_zerg = modDrv {
     name = "ERM - Zerg Units"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/erm_zerg/64c3e9d97fc5dd66ef99cce2";  
-      name = "erm_zerg_1.20.1.zip"; 
-      sha1 = "7efaa3abc4eb2322fd8964255874c46448ab7a53"; 
+      url = "https://mods.factorio.com/download/erm_zerg/64c3f4b6d90ab82c6e99e9c1";  
+      name = "erm_zerg_1.20.2.zip"; 
+      sha1 = "e285b2cf6fd7243c3d0f8e7510df291393033411"; 
     };
     deps = [ enemyracemanager ];
     optionalDeps = [  ];
@@ -40271,9 +40271,9 @@ let
   Betterbpps = modDrv {
     name = "Better belts, poles and pipes"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Betterbpps/6123e0ffe1cfc68722f7a5a3";  
+      url = "https://mods.factorio.com/download/Betterbpps/64c4d7d40820786c6c1eb1c9";  
       name = "Betterbpps_0.0.2.zip"; 
-      sha1 = "41e5594a5561edc63bcb94f7c12863c77bbe5948"; 
+      sha1 = "ea10573af719dd4aa35f66580df7b66f2d57ebd6"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -43775,9 +43775,9 @@ let
   mining-patch-planner = modDrv {
     name = "Mining patch planner"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/mining-patch-planner/64bfdb8309fe0a8b76ca688a";  
-      name = "mining-patch-planner_1.5.2.zip"; 
-      sha1 = "e06c6989b2f53107461f9c83ad8203bbeb547742"; 
+      url = "https://mods.factorio.com/download/mining-patch-planner/64c4091d3fda7085531df30a";  
+      name = "mining-patch-planner_1.5.3.zip"; 
+      sha1 = "7ac70eacb728341527925119ae54bdbee00ec2d5"; 
     };
     deps = [  ];
     optionalDeps = [  ];
