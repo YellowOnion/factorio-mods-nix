@@ -6683,9 +6683,9 @@ let
   Clowns-Science = modDrv {
     name = "MadClown01's Science"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Clowns-Science/64bce5ad9cf09361dd9a9842";  
-      name = "Clowns-Science_1.1.5.zip"; 
-      sha1 = "89464e0edd3504a350886b0af1aaa9b9b210f767"; 
+      url = "https://mods.factorio.com/download/Clowns-Science/64c590d2d912cb98e698b86a";  
+      name = "Clowns-Science_1.1.6.zip"; 
+      sha1 = "aba2b31ee55a0f27128cbe2d4141265199502526"; 
     };
     deps = [  ];
     optionalDeps = [ angelsrefining angelspetrochem angelssmelting bobplates bobtech Clowns-Processing omnimatter_science ];
@@ -9335,9 +9335,9 @@ let
   space-exploration = modDrv {
     name = "Space Exploration"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/space-exploration/64bc735d2968b5e24e31ae12";  
-      name = "space-exploration_0.6.111.zip"; 
-      sha1 = "50a4d934d97967a0ba8c30fb2b279e55dac05317"; 
+      url = "https://mods.factorio.com/download/space-exploration/64c5529b555da0bb83d22c9f";  
+      name = "space-exploration_0.6.112.zip"; 
+      sha1 = "bd624f434aee0da965787d8b4fb0bece55600180"; 
     };
     deps = [ aai-containers aai-industry alien-biomes jetpack robot_attrition shield-projector space-exploration-graphics space-exploration-graphics-2 space-exploration-graphics-3 space-exploration-graphics-4 space-exploration-graphics-5 space-exploration-menu-simulations space-exploration-postprocess informatron aai-signal-transmission simhelper ];
     optionalDeps = [ bullet-trails grappling-gun combat-mechanics-overhaul equipment-gantry ];
@@ -20735,11 +20735,11 @@ let
   baron-factions = modDrv {
     name = "Baron Factions"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/baron-factions/64a269b012d714979662955c";  
-      name = "baron-factions_1.1.37.zip"; 
-      sha1 = "b4daa9a576ee785ecfc6dac1da5477420b42ee8a"; 
+      url = "https://mods.factorio.com/download/baron-factions/64c601537259bb5e46679590";  
+      name = "baron-factions_1.1.38.zip"; 
+      sha1 = "04ae105518481a0cd06ec7d8a95c696d4db03cdd"; 
     };
-    deps = [ baron-library ];
+    deps = [ baron-library baron-heat-pollution ];
     optionalDeps = [  ];
     recommendedDeps = []; 
  }; 
@@ -29363,9 +29363,9 @@ let
   enemyracemanager = modDrv {
     name = "Enemy Race Manager"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/enemyracemanager/64c4926d7fc5dd66ef99ccec";  
-      name = "enemyracemanager_1.18.1.zip"; 
-      sha1 = "1b893cde057531cc27152e595264bd77e206b24e"; 
+      url = "https://mods.factorio.com/download/enemyracemanager/64c66f7a6ce751d1e01a3ebd";  
+      name = "enemyracemanager_1.18.3.zip"; 
+      sha1 = "31112c90b5797b735147c74eefd6c1e520fb7a1f"; 
     };
     deps = [ stdlib enemyracemanager_assets zerm_postprocess ];
     optionalDeps = [ Krastorio2 IndustrialRevolution IndustrialRevolution3 ArmouredBiters Explosive_biters Cold_biters Toxic_biters space-exploration Kux-OrbitalIonCannon MIRV AtomicArtillery RibbonMaze018 ];
@@ -30323,9 +30323,9 @@ let
   nullius = modDrv {
     name = "Nullius"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/nullius/64b226039253584d1d9ff1b5";  
-      name = "nullius_1.5.30.zip"; 
-      sha1 = "b58086af796f1d4e17f8688e67cd3408b9b01f1f"; 
+      url = "https://mods.factorio.com/download/nullius/64c5d13ecdeba79a98de7060";  
+      name = "nullius_1.5.31.zip"; 
+      sha1 = "8e0a837dc741cf6493086290bad50bc1482d828e"; 
     };
     deps = [ alien-biomes angelssmelting boblogistics ];
     optionalDeps = [ RecipeBook underground-pipe-pack ];
@@ -37739,9 +37739,9 @@ let
   Better-Energy-production = modDrv {
     name = "Better Energy Production"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Better-Energy-production/644a61848aff0344dc85bf3d";  
-      name = "Better-Energy-production_0.4.2.zip"; 
-      sha1 = "eb6245b84cd61fa137faab034d87ef93ec6524da"; 
+      url = "https://mods.factorio.com/download/Better-Energy-production/64c576ad18439d63c43abd61";  
+      name = "Better-Energy-production_0.4.3.zip"; 
+      sha1 = "ddbdbd87c3e4d832841c0f9671e1d8224e84acdb"; 
     };
     deps = [  ];
     optionalDeps = [ Better-Repair-Packs Better-Build-Sounds space-exploration Krastorio2 ];
@@ -37955,9 +37955,9 @@ let
   erm_zerg = modDrv {
     name = "ERM - Zerg Units"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/erm_zerg/64c3f4b6d90ab82c6e99e9c1";  
-      name = "erm_zerg_1.20.2.zip"; 
-      sha1 = "e285b2cf6fd7243c3d0f8e7510df291393033411"; 
+      url = "https://mods.factorio.com/download/erm_zerg/64c66f92f84bedea2f85f7e9";  
+      name = "erm_zerg_1.20.3.zip"; 
+      sha1 = "614b2ffee053fa850bb2238a0b054c6586c2d1e4"; 
     };
     deps = [ enemyracemanager ];
     optionalDeps = [  ];
@@ -37967,9 +37967,9 @@ let
   erm_toss = modDrv {
     name = "ERM - Protoss Units"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/erm_toss/64c3e9f54f4b37ac380c4ba5";  
-      name = "erm_toss_1.20.1.zip"; 
-      sha1 = "d6297abf456dd0619637e71d687db1856d2a12bd"; 
+      url = "https://mods.factorio.com/download/erm_toss/64c5aa81a255ab402be00033";  
+      name = "erm_toss_1.20.2.zip"; 
+      sha1 = "f442883f8f052425f308a1b702e89c5d7c0bbe54"; 
     };
     deps = [ enemyracemanager ];
     optionalDeps = [  ];
@@ -37979,9 +37979,9 @@ let
   erm_terran = modDrv {
     name = "ERM - Terran Units for Players"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/erm_terran/64c1cf73c7bbd10b437b98d9";  
-      name = "erm_terran_1.17.1.zip"; 
-      sha1 = "c2346cdfdd61fc7ebfa85ee045550346569686df"; 
+      url = "https://mods.factorio.com/download/erm_terran/64c5aa98ebccf2f891345ce8";  
+      name = "erm_terran_1.17.2.zip"; 
+      sha1 = "5ff32483380bd6c0b0e127b83b5bfa7a682e02f8"; 
     };
     deps = [ enemyracemanager Unit_Control ];
     optionalDeps = [  ];
@@ -51239,9 +51239,9 @@ let
   LinkedChest3 = modDrv {
     name = "LinkedChest3"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/LinkedChest3/64ba72bef6d8b6755d099c62";  
-      name = "LinkedChest3_1.3.25.zip"; 
-      sha1 = "88683345b52644bfc9033dd34dc65fdbf8c3d2e1"; 
+      url = "https://mods.factorio.com/download/LinkedChest3/64c67c57d7037281891eb035";  
+      name = "LinkedChest3_1.3.26.zip"; 
+      sha1 = "95bc636e17a106cd411aca315e3595e07bb59b51"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -55331,9 +55331,9 @@ let
   space-spidertron = modDrv {
     name = "Space Spidertron"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/space-spidertron/644d63dd77fc4cda21d68c51";  
-      name = "space-spidertron_1.3.0.zip"; 
-      sha1 = "8907c3bd2aa5dd2d3e37c3f93d51daf066546829"; 
+      url = "https://mods.factorio.com/download/space-spidertron/64c5599518439d63c43abd60";  
+      name = "space-spidertron_1.3.1.zip"; 
+      sha1 = "f38ee0594b4916d9dfc35e7d5d84f11b3640474c"; 
     };
     deps = [ spidertron-dock ];
     optionalDeps = [ space-exploration ];
