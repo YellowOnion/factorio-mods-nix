@@ -467,9 +467,9 @@ let
   helmod = modDrv {
     name = "Helmod: Assistant for planning your factory"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/helmod/64aa0c4c5f7ec5490cbec81a";  
-      name = "helmod_0.12.18.zip"; 
-      sha1 = "598e0639cc5a93a1f7168dec451f5e43fbdc9e64"; 
+      url = "https://mods.factorio.com/download/helmod/64c6d6d7c68d6f390a6b22d6";  
+      name = "helmod_0.12.19.zip"; 
+      sha1 = "89c9e3dfbb99555ba24b085c3228a95fc7a9ad6c"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -1727,9 +1727,9 @@ let
   play-use-any-sound = modDrv {
     name = "Play and use any sounds"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/play-use-any-sound/64c243b53812881bb248703e";  
-      name = "play-use-any-sound_1.6.3.zip"; 
-      sha1 = "c8a995f7a2b550847dee86b580f33ca9ccd2eebd"; 
+      url = "https://mods.factorio.com/download/play-use-any-sound/64c7c02870aba9da3f1648a0";  
+      name = "play-use-any-sound_1.6.4.zip"; 
+      sha1 = "6665d035f1863d99dc26ff85504a94e32cf7a2fe"; 
     };
     deps = [  ];
     optionalDeps = [ zk-lib gvv ];
@@ -21335,9 +21335,9 @@ let
   RateCalculator = modDrv {
     name = "Rate Calculator"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/RateCalculator/64964b2b2202c9c8939145a6";  
-      name = "RateCalculator_3.2.2.zip"; 
-      sha1 = "6cfe062dd8b7a4baa2339a58c41d35e95338aef0"; 
+      url = "https://mods.factorio.com/download/RateCalculator/64c6e689f84bedea2f85f7eb";  
+      name = "RateCalculator_3.2.3.zip"; 
+      sha1 = "6673cbfd69bece5b5fd7909d2976ec2e809aff5c"; 
     };
     deps = [ flib ];
     optionalDeps = [  ];
@@ -29363,9 +29363,9 @@ let
   enemyracemanager = modDrv {
     name = "Enemy Race Manager"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/enemyracemanager/64c66f7a6ce751d1e01a3ebd";  
-      name = "enemyracemanager_1.18.3.zip"; 
-      sha1 = "31112c90b5797b735147c74eefd6c1e520fb7a1f"; 
+      url = "https://mods.factorio.com/download/enemyracemanager/64c6c6ef6ce751d1e01a3ebe";  
+      name = "enemyracemanager_1.18.4.zip"; 
+      sha1 = "3631ccb27def3242c62adf9bef342ec62dc42350"; 
     };
     deps = [ stdlib enemyracemanager_assets zerm_postprocess ];
     optionalDeps = [ Krastorio2 IndustrialRevolution IndustrialRevolution3 ArmouredBiters Explosive_biters Cold_biters Toxic_biters space-exploration Kux-OrbitalIonCannon MIRV AtomicArtillery RibbonMaze018 ];
@@ -37955,9 +37955,9 @@ let
   erm_zerg = modDrv {
     name = "ERM - Zerg Units"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/erm_zerg/64c66f92f84bedea2f85f7e9";  
-      name = "erm_zerg_1.20.3.zip"; 
-      sha1 = "614b2ffee053fa850bb2238a0b054c6586c2d1e4"; 
+      url = "https://mods.factorio.com/download/erm_zerg/64c6c6cfe3a8f200540d9aff";  
+      name = "erm_zerg_1.20.4.zip"; 
+      sha1 = "59c042e770a343928fe8bf7102191d8c30056ce9"; 
     };
     deps = [ enemyracemanager ];
     optionalDeps = [  ];
@@ -41495,9 +41495,9 @@ let
   kj_kras_compat = modDrv {
     name = "King Jo's Krastorio 2 Compatibility Mod"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/kj_kras_compat/6466612c031274856453c9d8";  
-      name = "kj_kras_compat_1.1.5.zip"; 
-      sha1 = "ba1f5a7daf26d047fba018c552fdb4f2b46e3d12"; 
+      url = "https://mods.factorio.com/download/kj_kras_compat/64c78b26e3a8f200540d9b01";  
+      name = "kj_kras_compat_1.1.6.zip"; 
+      sha1 = "1127ba28efae42dd3da3b818f8dc9400c5ede8e1"; 
     };
     deps = [  ];
     optionalDeps = [ Krastorio2 bobvehicleequipment VehicleGrid kj_2a6 kj_40kbaneblade kj_40klemanruss kj_40kpredator kj_40kdreadnought kj_aventador kj_b17 kj_b2 kj_bf109 kj_cybertruck kj_delorean kj_fordmustang kj_gigahorse kj_ho229 kj_ju52 kj_ju87 kj_jug38 kj_maustank kj_pak kj_panzer4 kj_rattetank kj_utilitarian kj_b2 kj_rex kj_wirbelwind kj_warrig kj_swspeeder kj_bulldozer kj_xb35 ];
@@ -43775,9 +43775,9 @@ let
   mining-patch-planner = modDrv {
     name = "Mining patch planner"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/mining-patch-planner/64c4091d3fda7085531df30a";  
-      name = "mining-patch-planner_1.5.3.zip"; 
-      sha1 = "7ac70eacb728341527925119ae54bdbee00ec2d5"; 
+      url = "https://mods.factorio.com/download/mining-patch-planner/64c7c268aa419cc15bc807b1";  
+      name = "mining-patch-planner_1.5.4.zip"; 
+      sha1 = "2324c066e601d47f5def9d2e41a15e10ab5c8b18"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -50219,9 +50219,9 @@ let
   blueprint-sandboxes = modDrv {
     name = "Blueprint Sandboxes"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/blueprint-sandboxes/64a9963a82b91c2fea9cafcd";  
-      name = "blueprint-sandboxes_1.16.3.zip"; 
-      sha1 = "7df8afb0f1cb4d3294bce50437c35c7d68fb37d6"; 
+      url = "https://mods.factorio.com/download/blueprint-sandboxes/64c69884fc1bd013122e9de5";  
+      name = "blueprint-sandboxes_1.16.4.zip"; 
+      sha1 = "f3c716e0642d6b636a05436cfcbf164e6df388e8"; 
     };
     deps = [  ];
     optionalDeps = [ space-exploration Cursed-FMD factorissimo-2-notnotmelon ];
