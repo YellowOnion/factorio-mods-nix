@@ -2435,9 +2435,9 @@ let
   Power-Armor-MK3 = modDrv {
     name = "Power Armor MK3"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Power%20Armor%20MK3/61c5ff2e898785576594f8aa";  
-      name = "Power Armor MK3_0.4.1.zip"; 
-      sha1 = "fa03190fcdda91d26a9ac17bfe7c50a89dfad98b"; 
+      url = "https://mods.factorio.com/download/Power%20Armor%20MK3/64c83b61aa419cc15bc807b5";  
+      name = "Power Armor MK3_0.4.2.zip"; 
+      sha1 = "dd5943e8b84526a0f66795fde80d5ea800b6fcdb"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -17003,9 +17003,9 @@ let
   IndustrialRevolution_Language_Pack = modDrv {
     name = "Industrial Revolution Language Pack"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/IndustrialRevolution_Language_Pack/64bc5bd02968b5e24e31ae11";  
-      name = "IndustrialRevolution_Language_Pack_3.1.0.zip"; 
-      sha1 = "1a15c3d737e2ec20a965c8c49df28107f77365f6"; 
+      url = "https://mods.factorio.com/download/IndustrialRevolution_Language_Pack/64c918d97ada8893c76a3a46";  
+      name = "IndustrialRevolution_Language_Pack_3.1.1.zip"; 
+      sha1 = "9577603f69ab0d18afeb4b5585da1720608ae1a2"; 
     };
     deps = [  ];
     optionalDeps = [ IndustrialRevolution3 IndustrialRevolution3LoadersStacking IndustrialRevolution3SpaceMining ];
@@ -20327,12 +20327,12 @@ let
   TLBE = modDrv {
     name = "Timelapse Base Edition (TLBE)"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/TLBE/6307bb8628ce529bc5463fc9";  
-      name = "TLBE_1.4.5.zip"; 
-      sha1 = "b717c02ddd7bec378fc4b25a40e06ecbeea99411"; 
+      url = "https://mods.factorio.com/download/TLBE/64c8c8e918506cc691500f0f";  
+      name = "TLBE_1.5.0.zip"; 
+      sha1 = "47603d79045c1d8ab70b947531b4fce8d4f00404"; 
     };
     deps = [  ];
-    optionalDeps = [  ];
+    optionalDeps = [ statsgui ];
     recommendedDeps = []; 
  }; 
 
@@ -29219,9 +29219,9 @@ let
   Kux-LogisticsCenterCS = modDrv {
     name = "Crash-Site Logistics Center"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Kux-LogisticsCenterCS/649c6b43660a21a437883855";  
-      name = "Kux-LogisticsCenterCS_2.4.6.zip"; 
-      sha1 = "9a784fc4c1fe58165a19002ddf5ee5715b95b28c"; 
+      url = "https://mods.factorio.com/download/Kux-LogisticsCenterCS/64c92476f2e75a079b8c0cb5";  
+      name = "Kux-LogisticsCenterCS_2.4.7.zip"; 
+      sha1 = "bfc722f5ccd476d2148f64169e909bfa750a9c64"; 
     };
     deps = [ Kux-CoreLib ];
     optionalDeps = [ Krastorio2 space-exploration ab_loaderunlock ];
@@ -51275,12 +51275,12 @@ let
   Transport_Drones_Fuel_revived = modDrv {
     name = "Transport Drones Fuel revived"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Transport_Drones_Fuel_revived/6261288cdae35fc694173c4d";  
-      name = "Transport_Drones_Fuel_revived_0.3.1.zip"; 
-      sha1 = "25ab62a227c19774c2840bce8930de78ba52110d"; 
+      url = "https://mods.factorio.com/download/Transport_Drones_Fuel_revived/64c8985d70aba9da3f1648a4";  
+      name = "Transport_Drones_Fuel_revived_0.4.0.zip"; 
+      sha1 = "3d3436fb39360e7957e73f82f5a0636fb027b737"; 
     };
-    deps = [ Transport_Drones ];
-    optionalDeps = [ bobelectronics ];
+    deps = [ Transport_Drones stdlib ];
+    optionalDeps = [ aai-industry Krastorio2 angelsindustries angelspetrochem bobplates bobelectronics bzgas ];
     recommendedDeps = []; 
  }; 
 
@@ -57407,9 +57407,9 @@ let
   AlternateVanillaFactorio = modDrv {
     name = "Alternate Vanilla Factorio"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/AlternateVanillaFactorio/641a08d76a4665d5a41971b1";  
-      name = "AlternateVanillaFactorio_0.2.0.zip"; 
-      sha1 = "ebc580d01b6a9473afde3a3287f5a75bb54c5249"; 
+      url = "https://mods.factorio.com/download/AlternateVanillaFactorio/64c880a518506cc691500f0e";  
+      name = "AlternateVanillaFactorio_0.2.1.zip"; 
+      sha1 = "8f1c5a704102ed44620f1e79a2babf5b04bd5df3"; 
     };
     deps = [ discovery_tree ];
     optionalDeps = [  ];
