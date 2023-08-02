@@ -35795,9 +35795,9 @@ let
   WipMod_TA-miners = modDrv {
     name = "TA Miners"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/WipMod_TA-miners/627e9ae342e9b2f218622396";  
-      name = "WipMod_TA-miners_2.0.0.zip"; 
-      sha1 = "b8bce76c9b732778423b84a043c7cc1ad233102c"; 
+      url = "https://mods.factorio.com/download/WipMod_TA-miners/64c9744c1b781195b987683e";  
+      name = "WipMod_TA-miners_2.0.1.zip"; 
+      sha1 = "804733c3f4b0a4918aecb9b95e3674b946dcf486"; 
     };
     deps = [  ];
     optionalDeps = [ bobplates boblogistics bobmodules ];
@@ -42731,9 +42731,9 @@ let
   holographic_signs = modDrv {
     name = "Holographic Signs"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/holographic_signs/648313441c78bde7eb67547c";  
-      name = "holographic_signs_1.2.0.zip"; 
-      sha1 = "967e7141a3132460a39afec8a33fbc2c99e3323a"; 
+      url = "https://mods.factorio.com/download/holographic_signs/64ca6a555d6f6c8d266ef3b7";  
+      name = "holographic_signs_1.2.1.zip"; 
+      sha1 = "4095a3a0ab3a3d5f1ce43faa487a72f3ecff2fc0"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -46535,9 +46535,9 @@ let
   train-trails = modDrv {
     name = "Train Trails"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/train-trails/64a0bdd146cce8fb0eeb83c6";  
-      name = "train-trails_0.0.14.zip"; 
-      sha1 = "73321a73028a739129ac64aac43de4eb1a37d16c"; 
+      url = "https://mods.factorio.com/download/train-trails/64c9f2328b000639214c5acb";  
+      name = "train-trails_0.0.15.zip"; 
+      sha1 = "b6f7c924eb76c72dd6d239682d6954afbad3c978"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -50663,9 +50663,9 @@ let
   configurable-bot-speed = modDrv {
     name = "Configurable Bot Speed"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/configurable-bot-speed/6251edc3dbfbc7490a0d3b85";  
-      name = "configurable-bot-speed_1.0.0.zip"; 
-      sha1 = "f8ef59a07c696279d85b1a09077ba0d7f5ba3004"; 
+      url = "https://mods.factorio.com/download/configurable-bot-speed/64ca77ac108e7b1445405157";  
+      name = "configurable-bot-speed_1.1.1.zip"; 
+      sha1 = "5a2a097b602df60e7c6a5b7932c750da8216f11a"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -57263,12 +57263,12 @@ let
   yield-increase = modDrv {
     name = "Yield increase - All machines have increased productivity"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/yield-increase/62faab680beb416856d87612";  
-      name = "yield-increase_0.1.0.zip"; 
-      sha1 = "90dc1eeaeb66323cd0796a3cc3c5d9ddf87522f8"; 
+      url = "https://mods.factorio.com/download/yield-increase/64ca2010da34f4a1aa00a988";  
+      name = "yield-increase_0.1.1.zip"; 
+      sha1 = "e55d32d9dff2ad96f44cfc22238e8353b464111b"; 
     };
     deps = [  ];
-    optionalDeps = [  ];
+    optionalDeps = [ space-exploration ];
     recommendedDeps = []; 
  }; 
 
