@@ -38735,12 +38735,12 @@ let
   morelabs = modDrv {
     name = "More Labs"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/morelabs/610c67bb0f157b780eafacbe";  
-      name = "morelabs_0.0.7.zip"; 
-      sha1 = "674576058c30a7d44fbca0c0d78a319f8da0e59a"; 
+      url = "https://mods.factorio.com/download/morelabs/64cae06f5d99594a9a61cf3b";  
+      name = "morelabs_0.1.0.zip"; 
+      sha1 = "1e433d3319ada674c3c56057e9c06a000c7fb330"; 
     };
     deps = [  ];
-    optionalDeps = [ DiscoScience bobmodules bobtech MoreSciencePacks-for1_1 ];
+    optionalDeps = [ DiscoScience bobmodules bobtech MoreSciencePacks-for1_1 space-exploration Krastorio2 aai-industry ];
     recommendedDeps = []; 
  }; 
 
@@ -56891,9 +56891,9 @@ let
   AdvancedBelts = modDrv {
     name = "Advanced Belts"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/AdvancedBelts/647f9610cbdc9ee1cacee36b";  
-      name = "AdvancedBelts_2.0.3.zip"; 
-      sha1 = "1fa1e75ca855998b9647a25d2b3e4c1ac275aa13"; 
+      url = "https://mods.factorio.com/download/AdvancedBelts/64cb66cf7d9887426aa187b6";  
+      name = "AdvancedBelts_2.0.4.zip"; 
+      sha1 = "2fd969519ab68c64ab101b7287eb43fd12fce2bc"; 
     };
     deps = [  ];
     optionalDeps = [ vanilla-loaders-hd LoaderRedux aai-loaders DeadlockBlackRubberBelts ];
