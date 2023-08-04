@@ -29363,9 +29363,9 @@ let
   enemyracemanager = modDrv {
     name = "Enemy Race Manager"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/enemyracemanager/64c6c6ef6ce751d1e01a3ebe";  
-      name = "enemyracemanager_1.18.4.zip"; 
-      sha1 = "3631ccb27def3242c62adf9bef342ec62dc42350"; 
+      url = "https://mods.factorio.com/download/enemyracemanager/64cc91222df39bcb49b2e749";  
+      name = "enemyracemanager_1.18.6.zip"; 
+      sha1 = "4fbcd8fd1300a3adf61c507dbd76a4478460be7b"; 
     };
     deps = [ stdlib enemyracemanager_assets zerm_postprocess ];
     optionalDeps = [ Krastorio2 IndustrialRevolution IndustrialRevolution3 ArmouredBiters Explosive_biters Cold_biters Toxic_biters space-exploration Kux-OrbitalIonCannon MIRV AtomicArtillery RibbonMaze018 ];
@@ -37955,9 +37955,9 @@ let
   erm_zerg = modDrv {
     name = "ERM - Zerg Units"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/erm_zerg/64c6c6cfe3a8f200540d9aff";  
-      name = "erm_zerg_1.20.4.zip"; 
-      sha1 = "59c042e770a343928fe8bf7102191d8c30056ce9"; 
+      url = "https://mods.factorio.com/download/erm_zerg/64cc6fdb801ba74a1856acf4";  
+      name = "erm_zerg_1.20.5.zip"; 
+      sha1 = "4ed306a567542c8bf2d1ede01a821509c198b460"; 
     };
     deps = [ enemyracemanager ];
     optionalDeps = [  ];
@@ -37967,9 +37967,9 @@ let
   erm_toss = modDrv {
     name = "ERM - Protoss Units"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/erm_toss/64c5aa81a255ab402be00033";  
-      name = "erm_toss_1.20.2.zip"; 
-      sha1 = "f442883f8f052425f308a1b702e89c5d7c0bbe54"; 
+      url = "https://mods.factorio.com/download/erm_toss/64cc6b582df39bcb49b2e748";  
+      name = "erm_toss_1.20.3.zip"; 
+      sha1 = "6b36b00b5dfbc0f9ada66f38a61ab27ae5f1a1dc"; 
     };
     deps = [ enemyracemanager ];
     optionalDeps = [  ];
@@ -38507,9 +38507,9 @@ let
   erm_redarmy = modDrv {
     name = "ERM - RedArmy"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/erm_redarmy/64c1cf3c5c2091925fa78dff";  
-      name = "erm_redarmy_1.8.0.zip"; 
-      sha1 = "404ca8503196947d1bd05df240db900e84215465"; 
+      url = "https://mods.factorio.com/download/erm_redarmy/64cc6b443d542f282c60faa8";  
+      name = "erm_redarmy_1.8.1.zip"; 
+      sha1 = "e15ed13640bc168b38a341de830924ed4b0bf7d0"; 
     };
     deps = [ enemyracemanager ];
     optionalDeps = [  ];
@@ -45767,9 +45767,9 @@ let
   erm_marspeople = modDrv {
     name = "ERM - Mars People"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/erm_marspeople/64c1cf5bee1c835f3edb0f26";  
-      name = "erm_marspeople_1.3.0.zip"; 
-      sha1 = "18c1eb829a81366978f60cb46a7c7c13b245221f"; 
+      url = "https://mods.factorio.com/download/erm_marspeople/64cc6b653d542f282c60faa9";  
+      name = "erm_marspeople_1.3.1.zip"; 
+      sha1 = "d766a1d6a33b034350ddb4a485a896f483df574d"; 
     };
     deps = [ enemyracemanager ];
     optionalDeps = [  ];
@@ -57695,9 +57695,9 @@ let
   kr-air-purifier-helper = modDrv {
     name = "Krastorio 2 - air purifier helper"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/kr-air-purifier-helper/645960318604f4c80e8a66ba";  
-      name = "kr-air-purifier-helper_1.0.7.zip"; 
-      sha1 = "d524b765a468187dea8fbb21202abde89f34adad"; 
+      url = "https://mods.factorio.com/download/kr-air-purifier-helper/64ccc3073d542f282c60faaa";  
+      name = "kr-air-purifier-helper_1.0.8.zip"; 
+      sha1 = "fd343327f782502f210ad47aacde5a805a0b9296"; 
     };
     deps = [ Krastorio2 ];
     optionalDeps = [  ];
