@@ -29363,9 +29363,9 @@ let
   enemyracemanager = modDrv {
     name = "Enemy Race Manager"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/enemyracemanager/64cc91222df39bcb49b2e749";  
-      name = "enemyracemanager_1.18.6.zip"; 
-      sha1 = "4fbcd8fd1300a3adf61c507dbd76a4478460be7b"; 
+      url = "https://mods.factorio.com/download/enemyracemanager/64ce6554a8bf50a793f8a1ac";  
+      name = "enemyracemanager_1.18.7.zip"; 
+      sha1 = "eab323c7fb6aefe33638f884c2db31893af0b79b"; 
     };
     deps = [ stdlib enemyracemanager_assets zerm_postprocess ];
     optionalDeps = [ Krastorio2 IndustrialRevolution IndustrialRevolution3 ArmouredBiters Explosive_biters Cold_biters Toxic_biters space-exploration Kux-OrbitalIonCannon MIRV AtomicArtillery RibbonMaze018 ];
@@ -32291,9 +32291,9 @@ let
   Factorissimo2-Playthrough = modDrv {
     name = "Factorissimo2 Inception"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/Factorissimo2-Playthrough/61bcef87fa5a4c1ff9384e5b";  
-      name = "Factorissimo2-Playthrough_1.1.10.zip"; 
-      sha1 = "bf0f3f98be3e5d34b37222450d79746713fca959"; 
+      url = "https://mods.factorio.com/download/Factorissimo2-Playthrough/64ce38aa59d3cfa58acd391a";  
+      name = "Factorissimo2-Playthrough_1.2.1.zip"; 
+      sha1 = "49cef3ba899246a946ccf084964cc71f5e54ae59"; 
     };
     deps = [ Factorissimo2 ];
     optionalDeps = [  ];
