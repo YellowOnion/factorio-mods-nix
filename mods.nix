@@ -491,9 +491,9 @@ let
   YARM = modDrv {
     name = "YARM - Resource Monitor"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/YARM/64a40f44c4d8ada33be36334";  
-      name = "YARM_0.9.13.zip"; 
-      sha1 = "e9259910a0124c5949fcb453db17b0d89eac66ec"; 
+      url = "https://mods.factorio.com/download/YARM/64cf516b95b4eda9896d95d3";  
+      name = "YARM_0.10.0.zip"; 
+      sha1 = "6ec95c8e45237108dc71c091f0ea8ffc4d2559d9"; 
     };
     deps = [  ];
     optionalDeps = [ aai-programmable-vehicles angelsrefining omnimatter ];
@@ -9995,9 +9995,9 @@ let
   train-pubsub = modDrv {
     name = "Train Supply Manager (TSM)"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/train-pubsub/6470b856766fdc7d7557ee7b";  
-      name = "train-pubsub_1.1.17.zip"; 
-      sha1 = "fedb3167a43f971804339f2ea2ed64470e12c308"; 
+      url = "https://mods.factorio.com/download/train-pubsub/64cf63f1c45a1bf5153040cb";  
+      name = "train-pubsub_1.1.18.zip"; 
+      sha1 = "83ddaf4bc54fbeb4558131a71556bcda4f9fb081"; 
     };
     deps = [  ];
     optionalDeps = [  ];
@@ -53459,9 +53459,9 @@ let
   silent-integration-helper = modDrv {
     name = "Integration Helper [ALPHA]"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/silent-integration-helper/64ac116ade7a7c58a29c6aa9";  
-      name = "silent-integration-helper_0.4.13.zip"; 
-      sha1 = "d8ea3a483785297766280eae2d8c06883d73726c"; 
+      url = "https://mods.factorio.com/download/silent-integration-helper/64cee92e2d437007d3425fa1";  
+      name = "silent-integration-helper_0.4.14.zip"; 
+      sha1 = "4672e857cc4ac4ce7348b2821bb654b5409f362c"; 
     };
     deps = [ flib ];
     optionalDeps = [  ];
