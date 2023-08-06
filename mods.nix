@@ -491,9 +491,9 @@ let
   YARM = modDrv {
     name = "YARM - Resource Monitor"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/YARM/64cf516b95b4eda9896d95d3";  
-      name = "YARM_0.10.0.zip"; 
-      sha1 = "6ec95c8e45237108dc71c091f0ea8ffc4d2559d9"; 
+      url = "https://mods.factorio.com/download/YARM/64cf905c45303d38fa4fdc7c";  
+      name = "YARM_0.10.1.zip"; 
+      sha1 = "2168f1383cf06ac58fa68d17025053d74d0f6ada"; 
     };
     deps = [  ];
     optionalDeps = [ aai-programmable-vehicles angelsrefining omnimatter ];
@@ -46715,9 +46715,9 @@ let
   chinese = modDrv {
     name = "开源中文汉化语言包"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/chinese/64746e3c6313521b519ba70d";  
-      name = "chinese_1.1.101.zip"; 
-      sha1 = "bd108d8aae31dd2b7bad02c0c59983ff4199f259"; 
+      url = "https://mods.factorio.com/download/chinese/64cf9d5547c01348486ebf5c";  
+      name = "chinese_1.1.102.zip"; 
+      sha1 = "c2f0f5c08ecd9e9a991e6c02bcf4c09c54fe57be"; 
     };
     deps = [  ];
     optionalDeps = [ pychinese IndustrialRevolution_Language_Pack ];
@@ -53459,9 +53459,9 @@ let
   silent-integration-helper = modDrv {
     name = "Integration Helper [ALPHA]"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/silent-integration-helper/64cee92e2d437007d3425fa1";  
-      name = "silent-integration-helper_0.4.14.zip"; 
-      sha1 = "4672e857cc4ac4ce7348b2821bb654b5409f362c"; 
+      url = "https://mods.factorio.com/download/silent-integration-helper/64cf9cd3aabe686cfe2bae13";  
+      name = "silent-integration-helper_0.4.15.zip"; 
+      sha1 = "cd568ac6b0c67c87240b76775eb1027641a95f63"; 
     };
     deps = [ flib ];
     optionalDeps = [  ];
