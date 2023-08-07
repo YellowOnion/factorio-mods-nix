@@ -11555,9 +11555,9 @@ let
   PatchFR = modDrv {
     name = "Patch FR des Mods"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/PatchFR/64a0bf4e61c0c94711d3d405";  
-      name = "PatchFR_1.1.31.zip"; 
-      sha1 = "aeab7a090705eab7ef243a31b1b45a035824c438"; 
+      url = "https://mods.factorio.com/download/PatchFR/64cffe96cf880e1bfc33d2e0";  
+      name = "PatchFR_1.1.32.zip"; 
+      sha1 = "fecd5107159fd755653e8e019341ca8575f15f82"; 
     };
     deps = [  ];
     optionalDeps = [  ];
