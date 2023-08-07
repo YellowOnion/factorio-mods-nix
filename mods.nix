@@ -491,9 +491,9 @@ let
   YARM = modDrv {
     name = "YARM - Resource Monitor"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/YARM/64cf905c45303d38fa4fdc7c";  
-      name = "YARM_0.10.1.zip"; 
-      sha1 = "2168f1383cf06ac58fa68d17025053d74d0f6ada"; 
+      url = "https://mods.factorio.com/download/YARM/64d112d62a724a78b5d8c1e5";  
+      name = "YARM_0.10.5.zip"; 
+      sha1 = "1a362fb261f2fb9182c6e1fd33429b8ca1271d8a"; 
     };
     deps = [  ];
     optionalDeps = [ aai-programmable-vehicles angelsrefining omnimatter ];
@@ -39287,9 +39287,9 @@ let
   EasyAPI = modDrv {
     name = "Easy API [ALPHA]"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/EasyAPI/64872a96cf2a0622c7f355cd";  
-      name = "EasyAPI_0.11.2.zip"; 
-      sha1 = "81e03c782ff151226a9891ebf88cae00f7c285c2"; 
+      url = "https://mods.factorio.com/download/EasyAPI/64d0cecea2776d0a8ffcda1a";  
+      name = "EasyAPI_0.11.3.zip"; 
+      sha1 = "05be081ea4ea66e09981f3931adc056efdc7e331"; 
     };
     deps = [ zk-lib ];
     optionalDeps = [ gvv ];
@@ -44327,9 +44327,9 @@ let
   RampantFixed = modDrv {
     name = "Rampant, fixed"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/RampantFixed/648c2d27cc2962ee3780e240";  
-      name = "RampantFixed_1.7.1.zip"; 
-      sha1 = "7818637d864cc216ceef756e8e7be5bdfe386794"; 
+      url = "https://mods.factorio.com/download/RampantFixed/64d0dd9fa2776d0a8ffcda1e";  
+      name = "RampantFixed_1.7.2.zip"; 
+      sha1 = "c19c2cc07631580dbf88f02a7e304616b45f6293"; 
     };
     deps = [  ];
     optionalDeps = [ alien-module Arachnids ArmouredBiters bobenemies RampantArsenal SchallAlienLoot ];
@@ -53459,9 +53459,9 @@ let
   silent-integration-helper = modDrv {
     name = "Integration Helper [ALPHA]"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/silent-integration-helper/64cf9cd3aabe686cfe2bae13";  
-      name = "silent-integration-helper_0.4.15.zip"; 
-      sha1 = "cd568ac6b0c67c87240b76775eb1027641a95f63"; 
+      url = "https://mods.factorio.com/download/silent-integration-helper/64d1140cb4957af2a734b9bf";  
+      name = "silent-integration-helper_0.4.16.zip"; 
+      sha1 = "0422b8e12dcbd2162c2da972a0e155800dac6aa6"; 
     };
     deps = [ flib ];
     optionalDeps = [  ];
