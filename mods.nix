@@ -491,9 +491,9 @@ let
   YARM = modDrv {
     name = "YARM - Resource Monitor"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/YARM/64d112d62a724a78b5d8c1e5";  
-      name = "YARM_0.10.5.zip"; 
-      sha1 = "1a362fb261f2fb9182c6e1fd33429b8ca1271d8a"; 
+      url = "https://mods.factorio.com/download/YARM/64d1f788eb3e2fb65eac8d1e";  
+      name = "YARM_0.10.10.zip"; 
+      sha1 = "d3315f2acaa85a24850713a20b98bac3eb276079"; 
     };
     deps = [  ];
     optionalDeps = [ aai-programmable-vehicles angelsrefining omnimatter ];
@@ -3045,7 +3045,7 @@ let
  }; 
 
   SeaBlockMetaPack = modDrv {
-    name = "Sea Block Pack"; 
+    name = "Sea Block Pack - Official"; 
     src = fetchurl2 {
       url = "https://mods.factorio.com/download/SeaBlockMetaPack/64b19164bd57c064312b5704";  
       name = "SeaBlockMetaPack_1.1.4.zip"; 
@@ -5699,9 +5699,9 @@ let
   PlutoniumEnergy = modDrv {
     name = "Plutonium Energy"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/PlutoniumEnergy/64b59eff96afb9f6905c1adc";  
-      name = "PlutoniumEnergy_1.4.9.zip"; 
-      sha1 = "14d512270534b358b8f6e73da8258946c8405179"; 
+      url = "https://mods.factorio.com/download/PlutoniumEnergy/64d15dc72672b1c01eb07e90";  
+      name = "PlutoniumEnergy_1.4.12.zip"; 
+      sha1 = "c11549af676293bb99e2144721e99728ed3cba14"; 
     };
     deps = [  ];
     optionalDeps = [ AtomicArtillery SchallUraniumProcessing SchallArtillery SchallRadioactiveWaste bobplates bobwarfare AtomicRocketScreenBurn IndustrialRevolution space-exploration ];
@@ -54023,9 +54023,9 @@ let
   jeffroid = modDrv {
     name = "Jeffroid Extensions"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/jeffroid/63ca6c28da106d87039a343a";  
-      name = "jeffroid_0.8.3.zip"; 
-      sha1 = "626fda3e3673777c7d6cd91bcb2c113f8dbad8c7"; 
+      url = "https://mods.factorio.com/download/jeffroid/64d2564859dd342e62cf5137";  
+      name = "jeffroid_0.8.5.zip"; 
+      sha1 = "c4a5b96d9a86ef1fb21a39bf700502f518df1f4e"; 
     };
     deps = [  ];
     optionalDeps = [  ];
