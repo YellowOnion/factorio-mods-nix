@@ -491,9 +491,9 @@ let
   YARM = modDrv {
     name = "YARM - Resource Monitor"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/YARM/64d1f788eb3e2fb65eac8d1e";  
-      name = "YARM_0.10.10.zip"; 
-      sha1 = "d3315f2acaa85a24850713a20b98bac3eb276079"; 
+      url = "https://mods.factorio.com/download/YARM/64d3ab6aea2449bd48e52359";  
+      name = "YARM_0.10.12.zip"; 
+      sha1 = "7dd05061c744a0f24cbc40010351fbfa44d6be27"; 
     };
     deps = [  ];
     optionalDeps = [ aai-programmable-vehicles angelsrefining omnimatter ];
@@ -5699,12 +5699,12 @@ let
   PlutoniumEnergy = modDrv {
     name = "Plutonium Energy"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/PlutoniumEnergy/64d15dc72672b1c01eb07e90";  
-      name = "PlutoniumEnergy_1.4.12.zip"; 
-      sha1 = "c11549af676293bb99e2144721e99728ed3cba14"; 
+      url = "https://mods.factorio.com/download/PlutoniumEnergy/64d330b6f2a30a0e39f29969";  
+      name = "PlutoniumEnergy_1.4.13.zip"; 
+      sha1 = "fba10a5b8cb736d7dc008ac017f3ac05d2ac3e8c"; 
     };
     deps = [  ];
-    optionalDeps = [ AtomicArtillery SchallUraniumProcessing SchallArtillery SchallRadioactiveWaste bobplates bobwarfare AtomicRocketScreenBurn IndustrialRevolution space-exploration ];
+    optionalDeps = [ AtomicArtillery SchallUraniumProcessing SchallArtillery SchallRadioactiveWaste bobplates bobwarfare AtomicRocketScreenBurn IndustrialRevolution3 space-exploration ];
     recommendedDeps = []; 
  }; 
 
@@ -19583,9 +19583,9 @@ let
   pump = modDrv {
     name = "P.U.M.P."; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/pump/6414df9a0fcc6ab2f8d8687e";  
-      name = "pump_1.3.2.zip"; 
-      sha1 = "5d2c76f56d3f1b323ffcea9ac78738b2fe534b05"; 
+      url = "https://mods.factorio.com/download/pump/64d29d40a90af61bdde310b9";  
+      name = "pump_1.3.3.zip"; 
+      sha1 = "bdbfb59d0885b158cec24ec6acf3f50c4c722db5"; 
     };
     deps = [  ];
     optionalDeps = [ ModuleInserter ];
@@ -23711,9 +23711,9 @@ let
   baron-many-little-things = modDrv {
     name = "Baron Many Little Things"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/baron-many-little-things/64ac06a4e21095891abffadc";  
-      name = "baron-many-little-things_1.1.5.zip"; 
-      sha1 = "175787288b959bc1f073ebd8213d61dcad578dae"; 
+      url = "https://mods.factorio.com/download/baron-many-little-things/64d2c528ea2449bd48e5232d";  
+      name = "baron-many-little-things_1.1.6.zip"; 
+      sha1 = "9c255f0e9599f8653e43ab761606b892abd1ab5c"; 
     };
     deps = [ baron-library ];
     optionalDeps = [ baron-factions ];
@@ -23735,9 +23735,9 @@ let
   baron-two-at-a-time = modDrv {
     name = "Baron Two At A Time"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/baron-two-at-a-time/64a26a0179492731e4078ec3";  
-      name = "baron-two-at-a-time_1.1.5.zip"; 
-      sha1 = "25199e614a8fe64e97c5fdc07841130daedecb65"; 
+      url = "https://mods.factorio.com/download/baron-two-at-a-time/64d2c54ca90af61bdde310ba";  
+      name = "baron-two-at-a-time_1.1.6.zip"; 
+      sha1 = "d054eaac049ab6a1152635b1147f287f7618b795"; 
     };
     deps = [ baron-library ];
     optionalDeps = [ baron-factions ];
@@ -46715,9 +46715,9 @@ let
   chinese = modDrv {
     name = "开源中文汉化语言包"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/chinese/64cf9d5547c01348486ebf5c";  
-      name = "chinese_1.1.102.zip"; 
-      sha1 = "c2f0f5c08ecd9e9a991e6c02bcf4c09c54fe57be"; 
+      url = "https://mods.factorio.com/download/chinese/64d31423ab31c7535aadd609";  
+      name = "chinese_1.1.105.zip"; 
+      sha1 = "565b6f765202e1168649448c6edab11ed8ad6c6e"; 
     };
     deps = [  ];
     optionalDeps = [ pychinese IndustrialRevolution_Language_Pack ];
@@ -56891,9 +56891,9 @@ let
   AdvancedBelts = modDrv {
     name = "Advanced Belts"; 
     src = fetchurl2 {
-      url = "https://mods.factorio.com/download/AdvancedBelts/64cb66cf7d9887426aa187b6";  
-      name = "AdvancedBelts_2.0.4.zip"; 
-      sha1 = "2fd969519ab68c64ab101b7287eb43fd12fce2bc"; 
+      url = "https://mods.factorio.com/download/AdvancedBelts/64d2a4beea2449bd48e5232a";  
+      name = "AdvancedBelts_2.0.6.zip"; 
+      sha1 = "66e5fae2abe0ebf916168fffec692d5998b70c66"; 
     };
     deps = [  ];
     optionalDeps = [ vanilla-loaders-hd LoaderRedux aai-loaders DeadlockBlackRubberBelts ];
