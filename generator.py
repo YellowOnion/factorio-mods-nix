@@ -5,10 +5,9 @@ import re
 import requests
 import sys
 import os
+from packaging import version
 
 mods_api = "https://mods.factorio.com"
-
-VERSION = "1.1"
 
 def eprint(*args, **kwargs):
     print(*args, file=sys.stderr, **kwargs)
@@ -25,25 +24,27 @@ def matchOrNone(x):
         return m.groupdict()
     return None
 
-def toDeps(ds):
-    return [ eprint(x) or toName(x["name"]) for x in
+def _toDeps(ds, c):
+    return [ eprint(x) or '{}'.format(toName(x["name"])) for x in
              (matchOrNone(x) for x in ds)
-             if x and x["name"] != "base" and (x["type"] is None or x["type"] == "~")]
+             if x and (x["name"] != "base" and x["name"] != "Any MOD") and c(x)]
+
+def toDeps(ds):
+    return _toDeps(ds, lambda x: x["type"] is None or x["type"] == "~")
 
 def toOpDeps(ds):
-    return [ eprint(x) or toName(x["name"]) for x in
-             (matchOrNone(x) for x in ds)
-             if x and x["type"] == "?"]
+    return _toDeps(ds, lambda x: x["type"] == "?")
 
 def toName(n):
-    if n[0].isdigit():
+    if n[0].isdigit() or n[0] == "-":
         n = "n" + n
-    return n.replace(" ", "-")
+    n = n.replace(" ", "SPC")
+    return '"{}"'.format(n)
 
 if os.path.exists("mods.json"):
     mods = json.load(open("mods.json"))
 else:
-    mods = fetch_mod_json("?page_size=max&version=" + VERSION)
+    mods = fetch_mod_json("?page_size=max")
     json.dump(mods, open("mods.json", "w"))
 
 nmods = len(mods["results"])
@@ -59,54 +60,49 @@ if sparseModsList != []:
 
 eprint("getting info for {0} mods".format(nmods))
 
-print("{ lib, fetchurl \n"                                                      +
-      ", factorio-utils \n"                                                     +
-      ", allRecommendedMods ? true \n"                                          +
-      ", allOptionalMods ? false \n"                                            +
-      ", username ? \"\" , token ? \"\" \n"                                     +
+print("{"                                                      +
+      "factorioMod \n"                                                     +
+      ", fix \n" +
+      ", filterMissing \n" +
       "}: \n"                                                                   +
-      "with lib; \n"                                                            +
-      "let \n"                                                                  +
-      "  fetchurl2 = args: lib.overrideDerivation (fetchurl (args // { curlOptsList = [  \n"              +
-      "    \"--get\" \n"                                                          +
-      "    \"--data-urlencode\" \"username@username\" \n"                           +
-      "    \"--data-urlencode\" \"token@token\"  \n"                             +
-      "];}))  \n"                                                               +
-       """  (_: { preHook =
-                if username != "" && token != "" then ''
-                    echo -n "${username}" >username
-                    echo -n "${token}"    >token
-                '' else "exit 1"
-                ;});
-      """ +
-      "  modDrv = factorio-utils.modDrv { inherit allRecommendedMods allOptionalMods; };\n " +
-      "in \n"                                                                   +
-      " rec {"
+      " fix (self: {"
        )
 
+BANNED = ["ABSELTN"
+          "ABwirefix"]
 # while modsToParse == {} or not all(modsToParse.values):
-for (i, result) in enumerate(mods["results"]):
+for (i, result) in enumerate(sorted(list(mods["results"]), key=lambda a: a["name"])):
  #       if notnot result["name"] in modsToParse.keys and
  #           continue
  #       else:
         tries = 0
+        if result["name"] in BANNED:
+            eprint(result["name"] + ": BANNED!")
+            break;
         while tries < 5:
             tries += 1
             try:
-                full = fetch_mod_json( "/" + result["name"] + "/full")
+                local_cache_file = "mods/{name}.json".format(**result)
+                if os.path.exists(local_cache_file):
+                    full = json.load(open(local_cache_file))
+                else:
+                    full = fetch_mod_json( "/" + result["name"] + "/full")
+                    json.dump(full, open(local_cache_file, "w"))
+
                 name = toName(full["name"])
                 percent = float(i * 100) / float(nmods)
                 eprint("{0:02.3f}% {1} / {2}".format(percent, i, nmods))
                 eprint(name)
-                latest_release = list(filter(lambda a: a["info_json"]["factorio_version"] == VERSION ,full["releases"]))[-1]
+                latest_release = max(full["releases"], key = lambda a: version.parse(a["version"]))
+                if version.parse(latest_release["info_json"]["factorio_version"]) < version.parse("1.1"):
+                    continue
                 url = mods_api + latest_release["download_url"]
                 file_name = latest_release["file_name"]
+                sha1 = latest_release["sha1"]
                 deps = toDeps(latest_release["info_json"]["dependencies"])
                 deps = " ".join(deps)
                 optionalDeps = " ".join(toOpDeps(latest_release["info_json"]["dependencies"]))
-                sha1 = latest_release["sha1"]
                 out =  { "name" : name,
-                        "title": full["title"],
                         "version": latest_release["version"],
                         "url" : url,
                         "file_name" : file_name,
@@ -115,20 +111,18 @@ for (i, result) in enumerate(mods["results"]):
                         "sha1": sha1
                         }
                 print( \
-                    ("  {name} = modDrv {{\n"                           +
-                        "    name = \"{title}\"; \n"                    +
-                        "    src = fetchurl2 {{\n"                      +
-                        "      url = \"{url}\";  \n"                    +
-                        "      name = \"{file_name}\"; \n"              +
-                        "      sha1 = \"{sha1}\"; \n"                   +
-                        "    }};\n"                                     +
-                        "    deps = [ {deps} ];\n"                      +
-                        "    optionalDeps = [ {optionalDeps} ];\n"      +
-                        "    recommendedDeps = []; \n"                  +
-                        " }}; \n").format(**out))
+                    ("{name} = factorioMod {{\n"                    +
+                    "  pname = {name}; \n"
+                    "  url = \"{url}\";  \n"                    +
+                    "  file_name = \"{file_name}\"; \n"              +
+                    "  sha1 = \"{sha1}\"; \n"                   +
+                    "  version = \"{version}\"; \n"             +
+                    "  deps = filterMissing self [ {deps} ];\n"                    +
+                    "  optionalDeps = filterMissing self [ {optionalDeps} ];\n"    +
+                    " }}; \n").format(**out))
                 tries = 99999
 
             except Exception as err:
                 eprint("Failed on mod: {0}, trying again".format(name), err)
 
-print("}")
+print("})")

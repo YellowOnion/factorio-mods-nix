@@ -1,23 +1,23 @@
-{ token, username, pkgs ? import <nixpkgs> {} }:
-
-with pkgs;
-
-mkShell {
-  buildInputs = [
-    (python3.withPackages (p: [p.requests]))
-    (factorio.override {
-      inherit token username;
-      releaseType = "alpha";
-      mods = (let m = import ./mods.nix { inherit token username factorio-utils lib fetchurl; }; in [
-        m.factoryplanner
-        m.FNEI
-        m.AfraidOfTheDark
-        m.AutoDeconstruct
-        m.even-distribution
-        m.Todo-List
-        m.YARM
-        m.sonaxaton-research-queue
-      ]);
-    })
-];
+let
+  pkgs = import (builtins.fetchTarball "http://github.com/YellowOnion/nixpkgs/archive/factorio-patch2.tar.gz") { config.allowUnfree = true; };
+  utils = pkgs.factorio-utils;
+  mods =  import ./mods.nix {
+    inherit (pkgs.lib) fix;
+    inherit (utils) filterMissing;
+    factorioMod = utils.factorioMod "/fpd.json";
+  };
+  modList = builtins.attrValues { inherit (mods)
+        AfraidOfTheDark
+        even-distribution
+        QuickItemSearch
+        RateCalculator
+        sonaxaton-research-queue
+        StatsGui
+        TaskList
+    ;};
+  modsPack = utils.mkModDirPackage modList null "test";
+in {
+  modsPack = modsPack;
+  modsZip = utils.mkModZipPackage modsPack;
+  factorio = pkgs.factorio.override ({versionJson = ./versions.json ;});
 }
