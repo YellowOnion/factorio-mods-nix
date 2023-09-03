@@ -52,3 +52,9 @@ $ rm /tmp/fpd.json
 
 ## support
 Feel free to open an issue or @woobilicious on the unofficial NixOS discord if you need help.
+
+## TODO
+* Propose to Factorio team to update the api to include just enough info (sha256?) so I only have to send 1 request instead of 3000+ and extremely minimize the amount of time this script takes to work (currently > 10mins) when cache isn't populated.
+* provide more robust caching so we don't have to nerf mods/ (we current don't check if they're stale.)
+* post RFC in the nix discourse to get it upstreamed.
+* add support for agenix or other secret systems.

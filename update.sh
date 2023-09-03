@@ -6,6 +6,10 @@ cd "$(dirname "${BASH_SOURCE[0]}")"
 TOKEN=$(cat token)
 DATE=$(date  --iso-8601)
 
+mkdir -p mods
+
+rm mods.json
+
 [ -z ${SKIPGEN+x} ] && ./generator.py > mods.nix 2>/dev/null
 
 $(nix eval --impure --raw --expr '"${<nixpkgs>}/pkgs/games/factorio/update.py"') \

@@ -6,4 +6,4 @@ tmp/
 /token
 /result
 /mods.json
-/mods/*.json
+/mods

@@ -36,10 +36,23 @@ def toOpDeps(ds):
     return _toDeps(ds, lambda x: x["type"] == "?")
 
 def toName(n):
+    return '"{}"'.format(n)
+    # we don't need the code below due to using quotes within nix now.
     if n[0].isdigit() or n[0] == "-":
         n = "n" + n
     n = n.replace(" ", "SPC")
     return '"{}"'.format(n)
+
+def load_json_cached(name, version):
+    meta = "mods/{}.meta".format(name)
+    local_file = "mods/{}.json".format(name)
+    if os.path.exists(meta) and open(meta).read() == version and os.path.exists(local_file):
+        return json.load(open(local_file))
+    else:
+        j = fetch_mod_json("/{}/full".format(name))
+        json.dump(j, open(local_file, "w"))
+        open(meta, "w").write(version)
+        return j
 
 if os.path.exists("mods.json"):
     mods = json.load(open("mods.json"))
@@ -82,12 +95,7 @@ for (i, result) in enumerate(sorted(list(mods["results"]), key=lambda a: a["name
         while tries < 5:
             tries += 1
             try:
-                local_cache_file = "mods/{name}.json".format(**result)
-                if os.path.exists(local_cache_file):
-                    full = json.load(open(local_cache_file))
-                else:
-                    full = fetch_mod_json( "/" + result["name"] + "/full")
-                    json.dump(full, open(local_cache_file, "w"))
+                full = load_json_cached(result["name"], result["latest_release"]["sha1"])
 
                 name = toName(full["name"])
                 percent = float(i * 100) / float(nmods)
