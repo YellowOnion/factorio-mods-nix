@@ -126,7 +126,7 @@ for (i, result) in enumerate(sorted(list(mods["results"]), key=lambda a: a["name
                     "  sha1 = \"{sha1}\"; \n"                   +
                     "  version = \"{version}\"; \n"             +
                     "  deps = filterMissing self [ {deps} ];\n"                    +
-                    "  optionalDeps = filterMissing self [ {optionalDeps} ];\n"    +
+                    "  optionalDeps = [ {optionalDeps} ];\n"    +
                     " }}; \n").format(**out))
                 tries = 99999
 
