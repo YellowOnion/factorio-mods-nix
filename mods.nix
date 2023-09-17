@@ -6865,10 +6865,10 @@
 
 "Common-Industries" = factorioMod {
   pname = "Common-Industries"; 
-  url = "https://mods.factorio.com/download/Common-Industries/6504690b785139b9a9d17758";  
-  file_name = "Common-Industries_0.9.1.zip"; 
-  sha1 = "f543c595acb81db719cb451a62598d9aaf08c945"; 
-  version = "0.9.1"; 
+  url = "https://mods.factorio.com/download/Common-Industries/65071524e00c096b386302f7";  
+  file_name = "Common-Industries_0.9.2.zip"; 
+  sha1 = "c2e15011f9f7e872227441fcb63f743ed91475e1"; 
+  version = "0.9.2"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "space-exploration" "aai-industry" "Krastorio2" "248k" "bobelectronics" "MDbobelectronics" "bobtech" "bobplates" "bobpower" "angels" "angelspetrochem" "angelssmelting" "angelbob" "IndustrialRevolution3" "exotic-industries" "bzvery" "bzbintermediates" "bzbelectronics" "bzsilicon" "bzcarbon" "bzgraphene" "bzaluminum" "bztungsten" "pyhightech" "pyindustry" "pypetroleumhandling" "pyfusionenergy" "pycoalprocessing" "pyalternativeenergy" "5dim_compatibility" "5dim_energy" "5dim_nuclear" "5dim_mining" "5dim_storage" "5dim_logistic" "5dim_automation" "omnimatter_crystal" "omnimatter_energy" "omnimatter" "Yi_Tech_Tree_ExtraVanilla" "yi_engines" "Yuoki" "Recipes-Reload" ];
  }; 
@@ -11855,10 +11855,10 @@
 
 "Faster-trains-and-braking" = factorioMod {
   pname = "Faster-trains-and-braking"; 
-  url = "https://mods.factorio.com/download/Faster-trains-and-braking/65060c5240870a0a9e2670aa";  
-  file_name = "Faster-trains-and-braking_1.0.0.zip"; 
-  sha1 = "7a6216f48cd1be67b92dd00cdc331b4f5ea4c081"; 
-  version = "1.0.0"; 
+  url = "https://mods.factorio.com/download/Faster-trains-and-braking/6506cdf1f10668bcab36f833";  
+  file_name = "Faster-trains-and-braking_1.0.1.zip"; 
+  sha1 = "682e647b6240f26a1b679cba6b1c24d1e92a0c54"; 
+  version = "1.0.1"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -17095,10 +17095,10 @@
 
 "Kux-SmartLinkedChests" = factorioMod {
   pname = "Kux-SmartLinkedChests"; 
-  url = "https://mods.factorio.com/download/Kux-SmartLinkedChests/650559188618f90f81167d44";  
-  file_name = "Kux-SmartLinkedChests_2.0.0.zip"; 
-  sha1 = "7dfbfd127d6f3ee1dbc7eaf88bc27017b441da87"; 
-  version = "2.0.0"; 
+  url = "https://mods.factorio.com/download/Kux-SmartLinkedChests/65070deb5130e9f54dd8a368";  
+  file_name = "Kux-SmartLinkedChests_2.0.1.zip"; 
+  sha1 = "b8590deff9c8eced7aa9a8d622a147beb98fb479"; 
+  version = "2.0.1"; 
   deps = filterMissing self [ "stdlib" "Kux-CoreLib" ];
   optionalDeps = [  ];
  }; 
@@ -19645,10 +19645,10 @@
 
 "MiningSpaceIndustries-II-JP" = factorioMod {
   pname = "MiningSpaceIndustries-II-JP"; 
-  url = "https://mods.factorio.com/download/MiningSpaceIndustries-II-JP/64c2983cbdde4f7e7df4c896";  
-  file_name = "MiningSpaceIndustries-II-JP_0.0.1.zip"; 
-  sha1 = "446dcdb0589db7f9bd3d47e582a60494ed08c3a8"; 
-  version = "0.0.1"; 
+  url = "https://mods.factorio.com/download/MiningSpaceIndustries-II-JP/6506f108e00c096b386302f5";  
+  file_name = "MiningSpaceIndustries-II-JP_0.0.2.zip"; 
+  sha1 = "49af8a557a5ca719af7e9bc140e025421901ae14"; 
+  version = "0.0.2"; 
   deps = filterMissing self [ "Mining-Space-Industries-II" ];
   optionalDeps = [  ];
  }; 
@@ -22915,10 +22915,10 @@
 
 "PHI-EN" = factorioMod {
   pname = "PHI-EN"; 
-  url = "https://mods.factorio.com/download/PHI-EN/6459351a5b7c8ea19d55bf82";  
-  file_name = "PHI-EN_1.2.0.zip"; 
-  sha1 = "6e516da3ac6c102d6c43a17963610e5b61507b4a"; 
-  version = "1.2.0"; 
+  url = "https://mods.factorio.com/download/PHI-EN/65070f1440870a0a9e2670ae";  
+  file_name = "PHI-EN_1.3.1.zip"; 
+  sha1 = "58ef1eeb90907b61f264883c00e65e7e7d53e62d"; 
+  version = "1.3.1"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "Krastorio2" "space-exploration" ];
  }; 
@@ -34955,10 +34955,10 @@
 
 "Warp-Drive-Machine" = factorioMod {
   pname = "Warp-Drive-Machine"; 
-  url = "https://mods.factorio.com/download/Warp-Drive-Machine/650332cf64a0606b599b626b";  
-  file_name = "Warp-Drive-Machine_0.1.23.zip"; 
-  sha1 = "1fcec6d3b90deb94d264c8e8e542ec840421553c"; 
-  version = "0.1.23"; 
+  url = "https://mods.factorio.com/download/Warp-Drive-Machine/6506d2c2f10668bcab36f834";  
+  file_name = "Warp-Drive-Machine_0.1.24.zip"; 
+  sha1 = "5302e38667c877c50d3b36e08835c3b0ead1cbce"; 
+  version = "0.1.24"; 
   deps = filterMissing self [ "alien-biomes" "space-exploration-graphics" "factorio-crash-site" ];
   optionalDeps = [ "Rocket-Silo-Construction" "mferrari-mod-sounds" "Toxic_biters" "Explosive_biters" "Cold_biters" "ArmouredBiters" "Arachnids_enemy" "Teleporters" "aai-loaders" "big-mining-drill" "k2-wind-turbine-speed" "planetorio_expansion_planets" ];
  }; 
@@ -50085,10 +50085,10 @@
 
 "hud-auto-hide" = factorioMod {
   pname = "hud-auto-hide"; 
-  url = "https://mods.factorio.com/download/hud-auto-hide/64c19375b870c171e3e95462";  
-  file_name = "hud-auto-hide_0.0.3.zip"; 
-  sha1 = "53aa2e2e7fc971f919fbd7e2b0ce70a9e060e98f"; 
-  version = "0.0.3"; 
+  url = "https://mods.factorio.com/download/hud-auto-hide/6506efa55130e9f54dd8a364";  
+  file_name = "hud-auto-hide_0.1.0.zip"; 
+  sha1 = "e9423b03c2ac38ac1dd8042dc4db80205f55c803"; 
+  version = "0.1.0"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -51950,6 +51950,16 @@
   sha1 = "1838c44120675138c6d3b2b3602bc85e3577334b"; 
   version = "1.0.3"; 
   deps = filterMissing self [ "space-exploration" ];
+  optionalDeps = [  ];
+ }; 
+
+"kehrweeks-upgraded-vehicles" = factorioMod {
+  pname = "kehrweeks-upgraded-vehicles"; 
+  url = "https://mods.factorio.com/download/kehrweeks-upgraded-vehicles/6506ff48e00c096b386302f6";  
+  file_name = "kehrweeks-upgraded-vehicles_1.0.1.zip"; 
+  sha1 = "2b3ab83bc8a1df682c377bde113c1e805a8a94ce"; 
+  version = "1.0.1"; 
+  deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
 
@@ -58585,10 +58595,10 @@
 
 "periodic-madness" = factorioMod {
   pname = "periodic-madness"; 
-  url = "https://mods.factorio.com/download/periodic-madness/64fdc0750662ddae12d3c268";  
-  file_name = "periodic-madness_0.0.42.zip"; 
-  sha1 = "f9159f089fdddafefe5c97ee8336527e65d80dc6"; 
-  version = "0.0.42"; 
+  url = "https://mods.factorio.com/download/periodic-madness/6506f09c5130e9f54dd8a365";  
+  file_name = "periodic-madness_0.0.43.zip"; 
+  sha1 = "f219aad1263bb8425e0e152f8a128e0bb4a5eb86"; 
+  version = "0.0.43"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -62885,10 +62895,10 @@
 
 "rt2_radars" = factorioMod {
   pname = "rt2_radars"; 
-  url = "https://mods.factorio.com/download/rt2_radars/64f9e739833836e7ed288079";  
-  file_name = "rt2_radars_0.0.8.zip"; 
-  sha1 = "02203bf8028616a9079f2910fe4c02a3f9eb671b"; 
-  version = "0.0.8"; 
+  url = "https://mods.factorio.com/download/rt2_radars/6507143f704ee0a6fbadeef5";  
+  file_name = "rt2_radars_0.0.9.zip"; 
+  sha1 = "0df4fd4ee57864ad63d3899a5c2ae5bceb7fc551"; 
+  version = "0.0.9"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
