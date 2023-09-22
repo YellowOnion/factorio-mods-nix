@@ -14905,10 +14905,10 @@
 
 "IndustrialRevolution3" = factorioMod {
   pname = "IndustrialRevolution3"; 
-  url = "https://mods.factorio.com/download/IndustrialRevolution3/650489125856dea9736bc365";  
-  file_name = "IndustrialRevolution3_3.1.7.zip"; 
-  sha1 = "1f3b29deaaacece108668078466c682ac8ddb3bf"; 
-  version = "3.1.7"; 
+  url = "https://mods.factorio.com/download/IndustrialRevolution3/650d826cbffc5885171c61f7";  
+  file_name = "IndustrialRevolution3_3.1.8.zip"; 
+  sha1 = "b947b97e28da9129bfa4a5df2761535e50841af0"; 
+  version = "3.1.8"; 
   deps = filterMissing self [ "IndustrialRevolution3Assets1" "IndustrialRevolution3Assets2" "IndustrialRevolution3Assets3" "IndustrialRevolution3Assets4" ];
   optionalDeps = [ "IndustrialRevolution3LoadersStacking" "IndustrialRevolution3SpaceMining" "DeadlockBlackRubberBelts" "DeadlockLargerLamp" ];
  }; 
@@ -14965,10 +14965,10 @@
 
 "IndustrialRevolution3LoadersStacking" = factorioMod {
   pname = "IndustrialRevolution3LoadersStacking"; 
-  url = "https://mods.factorio.com/download/IndustrialRevolution3LoadersStacking/64cd38ef63e88a8d644ecac8";  
-  file_name = "IndustrialRevolution3LoadersStacking_1.0.2.zip"; 
-  sha1 = "fdd63e3a96288b4393b1431b7449bb893c6c1e7e"; 
-  version = "1.0.2"; 
+  url = "https://mods.factorio.com/download/IndustrialRevolution3LoadersStacking/650d82a90c8202ae9038e872";  
+  file_name = "IndustrialRevolution3LoadersStacking_1.0.3.zip"; 
+  sha1 = "9eb693d1e855d6d6cc040efe90157734e096d9d4"; 
+  version = "1.0.3"; 
   deps = filterMissing self [ "DeadlockBlackRubberBelts" "IndustrialRevolution3" ];
   optionalDeps = [  ];
  }; 
@@ -18185,10 +18185,10 @@
 
 "LinkedChestAndPipe" = factorioMod {
   pname = "LinkedChestAndPipe"; 
-  url = "https://mods.factorio.com/download/LinkedChestAndPipe/650d6b4e6b3e8b62f97db2ab";  
-  file_name = "LinkedChestAndPipe_1.0.63.zip"; 
-  sha1 = "a02ccc20e8cee7c080d993e470d7e7fc81c736ee"; 
-  version = "1.0.63"; 
+  url = "https://mods.factorio.com/download/LinkedChestAndPipe/650dab7fc7d15251f15f1fda";  
+  file_name = "LinkedChestAndPipe_1.0.64.zip"; 
+  sha1 = "320ef8a5fc495bf67858e82281511292b20e22b0"; 
+  version = "1.0.64"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "Squeak Through" "Smart_Inserters" "Flow Control" "space-exploration" ];
  }; 
@@ -52113,6 +52113,16 @@
   optionalDeps = [ "space-exploration" ];
  }; 
 
+"kehrweeks-logistics" = factorioMod {
+  pname = "kehrweeks-logistics"; 
+  url = "https://mods.factorio.com/download/kehrweeks-logistics/650daa153414a2f884f6ab55";  
+  file_name = "kehrweeks-logistics_1.0.0.zip"; 
+  sha1 = "c40864dd73790113aa5d75bc3944e85b03a92a86"; 
+  version = "1.0.0"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
 "kehrweeks-se-tweaks" = factorioMod {
   pname = "kehrweeks-se-tweaks"; 
   url = "https://mods.factorio.com/download/kehrweeks-se-tweaks/64fe15ed65026b5c01d22d53";  
@@ -56335,10 +56345,10 @@
 
 "multiple-characters" = factorioMod {
   pname = "multiple-characters"; 
-  url = "https://mods.factorio.com/download/multiple-characters/650c2427842804f23040a54f";  
-  file_name = "multiple-characters_0.3.1.zip"; 
-  sha1 = "2130d1fa255f272a56a5456a34be5101fee8d96a"; 
-  version = "0.3.1"; 
+  url = "https://mods.factorio.com/download/multiple-characters/650db3a7bffc5885171c61f8";  
+  file_name = "multiple-characters_0.3.2.zip"; 
+  sha1 = "95b3eb6fa151fdcce152a1a2cdeb482888ad4608"; 
+  version = "0.3.2"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -69445,10 +69455,10 @@
 
 "tycoon" = factorioMod {
   pname = "tycoon"; 
-  url = "https://mods.factorio.com/download/tycoon/650c59adfe06434a80d783a3";  
-  file_name = "tycoon_0.0.5.zip"; 
-  sha1 = "5ea36e45e86fd6241431b00aa67f4bd005411d50"; 
-  version = "0.0.5"; 
+  url = "https://mods.factorio.com/download/tycoon/650da17e2de6159aacbe31fe";  
+  file_name = "tycoon_0.0.6.zip"; 
+  sha1 = "a0cc5639cf739189e6bf445007ec76ab512aa111"; 
+  version = "0.0.6"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
