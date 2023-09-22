@@ -18185,12 +18185,12 @@
 
 "LinkedChestAndPipe" = factorioMod {
   pname = "LinkedChestAndPipe"; 
-  url = "https://mods.factorio.com/download/LinkedChestAndPipe/65085e7f22a0b9afa7812a0b";  
-  file_name = "LinkedChestAndPipe_1.0.60.zip"; 
-  sha1 = "909bc68ff7a3277a55549fa29998cd046924c7de"; 
-  version = "1.0.60"; 
+  url = "https://mods.factorio.com/download/LinkedChestAndPipe/650d6b4e6b3e8b62f97db2ab";  
+  file_name = "LinkedChestAndPipe_1.0.63.zip"; 
+  sha1 = "a02ccc20e8cee7c080d993e470d7e7fc81c736ee"; 
+  version = "1.0.63"; 
   deps = filterMissing self [  ];
-  optionalDeps = [ "Squeak Through" "Flow Control" "space-exploration" ];
+  optionalDeps = [ "Squeak Through" "Smart_Inserters" "Flow Control" "space-exploration" ];
  }; 
 
 "LinkedChestCheck" = factorioMod {
@@ -22355,12 +22355,12 @@
 
 "Nullius-QOL" = factorioMod {
   pname = "Nullius-QOL"; 
-  url = "https://mods.factorio.com/download/Nullius-QOL/6509de9a137e12ed40c264a4";  
-  file_name = "Nullius-QOL_0.1.0.zip"; 
-  sha1 = "f9eee51c746464cc66c5d66472da785b0e0ea7aa"; 
-  version = "0.1.0"; 
+  url = "https://mods.factorio.com/download/Nullius-QOL/650d6dc7b7521ed7396ad10e";  
+  file_name = "Nullius-QOL_0.2.0.zip"; 
+  sha1 = "7662a950a0310aec854ac23d44dc33279ec0eac0"; 
+  version = "0.2.0"; 
   deps = filterMissing self [ "nullius" ];
-  optionalDeps = [ "Moon_Logic" "capacity-combinator" ];
+  optionalDeps = [ "Moon_Logic" "capacity-combinator" "aai-containers" ];
  }; 
 
 "Nyan-artillery" = factorioMod {
@@ -60025,10 +60025,10 @@
 
 "proximity-voice-chat" = factorioMod {
   pname = "proximity-voice-chat"; 
-  url = "https://mods.factorio.com/download/proximity-voice-chat/650c49a5fe06434a80d783a2";  
-  file_name = "proximity-voice-chat_0.3.1.zip"; 
-  sha1 = "57eed082eaa9a82b33077f64862fc25455361c37"; 
-  version = "0.3.1"; 
+  url = "https://mods.factorio.com/download/proximity-voice-chat/650d6875bffc5885171c61f6";  
+  file_name = "proximity-voice-chat_0.3.2.zip"; 
+  sha1 = "051c6ae75adc6d32c64f4009ca17719965efebd2"; 
+  version = "0.3.2"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
