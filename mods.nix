@@ -1185,10 +1185,10 @@
 
 "Adjustable-Inventory-Size" = factorioMod {
   pname = "Adjustable-Inventory-Size"; 
-  url = "https://mods.factorio.com/download/Adjustable-Inventory-Size/600e2f9880d97bac52c11c12";  
-  file_name = "Adjustable-Inventory-Size_1.1.0.zip"; 
-  sha1 = "9a74263ecbd196ae54c734a1b26f5ad1afe1307d"; 
-  version = "1.1.0"; 
+  url = "https://mods.factorio.com/download/Adjustable-Inventory-Size/6513eca55890beb3d473f0ea";  
+  file_name = "Adjustable-Inventory-Size_1.2.0.zip"; 
+  sha1 = "fda347f24c17f6202fda9e6d951049d26d6f044d"; 
+  version = "1.2.0"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -4055,12 +4055,12 @@
 
 "Big-Monsters" = factorioMod {
   pname = "Big-Monsters"; 
-  url = "https://mods.factorio.com/download/Big-Monsters/64635bb2794eb1ff6f5d976d";  
-  file_name = "Big-Monsters_1.3.3.zip"; 
-  sha1 = "c4b13bd5a7a9604145a773fe6b178c2d41014407"; 
-  version = "1.3.3"; 
+  url = "https://mods.factorio.com/download/Big-Monsters/651426a3e281b24ff5881538";  
+  file_name = "Big-Monsters_1.4.0.zip"; 
+  sha1 = "d5d44024746e1d0a7c1c24fd459ef5acfc5b9250"; 
+  version = "1.4.0"; 
   deps = filterMissing self [  ];
-  optionalDeps = [ "mferrari-mod-sounds" "Cold_biters" "Explosive_biters" "Toxic_biters" "ArmouredBiters" ];
+  optionalDeps = [ "mferrari-mod-sounds" "Cold_biters" "Explosive_biters" "Toxic_biters" "Arachnids_enemy" "ArmouredBiters" "player_body_abduction" ];
  }; 
 
 "Big-machines-modpack" = factorioMod {
@@ -7199,6 +7199,16 @@
   file_name = "ConfigurableTrains_0.0.1.zip"; 
   sha1 = "88f2f37a934ed79b54643bdc268449d248bd07bb"; 
   version = "0.0.1"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
+"ConfigurableVanillaLamps" = factorioMod {
+  pname = "ConfigurableVanillaLamps"; 
+  url = "https://mods.factorio.com/download/ConfigurableVanillaLamps/651415175ba0c593f6460940";  
+  file_name = "ConfigurableVanillaLamps_0.1.0.zip"; 
+  sha1 = "04b01b734da38622909ca6966c48311f3df776f1"; 
+  version = "0.1.0"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -18245,10 +18255,10 @@
 
 "LinkedChestAndPipe" = factorioMod {
   pname = "LinkedChestAndPipe"; 
-  url = "https://mods.factorio.com/download/LinkedChestAndPipe/650fa5da87ccfe8e0740c968";  
-  file_name = "LinkedChestAndPipe_1.0.65.zip"; 
-  sha1 = "53c49569f7fbab26a138a981404d9cff996d2974"; 
-  version = "1.0.65"; 
+  url = "https://mods.factorio.com/download/LinkedChestAndPipe/65141a9e7da2b9c132f82f13";  
+  file_name = "LinkedChestAndPipe_1.0.66.zip"; 
+  sha1 = "7f780dcb0e9f7c4ba17320a904cc22c7b8fe454f"; 
+  version = "1.0.66"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "Squeak Through" "Smart_Inserters" "Flow Control" "space-exploration" ];
  }; 
@@ -22953,6 +22963,26 @@
   optionalDeps = [  ];
  }; 
 
+"Ore_Quilt" = factorioMod {
+  pname = "Ore_Quilt"; 
+  url = "https://mods.factorio.com/download/Ore_Quilt/65141ae2f5a2424d80cb1469";  
+  file_name = "Ore_Quilt_0.0.1.zip"; 
+  sha1 = "a8ebf52e5f7275fac318ebdce3f91858792ceeeb"; 
+  version = "0.0.1"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [ "optional-mod" ];
+ }; 
+
+"Ore_Quilt2" = factorioMod {
+  pname = "Ore_Quilt2"; 
+  url = "https://mods.factorio.com/download/Ore_Quilt2/651429a3f5a2424d80cb146f";  
+  file_name = "Ore_Quilt2_0.0.1.zip"; 
+  sha1 = "47bc2ebcd459f0affbb96646b56e46202a622cb3"; 
+  version = "0.0.1"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [ "optional-mod" ];
+ }; 
+
 "Oreverhaul" = factorioMod {
   pname = "Oreverhaul"; 
   url = "https://mods.factorio.com/download/Oreverhaul/637424140cb15df29763dc64";  
@@ -27623,6 +27653,16 @@
   optionalDeps = [  ];
  }; 
 
+"SE-FireEverything" = factorioMod {
+  pname = "SE-FireEverything"; 
+  url = "https://mods.factorio.com/download/SE-FireEverything/65139f4b4310e22ddbc57822";  
+  file_name = "SE-FireEverything_1.0.1.zip"; 
+  sha1 = "047ca4df891b9f35ba1a1cbb5ced10faafe24848"; 
+  version = "1.0.1"; 
+  deps = filterMissing self [ "space-exploration" ];
+  optionalDeps = [  ];
+ }; 
+
 "SE-MoreFuelDelivery" = factorioMod {
   pname = "SE-MoreFuelDelivery"; 
   url = "https://mods.factorio.com/download/SE-MoreFuelDelivery/647e34d156ccedae7f120669";  
@@ -30095,10 +30135,10 @@
 
 "Smart_Inserters" = factorioMod {
   pname = "Smart_Inserters"; 
-  url = "https://mods.factorio.com/download/Smart_Inserters/650c4792c45220a03dacc39c";  
-  file_name = "Smart_Inserters_1.0.5.zip"; 
-  sha1 = "0f86f68ab13c219c01413a6198b55d22f3d480b9"; 
-  version = "1.0.5"; 
+  url = "https://mods.factorio.com/download/Smart_Inserters/65143ef5c6d38502520f6d10";  
+  file_name = "Smart_Inserters_1.0.7.zip"; 
+  sha1 = "ddb4b8b1ed39052d5978c80e5c1c1b60a05bd73f"; 
+  version = "1.0.7"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -35135,12 +35175,12 @@
 
 "WH40k-Titans" = factorioMod {
   pname = "WH40k-Titans"; 
-  url = "https://mods.factorio.com/download/WH40k-Titans/651158469e58bb327e21c85e";  
-  file_name = "WH40k-Titans_0.9.14.zip"; 
-  sha1 = "425828c6b46f16cdb274985d67fd0431e2103617"; 
-  version = "0.9.14"; 
+  url = "https://mods.factorio.com/download/WH40k-Titans/651439100041c2e95249a32f";  
+  file_name = "WH40k-Titans_0.9.16.zip"; 
+  sha1 = "cf32a02d1dcb157b820c2bc9eee548e8a733046c"; 
+  version = "0.9.16"; 
   deps = filterMissing self [ "Recipes-Reload" "Reverse-Engineering" "Common-Industries" "WH40k-Titans-media" ];
-  optionalDeps = [ "Mechanicus" ];
+  optionalDeps = [ "aai-programmable-vehicles" "Mechanicus" "kj_servoskull" ];
  }; 
 
 "WH40k-Titans-media" = factorioMod {
@@ -37039,6 +37079,16 @@
   file_name = "adjustable_exoskeletons_1.0.2.zip"; 
   sha1 = "e62dfe1942b73d309c19cdad21c3e15baa97f511"; 
   version = "1.0.2"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
+"adjustable_exoskeletons_redux" = factorioMod {
+  pname = "adjustable_exoskeletons_redux"; 
+  url = "https://mods.factorio.com/download/adjustable_exoskeletons_redux/65139d574310e22ddbc5781f";  
+  file_name = "adjustable_exoskeletons_redux_1.0.0.zip"; 
+  sha1 = "42b430f7d9d9ed24017f6bca53083e22894e96f5"; 
+  version = "1.0.0"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -46935,10 +46985,10 @@
 
 "factorio-ore-refresh" = factorioMod {
   pname = "factorio-ore-refresh"; 
-  url = "https://mods.factorio.com/download/factorio-ore-refresh/6437cc9f7ff31cb7b042573f";  
-  file_name = "factorio-ore-refresh_0.0.1.zip"; 
-  sha1 = "8ae078c9a7fde95b340cbb7b193ad6a8ac1767d6"; 
-  version = "0.0.1"; 
+  url = "https://mods.factorio.com/download/factorio-ore-refresh/6513fb1e5890beb3d473f0eb";  
+  file_name = "factorio-ore-refresh_0.0.3.zip"; 
+  sha1 = "3f8485ba06781af282c97ba00625bca9c602fa54"; 
+  version = "0.0.3"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -58485,10 +58535,10 @@
 
 "osha_container_signals" = factorioMod {
   pname = "osha_container_signals"; 
-  url = "https://mods.factorio.com/download/osha_container_signals/63d02eb0d19773034459f7ce";  
-  file_name = "osha_container_signals_0.0.4.zip"; 
-  sha1 = "1302300d997f2b5e1653ef2ebd84c14df388c783"; 
-  version = "0.0.4"; 
+  url = "https://mods.factorio.com/download/osha_container_signals/6514378b49bfbbd2c6c537e3";  
+  file_name = "osha_container_signals_0.0.5.zip"; 
+  sha1 = "d95773da462ec2016991715f3208f1e31b78a91f"; 
+  version = "0.0.5"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -60005,10 +60055,10 @@
 
 "probibots" = factorioMod {
   pname = "probibots"; 
-  url = "https://mods.factorio.com/download/probibots/65129a33aa440c1b47f7c3e1";  
-  file_name = "probibots_0.1.1.zip"; 
-  sha1 = "55b6b13faac954310a1dfea6c51667130eafa618"; 
-  version = "0.1.1"; 
+  url = "https://mods.factorio.com/download/probibots/6513c1740041c2e95249a31e";  
+  file_name = "probibots_0.1.2.zip"; 
+  sha1 = "5e068b1cd0746ef1ab49aceb2973b12f8ca1ad47"; 
+  version = "0.1.2"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -69725,10 +69775,10 @@
 
 "tycoon" = factorioMod {
   pname = "tycoon"; 
-  url = "https://mods.factorio.com/download/tycoon/6511739a9328f34d9a21806b";  
-  file_name = "tycoon_0.0.12.zip"; 
-  sha1 = "e9739f5176763dd90c9ad528e418bccc01668b7e"; 
-  version = "0.0.12"; 
+  url = "https://mods.factorio.com/download/tycoon/6513e88e49bfbbd2c6c537e2";  
+  file_name = "tycoon_0.0.13.zip"; 
+  sha1 = "6bf779730e899bbd739bf625953811a04b4494ad"; 
+  version = "0.0.13"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
