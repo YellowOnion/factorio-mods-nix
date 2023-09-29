@@ -45553,6 +45553,16 @@
   optionalDeps = [  ];
  }; 
 
+"elevated-rails" = factorioMod {
+  pname = "elevated-rails"; 
+  url = "https://mods.factorio.com/download/elevated-rails/6516ae4de756ff77cdc2e3e3";  
+  file_name = "elevated-rails_1.1.0.zip"; 
+  sha1 = "7c411c757815c9e24e92883c32a814a6f3230d39"; 
+  version = "1.1.0"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
 "elka-reupload" = factorioMod {
   pname = "elka-reupload"; 
   url = "https://mods.factorio.com/download/elka-reupload/6373c81370a0114694618bf8";  
@@ -54809,6 +54819,16 @@
   file_name = "magnet-signal_1.1.0.zip"; 
   sha1 = "eef2f75c69b54383151b97d1f8a482c8ef96a9b6"; 
   version = "1.1.0"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
+"magnetile" = factorioMod {
+  pname = "magnetile"; 
+  url = "https://mods.factorio.com/download/magnetile/6516c341c3abaa96cb7f7867";  
+  file_name = "magnetile_0.0.2.zip"; 
+  sha1 = "4fefb1e74b635d8517ec05e02403c14430fbead8"; 
+  version = "0.0.2"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
