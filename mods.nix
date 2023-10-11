@@ -25875,10 +25875,10 @@
 
 "RandFTModSound" = factorioMod {
   pname = "RandFTModSound"; 
-  url = "https://mods.factorio.com/download/RandFTModSound/65258f711ca474b822829e7c";  
-  file_name = "RandFTModSound_1.0.0.zip"; 
-  sha1 = "6812175055e3d121fef8ad4deacac96d47f3e129"; 
-  version = "1.0.0"; 
+  url = "https://mods.factorio.com/download/RandFTModSound/652699762d8a1753132b708d";  
+  file_name = "RandFTModSound_1.0.1.zip"; 
+  sha1 = "c7b13b5129710fe1c98da20b2787016e23eaafe7"; 
+  version = "1.0.1"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -61765,10 +61765,10 @@
 
 "pysettings" = factorioMod {
   pname = "pysettings"; 
-  url = "https://mods.factorio.com/download/pysettings/6525d40d1645373d2d89bab2";  
-  file_name = "pysettings_0.0.5.zip"; 
-  sha1 = "81277fb7c610d2832d4cc552ff5ff06e390e8b03"; 
-  version = "0.0.5"; 
+  url = "https://mods.factorio.com/download/pysettings/6526ad2cebac4ffe7daba318";  
+  file_name = "pysettings_0.0.6.zip"; 
+  sha1 = "2d7c8d18233958995d9f3091df800d4ddd7d3518"; 
+  version = "0.0.6"; 
   deps = filterMissing self [ "pyalternativeenergy" ];
   optionalDeps = [  ];
  }; 
@@ -72295,11 +72295,11 @@
 
 "weplay_se_kr_bz" = factorioMod {
   pname = "weplay_se_kr_bz"; 
-  url = "https://mods.factorio.com/download/weplay_se_kr_bz/65261aaedaeb97d4d4761f24";  
-  file_name = "weplay_se_kr_bz_1.0.9.zip"; 
-  sha1 = "9c6311cab1e87663127de5943354ea300f2da7a2"; 
-  version = "1.0.9"; 
-  deps = filterMissing self [ "space-exploration" "space-exploration-postprocess" "Krastorio2" "bzaluminum" "bzcarbon" "bzchlorine" "bzfoundry" "bzgas" "bzgold" "bzlead" "bzsilicon" "bztin" "bztitanium" "bztungsten" "bzzirconium" "5dim_core" "5dim_automation" "5dim_logistic" "5dim_battlefield" "5dim_botrecaller" "5dim_compatibility" "5dim_enemies" "5dim_energy" "5dim_equipment" "5dim_logistic" "5dim_mining" "5dim_nuclear" "5dim_resources" "5dim_storage" "5dim_trains" "5dim_transport" "informatron" "aai-industry" "equipment-gantry" "alien-biomes" "alien-biomes-hr-terrain" "jetpack" "Atomic_Overhaul" "Geothermal" "space-spidertron" "spidertron-dock" "spidertron-extended" "Spidertron-Inventory-Sorter" "spidertrontiers-community-updates" "BigBags" "bobinserters" "ChangeMapSettings" "chest-auto-sort" "CreativeItems" "filter_assistant" "FilterChests" "ModuleInserterER" "OreEraser" "PipeVisualizer" "power-grid-comb" "show-max-underground-distance" "sonaxaton-research-queue" "Soundpack-alerts-and-sirens-updated-v1-1" "Shortcuts-ick" "StatsGui" "TrainModeSwitcher" "WireShortcuts" "YARM" "aai-containers" "angelsaddons-storage" "Warehousing" "aai-signal-transmission" "compaktcircuit" "copy-paste-recipe-signals-to-combinator" "crafting_combinator" "FactorIO" "fcpu" "glutenfree-aai-signal-transmission-preview" "LogisticRequestManager" "LogisticTrainNetwork" "Long_Range_Delivery_Drones" "LtnManager" "LTN_Combinator_Modernized" "nixie-tubes" "se-ltn-glue" "SchallVirtualSignal" "stack-combinator" "stack4cc" "aai-vehicles-ironclad" "cargo-ships" "electric-shuttle-train" "se-space-trains" "ShuttleTrainRefresh" "space-trains" "belt-balancer" "miniloader" "more-miniloaders" "UltimateBelts" "underground-pipe-pack" "DisplayPlates" "EvenMoreTextPlates" "Flare Stack" "FlareStack-SE" "FluidMustFlow" "FluidMustFlowSE" "shield-projector" "safefill" "smr" "textplates" "Common-Industries" "DragonIndustries" "flib" "rusty-locale" "simhelper" "stdlib" ];
+  url = "https://mods.factorio.com/download/weplay_se_kr_bz/6526a0f5c3108b688fe84c5e";  
+  file_name = "weplay_se_kr_bz_1.0.10.zip"; 
+  sha1 = "c92294436edf8229652fb3b868cdecd69e85378d"; 
+  version = "1.0.10"; 
+  deps = filterMissing self [ "space-exploration" "space-exploration-postprocess" "Krastorio2" "bzaluminum" "bzcarbon" "bzchlorine" "bzfoundry" "bzgas" "bzgold" "bzlead" "bzsilicon" "bztin" "bztitanium" "bztungsten" "bzzirconium" "5dim_core" "5dim_automation" "5dim_logistic" "5dim_battlefield" "5dim_botrecaller" "5dim_compatibility" "5dim_enemies" "5dim_energy" "5dim_equipment" "5dim_logistic" "5dim_mining" "5dim_nuclear" "5dim_resources" "5dim_storage" "5dim_trains" "5dim_transport" "informatron" "aai-industry" "equipment-gantry" "alien-biomes" "alien-biomes-hr-terrain" "jetpack" "Atomic_Overhaul" "Geothermal" "space-spidertron" "spidertron-dock" "spidertron-extended" "Spidertron-Inventory-Sorter" "spidertrontiers-community-updates" "BigBags" "bobinserters" "ChangeMapSettings" "chest-auto-sort" "CreativeItems" "filter_assistant" "FilterChests" "ModuleInserterER" "OreEraser" "PipeVisualizer" "power-grid-comb" "puppy-jetpack-ui" "show-max-underground-distance" "sonaxaton-research-queue" "Soundpack-alerts-and-sirens-updated-v1-1" "Shortcuts-ick" "StatsGui" "TrainModeSwitcher" "WireShortcuts" "YARM" "aai-containers" "angelsaddons-storage" "Warehousing" "aai-signal-transmission" "compaktcircuit" "copy-paste-recipe-signals-to-combinator" "crafting_combinator" "FactorIO" "fcpu" "glutenfree-aai-signal-transmission-preview" "LogisticRequestManager" "LogisticTrainNetwork" "Long_Range_Delivery_Drones" "LtnManager" "LTN_Combinator_Modernized" "nixie-tubes" "se-ltn-glue" "SchallVirtualSignal" "stack-combinator" "stack4cc" "aai-vehicles-ironclad" "cargo-ships" "electric-shuttle-train" "se-space-trains" "ShuttleTrainRefresh" "space-trains" "belt-balancer" "miniloader" "more-miniloaders" "UltimateBelts" "underground-pipe-pack" "DisplayPlates" "EvenMoreTextPlates" "Flare Stack" "FlareStack-SE" "FluidMustFlow" "FluidMustFlowSE" "shield-projector" "safefill" "smr" "textplates" "Common-Industries" "DragonIndustries" "flib" "rusty-locale" "simhelper" "stdlib" ];
   optionalDeps = [  ];
  }; 
 
