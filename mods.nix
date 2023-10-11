@@ -6615,10 +6615,10 @@
 
 "Clowns-Extended-Minerals" = factorioMod {
   pname = "Clowns-Extended-Minerals"; 
-  url = "https://mods.factorio.com/download/Clowns-Extended-Minerals/643b768696d348a914496aeb";  
-  file_name = "Clowns-Extended-Minerals_1.1.25.zip"; 
-  sha1 = "0a075416b3677a8ed8c02c7e297c131cc3881672"; 
-  version = "1.1.25"; 
+  url = "https://mods.factorio.com/download/Clowns-Extended-Minerals/652658ce920d9c82911c5fc1";  
+  file_name = "Clowns-Extended-Minerals_1.1.26.zip"; 
+  sha1 = "47f15e37017413ec14fcd83300a7d073bc43d171"; 
+  version = "1.1.26"; 
   deps = filterMissing self [ "angelsrefining" "Clowns-Processing" ];
   optionalDeps = [ "bobores" "bobplates" "omnimatter_crystal" ];
  }; 
@@ -29055,10 +29055,10 @@
 
 "SchallTankPlatoon" = factorioMod {
   pname = "SchallTankPlatoon"; 
-  url = "https://mods.factorio.com/download/SchallTankPlatoon/5fd63ab16937c49dffbbf5f6";  
-  file_name = "SchallTankPlatoon_1.1.1.zip"; 
-  sha1 = "7b3790d4fb9798c0ddbaeebceb08f8ce715a6430"; 
-  version = "1.1.1"; 
+  url = "https://mods.factorio.com/download/SchallTankPlatoon/65267db78dafc430851c3dec";  
+  file_name = "SchallTankPlatoon_1.1.2.zip"; 
+  sha1 = "b12aaad450a4cf36c11b18931cb96a889c19b690"; 
+  version = "1.1.2"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "SchallTransportGroup" ];
  }; 
@@ -49165,12 +49165,12 @@
 
 "freeelectronics" = factorioMod {
   pname = "freeelectronics"; 
-  url = "https://mods.factorio.com/download/freeelectronics/64a2ae06e5ef3f05bda58ac1";  
-  file_name = "freeelectronics_1.0.1.zip"; 
-  sha1 = "233cdbb81c632dc49888b11cd1cd5711e1b6a7c0"; 
-  version = "1.0.1"; 
+  url = "https://mods.factorio.com/download/freeelectronics/65267f6c2d8a1753132b708c";  
+  file_name = "freeelectronics_1.1.2.zip"; 
+  sha1 = "573d10bad71c4de0a5e456a4aaa5108851d1a779"; 
+  version = "1.1.2"; 
   deps = filterMissing self [  ];
-  optionalDeps = [  ];
+  optionalDeps = [ "subspace_storage" "LTN_Combinator_Modernized" "cybersyn" "WireShortcuts" "pypostprocessing" ];
  }; 
 
 "freelogicartpathing" = factorioMod {
