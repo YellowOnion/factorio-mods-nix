@@ -22585,12 +22585,12 @@
 
 "Nullius-QOL" = factorioMod {
   pname = "Nullius-QOL"; 
-  url = "https://mods.factorio.com/download/Nullius-QOL/6522fe84ec338f6c61593d8c";  
-  file_name = "Nullius-QOL_0.3.0.zip"; 
-  sha1 = "4637b23208a2a55b3869a36371241ff3a41e4fcd"; 
-  version = "0.3.0"; 
+  url = "https://mods.factorio.com/download/Nullius-QOL/65280224fe9044a9000baca2";  
+  file_name = "Nullius-QOL_0.4.0.zip"; 
+  sha1 = "60be093197301ce53994f86a3559ed7b1c127024"; 
+  version = "0.4.0"; 
   deps = filterMissing self [ "nullius" ];
-  optionalDeps = [ "Moon_Logic" "capacity-combinator" "aai-containers" "Fluid-level-indicator" ];
+  optionalDeps = [ "Moon_Logic" "capacity-combinator" "aai-containers" "Fluid-level-indicator" "underground-pipe-pack" ];
  }; 
 
 "Nyan-artillery" = factorioMod {
@@ -28023,6 +28023,16 @@
   optionalDeps = [  ];
  }; 
 
+"SEDeliveryCannonPower" = factorioMod {
+  pname = "SEDeliveryCannonPower"; 
+  url = "https://mods.factorio.com/download/SEDeliveryCannonPower/6527f29b40bd2cee9df3df89";  
+  file_name = "SEDeliveryCannonPower_1.0.0.zip"; 
+  sha1 = "53211ec92fb13bcb875f3e5e2ec739716cfe9ede"; 
+  version = "1.0.0"; 
+  deps = filterMissing self [ "space-exploration" ];
+  optionalDeps = [  ];
+ }; 
+
 "SEK2-opt-card-tweak" = factorioMod {
   pname = "SEK2-opt-card-tweak"; 
   url = "https://mods.factorio.com/download/SEK2-opt-card-tweak/63ffece8406aefc7a9c0a483";  
@@ -28795,10 +28805,10 @@
 
 "SchallLanguagePack" = factorioMod {
   pname = "SchallLanguagePack"; 
-  url = "https://mods.factorio.com/download/SchallLanguagePack/61c2f656fb4452e328b7a4d3";  
-  file_name = "SchallLanguagePack_2021.12.16.zip"; 
-  sha1 = "40155bc8388c90090d37d1f661343df1b1ecff7c"; 
-  version = "2021.12.16"; 
+  url = "https://mods.factorio.com/download/SchallLanguagePack/6527df857e916567fb49b826";  
+  file_name = "SchallLanguagePack_2023.10.12.zip"; 
+  sha1 = "3356baeb603904c3e4144ea14bd745fc6587d168"; 
+  version = "2023.10.12"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "SchallAlienLoot" "SchallAlienMutation" "SchallAlienTech" "SchallAmmoTurrets" "SchallArachnidPlatoon" "SchallArmouredTrain" "SchallArmouredTrainNostalgia" "SchallArtillery" "SchallAutolinkedChest" "SchallBeltConfiguration" "SchallBeltConfigurationBob" "SchallBeltConfigurationKrastorio" "SchallChunkAlignment" "SchallCircuitGroup" "SchallCircuitScaling" "SchallCombatRobotics" "SchallEndgameEvolution" "SchallEntityInspector" "SchallFactorioGear" "SchallGeowarfare" "SchallGeowarfareNokiaPhone" "SchallGunPod" "SchallInserters" "SchallLampContrast" "SchallLandMine" "SchallMachineModification" "SchallMachineScaling" "SchallMapTag" "SchallMinorTweaks" "SchallMissileCommand" "SchallModulePlacement" "SchallModules" "SchallOilFuel" "SchallOreConversion" "SchallOverseasRailway" "SchallPerpetualMachine" "SchallPickupTower" "SchallPipeScaling" "SchallPrimaryBattery" "SchallRadarAlignment" "SchallRadioactiveWaste" "SchallRailwayController" "SchallRechargingWeapon" "SchallRecipeScaling" "SchallRemainsPickup" "SchallSatelliteController" "SchallStartingInventory" "SchallStartingTech" "SchallSuit" "SchallTankPlatoon" "SchallTankWoodcutting" "SchallTransportGroup" "SchallUncraft" "SchallUraniumProcessing" "SchallVirtualSignal" ];
  }; 
@@ -28895,10 +28905,10 @@
 
 "SchallOverseasRailway" = factorioMod {
   pname = "SchallOverseasRailway"; 
-  url = "https://mods.factorio.com/download/SchallOverseasRailway/5fce62600e353939813a0b62";  
-  file_name = "SchallOverseasRailway_1.1.0.zip"; 
-  sha1 = "6ebad223fb31998029bc8787bb493ce17e2ec8f8"; 
-  version = "1.1.0"; 
+  url = "https://mods.factorio.com/download/SchallOverseasRailway/6527df2dfe9044a9000baca0";  
+  file_name = "SchallOverseasRailway_1.1.1.zip"; 
+  sha1 = "dcfc8bc3614690e9e02779f9b846a473eb29077c"; 
+  version = "1.1.1"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -36785,10 +36795,10 @@
 
 "ZigQOL" = factorioMod {
   pname = "ZigQOL"; 
-  url = "https://mods.factorio.com/download/ZigQOL/625f12dc668d0adc129c45da";  
-  file_name = "ZigQOL_1.0.0.zip"; 
-  sha1 = "2d1ec8b5f918841495233e5021b9eb13d33acf1e"; 
-  version = "1.0.0"; 
+  url = "https://mods.factorio.com/download/ZigQOL/6527f36e7e916567fb49b829";  
+  file_name = "ZigQOL_1.1.1.zip"; 
+  sha1 = "f8761f3472fdde8281dd3afc045f748ef60d0745"; 
+  version = "1.1.1"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -44045,10 +44055,10 @@
 
 "corrin-model" = factorioMod {
   pname = "corrin-model"; 
-  url = "https://mods.factorio.com/download/corrin-model/6527b6904a43792638f92c2f";  
-  file_name = "corrin-model_0.6.9.zip"; 
-  sha1 = "be53e391094aa0806d96fbeaefe72332f65049d4"; 
-  version = "0.6.9"; 
+  url = "https://mods.factorio.com/download/corrin-model/6527b7ecc3108b688fe84c66";  
+  file_name = "corrin-model_0.7.0.zip"; 
+  sha1 = "c4eada7b89640843afec6e5364ac34dfba0ef348"; 
+  version = "0.7.0"; 
   deps = filterMissing self [ "CharacterModHelper" ];
   optionalDeps = [  ];
  }; 
@@ -44455,10 +44465,10 @@
 
 "cybersyn" = factorioMod {
   pname = "cybersyn"; 
-  url = "https://mods.factorio.com/download/cybersyn/646118ba78d05e8d0cdc7878";  
-  file_name = "cybersyn_1.2.16.zip"; 
-  sha1 = "4f266bbaf3d5e4ec0bd5c6822b2c7ecd35a4a714"; 
-  version = "1.2.16"; 
+  url = "https://mods.factorio.com/download/cybersyn/6527edbf7e916567fb49b828";  
+  file_name = "cybersyn_1.3.0.zip"; 
+  sha1 = "b5221d3fa691669e2f915bcea14178589f44df7f"; 
+  version = "1.3.0"; 
   deps = filterMissing self [ "flib" ];
   optionalDeps = [ "space-exploration" "miniloader" "nullius" "pypostprocessing" ];
  }; 
@@ -52625,10 +52635,10 @@
 
 "k2-danger-ores" = factorioMod {
   pname = "k2-danger-ores"; 
-  url = "https://mods.factorio.com/download/k2-danger-ores/652723788dafc430851c3df5";  
-  file_name = "k2-danger-ores_0.2.0.zip"; 
-  sha1 = "b6b2d219ff03152b583e3ae373a7b45324841016"; 
-  version = "0.2.0"; 
+  url = "https://mods.factorio.com/download/k2-danger-ores/6527fd042efecfd0820785f6";  
+  file_name = "k2-danger-ores_0.2.1.zip"; 
+  sha1 = "2f6cc7e19a22d632d882e0d312d3c4c5fcaa180e"; 
+  version = "0.2.1"; 
   deps = filterMissing self [ "Krastorio2" ];
   optionalDeps = [ "deadlock-beltboxes-loaders" "expensive-warehousing" ];
  }; 
@@ -56855,10 +56865,10 @@
 
 "modpack_se_k2_bz_248k" = factorioMod {
   pname = "modpack_se_k2_bz_248k"; 
-  url = "https://mods.factorio.com/download/modpack_se_k2_bz_248k/65258c6ad987e160bcbd247f";  
-  file_name = "modpack_se_k2_bz_248k_1.0.12.zip"; 
-  sha1 = "0aa1aa82161a4ede8855ea6d87eeec96ed77efca"; 
-  version = "1.0.12"; 
+  url = "https://mods.factorio.com/download/modpack_se_k2_bz_248k/6527c15dfe9044a9000bac9a";  
+  file_name = "modpack_se_k2_bz_248k_1.0.13.zip"; 
+  sha1 = "248be7c0d630fe459ee153da4be70193bd22474c"; 
+  version = "1.0.13"; 
   deps = filterMissing self [ "glutenfree-se-rocket-launch-pad-label" "se-ltn-glue" "se-cme-combinator" "spaceexplorationdatachipaugmenter" "space-exploration-graphics" "space-exploration-graphics-2" "space-exploration-graphics-3" "space-exploration-graphics-4" "space-exploration-graphics-5" "space-exploration-menu-simulations" "space-exploration-pipes-n-belts" "space-exploration-postprocess" "se-recycling-extras" "se-flow-control-bridge" "space-spidertron" "spidertron-dock" "se-space-trains" "rocket-log" "shield-projector" "se-landfill-le" "SE_smooth_ship_walls" "space-exploration" "Krastorio2" "Krastorio2Assets" "248k" "nach0_248k_k2_compat_patch" "SE248kfix" "bismuth" "bzaluminum" "bzcarbon" "bzfoundry" "bzsilicon" "bzchlorine" "bzgas" "bzlead" "bzgold" "bztin" "bztitanium" "bzzirconium" "bztungsten" "IfNickel" "bz-dsr-bridge" "BrassTacks" "MDbobelectronics" "FluidMustFlowSE" "Expensive_Fluid_Must_Flow_Recipes" "se_k2_fluid_permutations" "grappling-gun" "More_Ammo" "aai-containers" "aai-industry" "aai-signal-transmission" "balanced-waterfill" "Bio_Industries" "bobinserters" "jetpack" "research_causes_evolution_next" "steam-drones" "Transport_Drones" "WellPlanner_bzgas_fixed" "WireShortcuts" "stdlib" "boblibrary" "RampantFixed" "Arachnids" "RampantArsenal" "heroturrets" "More_Repair_Packs" ];
   optionalDeps = [ "qol_by_morality" ];
  }; 
