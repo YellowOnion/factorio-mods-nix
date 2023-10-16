@@ -15423,6 +15423,16 @@
   optionalDeps = [  ];
  }; 
 
+"InformatronBugTest" = factorioMod {
+  pname = "InformatronBugTest"; 
+  url = "https://mods.factorio.com/download/InformatronBugTest/652d25eaa99644178044bb5d";  
+  file_name = "InformatronBugTest_0.0.1.zip"; 
+  sha1 = "9194bbd086e972430725c4c272600533bee5012a"; 
+  version = "0.0.1"; 
+  deps = filterMissing self [ "informatron" ];
+  optionalDeps = [  ];
+ }; 
+
 "IngosAdvancedStart" = factorioMod {
   pname = "IngosAdvancedStart"; 
   url = "https://mods.factorio.com/download/IngosAdvancedStart/5fc27cd0b3e7b92289e2bb91";  
@@ -20261,6 +20271,16 @@
   version = "1.1.1"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "LinkedBelts" ];
+ }; 
+
+"MobileFactoryRedux" = factorioMod {
+  pname = "MobileFactoryRedux"; 
+  url = "https://mods.factorio.com/download/MobileFactoryRedux/652d4c6a073cb7a189a5c1f9";  
+  file_name = "MobileFactoryRedux_0.0.1.zip"; 
+  sha1 = "504a37de0ccf94aa92087d34f2ebcb48e2161098"; 
+  version = "0.0.1"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
  }; 
 
 "Mobile_Factory" = factorioMod {
@@ -48123,6 +48143,16 @@
   optionalDeps = [  ];
  }; 
 
+"faster-flame-updated" = factorioMod {
+  pname = "faster-flame-updated"; 
+  url = "https://mods.factorio.com/download/faster-flame-updated/652d495d74a42b81f3e5fd7b";  
+  file_name = "faster-flame-updated_1.1.0.zip"; 
+  sha1 = "377f7f22c29f7a4256c37ae60dc1841a23be56cf"; 
+  version = "1.1.0"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
 "faster-handmining" = factorioMod {
   pname = "faster-handmining"; 
   url = "https://mods.factorio.com/download/faster-handmining/5fce1cfc63b11de1f97966b6";  
@@ -64815,10 +64845,10 @@
 
 "scattergun_turret" = factorioMod {
   pname = "scattergun_turret"; 
-  url = "https://mods.factorio.com/download/scattergun_turret/64bc08df686b03ab63432586";  
-  file_name = "scattergun_turret_7.4.0.zip"; 
-  sha1 = "392c5657ed4313135afe9770112eec83f347c492"; 
-  version = "7.4.0"; 
+  url = "https://mods.factorio.com/download/scattergun_turret/652d2fc91bacba79d8ac4bed";  
+  file_name = "scattergun_turret_7.4.1.zip"; 
+  sha1 = "4f7810ed28d58766998832314f1d817e01bc4150"; 
+  version = "7.4.1"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "Krastorio2" "IndustrialRevolution3" ];
  }; 
@@ -70995,10 +71025,10 @@
 
 "tycoon" = factorioMod {
   pname = "tycoon"; 
-  url = "https://mods.factorio.com/download/tycoon/65279b958a35a8e3a92b1d7f";  
-  file_name = "tycoon_0.0.22.zip"; 
-  sha1 = "98aee918bdb3e37f6850741678cf512ddae0ad34"; 
-  version = "0.0.22"; 
+  url = "https://mods.factorio.com/download/tycoon/652d33bc3dfe2865197fa936";  
+  file_name = "tycoon_0.1.0.zip"; 
+  sha1 = "11e052eae1aeb0a12ea6e0c3c8d068220e3c9a0a"; 
+  version = "0.1.0"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
