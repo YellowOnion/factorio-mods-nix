@@ -38615,12 +38615,12 @@
 
 "all-the-overhaul-modpack" = factorioMod {
   pname = "all-the-overhaul-modpack"; 
-  url = "https://mods.factorio.com/download/all-the-overhaul-modpack/6548686a2e6f15b8adc2a55d";  
-  file_name = "all-the-overhaul-modpack_1.3.9.zip"; 
-  sha1 = "9740a1840779b23928ebcd3e5afe310977fb6714"; 
-  version = "1.3.9"; 
-  deps = filterMissing self [ "248k" "aai-containers" "aai-industry" "Bio_Industries" "bismuth" "BrassTacks" "bz-dsr-bridge" "bzaluminum" "bzcarbon" "bzchlorine" "bzfoundry" "bzgas" "bzgold" "bzlead" "bzsilicon" "bztin" "bztitanium" "bztungsten" "bzzirconium" "cargo-ships" "cargo-ships-graphics" "dredgeworks" "Electric-Weapons" "fireproof-bots" "flib" "grappling-gun" "heroturrets" "IfNickel" "informatron" "jetpack" "Krastorio2" "Krastorio2Assets" "logistic-tanks" "LSlib" "LR_Turret" "manganese" "MDbobelectronics" "More_Ammo" "nach0_248k_k2_compat_patch" "nach0_library" "RitnLib" "robot_attrition" "SchallCircuitGroup" "SchallTransportGroup" "se-landfill-le" "se-recycling-extras" "se-space-trains" "SE248kfix" "shield-projector" "simhelper" "space-exploration" "space-exploration-graphics" "space-exploration-graphics-2" "space-exploration-graphics-3" "space-exploration-graphics-4" "space-exploration-graphics-5" "space-exploration-menu-simulations" "space-exploration-pipes-n-belts" "space-exploration-postprocess" "spaceexplorationdatachipaugmenter" "stdlib" "TanksSchallGroupsfixes" "WipMod_TA-miners" ];
-  optionalDeps = [ "aai-loaders" "ArtilleryShellStack" "Avatars" "bobinserters" "Companion_Drones" "companion-drones-rebalanced" "Configurable-Armour-Suits" "Expensive_Fluid_Must_Flow_Recipes" "Flow Control" "FluidMustFlow" "FluidMustFlowSE" "RampantFixed" "RPGsystem" "se-cme-combinator" "se-flow-control-bridge" "se-qol" "SensibleGibs" "se_k2_fluid_permutations" "space-spidertron" "spidertron-dock" "WideChests" ];
+  url = "https://mods.factorio.com/download/all-the-overhaul-modpack/654a46cb04432ee63c7f0f65";  
+  file_name = "all-the-overhaul-modpack_1.4.0.zip"; 
+  sha1 = "66b53445884fe8fff0bb308cde92ef9e416ce5a9"; 
+  version = "1.4.0"; 
+  deps = filterMissing self [ "248k" "aai-containers" "aai-industry" "Bio_Industries" "bismuth" "BrassTacks" "bz-dsr-bridge" "bzaluminum" "bzcarbon" "bzchlorine" "bzfoundry" "bzgas" "bzgold" "bzlead" "bzsilicon" "bztin" "bztitanium" "bztungsten" "bzzirconium" "cargo-ships" "cargo-ships-graphics" "dredgeworks" "Electric-Weapons" "fireproof-bots" "flib" "grappling-gun" "heroturrets" "IfNickel" "informatron" "jetpack" "Krastorio2" "Krastorio2Assets" "LSlib" "LR_Turret" "manganese" "MDbobelectronics" "More_Ammo" "nach0_248k_k2_compat_patch" "nach0_library" "RitnLib" "robot_attrition" "SchallCircuitGroup" "SchallTransportGroup" "se-landfill-le" "se-recycling-extras" "se-space-trains" "SE248kfix" "shield-projector" "simhelper" "space-exploration" "space-exploration-graphics" "space-exploration-graphics-2" "space-exploration-graphics-3" "space-exploration-graphics-4" "space-exploration-graphics-5" "space-exploration-menu-simulations" "space-exploration-pipes-n-belts" "space-exploration-postprocess" "spaceexplorationdatachipaugmenter" "stdlib" "TanksSchallGroupsfixes" "WipMod_TA-miners" ];
+  optionalDeps = [ "aai-loaders" "ArtilleryShellStack" "Avatars" "bobinserters" "Companion_Drones" "companion-drones-rebalanced" "Configurable-Armour-Suits" "Expensive_Fluid_Must_Flow_Recipes" "Flow Control" "FluidMustFlow" "FluidMustFlowSE" "logistic-tanks" "RampantFixed" "RPGsystem" "se-cme-combinator" "se-flow-control-bridge" "se-qol" "SensibleGibs" "se_k2_fluid_permutations" "space-spidertron" "spidertron-dock" "WideChests" ];
  }; 
 
 "all-tiles-stack-1k" = factorioMod {
@@ -48835,10 +48835,10 @@
 
 "fake-new-rails" = factorioMod {
   pname = "fake-new-rails"; 
-  url = "https://mods.factorio.com/download/fake-new-rails/6541a2971d3250f38d8b3372";  
-  file_name = "fake-new-rails_0.1.4.zip"; 
-  sha1 = "c681f7d87541095fac96a3467337c026504ea334"; 
-  version = "0.1.4"; 
+  url = "https://mods.factorio.com/download/fake-new-rails/654a4a965f80c6b0d12678e8";  
+  file_name = "fake-new-rails_0.2.0.zip"; 
+  sha1 = "8b6eb1a5375ca0144bead9449dbe71b704278a13"; 
+  version = "0.2.0"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -72215,10 +72215,10 @@
 
 "tycoon" = factorioMod {
   pname = "tycoon"; 
-  url = "https://mods.factorio.com/download/tycoon/654535f54693cf1403c9dc3c";  
-  file_name = "tycoon_0.1.6.zip"; 
-  sha1 = "746f9a3e7defb8a195d3c99361be5f8675bc1338"; 
-  version = "0.1.6"; 
+  url = "https://mods.factorio.com/download/tycoon/654a3e735f80c6b0d12678e7";  
+  file_name = "tycoon_0.2.0.zip"; 
+  sha1 = "0476a94b433141779aa7739287180b41bd8811d8"; 
+  version = "0.2.0"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
