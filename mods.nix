@@ -41755,10 +41755,10 @@
 
 "big_furnace" = factorioMod {
   pname = "big_furnace"; 
-  url = "https://mods.factorio.com/download/big_furnace/65541d9922c10eec25ec0f2d";  
-  file_name = "big_furnace_1.0.2.zip"; 
-  sha1 = "3a975d0f2c09820d660a85ea8302a9e59574c99f"; 
-  version = "1.0.2"; 
+  url = "https://mods.factorio.com/download/big_furnace/6554d82722c10eec25ec0f38";  
+  file_name = "big_furnace_1.0.3.zip"; 
+  sha1 = "74da0fd322cfbe214b0bbba09a5e82a09697a945"; 
+  version = "1.0.3"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -73215,10 +73215,10 @@
 
 "useful_book" = factorioMod {
   pname = "useful_book"; 
-  url = "https://mods.factorio.com/download/useful_book/65523eb9dd88458f4f560031";  
-  file_name = "useful_book_0.21.2.zip"; 
-  sha1 = "90ca3dc54e18dad9b27b287bb74f72a71f2d01fe"; 
-  version = "0.21.2"; 
+  url = "https://mods.factorio.com/download/useful_book/65549f3d6d14ae3d71c028d7";  
+  file_name = "useful_book_0.22.0.zip"; 
+  sha1 = "5c595175cb4cd7402191f324500394233c6b855a"; 
+  version = "0.22.0"; 
   deps = filterMissing self [ "zk-lib" "BetterCommands" ];
   optionalDeps = [ "gvv" "AARR" ];
  }; 
@@ -75325,10 +75325,10 @@
 
 "zk-lib" = factorioMod {
   pname = "zk-lib"; 
-  url = "https://mods.factorio.com/download/zk-lib/6551e4a2775878db9c37d8b7";  
-  file_name = "zk-lib_0.16.2.zip"; 
-  sha1 = "835a2d88f805e9965902fb8b79e5a43fe786eeea"; 
-  version = "0.16.2"; 
+  url = "https://mods.factorio.com/download/zk-lib/65549ea714e96ffc77323163";  
+  file_name = "zk-lib_0.16.3.zip"; 
+  sha1 = "d4570cf626f9f2ced813fb2b3ac5fa0b44b089cf"; 
+  version = "0.16.3"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
