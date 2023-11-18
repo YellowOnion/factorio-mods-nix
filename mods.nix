@@ -39505,10 +39505,10 @@
 
 "apm_bob_rework_ldinc" = factorioMod {
   pname = "apm_bob_rework_ldinc"; 
-  url = "https://mods.factorio.com/download/apm_bob_rework_ldinc/655838d6a76b08bd0249b869";  
-  file_name = "apm_bob_rework_ldinc_0.22.124.zip"; 
-  sha1 = "dd7d38e4049cac110125f25c776e6f798fb0c27a"; 
-  version = "0.22.124"; 
+  url = "https://mods.factorio.com/download/apm_bob_rework_ldinc/6558fe12e14d87130fe6e497";  
+  file_name = "apm_bob_rework_ldinc_0.22.125.zip"; 
+  sha1 = "c10b6c6707e7d3bff9970476101d3f5ac33a191f"; 
+  version = "0.22.125"; 
   deps = filterMissing self [ "apm_bob_rework_resource_pack_ldinc" "apm_resource_pack_ldinc" "apm_lib_ldinc" "apm_power_ldinc" "apm_nuclear_ldinc" "apm_energy_addon_ldinc" "bobassembly" "bobelectronics" "bobequipment" "bobinserters" "boblibrary" "boblogistics" "bobmining" "bobmodules" "bobores" "bobplates" "bobpower" "bobrevamp" "bobtech" "bobwarfare" "electricboiler" "deadlock-beltboxes-loaders" "ironclad-gunboat-and-mortar-turret" "flib" "Rampant" "Flare Stack" "RampantArsenal" ];
   optionalDeps = [ "LogisticTrainNetwork" ];
  }; 
@@ -43495,10 +43495,10 @@
 
 "cannon-mag-spidertron" = factorioMod {
   pname = "cannon-mag-spidertron"; 
-  url = "https://mods.factorio.com/download/cannon-mag-spidertron/65568fb6636481b85dee75a8";  
-  file_name = "cannon-mag-spidertron_1.1.0.zip"; 
-  sha1 = "9a11dddd63afa98c473670a941b667107b7b90d3"; 
-  version = "1.1.0"; 
+  url = "https://mods.factorio.com/download/cannon-mag-spidertron/6559055a50beaebfaf8fff11";  
+  file_name = "cannon-mag-spidertron_1.1.1.zip"; 
+  sha1 = "8b0b2cb90698e97079f0f7131620a7ce84b8fe41"; 
+  version = "1.1.1"; 
   deps = filterMissing self [ "vtk-cannon-turret" ];
   optionalDeps = [ "combat-mechanics-overhaul" "space-exploration" ];
  }; 
@@ -43765,10 +43765,10 @@
 
 "cdo-easy" = factorioMod {
   pname = "cdo-easy"; 
-  url = "https://mods.factorio.com/download/cdo-easy/6557af6e1b82089985f99bed";  
-  file_name = "cdo-easy_1.1.7.zip"; 
-  sha1 = "611bc92d6e0f0447602d7fe4eaf067eb912f6a48"; 
-  version = "1.1.7"; 
+  url = "https://mods.factorio.com/download/cdo-easy/6558eed8e14d87130fe6e496";  
+  file_name = "cdo-easy_1.1.8.zip"; 
+  sha1 = "184b51b2a1fc587c1c046c3251e8d5e4bd1ae490"; 
+  version = "1.1.8"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -64670,6 +64670,16 @@
   sha1 = "c7f5cd8083370672539614aa6d4023f8d262938c"; 
   version = "1.0.0"; 
   deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
+"remote-requests" = factorioMod {
+  pname = "remote-requests"; 
+  url = "https://mods.factorio.com/download/remote-requests/6558f06ffc158f92054d6464";  
+  file_name = "remote-requests_0.1.2.zip"; 
+  sha1 = "cd6893b92f760a3ae0e5d74d67550aab81df5a8e"; 
+  version = "0.1.2"; 
+  deps = filterMissing self [ "RemoteConfiguration" "CursorEnhancements" ];
   optionalDeps = [  ];
  }; 
 
