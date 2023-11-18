@@ -53065,10 +53065,10 @@
 
 "inserter-visualizer" = factorioMod {
   pname = "inserter-visualizer"; 
-  url = "https://mods.factorio.com/download/inserter-visualizer/6486a8279f060456cffe0c5d";  
-  file_name = "inserter-visualizer_0.0.3.zip"; 
-  sha1 = "b01e8ff5dfaa32f3705082e9ccf6cd1a28b71391"; 
-  version = "0.0.3"; 
+  url = "https://mods.factorio.com/download/inserter-visualizer/65593313da1ac2e27ffc07ac";  
+  file_name = "inserter-visualizer_0.0.4.zip"; 
+  sha1 = "20c28314c741aee3be0e85fdb2a7d44990548b25"; 
+  version = "0.0.4"; 
   deps = filterMissing self [ "flib" ];
   optionalDeps = [  ];
  }; 
@@ -64565,10 +64565,10 @@
 
 "redmew-data" = factorioMod {
   pname = "redmew-data"; 
-  url = "https://mods.factorio.com/download/redmew-data/653fb6a9b367a27256e54da7";  
-  file_name = "redmew-data_0.1.1.zip"; 
-  sha1 = "82907b48a22905ff279779a81ca5a95d3f8103a7"; 
-  version = "0.1.1"; 
+  url = "https://mods.factorio.com/download/redmew-data/65592f5b27aafbc11b2bed65";  
+  file_name = "redmew-data_0.1.2.zip"; 
+  sha1 = "e10eed56f3883ddf58dcd6bbad4f7f33cba4bda3"; 
+  version = "0.1.2"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "bzcarbon" "bzgold" "bztitanium" "bztungsten" "deadlock-beltboxes-loaders" "exotic-industries" "IndustrialRevolution3" "Krastorio2" "omnimatter_compression" "omnimatter" "pypostprocessing" ];
  }; 
