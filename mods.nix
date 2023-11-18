@@ -58405,10 +58405,10 @@
 
 "modpack_se_k2_bz_248k" = factorioMod {
   pname = "modpack_se_k2_bz_248k"; 
-  url = "https://mods.factorio.com/download/modpack_se_k2_bz_248k/6558aec457ee7417c147c1be";  
-  file_name = "modpack_se_k2_bz_248k_1.0.24.zip"; 
-  sha1 = "17cac9458be48b486b9bd3d9458b9d123bdc7bad"; 
-  version = "1.0.24"; 
+  url = "https://mods.factorio.com/download/modpack_se_k2_bz_248k/6558cb9fe14d87130fe6e491";  
+  file_name = "modpack_se_k2_bz_248k_1.0.25.zip"; 
+  sha1 = "aec95d3e1644b1685e2c6cc6ab80876aa0c849ca"; 
+  version = "1.0.25"; 
   deps = filterMissing self [ "glutenfree-se-rocket-launch-pad-label" "se-cme-combinator" "spaceexplorationdatachipaugmenter" "space-exploration-graphics" "space-exploration-graphics-2" "space-exploration-graphics-3" "space-exploration-graphics-4" "space-exploration-graphics-5" "space-exploration-menu-simulations" "space-exploration-pipes-n-belts" "space-exploration-postprocess" "se-recycling-extras" "se-flow-control-bridge" "space-spidertron" "spidertron-dock" "se-space-trains" "rocket-log" "shield-projector" "se-landfill-le" "SE_smooth_ship_walls" "space-exploration" "Krastorio2" "Krastorio2Assets" "248k" "nach0_248k_k2_compat_patch" "SE248kfix" "bismuth" "bzaluminum" "bzcarbon" "bzfoundry" "bzsilicon" "bzchlorine" "bzgas" "bzlead" "bzgold" "bztin" "bztitanium" "bzzirconium" "bztungsten" "IfNickel" "bz-dsr-bridge" "BrassTacks" "MDbobelectronics" "FluidMustFlowSE" "Expensive_Fluid_Must_Flow_Recipes" "se_k2_fluid_permutations" "grappling-gun" "More_Ammo" "aai-containers" "aai-industry" "aai-signal-transmission" "Bio_Industries" "jetpack" "steam-drones" "Transport_Drones" "WireShortcuts" "stdlib" "boblibrary" "heroturrets" "More_Repair_Packs" "RampantEvolution" "glutenfree-aai-signal-transmission-preview" ];
   optionalDeps = [ "Kux-OrbitalIonCannon" "RampantFixed" "Arachnids" "RampantArsenal" "qol_by_morality" ];
  }; 
@@ -59445,10 +59445,10 @@
 
 "ncxz-expand" = factorioMod {
   pname = "ncxz-expand"; 
-  url = "https://mods.factorio.com/download/ncxz-expand/652e8f5eaa9bc49470c7953d";  
-  file_name = "ncxz-expand_0.1.5.zip"; 
-  sha1 = "93ff1b2d6ffcb69ab317e9697242eb4046ba22d6"; 
-  version = "0.1.5"; 
+  url = "https://mods.factorio.com/download/ncxz-expand/6558c2335dc8d2af03766e2d";  
+  file_name = "ncxz-expand_0.1.6.zip"; 
+  sha1 = "ca00b404fa712a4a8c6604beb7f64cc9796c212c"; 
+  version = "0.1.6"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "space-exploration" "Krastorio2" ];
  }; 
