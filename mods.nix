@@ -58955,10 +58955,10 @@
 
 "muppet_streamer" = factorioMod {
   pname = "muppet_streamer"; 
-  url = "https://mods.factorio.com/download/muppet_streamer/6393cbbabf1c34628c7bb26c";  
-  file_name = "muppet_streamer_20.1.38.zip"; 
-  sha1 = "be33fcd68d7b1f9368ffe1c3421afbe68a7c2099"; 
-  version = "20.1.38"; 
+  url = "https://mods.factorio.com/download/muppet_streamer/6558e6da32ee1582e17e83bd";  
+  file_name = "muppet_streamer_20.1.39.zip"; 
+  sha1 = "d07f55d81f4035ff1d8d9588c05e482763805774"; 
+  version = "20.1.39"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -75545,10 +75545,10 @@
 
 "zombie_engineer" = factorioMod {
   pname = "zombie_engineer"; 
-  url = "https://mods.factorio.com/download/zombie_engineer/6546760b4f74d0f4e27fee5d";  
-  file_name = "zombie_engineer_1.0.2.zip"; 
-  sha1 = "e69d096585b40bb4d3e7590d74f600cd74245f14"; 
-  version = "1.0.2"; 
+  url = "https://mods.factorio.com/download/zombie_engineer/6558e7dbda1ac2e27ffc07ab";  
+  file_name = "zombie_engineer_1.0.3.zip"; 
+  sha1 = "0f0edc0c754aa4a7916768e60e24a5d11f7742f5"; 
+  version = "1.0.3"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
