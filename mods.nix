@@ -7205,10 +7205,10 @@
 
 "Compaction2" = factorioMod {
   pname = "Compaction2"; 
-  url = "https://mods.factorio.com/download/Compaction2/65528e64580fb0e0a8fecf8c";  
-  file_name = "Compaction2_4.3.3.zip"; 
-  sha1 = "c1c2e24657685cfd5820295b8c107db9d357e63f"; 
-  version = "4.3.3"; 
+  url = "https://mods.factorio.com/download/Compaction2/6559422c5d118fddc0ca419b";  
+  file_name = "Compaction2_4.3.4.zip"; 
+  sha1 = "3617ddbc24b1e425aa8281c4575eec1e6d1c62cb"; 
+  version = "4.3.4"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
