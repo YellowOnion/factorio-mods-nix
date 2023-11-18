@@ -38675,10 +38675,10 @@
 
 "alentuon-cheat-plugin" = factorioMod {
   pname = "alentuon-cheat-plugin"; 
-  url = "https://mods.factorio.com/download/alentuon-cheat-plugin/655764840532f6f8edb19f7f";  
-  file_name = "alentuon-cheat-plugin_0.0.3.zip"; 
-  sha1 = "c4da2d98cfe01e4f60a9d219201d1efc0543c669"; 
-  version = "0.0.3"; 
+  url = "https://mods.factorio.com/download/alentuon-cheat-plugin/6558df72fc158f92054d6462";  
+  file_name = "alentuon-cheat-plugin_0.0.4.zip"; 
+  sha1 = "c3f04cd11ad1ecffdf89861436cd31f428188e9f"; 
+  version = "0.0.4"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
