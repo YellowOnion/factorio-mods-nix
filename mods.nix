@@ -53615,10 +53615,10 @@
 
 "janky-quality" = factorioMod {
   pname = "janky-quality"; 
-  url = "https://mods.factorio.com/download/janky-quality/65571c0af5631d4e552cca10";  
-  file_name = "janky-quality_0.1.11.zip"; 
-  sha1 = "80d0d61ac2d3273195982f96887198d8ed4610e4"; 
-  version = "0.1.11"; 
+  url = "https://mods.factorio.com/download/janky-quality/6558b5edb3f40cb002843def";  
+  file_name = "janky-quality_0.1.12.zip"; 
+  sha1 = "4aa65dc84d8991442c9c1e3b3ec2c3644ba60537"; 
+  version = "0.1.12"; 
   deps = filterMissing self [ "flib" ];
   optionalDeps = [  ];
  }; 
