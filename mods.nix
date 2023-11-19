@@ -26355,10 +26355,10 @@
 
 "RadioNetwork_FIX" = factorioMod {
   pname = "RadioNetwork_FIX"; 
-  url = "https://mods.factorio.com/download/RadioNetwork_FIX/6559d52a32ee1582e17e83c3";  
-  file_name = "RadioNetwork_FIX_1.0.4.zip"; 
-  sha1 = "640442b11f76cf45b55147b3013ba2fad912e630"; 
-  version = "1.0.4"; 
+  url = "https://mods.factorio.com/download/RadioNetwork_FIX/6559e01e68a7b75f04f8e4f8";  
+  file_name = "RadioNetwork_FIX_1.0.5.zip"; 
+  sha1 = "b4f6ed895a968a2555e512d6278d534d1ee1886b"; 
+  version = "1.0.5"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
