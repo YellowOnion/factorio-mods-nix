@@ -20055,10 +20055,10 @@
 
 "MechanicusMiniMAX" = factorioMod {
   pname = "MechanicusMiniMAX"; 
-  url = "https://mods.factorio.com/download/MechanicusMiniMAX/65594f4f50beaebfaf8fff16";  
-  file_name = "MechanicusMiniMAX_0.1.3.zip"; 
-  sha1 = "129f1e448324b0dca20c9b81c3e36aeacbea1be1"; 
-  version = "0.1.3"; 
+  url = "https://mods.factorio.com/download/MechanicusMiniMAX/655a72da636a05e283bf6255";  
+  file_name = "MechanicusMiniMAX_0.1.4.zip"; 
+  sha1 = "1c06450c9e4c86ba82160305172ac45c1c022eaa"; 
+  version = "0.1.4"; 
   deps = filterMissing self [ "CharacterModHelper" ];
   optionalDeps = [  ];
  }; 
@@ -31205,10 +31205,10 @@
 
 "Smart_Inserters" = factorioMod {
   pname = "Smart_Inserters"; 
-  url = "https://mods.factorio.com/download/Smart_Inserters/6555e9a11815de1ed5ba4e68";  
-  file_name = "Smart_Inserters_1.2.7.zip"; 
-  sha1 = "538ebd8faec7cbb925f565bd0c3c61e1a6d67be4"; 
-  version = "1.2.7"; 
+  url = "https://mods.factorio.com/download/Smart_Inserters/655a8c8937c8f3f3153c037d";  
+  file_name = "Smart_Inserters_1.2.8.zip"; 
+  sha1 = "102d6a562fd40ce6e25f1ca3d0cf35550ceca4b6"; 
+  version = "1.2.8"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -36435,12 +36435,12 @@
 
 "Warptorio2_Expansion_Japanese_Pack" = factorioMod {
   pname = "Warptorio2_Expansion_Japanese_Pack"; 
-  url = "https://mods.factorio.com/download/Warptorio2_Expansion_Japanese_Pack/6542635f667ab311b935e3d0";  
-  file_name = "Warptorio2_Expansion_Japanese_Pack_1.0.6.zip"; 
-  sha1 = "0f9b47fa378824c466d21a188f6650c464208ec0"; 
-  version = "1.0.6"; 
-  deps = filterMissing self [  ];
-  optionalDeps = [ "alien-biomes" "Cold_biters" "Toxic_biters" "Explosive_biters" "factorio-crash-site" "planetorio" "planetorio_expansion_planets" "warptorio2" "warptorio2_expansion" ];
+  url = "https://mods.factorio.com/download/Warptorio2_Expansion_Japanese_Pack/655a2875636a05e283bf624b";  
+  file_name = "Warptorio2_Expansion_Japanese_Pack_1.1.0.zip"; 
+  sha1 = "a99c32667e0dea2450a4cb3340aa4a55dfce595e"; 
+  version = "1.1.0"; 
+  deps = filterMissing self [ "Any_Japanise_Pack" ];
+  optionalDeps = [  ];
  }; 
 
 "Warptorio2_Language_Pack" = factorioMod {
@@ -38895,12 +38895,12 @@
 
 "all-the-overhaul-modpack" = factorioMod {
   pname = "all-the-overhaul-modpack"; 
-  url = "https://mods.factorio.com/download/all-the-overhaul-modpack/65570eb111648e5bdbf3f4b3";  
-  file_name = "all-the-overhaul-modpack_1.4.1.zip"; 
-  sha1 = "80e057d9b654f225f3da507454f2a3cd07b94601"; 
-  version = "1.4.1"; 
-  deps = filterMissing self [ "248k" "aai-containers" "aai-industry" "Bio_Industries" "bismuth" "BrassTacks" "bz-dsr-bridge" "bzaluminum" "bzcarbon" "bzchlorine" "bzfoundry" "bzgas" "bzgold" "bzlead" "bzsilicon" "bztin" "bztitanium" "bztungsten" "bzzirconium" "cargo-ships" "cargo-ships-graphics" "dredgeworks" "Electric-Weapons" "fireproof-bots" "flib" "grappling-gun" "heroturrets" "IfNickel" "informatron" "jetpack" "Krastorio2" "Krastorio2Assets" "LSlib" "LR_Turret" "manganese" "MDbobelectronics" "More_Ammo" "nach0_248k_k2_compat_patch" "nach0_library" "RitnLib" "robot_attrition" "SchallCircuitGroup" "SchallTransportGroup" "se-landfill-le" "se-recycling-extras" "se-space-trains" "SE248kfix" "shield-projector" "simhelper" "space-exploration" "space-exploration-graphics" "space-exploration-graphics-2" "space-exploration-graphics-3" "space-exploration-graphics-4" "space-exploration-graphics-5" "space-exploration-menu-simulations" "space-exploration-pipes-n-belts" "space-exploration-postprocess" "spaceexplorationdatachipaugmenter" "stdlib" "TanksSchallGroupsfixes" "WipMod_TA-miners" ];
-  optionalDeps = [ "aai-loaders" "ArtilleryShellStack" "Avatars" "bobinserters" "Companion_Drones" "companion-drones-rebalanced" "Configurable-Armour-Suits" "Expensive_Fluid_Must_Flow_Recipes" "factoryplanner" "fast-trans" "Flow Control" "FluidMustFlow" "FluidMustFlowSE" "logistic-tanks" "RampantFixed" "RPGsystem" "se-cme-combinator" "se-flow-control-bridge" "se-qol" "SensibleGibs" "se_k2_fluid_permutations" "solar-productivity" "space-spidertron" "spidertron-dock" "WideChests" "WireShortcuts" ];
+  url = "https://mods.factorio.com/download/all-the-overhaul-modpack/655a8692636a05e283bf6257";  
+  file_name = "all-the-overhaul-modpack_1.5.0.zip"; 
+  sha1 = "f7d8cd9be389bf0281eda267a8d217977176d5e5"; 
+  version = "1.5.0"; 
+  deps = filterMissing self [ "248k" "aai-containers" "aai-industry" "Bio_Industries" "Expensive_Fluid_Must_Flow_Recipes" "Flow Control" "FluidMustFlow" "FluidMustFlowSE" "GDIW" "grappling-gun" "IfNickel" "informatron" "jetpack" "Krastorio2" "Krastorio2Assets" "manganese" "More_Ammo" "nach0_248k_k2_compat_patch" "RampantEvolution" "RampantFixed" "RampantArsenal" "se-cme-combinator" "se-flow-control-bridge" "se-landfill-le" "se-recycling-extras" "se-space-trains" "SE248kfix" "shield-projector" "solar-productivity" "MDbobelectronics" "More_Repair_Packs" "space-exploration" "space-exploration-pipes-n-belts" "space-spidertron" "spaceexplorationdatachipaugmenter" "spidertron-dock" "WireShortcuts" ];
+  optionalDeps = [ "qol_by_moralit" ];
  }; 
 
 "all-tiles-stack-1k" = factorioMod {
@@ -53665,10 +53665,10 @@
 
 "janky-quality" = factorioMod {
   pname = "janky-quality"; 
-  url = "https://mods.factorio.com/download/janky-quality/6558b5edb3f40cb002843def";  
-  file_name = "janky-quality_0.1.12.zip"; 
-  sha1 = "4aa65dc84d8991442c9c1e3b3ec2c3644ba60537"; 
-  version = "0.1.12"; 
+  url = "https://mods.factorio.com/download/janky-quality/655a6676407f24a2244536b1";  
+  file_name = "janky-quality_0.1.13.zip"; 
+  sha1 = "d3f5c56daabac1dbd8eca58b7e2f6e835fef3b22"; 
+  version = "0.1.13"; 
   deps = filterMissing self [ "flib" ];
   optionalDeps = [  ];
  }; 
