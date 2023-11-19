@@ -20025,10 +20025,10 @@
 
 "MechanicusMiniMAX" = factorioMod {
   pname = "MechanicusMiniMAX"; 
-  url = "https://mods.factorio.com/download/MechanicusMiniMAX/65514e9a2d7f34ea369b45c3";  
-  file_name = "MechanicusMiniMAX_0.1.1.zip"; 
-  sha1 = "f485da3a3cf765e88d314dd74e0bffecf136de45"; 
-  version = "0.1.1"; 
+  url = "https://mods.factorio.com/download/MechanicusMiniMAX/65594f4f50beaebfaf8fff16";  
+  file_name = "MechanicusMiniMAX_0.1.3.zip"; 
+  sha1 = "129f1e448324b0dca20c9b81c3e36aeacbea1be1"; 
+  version = "0.1.3"; 
   deps = filterMissing self [ "CharacterModHelper" ];
   optionalDeps = [  ];
  }; 
@@ -71735,10 +71735,10 @@
 
 "thermal-solar-power-lite" = factorioMod {
   pname = "thermal-solar-power-lite"; 
-  url = "https://mods.factorio.com/download/thermal-solar-power-lite/6557f8ff4d39fbc7767a184d";  
-  file_name = "thermal-solar-power-lite_1.0.6.zip"; 
-  sha1 = "6a11f0350f3e6141f77366c1809584ef4c49e4bc"; 
-  version = "1.0.6"; 
+  url = "https://mods.factorio.com/download/thermal-solar-power-lite/6559531afc158f92054d6468";  
+  file_name = "thermal-solar-power-lite_1.0.7.zip"; 
+  sha1 = "232ed2046623eecf2d81b3bede460c1bde00e448"; 
+  version = "1.0.7"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
