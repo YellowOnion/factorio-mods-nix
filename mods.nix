@@ -72605,10 +72605,10 @@
 
 "true-free-energy" = factorioMod {
   pname = "true-free-energy"; 
-  url = "https://mods.factorio.com/download/true-free-energy/64554e99cc4034f331a1b0b5";  
-  file_name = "true-free-energy_0.1.3.zip"; 
-  sha1 = "96af1996f119d2393fa34113462ad4bc4b4c6a1f"; 
-  version = "0.1.3"; 
+  url = "https://mods.factorio.com/download/true-free-energy/6559c978da1ac2e27ffc07b1";  
+  file_name = "true-free-energy_0.1.4.zip"; 
+  sha1 = "041aabf2ab74304417dfd06b0b03288ab965ddcb"; 
+  version = "0.1.4"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
