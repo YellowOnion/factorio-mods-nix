@@ -71745,10 +71745,10 @@
 
 "thermal-solar-power-lite" = factorioMod {
   pname = "thermal-solar-power-lite"; 
-  url = "https://mods.factorio.com/download/thermal-solar-power-lite/6559531afc158f92054d6468";  
-  file_name = "thermal-solar-power-lite_1.0.7.zip"; 
-  sha1 = "232ed2046623eecf2d81b3bede460c1bde00e448"; 
-  version = "1.0.7"; 
+  url = "https://mods.factorio.com/download/thermal-solar-power-lite/6559ec6f5dc8d2af03766e39";  
+  file_name = "thermal-solar-power-lite_1.0.8.zip"; 
+  sha1 = "a6d6754a17decbbd354fa9701bbc3d5d08dec515"; 
+  version = "1.0.8"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
