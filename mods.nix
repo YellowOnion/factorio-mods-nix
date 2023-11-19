@@ -33885,10 +33885,10 @@
 
 "ThemTharHills" = factorioMod {
   pname = "ThemTharHills"; 
-  url = "https://mods.factorio.com/download/ThemTharHills/655a1542fc158f92054d646f";  
-  file_name = "ThemTharHills_1.0.1.zip"; 
-  sha1 = "8dcaf2901e270a964e54a7c0496e35c0086967a7"; 
-  version = "1.0.1"; 
+  url = "https://mods.factorio.com/download/ThemTharHills/655a20dbb2fa97e474167c30";  
+  file_name = "ThemTharHills_1.0.2.zip"; 
+  sha1 = "db289f488342a9ab925efc548409d0e5fff1462b"; 
+  version = "1.0.2"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "BrassTacks" "IfNickel" "bzgold" "bzaluminum" "bztin" "bzsilicon" "bzchlorine" "space-exploration" "aai-industry" "aai-containers" "aai-signal-transmission" "deadlock-beltboxes-loaders" "DeadlockCrating" "vtk-deep-core-mining" "Krastorio2" "FluidMustFlow" "FreightForwarding" "bismuth" ];
  }; 
