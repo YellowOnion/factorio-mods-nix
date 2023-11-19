@@ -64575,9 +64575,9 @@
 
 "redmew-data" = factorioMod {
   pname = "redmew-data"; 
-  url = "https://mods.factorio.com/download/redmew-data/65595e8168a7b75f04f8e4ed";  
+  url = "https://mods.factorio.com/download/redmew-data/6559f68c50beaebfaf8fff29";  
   file_name = "redmew-data_0.1.3.zip"; 
-  sha1 = "9c258c8dc1a324e07e51efb5183ff6a723ced5a6"; 
+  sha1 = "a0dd005b83347a1d76b785dce82eb6fa1b3717b7"; 
   version = "0.1.3"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "bzcarbon" "bzgold" "bztitanium" "bztungsten" "deadlock-beltboxes-loaders" "exotic-industries" "IndustrialRevolution3" "Krastorio2" "omnimatter_compression" "omnimatter" "pypostprocessing" ];
