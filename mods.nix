@@ -31735,10 +31735,10 @@
 
 "SpawnTweaks" = factorioMod {
   pname = "SpawnTweaks"; 
-  url = "https://mods.factorio.com/download/SpawnTweaks/6548007e2e6f15b8adc2a54e";  
-  file_name = "SpawnTweaks_1.2.1.zip"; 
-  sha1 = "9e2e53cfe0a0daec81aca0f89fda1674db6d207a"; 
-  version = "1.2.1"; 
+  url = "https://mods.factorio.com/download/SpawnTweaks/6559e3015d118fddc0ca41a1";  
+  file_name = "SpawnTweaks_1.2.2.zip"; 
+  sha1 = "a16d52a8806847b21cd8690b8de28c349e927083"; 
+  version = "1.2.2"; 
   deps = filterMissing self [ "Babelfish" ];
   optionalDeps = [  ];
  }; 
