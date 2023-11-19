@@ -8045,10 +8045,10 @@
 
 "CreativeItems" = factorioMod {
   pname = "CreativeItems"; 
-  url = "https://mods.factorio.com/download/CreativeItems/5fbfd8d90c08bc5a17dd9f88";  
-  file_name = "CreativeItems_1.6.0.zip"; 
-  sha1 = "43e1ba351a274ff7dc9c96c6e75203f5607f0066"; 
-  version = "1.6.0"; 
+  url = "https://mods.factorio.com/download/CreativeItems/6559b7765d118fddc0ca419d";  
+  file_name = "CreativeItems_1.7.0.zip"; 
+  sha1 = "b904952f670dadc0768b75cab59eef4b98549bba"; 
+  version = "1.7.0"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -9955,10 +9955,10 @@
 
 "DyCore" = factorioMod {
   pname = "DyCore"; 
-  url = "https://mods.factorio.com/download/DyCore/61991fb4ee81d1cf6d2a7cd6";  
-  file_name = "DyCore_0.1.4.zip"; 
-  sha1 = "8f887dae231a6592618a359c578ac25a40007d1d"; 
-  version = "0.1.4"; 
+  url = "https://mods.factorio.com/download/DyCore/6559ba6c5dc8d2af03766e38";  
+  file_name = "DyCore_0.2.0.zip"; 
+  sha1 = "2e2038b374f41b61ed26ccd8a9c7140813167d59"; 
+  version = "0.2.0"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -9971,6 +9971,16 @@
   version = "0.2.2"; 
   deps = filterMissing self [ "DyCore" "space-exploration-graphics" "space-exploration-graphics-3" "space-exploration-graphics-2" "space-exploration-graphics-4" "space-exploration-graphics-5" "space-exploration" "informatron" "aai-containers" "aai-industry" "Nanobots" "alien-biomes" "DyComPa" ];
   optionalDeps = [  ];
+ }; 
+
+"DyWorld-Dynamics-2" = factorioMod {
+  pname = "DyWorld-Dynamics-2"; 
+  url = "https://mods.factorio.com/download/DyWorld-Dynamics-2/6559bba068a7b75f04f8e4f4";  
+  file_name = "DyWorld-Dynamics-2_0.0.1.zip"; 
+  sha1 = "7ae58f3904a329cd581f2d2b95ccc7377a0e2887"; 
+  version = "0.0.1"; 
+  deps = filterMissing self [ "DyCore" "informatron" "aai-containers" "Nanobots" "alien-biomes" ];
+  optionalDeps = [ "Aircraft" "crafting_combinator" "Noxys_Waterfill" "visual-signals" "WaterWell" ];
  }; 
 
 "DyWorld_RestoreOriginalBiterSounds" = factorioMod {
@@ -26345,10 +26355,10 @@
 
 "RadioNetwork_FIX" = factorioMod {
   pname = "RadioNetwork_FIX"; 
-  url = "https://mods.factorio.com/download/RadioNetwork_FIX/64b539f5f30f7f884e93cadc";  
-  file_name = "RadioNetwork_FIX_1.0.3.zip"; 
-  sha1 = "c34972d087a07cb426bbcfce1837f21487bd5927"; 
-  version = "1.0.3"; 
+  url = "https://mods.factorio.com/download/RadioNetwork_FIX/6559c502e14d87130fe6e49d";  
+  file_name = "RadioNetwork_FIX_1.0.4.zip"; 
+  sha1 = "40f0dd47cec40310a2d47acad911ae2ea91c0ebc"; 
+  version = "1.0.4"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -32695,10 +32705,10 @@
 
 "StrongTrainsPlatform" = factorioMod {
   pname = "StrongTrainsPlatform"; 
-  url = "https://mods.factorio.com/download/StrongTrainsPlatform/65567ba3cd97ece09ce603f8";  
-  file_name = "StrongTrainsPlatform_1.1.0.zip"; 
-  sha1 = "6edc5c3c449b5618508fb6a1e2d09f048ca59646"; 
-  version = "1.1.0"; 
+  url = "https://mods.factorio.com/download/StrongTrainsPlatform/6559b763fc158f92054d6469";  
+  file_name = "StrongTrainsPlatform_1.1.1.zip"; 
+  sha1 = "ea284724d449f2d46b1fa6c872b04f6d631f9818"; 
+  version = "1.1.1"; 
   deps = filterMissing self [ "flib" ];
   optionalDeps = [  ];
  }; 
@@ -38675,10 +38685,10 @@
 
 "alentuon-cheat-plugin" = factorioMod {
   pname = "alentuon-cheat-plugin"; 
-  url = "https://mods.factorio.com/download/alentuon-cheat-plugin/6558df72fc158f92054d6462";  
-  file_name = "alentuon-cheat-plugin_0.0.4.zip"; 
-  sha1 = "c3f04cd11ad1ecffdf89861436cd31f428188e9f"; 
-  version = "0.0.4"; 
+  url = "https://mods.factorio.com/download/alentuon-cheat-plugin/65599c9768a7b75f04f8e4f3";  
+  file_name = "alentuon-cheat-plugin_0.0.5.zip"; 
+  sha1 = "858ff11f7c57b10c9e199ab7947b677bf867fceb"; 
+  version = "0.0.5"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -42355,10 +42365,10 @@
 
 "blueprint-variables" = factorioMod {
   pname = "blueprint-variables"; 
-  url = "https://mods.factorio.com/download/blueprint-variables/6555bc7a18bed8779b579a2b";  
-  file_name = "blueprint-variables_0.0.8.zip"; 
-  sha1 = "415f3270c616d70a7348d469f60f3adea4edf28f"; 
-  version = "0.0.8"; 
+  url = "https://mods.factorio.com/download/blueprint-variables/6559c123e14d87130fe6e49b";  
+  file_name = "blueprint-variables_0.0.9.zip"; 
+  sha1 = "c5200a2f96b30ff21738968a3ebea50d9a323738"; 
+  version = "0.0.9"; 
   deps = filterMissing self [ "flib" ];
   optionalDeps = [  ];
  }; 
@@ -64565,10 +64575,10 @@
 
 "redmew-data" = factorioMod {
   pname = "redmew-data"; 
-  url = "https://mods.factorio.com/download/redmew-data/65592f5b27aafbc11b2bed65";  
-  file_name = "redmew-data_0.1.2.zip"; 
-  sha1 = "e10eed56f3883ddf58dcd6bbad4f7f33cba4bda3"; 
-  version = "0.1.2"; 
+  url = "https://mods.factorio.com/download/redmew-data/65595e8168a7b75f04f8e4ed";  
+  file_name = "redmew-data_0.1.3.zip"; 
+  sha1 = "9c258c8dc1a324e07e51efb5183ff6a723ced5a6"; 
+  version = "0.1.3"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "bzcarbon" "bzgold" "bztitanium" "bztungsten" "deadlock-beltboxes-loaders" "exotic-industries" "IndustrialRevolution3" "Krastorio2" "omnimatter_compression" "omnimatter" "pypostprocessing" ];
  }; 
