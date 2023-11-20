@@ -4993,6 +4993,16 @@
   optionalDeps = [  ];
  }; 
 
+"Blueprint-Evolution" = factorioMod {
+  pname = "Blueprint-Evolution"; 
+  url = "https://mods.factorio.com/download/Blueprint-Evolution/655b614dc4e829323169e663";  
+  file_name = "Blueprint-Evolution_0.1.0.zip"; 
+  sha1 = "4d5f006c814b07d715c9ec35961bfe1c87be4ce9"; 
+  version = "0.1.0"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
 "BlueprintAlignment" = factorioMod {
   pname = "BlueprintAlignment"; 
   url = "https://mods.factorio.com/download/BlueprintAlignment/5fc57a19a5bbf2dbb163d9b6";  
@@ -28625,10 +28635,10 @@
 
 "SE-K2-BZ-Adjustments" = factorioMod {
   pname = "SE-K2-BZ-Adjustments"; 
-  url = "https://mods.factorio.com/download/SE-K2-BZ-Adjustments/6553a53c6b47e3f4afd5d611";  
-  file_name = "SE-K2-BZ-Adjustments_0.2.1.zip"; 
-  sha1 = "058c8610dd99acc8e2b8de3a1fa2846dcf299967"; 
-  version = "0.2.1"; 
+  url = "https://mods.factorio.com/download/SE-K2-BZ-Adjustments/655b3845c4e829323169e662";  
+  file_name = "SE-K2-BZ-Adjustments_0.2.2.zip"; 
+  sha1 = "4218c1a0f55dbd7a99caf8b45dd8c2cf1094ae8c"; 
+  version = "0.2.2"; 
   deps = filterMissing self [ "aai-industry" "Krastorio2" "space-exploration" "bzvery" ];
   optionalDeps = [  ];
  }; 
@@ -39153,6 +39163,16 @@
   optionalDeps = [  ];
  }; 
 
+"ammopack" = factorioMod {
+  pname = "ammopack"; 
+  url = "https://mods.factorio.com/download/ammopack/655b2ef6edd79ed6ff6c38b9";  
+  file_name = "ammopack_1.0.1.zip"; 
+  sha1 = "1b8df8315e5515ec881a1f5d8100e859dae815eb"; 
+  version = "1.0.1"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [ "minigun" ];
+ }; 
+
 "amt-ac" = factorioMod {
   pname = "amt-ac"; 
   url = "https://mods.factorio.com/download/amt-ac/6534d20213a6ec851bc637ba";  
@@ -48625,12 +48645,12 @@
 
 "factorio-2ish" = factorioMod {
   pname = "factorio-2ish"; 
-  url = "https://mods.factorio.com/download/factorio-2ish/65508accda5e871f7dbfc07b";  
-  file_name = "factorio-2ish_0.384.1.zip"; 
-  sha1 = "0a0fc8a2bf0f5af3c044390270463e0bdca8cf33"; 
-  version = "0.384.1"; 
+  url = "https://mods.factorio.com/download/factorio-2ish/655b4d55317b4321c40fd494";  
+  file_name = "factorio-2ish_0.385.1.zip"; 
+  sha1 = "e7064b14a3958af4c6332c18ff9612f5e5f3d381"; 
+  version = "0.385.1"; 
   deps = filterMissing self [  ];
-  optionalDeps = [ "RemoteConfiguration" "PowerPole32" "WireShortcuts" "Shortcuts-ick" "GhostOnWater" "ModuleInserter" "ModuleInserterSimplified" "TintedGhosts" "AutoTrash" "DestructiveBlueprints" "simple_landfill_mining" "beautiful_bridge_railway" "janky-quality" "CursorEnhancements" "AutoCircuit" "pigo-selector-combinator" ];
+  optionalDeps = [ "RemoteConfiguration" "PowerPole32" "WireShortcuts" "Shortcuts-ick" "GhostOnWater" "ModuleInserter" "ModuleInserterSimplified" "TintedGhosts" "AutoTrash" "LogisticRequestManager" "DestructiveBlueprints" "simple_landfill_mining" "beautiful_bridge_railway" "janky-quality" "CursorEnhancements" "AutoCircuit" "pigo-selector-combinator" ];
  }; 
 
 "factorio-abridged" = factorioMod {
@@ -53701,6 +53721,16 @@
   version = "0.0.8"; 
   deps = filterMissing self [ "Yuoki" "yi_engines" "yi_railway" "z_yira_UP" "boblibrary" "bobinserters" ];
   optionalDeps = [ "z_yira_yuokirails" "z_yira_american" ];
+ }; 
+
+"jcity-base" = factorioMod {
+  pname = "jcity-base"; 
+  url = "https://mods.factorio.com/download/jcity-base/655b66c8c4e829323169e66b";  
+  file_name = "jcity-base_0.0.3.zip"; 
+  sha1 = "1878783dfa1fdde626f3849b1abf83e3b63585fb"; 
+  version = "0.0.3"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
  }; 
 
 "jcrneep-space-modpack" = factorioMod {
@@ -61015,12 +61045,12 @@
 
 "overhead-electrification" = factorioMod {
   pname = "overhead-electrification"; 
-  url = "https://mods.factorio.com/download/overhead-electrification/64b4a760f30f7f884e93cacb";  
-  file_name = "overhead-electrification_0.0.1.zip"; 
-  sha1 = "35bfbbdad58b85f2d28eacda6652faddef9cf7f2"; 
-  version = "0.0.1"; 
+  url = "https://mods.factorio.com/download/overhead-electrification/655b36ce455620dbd1ac51ef";  
+  file_name = "overhead-electrification_0.0.3.zip"; 
+  sha1 = "ef6056d12fe6543a569a8a0d21e1162ee7a00f98"; 
+  version = "0.0.3"; 
   deps = filterMissing self [  ];
-  optionalDeps = [  ];
+  optionalDeps = [ "PickerDollies" "aai-industry" "space-exploration" ];
  }; 
 
 "overslotsarmor" = factorioMod {
