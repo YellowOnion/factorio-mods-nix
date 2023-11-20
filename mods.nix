@@ -53685,10 +53685,10 @@
 
 "janky-quality" = factorioMod {
   pname = "janky-quality"; 
-  url = "https://mods.factorio.com/download/janky-quality/655a6676407f24a2244536b1";  
-  file_name = "janky-quality_0.1.13.zip"; 
-  sha1 = "d3f5c56daabac1dbd8eca58b7e2f6e835fef3b22"; 
-  version = "0.1.13"; 
+  url = "https://mods.factorio.com/download/janky-quality/655b92b3c577243f23d783bb";  
+  file_name = "janky-quality_0.1.14.zip"; 
+  sha1 = "20cefe6c0a27d0b919ce3dd7e783cd1c7e24c9f8"; 
+  version = "0.1.14"; 
   deps = filterMissing self [ "flib" ];
   optionalDeps = [  ];
  }; 
@@ -55515,10 +55515,10 @@
 
 "lambent-nil" = factorioMod {
   pname = "lambent-nil"; 
-  url = "https://mods.factorio.com/download/lambent-nil/64f37fe002141c1c4d837eb5";  
-  file_name = "lambent-nil_2.1.1.zip"; 
-  sha1 = "f7f201e18b9c469820f3f7f4c16ca5ca1dab8e1e"; 
-  version = "2.1.1"; 
+  url = "https://mods.factorio.com/download/lambent-nil/655b9701c577243f23d783bc";  
+  file_name = "lambent-nil_2.2.0.zip"; 
+  sha1 = "ce16b89513e26ad0e4075fb5333404ea1b25a60b"; 
+  version = "2.2.0"; 
   deps = filterMissing self [ "nullius" ];
   optionalDeps = [ "aai-signal-transmission" ];
  }; 
@@ -62195,10 +62195,10 @@
 
 "pollution-scaling" = factorioMod {
   pname = "pollution-scaling"; 
-  url = "https://mods.factorio.com/download/pollution-scaling/64f0d56382bf98599cd36b8e";  
-  file_name = "pollution-scaling_1.0.4.zip"; 
-  sha1 = "4e0b5ccb4f8acd5a3f98f79e662fac84f6de622a"; 
-  version = "1.0.4"; 
+  url = "https://mods.factorio.com/download/pollution-scaling/655b90e9fd5f2ccab2778fdf";  
+  file_name = "pollution-scaling_1.0.5.zip"; 
+  sha1 = "3a67130844102b01b682f2380f02d8e2cb779ad3"; 
+  version = "1.0.5"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
