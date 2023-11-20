@@ -38895,12 +38895,12 @@
 
 "all-the-overhaul-modpack" = factorioMod {
   pname = "all-the-overhaul-modpack"; 
-  url = "https://mods.factorio.com/download/all-the-overhaul-modpack/655a8692636a05e283bf6257";  
-  file_name = "all-the-overhaul-modpack_1.5.0.zip"; 
-  sha1 = "f7d8cd9be389bf0281eda267a8d217977176d5e5"; 
-  version = "1.5.0"; 
-  deps = filterMissing self [ "248k" "aai-containers" "aai-industry" "Bio_Industries" "Expensive_Fluid_Must_Flow_Recipes" "Flow Control" "FluidMustFlow" "FluidMustFlowSE" "GDIW" "grappling-gun" "IfNickel" "informatron" "jetpack" "Krastorio2" "Krastorio2Assets" "manganese" "More_Ammo" "nach0_248k_k2_compat_patch" "RampantEvolution" "RampantFixed" "RampantArsenal" "se-cme-combinator" "se-flow-control-bridge" "se-landfill-le" "se-recycling-extras" "se-space-trains" "SE248kfix" "shield-projector" "solar-productivity" "MDbobelectronics" "More_Repair_Packs" "space-exploration" "space-exploration-pipes-n-belts" "space-spidertron" "spaceexplorationdatachipaugmenter" "spidertron-dock" "WireShortcuts" ];
-  optionalDeps = [ "qol_by_moralit" ];
+  url = "https://mods.factorio.com/download/all-the-overhaul-modpack/655ab7f3407f24a2244536b2";  
+  file_name = "all-the-overhaul-modpack_1.5.2.zip"; 
+  sha1 = "d589ce271939f1a5f4501281a7d46e3229ab855c"; 
+  version = "1.5.2"; 
+  deps = filterMissing self [ "248k" "aai-containers" "aai-industry" "Bio_Industries" "bismuth" "BrassTacks" "bz-dsr-bridge" "bzaluminum" "bzcarbon" "bzchlorine" "bzfoundry" "bzgas" "bzgold" "bzlead" "bzsilicon" "bztin" "bztitanium" "bztungsten" "bzzirconium" "Expensive_Fluid_Must_Flow_Recipes" "Flow Control" "FluidMustFlow" "FluidMustFlowSE" "GDIW" "grappling-gun" "IfNickel" "informatron" "jetpack" "Krastorio2" "Krastorio2Assets" "manganese" "More_Ammo" "nach0_248k_k2_compat_patch" "se-cme-combinator" "se-flow-control-bridge" "se-landfill-le" "se-recycling-extras" "se-space-trains" "SE248kfix" "shield-projector" "solar-productivity" "MDbobelectronics" "More_Repair_Packs" "space-exploration" "space-exploration-pipes-n-belts" "space-spidertron" "spaceexplorationdatachipaugmenter" "spidertron-dock" "WireShortcuts" ];
+  optionalDeps = [ "RampantEvolution" "RampantFixed" "RampantArsenal" "qol_by_moralit" ];
  }; 
 
 "all-tiles-stack-1k" = factorioMod {
