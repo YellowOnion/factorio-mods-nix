@@ -65145,10 +65145,10 @@
 
 "resourcehighlighter-dark" = factorioMod {
   pname = "resourcehighlighter-dark"; 
-  url = "https://mods.factorio.com/download/resourcehighlighter-dark/651d9374bd44d37d7d0f00de";  
-  file_name = "resourcehighlighter-dark_2.5.1.zip"; 
-  sha1 = "cc41f3343858c9cfac0fd78846dd2e819b354ee1"; 
-  version = "2.5.1"; 
+  url = "https://mods.factorio.com/download/resourcehighlighter-dark/655bab15ff94f69607fac4be";  
+  file_name = "resourcehighlighter-dark_2.5.2.zip"; 
+  sha1 = "f1d6de744f5f82621f75a89efc99c8495138ec17"; 
+  version = "2.5.2"; 
   deps = filterMissing self [ "flib" ];
   optionalDeps = [ "space-exploration" ];
  }; 
