@@ -15903,6 +15903,16 @@
   optionalDeps = [ "bobinserters" ];
  }; 
 
+"InserterCranes-for-pymods-configuration" = factorioMod {
+  pname = "InserterCranes-for-pymods-configuration"; 
+  url = "https://mods.factorio.com/download/InserterCranes-for-pymods-configuration/655fddc709ea183f233fbb36";  
+  file_name = "InserterCranes-for-pymods-configuration_0.0.1.zip"; 
+  sha1 = "0625a11ca8267b2efb9fedfc46d8af548328a602"; 
+  version = "0.0.1"; 
+  deps = filterMissing self [ "InserterCranes-for-pymods" ];
+  optionalDeps = [  ];
+ }; 
+
 "InserterFuelLeech" = factorioMod {
   pname = "InserterFuelLeech"; 
   url = "https://mods.factorio.com/download/InserterFuelLeech/635c4c1dd296e0fa5a3282d0";  
@@ -20173,6 +20183,16 @@
   optionalDeps = [  ];
  }; 
 
+"MetalsForYou" = factorioMod {
+  pname = "MetalsForYou"; 
+  url = "https://mods.factorio.com/download/MetalsForYou/655f94fb333690f0e2fa1090";  
+  file_name = "MetalsForYou_0.1.0.zip"; 
+  sha1 = "217e6a34286c91d0390bdaf8dbd9df71d8262bb8"; 
+  version = "0.1.0"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [ "248k" "aai-industry" "aai-vehicles-miner" "angelsaddons-cab" "bismuth" "bobassembly" "BrassTacks" "bzaluminum" "bzcarbon" "bzfoundry" "bzgas" "bzgold" "bzlead" "bzsilicon" "bztitanium" "bztungsten" "bztin" "bzzirconium" "EndgameCombat" "FluidMustFlow" "Krastorio2" "manganese" "MDbobelectronics" "RampantArsenal" "Repair_Turret" "space-exploration" ];
+ }; 
+
 "MeteorDefenseFix" = factorioMod {
   pname = "MeteorDefenseFix"; 
   url = "https://mods.factorio.com/download/MeteorDefenseFix/61adf98e04ec3cd8f80d6f23";  
@@ -23495,10 +23515,10 @@
 
 "OneItemForFree" = factorioMod {
   pname = "OneItemForFree"; 
-  url = "https://mods.factorio.com/download/OneItemForFree/652c8acd7c7087c6090f7aa2";  
-  file_name = "OneItemForFree_0.0.3.zip"; 
-  sha1 = "f0998f115e6f21028d57f483f7b95b0aad18c062"; 
-  version = "0.0.3"; 
+  url = "https://mods.factorio.com/download/OneItemForFree/655f9f55768bd479f3165241";  
+  file_name = "OneItemForFree_0.0.4.zip"; 
+  sha1 = "d25b0b86bdd1df082a61c654592e20621ff4ae33"; 
+  version = "0.0.4"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -26385,10 +26405,10 @@
 
 "RadioNetwork_FIX" = factorioMod {
   pname = "RadioNetwork_FIX"; 
-  url = "https://mods.factorio.com/download/RadioNetwork_FIX/6559e01e68a7b75f04f8e4f8";  
-  file_name = "RadioNetwork_FIX_1.0.5.zip"; 
-  sha1 = "b4f6ed895a968a2555e512d6278d534d1ee1886b"; 
-  version = "1.0.5"; 
+  url = "https://mods.factorio.com/download/RadioNetwork_FIX/655f8f87333690f0e2fa108f";  
+  file_name = "RadioNetwork_FIX_1.0.6.zip"; 
+  sha1 = "4d6f881c8fea12711c09cc4de0ff938f32743f35"; 
+  version = "1.0.6"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -31215,10 +31235,10 @@
 
 "Smart_Inserters" = factorioMod {
   pname = "Smart_Inserters"; 
-  url = "https://mods.factorio.com/download/Smart_Inserters/655a8c8937c8f3f3153c037d";  
-  file_name = "Smart_Inserters_1.2.8.zip"; 
-  sha1 = "102d6a562fd40ce6e25f1ca3d0cf35550ceca4b6"; 
-  version = "1.2.8"; 
+  url = "https://mods.factorio.com/download/Smart_Inserters/655f7926768bd479f316523f";  
+  file_name = "Smart_Inserters_1.2.9.zip"; 
+  sha1 = "8e2371c135811ac78a969ab659a36ec29a1dde23"; 
+  version = "1.2.9"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -35085,10 +35105,10 @@
 
 "True-Nukes" = factorioMod {
   pname = "True-Nukes"; 
-  url = "https://mods.factorio.com/download/True-Nukes/654e575d983166575f13bf26";  
-  file_name = "True-Nukes_0.3.31.zip"; 
-  sha1 = "bebba63fa5fe637100630c05e64e54e85869ff6a"; 
-  version = "0.3.31"; 
+  url = "https://mods.factorio.com/download/True-Nukes/655f820a333690f0e2fa108e";  
+  file_name = "True-Nukes_0.3.32.zip"; 
+  sha1 = "8b78ae695d5a94b6d938cdf15d8eb9f0c44eb119"; 
+  version = "0.3.32"; 
   deps = filterMissing self [ "Warheads" ];
   optionalDeps = [ "SchallTankPlatoon" "Aircraft" "bobelectronics" "bobwarfare" "bobplates" "True-Nukes-Graphics" "apm_nuclear_ldinc" "PlutoniumEnergy" "Nuclear Fuel" "Clowns-Nuclear" "Clowns-AngelBob-Nuclear" "space-exploration" "Krastorio2" ];
  }; 
@@ -36471,6 +36491,16 @@
   version = "1.2.7"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "Mining-Space-Industries-II" "Rocket-Silo-Construction" "warptorio2" "warptorio2_expansion" "planetorio_expansion_planets" "Warp-Drive-Machine" "warptorio2_lootchest_locator" "ArmouredBiters" "Cold_biters" "Explosive_biters" "Toxic_biters" "Big-Monsters" "ArachnidsFaction" "Arachnids_enemy" "factorio-crash-site" "Electric-Weapons" ];
+ }; 
+
+"Wartrauma_ogg" = factorioMod {
+  pname = "Wartrauma_ogg"; 
+  url = "https://mods.factorio.com/download/Wartrauma_ogg/655fa0c1448effbecb4d69d0";  
+  file_name = "Wartrauma_ogg_1.0.0.zip"; 
+  sha1 = "bf1b108b176b581fdce8cf4e5c4b630e4ba69473"; 
+  version = "1.0.0"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
  }; 
 
 "WaterAsAResource" = factorioMod {
@@ -39615,10 +39645,10 @@
 
 "apm_lib_ldinc" = factorioMod {
   pname = "apm_lib_ldinc"; 
-  url = "https://mods.factorio.com/download/apm_lib_ldinc/64d6815db2b6dc39e1201f9a";  
-  file_name = "apm_lib_ldinc_0.23.10.zip"; 
-  sha1 = "a0e994050efad2c55a6b35fb9c03da0a3bbbc9b8"; 
-  version = "0.23.10"; 
+  url = "https://mods.factorio.com/download/apm_lib_ldinc/655f8820c2856cca6fdbceeb";  
+  file_name = "apm_lib_ldinc_0.23.11.zip"; 
+  sha1 = "5a96165f1e8d7fadb1447f916e1e5df8fc3d1014"; 
+  version = "0.23.11"; 
   deps = filterMissing self [ "apm_resource_pack_ldinc" ];
   optionalDeps = [  ];
  }; 
@@ -49520,6 +49550,16 @@
   sha1 = "3d1b26d8a590e0ca48d6753624fbfbd13b61ec69"; 
   version = "1.0.0"; 
   deps = filterMissing self [ "informatron" ];
+  optionalDeps = [  ];
+ }; 
+
+"fenix-essentials" = factorioMod {
+  pname = "fenix-essentials"; 
+  url = "https://mods.factorio.com/download/fenix-essentials/655f9578333690f0e2fa1093";  
+  file_name = "fenix-essentials_0.1.0.zip"; 
+  sha1 = "d151b958d2e5e692a2b8f863ecb38bfa482ba6c7"; 
+  version = "0.1.0"; 
+  deps = filterMissing self [ "Squeak Through" "RateCalculator" "qol_research" "miniloader" "informatron" "helmod" "GhostOnWater" "FNEI" "even-distribution" "creative-mod" ];
   optionalDeps = [  ];
  }; 
 
