@@ -2665,11 +2665,11 @@
 
 "Artillery-modpack" = factorioMod {
   pname = "Artillery-modpack"; 
-  url = "https://mods.factorio.com/download/Artillery-modpack/62e848be9eb528644002d132";  
-  file_name = "Artillery-modpack_0.0.5.zip"; 
-  sha1 = "37b0bb5ca7b1b251c255b632fd46cfd312fbd013"; 
-  version = "0.0.5"; 
-  deps = filterMissing self [ "AdvancedArtilleryRemotesContinued" "bigger-artillery-balanced" "EpicArtillerySounds" "lightArtillery-Balanced" "MustardArtilleryShell" "NapalmArtillery" "RealisticFusionWeaponry" "RealisticFusionPower" "True-Nukes" ];
+  url = "https://mods.factorio.com/download/Artillery-modpack/6560caccd8eda5aa8299bc73";  
+  file_name = "Artillery-modpack_0.0.6.zip"; 
+  sha1 = "472994b277f103e2253dabc38c7fd2a753c13b2d"; 
+  version = "0.0.6"; 
+  deps = filterMissing self [ "AdvancedArtilleryRemotesContinued" "bigger-artillery-balanced" "EpicArtillerySounds" "snip-light-artillery" "MustardArtilleryShell" "NapalmArtillery" "RealisticFusionWeaponry" "RealisticFusionPower" "True-Nukes" ];
   optionalDeps = [ "Artillery_Manual_Only" "kj_dakka_arty" "MushroomCloud-patched" "NoArtilleryMapReveal" "SchallArtillery" "True-Nukes-Graphics" ];
  }; 
 
@@ -20185,10 +20185,10 @@
 
 "MetalsForYou" = factorioMod {
   pname = "MetalsForYou"; 
-  url = "https://mods.factorio.com/download/MetalsForYou/655f94fb333690f0e2fa1090";  
-  file_name = "MetalsForYou_0.1.0.zip"; 
-  sha1 = "217e6a34286c91d0390bdaf8dbd9df71d8262bb8"; 
-  version = "0.1.0"; 
+  url = "https://mods.factorio.com/download/MetalsForYou/6560ca539ae1e7565268a30f";  
+  file_name = "MetalsForYou_0.1.1.zip"; 
+  sha1 = "f2fbdc56a8c7e82500a2e48f9b056cc37d3919f4"; 
+  version = "0.1.1"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "248k" "aai-industry" "aai-vehicles-miner" "angelsaddons-cab" "bismuth" "bobassembly" "BrassTacks" "bzaluminum" "bzcarbon" "bzfoundry" "bzgas" "bzgold" "bzlead" "bzsilicon" "bztitanium" "bztungsten" "bztin" "bzzirconium" "EndgameCombat" "FluidMustFlow" "Krastorio2" "manganese" "MDbobelectronics" "RampantArsenal" "Repair_Turret" "space-exploration" ];
  }; 
@@ -24635,10 +24635,10 @@
 
 "PipeVisualizer" = factorioMod {
   pname = "PipeVisualizer"; 
-  url = "https://mods.factorio.com/download/PipeVisualizer/652c293d4499e24c39eff963";  
-  file_name = "PipeVisualizer_2.1.0.zip"; 
-  sha1 = "a52935810159195230481595263ce78df8303338"; 
-  version = "2.1.0"; 
+  url = "https://mods.factorio.com/download/PipeVisualizer/656104ef9ae1e7565268a310";  
+  file_name = "PipeVisualizer_2.2.0.zip"; 
+  sha1 = "b48415e0aba42a714c40e5808ae898630d1f071b"; 
+  version = "2.2.0"; 
   deps = filterMissing self [ "flib" ];
   optionalDeps = [  ];
  }; 
@@ -39205,10 +39205,10 @@
 
 "ammopack" = factorioMod {
   pname = "ammopack"; 
-  url = "https://mods.factorio.com/download/ammopack/655b2ef6edd79ed6ff6c38b9";  
-  file_name = "ammopack_1.0.1.zip"; 
-  sha1 = "1b8df8315e5515ec881a1f5d8100e859dae815eb"; 
-  version = "1.0.1"; 
+  url = "https://mods.factorio.com/download/ammopack/6560cab92f8276f110b91973";  
+  file_name = "ammopack_1.0.2.zip"; 
+  sha1 = "5f4022cc7c02b0466b161a0c9b5fd801bf0798cf"; 
+  version = "1.0.2"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "minigun" ];
  }; 
@@ -42125,10 +42125,10 @@
 
 "biter-clash" = factorioMod {
   pname = "biter-clash"; 
-  url = "https://mods.factorio.com/download/biter-clash/65230723c69d0de185b9c4b2";  
-  file_name = "biter-clash_0.5.0.zip"; 
-  sha1 = "5e7c8e0814096820ddd6660099b23ad98a6d9667"; 
-  version = "0.5.0"; 
+  url = "https://mods.factorio.com/download/biter-clash/6561140624a1199e5269898f";  
+  file_name = "biter-clash_0.5.1.zip"; 
+  sha1 = "fb531bbdb1ec7ab125ab25aaf77c50ff12ca726f"; 
+  version = "0.5.1"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -56455,10 +56455,10 @@
 
 "logistic-artillery-digra" = factorioMod {
   pname = "logistic-artillery-digra"; 
-  url = "https://mods.factorio.com/download/logistic-artillery-digra/655d77c7795233ba0514cec6";  
-  file_name = "logistic-artillery-digra_1.0.8.zip"; 
-  sha1 = "e82e59d6a28cabacb22eadb24189183eb1341321"; 
-  version = "1.0.8"; 
+  url = "https://mods.factorio.com/download/logistic-artillery-digra/656158eb2f8276f110b91980";  
+  file_name = "logistic-artillery-digra_1.0.9.zip"; 
+  sha1 = "f4e60a31599b6c42ec81d6fc3a5d0274862d4f2b"; 
+  version = "1.0.9"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "RemoteConfiguration" ];
  }; 
@@ -63385,12 +63385,12 @@
 
 "pyalternativeenergysettings" = factorioMod {
   pname = "pyalternativeenergysettings"; 
-  url = "https://mods.factorio.com/download/pyalternativeenergysettings/655ddbf436fb1eb314f2dbb8";  
-  file_name = "pyalternativeenergysettings_0.0.6.zip"; 
-  sha1 = "95ca8c8802578716ffe683ee0119129b4c77180d"; 
-  version = "0.0.6"; 
+  url = "https://mods.factorio.com/download/pyalternativeenergysettings/6560bd32768bd479f3165256";  
+  file_name = "pyalternativeenergysettings_0.0.7.zip"; 
+  sha1 = "d688db10ce9e65a2350d56a71797e84c699896e9"; 
+  version = "0.0.7"; 
   deps = filterMissing self [ "pyalternativeenergy" ];
-  optionalDeps = [  ];
+  optionalDeps = [ "pyhardmode" ];
  }; 
 
 "pybalance" = factorioMod {
@@ -64140,6 +64140,16 @@
   sha1 = "8b1f34cc66cec0d8da952bd9e1b754443c8112c4"; 
   version = "1.1.9"; 
   deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
+"railroad-tycoon" = factorioMod {
+  pname = "railroad-tycoon"; 
+  url = "https://mods.factorio.com/download/railroad-tycoon/6561638dd8eda5aa8299bc8d";  
+  file_name = "railroad-tycoon_0.1.1.zip"; 
+  sha1 = "77c8552dc91ed2867aeadb45f651c899fbc5612e"; 
+  version = "0.1.1"; 
+  deps = filterMissing self [ "Warehousing" ];
   optionalDeps = [  ];
  }; 
 
