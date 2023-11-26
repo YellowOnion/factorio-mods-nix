@@ -8815,10 +8815,10 @@
 
 "DeadlockStackingForBobs" = factorioMod {
   pname = "DeadlockStackingForBobs"; 
-  url = "https://mods.factorio.com/download/DeadlockStackingForBobs/6505c23cfdd3b0ef9bdc45e8";  
-  file_name = "DeadlockStackingForBobs_1.2.4.zip"; 
-  sha1 = "c09ec61f893676bc3f9174ddcc5d4cc240445321"; 
-  version = "1.2.4"; 
+  url = "https://mods.factorio.com/download/DeadlockStackingForBobs/65632cd63053bbdc919169c5";  
+  file_name = "DeadlockStackingForBobs_1.2.5.zip"; 
+  sha1 = "e7a357aa69a97ef820bb7f6b09fb93ed17210adf"; 
+  version = "1.2.5"; 
   deps = filterMissing self [ "deadlock-beltboxes-loaders" "rusty-locale" ];
   optionalDeps = [ "SeaBlock" "deadlock-integrations" "angelspetrochem" "boblogistics-belt-reskin" "bobassembly" "bobelectronics" "bobenemies" "bobequipment" "bobgreenhouse" "bobinserters" "boblogistics" "bobmining" "bobmodules" "bobpower" "bobrevamp" "bobtech" "bobwarfare" "ShinyBobGFX" "reskins-bobs" "bobplates" "bobores" "CircuitProcessing" ];
  }; 
@@ -17705,10 +17705,10 @@
 
 "Kux-ProductionRates" = factorioMod {
   pname = "Kux-ProductionRates"; 
-  url = "https://mods.factorio.com/download/Kux-ProductionRates/65625caf3053bbdc919169bd";  
-  file_name = "Kux-ProductionRates_2.2.0.zip"; 
-  sha1 = "9ae0973f10ff3988783da93359464d1989dad68b"; 
-  version = "2.2.0"; 
+  url = "https://mods.factorio.com/download/Kux-ProductionRates/6562bbac6cf921696dd23769";  
+  file_name = "Kux-ProductionRates_2.2.1.zip"; 
+  sha1 = "fb47c023ee2c81d403be767da54aaaa672f836a4"; 
+  version = "2.2.1"; 
   deps = filterMissing self [ "Kux-CoreLib" ];
   optionalDeps = [  ];
  }; 
@@ -31815,10 +31815,10 @@
 
 "SpawnTweaks" = factorioMod {
   pname = "SpawnTweaks"; 
-  url = "https://mods.factorio.com/download/SpawnTweaks/6561da3bd8eda5aa8299bc9b";  
-  file_name = "SpawnTweaks_1.2.3.zip"; 
-  sha1 = "b5416c1e457732332d46577955a2ef60aec58fb6"; 
-  version = "1.2.3"; 
+  url = "https://mods.factorio.com/download/SpawnTweaks/65630fbd5c5e1cb9ec080d27";  
+  file_name = "SpawnTweaks_1.2.4.zip"; 
+  sha1 = "ae78ac1659acde56c2488289616ca46bb99bacf5"; 
+  version = "1.2.4"; 
   deps = filterMissing self [ "Babelfish" ];
   optionalDeps = [  ];
  }; 
@@ -32715,10 +32715,10 @@
 
 "Stormwall" = factorioMod {
   pname = "Stormwall"; 
-  url = "https://mods.factorio.com/download/Stormwall/655ccf27c1463bdbd8496bb9";  
-  file_name = "Stormwall_1.4.4.zip"; 
-  sha1 = "7d67d2c8caa962126f858ec3e1df574a1fc95ec0"; 
-  version = "1.4.4"; 
+  url = "https://mods.factorio.com/download/Stormwall/6562caf0691a2c8177f81f80";  
+  file_name = "Stormwall_1.4.5.zip"; 
+  sha1 = "289aa27aae4f324384932c9ad6e2a2f28524ef3e"; 
+  version = "1.4.5"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -34725,10 +34725,10 @@
 
 "TrainSpeeds" = factorioMod {
   pname = "TrainSpeeds"; 
-  url = "https://mods.factorio.com/download/TrainSpeeds/6536d0b8fa14885b619f1c8f";  
-  file_name = "TrainSpeeds_0.1.22.zip"; 
-  sha1 = "7c64fc180fe1e54bd392995b0156ae5bf2f80796"; 
-  version = "0.1.22"; 
+  url = "https://mods.factorio.com/download/TrainSpeeds/656355055c5e1cb9ec080d2e";  
+  file_name = "TrainSpeeds_0.1.23.zip"; 
+  sha1 = "405079164562167f473e050f7bf2405258688111"; 
+  version = "0.1.23"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "cargo-ships" "boblogistics" "FreightForwarding" "IntermodalContainers" "MultipleUnitTrainControl" ];
  }; 
@@ -46835,10 +46835,10 @@
 
 "dyson-sphere-SE-fork" = factorioMod {
   pname = "dyson-sphere-SE-fork"; 
-  url = "https://mods.factorio.com/download/dyson-sphere-SE-fork/6438865bd0c308bbd721c893";  
-  file_name = "dyson-sphere-SE-fork_1.0.10.zip"; 
-  sha1 = "52a8ab70ba0623380c633b262a13a3b233ff09e3"; 
-  version = "1.0.10"; 
+  url = "https://mods.factorio.com/download/dyson-sphere-SE-fork/65634f8d691a2c8177f81f84";  
+  file_name = "dyson-sphere-SE-fork_1.0.11.zip"; 
+  sha1 = "8d67685985ce916773cd389b11906e68e34bf18e"; 
+  version = "1.0.11"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "slp-high-capacity-batteries" ];
  }; 
@@ -48705,12 +48705,12 @@
 
 "factorio-2ish" = factorioMod {
   pname = "factorio-2ish"; 
-  url = "https://mods.factorio.com/download/factorio-2ish/655b4d55317b4321c40fd494";  
-  file_name = "factorio-2ish_0.385.1.zip"; 
-  sha1 = "e7064b14a3958af4c6332c18ff9612f5e5f3d381"; 
-  version = "0.385.1"; 
+  url = "https://mods.factorio.com/download/factorio-2ish/65631d0074cdf91b9484e533";  
+  file_name = "factorio-2ish_0.386.1.zip"; 
+  sha1 = "ce28bbf8eab7d1e6f57f43eb2038adabdd0a8de5"; 
+  version = "0.386.1"; 
   deps = filterMissing self [  ];
-  optionalDeps = [ "RemoteConfiguration" "PowerPole32" "WireShortcuts" "Shortcuts-ick" "GhostOnWater" "ModuleInserter" "ModuleInserterSimplified" "TintedGhosts" "AutoTrash" "LogisticRequestManager" "DestructiveBlueprints" "simple_landfill_mining" "beautiful_bridge_railway" "janky-quality" "CursorEnhancements" "AutoCircuit" "pigo-selector-combinator" ];
+  optionalDeps = [ "AutoCircuit" "AutoTrash" "CursorEnhancements" "DestructiveBlueprints" "GhostOnWater" "LogisticRequestManager" "ModuleInserter" "ModuleInserterSimplified" "PowerPole32" "RemoteConfiguration" "Shortcuts-ick" "TintedGhosts" "WireShortcuts" "beautiful_bridge_railway" "janky-quality" "pigo-selector-combinator" "remote-requests" "simple_landfill_mining" ];
  }; 
 
 "factorio-abridged" = factorioMod {
@@ -49409,6 +49409,16 @@
   file_name = "faster-flame-updated_1.1.1.zip"; 
   sha1 = "87fecfd4b73553a7bc08912735b36969ab10f46d"; 
   version = "1.1.1"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
+"faster-hand-crafting-speed" = factorioMod {
+  pname = "faster-hand-crafting-speed"; 
+  url = "https://mods.factorio.com/download/faster-hand-crafting-speed/65633a8d308f97bb0e807743";  
+  file_name = "faster-hand-crafting-speed_0.1.1.zip"; 
+  sha1 = "443bfe01e7720e6584f0641c1e2a71a6cea85d29"; 
+  version = "0.1.1"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -56261,6 +56271,16 @@
   version = "1.1.5"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "flib" "Krastorio2" "pypostprocessing" "pyalienlife" "space-exploration" "SeaBlockMetaPack" "IndustrialRevolution" "nullius" ];
+ }; 
+
+"little-spiders" = factorioMod {
+  pname = "little-spiders"; 
+  url = "https://mods.factorio.com/download/little-spiders/65634d314d98b2159b71f656";  
+  file_name = "little-spiders_0.1.1.zip"; 
+  sha1 = "9f6e58a3bd2834e15ab97102e721ef899625f5d3"; 
+  version = "0.1.1"; 
+  deps = filterMissing self [ "spiderbots" ];
+  optionalDeps = [  ];
  }; 
 
 "lks_py" = factorioMod {
@@ -70043,6 +70063,16 @@
   optionalDeps = [ "spidertron-extended" ];
  }; 
 
+"spiderbots" = factorioMod {
+  pname = "spiderbots"; 
+  url = "https://mods.factorio.com/download/spiderbots/65634b7974cdf91b9484e537";  
+  file_name = "spiderbots_0.1.0.zip"; 
+  sha1 = "e3e9d66480ba40ff2b3a77ea858eba88c225c643"; 
+  version = "0.1.0"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
 "spidersentinel" = factorioMod {
   pname = "spidersentinel"; 
   url = "https://mods.factorio.com/download/spidersentinel/62338570350562697d623cd1";  
@@ -75695,10 +75725,10 @@
 
 "zk-lib" = factorioMod {
   pname = "zk-lib"; 
-  url = "https://mods.factorio.com/download/zk-lib/65549ea714e96ffc77323163";  
-  file_name = "zk-lib_0.16.3.zip"; 
-  sha1 = "d4570cf626f9f2ced813fb2b3ac5fa0b44b089cf"; 
-  version = "0.16.3"; 
+  url = "https://mods.factorio.com/download/zk-lib/6563352b3053bbdc919169c6";  
+  file_name = "zk-lib_0.16.4.zip"; 
+  sha1 = "76d15e5adf46f938f0589d9f80ede978e00d7d28"; 
+  version = "0.16.4"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
