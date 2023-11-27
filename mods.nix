@@ -21593,6 +21593,16 @@
   optionalDeps = [ "adamo-nuclear" "Advanced-Atomics" "AtomicArtillery" "Clowns-Nuclear" "Krastorio2" "Nuclear_Artillery" "Nuclear Landmines" "Orbital Ion Cannon" "PlutoniumEnergy" "RampantArsenal" "SchallArtillery" "SchallLandMine" ];
  }; 
 
+"MushroomCloudHotFixed" = factorioMod {
+  pname = "MushroomCloudHotFixed"; 
+  url = "https://mods.factorio.com/download/MushroomCloudHotFixed/6563fc8389e8911462ceccea";  
+  file_name = "MushroomCloudHotFixed_1.0.18.zip"; 
+  sha1 = "571d41f58a68c0b0ce03df8b7c0fa3733778da4b"; 
+  version = "1.0.18"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [ "adamo-nuclear" "Advanced-Atomics" "AtomicArtillery" "Clowns-Nuclear" "Krastorio2" "Nuclear_Artillery" "Nuclear Landmines" "Orbital Ion Cannon" "PlutoniumEnergy" "RampantArsenal" "SchallArtillery" "SchallLandMine" "Scravers-Atomic-Artillery" ];
+ }; 
+
 "MusicPauses" = factorioMod {
   pname = "MusicPauses"; 
   url = "https://mods.factorio.com/download/MusicPauses/6518c28f31fa65e90a897a8b";  
@@ -57145,10 +57155,10 @@
 
 "mabik_full_pack" = factorioMod {
   pname = "mabik_full_pack"; 
-  url = "https://mods.factorio.com/download/mabik_full_pack/6563dada55b428822588cc79";  
-  file_name = "mabik_full_pack_0.4.6.zip"; 
-  sha1 = "d5344fd4a7c70b71ad1f4f6b3cf6536fac37a10c"; 
-  version = "0.4.6"; 
+  url = "https://mods.factorio.com/download/mabik_full_pack/6563ec7e9bffee90415dbb55";  
+  file_name = "mabik_full_pack_0.4.7.zip"; 
+  sha1 = "bc2f7471f9aa6b7ccf49bcf8977a9913f53403e3"; 
+  version = "0.4.7"; 
   deps = filterMissing self [ "248k" "aai-programmable-structures" "aai-programmable-vehicles" "aai-pv-crafting-group" "aai-signal-transmission" "aai-signals" "aai-vehicles-chaingunner" "aai-vehicles-flame-tank" "aai-vehicles-flame-tumbler" "aai-vehicles-hauler" "aai-vehicles-ironclad" "aai-vehicles-laser-tank" "aai-vehicles-miner" "aai-vehicles-warden" "aai-zones" "AbandonedRuins" "AdditionalPasteSettings" "Advanced-Electric-Revamped-v16" "AdvancedSubstation" "AFK_players" "AfraidOfTheDark" "Aircraft" "alternative-starts-updated" "AngelBob_paper_for_phenolic_board" "angelsaddons-cab" "angelsaddons-mobility" "angelsaddons-newlocales" "angelsaddons-storage" "angelsbioprocessing" "angelsindustries" "AngelsPetroChemExtension" "angelspetrochem" "angelsrefining" "AngelsSmeltingExtension" "angelssmelting" "AngelsWarehouseExtension" "Arborium_Renewed" "arborium_upgrade" "ArmouredBiters" "assembler-pipe-passthrough" "AutoCircuit" "AutoCircuit" "AutoCircuit" "auto_deconstruct_loot_reconstructed" "baron-cattle-prod" "belt-balancer" "beltSorter" "belttracer" "Big-Monsters" "BigBags" "BigFluidWagon" "BigLabFork" "BigPumpjack" "BigSolarandAccumulator" "Big_Brother" "BiodomeIndustries" "Bio_Industries" "biter-power" "biter-power" "BlackMarket2" "blueprint-sandboxes" "blueprint-sandboxes" "bobassembly" "bobclasses" "bobelectronics" "bobenemies" "bobequipment" "bobgreenhouse" "boblibrary" "boblocale" "boblogistics" "bobmining" "bobmodules" "bobores" "bobplates" "bobpower" "bobrevamp" "bobtech" "bobvehicleequipment" "bobwarfare" "BottleneckLite" "BPRS" "cargo-ships-graphics" "cargo-ships" "cargo-ships" "CircuitFactory" "circuitissimo" "Coal-Expanded" "Companion_Drones" "CompressedFluids" "CopyPasteModules" "crafting-efficiency-2" "crafting-efficiency-2" "crafting_combinator" "CursorEnhancements" "dark-matter-replicators-18" "deadlock-beltboxes-loaders" "deadlock-integrations" "DeadlockStackingForDMR" "DeathMarkers" "DeepStacking" "DoubleCargoWagon" "DragonIndustries" "Early_fast_smelting" "Electric-Weapons" "Electric_Transformators" "even-distribution" "factorio-cooked-fish" "Factorissimo2" "factoryplanner" "FARL" "fast_trans" "Fill4Me-fixed" "Filter_Combinator" "fixLargeElectricPole" "flib" "FuelTrainStop" "Geothermal" "GUI_Unifyer" "HelfimaLib" "holographic_signs" "homeworld_redux" "informatron" "ironclad-gunboat-and-mortar-turret" "item-network" "Kux-CoreLib" "Kux-CraftingTools" "Kux-Deadlock-Stacking-Bio_Industries" "LightedPolesPlus" "LinkedChestAndPipe" "LinkedChestAndPipe" "Liquid_Ore_Conversion" "Load-Furn-2" "Loader-Furnace" "logicarts" "LootChestUPS" "LSlib" "m-rpg_items" "m-spell-pack" "map-tag-generator" "Mega-Furnace" "MF_Base" "MicroFurnaceWipMod" "MineLiquidOres" "miniloader" "Mining_Drones_Remastered" "Mobile_Factory" "Mobile_Factory_Graphics" "ModuleInserter" "more-circuits" "more-miniloaders" "more-minimap-autohide-017" "morelabs" "More_Ammo" "move-with-mouse-updated" "Munda_Big_Machine" "nco-InserterCranes" "Nihilistzsche_FishFarm" "Noxys_Extra_Settings_Info" "oilmine" "Pheromones" "PickerAtheneum" "PickerPipeTools" "PollutionSolutionsLiteWLearnedResearch" "Portable-Turret" "prismatic-belts" "railloader" "RampantFixed" "RecipeBook" "refined-wells" "remote-switch" "RenaiTransportation" "repair-fish" "Repair_Turret" "RitnLib" "RitnWaterfill" "robot_attrition" "RPGsystem" "rp_artillery_turret_1_art" "rp_art_util" "rp_battle_tank_1_art" "rp_blender_turret_1_art" "rp_cannon_turret_2_art" "rp_dual_wielding" "rp_lawnmower_tank_1_art" "rp_microwave_turret_1_art" "rp_missile_turret_1_art" "rp_mortar_turret_1_art" "rp_organized_technology" "rp_rocket_car_1_art" "rp_silo_turret_1_art" "rp_sniper_turret_1_art" "rp_steam_intermediates" "rp_tesla_turret_1_art" "rp_tesla_turret_4_art" "rp_wall_turret_1_art" "rp_warfare" "rusty-locale" "SBS-Combinators" "scattergun_turret" "SchallPickupTower" "Searchlight" "Shortcuts-ick" "simhelper" "Smart_Inserters" "snouz-useful-icons" "solar-walls" "speaker-signals-expansion-reloaded" "stack-combinator" "Stacked_Mining" "stdlib" "STIR3" "StoneWaterWell" "super-generous-recipes" "Switch_Button-1_0" "Teleporters" "TestRekiel" "TheBigFurnace" "TimeTools" "TrainSchedule" "underground-pipe-pack" "Updated_Construction_Drones" "ups-fps" "UsefulCombinators" "vehicle-corpses" "VehicleSnap" "Warehousing" "water-consumes-pollution" "xp-for-buildings" ];
   optionalDeps = [  ];
  }; 
