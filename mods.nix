@@ -28813,6 +28813,16 @@
   optionalDeps = [  ];
  }; 
 
+"SE-ores-integration" = factorioMod {
+  pname = "SE-ores-integration"; 
+  url = "https://mods.factorio.com/download/SE-ores-integration/6568a37e542af685a89edb3d";  
+  file_name = "SE-ores-integration_1.4.0.zip"; 
+  sha1 = "5ea9cae37e42bf1df5f94da03074804044c6daf7"; 
+  version = "1.4.0"; 
+  deps = filterMissing self [ "Krastorio2" "aai-industry" "space-exploration" "space-exploration-postprocess" "bzaluminum" "bzcarbon" "bzchlorine" "bzgas" "bzgold" "bzlead" "bzsilicon" "bztin" "bztitanium" "bztungsten" "bzzirconium" "BrassTacks" "IfNickel" "BrimStuff" "ThemTharHills" "LasingAround" "bismuth" "manganese" ];
+  optionalDeps = [ "MetalsForYou" ];
+ }; 
+
 "SE-surge-electric-boiler" = factorioMod {
   pname = "SE-surge-electric-boiler"; 
   url = "https://mods.factorio.com/download/SE-surge-electric-boiler/639c8daf3d1c3e01422c5b96";  
@@ -38985,12 +38995,12 @@
 
 "all-the-overhaul-modpack" = factorioMod {
   pname = "all-the-overhaul-modpack"; 
-  url = "https://mods.factorio.com/download/all-the-overhaul-modpack/6566e7898d89b3b249152728";  
-  file_name = "all-the-overhaul-modpack_1.5.8.zip"; 
-  sha1 = "d548be7facfc930d72941289bc5fbd333c9bf61d"; 
-  version = "1.5.8"; 
+  url = "https://mods.factorio.com/download/all-the-overhaul-modpack/656898ba402699f8b42d9c7f";  
+  file_name = "all-the-overhaul-modpack_1.5.10.zip"; 
+  sha1 = "e2bc22c392897c769df3ef7cc3505cdc2050e7eb"; 
+  version = "1.5.10"; 
   deps = filterMissing self [ "248k" "aai-containers" "aai-industry" "Bio_Industries" "bismuth" "BrassTacks" "bz-dsr-bridge" "bzaluminum" "bzcarbon" "bzchlorine" "bzfoundry" "bzgas" "bzgold" "bzlead" "bzsilicon" "bztin" "bztitanium" "bztungsten" "bzzirconium" "Expensive_Fluid_Must_Flow_Recipes" "Flow Control" "FluidMustFlow" "FluidMustFlowSE" "grappling-gun" "IfNickel" "informatron" "jetpack" "Krastorio2" "Krastorio2Assets" "manganese" "More_Ammo" "nach0_248k_k2_compat_patch" "se-cme-combinator" "se-flow-control-bridge" "se-landfill-le" "se-recycling-extras" "se-space-trains" "SE248kfix" "shield-projector" "solar-productivity" "MDbobelectronics" "More_Repair_Packs" "space-exploration" "space-exploration-pipes-n-belts" "spaceexplorationdatachipaugmenter" "WireShortcuts" ];
-  optionalDeps = [ "RampantEvolution" "RampantFixed" "RampantArsenal" "qol_by_morality" ];
+  optionalDeps = [ "ReStack" "RampantEvolution" "RampantFixed" "RampantArsenal" "qol_by_morality" ];
  }; 
 
 "all-tiles-stack-1k" = factorioMod {
@@ -39655,10 +39665,10 @@
 
 "apm_bob_rework_ldinc" = factorioMod {
   pname = "apm_bob_rework_ldinc"; 
-  url = "https://mods.factorio.com/download/apm_bob_rework_ldinc/6567e03736a8191d2b91c001";  
-  file_name = "apm_bob_rework_ldinc_0.22.133.zip"; 
-  sha1 = "8e9d4b012e08bb6734516e4644297d1b5f028ed3"; 
-  version = "0.22.133"; 
+  url = "https://mods.factorio.com/download/apm_bob_rework_ldinc/65688010b2491f8295fa6eda";  
+  file_name = "apm_bob_rework_ldinc_0.22.134.zip"; 
+  sha1 = "d978e4ec065900f12da88945f724867a8dece5e6"; 
+  version = "0.22.134"; 
   deps = filterMissing self [ "apm_bob_rework_resource_pack_ldinc" "apm_resource_pack_ldinc" "apm_lib_ldinc" "apm_power_ldinc" "apm_nuclear_ldinc" "apm_energy_addon_ldinc" "bobassembly" "bobelectronics" "bobequipment" "bobinserters" "boblibrary" "boblogistics" "bobmining" "bobmodules" "bobores" "bobplates" "bobpower" "bobrevamp" "bobtech" "bobwarfare" "electricboiler" "deadlock-beltboxes-loaders" "ironclad-gunboat-and-mortar-turret" "flib" "Flare Stack" ];
   optionalDeps = [ "Rampant" "RampantArsenal" "LogisticTrainNetwork" ];
  }; 
@@ -53895,10 +53905,10 @@
 
 "janky-quality" = factorioMod {
   pname = "janky-quality"; 
-  url = "https://mods.factorio.com/download/janky-quality/65623a5f3053bbdc919169ba";  
-  file_name = "janky-quality_0.1.18.zip"; 
-  sha1 = "7796248cd7a3a7812b2ec6ac54d31b7f4475cccf"; 
-  version = "0.1.18"; 
+  url = "https://mods.factorio.com/download/janky-quality/656858f936a8191d2b91c003";  
+  file_name = "janky-quality_0.1.19.zip"; 
+  sha1 = "2ecf4133efa6bb8d5d40656bafe20d294c374445"; 
+  version = "0.1.19"; 
   deps = filterMissing self [ "flib" ];
   optionalDeps = [  ];
  }; 
