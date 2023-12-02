@@ -45313,6 +45313,16 @@
   optionalDeps = [  ];
  }; 
 
+"construction-logistic-robots-volume-control" = factorioMod {
+  pname = "construction-logistic-robots-volume-control"; 
+  url = "https://mods.factorio.com/download/construction-logistic-robots-volume-control/656b3e87076c0cda5ddbe256";  
+  file_name = "construction-logistic-robots-volume-control_0.0.1.zip"; 
+  sha1 = "bebdff80cddabc1eb2f5e644a4c58fd257383350"; 
+  version = "0.0.1"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
 "construction-train" = factorioMod {
   pname = "construction-train"; 
   url = "https://mods.factorio.com/download/construction-train/603eb20f4f5afea667557947";  
