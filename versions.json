@@ -2,12 +2,12 @@
   "x86_64-linux": {
     "alpha": {
       "experimental": {
-        "name": "factorio_alpha_x64-1.1.99.tar.xz",
+        "name": "factorio_alpha_x64-1.1.100.tar.xz",
         "needsAuth": true,
-        "sha256": "0wrhf7i5059679vq2cb2x962db9z1a7lgm2z3rzbmizpshfpwpf7",
+        "sha256": "0ylr1x39x6x9d4zx5h0j4isgz5m56kznadf984bcvsl51plhh5wc",
         "tarDirectory": "x64",
-        "url": "https://factorio.com/get-download/1.1.99/alpha/linux64",
-        "version": "1.1.99"
+        "url": "https://factorio.com/get-download/1.1.100/alpha/linux64",
+        "version": "1.1.100"
       },
       "stable": {
         "name": "factorio_alpha_x64-1.1.94.tar.xz",
@@ -20,12 +20,12 @@
     },
     "demo": {
       "experimental": {
-        "name": "factorio_demo_x64-1.1.99.tar.xz",
+        "name": "factorio_demo_x64-1.1.100.tar.xz",
         "needsAuth": false,
-        "sha256": "1rbag5klnpgnkp8n1lva3933rx3x92br7vhg1j7ni09chzpyyqzh",
+        "sha256": "08xrmik7z7p0pgrnscriqhssv2chrpp42gi2dw8fgjb4wf76wqc4",
         "tarDirectory": "x64",
-        "url": "https://factorio.com/get-download/1.1.99/demo/linux64",
-        "version": "1.1.99"
+        "url": "https://factorio.com/get-download/1.1.100/demo/linux64",
+        "version": "1.1.100"
       },
       "stable": {
         "name": "factorio_demo_x64-1.1.94.tar.xz",
@@ -38,12 +38,12 @@
     },
     "headless": {
       "experimental": {
-        "name": "factorio_headless_x64-1.1.99.tar.xz",
+        "name": "factorio_headless_x64-1.1.100.tar.xz",
         "needsAuth": false,
-        "sha256": "0d89hlikjgyvy8ndb1xpcwnmrfn6m1kh6rdln40z11zzkcxa21s1",
+        "sha256": "0d6qphx6kpdmvyf40j45ih2s8q48i28nac86pal4vvlkdwadsl4q",
         "tarDirectory": "x64",
-        "url": "https://factorio.com/get-download/1.1.99/headless/linux64",
-        "version": "1.1.99"
+        "url": "https://factorio.com/get-download/1.1.100/headless/linux64",
+        "version": "1.1.100"
       },
       "stable": {
         "name": "factorio_headless_x64-1.1.94.tar.xz",
