@@ -1315,10 +1315,10 @@
 
 "Advanced-Electric-Revamped-v16" = factorioMod {
   pname = "Advanced-Electric-Revamped-v16"; 
-  url = "https://mods.factorio.com/download/Advanced-Electric-Revamped-v16/649372dc8eb366ab22af6b56";  
-  file_name = "Advanced-Electric-Revamped-v16_0.6.11.zip"; 
-  sha1 = "f8ecd8d207063c48a3c6604c8e60f0f614e9c687"; 
-  version = "0.6.11"; 
+  url = "https://mods.factorio.com/download/Advanced-Electric-Revamped-v16/6571c5bb3a3f5c8d047de6a4";  
+  file_name = "Advanced-Electric-Revamped-v16_0.6.12.zip"; 
+  sha1 = "2cb90b3aef3d84816ed5af03c66fef85c128ce32"; 
+  version = "0.6.12"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -2845,10 +2845,10 @@
 
 "Atlas_ATF" = factorioMod {
   pname = "Atlas_ATF"; 
-  url = "https://mods.factorio.com/download/Atlas_ATF/65701fe01c4dc237c12bb6a8";  
-  file_name = "Atlas_ATF_1.1.33.zip"; 
-  sha1 = "d12371504de95a5e7aed058da40d3d62b0b4cdd2"; 
-  version = "1.1.33"; 
+  url = "https://mods.factorio.com/download/Atlas_ATF/657189683a3f5c8d047de6a1";  
+  file_name = "Atlas_ATF_1.1.34.zip"; 
+  sha1 = "8258850f401cc3c094df7ed012a17287a66fc1d2"; 
+  version = "1.1.34"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "boblibrary" "bobores" "bobplates" "bobwarfare" ];
  }; 
@@ -12645,10 +12645,10 @@
 
 "FilterHelper" = factorioMod {
   pname = "FilterHelper"; 
-  url = "https://mods.factorio.com/download/FilterHelper/651ca37d4fbf986d0930fc7c";  
-  file_name = "FilterHelper_0.1.8.zip"; 
-  sha1 = "dd6b744df51ee1f5e29ce66ba02766098df53a7a"; 
-  version = "0.1.8"; 
+  url = "https://mods.factorio.com/download/FilterHelper/6571ac063a3f5c8d047de6a3";  
+  file_name = "FilterHelper_0.1.10.zip"; 
+  sha1 = "1602052eb69eee6389b40aacae17227bf9fd7b13"; 
+  version = "0.1.10"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -24285,10 +24285,10 @@
 
 "Pacifist" = factorioMod {
   pname = "Pacifist"; 
-  url = "https://mods.factorio.com/download/Pacifist/654f5af1e0f2fcf3e6b349b2";  
-  file_name = "Pacifist_0.3.1.zip"; 
-  sha1 = "976795bff6ebd6cbb65fbece2a699357c170d805"; 
-  version = "0.3.1"; 
+  url = "https://mods.factorio.com/download/Pacifist/6571a31cf1bc579ebf2754b6";  
+  file_name = "Pacifist_0.3.2.zip"; 
+  sha1 = "677b865e7b351d352d3606cef36b5706b7c65b81"; 
+  version = "0.3.2"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "invulnerable" "Explosive Termites" "Krastorio2" ];
  }; 
@@ -24785,10 +24785,10 @@
 
 "PicksSetInventoryFilter" = factorioMod {
   pname = "PicksSetInventoryFilter"; 
-  url = "https://mods.factorio.com/download/PicksSetInventoryFilter/65509dafc38ed2436f02fda3";  
-  file_name = "PicksSetInventoryFilter_1.1.1.zip"; 
-  sha1 = "2ca596502ce08df3b6ca2bacde764e16f289bd9c"; 
-  version = "1.1.1"; 
+  url = "https://mods.factorio.com/download/PicksSetInventoryFilter/6571d47f05f078343374aad1";  
+  file_name = "PicksSetInventoryFilter_1.1.2.zip"; 
+  sha1 = "5cc118de18c4db86ca17bf28d6da0e369c31a489"; 
+  version = "1.1.2"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -29035,10 +29035,10 @@
 
 "SE-ores-integration" = factorioMod {
   pname = "SE-ores-integration"; 
-  url = "https://mods.factorio.com/download/SE-ores-integration/656cb9a0dade804d850b8af6";  
-  file_name = "SE-ores-integration_1.5.1.zip"; 
-  sha1 = "bfc9e2ce0ecd9fefcf0bcc205f9d463834b04c93"; 
-  version = "1.5.1"; 
+  url = "https://mods.factorio.com/download/SE-ores-integration/65719fca3a3f5c8d047de6a2";  
+  file_name = "SE-ores-integration_1.5.2.zip"; 
+  sha1 = "2b543cefb4976c37594c073af92ed3c6525ca0ab"; 
+  version = "1.5.2"; 
   deps = filterMissing self [ "Krastorio2" "aai-industry" "space-exploration" "space-exploration-postprocess" "bzaluminum" "bzcarbon" "bzchlorine" "bzgas" "bzgold" "bzlead" "BrimStuff" "ThemTharHills" "LasingAround" ];
   optionalDeps = [ "bzsilicon" "bztin" "bztitanium" "bztungsten" "bzzirconium" "BrassTacks" "IfNickel" "bismuth" "manganese" "MetalsForYou" "GasGasGases" "se-rocket-fuel-tweaks" ];
  }; 
@@ -54295,12 +54295,12 @@
 
 "janky-quality" = factorioMod {
   pname = "janky-quality"; 
-  url = "https://mods.factorio.com/download/janky-quality/656858f936a8191d2b91c003";  
-  file_name = "janky-quality_0.1.19.zip"; 
-  sha1 = "2ecf4133efa6bb8d5d40656bafe20d294c374445"; 
-  version = "0.1.19"; 
+  url = "https://mods.factorio.com/download/janky-quality/6571ac831d6e70fcc09a9610";  
+  file_name = "janky-quality_0.1.20.zip"; 
+  sha1 = "121debe298558d477906f001b098bcdff8b5c9f8"; 
+  version = "0.1.20"; 
   deps = filterMissing self [ "flib" ];
-  optionalDeps = [  ];
+  optionalDeps = [ "CompressedFluids" ];
  }; 
 
 "japanese_voice_alerts" = factorioMod {
@@ -57055,10 +57055,10 @@
 
 "logistic-artillery-digra" = factorioMod {
   pname = "logistic-artillery-digra"; 
-  url = "https://mods.factorio.com/download/logistic-artillery-digra/656158eb2f8276f110b91980";  
-  file_name = "logistic-artillery-digra_1.0.9.zip"; 
-  sha1 = "f4e60a31599b6c42ec81d6fc3a5d0274862d4f2b"; 
-  version = "1.0.9"; 
+  url = "https://mods.factorio.com/download/logistic-artillery-digra/65717a351d6e70fcc09a9608";  
+  file_name = "logistic-artillery-digra_1.1.0.zip"; 
+  sha1 = "8b41ddc01fe53269d56aeb8d0909c246608f183c"; 
+  version = "1.1.0"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "RemoteConfiguration" ];
  }; 
@@ -63665,10 +63665,10 @@
 
 "puppy-supertrim" = factorioMod {
   pname = "puppy-supertrim"; 
-  url = "https://mods.factorio.com/download/puppy-supertrim/653cff63f7d8fd54aafa76b5";  
-  file_name = "puppy-supertrim_0.1.0.zip"; 
-  sha1 = "f7a8bfc80a0f93a9df0068ea250906c281ff61a0"; 
-  version = "0.1.0"; 
+  url = "https://mods.factorio.com/download/puppy-supertrim/6571d95af1bc579ebf2754bb";  
+  file_name = "puppy-supertrim_0.1.1.zip"; 
+  sha1 = "dea2bad797dcf37de2ed174ec4a47f59c2519599"; 
+  version = "0.1.1"; 
   deps = filterMissing self [ "flib" ];
   optionalDeps = [  ];
  }; 
@@ -72899,6 +72899,16 @@
   file_name = "timeseries_fixfor110_0.3.5.zip"; 
   sha1 = "c95caa2d6b9d7a11b789512144cf285438e2abad"; 
   version = "0.3.5"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
+"timeslowdown" = factorioMod {
+  pname = "timeslowdown"; 
+  url = "https://mods.factorio.com/download/timeslowdown/6571b04d1d6e70fcc09a9611";  
+  file_name = "timeslowdown_0.0.1.zip"; 
+  sha1 = "75fe32c5455a07a8424e778d5b20c6401913cfc1"; 
+  version = "0.0.1"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
