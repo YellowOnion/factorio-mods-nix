@@ -39113,6 +39113,16 @@
   optionalDeps = [  ];
  }; 
 
+"akontios-music" = factorioMod {
+  pname = "akontios-music"; 
+  url = "https://mods.factorio.com/download/akontios-music/6571418bf1bc579ebf2754ae";  
+  file_name = "akontios-music_1.0.0.zip"; 
+  sha1 = "d28c494f7f750e7ffd203d8fcd3d96cd7ba06fc6"; 
+  version = "1.0.0"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
 "alentuon-cheat-plugin" = factorioMod {
   pname = "alentuon-cheat-plugin"; 
   url = "https://mods.factorio.com/download/alentuon-cheat-plugin/6561d66b9ae1e7565268a318";  
