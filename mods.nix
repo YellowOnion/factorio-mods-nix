@@ -795,10 +795,10 @@
 
 "AAIContainersUPSPlus" = factorioMod {
   pname = "AAIContainersUPSPlus"; 
-  url = "https://mods.factorio.com/download/AAIContainersUPSPlus/6572e3d822efa8a305333674";  
-  file_name = "AAIContainersUPSPlus_1.0.1.zip"; 
-  sha1 = "7a5d5ffb56a818e5c45762ffd52042e219b261a9"; 
-  version = "1.0.1"; 
+  url = "https://mods.factorio.com/download/AAIContainersUPSPlus/65736d0ec2e97dae592ac568";  
+  file_name = "AAIContainersUPSPlus_1.0.2.zip"; 
+  sha1 = "c3e7218f53b4e44fbd27ccc98a230395ba3d6ae9"; 
+  version = "1.0.2"; 
   deps = filterMissing self [ "aai-containers" ];
   optionalDeps = [  ];
  }; 
@@ -3521,6 +3521,16 @@
   version = "0.0.1"; 
   deps = filterMissing self [ "bobplates" "angelsrefining" ];
   optionalDeps = [  ];
+ }; 
+
+"BarrelStack" = factorioMod {
+  pname = "BarrelStack"; 
+  url = "https://mods.factorio.com/download/BarrelStack/657331d590457bd28c89161c";  
+  file_name = "BarrelStack_0.1.0.zip"; 
+  sha1 = "b8df1c8d28afefb842540a62cf80d4df368aec55"; 
+  version = "0.1.0"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [ "space-exploration" ];
  }; 
 
 "Barrel_Coolant" = factorioMod {
@@ -15555,10 +15565,10 @@
 
 "IndustrialRevolution3" = factorioMod {
   pname = "IndustrialRevolution3"; 
-  url = "https://mods.factorio.com/download/IndustrialRevolution3/65609947fbb79a279d9c9b77";  
-  file_name = "IndustrialRevolution3_3.1.12.zip"; 
-  sha1 = "7264131e4986598b8bfe50b19c557dfa57ac9096"; 
-  version = "3.1.12"; 
+  url = "https://mods.factorio.com/download/IndustrialRevolution3/657359bbac820125bfc419d8";  
+  file_name = "IndustrialRevolution3_3.1.13.zip"; 
+  sha1 = "2e5e7c4f76d0df3880a3ddb905969147d7882492"; 
+  version = "3.1.13"; 
   deps = filterMissing self [ "IndustrialRevolution3Assets1" "IndustrialRevolution3Assets2" "IndustrialRevolution3Assets3" "IndustrialRevolution3Assets4" ];
   optionalDeps = [ "IndustrialRevolution3LoadersStacking" "IndustrialRevolution3SpaceMining" "DeadlockBlackRubberBelts" "DeadlockLargerLamp" ];
  }; 
@@ -15623,6 +15633,16 @@
   optionalDeps = [  ];
  }; 
 
+"IndustrialRevolution3ForestryCombinators" = factorioMod {
+  pname = "IndustrialRevolution3ForestryCombinators"; 
+  url = "https://mods.factorio.com/download/IndustrialRevolution3ForestryCombinators/65735ab01c3655e55ec80f0b";  
+  file_name = "IndustrialRevolution3ForestryCombinators_1.0.0.zip"; 
+  sha1 = "69cf4fa3dd615f4e5984f8c93e5f3ee8b9fb4e88"; 
+  version = "1.0.0"; 
+  deps = filterMissing self [ "IndustrialRevolution3" ];
+  optionalDeps = [  ];
+ }; 
+
 "IndustrialRevolution3LoadersStacking" = factorioMod {
   pname = "IndustrialRevolution3LoadersStacking"; 
   url = "https://mods.factorio.com/download/IndustrialRevolution3LoadersStacking/65609937f975b3c40cddd128";  
@@ -15655,10 +15675,10 @@
 
 "IndustrialRevolution3SpaceMining" = factorioMod {
   pname = "IndustrialRevolution3SpaceMining"; 
-  url = "https://mods.factorio.com/download/IndustrialRevolution3SpaceMining/65609929c2856cca6fdbcef9";  
-  file_name = "IndustrialRevolution3SpaceMining_1.0.1.zip"; 
-  sha1 = "308515e05c6a40761cfbc92c2cd75c778e690907"; 
-  version = "1.0.1"; 
+  url = "https://mods.factorio.com/download/IndustrialRevolution3SpaceMining/65735d4822efa8a305333690";  
+  file_name = "IndustrialRevolution3SpaceMining_1.0.2.zip"; 
+  sha1 = "9b0f37bc7d7cddd4fc4cd111514744624be13326"; 
+  version = "1.0.2"; 
   deps = filterMissing self [ "IndustrialRevolution3" ];
   optionalDeps = [  ];
  }; 
@@ -35905,10 +35925,10 @@
 
 "UltimateResearchQueueFiltered" = factorioMod {
   pname = "UltimateResearchQueueFiltered"; 
-  url = "https://mods.factorio.com/download/UltimateResearchQueueFiltered/6572250b26ecebe37c52a338";  
-  file_name = "UltimateResearchQueueFiltered_1.0.12.zip"; 
-  sha1 = "0f6285a1947f4af3a02794222cb6ad3f73194b73"; 
-  version = "1.0.12"; 
+  url = "https://mods.factorio.com/download/UltimateResearchQueueFiltered/6573be5dac820125bfc419df";  
+  file_name = "UltimateResearchQueueFiltered_1.0.13.zip"; 
+  sha1 = "84a68ef19d6a2741a3025f9c4a1c7977420e7aca"; 
+  version = "1.0.13"; 
   deps = filterMissing self [ "flib" ];
   optionalDeps = [ "RecipeBook" ];
  }; 
@@ -39345,12 +39365,12 @@
 
 "all-the-overhaul-modpack" = factorioMod {
   pname = "all-the-overhaul-modpack"; 
-  url = "https://mods.factorio.com/download/all-the-overhaul-modpack/656ceacf604047e7c82b1699";  
-  file_name = "all-the-overhaul-modpack_1.5.14.zip"; 
-  sha1 = "ce1a036296b904eb08d1ccd25782943d9cc0f605"; 
-  version = "1.5.14"; 
-  deps = filterMissing self [ "248k" "aai-containers" "aai-industry" "Bio_Industries" "bismuth" "BrassTacks" "bz-dsr-bridge" "bzaluminum" "bzcarbon" "bzchlorine" "bzfoundry" "bzgas" "bzgold" "bzlead" "bzsilicon" "bztin" "bztitanium" "bztungsten" "bzzirconium" "Expensive_Fluid_Must_Flow_Recipes" "Flow Control" "FluidMustFlow" "FluidMustFlowSE" "grappling-gun" "IfNickel" "informatron" "jetpack" "Krastorio2" "Krastorio2Assets" "manganese" "More_Ammo" "nach0_248k_k2_compat_patch" "se-cme-combinator" "se-flow-control-bridge" "se-landfill-le" "se-recycling-extras" "se-space-trains" "SE248kfix" "shield-projector" "solar-productivity" "MDbobelectronics" "More_Repair_Packs" "space-exploration" "space-exploration-pipes-n-belts" "spaceexplorationdatachipaugmenter" "WireShortcuts" ];
-  optionalDeps = [ "ReStack" "RampantEvolution" "RampantFixed" "RampantArsenal" "qol_by_morality" ];
+  url = "https://mods.factorio.com/download/all-the-overhaul-modpack/6573a2cb011a5ef03187363c";  
+  file_name = "all-the-overhaul-modpack_1.6.0.zip"; 
+  sha1 = "4a68dc6a4d2cdd9ab2036e5a06ef404703c182da"; 
+  version = "1.6.0"; 
+  deps = filterMissing self [ "248k" "aai-containers" "aai-industry" "Bio_Industries" "bismuth" "BrassTacks" "BrimStuff" "bz-dsr-bridge" "bzaluminum" "bzcarbon" "bzchlorine" "bzfoundry" "bzgas" "bzgold" "bzlead" "bzsilicon" "bztin" "bztitanium" "bztungsten" "bzzirconium" "crafting_combinator" "Expensive_Fluid_Must_Flow_Recipes" "Flow Control" "FluidMustFlow" "FluidMustFlowSE" "grappling-gun" "IfNickel" "informatron" "jetpack" "Krastorio2" "Krastorio2Assets" "LasingAround" "manganese" "MetalsForYou" "More_Ammo" "nach0_248k_k2_compat_patch" "se-cme-combinator" "se-flow-control-bridge" "se-landfill-le" "se-recycling-extras" "se-space-trains" "SE248kfix" "shield-projector" "solar-productivity" "MDbobelectronics" "More_Repair_Packs" "space-exploration" "space-exploration-pipes-n-belts" "spaceexplorationdatachipaugmenter" "ThemTharHills" "WireShortcuts" "WipMod_TA-miners" ];
+  optionalDeps = [ "ReStack" "RampantEvolution" "RampantFixed" "RampantArsenal" "qol_by_morality" "Load-Furn-2" ];
  }; 
 
 "all-tiles-stack-1k" = factorioMod {
@@ -53283,6 +53303,16 @@
   optionalDeps = [  ];
  }; 
 
+"icon-badges" = factorioMod {
+  pname = "icon-badges"; 
+  url = "https://mods.factorio.com/download/icon-badges/6573dfd3c0606e6351ba4a18";  
+  file_name = "icon-badges_1.0.1.zip"; 
+  sha1 = "236d408503fc63fbc52f8ea02de10a3731323ab0"; 
+  version = "1.0.1"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
 "icon-randomizer" = factorioMod {
   pname = "icon-randomizer"; 
   url = "https://mods.factorio.com/download/icon-randomizer/6403b25418fa941f53e6c223";  
@@ -62273,6 +62303,16 @@
   optionalDeps = [  ];
  }; 
 
+"perimeter-paver" = factorioMod {
+  pname = "perimeter-paver"; 
+  url = "https://mods.factorio.com/download/perimeter-paver/6573b1b3ac820125bfc419d9";  
+  file_name = "perimeter-paver_1.0.0.zip"; 
+  sha1 = "2b5eb9a07fa157bc01682800e8db13d2fd812c14"; 
+  version = "1.0.0"; 
+  deps = filterMissing self [ "flib" ];
+  optionalDeps = [  ];
+ }; 
+
 "periodic-madness" = factorioMod {
   pname = "periodic-madness"; 
   url = "https://mods.factorio.com/download/periodic-madness/650b87d0842804f23040a54d";  
@@ -65735,10 +65775,10 @@
 
 "request_setter" = factorioMod {
   pname = "request_setter"; 
-  url = "https://mods.factorio.com/download/request_setter/622be3a83cbaf0fc8f9641ab";  
-  file_name = "request_setter_0.0.3.zip"; 
-  sha1 = "667ee1da6b675e30e798bf09d982dbc6d94c1658"; 
-  version = "0.0.3"; 
+  url = "https://mods.factorio.com/download/request_setter/657373381c3655e55ec80f0e";  
+  file_name = "request_setter_0.0.4.zip"; 
+  sha1 = "280c9cf601b9e688e1f5a62bff08708439fd81c7"; 
+  version = "0.0.4"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -67680,6 +67720,16 @@
   sha1 = "abea1d251da9bcd85fbe1a9f7b1a549f8d498de7"; 
   version = "1.0.2"; 
   deps = filterMissing self [ "space-exploration" ];
+  optionalDeps = [  ];
+ }; 
+
+"se-interstellar-construction-requests-fulfillment" = factorioMod {
+  pname = "se-interstellar-construction-requests-fulfillment"; 
+  url = "https://mods.factorio.com/download/se-interstellar-construction-requests-fulfillment/65736250c2e97dae592ac567";  
+  file_name = "se-interstellar-construction-requests-fulfillment_1.0.3.zip"; 
+  sha1 = "2bbbde6680220d43df9b5cbd1f835229c2372dd1"; 
+  version = "1.0.3"; 
+  deps = filterMissing self [ "space-exploration" "space-exploration-scripts" ];
   optionalDeps = [  ];
  }; 
 
@@ -70265,10 +70315,10 @@
 
 "space-exploration-scripts" = factorioMod {
   pname = "space-exploration-scripts"; 
-  url = "https://mods.factorio.com/download/space-exploration-scripts/657310b93be98b039814599b";  
-  file_name = "space-exploration-scripts_1.0.7.zip"; 
-  sha1 = "8cf8b40192435e3ddfda0a39fc5d516afcc46551"; 
-  version = "1.0.7"; 
+  url = "https://mods.factorio.com/download/space-exploration-scripts/657344131c3655e55ec80f0a";  
+  file_name = "space-exploration-scripts_1.0.8.zip"; 
+  sha1 = "ba87a7878f48c387ef457ace8047a96f75521da7"; 
+  version = "1.0.8"; 
   deps = filterMissing self [ "space-exploration" "jetpack" ];
   optionalDeps = [  ];
  }; 
@@ -73299,6 +73349,16 @@
   file_name = "train-trails_0.0.15.zip"; 
   sha1 = "b6f7c924eb76c72dd6d239682d6954afbad3c978"; 
   version = "0.0.15"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
+"train-trashtalk" = factorioMod {
+  pname = "train-trashtalk"; 
+  url = "https://mods.factorio.com/download/train-trashtalk/6573dccdac820125bfc419e0";  
+  file_name = "train-trashtalk_1.0.0.zip"; 
+  sha1 = "6fe807db81e1d8308957c3825f81dde9591ba1f4"; 
+  version = "1.0.0"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -76505,10 +76565,10 @@
 
 "zirsd-mod" = factorioMod {
   pname = "zirsd-mod"; 
-  url = "https://mods.factorio.com/download/zirsd-mod/6564fbcc36eca321de3f0982";  
-  file_name = "zirsd-mod_1.0.3.zip"; 
-  sha1 = "a58630072fb672687715de3dc520b5cd8af1dfac"; 
-  version = "1.0.3"; 
+  url = "https://mods.factorio.com/download/zirsd-mod/65739f99011a5ef03187363b";  
+  file_name = "zirsd-mod_1.0.31.zip"; 
+  sha1 = "4be9bae4f57bc8a657048ad1e0c8df4ad4c5600a"; 
+  version = "1.0.31"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
