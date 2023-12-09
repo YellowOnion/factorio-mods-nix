@@ -2855,10 +2855,10 @@
 
 "Atlas_ATF" = factorioMod {
   pname = "Atlas_ATF"; 
-  url = "https://mods.factorio.com/download/Atlas_ATF/6572c02435e649014f0047db";  
-  file_name = "Atlas_ATF_1.1.35.zip"; 
-  sha1 = "aa3195d004b33054cf3f6e73f3e10cb562766bf3"; 
-  version = "1.1.35"; 
+  url = "https://mods.factorio.com/download/Atlas_ATF/657410d243a37ca4f22777b5";  
+  file_name = "Atlas_ATF_1.1.36.zip"; 
+  sha1 = "0c74aa0b7d3ccaad9aed0ec4f5daaa9cbdb5a1b3"; 
+  version = "1.1.36"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "boblibrary" "bobores" "bobplates" "bobwarfare" ];
  }; 
@@ -3509,6 +3509,16 @@
   file_name = "Barrel-Size_1.0.3.zip"; 
   sha1 = "35f2b128580db46b370d01570329b1be8621f58b"; 
   version = "1.0.3"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
+"BarrelNirvana" = factorioMod {
+  pname = "BarrelNirvana"; 
+  url = "https://mods.factorio.com/download/BarrelNirvana/6573e6fac2e97dae592ac577";  
+  file_name = "BarrelNirvana_1.0.0.zip"; 
+  sha1 = "eac85cf38a64afe624468c839b34f1ca8b4a03ec"; 
+  version = "1.0.0"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -8635,10 +8645,10 @@
 
 "DarkModules" = factorioMod {
   pname = "DarkModules"; 
-  url = "https://mods.factorio.com/download/DarkModules/5fd614001928c5a7e5f683ac";  
-  file_name = "DarkModules_0.5.2.zip"; 
-  sha1 = "02558a4daec3a18fd3c081e73dd639daf0ba118d"; 
-  version = "0.5.2"; 
+  url = "https://mods.factorio.com/download/DarkModules/65743f2a3996e53ad7f97922";  
+  file_name = "DarkModules_0.6.0.zip"; 
+  sha1 = "d982c13eff02a6ea64b2f68abe18f7c634654faf"; 
+  version = "0.6.0"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -12240,6 +12250,16 @@
   sha1 = "49cef3ba899246a946ccf084964cc71f5e54ae59"; 
   version = "1.2.1"; 
   deps = filterMissing self [ "Factorissimo2" ];
+  optionalDeps = [  ];
+ }; 
+
+"Factorissimo2-Playthrough-notnotmelon" = factorioMod {
+  pname = "Factorissimo2-Playthrough-notnotmelon"; 
+  url = "https://mods.factorio.com/download/Factorissimo2-Playthrough-notnotmelon/6573ed6d011a5ef03187364e";  
+  file_name = "Factorissimo2-Playthrough-notnotmelon_1.2.1.zip"; 
+  sha1 = "a116ba16e9f60d3d55d64fde13fc8a2e5d8e77b4"; 
+  version = "1.2.1"; 
+  deps = filterMissing self [ "factorissimo-2-notnotmelon" ];
   optionalDeps = [  ];
  }; 
 
@@ -24335,12 +24355,12 @@
 
 "Pacifist" = factorioMod {
   pname = "Pacifist"; 
-  url = "https://mods.factorio.com/download/Pacifist/6571a31cf1bc579ebf2754b6";  
-  file_name = "Pacifist_0.3.2.zip"; 
-  sha1 = "677b865e7b351d352d3606cef36b5706b7c65b81"; 
-  version = "0.3.2"; 
+  url = "https://mods.factorio.com/download/Pacifist/65746b7594daa8bf60ebed3c";  
+  file_name = "Pacifist_0.4.0.zip"; 
+  sha1 = "84d481d9b512d3796db7f591682a8686f0623b96"; 
+  version = "0.4.0"; 
   deps = filterMissing self [  ];
-  optionalDeps = [ "invulnerable" "Explosive Termites" "Krastorio2" ];
+  optionalDeps = [ "invulnerable" "Explosive Termites" "exotic-industries" "Krastorio2" ];
  }; 
 
 "Package_Fox_Ukrainian" = factorioMod {
@@ -39185,10 +39205,10 @@
 
 "akontios-music" = factorioMod {
   pname = "akontios-music"; 
-  url = "https://mods.factorio.com/download/akontios-music/6572665326ecebe37c52a33b";  
-  file_name = "akontios-music_1.0.12.zip"; 
-  sha1 = "ea94572a15afc23825aed2a320cabc1b90dd2c3e"; 
-  version = "1.0.12"; 
+  url = "https://mods.factorio.com/download/akontios-music/65744dd8537cf718b31c1014";  
+  file_name = "akontios-music_1.0.13.zip"; 
+  sha1 = "ef0539de924b08fd7397ef6931a225097517bff5"; 
+  version = "1.0.13"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -49795,10 +49815,10 @@
 
 "factoryplanner" = factorioMod {
   pname = "factoryplanner"; 
-  url = "https://mods.factorio.com/download/factoryplanner/656f3468d6eae4f01cde202d";  
-  file_name = "factoryplanner_1.1.77.zip"; 
-  sha1 = "10d8a1c23c9e5a9c6660d260318ad9bd5bea14bb"; 
-  version = "1.1.77"; 
+  url = "https://mods.factorio.com/download/factoryplanner/6574747657e3417e74eea4ba";  
+  file_name = "factoryplanner_1.1.78.zip"; 
+  sha1 = "6e538d867c1bfa5c2dffb3d2700327309ee3a7f1"; 
+  version = "1.1.78"; 
   deps = filterMissing self [ "flib" ];
   optionalDeps = [ "RecipeBook" ];
  }; 
@@ -52315,10 +52335,10 @@
 
 "hardCrafting" = factorioMod {
   pname = "hardCrafting"; 
-  url = "https://mods.factorio.com/download/hardCrafting/6570f93c26e2a9fbef5abc22";  
-  file_name = "hardCrafting_1.0.9.zip"; 
-  sha1 = "37244f10bfe2b00691e8c59453b9108cd96333ab"; 
-  version = "1.0.9"; 
+  url = "https://mods.factorio.com/download/hardCrafting/65746c2a58a8203d5790825b";  
+  file_name = "hardCrafting_1.0.10.zip"; 
+  sha1 = "cc1980e61b4414f5a3d44910c09806efe5c4676c"; 
+  version = "1.0.10"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "railloader" "railloader-MXO" ];
  }; 
@@ -52535,10 +52555,10 @@
 
 "heavy-waves" = factorioMod {
   pname = "heavy-waves"; 
-  url = "https://mods.factorio.com/download/heavy-waves/656954897578a09e6225503e";  
-  file_name = "heavy-waves_0.8.6.zip"; 
-  sha1 = "efb6e8c3b5275d1d9d440437237a80eb8d11c2c4"; 
-  version = "0.8.6"; 
+  url = "https://mods.factorio.com/download/heavy-waves/6573f8af43a37ca4f22777b3";  
+  file_name = "heavy-waves_0.8.11.zip"; 
+  sha1 = "abd0d65c1c5012827bf0695e7f018f4befdf6a48"; 
+  version = "0.8.11"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -72505,10 +72525,10 @@
 
 "tesla_legacy" = factorioMod {
   pname = "tesla_legacy"; 
-  url = "https://mods.factorio.com/download/tesla_legacy/657231983d817fdbbeb21341";  
-  file_name = "tesla_legacy_1.0.3.zip"; 
-  sha1 = "f34770f0be4d2e184978d55766c0080310b4526b"; 
-  version = "1.0.3"; 
+  url = "https://mods.factorio.com/download/tesla_legacy/65746fd394daa8bf60ebed3d";  
+  file_name = "tesla_legacy_1.0.4.zip"; 
+  sha1 = "ec29ab0997d8a09f49184c5caeb6706312dd10c8"; 
+  version = "1.0.4"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -73355,10 +73375,10 @@
 
 "train-trashtalk" = factorioMod {
   pname = "train-trashtalk"; 
-  url = "https://mods.factorio.com/download/train-trashtalk/6573dccdac820125bfc419e0";  
-  file_name = "train-trashtalk_1.0.0.zip"; 
-  sha1 = "6fe807db81e1d8308957c3825f81dde9591ba1f4"; 
-  version = "1.0.0"; 
+  url = "https://mods.factorio.com/download/train-trashtalk/6574298a537cf718b31c1012";  
+  file_name = "train-trashtalk_1.1.1.zip"; 
+  sha1 = "e4391cc5f0e96c5168e031c13302f1509da4504a"; 
+  version = "1.1.1"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
