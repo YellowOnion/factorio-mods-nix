@@ -13435,10 +13435,10 @@
 
 "FreightForwarding" = factorioMod {
   pname = "FreightForwarding"; 
-  url = "https://mods.factorio.com/download/FreightForwarding/654c3dd53e9420af21a87ab5";  
-  file_name = "FreightForwarding_1.8.2.zip"; 
-  sha1 = "c07e71416fd4cab90a8bf1ad6f41a3e33468d068"; 
-  version = "1.8.2"; 
+  url = "https://mods.factorio.com/download/FreightForwarding/65771b8668f0b84221b594c2";  
+  file_name = "FreightForwarding_1.8.3.zip"; 
+  sha1 = "dba01071b13ce529fee6b40c6a7e6b8052c7d1f4"; 
+  version = "1.8.3"; 
   deps = filterMissing self [ "IntermodalContainers" "cargo-ships" "Mini_Trains" "SpidertronPatrols" "lex-aircraft" "Hovercrafts" "bzlead" "bztitanium" "CanalBuilderMAV" "beautiful_bridge_railway_Cargoships" ];
   optionalDeps = [ "FreightForwardingPack" "Milestones" "aai-vehicles-ironclad" ];
  }; 
