@@ -1343,6 +1343,16 @@
   optionalDeps = [ "Auto-Blacklist" ];
  }; 
 
+"Advanced-Portable-Solar-Panel" = factorioMod {
+  pname = "Advanced-Portable-Solar-Panel"; 
+  url = "https://mods.factorio.com/download/Advanced-Portable-Solar-Panel/6577c0d23536f153d07f390e";  
+  file_name = "Advanced-Portable-Solar-Panel_1.0.1.zip"; 
+  sha1 = "592e63370479b45e6cba3f766032001a0b47f728"; 
+  version = "1.0.1"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
 "Advanced-Solar" = factorioMod {
   pname = "Advanced-Solar"; 
   url = "https://mods.factorio.com/download/Advanced-Solar/5fc27f2ebfe1b005c6cdf424";  
@@ -5585,10 +5595,10 @@
 
 "BrimStuff" = factorioMod {
   pname = "BrimStuff"; 
-  url = "https://mods.factorio.com/download/BrimStuff/6576a4b10c830caa09914fcc";  
-  file_name = "BrimStuff_1.0.4.zip"; 
-  sha1 = "5041260ad88bcff9734f3a81fa2183941cb4211c"; 
-  version = "1.0.4"; 
+  url = "https://mods.factorio.com/download/BrimStuff/65773bb86c79589053e2887f";  
+  file_name = "BrimStuff_1.0.5.zip"; 
+  sha1 = "3e067a952f80ff2ab53ff84b426ce2a75c74e964"; 
+  version = "1.0.5"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "ThemTharHills" "BrassTacks" "IfNickel" "bzgold" "bzaluminum" "bzcarbon" "bztin" "bzfoundry" "bzzirconium" "bzgas" "space-exploration" "aai-industry" "aai-containers" "aai-signal-transmission" "deadlock-beltboxes-loaders" "DeadlockCrating" "vtk-deep-core-mining" "Krastorio2" "FluidMustFlow" "Expensive_Fluid_Must_Flow_Recipes" "Krastorio2" "RenaiTransportation" "cargo-ships" "intermodal-containers" ];
  }; 
@@ -12695,10 +12705,10 @@
 
 "FilterHelper" = factorioMod {
   pname = "FilterHelper"; 
-  url = "https://mods.factorio.com/download/FilterHelper/6571ac063a3f5c8d047de6a3";  
-  file_name = "FilterHelper_0.1.10.zip"; 
-  sha1 = "1602052eb69eee6389b40aacae17227bf9fd7b13"; 
-  version = "0.1.10"; 
+  url = "https://mods.factorio.com/download/FilterHelper/6577900c68f0b84221b594c3";  
+  file_name = "FilterHelper_0.1.11.zip"; 
+  sha1 = "b285a834ac942166243fcf7c7ee8b62eb9d2c5a1"; 
+  version = "0.1.11"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -23525,10 +23535,10 @@
 
 "OBBS" = factorioMod {
   pname = "OBBS"; 
-  url = "https://mods.factorio.com/download/OBBS/657298353d817fdbbeb21348";  
-  file_name = "OBBS_1.1.3.zip"; 
-  sha1 = "d28b7e11de33898ffb16d97d8662097f8af0cdbe"; 
-  version = "1.1.3"; 
+  url = "https://mods.factorio.com/download/OBBS/657741626c79589053e28880";  
+  file_name = "OBBS_1.1.4.zip"; 
+  sha1 = "2a0782c5cc644bb27abe0efd20c89712d9eeb021"; 
+  version = "1.1.4"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "aai-industry" "Krastorio2" "bobassembly" "boblogistics" "bobwarfare" ];
  }; 
@@ -24455,10 +24465,10 @@
 
 "PasteMoreLogisticSettings" = factorioMod {
   pname = "PasteMoreLogisticSettings"; 
-  url = "https://mods.factorio.com/download/PasteMoreLogisticSettings/6574d549537cf718b31c101b";  
-  file_name = "PasteMoreLogisticSettings_1.0.2.zip"; 
-  sha1 = "1b3709681f0145833c47de741cd3e704281ebb99"; 
-  version = "1.0.2"; 
+  url = "https://mods.factorio.com/download/PasteMoreLogisticSettings/6577e158df202d0b9899fcc7";  
+  file_name = "PasteMoreLogisticSettings_1.0.3.zip"; 
+  sha1 = "6ef50adee036592934591bb68dd21e0af4903d2d"; 
+  version = "1.0.3"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -38855,10 +38865,10 @@
 
 "adjustable_exoskeletons_redux" = factorioMod {
   pname = "adjustable_exoskeletons_redux"; 
-  url = "https://mods.factorio.com/download/adjustable_exoskeletons_redux/653e34529a15b9e2acef023e";  
-  file_name = "adjustable_exoskeletons_redux_1.0.2.zip"; 
-  sha1 = "907ac18d134ce8ecba63bbbc64a2449ff2f83d53"; 
-  version = "1.0.2"; 
+  url = "https://mods.factorio.com/download/adjustable_exoskeletons_redux/657794fe6c79589053e28881";  
+  file_name = "adjustable_exoskeletons_redux_1.0.3.zip"; 
+  sha1 = "59012adffe8d662a4ca2b97e3c025b8ffbe0c3a8"; 
+  version = "1.0.3"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -54435,10 +54445,10 @@
 
 "janky-quality" = factorioMod {
   pname = "janky-quality"; 
-  url = "https://mods.factorio.com/download/janky-quality/6575eabc434b5b23a27c7c8e";  
-  file_name = "janky-quality_0.1.21.zip"; 
-  sha1 = "a9a1b4458b00b6041a3c621714c67c3fab1d6ed9"; 
-  version = "0.1.21"; 
+  url = "https://mods.factorio.com/download/janky-quality/65775d3734c78f4907b7e6d9";  
+  file_name = "janky-quality_0.1.22.zip"; 
+  sha1 = "29c14614219d2fd2fba9ef59ee6cd34185d10415"; 
+  version = "0.1.22"; 
   deps = filterMissing self [ "flib" ];
   optionalDeps = [  ];
  }; 
@@ -67795,10 +67805,10 @@
 
 "se-interstellar-construction-requests-fulfillment" = factorioMod {
   pname = "se-interstellar-construction-requests-fulfillment"; 
-  url = "https://mods.factorio.com/download/se-interstellar-construction-requests-fulfillment/6576eb1fd267c632dec2d2ec";  
-  file_name = "se-interstellar-construction-requests-fulfillment_1.0.7.zip"; 
-  sha1 = "f41119c1ed76ec27dbf513a27645f2b4dfa04a23"; 
-  version = "1.0.7"; 
+  url = "https://mods.factorio.com/download/se-interstellar-construction-requests-fulfillment/6577493aa5f5b4d13e40418a";  
+  file_name = "se-interstellar-construction-requests-fulfillment_1.0.11.zip"; 
+  sha1 = "c4fd8a8fa5d81fe78bc24a1e65f355127d4fa826"; 
+  version = "1.0.11"; 
   deps = filterMissing self [ "space-exploration" "space-exploration-scripts" ];
   optionalDeps = [  ];
  }; 
@@ -72855,10 +72865,10 @@
 
 "thermal-solar-power-lite" = factorioMod {
   pname = "thermal-solar-power-lite"; 
-  url = "https://mods.factorio.com/download/thermal-solar-power-lite/655e22086ac7490661408ddc";  
-  file_name = "thermal-solar-power-lite_1.1.1.zip"; 
-  sha1 = "82a1f1266ec74b7a5d846ea572695e25133892e6"; 
-  version = "1.1.1"; 
+  url = "https://mods.factorio.com/download/thermal-solar-power-lite/65773eb734c78f4907b7e6d5";  
+  file_name = "thermal-solar-power-lite_1.1.2.zip"; 
+  sha1 = "5e67ded69af140f0ff12ddb511c6693526da33db"; 
+  version = "1.1.2"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -73925,10 +73935,10 @@
 
 "tycoon" = factorioMod {
   pname = "tycoon"; 
-  url = "https://mods.factorio.com/download/tycoon/65762bd8191be96ef428040e";  
-  file_name = "tycoon_0.3.0.zip"; 
-  sha1 = "f4fa39e1368fcdb646bb5d133d8c1e393201511d"; 
-  version = "0.3.0"; 
+  url = "https://mods.factorio.com/download/tycoon/65777afddf202d0b9899fcbc";  
+  file_name = "tycoon_0.3.1.zip"; 
+  sha1 = "8d8ed13a7ecb7cd82a1dfad0f8c6046588aee407"; 
+  version = "0.3.1"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
