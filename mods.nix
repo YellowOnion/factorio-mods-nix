@@ -12735,10 +12735,10 @@
 
 "FilterHelper" = factorioMod {
   pname = "FilterHelper"; 
-  url = "https://mods.factorio.com/download/FilterHelper/6577900c68f0b84221b594c3";  
-  file_name = "FilterHelper_0.1.11.zip"; 
-  sha1 = "b285a834ac942166243fcf7c7ee8b62eb9d2c5a1"; 
-  version = "0.1.11"; 
+  url = "https://mods.factorio.com/download/FilterHelper/6582bc88318c3102f8e9ad01";  
+  file_name = "FilterHelper_0.1.12.zip"; 
+  sha1 = "05a478b9cded2300aa26c70098f5c859c3550feb"; 
+  version = "0.1.12"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -31005,10 +31005,10 @@
 
 "ShipTest" = factorioMod {
   pname = "ShipTest"; 
-  url = "https://mods.factorio.com/download/ShipTest/6582ae3f09363f2f75796cf0";  
-  file_name = "ShipTest_0.0.2.zip"; 
-  sha1 = "3a3621889fecded98e6ea2934e50f616245a02d0"; 
-  version = "0.0.2"; 
+  url = "https://mods.factorio.com/download/ShipTest/6582bc19799b53bfca444453";  
+  file_name = "ShipTest_0.0.3.zip"; 
+  sha1 = "dc3c4ead35b7d02ae110bb939bf13bde0a938ff2"; 
+  version = "0.0.3"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -47905,10 +47905,10 @@
 
 "easy-train-logistics" = factorioMod {
   pname = "easy-train-logistics"; 
-  url = "https://mods.factorio.com/download/easy-train-logistics/6581d83b318c3102f8e9acdb";  
-  file_name = "easy-train-logistics_0.0.32.zip"; 
-  sha1 = "dda747c4bbb9ab9cfac51eb28edf7d180fdb6181"; 
-  version = "0.0.32"; 
+  url = "https://mods.factorio.com/download/easy-train-logistics/6582d44e09363f2f75796cf5";  
+  file_name = "easy-train-logistics_0.0.33.zip"; 
+  sha1 = "88fd95121d1cce0ef7e3a9658ade8fd2eac36428"; 
+  version = "0.0.33"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "Krastorio2" "pyalternativeenergy" "bobinserters" ];
  }; 
@@ -48015,10 +48015,10 @@
 
 "ekranos-electricity-prices" = factorioMod {
   pname = "ekranos-electricity-prices"; 
-  url = "https://mods.factorio.com/download/ekranos-electricity-prices/6581cd97360197ef9ffd0baf";  
-  file_name = "ekranos-electricity-prices_0.0.2.zip"; 
-  sha1 = "461360f427ca85a6f9f8c55941711df9b2ae5947"; 
-  version = "0.0.2"; 
+  url = "https://mods.factorio.com/download/ekranos-electricity-prices/6582fef33f67afd3bd760c03";  
+  file_name = "ekranos-electricity-prices_0.0.9.zip"; 
+  sha1 = "bcbfff49cc1ee6f7f005df5836f549ff709c3ae2"; 
+  version = "0.0.9"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -61373,6 +61373,16 @@
   optionalDeps = [  ];
  }; 
 
+"noise-tools" = factorioMod {
+  pname = "noise-tools"; 
+  url = "https://mods.factorio.com/download/noise-tools/6582badce01ce88fe3903cec";  
+  file_name = "noise-tools_0.1.1.zip"; 
+  sha1 = "df73be8dd613f3093feee8baf8f969a056611289"; 
+  version = "0.1.1"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
 "non-colliding-rails" = factorioMod {
   pname = "non-colliding-rails"; 
   url = "https://mods.factorio.com/download/non-colliding-rails/622d1a88ad9e74d7f1ba32e7";  
@@ -68095,10 +68105,10 @@
 
 "se-core-miner-output-helper" = factorioMod {
   pname = "se-core-miner-output-helper"; 
-  url = "https://mods.factorio.com/download/se-core-miner-output-helper/65818c617d17e8c8831e86d0";  
-  file_name = "se-core-miner-output-helper_1.0.5.zip"; 
-  sha1 = "d454d78c282f0b32bd7a8109543bd1d8b15b2a72"; 
-  version = "1.0.5"; 
+  url = "https://mods.factorio.com/download/se-core-miner-output-helper/6582f6f5cea31837bac7e479";  
+  file_name = "se-core-miner-output-helper_1.0.9.zip"; 
+  sha1 = "c0f486c39ac1174972f59ea88fd6fe40bbc12426"; 
+  version = "1.0.9"; 
   deps = filterMissing self [ "space-exploration" "space-exploration-scripts" ];
   optionalDeps = [  ];
  }; 
@@ -68225,12 +68235,12 @@
 
 "se-k2-buding" = factorioMod {
   pname = "se-k2-buding"; 
-  url = "https://mods.factorio.com/download/se-k2-buding/6579b1057d92e08641a4940b";  
-  file_name = "se-k2-buding_1.0.1.zip"; 
-  sha1 = "8733975e67eb197e205d9f8b09de9fde8bd1386e"; 
-  version = "1.0.1"; 
+  url = "https://mods.factorio.com/download/se-k2-buding/6582ed67318c3102f8e9ad0e";  
+  file_name = "se-k2-buding_1.1.0.zip"; 
+  sha1 = "8e5183f57d8c998a3c0e2df8cb24ac0f25c81282"; 
+  version = "1.1.0"; 
   deps = filterMissing self [ "WaterWell" "high-pressure-pipes" "Flare Stack" "OmegaDrill" "OmegaDrill_MK2" "BigPumpjack" "advanced-centrifuge" "PortableAirReactor" "Battery-Pack" "AdvElectricTrain" ];
-  optionalDeps = [ "space-exploration" "rail_box_oil" "Krastorio2" ];
+  optionalDeps = [ "rail_box_oil" "Krastorio2" "aai-containers" "aai-industry" "aai-signal-transmission" "Advanced-Electric-Revamped-v16" "alien-biomes" "BottleneckLite" "ClearNightvision-Fixed" "ConfigUnderLengths" "Cursed-FMD" "deadlock_stacked_recipes" "deadlock-beltboxes-loaders" "Deadlock-SE-bridge" "eradicators-stationary-fusion-reactors" "even-distribution" "flib" "FNEI" "grappling-gun" "helmod" "highpressureoutput" "InfiniteInventory" "informatron" "inventory-repair" "jetpack" "Krastorio2Assets" "LogisticTrainNetwork" "LTN_Combinator_Modernized" "LTN_Language_Pack" "LtnManager" "OreEraser" "PickerDollies" "qol_research" "RampantResources" "RitnLib" "RitnWaterfill" "robot_attrition" "RPGsystem" "rusty-locale" "se-ltn-glue" "shield-projector" "simhelper" "space-exploration" "space-exploration-graphics" "space-exploration-graphics-2" "space-exploration-graphics-3" "space-exploration-graphics-4" "space-exploration-graphics-5" "space-exploration-menu-simulations" "space-exploration-postprocess" "space-spidertron" "spidertron-dock" "splatter_guard" "Squeak Through" "stdlib" "Tiny_Equipment" "TrainModeSwitcher" "train-upgrader" "UltimateResearchQueue" "Updated_Construction_Drones" "WideChests" "zAL-machine" "zhcnremake" ];
  }; 
 
 "se-kiln-recipes-in-kr2-advanced-furnace" = factorioMod {
@@ -68481,6 +68491,16 @@
   version = "0.1.12"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "space-exploration" "Krastorio2" ];
+ }; 
+
+"se-spacepipe-does-not-require-a-huge-mall-anymore" = factorioMod {
+  pname = "se-spacepipe-does-not-require-a-huge-mall-anymore"; 
+  url = "https://mods.factorio.com/download/se-spacepipe-does-not-require-a-huge-mall-anymore/6582f478a394f773858aa024";  
+  file_name = "se-spacepipe-does-not-require-a-huge-mall-anymore_1.0.1.zip"; 
+  sha1 = "06dd044e9b472cbff676384fe88e7d6f52591d3f"; 
+  version = "1.0.1"; 
+  deps = filterMissing self [ "space-exploration" ];
+  optionalDeps = [  ];
  }; 
 
 "se-spaceship-handbreak" = factorioMod {
