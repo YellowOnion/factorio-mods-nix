@@ -7885,10 +7885,10 @@
 
 "Constructron-Continued" = factorioMod {
   pname = "Constructron-Continued"; 
-  url = "https://mods.factorio.com/download/Constructron-Continued/64a91a910cfcfbb2551fc405";  
-  file_name = "Constructron-Continued_1.0.75.zip"; 
-  sha1 = "d7837f15a68d5a03369141d5b0e04338bf6f986d"; 
-  version = "1.0.75"; 
+  url = "https://mods.factorio.com/download/Constructron-Continued/6597e19b4dc12ceed030aab4";  
+  file_name = "Constructron-Continued_1.1.0.zip"; 
+  sha1 = "eef0a39b95575c6a34958d237d71286882872c96"; 
+  version = "1.1.0"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "dynamic-robot-queues" ];
  }; 
@@ -8635,12 +8635,12 @@
 
 "DH-Water-Processing" = factorioMod {
   pname = "DH-Water-Processing"; 
-  url = "https://mods.factorio.com/download/DH-Water-Processing/659656973cfac4910c9d8741";  
-  file_name = "DH-Water-Processing_1.2.0.zip"; 
-  sha1 = "ef503501c5933cd5858766bccb75164e9463621c"; 
-  version = "1.2.0"; 
+  url = "https://mods.factorio.com/download/DH-Water-Processing/65980588423aabe1d5695194";  
+  file_name = "DH-Water-Processing_1.2.1.zip"; 
+  sha1 = "809cc263bf97b9edf991aa8a3e83779bfd5259dc"; 
+  version = "1.2.1"; 
   deps = filterMissing self [ "Krastorio2" ];
-  optionalDeps = [ "space-exploration" "space-exploration-postprocess" ];
+  optionalDeps = [ "space-exploration" "bzaluminum" "bzgold" "bzcarbon" "bzlead" "bztin" "bztitanium" "bztungsten" "bzzirconium" ];
  }; 
 
 "DK_IR2_AU" = factorioMod {
@@ -23993,6 +23993,216 @@
   optionalDeps = [ "aai-industry" "Krastorio2" "bobassembly" "boblogistics" "bobwarfare" ];
  }; 
 
+"OD27_5dim_autofill" = factorioMod {
+  pname = "OD27_5dim_autofill"; 
+  url = "https://mods.factorio.com/download/OD27_5dim_autofill/6597bdf72301af92c4cf1435";  
+  file_name = "OD27_5dim_autofill_1.1.2.zip"; 
+  sha1 = "e616c2cd6677215899493ddadd6adc2e124505d5"; 
+  version = "1.1.2"; 
+  deps = filterMissing self [ "OD27_5dim_core" ];
+  optionalDeps = [  ];
+ }; 
+
+"OD27_5dim_automation" = factorioMod {
+  pname = "OD27_5dim_automation"; 
+  url = "https://mods.factorio.com/download/OD27_5dim_automation/6597be1a79cc50b84d46d7be";  
+  file_name = "OD27_5dim_automation_1.1.4.zip"; 
+  sha1 = "91ba5e3fd0f88be793bc55aa1901456c32635f0c"; 
+  version = "1.1.4"; 
+  deps = filterMissing self [ "OD27_5dim_core" ];
+  optionalDeps = [  ];
+ }; 
+
+"OD27_5dim_battlefield" = factorioMod {
+  pname = "OD27_5dim_battlefield"; 
+  url = "https://mods.factorio.com/download/OD27_5dim_battlefield/6597bc8c61ace5d4f45e7cde";  
+  file_name = "OD27_5dim_battlefield_1.1.10.zip"; 
+  sha1 = "a8cb11acd3ebcdb39c525fe69b9e9741c1579e7c"; 
+  version = "1.1.10"; 
+  deps = filterMissing self [ "OD27_5dim_core" ];
+  optionalDeps = [  ];
+ }; 
+
+"OD27_5dim_botrecaller" = factorioMod {
+  pname = "OD27_5dim_botrecaller"; 
+  url = "https://mods.factorio.com/download/OD27_5dim_botrecaller/6597bc36423aabe1d569518b";  
+  file_name = "OD27_5dim_botrecaller_1.1.5.zip"; 
+  sha1 = "d597756bfa9f66a9ce9e92f1f64a7d9df92fc031"; 
+  version = "1.1.5"; 
+  deps = filterMissing self [ "OD27_5dim_core" ];
+  optionalDeps = [  ];
+ }; 
+
+"OD27_5dim_compatibility" = factorioMod {
+  pname = "OD27_5dim_compatibility"; 
+  url = "https://mods.factorio.com/download/OD27_5dim_compatibility/6597c2f7423aabe1d5695190";  
+  file_name = "OD27_5dim_compatibility_1.1.18.zip"; 
+  sha1 = "ec4dfa77eacacd199677667ba832551a316263ca"; 
+  version = "1.1.18"; 
+  deps = filterMissing self [ "OD27_5dim_core" ];
+  optionalDeps = [ "Krastorio2" "space-exploration" "boblibrary" "omnilibrary" "aai-industry" "cargo-ships" "aai-industry" "LoaderRedux" "Warehousing" "deadlock-beltboxes-loaders" "Deadlock5Dims" "aai-containers" "deep-storage-unit" "fluid-memory-storage" "logistic-memory-units" "Transport_Drones" "Orbital Ion Cannon" "Bio_Industries" "modmash" ];
+ }; 
+
+"OD27_5dim_core" = factorioMod {
+  pname = "OD27_5dim_core"; 
+  url = "https://mods.factorio.com/download/OD27_5dim_core/6597bc5b2301af92c4cf1430";  
+  file_name = "OD27_5dim_core_1.1.17.zip"; 
+  sha1 = "6c01b7839cfb84974547535a287081b5aac0b5fc"; 
+  version = "1.1.17"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
+"OD27_5dim_decoration" = factorioMod {
+  pname = "OD27_5dim_decoration"; 
+  url = "https://mods.factorio.com/download/OD27_5dim_decoration/6597bcb92301af92c4cf1433";  
+  file_name = "OD27_5dim_decoration_1.1.3.zip"; 
+  sha1 = "db02ebfa4107ef7bbf296290c0cf3203966b482f"; 
+  version = "1.1.3"; 
+  deps = filterMissing self [ "OD27_5dim_core" ];
+  optionalDeps = [  ];
+ }; 
+
+"OD27_5dim_enemies" = factorioMod {
+  pname = "OD27_5dim_enemies"; 
+  url = "https://mods.factorio.com/download/OD27_5dim_enemies/6597bda52301af92c4cf1434";  
+  file_name = "OD27_5dim_enemies_1.1.6.zip"; 
+  sha1 = "4b03c5a931e3802b3cf3ea82e6ae0afcc89acd2e"; 
+  version = "1.1.6"; 
+  deps = filterMissing self [ "OD27_5dim_core" ];
+  optionalDeps = [  ];
+ }; 
+
+"OD27_5dim_energy" = factorioMod {
+  pname = "OD27_5dim_energy"; 
+  url = "https://mods.factorio.com/download/OD27_5dim_energy/6597bde1423aabe1d569518f";  
+  file_name = "OD27_5dim_energy_1.1.6.zip"; 
+  sha1 = "cdeffb61559463138dc93b75c7a6cefceacc05fc"; 
+  version = "1.1.6"; 
+  deps = filterMissing self [ "OD27_5dim_core" ];
+  optionalDeps = [  ];
+ }; 
+
+"OD27_5dim_equipment" = factorioMod {
+  pname = "OD27_5dim_equipment"; 
+  url = "https://mods.factorio.com/download/OD27_5dim_equipment/6597bcac61ace5d4f45e7cdf";  
+  file_name = "OD27_5dim_equipment_1.1.6.zip"; 
+  sha1 = "ff44d9a47d320c9c94b4ebdabd6bc4b16960e5d2"; 
+  version = "1.1.6"; 
+  deps = filterMissing self [ "OD27_5dim_core" ];
+  optionalDeps = [  ];
+ }; 
+
+"OD27_5dim_infiniteresearch" = factorioMod {
+  pname = "OD27_5dim_infiniteresearch"; 
+  url = "https://mods.factorio.com/download/OD27_5dim_infiniteresearch/6597bca12301af92c4cf1432";  
+  file_name = "OD27_5dim_infiniteresearch_1.1.4.zip"; 
+  sha1 = "bb1afb1b5145bdf661ce6e5b992324cef83070e4"; 
+  version = "1.1.4"; 
+  deps = filterMissing self [ "OD27_5dim_core" ];
+  optionalDeps = [  ];
+ }; 
+
+"OD27_5dim_locale" = factorioMod {
+  pname = "OD27_5dim_locale"; 
+  url = "https://mods.factorio.com/download/OD27_5dim_locale/6597bc4561ace5d4f45e7cdd";  
+  file_name = "OD27_5dim_locale_1.1.6.zip"; 
+  sha1 = "36f29205b8576b2c62719e47c938dd76615de317"; 
+  version = "1.1.6"; 
+  deps = filterMissing self [ "OD27_5dim_core" ];
+  optionalDeps = [  ];
+ }; 
+
+"OD27_5dim_logistic" = factorioMod {
+  pname = "OD27_5dim_logistic"; 
+  url = "https://mods.factorio.com/download/OD27_5dim_logistic/6597bc754dc12ceed030aab2";  
+  file_name = "OD27_5dim_logistic_1.1.3.zip"; 
+  sha1 = "c4ad59ff3e3b60c820826a08e6e9f4fae0a13a33"; 
+  version = "1.1.3"; 
+  deps = filterMissing self [ "OD27_5dim_core" ];
+  optionalDeps = [  ];
+ }; 
+
+"OD27_5dim_mining" = factorioMod {
+  pname = "OD27_5dim_mining"; 
+  url = "https://mods.factorio.com/download/OD27_5dim_mining/6597bdaf79cc50b84d46d7bd";  
+  file_name = "OD27_5dim_mining_1.1.6.zip"; 
+  sha1 = "c5d56aff7ec2f2f37feba80636794ff43c10532e"; 
+  version = "1.1.6"; 
+  deps = filterMissing self [ "OD27_5dim_core" ];
+  optionalDeps = [  ];
+ }; 
+
+"OD27_5dim_module" = factorioMod {
+  pname = "OD27_5dim_module"; 
+  url = "https://mods.factorio.com/download/OD27_5dim_module/6597bcc9423aabe1d569518d";  
+  file_name = "OD27_5dim_module_1.1.3.zip"; 
+  sha1 = "2054ab219ff7d0fef34bd22bd6c9449b6fa45d39"; 
+  version = "1.1.3"; 
+  deps = filterMissing self [ "OD27_5dim_core" ];
+  optionalDeps = [  ];
+ }; 
+
+"OD27_5dim_nuclear" = factorioMod {
+  pname = "OD27_5dim_nuclear"; 
+  url = "https://mods.factorio.com/download/OD27_5dim_nuclear/6597bdcf9940bc954da3e312";  
+  file_name = "OD27_5dim_nuclear_1.1.4.zip"; 
+  sha1 = "904f2db81402075cdbcb244e864bb849645d2024"; 
+  version = "1.1.4"; 
+  deps = filterMissing self [ "OD27_5dim_core" ];
+  optionalDeps = [  ];
+ }; 
+
+"OD27_5dim_ores" = factorioMod {
+  pname = "OD27_5dim_ores"; 
+  url = "https://mods.factorio.com/download/OD27_5dim_ores/6597bc9b423aabe1d569518c";  
+  file_name = "OD27_5dim_ores_1.1.3.zip"; 
+  sha1 = "e55dbb3d9b6a035f2376ed61bee3e26cf200b910"; 
+  version = "1.1.3"; 
+  deps = filterMissing self [ "OD27_5dim_core" "boblibrary" ];
+  optionalDeps = [  ];
+ }; 
+
+"OD27_5dim_resources" = factorioMod {
+  pname = "OD27_5dim_resources"; 
+  url = "https://mods.factorio.com/download/OD27_5dim_resources/6597bc2cd936ceae494b41a3";  
+  file_name = "OD27_5dim_resources_1.1.5.zip"; 
+  sha1 = "f84d2afe5c41383b25ff97b732c4e41f8cc61ad4"; 
+  version = "1.1.5"; 
+  deps = filterMissing self [ "OD27_5dim_core" ];
+  optionalDeps = [  ];
+ }; 
+
+"OD27_5dim_storage" = factorioMod {
+  pname = "OD27_5dim_storage"; 
+  url = "https://mods.factorio.com/download/OD27_5dim_storage/6597bd97423aabe1d569518e";  
+  file_name = "OD27_5dim_storage_1.1.3.zip"; 
+  sha1 = "e55287d3c959a7f75d2602216f556945e442e73f"; 
+  version = "1.1.3"; 
+  deps = filterMissing self [ "OD27_5dim_core" ];
+  optionalDeps = [  ];
+ }; 
+
+"OD27_5dim_trains" = factorioMod {
+  pname = "OD27_5dim_trains"; 
+  url = "https://mods.factorio.com/download/OD27_5dim_trains/6597bdb49940bc954da3e311";  
+  file_name = "OD27_5dim_trains_1.1.4.zip"; 
+  sha1 = "732735ca2719c6058ccf9d48afbb702ed798ee0d"; 
+  version = "1.1.4"; 
+  deps = filterMissing self [ "OD27_5dim_core" ];
+  optionalDeps = [  ];
+ }; 
+
+"OD27_5dim_transport" = factorioMod {
+  pname = "OD27_5dim_transport"; 
+  url = "https://mods.factorio.com/download/OD27_5dim_transport/6597bc9c2301af92c4cf1431";  
+  file_name = "OD27_5dim_transport_1.1.8.zip"; 
+  sha1 = "7d29669cf9505fe963eb31046f2136a4d9870a4d"; 
+  version = "1.1.8"; 
+  deps = filterMissing self [ "OD27_5dim_core" "bobinserters" ];
+  optionalDeps = [  ];
+ }; 
+
 "ODAD" = factorioMod {
   pname = "ODAD"; 
   url = "https://mods.factorio.com/download/ODAD/6178349a6f7b1bc7c98f21cb";  
@@ -32315,10 +32525,10 @@
 
 "SolarFarm" = factorioMod {
   pname = "SolarFarm"; 
-  url = "https://mods.factorio.com/download/SolarFarm/65973a8d2301af92c4cf1426";  
-  file_name = "SolarFarm_0.0.3.zip"; 
-  sha1 = "8c682bbd7bea3433f066bf337c6c619bee2419ea"; 
-  version = "0.0.3"; 
+  url = "https://mods.factorio.com/download/SolarFarm/6598064a61ace5d4f45e7ce4";  
+  file_name = "SolarFarm_0.0.4.zip"; 
+  sha1 = "eee3a84e5401789cb6a8c68e95ff362e29e06469"; 
+  version = "0.0.4"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -49765,10 +49975,10 @@
 
 "exotic-industries-ja" = factorioMod {
   pname = "exotic-industries-ja"; 
-  url = "https://mods.factorio.com/download/exotic-industries-ja/65955c5932000cb99292027b";  
-  file_name = "exotic-industries-ja_1.2.0.zip"; 
-  sha1 = "c344d499bbe3b415d22a9e6655f847bc250a4a49"; 
-  version = "1.2.0"; 
+  url = "https://mods.factorio.com/download/exotic-industries-ja/6597e2109940bc954da3e317";  
+  file_name = "exotic-industries-ja_1.2.1.zip"; 
+  sha1 = "e157a480045a484155e4be93aff4a9951f624d7a"; 
+  version = "1.2.1"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "exotic-industries" ];
  }; 
@@ -62715,10 +62925,10 @@
 
 "omnimatter" = factorioMod {
   pname = "omnimatter"; 
-  url = "https://mods.factorio.com/download/omnimatter/6547629abf59af08ec33b996";  
-  file_name = "omnimatter_4.1.36.zip"; 
-  sha1 = "56d5825ce9819520b2c18c629a8ce3ec42cf9bf5"; 
-  version = "4.1.36"; 
+  url = "https://mods.factorio.com/download/omnimatter/6597e02b61ace5d4f45e7ce1";  
+  file_name = "omnimatter_4.1.37.zip"; 
+  sha1 = "ec126a9fd5de34665792e9c6cfad7c8bfb18b90e"; 
+  version = "4.1.37"; 
   deps = filterMissing self [ "omnilib" ];
   optionalDeps = [ "angelsrefining" "angelssmelting" "angelspetrochem" "baketorio" "bobores" "bobtech" "Krastorio2" ];
  }; 
