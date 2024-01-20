@@ -2015,11 +2015,31 @@
 
 "All-The-Mods-Translated-BR" = factorioMod {
   pname = "All-The-Mods-Translated-BR"; 
-  url = "https://mods.factorio.com/download/All-The-Mods-Translated-BR/658f076cd3c331f6c82155f6";  
-  file_name = "All-The-Mods-Translated-BR_0.0.31.zip"; 
-  sha1 = "21c4829c9df139240aef09e4b4a10d1c27a2aa05"; 
-  version = "0.0.31"; 
+  url = "https://mods.factorio.com/download/All-The-Mods-Translated-BR/65aba2e90c4c08a588f40d48";  
+  file_name = "All-The-Mods-Translated-BR_0.0.32.zip"; 
+  sha1 = "97cef05b03db05f7408e44662e2c58464ec56294"; 
+  version = "0.0.32"; 
   deps = filterMissing self [ "flib" "stdlib" ];
+  optionalDeps = [ "LTN_Language_Pack" "All-The-Mods-Translated-BR-AAI-Pack" "All-The-Mods-Translated-BR-SE-Pack" "All-The-Mods-Translated-BR-LTN-Pack" ];
+ }; 
+
+"All-The-Mods-Translated-BR-DyWorld-Pack" = factorioMod {
+  pname = "All-The-Mods-Translated-BR-DyWorld-Pack"; 
+  url = "https://mods.factorio.com/download/All-The-Mods-Translated-BR-DyWorld-Pack/65aba89b0c4c08a588f40d49";  
+  file_name = "All-The-Mods-Translated-BR-DyWorld-Pack_0.0.1.zip"; 
+  sha1 = "270e496b8dfa8e00913f5eaf08b26b91e1ccf7d4"; 
+  version = "0.0.1"; 
+  deps = filterMissing self [ "flib" "stdlib" "DyWorld-Dynamics-2" ];
+  optionalDeps = [  ];
+ }; 
+
+"All-The-Mods-Translated-BR-LTN-Pack" = factorioMod {
+  pname = "All-The-Mods-Translated-BR-LTN-Pack"; 
+  url = "https://mods.factorio.com/download/All-The-Mods-Translated-BR-LTN-Pack/65abb7607a43d52b3c9fe9ca";  
+  file_name = "All-The-Mods-Translated-BR-LTN-Pack_0.0.2.zip"; 
+  sha1 = "e10b64515b0e1a7157dc500082715a2e1ad52e96"; 
+  version = "0.0.2"; 
+  deps = filterMissing self [ "flib" "stdlib" "LogisticTrainNetwork" ];
   optionalDeps = [  ];
  }; 
 
@@ -7605,10 +7625,10 @@
 
 "Complex_Science_Pack_Recipes" = factorioMod {
   pname = "Complex_Science_Pack_Recipes"; 
-  url = "https://mods.factorio.com/download/Complex_Science_Pack_Recipes/65aa7c370b9920d7faec13af";  
-  file_name = "Complex_Science_Pack_Recipes_1.3.0.zip"; 
-  sha1 = "f085cef44434d4a19af7a404aee697935d965d2f"; 
-  version = "1.3.0"; 
+  url = "https://mods.factorio.com/download/Complex_Science_Pack_Recipes/65aaf1a20b9920d7faec13ca";  
+  file_name = "Complex_Science_Pack_Recipes_1.3.1.zip"; 
+  sha1 = "fabfbc86aedd4a0d2cf833929c8db93385fd15f6"; 
+  version = "1.3.1"; 
   deps = filterMissing self [ "angelsbioprocessing" "angelssmelting" "bobequipment" "rich_trees" "angelsinfiniteores" "angelspetrochem" "angelsaddons-newlocales" "angelsaddons-storage" "angelsindustries" "angelsexploration" "angelsrefining" "bobinserters" "boblibrary" "bobenemies" "bobequipment" "bobores" "bobtech" "bobassembly" "bobelectronics" "boblogistics" "bobmining" "bobpower" "bobrevamp" "bobwarfare" "bobmodules" "bobvehicleequipment" "bobplates" ];
   optionalDeps = [ "Clowns-Extended-Minerals" "morelabs" "bobgreenhouse" ];
  }; 
@@ -13083,6 +13103,16 @@
   optionalDeps = [  ];
  }; 
 
+"FilterInsertersBegone" = factorioMod {
+  pname = "FilterInsertersBegone"; 
+  url = "https://mods.factorio.com/download/FilterInsertersBegone/65aad573a4f0f0930643357a";  
+  file_name = "FilterInsertersBegone_0.1.2.zip"; 
+  sha1 = "508880c3e7664ba32cd8c11344bfebc7bfdcbdcf"; 
+  version = "0.1.2"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
 "Filter_Combinator" = factorioMod {
   pname = "Filter_Combinator"; 
   url = "https://mods.factorio.com/download/Filter_Combinator/60623f2b3b90cd53ba50a671";  
@@ -15145,10 +15175,10 @@
 
 "HermiosLibs" = factorioMod {
   pname = "HermiosLibs"; 
-  url = "https://mods.factorio.com/download/HermiosLibs/65a6ba5074a62ddb79ed7567";  
-  file_name = "HermiosLibs_1.0.7.zip"; 
-  sha1 = "1c8babcb21dda80182eb3d9e38c411590edd92b1"; 
-  version = "1.0.7"; 
+  url = "https://mods.factorio.com/download/HermiosLibs/65aacf86c6654ee761808fa0";  
+  file_name = "HermiosLibs_1.0.8.zip"; 
+  sha1 = "304b017073acf277f6a4eed7235221367f4c8742"; 
+  version = "1.0.8"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -15755,10 +15785,10 @@
 
 "IR3-ja" = factorioMod {
   pname = "IR3-ja"; 
-  url = "https://mods.factorio.com/download/IR3-ja/65a9b2d7894ba9770d63802f";  
-  file_name = "IR3-ja_1.1.8.zip"; 
-  sha1 = "ff04bd88c27d66a2f45751da7dadd87274751f22"; 
-  version = "1.1.8"; 
+  url = "https://mods.factorio.com/download/IR3-ja/65aab6c59023c4f0fec93d30";  
+  file_name = "IR3-ja_1.1.9.zip"; 
+  sha1 = "14703aa9bdd8fa34d96d5c83ac0cf9e76becc002"; 
+  version = "1.1.9"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "IndustrialRevolution3" ];
  }; 
@@ -16105,10 +16135,10 @@
 
 "IndustrialRevolution3" = factorioMod {
   pname = "IndustrialRevolution3"; 
-  url = "https://mods.factorio.com/download/IndustrialRevolution3/65a292875f88e2e04fed6fbe";  
-  file_name = "IndustrialRevolution3_3.1.19.zip"; 
-  sha1 = "0a2c587df013cc87cf52f2a627d6b9ad90733021"; 
-  version = "3.1.19"; 
+  url = "https://mods.factorio.com/download/IndustrialRevolution3/65aaacdbbe6ec06ebe00cef5";  
+  file_name = "IndustrialRevolution3_3.1.20.zip"; 
+  sha1 = "ea8ed3391fcb3e208e74997242c5c8f838c6cae7"; 
+  version = "3.1.20"; 
   deps = filterMissing self [ "IndustrialRevolution3Assets1" "IndustrialRevolution3Assets2" "IndustrialRevolution3Assets3" "IndustrialRevolution3Assets4" ];
   optionalDeps = [ "IndustrialRevolution3Airships" "IndustrialRevolution3LoadersStacking" "IndustrialRevolution3SpaceMining" "DeadlockBlackRubberBelts" "DeadlockLargerLamp" ];
  }; 
@@ -16195,10 +16225,10 @@
 
 "IndustrialRevolution3LoadersStacking" = factorioMod {
   pname = "IndustrialRevolution3LoadersStacking"; 
-  url = "https://mods.factorio.com/download/IndustrialRevolution3LoadersStacking/65a292972b5503484f5416ee";  
-  file_name = "IndustrialRevolution3LoadersStacking_1.0.7.zip"; 
-  sha1 = "5dc1c8fc1e4716b25a47b1218369bfb4e0dc1461"; 
-  version = "1.0.7"; 
+  url = "https://mods.factorio.com/download/IndustrialRevolution3LoadersStacking/65aaad019023c4f0fec93d2f";  
+  file_name = "IndustrialRevolution3LoadersStacking_1.0.8.zip"; 
+  sha1 = "a60b0ba8904c983e547f32c6ceff58546bf4a4ff"; 
+  version = "1.0.8"; 
   deps = filterMissing self [ "DeadlockBlackRubberBelts" "IndustrialRevolution3" ];
   optionalDeps = [  ];
  }; 
@@ -16615,10 +16645,10 @@
 
 "InserterCranes-for-pymods" = factorioMod {
   pname = "InserterCranes-for-pymods"; 
-  url = "https://mods.factorio.com/download/InserterCranes-for-pymods/63ca9494da106d87039a343d";  
-  file_name = "InserterCranes-for-pymods_0.0.9.zip"; 
-  sha1 = "3234b3be86b3da03e80e5bee08ee649667b7ae94"; 
-  version = "0.0.9"; 
+  url = "https://mods.factorio.com/download/InserterCranes-for-pymods/65aaa83a2903f06031e2bbf9";  
+  file_name = "InserterCranes-for-pymods_0.1.0.zip"; 
+  sha1 = "90f01dba6f6898b8c2aefc45ae1e0624cdc246d4"; 
+  version = "0.1.0"; 
   deps = filterMissing self [ "pyalternativeenergy" "pyindustry" ];
   optionalDeps = [ "bobinserters" ];
  }; 
@@ -20655,10 +20685,10 @@
 
 "Magic" = factorioMod {
   pname = "Magic"; 
-  url = "https://mods.factorio.com/download/Magic/65a9c8040b9920d7faec13a9";  
-  file_name = "Magic_0.1.0.zip"; 
-  sha1 = "e284f6061dfb537577d63b335291366f59366772"; 
-  version = "0.1.0"; 
+  url = "https://mods.factorio.com/download/Magic/65aacdb9475749399afc6d78";  
+  file_name = "Magic_0.1.1.zip"; 
+  sha1 = "f96d85f5aa4d69ac90cfdf500a54aa8e82c4d009"; 
+  version = "0.1.1"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -27045,10 +27075,10 @@
 
 "PyCoalTBaA" = factorioMod {
   pname = "PyCoalTBaA"; 
-  url = "https://mods.factorio.com/download/PyCoalTBaA/655d281a93a1cad0fbecf4b8";  
-  file_name = "PyCoalTBaA_1.2.26.zip"; 
-  sha1 = "d905d334d850b70c59fe4f8b9d2be82cd0af227d"; 
-  version = "1.2.26"; 
+  url = "https://mods.factorio.com/download/PyCoalTBaA/65ab3278475749399afc6d84";  
+  file_name = "PyCoalTBaA_1.2.27.zip"; 
+  sha1 = "aef23ee7c4f7921dd8d91a608cf0366d42b0030c"; 
+  version = "1.2.27"; 
   deps = filterMissing self [ "pycoalprocessing" "PyPPTBaA" "bobsmodules4py" ];
   optionalDeps = [ "pyalternativeenergy" ];
  }; 
@@ -27855,10 +27885,10 @@
 
 "RailPowerSystem" = factorioMod {
   pname = "RailPowerSystem"; 
-  url = "https://mods.factorio.com/download/RailPowerSystem/65a6bc0374a62ddb79ed7568";  
-  file_name = "RailPowerSystem_1.0.1.zip"; 
-  sha1 = "b08a7a35a2fdeaabb68654061efbb26cc75761ff"; 
-  version = "1.0.1"; 
+  url = "https://mods.factorio.com/download/RailPowerSystem/65aad01c0b9920d7faec13bc";  
+  file_name = "RailPowerSystem_1.0.2.zip"; 
+  sha1 = "35680ebe556edaf16a22d885ac685e84d1a3bab3"; 
+  version = "1.0.2"; 
   deps = filterMissing self [ "HermiosLibs" ];
   optionalDeps = [ "FARL" ];
  }; 
@@ -33805,10 +33835,10 @@
 
 "StackInserterRename" = factorioMod {
   pname = "StackInserterRename"; 
-  url = "https://mods.factorio.com/download/StackInserterRename/65aa8aaf2903f06031e2bbf1";  
-  file_name = "StackInserterRename_0.1.0.zip"; 
-  sha1 = "7c36e4292251d2663328442e013e2075ed1707f3"; 
-  version = "0.1.0"; 
+  url = "https://mods.factorio.com/download/StackInserterRename/65aaa8162903f06031e2bbf8";  
+  file_name = "StackInserterRename_0.1.1.zip"; 
+  sha1 = "70b4bd979c34e0087dc1514bd38e2e5c355b4a41"; 
+  version = "0.1.1"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -34445,12 +34475,12 @@
 
 "Subsurface" = factorioMod {
   pname = "Subsurface"; 
-  url = "https://mods.factorio.com/download/Subsurface/65a6e6469fbb6562b145bcd4";  
-  file_name = "Subsurface_0.0.1.zip"; 
-  sha1 = "cf0357f3f5a2d63d26399fd1a5bfcd6fe67eeade"; 
-  version = "0.0.1"; 
+  url = "https://mods.factorio.com/download/Subsurface/65ab0c41a3413903cbb45b05";  
+  file_name = "Subsurface_0.0.2.zip"; 
+  sha1 = "24af9d77e483cb01475a149da36e000dd167d193"; 
+  version = "0.0.2"; 
   deps = filterMissing self [  ];
-  optionalDeps = [  ];
+  optionalDeps = [ "aai-vehicles-miner" ];
  }; 
 
 "Subterrain_modified" = factorioMod {
@@ -36383,6 +36413,16 @@
   optionalDeps = [ "Train_Control_Signals" ];
  }; 
 
+"TrainSignalSender" = factorioMod {
+  pname = "TrainSignalSender"; 
+  url = "https://mods.factorio.com/download/TrainSignalSender/65abae8ebede5e7ce1861306";  
+  file_name = "TrainSignalSender_1.0.0.zip"; 
+  sha1 = "87326892ac2b5c335c8b61c87690c23da0e712ff"; 
+  version = "1.0.0"; 
+  deps = filterMissing self [ "HermiosLibs" ];
+  optionalDeps = [  ];
+ }; 
+
 "TrainSkipFulfilledStation" = factorioMod {
   pname = "TrainSkipFulfilledStation"; 
   url = "https://mods.factorio.com/download/TrainSkipFulfilledStation/618d532c96ee9d9e97841106";  
@@ -37365,10 +37405,10 @@
 
 "Ultracube" = factorioMod {
   pname = "Ultracube"; 
-  url = "https://mods.factorio.com/download/Ultracube/65a85b74fd3c733b1b7212f3";  
-  file_name = "Ultracube_0.3.10.zip"; 
-  sha1 = "d40c1a6708a880b92faa7425ba74f96c6e412d99"; 
-  version = "0.3.10"; 
+  url = "https://mods.factorio.com/download/Ultracube/65aada2ce290ff15bf95d1e1";  
+  file_name = "Ultracube_0.3.11.zip"; 
+  sha1 = "6f6d244c01d1c8bd06c4eefd8a911f77c9cf9def"; 
+  version = "0.3.11"; 
   deps = filterMissing self [ "aai-loaders" "Krastorio2Assets" "simhelper" ];
   optionalDeps = [ "far-reach" "nixie-tubes" "Honk" "Flow Control" "PickerDollies" "Inventory Sensor" "pushbutton" "textplates" "stack-combinator" "aai-signal-transmission" "better-victory-screen" ];
  }; 
@@ -41563,24 +41603,34 @@
   optionalDeps = [  ];
  }; 
 
+"aotixei" = factorioMod {
+  pname = "aotixei"; 
+  url = "https://mods.factorio.com/download/aotixei/65abbc8fa3413903cbb45b17";  
+  file_name = "aotixei_0.1.0.zip"; 
+  sha1 = "19f29a9a5503893eb014f674f139d145d39a6898"; 
+  version = "0.1.0"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [ "exotic-industries" "exotic-industries-loaders" "exotic-industries-robots" "exotic-industries-tanks" "exotic-industries-containers" "exotic-industries-fueler" ];
+ }; 
+
 "aotixpy" = factorioMod {
   pname = "aotixpy"; 
-  url = "https://mods.factorio.com/download/aotixpy/65a4ca218424867c26f4cfb4";  
-  file_name = "aotixpy_0.9.1.zip"; 
-  sha1 = "0f75fe46e8148f629ede83a84c98988b71faddb7"; 
-  version = "0.9.1"; 
+  url = "https://mods.factorio.com/download/aotixpy/65ab9afa3117b0345963cbe6";  
+  file_name = "aotixpy_0.10.0.zip"; 
+  sha1 = "543ebfe632928b95f44b6d50a2562671d4d2c6dc"; 
+  version = "0.10.0"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "Py-QOL" "pypostprocessing" "pyindustry" "pycoalprocessing" "pyrawores" "pyfusionenergy" "pypetroleumhandling" "pyhightech" "pyalienlife" "pyalternativeenergy" "PyBlock" "pyhardmode" ];
  }; 
 
 "aotixzhcn" = factorioMod {
   pname = "aotixzhcn"; 
-  url = "https://mods.factorio.com/download/aotixzhcn/65a88366f1bdb97b96805121";  
-  file_name = "aotixzhcn_1.25.1.zip"; 
-  sha1 = "d3ec7bd1f005f31c85bce7b51d2d2e77af59dae4"; 
-  version = "1.25.1"; 
+  url = "https://mods.factorio.com/download/aotixzhcn/65abc51171f8849c8716f31d";  
+  file_name = "aotixzhcn_1.25.2.zip"; 
+  sha1 = "278e60d9cc1d2a9d1b85c5036cde3685d2326c7a"; 
+  version = "1.25.2"; 
   deps = filterMissing self [  ];
-  optionalDeps = [ "aotixpy" "Py-QOL" "Nullius-QOL" "AnimationFreeze" "aai-signal-transmission" "advanced-chemical-plant" "AfraidOfTheDark" "alien-biomes" "alien-biomes-hr-terrain" "autobuild" "Automatic_Train_Painter" "automatic-station-painter" "FluidWagonColorMask" "BeastFinder" "beautiful_bridge_railway" "BeltRouter" "belt-visualizer" "BetterAlertArrows" "big-energy-solar-wind-and-accumulator" "BigPumpjack" "BlueprintTools" "bobinserters" "bobinserters-tweak" "botReplacer" "BottleneckLite" "ch-concentrated-solar" "ColorCodedPlanners" "CompressedFluids" "Constructron-Continued" "cybersyn" "cybersyn-combinator" "creative-mod" "crafting_combinator_xeraph" "Cursed-FMD" "CursorEnhancements" "Custom-Production-UI-Fixed" "deadlock-beltboxes-loaders" "DeadlocksStackingForPyanadon" "deep-storage-unit" "early-spidertron" "Enhanced_Map_Colors" "EvenDistributionLite" "even-distribution" "extended-descriptions" "Factorio-Tiberium" "flib" "FilterHelper" "factory-inspector" "Flow Control" "Fluid-level-indicator" "fluid-memory-storage" "FluidMustFlow" "GirlCharacter" "glutenfree-aai-signal-transmission-preview" "guiManager" "helmod" "Humble_Alt_Mode_Shadow" "Humble_Power_Lines" "inserter-visualizer" "item-sensor" "Inventory Sensor" "k2-fluid-storage" "LogisticTrainNetwork" "LSlib" "LTN_Combinator_Modernized" "LTN_Content_Reader" "LtnManager" "Milestones" "ModuleInserter" "ModuleInserterSimplified" "Moon_Logic" "MoveFullStacks" "muro" "nicefill" "no_animations" "noangledcables" "osha_hot_swap" "PipeVisualizer" "PlacementGuide" "PoleRanger" "power-priority" "QuickItemSearch" "RateCalculator" "RecipeBook" "RemoteConfiguration" "Renamer" "resourcehighlighter-dark" "RITEG" "rocket-log" "RunningSpeed" "safefill" "SchallRadarAlignment" "show-max-underground-distance" "SmallInlineStorageTank" "splatter_guard" "SSP" "StatsGui" "SunResources" "TagBook" "Tapeline" "TaskList" "TeleportShortcutsAndHotkeys" "train-log" "trainstopnostalgia" "Transport_Drones" "turbinesplusplus" "UI_Hotkeys" "UltimateBelts" "umr" "UltimateBeltsSmartFix" "underground-pipe-pack" "underground-pipe-pack-more-simplified" "UPSFriendlyNixieTubeDisplay" "UtilizationMonitorBlargh" "WireShortcuts" "YARM" "No_Power_Icons" "Smart_Inserters" "Kux-SlimInserters" "Kux-CoreLib" "alert-center" "Warp-Drive-Machine" "factorio-crash-site" "biter-trails" "rso-mod" "QuickbarTemplates" "Warheads" "True-Nukes" "True-Nukes-Graphics" "gui-toggle" "informatron" "recipe-tweaker" "Noxys_Swimming" "OmegaDrill" "Squeak Through" "UltraFastMagnecticInserterExtra" "DeleteEmptyChunks" "Infinizoom" "mining-patch-planner" "textplates" "spidertron-logistics" "nullius" "lambent-nil" "miniloader" "islands_world" "boxing-button" "custom-cursor-split" "Kux-OrbitalIonCannon" "aai-loaders" "aai-containers" "Warehousing" "train-upgrader" "far-reach" "DeadlockBlackRubberBelts" "BlackRubberBeltsForBobs" "ammo-loader" "anti-gloom" "railloader" "power-grid-comb" "cargo-ships" "cargo-ships-graphics" "kj_cargo_ships_hr" "capacity-combinator" "power-combinator" "snouz-useful-icons" "exotic-industries" "exotic-industries-graphics" "exotic-industries-loaders" "exotic-industries-robots" "exotic-industries-tanks" "exotic-industries-containers" "exotic-industries-fueler" "ImprovedCombinator" "osha_smarter_pasting" "blueprint_reader" "advanced-centrifuge" "ProgressiveRunningRevived" "underwater-pipes" "FactorioChem" "DeepPockets" "FactorySearch" "RecExplo" "HallOfFame" "Adjustable-Inventory-Size" "CircuitConditionScreen" "PlutoniumEnergy" "undeletable-fluids" "cogmas" "LightedPolesPlus" "Ultracube" "WireShortcutX" "tricky-old-nick" "pushbutton" "better-victory-screen" "rec-blue-plus" "PickerDollies" "nixie-tubes" "reconnect-cut-wires" "DeadlockLargerLamp" "big-data-string" "Cold_biters" "Toxic_biters" "Explosive_biters" "ArmouredBiters" "shield-projector" ];
+  optionalDeps = [ "aotixpy" "aotixei" "Py-QOL" "Nullius-QOL" "AnimationFreeze" "aai-signal-transmission" "advanced-chemical-plant" "AfraidOfTheDark" "alien-biomes" "alien-biomes-hr-terrain" "autobuild" "Automatic_Train_Painter" "automatic-station-painter" "FluidWagonColorMask" "BeastFinder" "beautiful_bridge_railway" "BeltRouter" "belt-visualizer" "BetterAlertArrows" "big-energy-solar-wind-and-accumulator" "BigPumpjack" "BlueprintTools" "bobinserters" "bobinserters-tweak" "botReplacer" "BottleneckLite" "ch-concentrated-solar" "ColorCodedPlanners" "CompressedFluids" "Constructron-Continued" "cybersyn" "cybersyn-combinator" "creative-mod" "crafting_combinator_xeraph" "Cursed-FMD" "CursorEnhancements" "Custom-Production-UI-Fixed" "deadlock-beltboxes-loaders" "DeadlocksStackingForPyanadon" "deep-storage-unit" "early-spidertron" "Enhanced_Map_Colors" "EvenDistributionLite" "even-distribution" "extended-descriptions" "Factorio-Tiberium" "flib" "FilterHelper" "factory-inspector" "Flow Control" "Fluid-level-indicator" "fluid-memory-storage" "FluidMustFlow" "GirlCharacter" "glutenfree-aai-signal-transmission-preview" "guiManager" "helmod" "Humble_Alt_Mode_Shadow" "Humble_Power_Lines" "inserter-visualizer" "item-sensor" "Inventory Sensor" "k2-fluid-storage" "LogisticTrainNetwork" "LSlib" "LTN_Combinator_Modernized" "LTN_Content_Reader" "LtnManager" "Milestones" "ModuleInserter" "ModuleInserterSimplified" "Moon_Logic" "MoveFullStacks" "muro" "nicefill" "no_animations" "noangledcables" "osha_hot_swap" "PipeVisualizer" "PlacementGuide" "PoleRanger" "power-priority" "QuickItemSearch" "RateCalculator" "RecipeBook" "RemoteConfiguration" "Renamer" "resourcehighlighter-dark" "RITEG" "rocket-log" "RunningSpeed" "safefill" "SchallRadarAlignment" "show-max-underground-distance" "SmallInlineStorageTank" "splatter_guard" "SSP" "StatsGui" "SunResources" "TagBook" "Tapeline" "TaskList" "TeleportShortcutsAndHotkeys" "train-log" "trainstopnostalgia" "Transport_Drones" "turbinesplusplus" "UI_Hotkeys" "UltimateBelts" "umr" "UltimateBeltsSmartFix" "underground-pipe-pack" "underground-pipe-pack-more-simplified" "UPSFriendlyNixieTubeDisplay" "UtilizationMonitorBlargh" "WireShortcuts" "YARM" "No_Power_Icons" "Smart_Inserters" "Kux-SlimInserters" "Kux-CoreLib" "alert-center" "Warp-Drive-Machine" "factorio-crash-site" "biter-trails" "rso-mod" "QuickbarTemplates" "Warheads" "True-Nukes" "True-Nukes-Graphics" "gui-toggle" "informatron" "recipe-tweaker" "Noxys_Swimming" "OmegaDrill" "Squeak Through" "UltraFastMagnecticInserterExtra" "DeleteEmptyChunks" "Infinizoom" "mining-patch-planner" "textplates" "spidertron-logistics" "nullius" "lambent-nil" "miniloader" "islands_world" "boxing-button" "custom-cursor-split" "Kux-OrbitalIonCannon" "aai-loaders" "aai-containers" "Warehousing" "train-upgrader" "far-reach" "DeadlockBlackRubberBelts" "BlackRubberBeltsForBobs" "ammo-loader" "anti-gloom" "railloader" "power-grid-comb" "cargo-ships" "cargo-ships-graphics" "kj_cargo_ships_hr" "capacity-combinator" "power-combinator" "snouz-useful-icons" "ImprovedCombinator" "osha_smarter_pasting" "blueprint_reader" "advanced-centrifuge" "ProgressiveRunningRevived" "underwater-pipes" "FactorioChem" "DeepPockets" "FactorySearch" "RecExplo" "HallOfFame" "Adjustable-Inventory-Size" "CircuitConditionScreen" "PlutoniumEnergy" "undeletable-fluids" "cogmas" "LightedPolesPlus" "Ultracube" "WireShortcutX" "tricky-old-nick" "pushbutton" "better-victory-screen" "rec-blue-plus" "PickerDollies" "nixie-tubes" "reconnect-cut-wires" "DeadlockLargerLamp" "big-data-string" "Cold_biters" "Toxic_biters" "Explosive_biters" "ArmouredBiters" "shield-projector" ];
  }; 
 
 "apm_bob_rework_ldinc" = factorioMod {
@@ -45301,6 +45351,16 @@
   version = "1.3.0"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "ScienceCostTweaker" ];
+ }; 
+
+"buleprint-granade" = factorioMod {
+  pname = "buleprint-granade"; 
+  url = "https://mods.factorio.com/download/buleprint-granade/65ab66713117b0345963cbe3";  
+  file_name = "buleprint-granade_0.1.0.zip"; 
+  sha1 = "41c16316b92bab30587f127e6afd58b38313dfa1"; 
+  version = "0.1.0"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
  }; 
 
 "bulkteleport" = factorioMod {
@@ -51095,12 +51155,12 @@
 
 "factorio-2ish" = factorioMod {
   pname = "factorio-2ish"; 
-  url = "https://mods.factorio.com/download/factorio-2ish/65aa8b0a45fce634252a647e";  
-  file_name = "factorio-2ish_0.394.2.zip"; 
-  sha1 = "2c7a4db646852097e7ee8e92a9cd5f774924e507"; 
-  version = "0.394.2"; 
+  url = "https://mods.factorio.com/download/factorio-2ish/65aaaa4d3a331c1d997d4bc7";  
+  file_name = "factorio-2ish_0.394.3.zip"; 
+  sha1 = "9ac4ac1943d48c6af0c6dcd29884998cce3ac5e1"; 
+  version = "0.394.3"; 
   deps = filterMissing self [  ];
-  optionalDeps = [ "AdvancedBelts" "AutoCircuit" "AutoTrash" "CursorEnhancements" "DestructiveBlueprints" "GDIW" "GhostOnWater" "Kux-BlueprintExtensions" "LogisticRequestManager" "ModuleInserter" "ModuleInserterSimplified" "PowerPole32" "RemoteConfiguration" "Shortcuts-ick" "SimpleCompress" "TintedGhosts" "TrainGroups" "Train_Control_Signals" "WireShortcuts" "beautiful_bridge_railway" "better-cliff-hitboxes" "bigminingdrill" "big-mining-drill" "blueprint-variables" "deadlock-beltboxes-loaders" "janky-quality" "pigo-selector-combinator" "redo" "remote-requests" "show-max-underground-distance" "simple_landfill_mining" "StackInserterRename" ];
+  optionalDeps = [ "AdvancedBelts" "AutoCircuit" "AutoTrash" "CursorEnhancements" "DestructiveBlueprints" "FilterInsertersBegone" "GDIW" "GhostOnWater" "Kux-BlueprintExtensions" "LogisticRequestManager" "ModuleInserter" "ModuleInserterSimplified" "PowerPole32" "RemoteConfiguration" "Shortcuts-ick" "SimpleCompress" "StackInserterRename" "TintedGhosts" "TrainGroups" "Train_Control_Signals" "WireShortcuts" "beautiful_bridge_railway" "better-cliff-hitboxes" "big-mining-drill" "bigminingdrill" "blueprint-variables" "crafting_combinator_xeraph" "deadlock-beltboxes-loaders" "fluid_permutations" "janky-quality" "pigo-selector-combinator" "redo" "remote-requests" "show-max-underground-distance" "simple_landfill_mining" ];
  }; 
 
 "factorio-abridged" = factorioMod {
@@ -61193,6 +61253,16 @@
   optionalDeps = [  ];
  }; 
 
+"moar-modules" = factorioMod {
+  pname = "moar-modules"; 
+  url = "https://mods.factorio.com/download/moar-modules/65ab2f50b02d1c1bfa495b69";  
+  file_name = "moar-modules_0.1.2.zip"; 
+  sha1 = "b7c853c35e1d87a96b422c9ce4313eb237c04c13"; 
+  version = "0.1.2"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
 "mod-settings" = factorioMod {
   pname = "mod-settings"; 
   url = "https://mods.factorio.com/download/mod-settings/5fe6d7488596a681aa4371b0";  
@@ -63005,10 +63075,10 @@
 
 "no-more-oil" = factorioMod {
   pname = "no-more-oil"; 
-  url = "https://mods.factorio.com/download/no-more-oil/65aa80450b9920d7faec13b0";  
-  file_name = "no-more-oil_0.3.0.zip"; 
-  sha1 = "c7e609216ba3b0b18ec86504297ec21e326322f3"; 
-  version = "0.3.0"; 
+  url = "https://mods.factorio.com/download/no-more-oil/65aae0200c4c08a588f40d33";  
+  file_name = "no-more-oil_0.3.2.zip"; 
+  sha1 = "0b0e0d91627c6eec112f63c8f5fedf01bf879558"; 
+  version = "0.3.2"; 
   deps = filterMissing self [ "salt" ];
   optionalDeps = [  ];
  }; 
@@ -63475,10 +63545,10 @@
 
 "nullius" = factorioMod {
   pname = "nullius"; 
-  url = "https://mods.factorio.com/download/nullius/65a436bdeeb008be99bca7e9";  
-  file_name = "nullius_1.8.12.zip"; 
-  sha1 = "3c8e7dca02843e52fd4850d74f08d60ccfce1dc3"; 
-  version = "1.8.12"; 
+  url = "https://mods.factorio.com/download/nullius/65ab61d171f8849c8716f30e";  
+  file_name = "nullius_1.8.13.zip"; 
+  sha1 = "44591f496544ae8279ac69c4098c5c4c44004cd3"; 
+  version = "1.8.13"; 
   deps = filterMissing self [ "alien-biomes" "angelsrefining" "angelssmelting" "boblogistics" ];
   optionalDeps = [ "RecipeBook" "underground-pipe-pack" ];
  }; 
@@ -64060,6 +64130,16 @@
   sha1 = "e8af199e78e8b6ef47e945bda2f7bab02d46b24f"; 
   version = "0.5.4"; 
   deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
+"ore_stacks_se" = factorioMod {
+  pname = "ore_stacks_se"; 
+  url = "https://mods.factorio.com/download/ore_stacks_se/65aaf95fc6654ee761808fa2";  
+  file_name = "ore_stacks_se_0.0.1.zip"; 
+  sha1 = "b77e30468bed7c93db7d281b7ee063597d65a9fa"; 
+  version = "0.0.1"; 
+  deps = filterMissing self [ "space-exploration" ];
   optionalDeps = [  ];
  }; 
 
@@ -66545,10 +66625,10 @@
 
 "pycoalprocessing" = factorioMod {
   pname = "pycoalprocessing"; 
-  url = "https://mods.factorio.com/download/pycoalprocessing/659bbec37f181f7ab6495ba3";  
-  file_name = "pycoalprocessing_2.1.9.zip"; 
-  sha1 = "e1dc6da4eca185141f97cbc5a1ed8b4d066ee5b2"; 
-  version = "2.1.9"; 
+  url = "https://mods.factorio.com/download/pycoalprocessing/65aa9aec0b9920d7faec13b1";  
+  file_name = "pycoalprocessing_2.1.14.zip"; 
+  sha1 = "12eef8bfa5c7a7a84d6be25f7021d441c7dffa2c"; 
+  version = "2.1.14"; 
   deps = filterMissing self [ "stdlib" "pycoalprocessinggraphics" "pypostprocessing" ];
   optionalDeps = [  ];
  }; 
@@ -68623,6 +68703,16 @@
   optionalDeps = [  ];
  }; 
 
+"rich_rocks" = factorioMod {
+  pname = "rich_rocks"; 
+  url = "https://mods.factorio.com/download/rich_rocks/65ab00ca2903f06031e2bc0c";  
+  file_name = "rich_rocks_1.0.0.zip"; 
+  sha1 = "08005b589abfbcd49b458c61747841e364f9bbaa"; 
+  version = "1.0.0"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
 "rich_stone" = factorioMod {
   pname = "rich_stone"; 
   url = "https://mods.factorio.com/download/rich_stone/65a1d96f7e21f2018d83c984";  
@@ -70005,11 +70095,11 @@
 
 "schmitts-modpack" = factorioMod {
   pname = "schmitts-modpack"; 
-  url = "https://mods.factorio.com/download/schmitts-modpack/65a9aa952a9dea513f1a275d";  
-  file_name = "schmitts-modpack_1.4.0.zip"; 
-  sha1 = "198e2e13a504fcf79b531705b8c19cc4056c3666"; 
-  version = "1.4.0"; 
-  deps = filterMissing self [ "schmitt_disable_crash_site" "NoArtilleryMapReveal" "lob" "angels-liquid-alloy-mixing" "CursorEnhancements" "RecipeBook" "distance_independent_alien_base_size" "distance_independent_ore_patch_size" "PickerFilterFill" "Air-Filtering_Fix" "always-shout" "angelsaddons-newlocales" "angelsaddons-storage" "angelsbioprocessing" "angelsexploration" "angelsindustries" "angelsinfiniteores" "angelspetrochem" "angelsrefining" "angelssmelting" "AsphaltPaving" "attach-notes" "some-autoresearch" "beautiful_straight_bridge_railway" "bobassembly" "bobelectronics" "bobenemies" "bobequipment" "bobinserters" "InserterVisualizerLite" "boblibrary" "boblocale" "boblogistics" "bobmining" "reskins-library" "reskins-bobs" "reskins-angels" "reskins-compatibility" "bobmodules" "bobores" "bobplates" "bobpower" "bobrevamp" "bobtech" "bobvehicleequipment" "bobwarfare" "BottleneckLite" "chest-slot-reader" "Complex_Science_Pack_Recipes" "crafting_combinator_xeraph" "Dectorio" "even-distribution" "EvoGUI" "factoryplanner" "FactorySearch" "far-reach" "FilterChests" "Flare Stack" "flib" "Flow Control" "flow-control-expanded-bob" "Full_Power_Coverage" "jetpack" "Kombat_Drones" "Landfill_plus_near_land" "liquid_ore" "logicarts3" "LogisticTrainNetwork" "LtnManager" "miniloader" "naked-rails_se" "Nanobots" "nixie-tubes" "no-wall-repair" "No_Handcrafting" "rich_stone" "osm-lib" "osm-lib-postprocess" "PavementDriveAssistContinued" "PickerDollies" "Placeables" "power-grid-comb" "production-potential" "Raven" "ResearchLevelSetsEvolution" "rusty-locale" "rusty-locale-xeraph" "simhelper" "SpeedLimitSignsForTrains" "Squeak Through" "stdlib" "StoneEnrichment" "textplates" "tree_planting_grenade" "tree_collision" "Unit_Control" "upgrade-planner-next" "UsefulCombinators" "UtilizationMonitorBlargh" "VehicleSnap" "verysmallchests" "water-consumes-pollution" "Wood_Gasification" "Milestones" "inventory-mover" "blueprint-variables" "Rocket_Turrets" "Faster_Fading_Corpses" "Natural_Evolution_Enemies" "Natural_Evolution_Graphics" "erm_zerg_hd_assets" "TrainNetworkForPlayers" "combat-mechanics-overhaul" "Mini_Trains" "underwater-pipes" "rz-water-placeable-lamps" "cargo-ships" "cargo-ships-graphics" "bobangel-pollution" "DisplayPlates" "CanalBuilderMAV" "Clowns-Processing" "Clowns-Extended-Minerals" "Clowns-Nuclear" "Clowns-AngelBob-Nuclear" "ev-refining" "resourcehighlighter-dark" "resourcehighlighter_dark_tweaks" "the_shallows" ];
+  url = "https://mods.factorio.com/download/schmitts-modpack/65ab01232903f06031e2bc0f";  
+  file_name = "schmitts-modpack_1.4.2.zip"; 
+  sha1 = "8b09524953156ce51c034ea32484c4d19bb97cba"; 
+  version = "1.4.2"; 
+  deps = filterMissing self [ "schmitt_disable_crash_site" "NoArtilleryMapReveal" "lob" "angels-liquid-alloy-mixing" "CursorEnhancements" "RecipeBook" "distance_independent_alien_base_size" "distance_independent_ore_patch_size" "PickerFilterFill" "Air-Filtering_Fix" "always-shout" "angelsaddons-newlocales" "angelsaddons-storage" "angelsbioprocessing" "angelsexploration" "angelsindustries" "angelsinfiniteores" "angelspetrochem" "angelsrefining" "angelssmelting" "AsphaltPaving" "attach-notes" "some-autoresearch" "beautiful_straight_bridge_railway" "bobassembly" "bobelectronics" "bobenemies" "bobequipment" "bobinserters" "InserterVisualizerLite" "boblibrary" "boblocale" "boblogistics" "bobmining" "reskins-library" "reskins-bobs" "reskins-angels" "reskins-compatibility" "bobmodules" "bobores" "bobplates" "bobpower" "bobrevamp" "bobtech" "bobvehicleequipment" "bobwarfare" "BottleneckLite" "chest-slot-reader" "Complex_Science_Pack_Recipes" "crafting_combinator_xeraph" "Dectorio" "even-distribution" "EvoGUI" "factoryplanner" "FactorySearch" "far-reach" "FilterChests" "Flare Stack" "flib" "Flow Control" "flow-control-expanded-bob" "Full_Power_Coverage" "jetpack" "Kombat_Drones" "Landfill_plus_near_land" "liquid_ore" "logicarts3" "LogisticTrainNetwork" "LtnManager" "miniloader" "naked-rails_se" "Nanobots" "nixie-tubes" "no-wall-repair" "No_Handcrafting" "rich_stone" "osm-lib" "osm-lib-postprocess" "PavementDriveAssistContinued" "PickerDollies" "Placeables" "power-grid-comb" "production-potential" "Raven" "ResearchLevelSetsEvolution" "rusty-locale" "rusty-locale-xeraph" "simhelper" "SpeedLimitSignsForTrains" "Squeak Through" "stdlib" "StoneEnrichment" "textplates" "tree_planting_grenade" "tree_collision" "Unit_Control" "upgrade-planner-next" "UsefulCombinators" "UtilizationMonitorBlargh" "VehicleSnap" "verysmallchests" "water-consumes-pollution" "Wood_Gasification" "Milestones" "inventory-mover" "blueprint-variables" "Rocket_Turrets" "Faster_Fading_Corpses" "Natural_Evolution_Enemies" "Natural_Evolution_Graphics" "erm_zerg_hd_assets" "TrainNetworkForPlayers" "combat-mechanics-overhaul" "Mini_Trains" "underwater-pipes" "rz-water-placeable-lamps" "cargo-ships" "cargo-ships-graphics" "bobangel-pollution" "DisplayPlates" "CanalBuilderMAV" "Clowns-Processing" "Clowns-Extended-Minerals" "Clowns-Nuclear" "Clowns-AngelBob-Nuclear" "ev-refining" "resourcehighlighter-dark" "resourcehighlighter_dark_tweaks" "rich_rocks" "the_shallows" ];
   optionalDeps = [ "ChunkyChunks" "CleanMap" "morelabs" "MapRevealTool" "team_competition" ];
  }; 
 
@@ -73965,10 +74055,10 @@
 
 "stack-combinator" = factorioMod {
   pname = "stack-combinator"; 
-  url = "https://mods.factorio.com/download/stack-combinator/65a1c76ab1b7ae8caa3747f1";  
-  file_name = "stack-combinator_1.5.0.zip"; 
-  sha1 = "6ea3a821ef69081c5fd18d386b2b036c0570d74f"; 
-  version = "1.5.0"; 
+  url = "https://mods.factorio.com/download/stack-combinator/65abc024a3413903cbb45b1a";  
+  file_name = "stack-combinator_1.5.1.zip"; 
+  sha1 = "530e905abe28baa422c6a9b2250bb9b357a8b9f9"; 
+  version = "1.5.1"; 
   deps = filterMissing self [ "stdlib" ];
   optionalDeps = [ "nullius" "PickerDollies" ];
  }; 
@@ -76053,6 +76143,16 @@
   optionalDeps = [  ];
  }; 
 
+"toms-byproducts" = factorioMod {
+  pname = "toms-byproducts"; 
+  url = "https://mods.factorio.com/download/toms-byproducts/65aaf45d0c4c08a588f40d34";  
+  file_name = "toms-byproducts_1.0.0.zip"; 
+  sha1 = "92250dbcedcb6b3e71b8c5eb8156b8850b619170"; 
+  version = "1.0.0"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [ "Side Inserters" "Flare Stack" ];
+ }; 
+
 "tooltip-opacity" = factorioMod {
   pname = "tooltip-opacity"; 
   url = "https://mods.factorio.com/download/tooltip-opacity/64245257debe34d2e48618a2";  
@@ -76595,10 +76695,10 @@
 
 "tree_planting_grenade" = factorioMod {
   pname = "tree_planting_grenade"; 
-  url = "https://mods.factorio.com/download/tree_planting_grenade/65a9b45a0b9920d7faec13a7";  
-  file_name = "tree_planting_grenade_1.0.2.zip"; 
-  sha1 = "58b6b9d8125522547467772121b11a092ffa547e"; 
-  version = "1.0.2"; 
+  url = "https://mods.factorio.com/download/tree_planting_grenade/65ab104ab02d1c1bfa495b67";  
+  file_name = "tree_planting_grenade_1.0.3.zip"; 
+  sha1 = "178b7d4829bdcd68cd44d266c9851cddf51e9a4c"; 
+  version = "1.0.3"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "rich_trees" "bobtech" "alien-biomes" ];
  }; 
@@ -76825,10 +76925,10 @@
 
 "tycoon" = factorioMod {
   pname = "tycoon"; 
-  url = "https://mods.factorio.com/download/tycoon/65a40bfa9794afcbb415215d";  
-  file_name = "tycoon_0.3.13.zip"; 
-  sha1 = "f5c7ca5cc7a3c1cc7e912b59f9314093967a24c0"; 
-  version = "0.3.13"; 
+  url = "https://mods.factorio.com/download/tycoon/65aa951ea4f0f09306433569";  
+  file_name = "tycoon_0.3.14.zip"; 
+  sha1 = "b61a5e0827b0229fa3208d69eca47e1f498338aa"; 
+  version = "0.3.14"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -79175,10 +79275,10 @@
 
 "xo-vehicle-equipment" = factorioMod {
   pname = "xo-vehicle-equipment"; 
-  url = "https://mods.factorio.com/download/xo-vehicle-equipment/65a7d6bc9fbb6562b145bce8";  
-  file_name = "xo-vehicle-equipment_1.0.4.zip"; 
-  sha1 = "3b705412b2cc003b1dcac8e465b9f02a598d2a10"; 
-  version = "1.0.4"; 
+  url = "https://mods.factorio.com/download/xo-vehicle-equipment/65ab7d3f0c4c08a588f40d3f";  
+  file_name = "xo-vehicle-equipment_1.0.5.zip"; 
+  sha1 = "cab00ec6c15e364c2cd147d332f83beea58de0a2"; 
+  version = "1.0.5"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "Krastorio2" "lat-3" "equipment-gantry" ];
  }; 
@@ -79995,10 +80095,10 @@
 
 "zzz-claustorephobic" = factorioMod {
   pname = "zzz-claustorephobic"; 
-  url = "https://mods.factorio.com/download/zzz-claustorephobic/655e2d8b65cdbfaee060ca05";  
-  file_name = "zzz-claustorephobic_1.1.5.zip"; 
-  sha1 = "f765c0c3ca09c6256e687bd5d545864903fa512b"; 
-  version = "1.1.5"; 
+  url = "https://mods.factorio.com/download/zzz-claustorephobic/65ab09e92903f06031e2bc10";  
+  file_name = "zzz-claustorephobic_1.1.6.zip"; 
+  sha1 = "14b1b29bafc0ce753524b0c563f537c19bab61bd"; 
+  version = "1.1.6"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
