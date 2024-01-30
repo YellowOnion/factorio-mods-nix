@@ -18103,6 +18103,16 @@
   optionalDeps = [  ];
  }; 
 
+"Krastorio2Inserters" = factorioMod {
+  pname = "Krastorio2Inserters"; 
+  url = "https://mods.factorio.com/download/Krastorio2Inserters/65b8c80514d070edb039bc0f";  
+  file_name = "Krastorio2Inserters_1.0.0.zip"; 
+  sha1 = "9cb56cc0502a38902c2b7db62b3d58601a24c244"; 
+  version = "1.0.0"; 
+  deps = filterMissing self [ "flib" ];
+  optionalDeps = [  ];
+ }; 
+
 "Krastorio2LoaderRedux" = factorioMod {
   pname = "Krastorio2LoaderRedux"; 
   url = "https://mods.factorio.com/download/Krastorio2LoaderRedux/601be39229a94727d2c6e15b";  
@@ -40465,10 +40475,10 @@
 
 "acr-lzr" = factorioMod {
   pname = "acr-lzr"; 
-  url = "https://mods.factorio.com/download/acr-lzr/65b4afa77c40a7449d823afd";  
-  file_name = "acr-lzr_1.0.38.zip"; 
-  sha1 = "a9507ce494426766dce65768151b9af06952a054"; 
-  version = "1.0.38"; 
+  url = "https://mods.factorio.com/download/acr-lzr/65b8f4a6ead8f6dec8bbcd0f";  
+  file_name = "acr-lzr_1.0.41.zip"; 
+  sha1 = "ccf09ca5a676d0b4d5e0944c5c36baad66aa9b58"; 
+  version = "1.0.41"; 
   deps = filterMissing self [ "lt-2k" ];
   optionalDeps = [ "aai-vehicles-laser-tank" "aai-programmable-vehicles" "equipment-gantry" ];
  }; 
@@ -60175,10 +60185,10 @@
 
 "lt-2k" = factorioMod {
   pname = "lt-2k"; 
-  url = "https://mods.factorio.com/download/lt-2k/65b615bc5cd13cd6beb4dba7";  
-  file_name = "lt-2k_1.0.30.zip"; 
-  sha1 = "5fef7e81f42655652c7ab4d50fc2a1c4bd3cdfb9"; 
-  version = "1.0.30"; 
+  url = "https://mods.factorio.com/download/lt-2k/65b8ed14ead8f6dec8bbcd0e";  
+  file_name = "lt-2k_1.0.32.zip"; 
+  sha1 = "1d54fd6c9fa05e843b650b23a20a1ce142f467ba"; 
+  version = "1.0.32"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "aai-vehicles-laser-tank" ];
  }; 
@@ -74665,10 +74675,10 @@
 
 "stack-combinator" = factorioMod {
   pname = "stack-combinator"; 
-  url = "https://mods.factorio.com/download/stack-combinator/65b57326b4a64b7cb4209e47";  
-  file_name = "stack-combinator_1.5.2.zip"; 
-  sha1 = "a36e4b719dc74b0d53186e07ce73cb05fc79923b"; 
-  version = "1.5.2"; 
+  url = "https://mods.factorio.com/download/stack-combinator/65b903e6890aaa77c3dfcaae";  
+  file_name = "stack-combinator_1.5.3.zip"; 
+  sha1 = "5096ce512ebd864c7b07c22a9be5a4d91ad0b953"; 
+  version = "1.5.3"; 
   deps = filterMissing self [ "stdlib" ];
   optionalDeps = [ "nullius" "PickerDollies" ];
  }; 
@@ -79925,10 +79935,10 @@
 
 "xo-vehicle-equipment" = factorioMod {
   pname = "xo-vehicle-equipment"; 
-  url = "https://mods.factorio.com/download/xo-vehicle-equipment/65b61fa15e94df6aeee6c90e";  
-  file_name = "xo-vehicle-equipment_1.0.8.zip"; 
-  sha1 = "2164cb280a11ba2bded4b9ca7a608ebf5f92a890"; 
-  version = "1.0.8"; 
+  url = "https://mods.factorio.com/download/xo-vehicle-equipment/65b8ed43890aaa77c3dfcaad";  
+  file_name = "xo-vehicle-equipment_1.0.9.zip"; 
+  sha1 = "e9385ff5806e0e46305c764302c6f453ed649fe3"; 
+  version = "1.0.9"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "Krastorio2" "lat-3" "equipment-gantry" ];
  }; 
