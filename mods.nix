@@ -16583,6 +16583,26 @@
   optionalDeps = [  ];
  }; 
 
+"InfiniteResourcesByGj" = factorioMod {
+  pname = "InfiniteResourcesByGj"; 
+  url = "https://mods.factorio.com/download/InfiniteResourcesByGj/65c5f1e36668d728c5ef6443";  
+  file_name = "InfiniteResourcesByGj_0.0.9.zip"; 
+  sha1 = "f8f3bc05e4e96cb0965b29ba30fd09add1e01f5f"; 
+  version = "0.0.9"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
+"InfiniteResourcesGG" = factorioMod {
+  pname = "InfiniteResourcesGG"; 
+  url = "https://mods.factorio.com/download/InfiniteResourcesGG/65c5e6745dd2a69ec6d992a8";  
+  file_name = "InfiniteResourcesGG_0.0.9.zip"; 
+  sha1 = "79646e91565cea5ad86781577758580690fd2c54"; 
+  version = "0.0.9"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
 "InfiniteResourcesNormalYieldDepletion" = factorioMod {
   pname = "InfiniteResourcesNormalYieldDepletion"; 
   url = "https://mods.factorio.com/download/InfiniteResourcesNormalYieldDepletion/63f7cf23a5af50e17b20f8c1";  
@@ -18180,16 +18200,6 @@
   sha1 = "4761af46aea28c3bf60bc48af29f437f8f91a176"; 
   version = "0.1.0"; 
   deps = filterMissing self [ "Krastorio2" ];
-  optionalDeps = [  ];
- }; 
-
-"Krastorio2Graphics" = factorioMod {
-  pname = "Krastorio2Graphics"; 
-  url = "https://mods.factorio.com/download/Krastorio2Graphics/615f9d362a3638b310b4ef04";  
-  file_name = "Krastorio2Graphics_1.0.0.zip"; 
-  sha1 = "de396edaf6ed4030a4e9c77ffc17ef2a48a8c6a5"; 
-  version = "1.0.0"; 
-  deps = filterMissing self [ "flib" "Krastorio2" ];
   optionalDeps = [  ];
  }; 
 
@@ -25655,10 +25665,10 @@
 
 "PLORD_Prometheus_GrenadeLauncher" = factorioMod {
   pname = "PLORD_Prometheus_GrenadeLauncher"; 
-  url = "https://mods.factorio.com/download/PLORD_Prometheus_GrenadeLauncher/65c0b730ddf0dfdb00085f5d";  
-  file_name = "PLORD_Prometheus_GrenadeLauncher_0.2.1.zip"; 
-  sha1 = "ffc47c8d70c42ba4076cee4389954afc447b4498"; 
-  version = "0.2.1"; 
+  url = "https://mods.factorio.com/download/PLORD_Prometheus_GrenadeLauncher/65c62d055dd2a69ec6d992b2";  
+  file_name = "PLORD_Prometheus_GrenadeLauncher_0.2.2.zip"; 
+  sha1 = "c45aa479715ef2e8acd3e055bccec4f8c5bd39db"; 
+  version = "0.2.2"; 
   deps = filterMissing self [ "flib" ];
   optionalDeps = [  ];
  }; 
@@ -28175,10 +28185,10 @@
 
 "RailPowerSystem" = factorioMod {
   pname = "RailPowerSystem"; 
-  url = "https://mods.factorio.com/download/RailPowerSystem/65c49b233603bbc1f46ad1c2";  
-  file_name = "RailPowerSystem_1.0.5.zip"; 
-  sha1 = "240287ead18bb03c12f94c238311d19ed007a762"; 
-  version = "1.0.5"; 
+  url = "https://mods.factorio.com/download/RailPowerSystem/65c5e7b0f6e71824ef869d74";  
+  file_name = "RailPowerSystem_1.0.6.zip"; 
+  sha1 = "ec5ff5706a46fee510f39352b54010f91377bebc"; 
+  version = "1.0.6"; 
   deps = filterMissing self [ "Hermios_Framework" ];
   optionalDeps = [ "FARL" ];
  }; 
@@ -29035,10 +29045,10 @@
 
 "RefinedNetworkStorage" = factorioMod {
   pname = "RefinedNetworkStorage"; 
-  url = "https://mods.factorio.com/download/RefinedNetworkStorage/65b77f0a004b9dda30829f0c";  
-  file_name = "RefinedNetworkStorage_1.0.2.zip"; 
-  sha1 = "dfef4569830eba326fb487e3eb2615a85243b14e"; 
-  version = "1.0.2"; 
+  url = "https://mods.factorio.com/download/RefinedNetworkStorage/65c6155db7b8b53316f33643";  
+  file_name = "RefinedNetworkStorage_1.0.4.zip"; 
+  sha1 = "df75fd08d13e5ac983c470e0956ee6eec707c0d8"; 
+  version = "1.0.4"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -32165,11 +32175,11 @@
 
 "Seaworld" = factorioMod {
   pname = "Seaworld"; 
-  url = "https://mods.factorio.com/download/Seaworld/65c23864c602cc13c3533ec6";  
-  file_name = "Seaworld_0.1.5.zip"; 
-  sha1 = "45588352e4c6bf158bc7c7c856b6f41b4fc26f36"; 
-  version = "0.1.5"; 
-  deps = filterMissing self [ "boblibrary" "FilterInsertersBegone" "AquafarmExtended" "Flow Control" "islands_world" "bzchlorine" "BurnerOffshorePump" "Krastorio2" ];
+  url = "https://mods.factorio.com/download/Seaworld/65c5045fa6e2433925f193a3";  
+  file_name = "Seaworld_0.1.6.zip"; 
+  sha1 = "0bc322c33461b52590777fdee9c0c5b8dd5f68f1"; 
+  version = "0.1.6"; 
+  deps = filterMissing self [ "boblibrary" "FilterInsertersBegone" "AquafarmExtended" "Flow Control" "islands_world" "bzchlorine" "Krastorio2" ];
   optionalDeps = [  ];
  }; 
 
@@ -36145,10 +36155,10 @@
 
 "TierOnePrimitiveTech" = factorioMod {
   pname = "TierOnePrimitiveTech"; 
-  url = "https://mods.factorio.com/download/TierOnePrimitiveTech/644230d98333503cfaa49df0";  
-  file_name = "TierOnePrimitiveTech_0.0.7.zip"; 
-  sha1 = "51ac72ff053d3cc3efeb1bc7d39b2c2c442314e6"; 
-  version = "0.0.7"; 
+  url = "https://mods.factorio.com/download/TierOnePrimitiveTech/65c5d0aa5dd2a69ec6d992a5";  
+  file_name = "TierOnePrimitiveTech_0.0.8.zip"; 
+  sha1 = "3b9063b80f024877116c7417338cee0bb2c9142b"; 
+  version = "0.0.8"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -41175,10 +41185,10 @@
 
 "alentuon-cheat-plugin" = factorioMod {
   pname = "alentuon-cheat-plugin"; 
-  url = "https://mods.factorio.com/download/alentuon-cheat-plugin/6561d66b9ae1e7565268a318";  
-  file_name = "alentuon-cheat-plugin_0.0.6.zip"; 
-  sha1 = "25385a048784a37b82fd897ea4d2d822a0e287fb"; 
-  version = "0.0.6"; 
+  url = "https://mods.factorio.com/download/alentuon-cheat-plugin/65c4f0b73603bbc1f46ad1c3";  
+  file_name = "alentuon-cheat-plugin_0.0.7.zip"; 
+  sha1 = "fc1d1e2a7aef5214495d891793085be8bfe1d32d"; 
+  version = "0.0.7"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -41445,10 +41455,10 @@
 
 "alr-ac" = factorioMod {
   pname = "alr-ac"; 
-  url = "https://mods.factorio.com/download/alr-ac/65c32ffea0e866883ee492b4";  
-  file_name = "alr-ac_1.0.21.zip"; 
-  sha1 = "5aaf6fff508611b7655fcce2b1e3ff009197b1c1"; 
-  version = "1.0.21"; 
+  url = "https://mods.factorio.com/download/alr-ac/65c63cd351417ed1f76048dc";  
+  file_name = "alr-ac_1.0.23.zip"; 
+  sha1 = "5506c65a9ee009928f93ba3568e7976b5ac3b149"; 
+  version = "1.0.23"; 
   deps = filterMissing self [ "almf" ];
   optionalDeps = [  ];
  }; 
@@ -41525,10 +41535,10 @@
 
 "alternative-beacons" = factorioMod {
   pname = "alternative-beacons"; 
-  url = "https://mods.factorio.com/download/alternative-beacons/65c442f96d0ca32ced7e723a";  
-  file_name = "alternative-beacons_0.2.0.zip"; 
-  sha1 = "751b13a86742b364be9cedb2f66c3c431b37af62"; 
-  version = "0.2.0"; 
+  url = "https://mods.factorio.com/download/alternative-beacons/65c62b3151417ed1f76048d7";  
+  file_name = "alternative-beacons_0.2.1.zip"; 
+  sha1 = "9399d0c98b82dcd5d6bf4e5fae5b3b4d30faba87"; 
+  version = "0.2.1"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -44325,10 +44335,10 @@
 
 "better-fluid-throughput" = factorioMod {
   pname = "better-fluid-throughput"; 
-  url = "https://mods.factorio.com/download/better-fluid-throughput/659fcf363c39f7b748fa2ead";  
-  file_name = "better-fluid-throughput_0.1.3.zip"; 
-  sha1 = "39e012f3624ff0446f142801c914b07246baecd7"; 
-  version = "0.1.3"; 
+  url = "https://mods.factorio.com/download/better-fluid-throughput/65c5179cc51613f9f266e646";  
+  file_name = "better-fluid-throughput_0.1.4.zip"; 
+  sha1 = "03db14c3ea24abb10dd09854efde91aeb59401bc"; 
+  version = "0.1.4"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -47415,11 +47425,11 @@
 
 "cocoTweaks" = factorioMod {
   pname = "cocoTweaks"; 
-  url = "https://mods.factorio.com/download/cocoTweaks/65c4d63a6bfe6407bcd5f1bf";  
+  url = "https://mods.factorio.com/download/cocoTweaks/65c61526697ac6c225a6b857";  
   file_name = "cocoTweaks_69.69.79.zip"; 
-  sha1 = "68fa88741cf8bc2cb58725913fc0e62577ab6ee7"; 
+  sha1 = "d897cbf818eda472657a6371e93b09f18e595229"; 
   version = "69.69.79"; 
-  deps = filterMissing self [ "crash-survivor-starter-pack" "rp_steam_roboports" "ev-mining-drills" "ev-refining" ];
+  deps = filterMissing self [ "crash-survivor-starter-pack" "rp_steam_roboports" "ev-mining-drills" "AlertScanner" "jetpack" "handcrafted" "VanillaFocusedGreenhouse" "Wood_Gasification" "ev-refining" ];
   optionalDeps = [  ];
  }; 
 
@@ -64863,6 +64873,16 @@
   optionalDeps = [  ];
  }; 
 
+"oops-all-filters" = factorioMod {
+  pname = "oops-all-filters"; 
+  url = "https://mods.factorio.com/download/oops-all-filters/65c58b61bd534097649decf1";  
+  file_name = "oops-all-filters_0.0.1.zip"; 
+  sha1 = "4ca94966f3fc0f90d7d34aa9e16fd8327a9f2027"; 
+  version = "0.0.1"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
 "op-power-armor" = factorioMod {
   pname = "op-power-armor"; 
   url = "https://mods.factorio.com/download/op-power-armor/62f936e3ce8ae84ef31e121b";  
@@ -65295,10 +65315,10 @@
 
 "parameterized-blueprints" = factorioMod {
   pname = "parameterized-blueprints"; 
-  url = "https://mods.factorio.com/download/parameterized-blueprints/65c3d552a5a534129595aa7a";  
-  file_name = "parameterized-blueprints_1.0.3.zip"; 
-  sha1 = "d07d6aed3a088a358b0344859fe696bce00b429b"; 
-  version = "1.0.3"; 
+  url = "https://mods.factorio.com/download/parameterized-blueprints/65c53330ed1a83dc5ce59401";  
+  file_name = "parameterized-blueprints_1.0.4.zip"; 
+  sha1 = "88c02ac12ccfe66990ace61cf6892168d2c9b10f"; 
+  version = "1.0.4"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -72215,10 +72235,10 @@
 
 "self-propelled-artillery-23l" = factorioMod {
   pname = "self-propelled-artillery-23l"; 
-  url = "https://mods.factorio.com/download/self-propelled-artillery-23l/65c3409ede4d404529e0421c";  
-  file_name = "self-propelled-artillery-23l_1.0.28.zip"; 
-  sha1 = "d834d7c6f1f635714c56ab3dc49b7fd277cb7d26"; 
-  version = "1.0.28"; 
+  url = "https://mods.factorio.com/download/self-propelled-artillery-23l/65c5ad5f5dd2a69ec6d992a1";  
+  file_name = "self-propelled-artillery-23l_1.0.29.zip"; 
+  sha1 = "5f68984d82c1abad428f03a279807f54ab66d9aa"; 
+  version = "1.0.29"; 
   deps = filterMissing self [ "almf" ];
   optionalDeps = [  ];
  }; 
@@ -72675,10 +72695,10 @@
 
 "show-missing-bottles-for-current-research" = factorioMod {
   pname = "show-missing-bottles-for-current-research"; 
-  url = "https://mods.factorio.com/download/show-missing-bottles-for-current-research/658dbadff467c08330df3c29";  
-  file_name = "show-missing-bottles-for-current-research_1.0.2.zip"; 
-  sha1 = "553f22acdb31914dabe18fc111267112bc9694b4"; 
-  version = "1.0.2"; 
+  url = "https://mods.factorio.com/download/show-missing-bottles-for-current-research/65c5fb5e51417ed1f76048c9";  
+  file_name = "show-missing-bottles-for-current-research_1.0.3.zip"; 
+  sha1 = "e9aa8e23c419ee1a6da6ae634ef01e68dd31c6e7"; 
+  version = "1.0.3"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -73695,10 +73715,10 @@
 
 "solar-productivity" = factorioMod {
   pname = "solar-productivity"; 
-  url = "https://mods.factorio.com/download/solar-productivity/6564927512e2b350e37e6009";  
-  file_name = "solar-productivity_0.3.4.zip"; 
-  sha1 = "e53672d6b810b6a64ab1e04fc37d00c66534d6e0"; 
-  version = "0.3.4"; 
+  url = "https://mods.factorio.com/download/solar-productivity/65c515f1a6e2433925f193a4";  
+  file_name = "solar-productivity_0.3.5.zip"; 
+  sha1 = "528b8642d396ca4f1178d800956a1cfe9e09c1aa"; 
+  version = "0.3.5"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
