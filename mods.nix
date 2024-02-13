@@ -26365,10 +26365,10 @@
 
 "Placeables" = factorioMod {
   pname = "Placeables"; 
-  url = "https://mods.factorio.com/download/Placeables/6479c036f3a23e8ab81e5c44";  
-  file_name = "Placeables_1.3.0.zip"; 
-  sha1 = "f548503f1eba811b69d4268b4dc3a1b5a9545703"; 
-  version = "1.3.0"; 
+  url = "https://mods.factorio.com/download/Placeables/65cad8da358489e577b3c42b";  
+  file_name = "Placeables_1.4.0.zip"; 
+  sha1 = "286d3b716e9f87a442333fb4d5e087fe8f2f8fbd"; 
+  version = "1.4.0"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -46675,10 +46675,10 @@
 
 "ccr-mg" = factorioMod {
   pname = "ccr-mg"; 
-  url = "https://mods.factorio.com/download/ccr-mg/65c97edef5b66e2444a89fe0";  
-  file_name = "ccr-mg_1.4.1.zip"; 
-  sha1 = "97e5c96df4c63b82271178f22eeb1382595fb404"; 
-  version = "1.4.1"; 
+  url = "https://mods.factorio.com/download/ccr-mg/65cb554fb8a756f83ced6a05";  
+  file_name = "ccr-mg_1.4.2.zip"; 
+  sha1 = "827f144dc6a2007f20e1c5d44293a9b40d4e8bc9"; 
+  version = "1.4.2"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "fish-production-cycle" "aai-programmable-vehicles" ];
  }; 
