@@ -30445,10 +30445,10 @@
 
 "SE-5DimCompat" = factorioMod {
   pname = "SE-5DimCompat"; 
-  url = "https://mods.factorio.com/download/SE-5DimCompat/63e53afa8e6d8fd53a07a920";  
-  file_name = "SE-5DimCompat_1.0.0.zip"; 
-  sha1 = "faf31129e51af448400e19957a3e2670f0639fe4"; 
-  version = "1.0.0"; 
+  url = "https://mods.factorio.com/download/SE-5DimCompat/65cc50ac4ddceecf4c7060c7";  
+  file_name = "SE-5DimCompat_1.0.1.zip"; 
+  sha1 = "d804516421311b9252227c44b59d1f7c533afa65"; 
+  version = "1.0.1"; 
   deps = filterMissing self [ "5dim_core" ];
   optionalDeps = [ "Krastorio2" "space-exploration" "boblibrary" "omnilibrary" "aai-industry" "cargo-ships" "aai-industry" "LoaderRedux" "Warehousing" "deadlock-beltboxes-loaders" "Deadlock5Dims" "aai-containers" "deep-storage-unit" "fluid-memory-storage" "logistic-memory-units" "Transport_Drones" "Orbital Ion Cannon" "Bio_Industries" "modmash" ];
  }; 
@@ -32605,10 +32605,10 @@
 
 "SignalController" = factorioMod {
   pname = "SignalController"; 
-  url = "https://mods.factorio.com/download/SignalController/65cc065c24e229d7b8798acf";  
-  file_name = "SignalController_1.1.1.zip"; 
-  sha1 = "8609b2ea7cf43c80593a25cbc5a9ffc2070ba056"; 
-  version = "1.1.1"; 
+  url = "https://mods.factorio.com/download/SignalController/65cc5d625cba595a40e1483b";  
+  file_name = "SignalController_1.2.0.zip"; 
+  sha1 = "7cbb263f404f9e725818d54bc9a9ff2a9dfcee96"; 
+  version = "1.2.0"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -41585,10 +41585,10 @@
 
 "alternative-beacons" = factorioMod {
   pname = "alternative-beacons"; 
-  url = "https://mods.factorio.com/download/alternative-beacons/65c8c39aa182eb52d382d6c2";  
-  file_name = "alternative-beacons_0.3.0.zip"; 
-  sha1 = "db5788d23831ae52f2fa7e09a24b9f5102a81e60"; 
-  version = "0.3.0"; 
+  url = "https://mods.factorio.com/download/alternative-beacons/65ccc5eca7db0dae48f3006a";  
+  file_name = "alternative-beacons_0.4.0.zip"; 
+  sha1 = "9d2f3414af3d96e1802fb20651c95359bc39f26a"; 
+  version = "0.4.0"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -47345,10 +47345,10 @@
 
 "clean-start" = factorioMod {
   pname = "clean-start"; 
-  url = "https://mods.factorio.com/download/clean-start/64effddb51fd272f06f36f50";  
-  file_name = "clean-start_0.1.0.zip"; 
-  sha1 = "cda8122f4598a666879c9b45e93cacca6185acf5"; 
-  version = "0.1.0"; 
+  url = "https://mods.factorio.com/download/clean-start/65cc5b58f2f7640707036813";  
+  file_name = "clean-start_0.1.1.zip"; 
+  sha1 = "99e49463670943317add6a2b4f5dd73780ab941e"; 
+  version = "0.1.1"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -67665,10 +67665,10 @@
 
 "pycoalprocessing" = factorioMod {
   pname = "pycoalprocessing"; 
-  url = "https://mods.factorio.com/download/pycoalprocessing/65c44759c51613f9f266e63a";  
-  file_name = "pycoalprocessing_2.1.20.zip"; 
-  sha1 = "15dbf4721449f168324595c136dba11975eb68d6"; 
-  version = "2.1.20"; 
+  url = "https://mods.factorio.com/download/pycoalprocessing/65cc7721f30867e39073cf46";  
+  file_name = "pycoalprocessing_2.1.21.zip"; 
+  sha1 = "601691fc3d215a1d43501246d44a599929c51b7b"; 
+  version = "2.1.21"; 
   deps = filterMissing self [ "stdlib" "pycoalprocessinggraphics" "pypostprocessing" ];
   optionalDeps = [  ];
  }; 
@@ -71315,10 +71315,10 @@
 
 "scootys-armor-swap" = factorioMod {
   pname = "scootys-armor-swap"; 
-  url = "https://mods.factorio.com/download/scootys-armor-swap/63f15dafc1aa5a318df6c80a";  
-  file_name = "scootys-armor-swap_1.2.1.zip"; 
-  sha1 = "65a10c22390b74d2ea4747a0e9b82883ecb6d98f"; 
-  version = "1.2.1"; 
+  url = "https://mods.factorio.com/download/scootys-armor-swap/65cc3ce7a7db0dae48f30062";  
+  file_name = "scootys-armor-swap_1.3.0.zip"; 
+  sha1 = "fd941b6143bde36541177efa11c41ac326cffaa5"; 
+  version = "1.3.0"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
