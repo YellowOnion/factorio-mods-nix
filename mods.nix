@@ -40785,10 +40785,10 @@
 
 "acr-lzr" = factorioMod {
   pname = "acr-lzr"; 
-  url = "https://mods.factorio.com/download/acr-lzr/65cf2778372da65e017845ea";  
-  file_name = "acr-lzr_1.0.48.zip"; 
-  sha1 = "e56e0fb2a18a2b0557da55a458c42eeee0be002e"; 
-  version = "1.0.48"; 
+  url = "https://mods.factorio.com/download/acr-lzr/65d04e67937a1794da905226";  
+  file_name = "acr-lzr_1.0.49.zip"; 
+  sha1 = "6c6987a43c098499a27fbfd2831a2e4fdace30e1"; 
+  version = "1.0.49"; 
   deps = filterMissing self [ "lt-2k" ];
   optionalDeps = [ "aai-vehicles-laser-tank" "aai-programmable-vehicles" "equipment-gantry" ];
  }; 
@@ -46225,10 +46225,10 @@
 
 "bzaluminum" = factorioMod {
   pname = "bzaluminum"; 
-  url = "https://mods.factorio.com/download/bzaluminum/658a0e574c141ae56d9cbaea";  
-  file_name = "bzaluminum_0.4.26.zip"; 
-  sha1 = "67e9a5892c679a898631e6a46f35466c71f2cde5"; 
-  version = "0.4.26"; 
+  url = "https://mods.factorio.com/download/bzaluminum/65d0560b95208ed865923529";  
+  file_name = "bzaluminum_0.4.27.zip"; 
+  sha1 = "821fd527b163b402d65e7d917f2820abf96d498e"; 
+  version = "0.4.27"; 
   deps = filterMissing self [ "bzfoundry" "bz-dsr-bridge" ];
   optionalDeps = [ "bztitanium" "bzlead" "bzzirconium" "bztungsten" "bzcarbon" "space-exploration" "aai-industry" "Krastorio2" "sand-and-glass" "248k" "deadlock-beltboxes-loaders" "DeadlockCrating" ];
  }; 
@@ -46265,10 +46265,10 @@
 
 "bzcarbon" = factorioMod {
   pname = "bzcarbon"; 
-  url = "https://mods.factorio.com/download/bzcarbon/6587885677683ffe27a1222f";  
-  file_name = "bzcarbon_0.5.8.zip"; 
-  sha1 = "1da67ba1a0eb82891d3c6703e0f9e770650f9976"; 
-  version = "0.5.8"; 
+  url = "https://mods.factorio.com/download/bzcarbon/65d05d15194cfbb01e4754f9";  
+  file_name = "bzcarbon_0.5.9.zip"; 
+  sha1 = "6af7301e9cdef06ac8f9f9fe98248172b2aed515"; 
+  version = "0.5.9"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "bztitanium" "bzzirconium" "bzfoundry" "space-exploration" "aai-industry" "Krastorio2" "248k" "deadlock-beltboxes-loaders" "DeadlockCrating" ];
  }; 
@@ -60725,10 +60725,10 @@
 
 "lt-2k" = factorioMod {
   pname = "lt-2k"; 
-  url = "https://mods.factorio.com/download/lt-2k/65cf276c9cf013dfd75a446d";  
-  file_name = "lt-2k_1.0.37.zip"; 
-  sha1 = "c988f2abe04b94d50bb525d8052733ec340485bd"; 
-  version = "1.0.37"; 
+  url = "https://mods.factorio.com/download/lt-2k/65d04e5eae5d31a0bdf425fb";  
+  file_name = "lt-2k_1.0.38.zip"; 
+  sha1 = "33272b044a247a12a881a1e328ecbba434d46c71"; 
+  version = "1.0.38"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "aai-vehicles-laser-tank" ];
  }; 
@@ -67169,6 +67169,16 @@
   file_name = "protossbuildings_1.0.4.zip"; 
   sha1 = "17563f64f5686b859fa2849bdfacbc3c19c27697"; 
   version = "1.0.4"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
+"prototype-name-info" = factorioMod {
+  pname = "prototype-name-info"; 
+  url = "https://mods.factorio.com/download/prototype-name-info/65d08af541e166fbfe3599a0";  
+  file_name = "prototype-name-info_1.0.0.zip"; 
+  sha1 = "575f09e468b6aadad8ae3cc833f8d46b6eb70ace"; 
+  version = "1.0.0"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -80735,10 +80745,10 @@
 
 "xo-vehicle-equipment" = factorioMod {
   pname = "xo-vehicle-equipment"; 
-  url = "https://mods.factorio.com/download/xo-vehicle-equipment/65cf27411a94f5a1d2903db1";  
-  file_name = "xo-vehicle-equipment_1.1.0.zip"; 
-  sha1 = "00c149251ea458555ff6566213fc74d3d69dd084"; 
-  version = "1.1.0"; 
+  url = "https://mods.factorio.com/download/xo-vehicle-equipment/65d055d341e166fbfe35999e";  
+  file_name = "xo-vehicle-equipment_1.1.2.zip"; 
+  sha1 = "ac5cb782479d32bc4209337fa92ef96999795ea9"; 
+  version = "1.1.2"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "Krastorio2" "lat-3" "equipment-gantry" ];
  }; 
