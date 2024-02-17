@@ -39145,10 +39145,10 @@
 
 "WideChests" = factorioMod {
   pname = "WideChests"; 
-  url = "https://mods.factorio.com/download/WideChests/65bde2658e6303ba37ce3c2e";  
-  file_name = "WideChests_5.0.2.zip"; 
-  sha1 = "f1b1168e4109bbeb6725458afffa2cdc4955adf3"; 
-  version = "5.0.2"; 
+  url = "https://mods.factorio.com/download/WideChests/65d0b783194cfbb01e4754fa";  
+  file_name = "WideChests_5.0.3.zip"; 
+  sha1 = "938485feb6a6ab7d17e2dd74f63fffb7c118b430"; 
+  version = "5.0.3"; 
   deps = filterMissing self [ "flib" ];
   optionalDeps = [ "WideChestsAllTypes" "WideChestsUnlimited" ];
  }; 
@@ -39185,10 +39185,10 @@
 
 "WideChestsBobs" = factorioMod {
   pname = "WideChestsBobs"; 
-  url = "https://mods.factorio.com/download/WideChestsBobs/65a3923aed14434fde6c2ef8";  
-  file_name = "WideChestsBobs_1.0.0.zip"; 
-  sha1 = "9818c92a558c4b1a259665880da7716fc788d669"; 
-  version = "1.0.0"; 
+  url = "https://mods.factorio.com/download/WideChestsBobs/65d0b7b5c03907405ca23c9b";  
+  file_name = "WideChestsBobs_1.0.1.zip"; 
+  sha1 = "eb05abb5fbb4fcfd4e6ada3e3ee291be062867c6"; 
+  version = "1.0.1"; 
   deps = filterMissing self [ "WideChests" "boblogistics" "bobplates" ];
   optionalDeps = [ "WideChestsLogistic" ];
  }; 
@@ -39205,20 +39205,20 @@
 
 "WideChestsNullius" = factorioMod {
   pname = "WideChestsNullius"; 
-  url = "https://mods.factorio.com/download/WideChestsNullius/65a3923cc78dd085e1457f7a";  
-  file_name = "WideChestsNullius_1.0.0.zip"; 
-  sha1 = "774c6aa00274d13b61c54d4733d6098e627703eb"; 
-  version = "1.0.0"; 
+  url = "https://mods.factorio.com/download/WideChestsNullius/65d0b7b40dea296aa4e85687";  
+  file_name = "WideChestsNullius_1.0.1.zip"; 
+  sha1 = "4d88ce64e8b715637aee319366803099bf0d6e94"; 
+  version = "1.0.1"; 
   deps = filterMissing self [ "WideChests" "nullius" ];
   optionalDeps = [ "WideChestsLogistic" ];
  }; 
 
 "WideChestsPaperChest" = factorioMod {
   pname = "WideChestsPaperChest"; 
-  url = "https://mods.factorio.com/download/WideChestsPaperChest/65a3923fe283339a647d5323";  
-  file_name = "WideChestsPaperChest_1.0.0.zip"; 
-  sha1 = "2fa8eb93465c508662b14bf6f8661186fcd3631d"; 
-  version = "1.0.0"; 
+  url = "https://mods.factorio.com/download/WideChestsPaperChest/65d0b7b3bcc40cbdd6620106";  
+  file_name = "WideChestsPaperChest_1.0.1.zip"; 
+  sha1 = "535314904ed31f4151107703d149280c1cf0c3e8"; 
+  version = "1.0.1"; 
   deps = filterMissing self [ "WideChests" "paperchest" "angelsbioprocessing" ];
   optionalDeps = [  ];
  }; 
@@ -61255,10 +61255,10 @@
 
 "mapshot" = factorioMod {
   pname = "mapshot"; 
-  url = "https://mods.factorio.com/download/mapshot/65a306d17ee7e8e0604fde69";  
-  file_name = "mapshot_0.0.20.zip"; 
-  sha1 = "d8a8c22628bcde5bef0759b3a26b4c7414c70db6"; 
-  version = "0.0.20"; 
+  url = "https://mods.factorio.com/download/mapshot/65d0b32795208ed865923533";  
+  file_name = "mapshot_0.0.21.zip"; 
+  sha1 = "923ce1fdb30de086d1da9c351e71acdf2d53ae13"; 
+  version = "0.0.21"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -71961,6 +71961,16 @@
   version = "0.1.3"; 
   deps = filterMissing self [ "space-exploration-postprocess" "space-exploration" "stargate" ];
   optionalDeps = [ "Krastorio2" ];
+ }; 
+
+"se-recipe-adjustment" = factorioMod {
+  pname = "se-recipe-adjustment"; 
+  url = "https://mods.factorio.com/download/se-recipe-adjustment/65d0c2edc03907405ca23c9c";  
+  file_name = "se-recipe-adjustment_0.1.0.zip"; 
+  sha1 = "8dd55f1b9067eed64cc557dfed07a7ce3bf0e81f"; 
+  version = "0.1.0"; 
+  deps = filterMissing self [ "space-exploration" "space-exploration-postprocess" ];
+  optionalDeps = [  ];
  }; 
 
 "se-recycling-extras" = factorioMod {
