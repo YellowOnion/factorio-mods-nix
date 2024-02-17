@@ -15045,11 +15045,11 @@
 
 "H-QoL-FF" = factorioMod {
   pname = "H-QoL-FF"; 
-  url = "https://mods.factorio.com/download/H-QoL-FF/65cfd1ca9cf013dfd75a4480";  
-  file_name = "H-QoL-FF_1.0.2.zip"; 
-  sha1 = "32be32cf710f057e4c4c1c78916707b882ca680c"; 
-  version = "1.0.2"; 
-  deps = filterMissing self [ "aai-vehicles-ironclad" "aai-loaders" "alien-biomes" "AbandonedRuins" "AutoDeconstruct" "Automatic_Train_Painter" "automatic-station-painter" "automatic-underground-pipe-connectors" "assemblyanalyst" "BetterAlertArrows" "belt-visualizer" "better-victory-screen" "big-mining-drill" "BottleneckLite" "Construction_Droneslk" "CursorEnhancements" "DiscoScience" "even-distribution" "extended-descriptions" "factoryplanner" "FactorySearch" "Fill4Me-fixed" "fireproof-bots" "flib" "FreightForwarding" "GUI_Unifyer" "GhostWarnings" "inbuilt_lighting" "InfiniteTech" "lightorio" "Long_Range_Delivery_Drones" "Milestones" "ModuleInserterSimplified" "manual-trains-at-temp-stops" "more-minimap-autohide-017" "OutpostPlanner1-1" "PipeVisualizer" "PlannerCore1-1" "PlutoniumEnergy" "power-armor-mk3" "power-grid-comb" "qsMenuRevived" "queue-to-front-button" "QuickItemSearch" "RemoteConfiguration" "redo" "show-max-underground-distance" "simhelper" "simple_landfill_mining" "SpidertronEnhancements" "Squeak Through" "StatsGui" "Todo-List" "Train_Control_Signals" "TrainGroups" "UltimateResearchQueue" "VehicleSnap" "wret-beacon-rebalance-mod" "WireShortcutX" ];
+  url = "https://mods.factorio.com/download/H-QoL-FF/65d0111dbcc40cbdd66200f3";  
+  file_name = "H-QoL-FF_1.0.10.zip"; 
+  sha1 = "d4df22dceb80c5f790e3bca8887f15d26a6c9c4e"; 
+  version = "1.0.10"; 
+  deps = filterMissing self [ "aai-vehicles-ironclad" "aai-loaders" "alien-biomes" "AbandonedRuins" "AutoDeconstruct" "Automatic_Train_Painter" "automatic-station-painter" "automatic-underground-pipe-connectors" "assemblyanalyst" "BetterAlertArrows" "belt-visualizer" "better-victory-screen" "big-mining-drill" "BottleneckLite" "Construction_Droneslk" "CursorEnhancements" "Dirt_Path" "DiscoScience" "even-distribution" "extended-descriptions" "factoryplanner" "FactorySearch" "Fill4Me-fixed" "fireproof-bots" "flib" "FluidWagonColorMask" "FreightForwarding" "GUI_Unifyer" "GhostWarnings" "inbuilt_lighting" "InfiniteTech" "lightorio" "Long_Range_Delivery_Drones" "Milestones" "ModuleInserterSimplified" "manual-trains-at-temp-stops" "more-minimap-autohide-017" "Oil_Based_Paint" "OutpostPlanner1-1" "PipeVisualizer" "PlannerCore1-1" "PlutoniumEnergy" "power-armor-mk3" "power-grid-comb" "qsMenuRevived" "queue-to-front-button" "QuickItemSearch" "RemoteConfiguration" "redo" "show-max-underground-distance" "simhelper" "simple_landfill_mining" "SpidertronEnhancements" "Squeak Through" "StatsGui" "Todo-List" "Train_Control_Signals" "TrainGroups" "UltimateResearchQueue" "VehicleSnap" "wret-beacon-rebalance-mod" "WireShortcutX" ];
   optionalDeps = [  ];
  }; 
 
@@ -59385,12 +59385,12 @@
 
 "kry-vehicle-grids" = factorioMod {
   pname = "kry-vehicle-grids"; 
-  url = "https://mods.factorio.com/download/kry-vehicle-grids/65ceed5c155dd405c4c651bc";  
-  file_name = "kry-vehicle-grids_1.0.6.zip"; 
-  sha1 = "9587049a97c0815e3948f9f01ac3cf70617eec2f"; 
-  version = "1.0.6"; 
+  url = "https://mods.factorio.com/download/kry-vehicle-grids/65d01fb641e166fbfe359999";  
+  file_name = "kry-vehicle-grids_1.0.7.zip"; 
+  sha1 = "90dfc550ffe65bfdc3188ddb759ad9aae7a73e01"; 
+  version = "1.0.7"; 
   deps = filterMissing self [ "stdlib" ];
-  optionalDeps = [ "Mini_Trains" "Nuclear Locomotives" "better-train-system" "Aircraft" "Hovercrafts" "construction-train" "HelicopterRevival" "Raven" "TeslaTank" "aai-vehicles-flame-tank" "aai-vehicles-laser-tank" "aai-vehicles-ironclad" "ironclad-gunboat-and-mortar-turret" ];
+  optionalDeps = [ "Mini_Trains" "Nuclear Locomotives" "better-train-system" "Aircraft" "Hovercrafts" "construction-train" "HelicopterRevival" "Raven" "TeslaTank" "aai-vehicles-flame-tank" "aai-vehicles-laser-tank" "aai-vehicles-ironclad" "ironclad-gunboat-and-mortar-turret" "Krastorio2" ];
  }; 
 
 "ksptooi-server-commons-lang" = factorioMod {
@@ -65065,10 +65065,10 @@
 
 "oops-all-filters" = factorioMod {
   pname = "oops-all-filters"; 
-  url = "https://mods.factorio.com/download/oops-all-filters/65d0071395208ed865923525";  
-  file_name = "oops-all-filters_0.0.7.zip"; 
-  sha1 = "76954ac46805ba9f284a6a8918a618d1f7ba4636"; 
-  version = "0.0.7"; 
+  url = "https://mods.factorio.com/download/oops-all-filters/65d00a7141e166fbfe359998";  
+  file_name = "oops-all-filters_0.0.8.zip"; 
+  sha1 = "23a030422a51e07be07d9fdb3e4204dd2681cfae"; 
+  version = "0.0.8"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -71395,10 +71395,10 @@
 
 "scootys-armor-swap" = factorioMod {
   pname = "scootys-armor-swap"; 
-  url = "https://mods.factorio.com/download/scootys-armor-swap/65cec48563119cf6ad5c34c7";  
-  file_name = "scootys-armor-swap_1.4.0.zip"; 
-  sha1 = "5b5024fb5febb54c0d4dd35f87eb4f7d577f5137"; 
-  version = "1.4.0"; 
+  url = "https://mods.factorio.com/download/scootys-armor-swap/65d01561bcc40cbdd66200f4";  
+  file_name = "scootys-armor-swap_1.4.1.zip"; 
+  sha1 = "d584becb7d01ae2e657e3e36c2079e87a0593bdf"; 
+  version = "1.4.1"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
