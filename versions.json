@@ -2,12 +2,12 @@
   "x86_64-linux": {
     "alpha": {
       "experimental": {
-        "name": "factorio_alpha_x64-1.1.105.tar.xz",
+        "name": "factorio_alpha_x64-1.1.106.tar.xz",
         "needsAuth": true,
-        "sha256": "1zv3wk4yn3hzdg4l0hirh1ay2nyvh8mr6krk0mywl6a0yp899b53",
+        "sha256": "041vfj30bk4ciyv0v7pnbmi9hdi0a4xp2nnlp1yxah8frjb0vp9y",
         "tarDirectory": "x64",
-        "url": "https://factorio.com/get-download/1.1.105/alpha/linux64",
-        "version": "1.1.105"
+        "url": "https://factorio.com/get-download/1.1.106/alpha/linux64",
+        "version": "1.1.106"
       },
       "stable": {
         "name": "factorio_alpha_x64-1.1.104.tar.xz",
@@ -20,12 +20,12 @@
     },
     "demo": {
       "experimental": {
-        "name": "factorio_demo_x64-1.1.104.tar.xz",
+        "name": "factorio_demo_x64-1.1.106.tar.xz",
         "needsAuth": false,
-        "sha256": "0x08dy6pagfpqc9c2cl239b1f7pf0p4cghzp7avxmbkmbl1fan2l",
+        "sha256": "0nd525g4z6pay0wlhmxny8yvf1x8pw4yxjllig6l29g9jqwxnlj9",
         "tarDirectory": "x64",
-        "url": "https://factorio.com/get-download/1.1.104/demo/linux64",
-        "version": "1.1.104"
+        "url": "https://factorio.com/get-download/1.1.106/demo/linux64",
+        "version": "1.1.106"
       },
       "stable": {
         "name": "factorio_demo_x64-1.1.104.tar.xz",
@@ -38,12 +38,12 @@
     },
     "headless": {
       "experimental": {
-        "name": "factorio_headless_x64-1.1.105.tar.xz",
+        "name": "factorio_headless_x64-1.1.106.tar.xz",
         "needsAuth": false,
-        "sha256": "17p3amvb03gj855823mghkslv09q260ix9knhfijs197f2gdcwnw",
+        "sha256": "015vzdc0aqdxjf6f57yqy2b5sg9yvskcvviqfsdszsnicm4kk1v7",
         "tarDirectory": "x64",
-        "url": "https://factorio.com/get-download/1.1.105/headless/linux64",
-        "version": "1.1.105"
+        "url": "https://factorio.com/get-download/1.1.106/headless/linux64",
+        "version": "1.1.106"
       },
       "stable": {
         "name": "factorio_headless_x64-1.1.104.tar.xz",
