@@ -4205,10 +4205,10 @@
 
 "Better-Power-Armor-Grid" = factorioMod {
   pname = "Better-Power-Armor-Grid"; 
-  url = "https://mods.factorio.com/download/Better-Power-Armor-Grid/66111d6ca765b2fafb3a651c";  
-  file_name = "Better-Power-Armor-Grid_6.0.1.zip"; 
-  sha1 = "31885408cdd39887f00cd0a61e4f1ec6e741211d"; 
-  version = "6.0.1"; 
+  url = "https://mods.factorio.com/download/Better-Power-Armor-Grid/66126d6c4f227564752e9ebc";  
+  file_name = "Better-Power-Armor-Grid_6.0.2.zip"; 
+  sha1 = "41b4156fcaa47ba75da9722447eda38e1d4b8ac8"; 
+  version = "6.0.2"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "ev-refining" "Krastorio2" "Krastorio2Assets" "jetpack" ];
  }; 
@@ -12713,6 +12713,16 @@
   optionalDeps = [  ];
  }; 
 
+"FactorioAccessBeta" = factorioMod {
+  pname = "FactorioAccessBeta"; 
+  url = "https://mods.factorio.com/download/FactorioAccessBeta/661175514f227564752e9ea2";  
+  file_name = "FactorioAccessBeta_0.10.0.zip"; 
+  sha1 = "f86b6609e603d25c054558e8de4f04f999f6dcce"; 
+  version = "0.10.0"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
 "FactorioChatBot-companion" = factorioMod {
   pname = "FactorioChatBot-companion"; 
   url = "https://mods.factorio.com/download/FactorioChatBot-companion/61f434b168eb5bf33dbcde42";  
@@ -18111,6 +18121,16 @@
   version = "0.1.2"; 
   deps = filterMissing self [ "Krastorio2" "space-exploration-postprocess" ];
   optionalDeps = [  ];
+ }; 
+
+"K2SE-Sophia-Modpacks" = factorioMod {
+  pname = "K2SE-Sophia-Modpacks"; 
+  url = "https://mods.factorio.com/download/K2SE-Sophia-Modpacks/6612beb74c9254b9a9df327e";  
+  file_name = "K2SE-Sophia-Modpacks_1.1.5.zip"; 
+  sha1 = "514bef68e1fb52900405717fbac7c6c6f7cacceb"; 
+  version = "1.1.5"; 
+  deps = filterMissing self [ "Krastorio2" "space-exploration" ];
+  optionalDeps = [ "bobinserters" ];
  }; 
 
 "K2SE-fusion-rebalance" = factorioMod {
@@ -26365,10 +26385,10 @@
 
 "Pacifist" = factorioMod {
   pname = "Pacifist"; 
-  url = "https://mods.factorio.com/download/Pacifist/660ad16647298f285b9c8ccb";  
-  file_name = "Pacifist_0.4.6.zip"; 
-  sha1 = "23847711846df3d00235f339e70e428642a36239"; 
-  version = "0.4.6"; 
+  url = "https://mods.factorio.com/download/Pacifist/6612c30c155f5138f711172b";  
+  file_name = "Pacifist_0.4.8.zip"; 
+  sha1 = "53104a8ae33ec542d324c49c5231314960bb208c"; 
+  version = "0.4.8"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "invulnerable" "Explosive Termites" "exotic-industries" "Krastorio2" ];
  }; 
@@ -26465,10 +26485,10 @@
 
 "PatchFR" = factorioMod {
   pname = "PatchFR"; 
-  url = "https://mods.factorio.com/download/PatchFR/65ec94aca0152fa05846b220";  
-  file_name = "PatchFR_1.2.2.zip"; 
-  sha1 = "2b8297dc000ae82638a0a53ea41a8bd61ebc4d1d"; 
-  version = "1.2.2"; 
+  url = "https://mods.factorio.com/download/PatchFR/6611cd9b4f227564752e9eaa";  
+  file_name = "PatchFR_1.2.3.zip"; 
+  sha1 = "8bbc3785954c4003ec65f860ca755b337c8f8a7d"; 
+  version = "1.2.3"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -28733,6 +28753,16 @@
   optionalDeps = [  ];
  }; 
 
+"RST2_BigTruck_tweak" = factorioMod {
+  pname = "RST2_BigTruck_tweak"; 
+  url = "https://mods.factorio.com/download/RST2_BigTruck_tweak/6612bd534c9254b9a9df327b";  
+  file_name = "RST2_BigTruck_tweak_1.0.0.zip"; 
+  sha1 = "5988c6d781afa29f8489f57f84f508c8bb094012"; 
+  version = "1.0.0"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
 "RTG" = factorioMod {
   pname = "RTG"; 
   url = "https://mods.factorio.com/download/RTG/5fcf6278b94145fd047fd35a";  
@@ -28870,6 +28900,26 @@
   sha1 = "ea0b6ec1320541efb102d416c9507b784fdd4a1f"; 
   version = "0.0.1"; 
   deps = filterMissing self [ "flib" ];
+  optionalDeps = [  ];
+ }; 
+
+"RailBlockHubRateCalcRecipes" = factorioMod {
+  pname = "RailBlockHubRateCalcRecipes"; 
+  url = "https://mods.factorio.com/download/RailBlockHubRateCalcRecipes/66128b1d14601b1aa15b6290";  
+  file_name = "RailBlockHubRateCalcRecipes_0.1.0.zip"; 
+  sha1 = "0477f1a9ed930ca0232c084e09ad8a80321cb921"; 
+  version = "0.1.0"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
+"RailBlockHubRateRecipes" = factorioMod {
+  pname = "RailBlockHubRateRecipes"; 
+  url = "https://mods.factorio.com/download/RailBlockHubRateRecipes/6612881276432df56bed30af";  
+  file_name = "RailBlockHubRateRecipes_0.1.0.zip"; 
+  sha1 = "a89b8b06808aa5687d85559d26a819094d6c72ed"; 
+  version = "0.1.0"; 
+  deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
 
@@ -31325,10 +31375,10 @@
 
 "SE-fix-by-__Chelovek__" = factorioMod {
   pname = "SE-fix-by-__Chelovek__"; 
-  url = "https://mods.factorio.com/download/SE-fix-by-__Chelovek__/660fe5b6e92245088f3187e8";  
-  file_name = "SE-fix-by-__Chelovek___1.0.5.zip"; 
-  sha1 = "b3bfbf6c692638d75b669286a64fc78e2f9a9854"; 
-  version = "1.0.5"; 
+  url = "https://mods.factorio.com/download/SE-fix-by-__Chelovek__/6612865576432df56bed30ae";  
+  file_name = "SE-fix-by-__Chelovek___1.0.6.zip"; 
+  sha1 = "81fd3080d9b9fad6f71c1d07197baab15976ccf9"; 
+  version = "1.0.6"; 
   deps = filterMissing self [ "space-exploration" "Krastorio2" ];
   optionalDeps = [  ];
  }; 
@@ -48915,10 +48965,10 @@
 
 "combifactories" = factorioMod {
   pname = "combifactories"; 
-  url = "https://mods.factorio.com/download/combifactories/6611447014a479b3de40a76f";  
-  file_name = "combifactories_0.0.1.zip"; 
-  sha1 = "a4ed32e9034389eb117136628158f9a149586db4"; 
-  version = "0.0.1"; 
+  url = "https://mods.factorio.com/download/combifactories/6612c09f7dfe20be968ef76b";  
+  file_name = "combifactories_0.1.0.zip"; 
+  sha1 = "7836cb97ef9278c11938eb560471de442739f457"; 
+  version = "0.1.0"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -49215,10 +49265,10 @@
 
 "concreep-redux" = factorioMod {
   pname = "concreep-redux"; 
-  url = "https://mods.factorio.com/download/concreep-redux/6608578295ac301ca67de14c";  
-  file_name = "concreep-redux_2.2.5.zip"; 
-  sha1 = "64636df1af643d5cc858fc04ff196d8ca4c9c0d1"; 
-  version = "2.2.5"; 
+  url = "https://mods.factorio.com/download/concreep-redux/6612bcceddae87534967bd7c";  
+  file_name = "concreep-redux_2.3.1.zip"; 
+  sha1 = "4dc099258efefa38dada207a939df73cd7ad1912"; 
+  version = "2.3.1"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "space-exploration" ];
  }; 
@@ -54675,10 +54725,10 @@
 
 "fishmode" = factorioMod {
   pname = "fishmode"; 
-  url = "https://mods.factorio.com/download/fishmode/660ff933a765b2fafb3a64f5";  
-  file_name = "fishmode_1.3.1.zip"; 
-  sha1 = "41c5a3df64a0348fbc025c3f84b14de5d1fa96d1"; 
-  version = "1.3.1"; 
+  url = "https://mods.factorio.com/download/fishmode/6612982a9eaeb6fb42b23335";  
+  file_name = "fishmode_1.3.2.zip"; 
+  sha1 = "7e8299d29b2395ee8439cdc31cdf6916321da657"; 
+  version = "1.3.2"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -54885,10 +54935,10 @@
 
 "fkplus" = factorioMod {
   pname = "fkplus"; 
-  url = "https://mods.factorio.com/download/fkplus/65ea898164e56429058609cf";  
-  file_name = "fkplus_2.4.2.zip"; 
-  sha1 = "86f8495e1b1afaef4cef5891c42ed9e04cc7e6ad"; 
-  version = "2.4.2"; 
+  url = "https://mods.factorio.com/download/fkplus/6612b2e0ddae87534967bd78";  
+  file_name = "fkplus_2.5.1.zip"; 
+  sha1 = "142891f9d773626070f8caee19c0e8ea9856f8ff"; 
+  version = "2.5.1"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -55815,10 +55865,10 @@
 
 "galdocs-manufacturing" = factorioMod {
   pname = "galdocs-manufacturing"; 
-  url = "https://mods.factorio.com/download/galdocs-manufacturing/660ae72aae13b50ff609b41b";  
-  file_name = "galdocs-manufacturing_0.2.02.zip"; 
-  sha1 = "d72bac74882d0b90a5ad9edfcb91f15c8f4790ec"; 
-  version = "0.2.02"; 
+  url = "https://mods.factorio.com/download/galdocs-manufacturing/6611a579ec2e43511ef393bb";  
+  file_name = "galdocs-manufacturing_0.2.03.zip"; 
+  sha1 = "adff8977cefbc0f507334870a47d094b42bda55f"; 
+  version = "0.2.03"; 
   deps = filterMissing self [ "icon-badges" ];
   optionalDeps = [ "Krastorio2" ];
  }; 
@@ -80595,12 +80645,12 @@
 
 "umrFixed" = factorioMod {
   pname = "umrFixed"; 
-  url = "https://mods.factorio.com/download/umrFixed/660dd0abe52c1ba9953adcd0";  
-  file_name = "umrFixed_1.0.7.zip"; 
-  sha1 = "c9fe421fc307aa690b6d9a598992867972c257ba"; 
-  version = "1.0.7"; 
+  url = "https://mods.factorio.com/download/umrFixed/6611e14f9eaeb6fb42b2332e";  
+  file_name = "umrFixed_1.0.8.zip"; 
+  sha1 = "ac9fa845b561d6f97970ef1a013fef57355e82df"; 
+  version = "1.0.8"; 
   deps = filterMissing self [ "turbinesplusplusfixed" "Squeak Through" ];
-  optionalDeps = [ "Booktorio" "RealisticFusionPower" "Krastorio2" "angelsindustries" "Yuoki" "space-exploration" ];
+  optionalDeps = [ "RealisticFusionPower" "Krastorio2" "angelsindustries" "Yuoki" "space-exploration" ];
  }; 
 
 "un-bio-chemistry" = factorioMod {
