@@ -753,6 +753,16 @@
   optionalDeps = [ "bobores" "bobwarfare" "bobmodules" "omnimatter_marathon" "angelssmelting" ];
  }; 
 
+"666Start" = factorioMod {
+  pname = "666Start"; 
+  url = "https://mods.factorio.com/download/666Start/6612c37933dd8ef691ca2c2e";  
+  file_name = "666Start_0.0.1.zip"; 
+  sha1 = "0f3c4d05b4a155e7838988b0f19b4b4f3b3d3463"; 
+  version = "0.0.1"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
 "7ACEF58D-B171-42C7-9D46-70C05C8410F6" = factorioMod {
   pname = "7ACEF58D-B171-42C7-9D46-70C05C8410F6"; 
   url = "https://mods.factorio.com/download/7ACEF58D-B171-42C7-9D46-70C05C8410F6/65294bf4da07745130e5faa3";  
@@ -3215,10 +3225,10 @@
 
 "Atomic_Overhaul" = factorioMod {
   pname = "Atomic_Overhaul"; 
-  url = "https://mods.factorio.com/download/Atomic_Overhaul/6600287b73d6109c052ea42e";  
-  file_name = "Atomic_Overhaul_1.3.24.zip"; 
-  sha1 = "62cdc67fd4b32638cb7697ed7f63b235c790e608"; 
-  version = "1.3.24"; 
+  url = "https://mods.factorio.com/download/Atomic_Overhaul/6613f3cf6713df434cbfb6b2";  
+  file_name = "Atomic_Overhaul_1.3.25.zip"; 
+  sha1 = "9b8a9f50837ac246ea29e5aeff5a9b6cae76cef1"; 
+  version = "1.3.25"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "RealisticReactors" ];
  }; 
@@ -18123,14 +18133,24 @@
   optionalDeps = [  ];
  }; 
 
+"K2SE-Sophia-Modpack" = factorioMod {
+  pname = "K2SE-Sophia-Modpack"; 
+  url = "https://mods.factorio.com/download/K2SE-Sophia-Modpack/6612d9fc4c9254b9a9df328f";  
+  file_name = "K2SE-Sophia-Modpack_1.1.1.zip"; 
+  sha1 = "c3a5f138cb2d38adeb3393fe1eb67a9e99aa03ed"; 
+  version = "1.1.1"; 
+  deps = filterMissing self [ "Krastorio2" "space-exploration" ];
+  optionalDeps = [  ];
+ }; 
+
 "K2SE-Sophia-Modpacks" = factorioMod {
   pname = "K2SE-Sophia-Modpacks"; 
-  url = "https://mods.factorio.com/download/K2SE-Sophia-Modpacks/6612beb74c9254b9a9df327e";  
-  file_name = "K2SE-Sophia-Modpacks_1.1.5.zip"; 
-  sha1 = "514bef68e1fb52900405717fbac7c6c6f7cacceb"; 
-  version = "1.1.5"; 
-  deps = filterMissing self [ "Krastorio2" "space-exploration" ];
-  optionalDeps = [ "bobinserters" ];
+  url = "https://mods.factorio.com/download/K2SE-Sophia-Modpacks/6612b5b74c9254b9a9df327a";  
+  file_name = "K2SE-Sophia-Modpacks_1.1.2.zip"; 
+  sha1 = "9b69c009bae0937f57b60fea46a74535432325cf"; 
+  version = "1.1.2"; 
+  deps = filterMissing self [ "Krastorio2" "space-exploration" "Bob's Adjustable Inserters" ];
+  optionalDeps = [  ];
  }; 
 
 "K2SE-fusion-rebalance" = factorioMod {
@@ -21485,10 +21505,10 @@
 
 "Magic" = factorioMod {
   pname = "Magic"; 
-  url = "https://mods.factorio.com/download/Magic/660ed21d5e7503beed35eed5";  
-  file_name = "Magic_0.1.52.zip"; 
-  sha1 = "1afeb5c5bd9168782f6b69a7cd4099c36c80aae0"; 
-  version = "0.1.52"; 
+  url = "https://mods.factorio.com/download/Magic/6613d591155f5138f711173f";  
+  file_name = "Magic_0.1.53.zip"; 
+  sha1 = "cd02670069d66ae97752ddaa4291b0d07d0785f4"; 
+  version = "0.1.53"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -24215,10 +24235,10 @@
 
 "New_Plastic" = factorioMod {
   pname = "New_Plastic"; 
-  url = "https://mods.factorio.com/download/New_Plastic/6320a615c57bcd1050bb979a";  
-  file_name = "New_Plastic_0.0.1.zip"; 
-  sha1 = "d9461365f413d09486da525ce239b85e3b893039"; 
-  version = "0.0.1"; 
+  url = "https://mods.factorio.com/download/New_Plastic/6613038b4c9254b9a9df3292";  
+  file_name = "New_Plastic_0.0.2.zip"; 
+  sha1 = "a347c783fa7eaea0df70ab6cd30db851642aa8e2"; 
+  version = "0.0.2"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -29805,10 +29825,10 @@
 
 "RefinedNetworkStorage" = factorioMod {
   pname = "RefinedNetworkStorage"; 
-  url = "https://mods.factorio.com/download/RefinedNetworkStorage/661126371d25d1debcf6de2e";  
-  file_name = "RefinedNetworkStorage_1.0.30.zip"; 
-  sha1 = "1af270cdc700af036e41567902703fc92be5825d"; 
-  version = "1.0.30"; 
+  url = "https://mods.factorio.com/download/RefinedNetworkStorage/6613bc77ddae87534967bd8c";  
+  file_name = "RefinedNetworkStorage_1.0.31.zip"; 
+  sha1 = "0ed83e62a099ea68ca19f20fad336b0edf954364"; 
+  version = "1.0.31"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "space-exploration" ];
  }; 
@@ -29895,10 +29915,10 @@
 
 "RemoteConfiguration" = factorioMod {
   pname = "RemoteConfiguration"; 
-  url = "https://mods.factorio.com/download/RemoteConfiguration/659ed916e69049ebfb6dc7c6";  
-  file_name = "RemoteConfiguration_1.2.5.zip"; 
-  sha1 = "9407c2fa738d41830c40d2a1181521c5551a9351"; 
-  version = "1.2.5"; 
+  url = "https://mods.factorio.com/download/RemoteConfiguration/6612d42f8a34077d3d45515a";  
+  file_name = "RemoteConfiguration_1.2.6.zip"; 
+  sha1 = "e5a755bfeb7b1d0d02c4e6e78975584bd3ecff76"; 
+  version = "1.2.6"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "WireShortcutX" ];
  }; 
@@ -37285,10 +37305,10 @@
 
 "TnoResearchTime" = factorioMod {
   pname = "TnoResearchTime"; 
-  url = "https://mods.factorio.com/download/TnoResearchTime/64676f3317dba01d98b322e6";  
-  file_name = "TnoResearchTime_0.0.3.zip"; 
-  sha1 = "787332a53ec798d8975d899311bdd777f12a0243"; 
-  version = "0.0.3"; 
+  url = "https://mods.factorio.com/download/TnoResearchTime/6612ec884c9254b9a9df3291";  
+  file_name = "TnoResearchTime_0.0.4.zip"; 
+  sha1 = "de48b3c61de7814ed8e903546501c87c990b67f5"; 
+  version = "0.0.4"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -46945,10 +46965,10 @@
 
 "bot-batteries-technologies" = factorioMod {
   pname = "bot-batteries-technologies"; 
-  url = "https://mods.factorio.com/download/bot-batteries-technologies/66098411f0b8dae2ee6164df";  
-  file_name = "bot-batteries-technologies_1.0.7.zip"; 
-  sha1 = "45d149cbb2bd81c582bd6c195a1f6c721ca0dd02"; 
-  version = "1.0.7"; 
+  url = "https://mods.factorio.com/download/bot-batteries-technologies/66131a154c9254b9a9df3296";  
+  file_name = "bot-batteries-technologies_1.0.8.zip"; 
+  sha1 = "b6623e5a72c69aa82dc039cb0a7356cbe4fc0ded"; 
+  version = "1.0.8"; 
   deps = filterMissing self [ "heroic_library" "space-exploration-graphics" ];
   optionalDeps = [ "space-exploration" "modules-t4" "bobmodules" ];
  }; 
@@ -48445,10 +48465,10 @@
 
 "chunk-sized-roboports" = factorioMod {
   pname = "chunk-sized-roboports"; 
-  url = "https://mods.factorio.com/download/chunk-sized-roboports/62c9dbe6d5beb7743f6f2b70";  
-  file_name = "chunk-sized-roboports_4.0.0.zip"; 
-  sha1 = "435c10fd7d2e25ae9e47596847818440cd1da56c"; 
-  version = "4.0.0"; 
+  url = "https://mods.factorio.com/download/chunk-sized-roboports/6612d6ab7dfe20be968ef771";  
+  file_name = "chunk-sized-roboports_4.1.1.zip"; 
+  sha1 = "b72c4bf0364586b4cb3a93d1bcd04e38456bc6ec"; 
+  version = "4.1.1"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "boblogistics" "bobpower" "industrialrevolution" "Krastorio2" "cargo-ships" ];
  }; 
@@ -51423,6 +51443,16 @@
   optionalDeps = [ "space-exploration" ];
  }; 
 
+"early-modules" = factorioMod {
+  pname = "early-modules"; 
+  url = "https://mods.factorio.com/download/early-modules/6613d67fddae87534967bd8d";  
+  file_name = "early-modules_0.0.2.zip"; 
+  sha1 = "a53084ed1672b59ee8b014626ad2d725fc555b54"; 
+  version = "0.0.2"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
 "early-pyport" = factorioMod {
   pname = "early-pyport"; 
   url = "https://mods.factorio.com/download/early-pyport/614a8292fe15a8607360dc34";  
@@ -53109,6 +53139,16 @@
   file_name = "expensivelandfill3_1.1.0.zip"; 
   sha1 = "66358a14703f65e982caf5c458fe7da5f923b2b4"; 
   version = "1.1.0"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
+"expensiver" = factorioMod {
+  pname = "expensiver"; 
+  url = "https://mods.factorio.com/download/expensiver/66141119c7cbdcf1da249452";  
+  file_name = "expensiver_0.1.0.zip"; 
+  sha1 = "677fdaa199c220ded2df7147cbffd303dbd773a7"; 
+  version = "0.1.0"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -66043,6 +66083,16 @@
   optionalDeps = [  ];
  }; 
 
+"noangelbiofartingcontinued" = factorioMod {
+  pname = "noangelbiofartingcontinued"; 
+  url = "https://mods.factorio.com/download/noangelbiofartingcontinued/66138bb3ddae87534967bd83";  
+  file_name = "noangelbiofartingcontinued_0.2.0.zip"; 
+  sha1 = "22d7fe9c538db935e3d25358d0f03636021d84ca"; 
+  version = "0.2.0"; 
+  deps = filterMissing self [ "angelsbioprocessing" ];
+  optionalDeps = [  ];
+ }; 
+
 "noangelbiosounds" = factorioMod {
   pname = "noangelbiosounds"; 
   url = "https://mods.factorio.com/download/noangelbiosounds/656dd1d0f3e43a4798c0b909";  
@@ -72255,10 +72305,10 @@
 
 "router" = factorioMod {
   pname = "router"; 
-  url = "https://mods.factorio.com/download/router/65da80a347776cbe44f7b9f4";  
-  file_name = "router_0.1.1.zip"; 
-  sha1 = "6deb5a5d4c9535a412872ad9ab48eab0e1735c81"; 
-  version = "0.1.1"; 
+  url = "https://mods.factorio.com/download/router/661311464c9254b9a9df3295";  
+  file_name = "router_0.1.2.zip"; 
+  sha1 = "473339b86272c561c52f869b79d14e906e44badb"; 
+  version = "0.1.2"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "boblogistics" "space-exploration" "IndustrialRevolution3" "SeaBlockMetaPack" "Krastorio2" "DeadlockBlackRubberBelts" "PickerDollies" "Dectorio" ];
  }; 
@@ -80645,10 +80695,10 @@
 
 "umrFixed" = factorioMod {
   pname = "umrFixed"; 
-  url = "https://mods.factorio.com/download/umrFixed/6611e14f9eaeb6fb42b2332e";  
-  file_name = "umrFixed_1.0.8.zip"; 
-  sha1 = "ac9fa845b561d6f97970ef1a013fef57355e82df"; 
-  version = "1.0.8"; 
+  url = "https://mods.factorio.com/download/umrFixed/66135a578a34077d3d455166";  
+  file_name = "umrFixed_1.0.9.zip"; 
+  sha1 = "075dd8c4a9ab3841a90bd1c7ba99616648149ee0"; 
+  version = "1.0.9"; 
   deps = filterMissing self [ "turbinesplusplusfixed" "Squeak Through" ];
   optionalDeps = [ "RealisticFusionPower" "Krastorio2" "angelsindustries" "Yuoki" "space-exploration" ];
  }; 
