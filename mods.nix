@@ -38745,10 +38745,10 @@
 
 "Ultracube" = factorioMod {
   pname = "Ultracube"; 
-  url = "https://mods.factorio.com/download/Ultracube/65fb523545a9a9a9a75866eb";  
-  file_name = "Ultracube_0.5.2.zip"; 
-  sha1 = "a3e862985f49597fa47c1fb22393671c4930be0a"; 
-  version = "0.5.2"; 
+  url = "https://mods.factorio.com/download/Ultracube/66153f3347ea28fe59503ea1";  
+  file_name = "Ultracube_0.5.3.zip"; 
+  sha1 = "3a2e7c1652b03b4bbd039c5aebed7796992d55ec"; 
+  version = "0.5.3"; 
   deps = filterMissing self [ "aai-loaders" "Krastorio2Assets" "simhelper" ];
   optionalDeps = [ "aai-signal-transmission" "better-victory-screen" "far-reach" "Flow Control" "Honk" "nixie-tubes" "Milestones" "PickerDollies" "pushbutton" "textplates" ];
  }; 
@@ -48985,10 +48985,10 @@
 
 "combifactories" = factorioMod {
   pname = "combifactories"; 
-  url = "https://mods.factorio.com/download/combifactories/6612c09f7dfe20be968ef76b";  
-  file_name = "combifactories_0.1.0.zip"; 
-  sha1 = "7836cb97ef9278c11938eb560471de442739f457"; 
-  version = "0.1.0"; 
+  url = "https://mods.factorio.com/download/combifactories/661443175e3fa2862a9cecff";  
+  file_name = "combifactories_0.1.1.zip"; 
+  sha1 = "3e05565e469b1384d1a4b26b74fc3f19c814f6e2"; 
+  version = "0.1.1"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -53535,10 +53535,10 @@
 
 "factorio-codex" = factorioMod {
   pname = "factorio-codex"; 
-  url = "https://mods.factorio.com/download/factorio-codex/644fafe46caa6fb82a263a40";  
-  file_name = "factorio-codex_0.0.20.zip"; 
-  sha1 = "295ef156d0bd68e75a0b2595ab8550a5312fc6d2"; 
-  version = "0.0.20"; 
+  url = "https://mods.factorio.com/download/factorio-codex/66152719349a1c39a2e92014";  
+  file_name = "factorio-codex_0.0.21.zip"; 
+  sha1 = "392fa9471b44738074ea49a7050849e882154e76"; 
+  version = "0.0.21"; 
   deps = filterMissing self [ "flib" ];
   optionalDeps = [  ];
  }; 
@@ -57055,10 +57055,10 @@
 
 "heat-powered-furnace" = factorioMod {
   pname = "heat-powered-furnace"; 
-  url = "https://mods.factorio.com/download/heat-powered-furnace/65f8f1d134aa62c649474be0";  
-  file_name = "heat-powered-furnace_0.1.0.zip"; 
-  sha1 = "52890318b2a4e657aa7058ea59a9c633b93a5763"; 
-  version = "0.1.0"; 
+  url = "https://mods.factorio.com/download/heat-powered-furnace/6614a4095e3fa2862a9ced07";  
+  file_name = "heat-powered-furnace_0.1.1.zip"; 
+  sha1 = "062cae2676374037ae8ef90370d537344a83ac25"; 
+  version = "0.1.1"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -75823,6 +75823,16 @@
   optionalDeps = [  ];
  }; 
 
+"smartfoo" = factorioMod {
+  pname = "smartfoo"; 
+  url = "https://mods.factorio.com/download/smartfoo/6614bfe85e3fa2862a9ced0e";  
+  file_name = "smartfoo_1.0.0.zip"; 
+  sha1 = "5bb90db3a6e633c5fa58f2c18c6b945965f65def"; 
+  version = "1.0.0"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
 "smetdenis-mod-pack" = factorioMod {
   pname = "smetdenis-mod-pack"; 
   url = "https://mods.factorio.com/download/smetdenis-mod-pack/646636c117dba01d98b322b7";  
@@ -76763,6 +76773,16 @@
   optionalDeps = [  ];
  }; 
 
+"space-exploration-stuff-k2-patch" = factorioMod {
+  pname = "space-exploration-stuff-k2-patch"; 
+  url = "https://mods.factorio.com/download/space-exploration-stuff-k2-patch/66148eed6b5f501bd22dd75b";  
+  file_name = "space-exploration-stuff-k2-patch_0.2.5.zip"; 
+  sha1 = "ad12ec019fea554d1c517d24ca2caf5753321684"; 
+  version = "0.2.5"; 
+  deps = filterMissing self [ "space-exploration" ];
+  optionalDeps = [  ];
+ }; 
+
 "space-exploration-substation-replacement" = factorioMod {
   pname = "space-exploration-substation-replacement"; 
   url = "https://mods.factorio.com/download/space-exploration-substation-replacement/60834c74a20e55db6ca1b6b8";  
@@ -77645,10 +77665,10 @@
 
 "stacked-items" = factorioMod {
   pname = "stacked-items"; 
-  url = "https://mods.factorio.com/download/stacked-items/660dbe408f7038063970ec49";  
-  file_name = "stacked-items_0.1.1.zip"; 
-  sha1 = "386a8456c2573bd345b4a4597ec4475d09bd7906"; 
-  version = "0.1.1"; 
+  url = "https://mods.factorio.com/download/stacked-items/66144a8ac7cbdcf1da249459";  
+  file_name = "stacked-items_0.1.2.zip"; 
+  sha1 = "b8dbb59b24feb281ee44c13693dc812e44cff91d"; 
+  version = "0.1.2"; 
   deps = filterMissing self [ "aai-loaders" ];
   optionalDeps = [  ];
  }; 
@@ -83361,6 +83381,16 @@
   version = "0.0.3"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "space-exploration" "Krastorio2" ];
+ }; 
+
+"zBalancedRecipeRandomizer" = factorioMod {
+  pname = "zBalancedRecipeRandomizer"; 
+  url = "https://mods.factorio.com/download/zBalancedRecipeRandomizer/6614afa6349a1c39a2e9200c";  
+  file_name = "zBalancedRecipeRandomizer_1.0.0.zip"; 
+  sha1 = "39c6da169f94312f36780ee5192224788c3870e9"; 
+  version = "1.0.0"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
  }; 
 
 "zChemsScienceShuffle" = factorioMod {
