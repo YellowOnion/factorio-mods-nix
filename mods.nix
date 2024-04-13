@@ -4225,10 +4225,10 @@
 
 "Better-Power-Armor-Grid" = factorioMod {
   pname = "Better-Power-Armor-Grid"; 
-  url = "https://mods.factorio.com/download/Better-Power-Armor-Grid/66197d226d4f708b942a05ce";  
-  file_name = "Better-Power-Armor-Grid_6.1.1.zip"; 
-  sha1 = "5f8121be6a0c46a8a7dba11fe01c9e8f73c6c5d0"; 
-  version = "6.1.1"; 
+  url = "https://mods.factorio.com/download/Better-Power-Armor-Grid/661a811983a9ba7281fa71ed";  
+  file_name = "Better-Power-Armor-Grid_6.1.2.zip"; 
+  sha1 = "1c08998dc5be43f69b370b35175ec329eb4b5d96"; 
+  version = "6.1.2"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "ev-refining" "Krastorio2" "Krastorio2Assets" "jetpack" ];
  }; 
@@ -38805,11 +38805,11 @@
 
 "Ultracube" = factorioMod {
   pname = "Ultracube"; 
-  url = "https://mods.factorio.com/download/Ultracube/66153f3347ea28fe59503ea1";  
-  file_name = "Ultracube_0.5.3.zip"; 
-  sha1 = "3a2e7c1652b03b4bbd039c5aebed7796992d55ec"; 
-  version = "0.5.3"; 
-  deps = filterMissing self [ "aai-loaders" "Krastorio2Assets" "simhelper" ];
+  url = "https://mods.factorio.com/download/Ultracube/661a7f41d0c49a70657f190d";  
+  file_name = "Ultracube_0.5.4.zip"; 
+  sha1 = "2a6b784d81197b01d001d5e50d1e140a13c3ce1c"; 
+  version = "0.5.4"; 
+  deps = filterMissing self [ "aai-loaders" "Krastorio2Assets" ];
   optionalDeps = [ "aai-signal-transmission" "better-victory-screen" "far-reach" "Flow Control" "Honk" "nixie-tubes" "Milestones" "PickerDollies" "pushbutton" "textplates" ];
  }; 
 
@@ -52965,10 +52965,10 @@
 
 "exotic-industries" = factorioMod {
   pname = "exotic-industries"; 
-  url = "https://mods.factorio.com/download/exotic-industries/661928fa2a6d5e82d2b5c9f1";  
-  file_name = "exotic-industries_0.6.0.zip"; 
-  sha1 = "ffbb182eaac26d5edefbfb9f388fa86e798e5ec9"; 
-  version = "0.6.0"; 
+  url = "https://mods.factorio.com/download/exotic-industries/661a4e1d83a9ba7281fa71e8";  
+  file_name = "exotic-industries_0.6.1.zip"; 
+  sha1 = "23b21aefe4f699e8a4b14d4c300a2ce79d4c7954"; 
+  version = "0.6.1"; 
   deps = filterMissing self [ "informatron" "exotic-industries-graphics" "exotic-industries-graphics-2" ];
   optionalDeps = [ "exotic-industries-containers" "exotic-industries-loaders" "exotic-industries-robots" "exotic-industries-tanks" "exotic-industries-fueler" "exotic-industries-trains" "better-victory-screen" ];
  }; 
