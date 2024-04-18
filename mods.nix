@@ -993,6 +993,16 @@
   optionalDeps = [  ];
  }; 
 
+"ADrst" = factorioMod {
+  pname = "ADrst"; 
+  url = "https://mods.factorio.com/download/ADrst/6621409fed65ae039addc40a";  
+  file_name = "ADrst_1.0.4.zip"; 
+  sha1 = "cf7fffbb774dca69f11ab769a4a8d48b8178541d"; 
+  version = "1.0.4"; 
+  deps = filterMissing self [ "AircraftDrones" ];
+  optionalDeps = [  ];
+ }; 
+
 "AEAA593E-CC01-490C-BFB5-DE8E5023B5A6" = factorioMod {
   pname = "AEAA593E-CC01-490C-BFB5-DE8E5023B5A6"; 
   url = "https://mods.factorio.com/download/AEAA593E-CC01-490C-BFB5-DE8E5023B5A6/5fd136c0d965482a860e75b5";  
@@ -15725,10 +15735,10 @@
 
 "HermiosLibs" = factorioMod {
   pname = "HermiosLibs"; 
-  url = "https://mods.factorio.com/download/HermiosLibs/65ff51fa023535e0d565906c";  
-  file_name = "HermiosLibs_1.0.13.zip"; 
-  sha1 = "8780c0171267fbf0f64aac93eccd71239887d802"; 
-  version = "1.0.13"; 
+  url = "https://mods.factorio.com/download/HermiosLibs/6621231e730e1d3573b3f2ea";  
+  file_name = "HermiosLibs_1.0.14.zip"; 
+  sha1 = "d8f1195bac0f98f0c2c35b07dee6a891bcf5c544"; 
+  version = "1.0.14"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -21545,10 +21555,10 @@
 
 "Magic" = factorioMod {
   pname = "Magic"; 
-  url = "https://mods.factorio.com/download/Magic/661ebb024c84852810354e6b";  
-  file_name = "Magic_0.1.55.zip"; 
-  sha1 = "14830ceb24c248345c10e81a68b5f3ed9d3920f8"; 
-  version = "0.1.55"; 
+  url = "https://mods.factorio.com/download/Magic/66210701ed65ae039addc3fb";  
+  file_name = "Magic_0.1.56.zip"; 
+  sha1 = "9554700910137a6526b2032e9a15ac5055faf0db"; 
+  version = "0.1.56"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -22873,6 +22883,56 @@
   optionalDeps = [ "BeaconMk2" "no-productivity-modules" "Advanced_Sky_Modules" "bobmodules" "CheaperModules" "CustomModules" "DK_Powerful_Modules" "no-productivity-modules" "no_modules" "5dim_module" "alien-module" "FactorioExtended-Plus-Module" "god-module-Revived" ];
  }; 
 
+"ModuleGraphics" = factorioMod {
+  pname = "ModuleGraphics"; 
+  url = "https://mods.factorio.com/download/ModuleGraphics/6620a41705530f30674b9df6";  
+  file_name = "ModuleGraphics_0.0.1.zip"; 
+  sha1 = "155075a2624f339a15dcc8f53708a49b2fdb62e2"; 
+  version = "0.0.1"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
+"ModuleGraphics2" = factorioMod {
+  pname = "ModuleGraphics2"; 
+  url = "https://mods.factorio.com/download/ModuleGraphics2/6620a496ed65ae039addc3dd";  
+  file_name = "ModuleGraphics2_0.0.1.zip"; 
+  sha1 = "2f87dd07f90b570f1788037efa6be31249dbae4e"; 
+  version = "0.0.1"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
+"ModuleGraphics3" = factorioMod {
+  pname = "ModuleGraphics3"; 
+  url = "https://mods.factorio.com/download/ModuleGraphics3/6620a505e05481a10420a558";  
+  file_name = "ModuleGraphics3_0.0.1.zip"; 
+  sha1 = "361291d54c8a92c38395c52dfbb54d159bfa642f"; 
+  version = "0.0.1"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
+"ModuleGraphics4" = factorioMod {
+  pname = "ModuleGraphics4"; 
+  url = "https://mods.factorio.com/download/ModuleGraphics4/6620a547ed65ae039addc3e0";  
+  file_name = "ModuleGraphics4_0.0.1.zip"; 
+  sha1 = "0d24efc554fe9f5f02eda8ee0b01b65c1aed8bad"; 
+  version = "0.0.1"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
+"ModuleGraphics5" = factorioMod {
+  pname = "ModuleGraphics5"; 
+  url = "https://mods.factorio.com/download/ModuleGraphics5/6620a585ed65ae039addc3e3";  
+  file_name = "ModuleGraphics5_0.0.1.zip"; 
+  sha1 = "937bcf11e7464b95f81707daf90abe421d1a421c"; 
+  version = "0.0.1"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
 "ModuleInserter" = factorioMod {
   pname = "ModuleInserter"; 
   url = "https://mods.factorio.com/download/ModuleInserter/5ff5aeeccb9b46c96c3d30c4";  
@@ -22913,6 +22973,16 @@
   optionalDeps = [ "GhostWarnings" ];
  }; 
 
+"ModuleNP" = factorioMod {
+  pname = "ModuleNP"; 
+  url = "https://mods.factorio.com/download/ModuleNP/6620b27eed65ae039addc3e6";  
+  file_name = "ModuleNP_0.0.5.zip"; 
+  sha1 = "39d8955173f53bcd30cbd057d9d1671c1c1a0fdd"; 
+  version = "0.0.5"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
 "ModuleOverhaul" = factorioMod {
   pname = "ModuleOverhaul"; 
   url = "https://mods.factorio.com/download/ModuleOverhaul/62e23229f8e8e81bc2aeac5f";  
@@ -22930,6 +23000,16 @@
   sha1 = "382da700710f3d462f5f19eacab6d4b28a71f6fc"; 
   version = "1.1.0"; 
   deps = filterMissing self [ "module-requestor" ];
+  optionalDeps = [  ];
+ }; 
+
+"ModuleSound" = factorioMod {
+  pname = "ModuleSound"; 
+  url = "https://mods.factorio.com/download/ModuleSound/6620a30ce05481a10420a555";  
+  file_name = "ModuleSound_0.0.1.zip"; 
+  sha1 = "3d2b6fb6cdcffcdf99d6e6db81942617b0e4c43f"; 
+  version = "0.0.1"; 
+  deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
 
@@ -26465,10 +26545,10 @@
 
 "Pacifist" = factorioMod {
   pname = "Pacifist"; 
-  url = "https://mods.factorio.com/download/Pacifist/661cf61791fc54e017d09da7";  
-  file_name = "Pacifist_0.4.9.zip"; 
-  sha1 = "384245d58e63005e3db4246acd49df490536679c"; 
-  version = "0.4.9"; 
+  url = "https://mods.factorio.com/download/Pacifist/661ffe25b837869b2c0a0888";  
+  file_name = "Pacifist_0.4.10.zip"; 
+  sha1 = "4a4f50e1d0ef7afa8866b3eacdd41d8a179297c0"; 
+  version = "0.4.10"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "invulnerable" "Explosive Termites" "exotic-industries" "Krastorio2" ];
  }; 
@@ -29895,10 +29975,10 @@
 
 "RefinedNetworkStorage" = factorioMod {
   pname = "RefinedNetworkStorage"; 
-  url = "https://mods.factorio.com/download/RefinedNetworkStorage/6619186aa6dd44db61cb13cd";  
-  file_name = "RefinedNetworkStorage_1.0.33.zip"; 
-  sha1 = "7f94fbd373acf526f6582a6d3646b293c3ce3f41"; 
-  version = "1.0.33"; 
+  url = "https://mods.factorio.com/download/RefinedNetworkStorage/66210cea05530f30674b9dfe";  
+  file_name = "RefinedNetworkStorage_1.0.35.zip"; 
+  sha1 = "2c9e67868a81917df59f92579faecdad372dc78d"; 
+  version = "1.0.35"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "space-exploration" ];
  }; 
@@ -36303,6 +36383,16 @@
   optionalDeps = [ "IndustrialRevolution" ];
  }; 
 
+"TDrst" = factorioMod {
+  pname = "TDrst"; 
+  url = "https://mods.factorio.com/download/TDrst/6621422bcd1e351fb06cfcb3";  
+  file_name = "TDrst_1.0.6.zip"; 
+  sha1 = "fd20c17c57cacf3dbf42623b68700aefb9cb2ef4"; 
+  version = "1.0.6"; 
+  deps = filterMissing self [ "Transport_Drones" ];
+  optionalDeps = [  ];
+ }; 
+
 "THiveModFix" = factorioMod {
   pname = "THiveModFix"; 
   url = "https://mods.factorio.com/download/THiveModFix/64c3ddb084de392de896c055";  
@@ -41470,6 +41560,16 @@
   sha1 = "3f8e6c474a7b9a4f1ea2a091b25223c5a9b74ecb"; 
   version = "1.0.7"; 
   deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
+"aahrst" = factorioMod {
+  pname = "aahrst"; 
+  url = "https://mods.factorio.com/download/aahrst/6620d803e9ca01d463ed30b4";  
+  file_name = "aahrst_1.0.0.zip"; 
+  sha1 = "383dae9aa8706b07b2d1306af265559355000129"; 
+  version = "1.0.0"; 
+  deps = filterMissing self [ "aai-vehicles-hauler" ];
   optionalDeps = [  ];
  }; 
 
@@ -47195,12 +47295,12 @@
 
 "brave-new-oarc" = factorioMod {
   pname = "brave-new-oarc"; 
-  url = "https://mods.factorio.com/download/brave-new-oarc/661955c183a9ba7281fa71dc";  
-  file_name = "brave-new-oarc_4.2.45.zip"; 
-  sha1 = "aa39872265c0512ac7c939ec0c90f678d42e75bd"; 
-  version = "4.2.45"; 
+  url = "https://mods.factorio.com/download/brave-new-oarc/66204485e05481a10420a554";  
+  file_name = "brave-new-oarc_4.2.46.zip"; 
+  sha1 = "91db9010b9a180bd532d9df0107876b8956eb4f6"; 
+  version = "4.2.46"; 
   deps = filterMissing self [  ];
-  optionalDeps = [ "Krastorio2" "spaceblock" "SeaBlock" "resource-islands" "alien-module" "Transport_Drones" "FreightForwarding" "bzlead" "bztitanium" "cargo-ships" "lex-aircraft" "spaceblock-memory-fix" "scrap-resource" ];
+  optionalDeps = [ "Krastorio2" "spaceblock" "SeaBlock" "resource-islands" "alien-module" "Transport_Drones" "FreightForwarding" "bzlead" "bztitanium" "cargo-ships" "lex-aircraft" "spaceblock-memory-fix" "scrap-resource" "dangOreus" ];
  }; 
 
 "brave-new-world" = factorioMod {
@@ -47285,11 +47385,11 @@
 
 "btrst" = factorioMod {
   pname = "btrst"; 
-  url = "https://mods.factorio.com/download/btrst/661eb5054dac88201efd585d";  
-  file_name = "btrst_1.0.0.zip"; 
-  sha1 = "e83186e583c5c76c94a3ea51e3ce462a7564f2cd"; 
-  version = "1.0.0"; 
-  deps = filterMissing self [  ];
+  url = "https://mods.factorio.com/download/btrst/6620d61de9ca01d463ed30b3";  
+  file_name = "btrst_1.1.1.zip"; 
+  sha1 = "370a00a79762e03df5817f109ebdbb4d29854fb7"; 
+  version = "1.1.1"; 
+  deps = filterMissing self [ "bigtruck" ];
   optionalDeps = [  ];
  }; 
 
@@ -53393,6 +53493,16 @@
   optionalDeps = [  ];
  }; 
 
+"extanksrst" = factorioMod {
+  pname = "extanksrst"; 
+  url = "https://mods.factorio.com/download/extanksrst/6620f80be9ca01d463ed30ba";  
+  file_name = "extanksrst_1.0.0.zip"; 
+  sha1 = "070e7cca93fea63e5225d547f8f0faa490a573d0"; 
+  version = "1.0.0"; 
+  deps = filterMissing self [ "exotic-industries-tanks" ];
+  optionalDeps = [  ];
+ }; 
+
 "extended-descriptions" = factorioMod {
   pname = "extended-descriptions"; 
   url = "https://mods.factorio.com/download/extended-descriptions/6616f1c5707a12538ef346fa";  
@@ -54925,10 +55035,10 @@
 
 "fishmode_plus" = factorioMod {
   pname = "fishmode_plus"; 
-  url = "https://mods.factorio.com/download/fishmode_plus/661e1651ea7ff75aebe27616";  
-  file_name = "fishmode_plus_0.1.0.zip"; 
-  sha1 = "3e0476ad41bd3e79ef093f1ceb0f93433ef49317"; 
-  version = "0.1.0"; 
+  url = "https://mods.factorio.com/download/fishmode_plus/6620f3cb18f0267b7b5286ce";  
+  file_name = "fishmode_plus_0.1.1.zip"; 
+  sha1 = "aa364c3005850077cf89ec8f13eeae01ce264d85"; 
+  version = "0.1.1"; 
   deps = filterMissing self [ "flib" ];
   optionalDeps = [  ];
  }; 
@@ -60835,12 +60945,12 @@
 
 "kjrst" = factorioMod {
   pname = "kjrst"; 
-  url = "https://mods.factorio.com/download/kjrst/661eb6cf4c84852810354e68";  
-  file_name = "kjrst_1.0.0.zip"; 
-  sha1 = "62c2bb66749c567baafca3320d9c4535c7402f10"; 
-  version = "1.0.0"; 
-  deps = filterMissing self [ "kj_fuel" ];
-  optionalDeps = [ "aai-vehicles-ironclad" ];
+  url = "https://mods.factorio.com/download/kjrst/6620e1d8ed65ae039addc3e9";  
+  file_name = "kjrst_1.1.1.zip"; 
+  sha1 = "7c18ff9cc69fee8cb0ea91696a57eaf46d88279c"; 
+  version = "1.1.1"; 
+  deps = filterMissing self [ "kj_utilitarian" ];
+  optionalDeps = [  ];
  }; 
 
 "kjzhuangbei" = factorioMod {
@@ -62235,10 +62345,10 @@
 
 "logicarts3" = factorioMod {
   pname = "logicarts3"; 
-  url = "https://mods.factorio.com/download/logicarts3/661ef0e7bf7da976d47a267c";  
-  file_name = "logicarts3_1.0.5.zip"; 
-  sha1 = "4b439a81db2c28acca577fb1dce18f7aa417a097"; 
-  version = "1.0.5"; 
+  url = "https://mods.factorio.com/download/logicarts3/66213615e9ca01d463ed30c0";  
+  file_name = "logicarts3_1.0.6.zip"; 
+  sha1 = "928ab48e0f618f8cac9c2129e0a1b9f71421cfdb"; 
+  version = "1.0.6"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -79095,11 +79205,11 @@
 
 "tankdefend" = factorioMod {
   pname = "tankdefend"; 
-  url = "https://mods.factorio.com/download/tankdefend/661fcaf23dc16f7c0bca70f9";  
-  file_name = "tankdefend_1.0.11.zip"; 
-  sha1 = "a5663dbd8615d97d9d1e16d3313de96249f46dff"; 
-  version = "1.0.11"; 
-  deps = filterMissing self [ "liborio" ];
+  url = "https://mods.factorio.com/download/tankdefend/6620f82705530f30674b9dfa";  
+  file_name = "tankdefend_1.0.15.zip"; 
+  sha1 = "a114b4cd4f9a238d016acc068771cb544adb9378"; 
+  version = "1.0.15"; 
+  deps = filterMissing self [ "liborio" "RealisticFusionWeaponry" "RampantArsenal" ];
   optionalDeps = [  ];
  }; 
 
