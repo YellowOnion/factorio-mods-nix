@@ -15755,10 +15755,10 @@
 
 "HelmodAddonRequester" = factorioMod {
   pname = "HelmodAddonRequester"; 
-  url = "https://mods.factorio.com/download/HelmodAddonRequester/6626aaeb940145a7a763c4b9";  
-  file_name = "HelmodAddonRequester_0.0.3.zip"; 
-  sha1 = "23427af45f0c3ec76eff6a6c5f75241a2107af6f"; 
-  version = "0.0.3"; 
+  url = "https://mods.factorio.com/download/HelmodAddonRequester/6629303e925ea37a2baf6589";  
+  file_name = "HelmodAddonRequester_0.0.4.zip"; 
+  sha1 = "1a7b9fe062774a7e5bb80d5032f009c5ff46c9e5"; 
+  version = "0.0.4"; 
   deps = filterMissing self [ "helmod" ];
   optionalDeps = [  ];
  }; 
@@ -15795,10 +15795,10 @@
 
 "Hermios_Framework" = factorioMod {
   pname = "Hermios_Framework"; 
-  url = "https://mods.factorio.com/download/Hermios_Framework/66251a6934e5ed2b59855977";  
-  file_name = "Hermios_Framework_1.0.6.zip"; 
-  sha1 = "7db96892e8a6693f297ee9b9111be0b474a35b78"; 
-  version = "1.0.6"; 
+  url = "https://mods.factorio.com/download/Hermios_Framework/662a5aa1b9d8e8dd6a937b28";  
+  file_name = "Hermios_Framework_1.0.7.zip"; 
+  sha1 = "7877581ce62b07cec258dc96127839fdc8a9d4c5"; 
+  version = "1.0.7"; 
   deps = filterMissing self [ "HermiosLibs" ];
   optionalDeps = [  ];
  }; 
@@ -21625,10 +21625,10 @@
 
 "Magic" = factorioMod {
   pname = "Magic"; 
-  url = "https://mods.factorio.com/download/Magic/66266f50940145a7a763c4b2";  
-  file_name = "Magic_0.2.0.zip"; 
-  sha1 = "12f53ec79513676f75345fa2e65b47c3d4bcd42d"; 
-  version = "0.2.0"; 
+  url = "https://mods.factorio.com/download/Magic/662a674e5f76a6145d2252ba";  
+  file_name = "Magic_0.2.1.zip"; 
+  sha1 = "e5fdfe14e23d5d8aba864cf794f8e55ed08852b7"; 
+  version = "0.2.1"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -26095,10 +26095,10 @@
 
 "OompaLoompaDrones" = factorioMod {
   pname = "OompaLoompaDrones"; 
-  url = "https://mods.factorio.com/download/OompaLoompaDrones/6418a7a6a03a5e9ac0eef6be";  
-  file_name = "OompaLoompaDrones_1.0.0.zip"; 
-  sha1 = "ccbab26c2ec8acb7e0716e82fc3b736f11a7f281"; 
-  version = "1.0.0"; 
+  url = "https://mods.factorio.com/download/OompaLoompaDrones/6629d3189a510725289b983e";  
+  file_name = "OompaLoompaDrones_1.0.1.zip"; 
+  sha1 = "c37c0dca297b740652d60012044a8817142dab62"; 
+  version = "1.0.1"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -30030,6 +30030,16 @@
   sha1 = "f0fc6888ebdffd308e60ec319849060fc1b33b2d"; 
   version = "1.0.4"; 
   deps = filterMissing self [ "AbandonedRuins" ];
+  optionalDeps = [  ];
+ }; 
+
+"RedDwarf-AbandonedRuins-ModuleFix" = factorioMod {
+  pname = "RedDwarf-AbandonedRuins-ModuleFix"; 
+  url = "https://mods.factorio.com/download/RedDwarf-AbandonedRuins-ModuleFix/66292c4a1c445a306f73f0ab";  
+  file_name = "RedDwarf-AbandonedRuins-ModuleFix_1.0.0.zip"; 
+  sha1 = "12168a46a96098b8afdee2a4e406686666b11a76"; 
+  version = "1.0.0"; 
+  deps = filterMissing self [ "RedDwarf-AbandonedRuins" ];
   optionalDeps = [  ];
  }; 
 
@@ -46805,10 +46815,10 @@
 
 "blueprint-shotgun" = factorioMod {
   pname = "blueprint-shotgun"; 
-  url = "https://mods.factorio.com/download/blueprint-shotgun/6616f0ca3c482ee397579c1f";  
-  file_name = "blueprint-shotgun_0.0.9.zip"; 
-  sha1 = "2439ddf27a5d19209ba57debcf9e66727abc165f"; 
-  version = "0.0.9"; 
+  url = "https://mods.factorio.com/download/blueprint-shotgun/66296fe1b64028f7c3b18e32";  
+  file_name = "blueprint-shotgun_0.0.10.zip"; 
+  sha1 = "d5b87164dac6fe726a3ee9e70fe5150581673065"; 
+  version = "0.0.10"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -47435,11 +47445,11 @@
 
 "brave-new-oarc" = factorioMod {
   pname = "brave-new-oarc"; 
-  url = "https://mods.factorio.com/download/brave-new-oarc/6621b970b59405d35b799199";  
-  file_name = "brave-new-oarc_4.2.47.zip"; 
-  sha1 = "d9b0308c025490e5d533f19a97c2e8dea313c715"; 
-  version = "4.2.47"; 
-  deps = filterMissing self [  ];
+  url = "https://mods.factorio.com/download/brave-new-oarc/662981841d2b8f86e53115b2";  
+  file_name = "brave-new-oarc_4.2.48.zip"; 
+  sha1 = "e7bf2659bcf3156ec7b873468d497485924bc611"; 
+  version = "4.2.48"; 
+  deps = filterMissing self [ "stdlib" ];
   optionalDeps = [ "Krastorio2" "spaceblock" "SeaBlock" "resource-islands" "alien-module" "Transport_Drones" "FreightForwarding" "bzlead" "bztitanium" "cargo-ships" "lex-aircraft" "spaceblock-memory-fix" "enderlinkedchest" "scrap-resource" "dangOreus" ];
  }; 
 
@@ -56885,10 +56895,10 @@
 
 "googletranslate" = factorioMod {
   pname = "googletranslate"; 
-  url = "https://mods.factorio.com/download/googletranslate/6595d6e788aee20c0c1ac758";  
-  file_name = "googletranslate_1.0.2.zip"; 
-  sha1 = "a5c2e468855c59b589702e51672db1960b467c67"; 
-  version = "1.0.2"; 
+  url = "https://mods.factorio.com/download/googletranslate/6629a353f3518e301d79db68";  
+  file_name = "googletranslate_1.0.4.zip"; 
+  sha1 = "4c5cdc2d4bf8c853b4cc9db3d0a9652bb50422da"; 
+  version = "1.0.4"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -69045,10 +69055,10 @@
 
 "potassium" = factorioMod {
   pname = "potassium"; 
-  url = "https://mods.factorio.com/download/potassium/6627a44adea5000886eb98a4";  
-  file_name = "potassium_8.1.9.zip"; 
-  sha1 = "093f7a8ec55c2831fdd44781656149ed0d092448"; 
-  version = "8.1.9"; 
+  url = "https://mods.factorio.com/download/potassium/66293a9e970aa5798b006269";  
+  file_name = "potassium_8.1.9819.zip"; 
+  sha1 = "59423f3d92b3ded4f77d7f7d3fd2a6a9658e5601"; 
+  version = "8.1.9819"; 
   deps = filterMissing self [ "zk-lib" ];
   optionalDeps = [  ];
  }; 
@@ -74665,10 +74675,10 @@
 
 "se-simplified" = factorioMod {
   pname = "se-simplified"; 
-  url = "https://mods.factorio.com/download/se-simplified/662910cf1c445a306f73f0aa";  
-  file_name = "se-simplified_1.0.4.zip"; 
-  sha1 = "373435bce4caf1adfe038c7e95967dae345c7688"; 
-  version = "1.0.4"; 
+  url = "https://mods.factorio.com/download/se-simplified/662935951c445a306f73f0b0";  
+  file_name = "se-simplified_1.0.5.zip"; 
+  sha1 = "3c5402e794ba818497a1d0a3b69c593ffca5d65e"; 
+  version = "1.0.5"; 
   deps = filterMissing self [ "space-exploration" "space-exploration-postprocess" ];
   optionalDeps = [ "robot_attrition" ];
  }; 
