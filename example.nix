@@ -1,23 +1,27 @@
-let
-  pkgs = import (builtins.fetchTarball "http://github.com/YellowOnion/nixpkgs/archive/factorio-patch2.tar.gz") { config.allowUnfree = true; };
-  utils = pkgs.factorio-utils;
-  mods =  import ./mods.nix {
-    inherit (pkgs.lib) fix;
-    inherit (utils) filterMissing;
-    factorioMod = utils.factorioMod "/fpd.json";
+{ factorioMods ?  import (builtins.fetchTarball "http://github.com/YellowOnion/factorio-mods-nix/archive/master.tar.gz")
+, config, pkgs, ...}: {
+  disabledModules = [ "services/games/factorio.nix" ];
+  imports = [
+      factorioMods.nixosModules.default
+  ];
+
+  nixpkgs.config.allowUnfree = true;
+  nixpkgs.overlays = [
+    factorioMods.overlays.default
+  ];
+
+  services.factorio = {
+    enable = true;
+    game-name = "Example";
+    mods = builtins.attrValues {
+      inherit (factorioMods.packages.${pkgs.system})
+        "AfraidOfTheDark"
+        "even-distribution"
+        "QuickItemSearch"
+        "RateCalculator"
+        "sonaxaton-research-queue"
+        "StatsGui"
+        "TaskList"
+      ;};
   };
-  modList = builtins.attrValues { inherit (mods)
-        AfraidOfTheDark
-        even-distribution
-        QuickItemSearch
-        RateCalculator
-        sonaxaton-research-queue
-        StatsGui
-        TaskList
-    ;};
-  modsPack = utils.mkModDirPackage modList null "test";
-in {
-  modsPack = modsPack;
-  modsZip = utils.mkModZipPackage modsPack;
-  factorio = pkgs.factorio.override ({versionJson = ./versions.json ;});
 }

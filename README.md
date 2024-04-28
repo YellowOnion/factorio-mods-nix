@@ -14,38 +14,16 @@ feel free to alter the script to your needs, and if you want to add better cycle
 
 ## how to use
 
-This version currently needs a custom version of the Factorio module from nixpkgs, it is available as a fork of [nixpkgs](https://github.com/YellowOnion/nixpkgs/tree/factorio-patch2)
+This is now a flake providing `nixosModules.default` `packages.*` and `overlays.default` and `nixosConfigurations.example`
+You can use this by disabling the nixpkgs version of the Factorio module, and importing mine instead, and providing the overlay, and then listing packages:
 
-You can use this by disabling the nixpkgs version of the Factorio module, and importing mine instead, and providing the `factorio-utils` package in an overlay.
-
-``` nix
-let
-  factorio-nixpkgs-dir = builtins.fetchTarball "http://github.com/YellowOnion/nixpkgs/archive/factorio-patch2.tar.gz";
-  factorio-nixpkgs = import factorio-nixpkgs-dir { config.allowUnfree = true; };
-in
-{
-  disabledModules = [ "services/games/factorio.nix" ];
-  imports = [
-      "${factorio-nixpkgs-dir}/nixos/modules/services/games/factorio.nix"
-      ];
-
-  nixpkgs.overlays = [
-    (self: super: {
-      factorio-utils    = factorio-nixpkgs.factorio-utils;
-    })
-  ];
-}
-```
-
-You then need to import this repo with, `fix`, `filterMissing` from my nixpkgs, and providing a path to your `player-data.json` file, this will be in `~/.factorio/player-data.json`for steam clients, `<game folder>/player-data.json` for the installer from the official site, in your `config.services.factorio.stateDir` directory (by default: `/var/lib/factorio`) for the nixos server module.
-
-checkout `example.nix` for comprehensive usage of the modding system and new auth system in nixpkgs.
+See `example.nix` for a full NixOS Configuration example
 
 ``` shell
 $ chmod go-rw ~/.factorio/player-data.json
 $ cp -p ~/.factorio/player-data.json /tmp/fpd.json
 $ setfacl -m g:nixbld:r ~/tmp/fpd.json
-$ nix-build example.nix -A factorio --option extra-sandbox-paths '/fpd.json=/tmp/fpd.json'
+$ nixos-rebuild switch --option extra-sandbox-paths '/fpd.json=/tmp/fpd.json'
 $ rm /tmp/fpd.json
 ```
 
