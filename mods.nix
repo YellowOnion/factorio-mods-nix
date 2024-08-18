@@ -3115,10 +3115,10 @@
 
 "ArtilleryShellResearch" = factorioMod {
   pname = "ArtilleryShellResearch"; 
-  url = "https://mods.factorio.com/download/ArtilleryShellResearch/66bffd0e2173fb37f9b7ec0c";  
-  file_name = "ArtilleryShellResearch_0.0.0.zip"; 
-  sha1 = "8cf0c3bb255c18d658a9c682a66097f748b963a3"; 
-  version = "0.0.0"; 
+  url = "https://mods.factorio.com/download/ArtilleryShellResearch/66c206619c37472bd57fcfe5";  
+  file_name = "ArtilleryShellResearch_0.1.0.zip"; 
+  sha1 = "abd2957b0b4ddaf79dd700e1ee110b259c98171d"; 
+  version = "0.1.0"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -3525,10 +3525,10 @@
 
 "AutoDeconstruct" = factorioMod {
   pname = "AutoDeconstruct"; 
-  url = "https://mods.factorio.com/download/AutoDeconstruct/668de852d7aca17770d482e6";  
-  file_name = "AutoDeconstruct_0.4.1.zip"; 
-  sha1 = "64abf3bd72d47f39759a8611a95c16f1f8fe993e"; 
-  version = "0.4.1"; 
+  url = "https://mods.factorio.com/download/AutoDeconstruct/66c11bcb402fdc0644e674f2";  
+  file_name = "AutoDeconstruct_0.4.3.zip"; 
+  sha1 = "e9e384180f99658f5046fa4b16e09df085fb7997"; 
+  version = "0.4.3"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -5945,10 +5945,10 @@
 
 "Blueprint_Search" = factorioMod {
   pname = "Blueprint_Search"; 
-  url = "https://mods.factorio.com/download/Blueprint_Search/66bfe01fca3ae013514e611b";  
-  file_name = "Blueprint_Search_0.5.0.zip"; 
-  sha1 = "b4df92d8fee5ceeb0326b43ac7a964b8ffc83d64"; 
-  version = "0.5.0"; 
+  url = "https://mods.factorio.com/download/Blueprint_Search/66c1e3a2396e380cd3aec817";  
+  file_name = "Blueprint_Search_0.38.0.zip"; 
+  sha1 = "1de283f569e4b59dd3248d42673b44b8a1a60821"; 
+  version = "0.38.0"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -14835,10 +14835,10 @@
 
 "Fluid-level-indicator" = factorioMod {
   pname = "Fluid-level-indicator"; 
-  url = "https://mods.factorio.com/download/Fluid-level-indicator/669e91d71cc29f62563aaabb";  
-  file_name = "Fluid-level-indicator_0.8.5.zip"; 
-  sha1 = "e979c2512119b5a172cd6a913851db0b879a16b2"; 
-  version = "0.8.5"; 
+  url = "https://mods.factorio.com/download/Fluid-level-indicator/66c1e699eff3344ddb687b63";  
+  file_name = "Fluid-level-indicator_0.8.6.zip"; 
+  sha1 = "d26dcdd01cac681077a0a25f0f06ca0e6dd95579"; 
+  version = "0.8.6"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -18015,10 +18015,10 @@
 
 "IndustrialRevolution_Language_Pack" = factorioMod {
   pname = "IndustrialRevolution_Language_Pack"; 
-  url = "https://mods.factorio.com/download/IndustrialRevolution_Language_Pack/66a8fa2d669f41f5c93770d0";  
-  file_name = "IndustrialRevolution_Language_Pack_3.1.21.zip"; 
-  sha1 = "53dc15ca37c16a11b5249fab9ed88a850f746dc9"; 
-  version = "3.1.21"; 
+  url = "https://mods.factorio.com/download/IndustrialRevolution_Language_Pack/66c137dfe852fd59208224a3";  
+  file_name = "IndustrialRevolution_Language_Pack_3.1.22.zip"; 
+  sha1 = "f4302abe1abcf58dfdfd01a30b5f2a4d19a87e0b"; 
+  version = "3.1.22"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "IndustrialRevolution3" "IndustrialRevolution3Airships" "IndustrialRevolution3LoadersStacking" "IndustrialRevolution3SpaceMining" "IndustrialRevolution3Inspiration" ];
  }; 
@@ -18719,6 +18719,16 @@
   file_name = "Invisible-Character_0.1.0.zip"; 
   sha1 = "3f359a1dd9e1bba16e1d05206abfa03b421cc474"; 
   version = "0.1.0"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
+"Invulnerable-Belts" = factorioMod {
+  pname = "Invulnerable-Belts"; 
+  url = "https://mods.factorio.com/download/Invulnerable-Belts/66c20efb396e380cd3aec81b";  
+  file_name = "Invulnerable-Belts_1.0.0.zip"; 
+  sha1 = "ee6d3f4ffd6aecaee11d1a1c14268cab3bebc24d"; 
+  version = "1.0.0"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -19945,12 +19955,12 @@
 
 "Kr2-AdvancedMatterProcessing" = factorioMod {
   pname = "Kr2-AdvancedMatterProcessing"; 
-  url = "https://mods.factorio.com/download/Kr2-AdvancedMatterProcessing/66bb276f7c56f7f318dcbadf";  
-  file_name = "Kr2-AdvancedMatterProcessing_1.0.0.zip"; 
-  sha1 = "7472d7e04bb76304fda529fea4d10a8c5577fba1"; 
-  version = "1.0.0"; 
+  url = "https://mods.factorio.com/download/Kr2-AdvancedMatterProcessing/66c1fcdabb6a942b3660bc14";  
+  file_name = "Kr2-AdvancedMatterProcessing_1.0.2.zip"; 
+  sha1 = "ca5dfd317a6a33f8f1642d7d3c0a3df7752f995e"; 
+  version = "1.0.2"; 
   deps = filterMissing self [ "Krastorio2" "space-exploration" ];
-  optionalDeps = [  ];
+  optionalDeps = [ "aai-industry" ];
  }; 
 
 "KraSpace" = factorioMod {
@@ -21005,10 +21015,10 @@
 
 "LTN_Language_Pack" = factorioMod {
   pname = "LTN_Language_Pack"; 
-  url = "https://mods.factorio.com/download/LTN_Language_Pack/6588bfe4ca6c89e0ce90ade0";  
-  file_name = "LTN_Language_Pack_1.11.10.zip"; 
-  sha1 = "89c8a620fb38f6180895fbbf022fc0dab1268ba2"; 
-  version = "1.11.10"; 
+  url = "https://mods.factorio.com/download/LTN_Language_Pack/66c13950712481cb92815150";  
+  file_name = "LTN_Language_Pack_1.11.11.zip"; 
+  sha1 = "7f378e171a66bd6e8176c32986617e0879c077fd"; 
+  version = "1.11.11"; 
   deps = filterMissing self [ "LogisticTrainNetwork" ];
   optionalDeps = [ "ltn-cleanup" "LTN_Combinator" "LTN_Combinator_Modernized" "LTN_Content_Reader" "LtnManager" "se-ltn-glue" ];
  }; 
@@ -22200,6 +22210,16 @@
   sha1 = "337f34fea5066eb87a95b64b1c1ed91c1517ed5a"; 
   version = "1.8.1"; 
   deps = filterMissing self [ "flib" "UltimateBelts" ];
+  optionalDeps = [  ];
+ }; 
+
+"Localization-crafting_combinator" = factorioMod {
+  pname = "Localization-crafting_combinator"; 
+  url = "https://mods.factorio.com/download/Localization-crafting_combinator/66c19e4528c5e55533e017d2";  
+  file_name = "Localization-crafting_combinator_0.0.2.zip"; 
+  sha1 = "1dcdf280e899da03158ec26602230af9e7f5800e"; 
+  version = "0.0.2"; 
+  deps = filterMissing self [ "crafting_combinator_xeraph" ];
   optionalDeps = [  ];
  }; 
 
@@ -28135,10 +28155,10 @@
 
 "PHI-CL" = factorioMod {
   pname = "PHI-CL"; 
-  url = "https://mods.factorio.com/download/PHI-CL/66be33016bb25c229101a3fc";  
-  file_name = "PHI-CL_2.0.19.zip"; 
-  sha1 = "3773d0c67fdb3d12fa51e677dc14f3abe4fcf52e"; 
-  version = "2.0.19"; 
+  url = "https://mods.factorio.com/download/PHI-CL/66c0eab4ecf9046156f26a52";  
+  file_name = "PHI-CL_2.0.20.zip"; 
+  sha1 = "06939e76152983eec79c125da1ce114ac12a25e0"; 
+  version = "2.0.20"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "aai-industry" "big-mining-drill" "Krastorio2" "space-exploration" "angelsrefining" "exotic-industries" "Atomic_Overhaul" ];
  }; 
@@ -28245,10 +28265,10 @@
 
 "PI-house-made-music" = factorioMod {
   pname = "PI-house-made-music"; 
-  url = "https://mods.factorio.com/download/PI-house-made-music/66bc04990a20b6f01c13fc0e";  
-  file_name = "PI-house-made-music_0.0.17.zip"; 
-  sha1 = "d6cbca26769defb11671d7c979b93e646d30b213"; 
-  version = "0.0.17"; 
+  url = "https://mods.factorio.com/download/PI-house-made-music/66c14b4d9c37472bd57fcfd3";  
+  file_name = "PI-house-made-music_0.0.18.zip"; 
+  sha1 = "a39612702ac4ca2c8f67bcf09ad9c0c3922e8c0e"; 
+  version = "0.0.18"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -33425,10 +33445,10 @@
 
 "SE-Gauss-Module" = factorioMod {
   pname = "SE-Gauss-Module"; 
-  url = "https://mods.factorio.com/download/SE-Gauss-Module/66bf5f22df2bbac71221010e";  
-  file_name = "SE-Gauss-Module_1.0.4.zip"; 
-  sha1 = "8f97a9a77a0461e38f6fb3e3cc3a77fa3fec84b9"; 
-  version = "1.0.4"; 
+  url = "https://mods.factorio.com/download/SE-Gauss-Module/66c1f435bb6a942b3660bc13";  
+  file_name = "SE-Gauss-Module_1.0.7.zip"; 
+  sha1 = "96b79cae9ad5a9e465f861c01709faae428301a1"; 
+  version = "1.0.7"; 
   deps = filterMissing self [ "space-exploration" ];
   optionalDeps = [  ];
  }; 
@@ -42475,10 +42495,10 @@
 
 "Warptorio2_Language_Pack" = factorioMod {
   pname = "Warptorio2_Language_Pack"; 
-  url = "https://mods.factorio.com/download/Warptorio2_Language_Pack/66af61550583752887a06fd9";  
-  file_name = "Warptorio2_Language_Pack_1.3.8.zip"; 
-  sha1 = "0886e09c8fcc0480f56925c45c4a12a1d990b722"; 
-  version = "1.3.8"; 
+  url = "https://mods.factorio.com/download/Warptorio2_Language_Pack/66c135ff712481cb9281514f";  
+  file_name = "Warptorio2_Language_Pack_1.3.9.zip"; 
+  sha1 = "919f96dd3bd80827f53b409d8f8bdae5416871cf"; 
+  version = "1.3.9"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "Mining-Space-Industries-II" "Rocket-Silo-Construction" "warptorio2" "warptorio2_expansion" "planetorio_expansion_planets" "Warp-Drive-Machine" "warptorio2_lootchest_locator" "ArmouredBiters" "Cold_biters" "Explosive_biters" "Toxic_biters" "Big-Monsters" "ArachnidsFaction" "Arachnids_enemy" "factorio-crash-site" "Electric-Weapons" ];
  }; 
@@ -45865,10 +45885,10 @@
 
 "alternative-beacons" = factorioMod {
   pname = "alternative-beacons"; 
-  url = "https://mods.factorio.com/download/alternative-beacons/667cd7f8ed1aa9279100a5c3";  
-  file_name = "alternative-beacons_0.6.10.zip"; 
-  sha1 = "8a5e9d461d8cccebe86a561a19476b8823e66b8e"; 
-  version = "0.6.10"; 
+  url = "https://mods.factorio.com/download/alternative-beacons/66c0f0deca3ae013514e613b";  
+  file_name = "alternative-beacons_0.6.11.zip"; 
+  sha1 = "8ff347cad1374727fd8aabf4ded73748d1bda15e"; 
+  version = "0.6.11"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -49995,10 +50015,10 @@
 
 "blueprint-streak-counter" = factorioMod {
   pname = "blueprint-streak-counter"; 
-  url = "https://mods.factorio.com/download/blueprint-streak-counter/66be51e754978b3d68305b60";  
-  file_name = "blueprint-streak-counter_1.1.2.zip"; 
-  sha1 = "cc90e3ae51579c6ac8daa0dc957117df4e0275fd"; 
-  version = "1.1.2"; 
+  url = "https://mods.factorio.com/download/blueprint-streak-counter/66c1e225b5099934a1ae496f";  
+  file_name = "blueprint-streak-counter_1.1.3.zip"; 
+  sha1 = "6064317c795bab342cf0f98c5b357c9d00f10cb8"; 
+  version = "1.1.3"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -54793,6 +54813,16 @@
   optionalDeps = [  ];
  }; 
 
+"digital-god-module" = factorioMod {
+  pname = "digital-god-module"; 
+  url = "https://mods.factorio.com/download/digital-god-module/66c19127396e380cd3aec80e";  
+  file_name = "digital-god-module_0.1.0.zip"; 
+  sha1 = "3032cbd2c9f615437b258622a574466fbc526db6"; 
+  version = "0.1.0"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
 "digital-storage" = factorioMod {
   pname = "digital-storage"; 
   url = "https://mods.factorio.com/download/digital-storage/644512951033d2c1f4a3a295";  
@@ -55861,6 +55891,16 @@
   version = "0.19.0"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "aai-vehicles-chaingunner" "aai-vehicles-flame-tank" "aai-vehicles-flame-tumbler" "aai-vehicles-hauler" "aai-vehicles-laser-tank" "aai-vehicles-miner" "aai-vehicles-warden" "angelsindustries" "angelsrefining" "angelspetrochem" "bobvehicleequipment" "bobwarfare" "cargo-ships" "Realistic_Electric_Trains" "Surfaces_Reloaded" "Krastorio2" "angelsaddons-mobility" ];
+ }; 
+
+"ei-sane-concrete" = factorioMod {
+  pname = "ei-sane-concrete"; 
+  url = "https://mods.factorio.com/download/ei-sane-concrete/66c11024b598f8257cb1225a";  
+  file_name = "ei-sane-concrete_0.1.0.zip"; 
+  sha1 = "69edf543c28424ce2b5f501499ad02af366cd052"; 
+  version = "0.1.0"; 
+  deps = filterMissing self [ "exotic-industries" ];
+  optionalDeps = [  ];
  }; 
 
 "ei-tanks-se-compat" = factorioMod {
@@ -57255,10 +57295,10 @@
 
 "expansion-reminder" = factorioMod {
   pname = "expansion-reminder"; 
-  url = "https://mods.factorio.com/download/expansion-reminder/66c065b1f890ea9bd2ad1cbf";  
-  file_name = "expansion-reminder_1.1.1.zip"; 
-  sha1 = "c8a8bdaffe4cd6390b42bd9b871730660ce0add7"; 
-  version = "1.1.1"; 
+  url = "https://mods.factorio.com/download/expansion-reminder/66c1f6b828c5e55533e017d9";  
+  file_name = "expansion-reminder_1.1.2.zip"; 
+  sha1 = "7b6125f5a2ac7e81698d0906494949059debe3bd"; 
+  version = "1.1.2"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -63065,10 +63105,10 @@
 
 "infinite_worker_robot_capacity_research" = factorioMod {
   pname = "infinite_worker_robot_capacity_research"; 
-  url = "https://mods.factorio.com/download/infinite_worker_robot_capacity_research/66aa2eb4ac010f45e44be20c";  
-  file_name = "infinite_worker_robot_capacity_research_1.1.0.zip"; 
-  sha1 = "ca8606f972a099336afed32e1ac990563418a72f"; 
-  version = "1.1.0"; 
+  url = "https://mods.factorio.com/download/infinite_worker_robot_capacity_research/66c0caa96db32b0eb9eb3491";  
+  file_name = "infinite_worker_robot_capacity_research_1.1.1.zip"; 
+  sha1 = "ce2b5783ac9eeb8edd539e70b7d499f4cd001651"; 
+  version = "1.1.1"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -68125,10 +68165,10 @@
 
 "map-tag-gps" = factorioMod {
   pname = "map-tag-gps"; 
-  url = "https://mods.factorio.com/download/map-tag-gps/66bd17eb784e599698dff48b";  
-  file_name = "map-tag-gps_0.2.2.zip"; 
-  sha1 = "4e3851790260be6a4ef212029ad5e738ad152835"; 
-  version = "0.2.2"; 
+  url = "https://mods.factorio.com/download/map-tag-gps/66c1f89b712481cb92815157";  
+  file_name = "map-tag-gps_0.3.1.zip"; 
+  sha1 = "d098a1c721e2fcb058d4a2c11c68e136f51852c1"; 
+  version = "0.3.1"; 
   deps = filterMissing self [ "arrowlib" ];
   optionalDeps = [  ];
  }; 
@@ -69695,10 +69735,10 @@
 
 "modular-beacon-power" = factorioMod {
   pname = "modular-beacon-power"; 
-  url = "https://mods.factorio.com/download/modular-beacon-power/669be35557f5962b53bcf3a4";  
-  file_name = "modular-beacon-power_0.1.2.zip"; 
-  sha1 = "d42c25bd20d5a175f4d3722945d9e9d6249ad4c0"; 
-  version = "0.1.2"; 
+  url = "https://mods.factorio.com/download/modular-beacon-power/66c0f0a8ca3ae013514e613a";  
+  file_name = "modular-beacon-power_0.1.3.zip"; 
+  sha1 = "47d0f27765469ae6524de5e8951d91f3cd4ef397"; 
+  version = "0.1.3"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -77025,10 +77065,10 @@
 
 "redmew-data" = factorioMod {
   pname = "redmew-data"; 
-  url = "https://mods.factorio.com/download/redmew-data/66bf890a3a3005088890cfd9";  
-  file_name = "redmew-data_0.4.1.zip"; 
-  sha1 = "52ac8cc33c427fc1fe442973dadd7fd94796182a"; 
-  version = "0.4.1"; 
+  url = "https://mods.factorio.com/download/redmew-data/66c1986c28c5e55533e017d1";  
+  file_name = "redmew-data_0.4.2.zip"; 
+  sha1 = "cd9af5177d6850d8daa92159c8a1d3cb203d9780"; 
+  version = "0.4.2"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "bzcarbon" "bzgold" "bztitanium" "bztungsten" "deadlock-beltboxes-loaders" "exotic-industries" "IndustrialRevolution3" "Krastorio2" "omnimatter_compression" "omnimatter" "pypostprocessing" "reverse-factory" "zombiesextended-core" ];
  }; 
@@ -77690,6 +77730,16 @@
   sha1 = "2ff87a1f3eb90da0236ae00927d6ccf900910dc6"; 
   version = "0.0.1"; 
   deps = filterMissing self [ "stdlib" ];
+  optionalDeps = [  ];
+ }; 
+
+"revert-loader-change" = factorioMod {
+  pname = "revert-loader-change"; 
+  url = "https://mods.factorio.com/download/revert-loader-change/66c119382173fb37f9b7ec2d";  
+  file_name = "revert-loader-change_0.1.1.zip"; 
+  sha1 = "275820d790404e391af72a2f1351826f77cec058"; 
+  version = "0.1.1"; 
+  deps = filterMissing self [ "space-exploration" ];
   optionalDeps = [  ];
  }; 
 
@@ -78925,10 +78975,10 @@
 
 "ryu-transportation" = factorioMod {
   pname = "ryu-transportation"; 
-  url = "https://mods.factorio.com/download/ryu-transportation/65a4e5e615501fd378da6e84";  
-  file_name = "ryu-transportation_0.1.4.zip"; 
-  sha1 = "91d80d67b8e11176e6a0eb108a1e1972f36a12da"; 
-  version = "0.1.4"; 
+  url = "https://mods.factorio.com/download/ryu-transportation/66c1e0ac36fd54590dba5f5b";  
+  file_name = "ryu-transportation_0.1.5.zip"; 
+  sha1 = "8612f317f72433355595cb38fb83b1809f66628f"; 
+  version = "0.1.5"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -80805,12 +80855,12 @@
 
 "serotonin-overhaul" = factorioMod {
   pname = "serotonin-overhaul"; 
-  url = "https://mods.factorio.com/download/serotonin-overhaul/66c0bdd86db32b0eb9eb3490";  
-  file_name = "serotonin-overhaul_0.0.8.zip"; 
-  sha1 = "b87152b7aff7422976e14969f950c05e9b34e9f6"; 
-  version = "0.0.8"; 
-  deps = filterMissing self [ "microplasticsfromfish" "woodcircuitrecipe" "burnerinserterrestrainingorder" ];
-  optionalDeps = [ "everythingrequiresmaintenance" ];
+  url = "https://mods.factorio.com/download/serotonin-overhaul/66c20608bb6a942b3660bc15";  
+  file_name = "serotonin-overhaul_0.0.9.zip"; 
+  sha1 = "3d764f3a1e45011f59af7f87d0c9276c7538887f"; 
+  version = "0.0.9"; 
+  deps = filterMissing self [ "microplasticsfromfish" "woodcircuitrecipe" ];
+  optionalDeps = [ "everythingrequiresmaintenance" "burnerinserterrestrainingorder" ];
  }; 
 
 "server-mod-shrinker" = factorioMod {
@@ -81855,21 +81905,31 @@
 
 "skys-infinite-modules" = factorioMod {
   pname = "skys-infinite-modules"; 
-  url = "https://mods.factorio.com/download/skys-infinite-modules/66636598d2224ac4c09b1df1";  
-  file_name = "skys-infinite-modules_1.1.1.zip"; 
-  sha1 = "69fab6e3182c01aab094ec12ebbe18dcec4f39ff"; 
-  version = "1.1.1"; 
-  deps = filterMissing self [  ];
+  url = "https://mods.factorio.com/download/skys-infinite-modules/66c1ef4be852fd59208224c4";  
+  file_name = "skys-infinite-modules_1.2.0.zip"; 
+  sha1 = "d72d454568385fa491b65fdf418d51bc8fc90615"; 
+  version = "1.2.0"; 
+  deps = filterMissing self [ "skys-lib" ];
   optionalDeps = [  ];
  }; 
 
 "skys-infinite-spidertrons" = factorioMod {
   pname = "skys-infinite-spidertrons"; 
-  url = "https://mods.factorio.com/download/skys-infinite-spidertrons/66631acb177e5b7d94711af2";  
-  file_name = "skys-infinite-spidertrons_1.0.2.zip"; 
-  sha1 = "3f16a53e08822ae526b87b23c0cb99ff92917156"; 
-  version = "1.0.2"; 
-  deps = filterMissing self [  ];
+  url = "https://mods.factorio.com/download/skys-infinite-spidertrons/66c1ee4aeff3344ddb687b64";  
+  file_name = "skys-infinite-spidertrons_1.0.3.zip"; 
+  sha1 = "ae30d41955e76aa978c58a2aed5abc7720d71e30"; 
+  version = "1.0.3"; 
+  deps = filterMissing self [ "skys-lib" ];
+  optionalDeps = [  ];
+ }; 
+
+"skys-lib" = factorioMod {
+  pname = "skys-lib"; 
+  url = "https://mods.factorio.com/download/skys-lib/66c1edfbe852fd59208224c1";  
+  file_name = "skys-lib_1.2.0.zip"; 
+  sha1 = "ddf6394581b037d2bf9cf42cddc01861a64cad44"; 
+  version = "1.2.0"; 
+  deps = filterMissing self [ "flib" ];
   optionalDeps = [  ];
  }; 
 
@@ -83475,10 +83535,10 @@
 
 "spaghettorio" = factorioMod {
   pname = "spaghettorio"; 
-  url = "https://mods.factorio.com/download/spaghettorio/66c036a8f890ea9bd2ad1cba";  
-  file_name = "spaghettorio_1.0.1.zip"; 
-  sha1 = "706ab8cd52c2bb28ee6c2d3930b8c5b548f79ea8"; 
-  version = "1.0.1"; 
+  url = "https://mods.factorio.com/download/spaghettorio/66c1dc2eb5099934a1ae496e";  
+  file_name = "spaghettorio_1.0.2.zip"; 
+  sha1 = "b481ab284011ce2db696a4ea5b7fa7cfa4a569aa"; 
+  version = "1.0.2"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
