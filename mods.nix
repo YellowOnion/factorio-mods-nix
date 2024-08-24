@@ -9365,12 +9365,12 @@
 
 "Ctyann_Modpack" = factorioMod {
   pname = "Ctyann_Modpack"; 
-  url = "https://mods.factorio.com/download/Ctyann_Modpack/66ae48b6d6ffc84afadf1537";  
-  file_name = "Ctyann_Modpack_1.0.0.zip"; 
-  sha1 = "17e6c73e417d01da6057c19d360d6504f1db91bf"; 
-  version = "1.0.0"; 
+  url = "https://mods.factorio.com/download/Ctyann_Modpack/66c93c5df43e78bbfea8b426";  
+  file_name = "Ctyann_Modpack_1.0.1.zip"; 
+  sha1 = "56b705d20f7eb68797431dba54a59cfa9c7e1e26"; 
+  version = "1.0.1"; 
   deps = filterMissing self [  ];
-  optionalDeps = [ "Any_Japanise_Pack" "FactorySearch" "Fill4Me" "FNEI" "RPGsystem" "PipeVisualizer" "TjCuteBiters" "BottleneckLite" "deep-storage-unit" "fluid-memory-storage" "WideChests" "bobinserters" ];
+  optionalDeps = [ "Any_Japanise_Pack" "FactorySearch" "Fill4Me" "FNEI" "RPGsystem" "PipeVisualizer" "TjCuteBiters" "BottleneckLite" "deep-storage-unit" "fluid-memory-storage" "WideChests" "bobinserters" "tree_collision" "ThickerLines" ];
  }; 
 
 "CubeLegendTeams" = factorioMod {
@@ -20595,10 +20595,10 @@
 
 "KuGua33PersonalModification" = factorioMod {
   pname = "KuGua33PersonalModification"; 
-  url = "https://mods.factorio.com/download/KuGua33PersonalModification/66bb43b59640303a0d1d2843";  
-  file_name = "KuGua33PersonalModification_1.0.25.zip"; 
-  sha1 = "56b4e209cc31c326c2be0b9b65532f2a11ab08b2"; 
-  version = "1.0.25"; 
+  url = "https://mods.factorio.com/download/KuGua33PersonalModification/66c90d2ca10a8df421fb3475";  
+  file_name = "KuGua33PersonalModification_1.0.27.zip"; 
+  sha1 = "ea71d2ad6b3129db5870a1902f91d1f5e7c7b925"; 
+  version = "1.0.27"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "LinkedChestAndPipe" "Big-Monsters" "Advanced_Sky_Modules" "Krastorio2" "RealisticFusionPower" "RealisticFusionWeaponry" "KuGua33Mod3" "space-exploration" ];
  }; 
@@ -22095,10 +22095,10 @@
 
 "LinkedChestAndPipe" = factorioMod {
   pname = "LinkedChestAndPipe"; 
-  url = "https://mods.factorio.com/download/LinkedChestAndPipe/66a5b96c8118f885d2c8d9d4";  
-  file_name = "LinkedChestAndPipe_1.0.91.zip"; 
-  sha1 = "3ea8690d736a209ebb0ceb656ccd45b4f1425531"; 
-  version = "1.0.91"; 
+  url = "https://mods.factorio.com/download/LinkedChestAndPipe/66c96c5621e6e77a1fcbbe68";  
+  file_name = "LinkedChestAndPipe_1.0.92.zip"; 
+  sha1 = "d6f5149f0e7fd89c21094aa1ba51ef9839aa3cb7"; 
+  version = "1.0.92"; 
   deps = filterMissing self [  ];
   optionalDeps = [ "Squeak Through" "Smart_Inserters" "Flow Control" "space-exploration" ];
  }; 
@@ -30855,10 +30855,10 @@
 
 "RPG" = factorioMod {
   pname = "RPG"; 
-  url = "https://mods.factorio.com/download/RPG/651dc72eb4371050268f8006";  
-  file_name = "RPG_1.0.17.zip"; 
-  sha1 = "c752fc62ff5564cb1c32057786a67c1d52080b0b"; 
-  version = "1.0.17"; 
+  url = "https://mods.factorio.com/download/RPG/66c8d91832f404d3acb735c1";  
+  file_name = "RPG_1.0.18.zip"; 
+  sha1 = "e27036b4e8fa527caf62cfa70e6531e5f2bd0e8a"; 
+  version = "1.0.18"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -37345,10 +37345,10 @@
 
 "Spiderissmo" = factorioMod {
   pname = "Spiderissmo"; 
-  url = "https://mods.factorio.com/download/Spiderissmo/649b33e73ae07eab43b03d60";  
-  file_name = "Spiderissmo_1.0.7.zip"; 
-  sha1 = "e44a3e3fed4e30a854b7f1d38790f0369c6fb2d3"; 
-  version = "1.0.7"; 
+  url = "https://mods.factorio.com/download/Spiderissmo/66c8dce4a10a8df421fb3474";  
+  file_name = "Spiderissmo_1.0.8.zip"; 
+  sha1 = "bd7dc0f43bbc569387aab7610aac0faf2be7dac8"; 
+  version = "1.0.8"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -43525,10 +43525,10 @@
 
 "WoodProcessing" = factorioMod {
   pname = "WoodProcessing"; 
-  url = "https://mods.factorio.com/download/WoodProcessing/66bb46e27c56f7f318dcbae2";  
-  file_name = "WoodProcessing_1.2.20.zip"; 
-  sha1 = "6aca7047e25a543ecad895545d6ad13c54de87f8"; 
-  version = "1.2.20"; 
+  url = "https://mods.factorio.com/download/WoodProcessing/66c8d3f45eea890f9edfa34b";  
+  file_name = "WoodProcessing_1.2.22.zip"; 
+  sha1 = "fdbba8f93956e64714d2f88efb6d7dd2c065ac8a"; 
+  version = "1.2.22"; 
   deps = filterMissing self [ "IndustrialRevolution3" ];
   optionalDeps = [  ];
  }; 
@@ -49085,10 +49085,10 @@
 
 "better-chat" = factorioMod {
   pname = "better-chat"; 
-  url = "https://mods.factorio.com/download/better-chat/66a3e1a2e3bb28852d71addf";  
-  file_name = "better-chat_0.3.2.zip"; 
-  sha1 = "cfe249d90357a834a22ff3c7660f0d016936a475"; 
-  version = "0.3.2"; 
+  url = "https://mods.factorio.com/download/better-chat/66c906f2de40b8349d7ed9a4";  
+  file_name = "better-chat_0.3.3.zip"; 
+  sha1 = "162286cb08bee8e2d50ef7cb5d3fdfb1f586ac09"; 
+  version = "0.3.3"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -53275,10 +53275,10 @@
 
 "compilatrons-error" = factorioMod {
   pname = "compilatrons-error"; 
-  url = "https://mods.factorio.com/download/compilatrons-error/66be2c429ac2008167ae15c8";  
-  file_name = "compilatrons-error_1.1.2.zip"; 
-  sha1 = "316d6f6466ba0dba1d3f4f5f39d429f7f8fb18d4"; 
-  version = "1.1.2"; 
+  url = "https://mods.factorio.com/download/compilatrons-error/66c8d8d0e5461709f06adfb6";  
+  file_name = "compilatrons-error_1.1.3.zip"; 
+  sha1 = "61d51813220642c254b5420150a92f485fc7d959"; 
+  version = "1.1.3"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -54415,11 +54415,11 @@
 
 "darcy_suite" = factorioMod {
   pname = "darcy_suite"; 
-  url = "https://mods.factorio.com/download/darcy_suite/66c5d3ddcd7002567e041059";  
-  file_name = "darcy_suite_1.0.3.zip"; 
-  sha1 = "999d06333b678079094fba4279e5176fa91cad30"; 
-  version = "1.0.3"; 
-  deps = filterMissing self [ "always_day" "disassemble_buildings" "far_reach" "fast_respawn" "infinite_inventory" "instant_build" "instant_craft" "instant_research" "no_clip" "pump_anywhere" "simple_repair" "tinted_ghosts" ];
+  url = "https://mods.factorio.com/download/darcy_suite/66c9e766f43e78bbfea8b42d";  
+  file_name = "darcy_suite_1.0.4.zip"; 
+  sha1 = "32807a01a6e6f24e5c03001dccebc58cf13f6de2"; 
+  version = "1.0.4"; 
+  deps = filterMissing self [ "always_day" "far_reach" "fast_respawn" "infinite_inventory" "instant_build" "instant_craft" "instant_research" "no_clip" "pump_anywhere" "simple_repair" "tinted_ghosts" ];
   optionalDeps = [  ];
  }; 
 
@@ -59455,10 +59455,10 @@
 
 "fish_breeding" = factorioMod {
   pname = "fish_breeding"; 
-  url = "https://mods.factorio.com/download/fish_breeding/66c253e49c37472bd57fcfe7";  
-  file_name = "fish_breeding_0.5.0.zip"; 
-  sha1 = "b78e8992a4a20f6978f914e87ccaf64809b708e6"; 
-  version = "0.5.0"; 
+  url = "https://mods.factorio.com/download/fish_breeding/66c9a1b9a345bef490c140e1";  
+  file_name = "fish_breeding_0.6.0.zip"; 
+  sha1 = "fba4f7813f606ea8c872d636eb772184143c30c9"; 
+  version = "0.6.0"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -63705,10 +63705,10 @@
 
 "instant_build" = factorioMod {
   pname = "instant_build"; 
-  url = "https://mods.factorio.com/download/instant_build/66c53412430e22ea8eef4817";  
-  file_name = "instant_build_1.0.0.zip"; 
-  sha1 = "de94dd5366a16277807bc6e7ebff1bb4d2b7bcf5"; 
-  version = "1.0.0"; 
+  url = "https://mods.factorio.com/download/instant_build/66c9e9ddf43e78bbfea8b42e";  
+  file_name = "instant_build_1.1.1.zip"; 
+  sha1 = "73271095bd0c224c38a9c445b6b166b22ac6b8b7"; 
+  version = "1.1.1"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -67695,10 +67695,10 @@
 
 "logistic-request-helper" = factorioMod {
   pname = "logistic-request-helper"; 
-  url = "https://mods.factorio.com/download/logistic-request-helper/66c879ef501d0fdc5c0f155b";  
-  file_name = "logistic-request-helper_0.1.0.zip"; 
-  sha1 = "bb142352e703810a31139a36185f8c10c0136d02"; 
-  version = "0.1.0"; 
+  url = "https://mods.factorio.com/download/logistic-request-helper/66c9dac8a345bef490c140e4";  
+  file_name = "logistic-request-helper_0.1.1.zip"; 
+  sha1 = "86ee28647dd9da82c29a2d06454f7ab0affd93ca"; 
+  version = "0.1.1"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
@@ -76115,10 +76115,10 @@
 
 "pypostprocessing" = factorioMod {
   pname = "pypostprocessing"; 
-  url = "https://mods.factorio.com/download/pypostprocessing/66b43e167d5e02d152f51b0d";  
-  file_name = "pypostprocessing_0.2.26.zip"; 
-  sha1 = "65b91d55cce36e33165f19d1e4cd12054301369e"; 
-  version = "0.2.26"; 
+  url = "https://mods.factorio.com/download/pypostprocessing/66c954554a90bb807770de0a";  
+  file_name = "pypostprocessing_0.2.27.zip"; 
+  sha1 = "15806e8ee0d96a4a3d5a1513eda01e3eb66f6a22"; 
+  version = "0.2.27"; 
   deps = filterMissing self [ "stdlib" ];
   optionalDeps = [ "pycoalprocessing" "pyindustry" "pyfusionenergy" "pyhightech" "pyrawores" "pypetroleumhandling" "pyalienlife" "pyalternativeenergy" "PyBlock" "pyhardmode" "pystellarexpedition" "pyaliens" "omnimatter" "omnimatter_water" "omnimatter_wood" "deadlock-beltboxes-loaders" "DeadlockCrating" "deadlock_stacked_recipes" "DeadlocksStackingForPyanadon" "LightedPolesPlus" "jetpack" ];
  }; 
@@ -86969,6 +86969,16 @@
   file_name = "tinyminingdrill_1.1.1.zip"; 
   sha1 = "049babbc25d383da2525da4308391b99e7cafdcc"; 
   version = "1.1.1"; 
+  deps = filterMissing self [  ];
+  optionalDeps = [  ];
+ }; 
+
+"titagear" = factorioMod {
+  pname = "titagear"; 
+  url = "https://mods.factorio.com/download/titagear/66c8e7c051c35125121c380c";  
+  file_name = "titagear_0.0.1.zip"; 
+  sha1 = "87829c8f5c4dfbbfdd2837cb00a496bcabb7aa03"; 
+  version = "0.0.1"; 
   deps = filterMissing self [  ];
   optionalDeps = [  ];
  }; 
